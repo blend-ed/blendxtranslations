@@ -1,0 +1,2936 @@
+# edX translation file.
+# Copyright (C) 2025 EdX
+# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+# EdX Team <info@edx.org>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1a\n"
+"Report-Msgid-Bugs-To: Blend-ed Language Team <dev@blend-ed.com>\n"
+"POT-Creation-Date: 2023-06-13 08:00+0000\n"
+"PO-Revision-Date: 2023-06-13 09:00+0000\n"
+"Last-Translator: Zameel Hassan <zameel@blend-ed.com>\n"
+"Language-Team: Blend-ed Language Team <dev@blend-ed.com>\n"
+"Language: pa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: consent/admin/__init__.py:99
+msgid ""
+"Preview the data sharing consent page rendered in the context of a course "
+"enrollment."
+msgstr ""
+"ਕੋਰਸ ਦਾਖਲੇ ਦੇ ਸੰਦਰਭ ਵਿੱਚ ਪੇਸ਼ ਕੀਤੇ ਗਏ ਡੇਟਾ ਸਾਂਝਾਕਰਨ ਸਹਿਮਤੀ ਪੰਨੇ ਦਾ ਪੂਰਵਦਰਸ਼ਨ"
+" ਕਰੋ।"
+
+#: consent/admin/__init__.py:110
+msgid ""
+"Preview the data sharing consent page rendered in the context of a program "
+"enrollment."
+msgstr ""
+"ਪ੍ਰੋਗਰਾਮ ਨਾਮਾਂਕਣ ਦੇ ਸੰਦਰਭ ਵਿੱਚ ਪੇਸ਼ ਕੀਤੇ ਗਏ ਡੇਟਾ ਸਾਂਝਾਕਰਨ ਸਹਿਮਤੀ ਪੰਨੇ ਦਾ "
+"ਪੂਰਵਦਰਸ਼ਨ ਕਰੋ।"
+
+#: consent/admin/__init__.py:119 enterprise/admin/__init__.py:721
+msgid "Preview (course)"
+msgstr "ਪੂਰਵਦਰਸ਼ਨ (ਕੋਰਸ)"
+
+#: consent/admin/__init__.py:120 enterprise/admin/__init__.py:734
+msgid "Preview (program)"
+msgstr "ਪੂਰਵਦਰਸ਼ਨ (ਪ੍ਰੋਗਰਾਮ)"
+
+#: consent/models.py:213
+msgid "Name of the user whose consent state is stored."
+msgstr "ਉਸ ਵਰਤੋਂਕਾਰ ਦਾ ਨਾਮ ਜਿਸਦੀ ਸਹਿਮਤੀ ਸਥਿਤੀ ਸਟੋਰ ਕੀਤੀ ਗਈ ਹੈ।"
+
+#: consent/models.py:215
+msgid "Whether consent is granted."
+msgstr "ਕੀ ਸਹਿਮਤੀ ਦਿੱਤੀ ਜਾਂਦੀ ਹੈ।"
+
+#: consent/models.py:243
+msgid "Data Sharing Consent Record"
+msgstr "ਡਾਟਾ ਸਾਂਝਾਕਰਨ ਸਹਿਮਤੀ ਰਿਕਾਰਡ"
+
+#: consent/models.py:244
+msgid "Data Sharing Consent Records"
+msgstr "ਡਾਟਾ ਸਾਂਝਾਕਰਨ ਸਹਿਮਤੀ ਰਿਕਾਰਡ"
+
+#: consent/models.py:252
+msgid "Course key for which data sharing consent is granted."
+msgstr "ਕੋਰਸ ਕੁੰਜੀ ਜਿਸ ਲਈ ਡੇਟਾ ਸਾਂਝਾ ਕਰਨ ਦੀ ਸਹਿਮਤੀ ਦਿੱਤੀ ਜਾਂਦੀ ਹੈ।"
+
+#: consent/models.py:266
+msgid "Data sharing consent text overrides"
+msgstr "ਡਾਟਾ ਸਾਂਝਾਕਰਨ ਸਹਿਮਤੀ ਲਿਖਤ ਓਵਰਰਾਈਡ ਕਰਦੀ ਹੈ"
+
+#: consent/models.py:269
+msgid ""
+"Fill in a text for first paragraph of page. The following variables may be "
+"available:<br /><ul><li>enterprise_customer_name: A name of enterprise "
+"customer.</li><li>platform_name: Name of platform.</li><li>item: A string "
+"which is \"course\" or \"program\" depending on the type of "
+"consent.</li><li>course_title: Title of course. Available when type of "
+"consent is course.</li><li>course_start_date: Course start date. Available "
+"when type of consent is course.</li></ul>"
+msgstr ""
+"ਪੰਨੇ ਦੇ ਪਹਿਲੇ ਪੈਰੇ ਲਈ ਇੱਕ ਟੈਕਸਟ ਭਰੋ। ਹੇਠ ਲਿਖੇ ਵੇਰੀਏਬਲ ਉਪਲਬਧ ਹੋ ਸਕਦੇ ਹਨ:<br "
+"/><ul><li>enterprise_customer_name: ਐਂਟਰਪ੍ਰਾਈਜ਼ ਗਾਹਕ ਦਾ "
+"ਨਾਮ।</li><li>platform_name: ਪਲੇਟਫਾਰਮ ਦਾ ਨਾਮ।</li><li>ਆਈਟਮ: ਇੱਕ ਸਤਰ ਜੋ ਸਹਿਮਤੀ"
+" ਦੀ ਕਿਸਮ ਦੇ ਅਧਾਰ ਤੇ \"ਕੋਰਸ\" ਜਾਂ \"ਪ੍ਰੋਗਰਾਮ\" ਹੈ।</li><li>course_title: ਕੋਰਸ"
+" ਦਾ ਸਿਰਲੇਖ। ਸਹਿਮਤੀ ਦੀ ਕਿਸਮ ਕੋਰਸ ਹੋਣ 'ਤੇ ਉਪਲਬਧ।</li><li>course_start_date: "
+"ਕੋਰਸ ਸ਼ੁਰੂ ਹੋਣ ਦੀ ਮਿਤੀ। ਸਹਿਮਤੀ ਦੀ ਕਿਸਮ ਕੋਰਸ ਹੋਣ 'ਤੇ ਉਪਲਬਧ।</li></ul>"
+
+#: consent/models.py:279
+msgid ""
+"Fill in a text for policy paragraph at the bottom of page. The following "
+"variables may be available:<br /><ul><li>enterprise_customer_name: A name of"
+" enterprise customer.</li><li>platform_name: Name of platform.</li><li>item:"
+" A string which is \"course\" or \"program\" depending on the type of "
+"consent.</li><li>course_title: Title of course. Available when type of "
+"consent is course.</li><li>course_start_date: Course start date. Available "
+"when type of consent is course.</li></ul>"
+msgstr ""
+"ਪੰਨੇ ਦੇ ਹੇਠਾਂ ਨੀਤੀ ਪੈਰਾਗ੍ਰਾਫ ਲਈ ਇੱਕ ਟੈਕਸਟ ਭਰੋ। ਹੇਠ ਦਿੱਤੇ ਵੇਰੀਏਬਲ ਉਪਲਬਧ ਹੋ "
+"ਸਕਦੇ ਹਨ:<br /><ul><li>enterprise_customer_name: ਐਂਟਰਪ੍ਰਾਈਜ਼ ਗਾਹਕ ਦਾ "
+"ਨਾਮ।</li><li>platform_name: ਪਲੇਟਫਾਰਮ ਦਾ ਨਾਮ।</li><li>ਆਈਟਮ: ਇੱਕ ਸਤਰ ਜੋ ਸਹਿਮਤੀ"
+" ਦੀ ਕਿਸਮ ਦੇ ਅਧਾਰ ਤੇ \"ਕੋਰਸ\" ਜਾਂ \"ਪ੍ਰੋਗਰਾਮ\" ਹੈ।</li><li>course_title: ਕੋਰਸ"
+" ਦਾ ਸਿਰਲੇਖ। ਸਹਿਮਤੀ ਦੀ ਕਿਸਮ ਕੋਰਸ ਹੋਣ 'ਤੇ ਉਪਲਬਧ।</li><li>course_start_date: "
+"ਕੋਰਸ ਸ਼ੁਰੂ ਹੋਣ ਦੀ ਮਿਤੀ। ਸਹਿਮਤੀ ਦੀ ਕਿਸਮ ਕੋਰਸ ਹੋਣ 'ਤੇ ਉਪਲਬਧ।</li></ul>"
+
+#: consent/models.py:289
+msgid ""
+"Fill in a text for left sidebar paragraph. The following variables may be "
+"available:<br /><ul><li>enterprise_customer_name: A name of enterprise "
+"customer.</li><li>platform_name: Name of platform.</li><li>item: A string "
+"which is \"course\" or \"program\" depending on the type of "
+"consent.</li><li>course_title: Title of course. Available when type of "
+"consent is course.</li><li>course_start_date: Course start date. Available "
+"when type of consent is course.</li></ul>"
+msgstr ""
+"ਖੱਬੇ ਸਾਈਡਬਾਰ ਪੈਰਾਗ੍ਰਾਫ ਲਈ ਇੱਕ ਟੈਕਸਟ ਭਰੋ। ਹੇਠ ਦਿੱਤੇ ਵੇਰੀਏਬਲ ਉਪਲਬਧ ਹੋ ਸਕਦੇ "
+"ਹਨ:<br /><ul><li>enterprise_customer_name: ਐਂਟਰਪ੍ਰਾਈਜ਼ ਗਾਹਕ ਦਾ "
+"ਨਾਮ।</li><li>platform_name: ਪਲੇਟਫਾਰਮ ਦਾ ਨਾਮ।</li><li>ਆਈਟਮ: ਇੱਕ ਸਤਰ ਜੋ ਸਹਿਮਤੀ"
+" ਦੀ ਕਿਸਮ ਦੇ ਅਧਾਰ ਤੇ \"ਕੋਰਸ\" ਜਾਂ \"ਪ੍ਰੋਗਰਾਮ\" ਹੈ।</li><li>course_title: ਕੋਰਸ"
+" ਦਾ ਸਿਰਲੇਖ। ਸਹਿਮਤੀ ਦੀ ਕਿਸਮ ਕੋਰਸ ਹੋਣ 'ਤੇ ਉਪਲਬਧ।</li><li>course_start_date: "
+"ਕੋਰਸ ਸ਼ੁਰੂ ਹੋਣ ਦੀ ਮਿਤੀ। ਸਹਿਮਤੀ ਦੀ ਕਿਸਮ ਕੋਰਸ ਹੋਣ 'ਤੇ ਉਪਲਬਧ।</li></ul>"
+
+#: consent/models.py:299
+msgid ""
+"Fill in a text for dialog which appears when user decline to provide "
+"consent. The following variables may be available:<br "
+"/><ul><li>enterprise_customer_name: A name of enterprise "
+"customer.</li><li>item: A string which is \"course\" or \"program\" "
+"depending on the type of consent.</li><li>course_title: Title of course. "
+"Available when type of consent is course.</li><li>course_start_date: Course "
+"start date. Available when type of consent is course.</li></ul>"
+msgstr ""
+"ਜਦੋਂ ਉਪਭੋਗਤਾ ਸਹਿਮਤੀ ਦੇਣ ਤੋਂ ਇਨਕਾਰ ਕਰਦਾ ਹੈ ਤਾਂ ਦਿਖਾਈ ਦੇਣ ਵਾਲੇ ਡਾਇਲਾਗ ਲਈ ਇੱਕ "
+"ਟੈਕਸਟ ਭਰੋ। ਹੇਠ ਲਿਖੇ ਵੇਰੀਏਬਲ ਉਪਲਬਧ ਹੋ ਸਕਦੇ ਹਨ:<br "
+"/><ul><li>enterprise_customer_name: ਐਂਟਰਪ੍ਰਾਈਜ਼ ਗਾਹਕ ਦਾ ਨਾਮ।</li><li>ਆਈਟਮ: "
+"ਇੱਕ ਸਤਰ ਜੋ ਸਹਿਮਤੀ ਦੀ ਕਿਸਮ ਦੇ ਅਧਾਰ ਤੇ \"ਕੋਰਸ\" ਜਾਂ \"ਪ੍ਰੋਗਰਾਮ\" "
+"ਹੈ।</li><li>course_title: ਕੋਰਸ ਦਾ ਸਿਰਲੇਖ। ਸਹਿਮਤੀ ਦੀ ਕਿਸਮ ਕੋਰਸ ਹੋਣ 'ਤੇ "
+"ਉਪਲਬਧ।</li><li>course_start_date: ਕੋਰਸ ਦੀ ਸ਼ੁਰੂਆਤ ਦੀ ਮਿਤੀ। ਸਹਿਮਤੀ ਦੀ ਕਿਸਮ "
+"ਕੋਰਸ ਹੋਣ 'ਤੇ ਉਪਲਬਧ।</li></ul>"
+
+#: consent/models.py:309
+msgid ""
+"Fill in a text for title of the notification which appears on dashboard when"
+" user decline to provide consent. The following variables may be "
+"available:<br /><ul><li>enterprise_customer_name: A name of enterprise "
+"customer.</li><li>course_title: Title of course. Available when type of "
+"consent is course.</li></ul>"
+msgstr ""
+"ਜਦੋਂ ਉਪਭੋਗਤਾ ਸਹਿਮਤੀ ਦੇਣ ਤੋਂ ਇਨਕਾਰ ਕਰਦਾ ਹੈ ਤਾਂ ਡੈਸ਼ਬੋਰਡ 'ਤੇ ਦਿਖਾਈ ਦੇਣ ਵਾਲੀ "
+"ਸੂਚਨਾ ਦੇ ਸਿਰਲੇਖ ਲਈ ਇੱਕ ਟੈਕਸਟ ਭਰੋ। ਹੇਠ ਲਿਖੇ ਵੇਰੀਏਬਲ ਉਪਲਬਧ ਹੋ ਸਕਦੇ ਹਨ:<br "
+"/><ul><li>enterprise_customer_name: ਐਂਟਰਪ੍ਰਾਈਜ਼ ਗਾਹਕ ਦਾ "
+"ਨਾਮ।</li><li>course_title: ਕੋਰਸ ਦਾ ਸਿਰਲੇਖ। ਸਹਿਮਤੀ ਦੀ ਕਿਸਮ ਕੋਰਸ ਹੋਣ 'ਤੇ "
+"ਉਪਲਬਧ।</li></ul>"
+
+#: consent/models.py:318
+msgid ""
+"Fill in a text for message of the notification which appears on dashboard "
+"when user decline to provide consent. The following variables may be "
+"available:<br /><ul><li>enterprise_customer_name: A name of enterprise "
+"customer.</li><li>course_title: Title of course. Available when type of "
+"consent is course.</li></ul>"
+msgstr ""
+"ਜਦੋਂ ਉਪਭੋਗਤਾ ਸਹਿਮਤੀ ਦੇਣ ਤੋਂ ਇਨਕਾਰ ਕਰਦਾ ਹੈ ਤਾਂ ਡੈਸ਼ਬੋਰਡ 'ਤੇ ਦਿਖਾਈ ਦੇਣ ਵਾਲੀ "
+"ਸੂਚਨਾ ਦੇ ਸੁਨੇਹੇ ਲਈ ਇੱਕ ਟੈਕਸਟ ਭਰੋ। ਹੇਠ ਲਿਖੇ ਵੇਰੀਏਬਲ ਉਪਲਬਧ ਹੋ ਸਕਦੇ ਹਨ:<br "
+"/><ul><li>enterprise_customer_name: ਐਂਟਰਪ੍ਰਾਈਜ਼ ਗਾਹਕ ਦਾ "
+"ਨਾਮ।</li><li>course_title: ਕੋਰਸ ਦਾ ਸਿਰਲੇਖ। ਸਹਿਮਤੀ ਦੀ ਕਿਸਮ ਕੋਰਸ ਹੋਣ 'ਤੇ "
+"ਉਪਲਬਧ।</li></ul>"
+
+#: consent/models.py:329
+msgid "Title of page"
+msgstr "ਪੰਨੇ ਦਾ ਸਿਰਲੇਖ"
+
+#: consent/models.py:344
+msgid "Text next to agreement check mark"
+msgstr "ਇਕਰਾਰਨਾਮਾ ਚੈੱਕ ਮਾਰਕ ਦੇ ਅੱਗੇ ਲਿਖਤ"
+
+#: consent/models.py:348
+msgid "Text of agree button"
+msgstr "ਸਹਿਮਤੀ ਵਾਲਾ ਟੈਕਸਟ ਬਟਨ"
+
+#: consent/models.py:352
+msgid "Text of decline link"
+msgstr "ਅਸਵੀਕਾਰ ਲਿੰਕ ਦਾ ਟੈਕਸਟ"
+
+#: consent/models.py:358
+msgid "Text of policy drop down"
+msgstr "ਨੀਤੀ ਦਾ ਟੈਕਸਟ ਡ੍ਰੌਪ ਡਾਊਨ"
+
+#: consent/models.py:367
+msgid ""
+"Heading text of dialog box which appears when user decline to provide "
+"consent"
+msgstr ""
+"ਡਾਇਲਾਗ ਬਾਕਸ ਦਾ ਸਿਰਲੇਖ ਟੈਕਸਟ ਜੋ ਉਦੋਂ ਦਿਖਾਈ ਦਿੰਦਾ ਹੈ ਜਦੋਂ ਉਪਭੋਗਤਾ ਸਹਿਮਤੀ ਦੇਣ "
+"ਤੋਂ ਇਨਕਾਰ ਕਰਦਾ ਹੈ"
+
+#: consent/models.py:374
+msgid "Text of decline button on confirmation dialog box"
+msgstr "ਪੁਸ਼ਟੀਕਰਨ ਡਾਇਲਾਗ ਬਾਕਸ 'ਤੇ ਅਸਵੀਕਾਰ ਬਟਨ ਦਾ ਟੈਕਸਟ"
+
+#: consent/models.py:378
+msgid "Text of abort decline link on confirmation dialog box"
+msgstr "ਪੁਸ਼ਟੀਕਰਨ ਡਾਇਲਾਗ ਬਾਕਸ 'ਤੇ ਅਧੂਰਾ ਛੱਡਣ ਵਾਲੇ ਲਿੰਕ ਦਾ ਟੈਕਸਟ"
+
+#: consent/models.py:393
+msgid "Specifies whether data sharing consent page is published."
+msgstr ""
+"ਇਹ ਦੱਸਦਾ ਹੈ ਕਿ ਡਾਟਾ ਸਾਂਝਾਕਰਨ ਸਹਿਮਤੀ ਪੰਨਾ ਪ੍ਰਕਾਸ਼ਿਤ ਕੀਤਾ ਗਿਆ ਹੈ ਜਾਂ ਨਹੀਂ।"
+
+#: integrated_channels/canvas/models.py:112
+msgid ""
+"Account number to use during api calls. Called account_id in canvas.  "
+"Required to create courses etc."
+msgstr ""
+"ਏਪੀਆਈ ਕਾਲਾਂ ਦੌਰਾਨ ਵਰਤਣ ਲਈ ਖਾਤਾ ਨੰਬਰ। ਕੈਨਵਸ ਵਿੱਚ account_id ਕਿਹਾ ਜਾਂਦਾ ਹੈ। "
+"ਕੋਰਸ ਆਦਿ ਬਣਾਉਣ ਲਈ ਲੋੜੀਂਦਾ ਹੈ।"
+
+#: integrated_channels/canvas/models.py:121
+msgid ""
+"The base URL used for API requests to Canvas, i.e. https://instructure.com."
+msgstr ""
+"ਕੈਨਵਸ ਲਈ API ਬੇਨਤੀਆਂ ਲਈ ਵਰਤਿਆ ਜਾਣ ਵਾਲਾ ਮੂਲ URL, ਜਿਵੇਂ ਕਿ "
+"https://instructure.com।"
+
+#: integrated_channels/canvas/models.py:128
+msgid ""
+"The refresh token provided by Canvas along with the access token request, "
+"used to re-request the access tokens over multiple client sessions."
+msgstr ""
+"ਕੈਨਵਸ ਦੁਆਰਾ ਐਕਸੈਸ ਟੋਕਨ ਬੇਨਤੀ ਦੇ ਨਾਲ ਪ੍ਰਦਾਨ ਕੀਤਾ ਗਿਆ ਰਿਫ੍ਰੈਸ਼ ਟੋਕਨ, ਕਈ ਕਲਾਇੰਟ"
+" ਸੈਸ਼ਨਾਂ ਵਿੱਚ ਐਕਸੈਸ ਟੋਕਨਾਂ ਦੀ ਦੁਬਾਰਾ ਬੇਨਤੀ ਕਰਨ ਲਈ ਵਰਤਿਆ ਜਾਂਦਾ ਹੈ।"
+
+#: integrated_channels/canvas/models.py:135
+#: integrated_channels/integrated_channel/models.py:155
+#: integrated_channels/moodle/models.py:163
+#: integrated_channels/sap_success_factors/models.py:198
+msgid ""
+"The maximum number of data items to transmit to the integrated channel with "
+"each request."
+msgstr ""
+"ਹਰੇਕ ਬੇਨਤੀ ਦੇ ਨਾਲ ਏਕੀਕ੍ਰਿਤ ਚੈਨਲ 'ਤੇ ਭੇਜਣ ਲਈ ਡੇਟਾ ਆਈਟਮਾਂ ਦੀ ਵੱਧ ਤੋਂ ਵੱਧ "
+"ਗਿਣਤੀ।"
+
+#: integrated_channels/canvas/models.py:247
+msgid "The amount of points that the learner scored on the subsection."
+msgstr "ਸਿਖਿਆਰਥੀ ਨੇ ਉਪ-ਭਾਗ ਵਿੱਚ ਪ੍ਰਾਪਤ ਕੀਤੇ ਅੰਕਾਂ ਦੀ ਗਿਣਤੀ।"
+
+#: integrated_channels/canvas/models.py:253
+msgid ""
+"The total amount of points that the learner could score on the subsection."
+msgstr "ਉਪ-ਭਾਗ ਵਿੱਚ ਸਿਖਿਆਰਥੀ ਦੁਆਰਾ ਪ੍ਰਾਪਤ ਕੀਤੇ ਜਾ ਸਕਣ ਵਾਲੇ ਕੁੱਲ ਅੰਕ।"
+
+#: integrated_channels/canvas/models.py:326
+msgid ""
+"Represents the canvas representation of a timestamp: yyyy-mm-dd, which is "
+"always 10 characters. Can be left unset for audit transmissions."
+msgstr ""
+"ਇੱਕ ਟਾਈਮਸਟੈਂਪ ਦੀ ਕੈਨਵਸ ਪ੍ਰਤੀਨਿਧਤਾ ਨੂੰ ਦਰਸਾਉਂਦਾ ਹੈ: yyyy-mm-dd, ਜੋ ਕਿ ਹਮੇਸ਼ਾ "
+"10 ਅੱਖਰ ਹੁੰਦਾ ਹੈ। ਆਡਿਟ ਟ੍ਰਾਂਸਮਿਸ਼ਨ ਲਈ ਸੈੱਟ ਨਾ ਕੀਤੇ ਛੱਡਿਆ ਜਾ ਸਕਦਾ ਹੈ।"
+
+#: integrated_channels/cornerstone/models.py:39
+msgid "The API path for making completion POST requests to Cornerstone."
+msgstr "ਕਾਰਨਰਸਟੋਨ ਨੂੰ POST ਬੇਨਤੀਆਂ ਨੂੰ ਪੂਰਾ ਕਰਨ ਲਈ API ਮਾਰਗ।"
+
+#: integrated_channels/cornerstone/models.py:46
+msgid ""
+"The API path for making OAuth-related POST requests to Cornerstone. This "
+"will be used to gain the OAuth access token which is required for other API "
+"calls."
+msgstr ""
+"Cornerstone ਨੂੰ OAuth-ਸਬੰਧਤ POST ਬੇਨਤੀਆਂ ਕਰਨ ਲਈ API ਮਾਰਗ। ਇਸਦੀ ਵਰਤੋਂ OAuth "
+"ਪਹੁੰਚ ਟੋਕਨ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ ਕੀਤੀ ਜਾਵੇਗੀ ਜੋ ਕਿ ਹੋਰ API ਕਾਲਾਂ ਲਈ ਲੋੜੀਂਦਾ ਹੈ।"
+
+#: integrated_channels/cornerstone/models.py:55
+msgid "Basic auth username for sending user completion status to cornerstone."
+msgstr ""
+"ਉਪਭੋਗਤਾ ਦੇ ਸੰਪੂਰਨਤਾ ਦੀ ਸਥਿਤੀ ਨੂੰ ਕੋਨੇਸਟੋਨ ਤੇ ਭੇਜਣ ਲਈ ਮੂਲ ਪ੍ਰਮਾਣੀਕਰਨ ਉਪਭੋਗਤਾ "
+"ਨਾਮ।"
+
+#: integrated_channels/cornerstone/models.py:61
+msgid "Basic auth password for sending user completion status to cornerstone."
+msgstr ""
+"ਉਪਭੋਗਤਾ ਦੇ ਸੰਪੂਰਨਤਾ ਦੀ ਸਥਿਤੀ ਨੂੰ ਕੋਨੇਸਟੋਨ ਤੇ ਭੇਜਣ ਲਈ ਮੂਲ ਪ੍ਰਮਾਣੀਕਰਨ ਪਾਸਵਰਡ।"
+
+#: integrated_channels/cornerstone/models.py:66
+msgid "Key/value mapping cornerstone subjects to edX subjects list"
+msgstr "edX ਵਿਸ਼ਿਆਂ ਦੀ ਸੂਚੀ ਵਿੱਚ ਮੁੱਖ/ਮੁੱਲ ਮੈਪਿੰਗ ਅਧਾਰ ਪੱਥਰ ਦੇ ਵਿਸ਼ਿਆਂ ਦੀ"
+
+#: integrated_channels/cornerstone/models.py:71
+msgid "List of IETF language tags supported by cornerstone"
+msgstr "ਕੋਨੇਸਟੋਨ ਦੁਆਰਾ ਸਮਰਥਿਤ IETF ਭਾਸ਼ਾ ਟੈਗਾਂ ਦੀ ਸੂਚੀ"
+
+#: integrated_channels/cornerstone/models.py:100
+msgid ""
+"The base URL used for API requests to Cornerstone, i.e. "
+"https://portalName.csod.com"
+msgstr ""
+"ਕਾਰਨਰਸਟੋਨ ਲਈ API ਬੇਨਤੀਆਂ ਲਈ ਵਰਤਿਆ ਜਾਣ ਵਾਲਾ ਮੂਲ URL, ਜਿਵੇਂ ਕਿ "
+"https://portalName.csod.com"
+
+#: integrated_channels/cornerstone/models.py:108
+msgid ""
+"The most current session token provided for authorization to make API calls "
+"to the customer's instance"
+msgstr ""
+"ਗਾਹਕ ਦੇ ਇੰਸਟੈਂਸ ਨੂੰ API ਕਾਲਾਂ ਕਰਨ ਲਈ ਅਧਿਕਾਰ ਲਈ ਪ੍ਰਦਾਨ ਕੀਤਾ ਗਿਆ ਸਭ ਤੋਂ ਮੌਜੂਦਾ"
+" ਸੈਸ਼ਨ ਟੋਕਨ।"
+
+#: integrated_channels/cornerstone/models.py:116
+msgid "Date time when session token was last provided"
+msgstr "ਮਿਤੀ ਸਮਾਂ ਜਦੋਂ ਸੈਸ਼ਨ ਟੋਕਨ ਆਖਰੀ ਵਾਰ ਦਿੱਤਾ ਗਿਆ ਸੀ"
+
+#: integrated_channels/cornerstone/models.py:124
+msgid "If checked, subjects will not be sent to Cornerstone"
+msgstr "ਜੇਕਰ ਜਾਂਚ ਕੀਤੀ ਜਾਂਦੀ ਹੈ, ਤਾਂ ਵਿਸ਼ੇ ਕਾਰਨਰਸਟੋਨ ਨੂੰ ਨਹੀਂ ਭੇਜੇ ਜਾਣਗੇ।"
+
+#: integrated_channels/cornerstone/models.py:311
+msgid "This is the edX course key that is used as a unique identifier."
+msgstr "ਇਹ edX ਕੋਰਸ ਕੁੰਜੀ ਹੈ ਜੋ ਇੱਕ ਵਿਲੱਖਣ ਪਛਾਣਕਰਤਾ ਵਜੋਂ ਵਰਤੀ ਜਾਂਦੀ ਹੈ।"
+
+#: integrated_channels/cornerstone/models.py:318
+msgid "This is the course key that is being sent to our partners."
+msgstr "ਇਹ ਕੋਰਸ ਕੁੰਜੀ ਹੈ ਜੋ ਸਾਡੇ ਭਾਈਵਾਲਾਂ ਨੂੰ ਭੇਜੀ ਜਾ ਰਹੀ ਹੈ।"
+
+#: integrated_channels/integrated_channel/management/commands/__init__.py:67
+msgid ""
+"Transmit data for only this EnterpriseCustomer. Omit this option to transmit"
+" to all EnterpriseCustomers with active integrated channels."
+msgstr ""
+"ਸਿਰਫ਼ ਇਸ ਐਂਟਰਪ੍ਰਾਈਜ਼ ਗਾਹਕ ਲਈ ਡੇਟਾ ਟ੍ਰਾਂਸਮਿਟ ਕਰੋ। ਸਰਗਰਮ ਏਕੀਕ੍ਰਿਤ ਚੈਨਲਾਂ ਵਾਲੇ "
+"ਸਾਰੇ ਐਂਟਰਪ੍ਰਾਈਜ਼ ਗਾਹਕਾਂ ਨੂੰ ਟ੍ਰਾਂਸਮਿਟ ਕਰਨ ਲਈ ਇਸ ਵਿਕਲਪ ਨੂੰ ਛੱਡ ਦਿਓ।"
+
+#: integrated_channels/integrated_channel/management/commands/__init__.py:75
+msgid ""
+"Transmit data to this IntegrateChannel. Omit this option to transmit to all "
+"configured, active integrated channels."
+msgstr ""
+"ਇਸ IntegrateChannel ਨੂੰ ਡਾਟਾ ਟ੍ਰਾਂਸਮਿਟ ਕਰੋ। ਸਾਰੇ ਕੌਂਫਿਗਰ ਕੀਤੇ, ਸਰਗਰਮ "
+"ਏਕੀਕ੍ਰਿਤ ਚੈਨਲਾਂ ਨੂੰ ਟ੍ਰਾਂਸਮਿਟ ਕਰਨ ਲਈ ਇਸ ਵਿਕਲਪ ਨੂੰ ਛੱਡ ਦਿਓ।"
+
+#: integrated_channels/integrated_channel/management/commands/__init__.py:123
+#, python-brace-format
+msgid "Enterprise customer {uuid} not found, or not active"
+msgstr "ਐਂਟਰਪ੍ਰਾਈਜ਼ ਗਾਹਕ {uuid} ਨਹੀਂ ਮਿਲਿਆ, ਜਾਂ ਸਰਗਰਮ ਨਹੀਂ ਹੈ।"
+
+#: integrated_channels/integrated_channel/management/commands/__init__.py:147
+#, python-brace-format
+msgid "Invalid integrated channel: {channel}"
+msgstr "ਅਵੈਧ ਏਕੀਕ੍ਰਿਤ ਚੈਨਲ: {channel}"
+
+#: integrated_channels/integrated_channel/management/commands/backfill_missing_csod_foreign_keys.py:24
+msgid ""
+"\n"
+"    Backfill missing audit record foreign keys for Cornerstone.\n"
+"    "
+msgstr "ਕਾਰਨਰਸਟੋਨ ਲਈ ਬੈਕਫਿਲ ਵਿੱਚ ਗੁੰਮ ਆਡਿਟ ਰਿਕਾਰਡ ਵਿਦੇਸ਼ੀ ਕੁੰਜੀਆਂ।"
+
+#: integrated_channels/integrated_channel/management/commands/backfill_missing_foreign_keys.py:67
+msgid ""
+"\n"
+"    Backfill missing audit record foreign keys.\n"
+"    "
+msgstr "ਬੈਕਫਿਲ ਵਿੱਚ ਗੁੰਮ ਆਡਿਟ ਰਿਕਾਰਡ ਵਿਦੇਸ਼ੀ ਕੁੰਜੀਆਂ।"
+
+#: integrated_channels/integrated_channel/management/commands/cleanup_duplicate_assignment_records.py:25
+msgid ""
+"\n"
+"    Verify and remove any duplicated assignments transmitted to the IntegratedChannel(s) configured for the given\n"
+"     EnterpriseCustomer.\n"
+"    "
+msgstr ""
+"ਦਿੱਤੇ ਗਏ\n"
+"EnterpriseCustomer ਲਈ ਕੌਂਫਿਗਰ ਕੀਤੇ ਗਏ IntegratedChannel(s) ਵਿੱਚ ਭੇਜੇ ਗਏ ਕਿਸੇ ਵੀ ਡੁਪਲੀਕੇਟ ਅਸਾਈਨਮੈਂਟ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ ਅਤੇ ਹਟਾਓ।"
+
+#: integrated_channels/integrated_channel/management/commands/cleanup_duplicate_assignment_records.py:39
+#: integrated_channels/integrated_channel/management/commands/transmit_learner_data.py:37
+#: integrated_channels/integrated_channel/management/commands/transmit_subsection_learner_data.py:37
+msgid "Username of a user authorized to fetch grades from the LMS API."
+msgstr "LMS API ਤੋਂ ਗ੍ਰੇਡ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ ਅਧਿਕਾਰਤ ਵਰਤੋਂਕਾਰ ਦਾ ਵਰਤੋਂਕਾਰ ਨਾਮ।"
+
+#: integrated_channels/integrated_channel/management/commands/cleanup_duplicate_assignment_records.py:56
+#: integrated_channels/integrated_channel/management/commands/transmit_learner_data.py:51
+#: integrated_channels/integrated_channel/management/commands/transmit_subsection_learner_data.py:52
+#: enterprise/management/commands/migrate_enterprise_catalogs.py:46
+#, python-brace-format
+msgid "A user with the username {username} was not found."
+msgstr "ਯੂਜ਼ਰਨੇਮ {username} ਵਾਲਾ ਕੋਈ ਯੂਜ਼ਰ ਨਹੀਂ ਮਿਲਿਆ।"
+
+#: integrated_channels/integrated_channel/management/commands/remove_duplicate_learner_transmission_audit_records.py:21
+#: integrated_channels/integrated_channel/management/commands/transmit_learner_data.py:23
+msgid ""
+"\n"
+"    Transmit Enterprise learner course completion data for the given EnterpriseCustomer.\n"
+"    "
+msgstr ""
+"ਦਿੱਤੇ ਗਏ EnterpriseCustomer ਲਈ Enterprise Learner ਕੋਰਸ ਪੂਰਾ ਕਰਨ ਦਾ ਡੇਟਾ "
+"ਭੇਜੋ।"
+
+#: integrated_channels/integrated_channel/management/commands/remove_stale_integrated_channel_api_logs.py:22
+msgid ""
+"\n"
+"    This management command deletes records from the IntegratedChannelAPIRequestLogs model that are older than one month\n"
+"    "
+msgstr ""
+"ਇਹ ਪ੍ਰਬੰਧਨ ਕਮਾਂਡ IntegratedChannelAPIRequestLogs ਮਾਡਲ ਤੋਂ ਇੱਕ ਮਹੀਨੇ ਤੋਂ "
+"ਪੁਰਾਣੇ ਰਿਕਾਰਡਾਂ ਨੂੰ ਮਿਟਾ ਦਿੰਦੀ ਹੈ।"
+
+#: integrated_channels/integrated_channel/management/commands/reset_sapsf_learner_transmissions.py:19
+msgid ""
+"\n"
+"    Reset SAPSF learner transmissions for the given EnterpriseCustomer and Channel between two dates.\n"
+"    "
+msgstr ""
+"ਦਿੱਤੇ ਗਏ EnterpriseCustomer ਅਤੇ ਚੈਨਲ ਲਈ ਦੋ ਤਾਰੀਖਾਂ ਵਿਚਕਾਰ SAPSF ਸਿੱਖਣ ਵਾਲੇ "
+"ਟ੍ਰਾਂਸਮਿਸ਼ਨ ਰੀਸੈਟ ਕਰੋ।"
+
+#: integrated_channels/integrated_channel/management/commands/reset_sapsf_learner_transmissions.py:31
+msgid "Start date and time in YYYY-MM-DDTHH:MM:SSZ format."
+msgstr "ਸ਼ੁਰੂਆਤੀ ਮਿਤੀ ਅਤੇ ਸਮਾਂ YYYY-MM-DDTHH:MM:SSZ ਫਾਰਮੈਟ ਵਿੱਚ।"
+
+#: integrated_channels/integrated_channel/management/commands/reset_sapsf_learner_transmissions.py:38
+msgid "End date and time in YYYY-MM-DDTHH:MM:SSZ format."
+msgstr "ਸਮਾਪਤੀ ਮਿਤੀ ਅਤੇ ਸਮਾਂ YYYY-MM-DDTHH:MM:SSZ ਫਾਰਮੈਟ ਵਿੱਚ।"
+
+#: integrated_channels/integrated_channel/management/commands/transmit_subsection_learner_data.py:23
+msgid ""
+"\n"
+"    Transmit Enterprise learner assessment level reporting data for the given EnterpriseCustomer.\n"
+"    "
+msgstr ""
+"ਦਿੱਤੇ ਗਏ EnterpriseCustomer ਲਈ Enterprise Learner Assessment Level Reporting"
+" ਡੇਟਾ ਭੇਜੋ।"
+
+#: integrated_channels/integrated_channel/models.py:115
+msgid "A configuration nickname."
+msgstr "ਇੱਕ ਸੰਰਚਨਾ ਉਪਨਾਮ।"
+
+#: integrated_channels/integrated_channel/models.py:122
+#: integrated_channels/xapi/models.py:30
+msgid "Enterprise Customer associated with the configuration."
+msgstr "ਸੰਰਚਨਾ ਨਾਲ ਜੁੜਿਆ ਐਂਟਰਪ੍ਰਾਈਜ਼ ਗਾਹਕ।"
+
+#: integrated_channels/integrated_channel/models.py:130
+msgid "If provided, will be used as IDP slug to locate remote id for learners"
+msgstr ""
+"ਜੇਕਰ ਪ੍ਰਦਾਨ ਕੀਤਾ ਜਾਂਦਾ ਹੈ, ਤਾਂ ਸਿਖਿਆਰਥੀਆਂ ਲਈ ਰਿਮੋਟ ਆਈਡੀ ਲੱਭਣ ਲਈ IDP ਸਲੱਗ "
+"ਵਜੋਂ ਵਰਤਿਆ ਜਾਵੇਗਾ।"
+
+#: integrated_channels/integrated_channel/models.py:136
+#: integrated_channels/xapi/models.py:40
+msgid "Is this configuration active?"
+msgstr "ਕੀ ਇਹ ਸੰਰਚਨਾ ਕਿਰਿਆਸ਼ੀਲ ਹੈ?"
+
+#: integrated_channels/integrated_channel/models.py:143
+msgid "Is this configuration in dry-run mode? (experimental)"
+msgstr "ਕੀ ਇਹ ਸੰਰਚਨਾ ਡਰਾਈ-ਰਨ ਮੋਡ ਵਿੱਚ ਹੈ? (ਪ੍ਰਯੋਗਾਤਮਕ)"
+
+#: integrated_channels/integrated_channel/models.py:150
+msgid "Displays course price"
+msgstr "ਕੋਰਸ ਦੀ ਕੀਮਤ ਦਿਖਾਉਂਦਾ ਹੈ"
+
+#: integrated_channels/integrated_channel/models.py:162
+msgid ""
+"Enterprise channel worker username to get JWT tokens for authenticating LMS "
+"APIs."
+msgstr ""
+"LMS APIs ਨੂੰ ਪ੍ਰਮਾਣਿਤ ਕਰਨ ਲਈ JWT ਟੋਕਨ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ ਐਂਟਰਪ੍ਰਾਈਜ਼ ਚੈਨਲ ਵਰਕਰ "
+"ਉਪਭੋਗਤਾ ਨਾਮ।"
+
+#: integrated_channels/integrated_channel/models.py:168
+msgid ""
+"A comma-separated list of catalog UUIDs to transmit. If blank, all customer "
+"catalogs will be transmitted. If there are overlapping courses in the "
+"customer catalogs, the overlapping course metadata will be selected from the"
+" newest catalog."
+msgstr ""
+"ਸੰਚਾਰਿਤ ਕਰਨ ਲਈ ਕੈਟਾਲਾਗ UUIDs ਦੀ ਇੱਕ ਕਾਮੇ ਨਾਲ ਵੱਖ ਕੀਤੀ ਸੂਚੀ। ਜੇਕਰ ਖਾਲੀ ਹੈ, "
+"ਤਾਂ ਸਾਰੇ ਗਾਹਕ ਕੈਟਾਲਾਗ ਸੰਚਾਰਿਤ ਕੀਤੇ ਜਾਣਗੇ। ਜੇਕਰ ਗਾਹਕ ਕੈਟਾਲਾਗ ਵਿੱਚ ਓਵਰਲੈਪਿੰਗ "
+"ਕੋਰਸ ਹਨ, ਤਾਂ ਓਵਰਲੈਪਿੰਗ ਕੋਰਸ ਮੈਟਾਡੇਟਾ ਨੂੰ ਨਵੀਨਤਮ ਕੈਟਾਲਾਗ ਵਿੱਚੋਂ ਚੁਣਿਆ ਜਾਵੇਗਾ।"
+
+#: integrated_channels/integrated_channel/models.py:176
+msgid ""
+"When set to True, the configured customer will no longer receive learner "
+"data transmissions, both scheduled and signal based"
+msgstr ""
+"ਜਦੋਂ ਸਹੀ 'ਤੇ ਸੈੱਟ ਕੀਤਾ ਜਾਂਦਾ ਹੈ, ਤਾਂ ਕੌਂਫਿਗਰ ਕੀਤਾ ਗਾਹਕ ਹੁਣ ਸਿਖਿਆਰਥੀ ਡੇਟਾ "
+"ਟ੍ਰਾਂਸਮਿਸ਼ਨ ਪ੍ਰਾਪਤ ਨਹੀਂ ਕਰੇਗਾ, ਦੋਵੇਂ ਸ਼ਡਿਊਲ ਕੀਤੇ ਅਤੇ ਸਿਗਨਲ ਆਧਾਰਿਤ।"
+
+#: integrated_channels/integrated_channel/models.py:537
+#: integrated_channels/integrated_channel/models.py:718
+msgid "Data pertaining to the transmissions API request response."
+msgstr "ਟ੍ਰਾਂਸਮਿਸ਼ਨ API ਬੇਨਤੀ ਜਵਾਬ ਨਾਲ ਸਬੰਧਤ ਡੇਟਾ।"
+
+#: integrated_channels/moodle/admin/__init__.py:31
+msgid "Cannot set both a Username/Password and Token"
+msgstr "ਯੂਜ਼ਰਨੇਮ/ਪਾਸਵਰਡ ਅਤੇ ਟੋਕਨ ਦੋਵੇਂ ਸੈੱਟ ਨਹੀਂ ਕੀਤੇ ਜਾ ਸਕਦੇ"
+
+#: integrated_channels/moodle/admin/__init__.py:33
+msgid "Must set both a Username and Password, not just one"
+msgstr "ਇੱਕ ਯੂਜ਼ਰਨੇਮ ਅਤੇ ਪਾਸਵਰਡ ਦੋਵੇਂ ਸੈੱਟ ਕਰਨੇ ਚਾਹੀਦੇ ਹਨ, ਸਿਰਫ਼ ਇੱਕ ਨਹੀਂ।"
+
+#: integrated_channels/moodle/models.py:38
+msgid "The base URL used for API requests to Moodle"
+msgstr "Moodle ਨੂੰ API ਬੇਨਤੀਆਂ ਲਈ ਵਰਤਿਆ ਜਾਣ ਵਾਲਾ ਮੂਲ URL"
+
+#: integrated_channels/moodle/models.py:46
+msgid "The short name for the Moodle webservice."
+msgstr "ਮੂਡਲ ਵੈੱਬਸਰਵਿਸ ਦਾ ਛੋਟਾ ਨਾਮ।"
+
+#: integrated_channels/moodle/models.py:55
+msgid "The category ID for what edX courses should be associated with."
+msgstr "edX ਕੋਰਸਾਂ ਨੂੰ ਕਿਸ ਨਾਲ ਜੋੜਿਆ ਜਾਣਾ ਚਾਹੀਦਾ ਹੈ, ਉਸ ਲਈ ਸ਼੍ਰੇਣੀ ID।"
+
+#: integrated_channels/moodle/models.py:64
+msgid ""
+"The encrypted API user's username used to obtain new tokens. It will be "
+"encrypted when stored in the database."
+msgstr ""
+"ਨਵੇਂ ਟੋਕਨ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ ਵਰਤਿਆ ਜਾਣ ਵਾਲਾ ਏਨਕ੍ਰਿਪਟਡ API ਉਪਭੋਗਤਾ ਦਾ ਉਪਭੋਗਤਾ ਨਾਮ।"
+" ਡੇਟਾਬੇਸ ਵਿੱਚ ਸਟੋਰ ਕੀਤੇ ਜਾਣ 'ਤੇ ਇਸਨੂੰ ਏਨਕ੍ਰਿਪਟ ਕੀਤਾ ਜਾਵੇਗਾ।"
+
+#: integrated_channels/moodle/models.py:98
+msgid ""
+"The encrypted API user's password used to obtain new tokens. It will be "
+"encrypted when stored in the database."
+msgstr ""
+"ਨਵੇਂ ਟੋਕਨ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ ਵਰਤਿਆ ਜਾਣ ਵਾਲਾ ਏਨਕ੍ਰਿਪਟਡ API ਉਪਭੋਗਤਾ ਦਾ ਪਾਸਵਰਡ। "
+"ਡੇਟਾਬੇਸ ਵਿੱਚ ਸਟੋਰ ਕੀਤੇ ਜਾਣ 'ਤੇ ਇਸਨੂੰ ਏਨਕ੍ਰਿਪਟ ਕੀਤਾ ਜਾਵੇਗਾ।"
+
+#: integrated_channels/moodle/models.py:132
+msgid ""
+"The encrypted API user's token used to obtain new tokens. It will be "
+"encrypted when stored in the database."
+msgstr ""
+"ਨਵੇਂ ਟੋਕਨ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ ਵਰਤਿਆ ਜਾਣ ਵਾਲਾ ਏਨਕ੍ਰਿਪਟਡ API ਉਪਭੋਗਤਾ ਟੋਕਨ। ਡੇਟਾਬੇਸ "
+"ਵਿੱਚ ਸਟੋਰ ਕੀਤੇ ਜਾਣ 'ਤੇ ਇਸਨੂੰ ਏਨਕ੍ਰਿਪਟ ਕੀਤਾ ਜਾਵੇਗਾ।"
+
+#: integrated_channels/moodle/models.py:169
+msgid "The maximum grade points for the courses. Default: 100"
+msgstr "ਕੋਰਸਾਂ ਲਈ ਵੱਧ ਤੋਂ ਵੱਧ ਗ੍ਰੇਡ ਅੰਕ। ਡਿਫਾਲਟ: 100"
+
+#: integrated_channels/moodle/models.py:177
+msgid "The name for the grade assigment created for the grade integration."
+msgstr "ਗ੍ਰੇਡ ਏਕੀਕਰਨ ਲਈ ਬਣਾਏ ਗਏ ਗ੍ਰੇਡ ਅਸਾਈਨਮੈਂਟ ਦਾ ਨਾਮ।"
+
+#: integrated_channels/moodle/models.py:182
+msgid ""
+"When set to True, the configured customer will receive learner data "
+"transmissions, for incomplete courses as well"
+msgstr ""
+"ਜਦੋਂ ਸਹੀ 'ਤੇ ਸੈੱਟ ਕੀਤਾ ਜਾਂਦਾ ਹੈ, ਤਾਂ ਕੌਂਫਿਗਰ ਕੀਤੇ ਗਾਹਕ ਨੂੰ ਅਧੂਰੇ ਕੋਰਸਾਂ ਲਈ "
+"ਵੀ ਸਿੱਖਣ ਵਾਲਾ ਡੇਟਾ ਟ੍ਰਾਂਸਮਿਸ਼ਨ ਪ੍ਰਾਪਤ ਹੋਵੇਗਾ।"
+
+#: integrated_channels/sap_success_factors/exporters/content_metadata.py:223
+#: integrated_channels/sap_success_factors/exporters/content_metadata.py:298
+#: enterprise/views.py:1608
+msgid "Starts"
+msgstr "ਸ਼ੁਰੂ ਹੁੰਦਾ ਹੈ"
+
+#: integrated_channels/sap_success_factors/exporters/content_metadata.py:228
+msgid "Enrollment Closed"
+msgstr "ਦਾਖਲਾ ਬੰਦ ਹੋ ਗਿਆ"
+
+#: integrated_channels/sap_success_factors/exporters/content_metadata.py:307
+msgid "Ends"
+msgstr "ਖਤਮ ਹੁੰਦਾ ਹੈ"
+
+#: integrated_channels/sap_success_factors/models.py:84
+msgid ""
+"The encrypted OAuth client identifier. It will be encrypted when stored in "
+"the database."
+msgstr ""
+"ਇਨਕ੍ਰਿਪਟਡ OAuth ਕਲਾਇੰਟ ਪਛਾਣਕਰਤਾ। ਡੇਟਾਬੇਸ ਵਿੱਚ ਸਟੋਰ ਕੀਤੇ ਜਾਣ 'ਤੇ ਇਸਨੂੰ "
+"ਇਨਕ੍ਰਿਪਟ ਕੀਤਾ ਜਾਵੇਗਾ।"
+
+#: integrated_channels/sap_success_factors/models.py:117
+msgid "Base URL of success factors API."
+msgstr "ਸਫਲਤਾ ਕਾਰਕ API ਦਾ ਮੂਲ URL।"
+
+#: integrated_channels/sap_success_factors/models.py:124
+msgid "Success factors company identifier."
+msgstr "ਸਫਲਤਾ ਕਾਰਕ ਕੰਪਨੀ ਪਛਾਣਕਰਤਾ।"
+
+#: integrated_channels/sap_success_factors/models.py:131
+msgid "Success factors user identifier."
+msgstr "ਸਫਲਤਾ ਕਾਰਕ ਉਪਭੋਗਤਾ ਪਛਾਣਕਰਤਾ।"
+
+#: integrated_channels/sap_success_factors/models.py:140
+msgid ""
+"The encrypted OAuth client secret. It will be encrypted when stored in the "
+"database."
+msgstr ""
+"ਇਨਕ੍ਰਿਪਟਡ OAuth ਕਲਾਇੰਟ ਸੀਕ੍ਰੇਟ। ਡੇਟਾਬੇਸ ਵਿੱਚ ਸਟੋਰ ਕੀਤੇ ਜਾਣ 'ਤੇ ਇਸਨੂੰ "
+"ਇਨਕ੍ਰਿਪਟ ਕੀਤਾ ਜਾਵੇਗਾ।"
+
+#: integrated_channels/sap_success_factors/models.py:173
+msgid "Type of SAP User (admin or user)."
+msgstr "SAP ਉਪਭੋਗਤਾ ਦੀ ਕਿਸਮ (ਐਡਮਿਨ ਜਾਂ ਉਪਭੋਗਤਾ)।"
+
+#: integrated_channels/sap_success_factors/models.py:179
+msgid "A comma-separated list of additional locales."
+msgstr "ਵਾਧੂ ਸਥਾਨਾਂ ਦੀ ਇੱਕ ਕਾਮੇ ਨਾਲ ਵੱਖ ਕੀਤੀ ਸੂਚੀ।"
+
+#: integrated_channels/sap_success_factors/models.py:183
+msgid "Transmit Total Hours"
+msgstr "ਕੁੱਲ ਘੰਟੇ ਭੇਜੋ"
+
+#: integrated_channels/sap_success_factors/models.py:184
+msgid "Include totalHours in the transmitted completion data"
+msgstr "ਪ੍ਰਸਾਰਿਤ ਸੰਪੂਰਨਤਾ ਡੇਟਾ ਵਿੱਚ ਕੁੱਲ ਘੰਟੇ ਸ਼ਾਮਲ ਕਰੋ"
+
+#: integrated_channels/sap_success_factors/models.py:189
+msgid ""
+"When set to True, the integration will use the generic edX service user "
+"('sapsf_user_id') defined in the SAP Customer Configuration for course "
+"completion."
+msgstr ""
+"ਜਦੋਂ True 'ਤੇ ਸੈੱਟ ਕੀਤਾ ਜਾਂਦਾ ਹੈ, ਤਾਂ ਏਕੀਕਰਣ ਕੋਰਸ ਪੂਰਾ ਕਰਨ ਲਈ SAP ਗਾਹਕ "
+"ਸੰਰਚਨਾ ਵਿੱਚ ਪਰਿਭਾਸ਼ਿਤ ਆਮ edX ਸੇਵਾ ਉਪਭੋਗਤਾ ('sapsf_user_id') ਦੀ ਵਰਤੋਂ ਕਰੇਗਾ।"
+
+#: integrated_channels/xapi/models.py:33
+msgid "Version of xAPI."
+msgstr "xAPI ਦਾ ਸੰਸਕਰਣ।"
+
+#: integrated_channels/xapi/models.py:34
+msgid "URL of the LRS."
+msgstr "LRS ਦਾ URL।"
+
+#: integrated_channels/xapi/models.py:35
+msgid "Key of xAPI LRS."
+msgstr "xAPI LRS ਦੀ ਚਾਬੀ।"
+
+#: integrated_channels/xapi/models.py:36
+msgid "secret of xAPI LRS."
+msgstr "xAPI LRS ਦਾ ਰਾਜ਼।"
+
+#: enterprise/admin/__init__.py:712
+msgid ""
+"Preview the HTML template rendered in the context of a course enrollment."
+msgstr "ਕੋਰਸ ਦਾਖਲੇ ਦੇ ਸੰਦਰਭ ਵਿੱਚ ਪੇਸ਼ ਕੀਤੇ ਗਏ HTML ਟੈਂਪਲੇਟ ਦਾ ਪੂਰਵਦਰਸ਼ਨ ਕਰੋ।"
+
+#: enterprise/admin/__init__.py:725
+msgid ""
+"Preview the HTML template rendered in the context of a program enrollment."
+msgstr ""
+"ਪ੍ਰੋਗਰਾਮ ਨਾਮਾਂਕਣ ਦੇ ਸੰਦਰਭ ਵਿੱਚ ਪੇਸ਼ ਕੀਤੇ ਗਏ HTML ਟੈਂਪਲੇਟ ਦਾ ਪੂਰਵਦਰਸ਼ਨ ਕਰੋ।"
+
+#: enterprise/admin/forms.py:52
+msgid "To add a single learner, enter an email address or username."
+msgstr ""
+"ਇੱਕ ਸਿੰਗਲ ਲਰਨਰ ਨੂੰ ਸ਼ਾਮਲ ਕਰਨ ਲਈ, ਇੱਕ ਈਮੇਲ ਪਤਾ ਜਾਂ ਵਰਤੋਂਕਾਰ ਨਾਮ ਦਾਖਲ ਕਰੋ।"
+
+#: enterprise/admin/forms.py:56
+msgid ""
+"To add multiple learners, upload a .csv file that contains a column of email"
+" addresses."
+msgstr ""
+"ਕਈ ਸਿਖਿਆਰਥੀਆਂ ਨੂੰ ਜੋੜਨ ਲਈ, ਇੱਕ .csv ਫਾਈਲ ਅੱਪਲੋਡ ਕਰੋ ਜਿਸ ਵਿੱਚ ਈਮੇਲ ਪਤਿਆਂ ਦਾ "
+"ਇੱਕ ਕਾਲਮ ਹੋਵੇ।"
+
+#: enterprise/admin/forms.py:61
+msgid ""
+"The .csv file must have a column of email addresses, indicated by the "
+"heading 'email' in the first row. Optionally, the .csv file may contain a "
+"column of course run keys, indicated by the heading 'course_id' in the first"
+" row, to enroll learners in multiple courses."
+msgstr ""
+".csv ਫਾਈਲ ਵਿੱਚ ਈਮੇਲ ਪਤਿਆਂ ਦਾ ਇੱਕ ਕਾਲਮ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ, ਜੋ ਪਹਿਲੀ ਕਤਾਰ ਵਿੱਚ "
+"'email' ਸਿਰਲੇਖ ਦੁਆਰਾ ਦਰਸਾਇਆ ਗਿਆ ਹੋਵੇ। ਵਿਕਲਪਿਕ ਤੌਰ 'ਤੇ, .csv ਫਾਈਲ ਵਿੱਚ ਇੱਕ "
+"ਕਾਲਮ ਆਫ਼ ਕੋਰਸ ਰਨ ਕੀਜ਼ ਹੋ ਸਕਦੀਆਂ ਹਨ, ਜੋ ਪਹਿਲੀ ਕਤਾਰ ਵਿੱਚ 'course_id' ਸਿਰਲੇਖ "
+"ਦੁਆਰਾ ਦਰਸਾਈਆਂ ਗਈਆਂ ਹਨ, ਤਾਂ ਜੋ ਸਿਖਿਆਰਥੀਆਂ ਨੂੰ ਕਈ ਕੋਰਸਾਂ ਵਿੱਚ ਦਾਖਲ ਕੀਤਾ ਜਾ "
+"ਸਕੇ।"
+
+#: enterprise/admin/forms.py:68
+msgid "Enroll these learners in this course"
+msgstr "ਇਹਨਾਂ ਸਿਖਿਆਰਥੀਆਂ ਨੂੰ ਇਸ ਕੋਰਸ ਵਿੱਚ ਦਾਖਲ ਕਰੋ।"
+
+#: enterprise/admin/forms.py:69
+msgid "To enroll learners in a course, enter a course ID."
+msgstr "ਕਿਸੇ ਕੋਰਸ ਵਿੱਚ ਸਿਖਿਆਰਥੀਆਂ ਨੂੰ ਦਾਖਲ ਕਰਨ ਲਈ, ਇੱਕ ਕੋਰਸ ਆਈਡੀ ਦਰਜ ਕਰੋ।"
+
+#: enterprise/admin/forms.py:72
+msgid "Course enrollment track"
+msgstr "ਕੋਰਸ ਦਾਖਲਾ ਟਰੈਕ"
+
+#: enterprise/admin/forms.py:74 enterprise/api/v1/serializers.py:1634
+msgid "Audit"
+msgstr "ਆਡਿਟ"
+
+#: enterprise/admin/forms.py:75 enterprise/api/v1/serializers.py:1635
+msgid "Verified"
+msgstr "ਪ੍ਰਮਾਣਿਤ"
+
+#: enterprise/admin/forms.py:76 enterprise/api/v1/serializers.py:1636
+msgid "Professional Education"
+msgstr "ਪੇਸ਼ੇਵਰ ਸਿੱਖਿਆ"
+
+#: enterprise/admin/forms.py:77 enterprise/api/v1/serializers.py:1637
+msgid "Professional Education (no ID)"
+msgstr "ਪੇਸ਼ੇਵਰ ਸਿੱਖਿਆ (ਬਿਨਾਂ ਪਛਾਣ ਪੱਤਰ)"
+
+#: enterprise/admin/forms.py:78 enterprise/api/v1/serializers.py:1638
+msgid "Credit"
+msgstr "ਕ੍ਰੈਡਿਟ"
+
+#: enterprise/admin/forms.py:79 enterprise/api/v1/serializers.py:1639
+msgid "Honor"
+msgstr "ਸਨਮਾਨ"
+
+#: enterprise/admin/forms.py:80 enterprise/api/v1/serializers.py:1640
+msgid "Unpaid Executive Education"
+msgstr "ਬਿਨਾਂ ਤਨਖਾਹ ਵਾਲੀ ਕਾਰਜਕਾਰੀ ਸਿੱਖਿਆ"
+
+#: enterprise/admin/forms.py:83
+msgid "Reason for manual enrollment"
+msgstr "ਹੱਥੀਂ ਦਾਖਲੇ ਦਾ ਕਾਰਨ"
+
+#: enterprise/admin/forms.py:84
+msgid "Salesforce Opportunity ID"
+msgstr "ਸੇਲਸਫੋਰਸ ਮੌਕਾ ਆਈਡੀ"
+
+#: enterprise/admin/forms.py:86
+msgid "Discount percentage for manual enrollment"
+msgstr "ਹੱਥੀਂ ਨਾਮਾਂਕਣ ਲਈ ਛੋਟ ਪ੍ਰਤੀਸ਼ਤ"
+
+#: enterprise/admin/forms.py:87
+msgid "Discount percentage should be from 0 to 100"
+msgstr "ਛੋਟ ਪ੍ਰਤੀਸ਼ਤ 0 ਤੋਂ 100 ਤੱਕ ਹੋਣੀ ਚਾਹੀਦੀ ਹੈ।"
+
+#: enterprise/admin/forms.py:102
+msgid "Notify learners of enrollment"
+msgstr "ਵਿਦਿਆਰਥੀਆਂ ਨੂੰ ਦਾਖਲੇ ਬਾਰੇ ਸੂਚਿਤ ਕਰੋ"
+
+#: enterprise/admin/forms.py:104
+msgid "Send email"
+msgstr "ਈਮੇਲ ਭੇਜੋ"
+
+#: enterprise/admin/forms.py:105
+msgid "Do not notify"
+msgstr "ਸੂਚਿਤ ਨਾ ਕਰੋ"
+
+#: enterprise/admin/forms.py:310
+msgid "Email/Username"
+msgstr "ਈਮੇਲ/ਯੂਜ਼ਰਨੇਮ"
+
+#: enterprise/admin/forms.py:311
+msgid "Enter an email address or username."
+msgstr "ਇੱਕ ਈਮੇਲ ਪਤਾ ਜਾਂ ਉਪਭੋਗਤਾ ਨਾਮ ਦਰਜ ਕਰੋ।"
+
+#: enterprise/admin/forms.py:315
+msgid "Course"
+msgstr "ਕੋਰਸ"
+
+#: enterprise/admin/forms.py:316
+msgid "Enter the course run key."
+msgstr "ਕੋਰਸ ਰਨ ਕੁੰਜੀ ਦਰਜ ਕਰੋ।"
+
+#: enterprise/admin/forms.py:436
+msgid "Preview"
+msgstr "ਝਲਕ"
+
+#: enterprise/admin/forms.py:437
+msgid "Hold Ctrl when clicking on button to open Preview in new tab"
+msgstr ""
+"ਨਵੀਂ ਟੈਬ ਵਿੱਚ ਪ੍ਰੀਵਿਊ ਖੋਲ੍ਹਣ ਲਈ ਬਟਨ 'ਤੇ ਕਲਿੱਕ ਕਰਦੇ ਸਮੇਂ Ctrl ਦਬਾ ਕੇ ਰੱਖੋ।"
+
+#: enterprise/admin/forms.py:500
+msgid "Identity Provider"
+msgstr "ਪਛਾਣ ਪ੍ਰਦਾਤਾ"
+
+#: enterprise/admin/forms.py:524
+msgid ""
+"The specified Identity Provider does not exist. For more information, "
+"contact a system administrator."
+msgstr ""
+"ਨਿਰਧਾਰਤ ਪਛਾਣ ਪ੍ਰਦਾਤਾ ਮੌਜੂਦ ਨਹੀਂ ਹੈ। ਹੋਰ ਜਾਣਕਾਰੀ ਲਈ, ਕਿਸੇ ਸਿਸਟਮ ਪ੍ਰਸ਼ਾਸਕ ਨਾਲ "
+"ਸੰਪਰਕ ਕਰੋ।"
+
+#: enterprise/admin/forms.py:535
+#, python-brace-format
+msgid ""
+"The site for the selected identity provider ({identity_provider_site}) does "
+"not match the site for this enterprise customer "
+"({enterprise_customer_site}). To correct this problem, select a site that "
+"has a domain of '{identity_provider_site}', or update the identity provider "
+"to '{enterprise_customer_site}'."
+msgstr ""
+"ਚੁਣੇ ਗਏ ਪਛਾਣ ਪ੍ਰਦਾਤਾ ({identity_provider_site}) ਦੀ ਸਾਈਟ ਇਸ ਐਂਟਰਪ੍ਰਾਈਜ਼ ਗਾਹਕ "
+"({enterprise_customer_site}) ਦੀ ਸਾਈਟ ਨਾਲ ਮੇਲ ਨਹੀਂ ਖਾਂਦੀ। ਇਸ ਸਮੱਸਿਆ ਨੂੰ ਠੀਕ "
+"ਕਰਨ ਲਈ, ਇੱਕ ਸਾਈਟ ਚੁਣੋ ਜਿਸਦਾ ਡੋਮੇਨ '{identity_provider_site}' ਹੈ, ਜਾਂ ਪਛਾਣ "
+"ਪ੍ਰਦਾਤਾ ਨੂੰ '{enterprise_customer_site}' 'ਤੇ ਅੱਪਡੇਟ ਕਰੋ।"
+
+#: enterprise/admin/forms.py:613
+#, python-brace-format
+msgid ""
+"\"{data_type}\" data type is not supported for enterprise customer "
+"\"{enterprise_customer.name}\". Please select a different data type."
+msgstr ""
+"\"{data_type}\" ਡੇਟਾ ਕਿਸਮ ਐਂਟਰਪ੍ਰਾਈਜ਼ ਗਾਹਕ \"{enterprise_customer.name}\" ਲਈ"
+" ਸਮਰਥਿਤ ਨਹੀਂ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਇੱਕ ਵੱਖਰੀ ਡੇਟਾ ਕਿਸਮ ਚੁਣੋ।"
+
+#: enterprise/admin/forms.py:630
+#, python-brace-format
+msgid ""
+"These catalogs for reporting do not match enterprisecustomer "
+"{enterprise_customer}: {invalid_catalogs}"
+msgstr ""
+"ਰਿਪੋਰਟਿੰਗ ਲਈ ਇਹ ਕੈਟਾਲਾਗ enterprisecustomer {enterprise_customer} ਨਾਲ ਮੇਲ "
+"ਨਹੀਂ ਖਾਂਦੇ: {invalid_catalogs}"
+
+#: enterprise/admin/forms.py:654
+msgid "Enter enterprise channel worker username."
+msgstr "ਐਂਟਰਪ੍ਰਾਈਜ਼ ਚੈਨਲ ਵਰਕਰ ਦਾ ਵਰਤੋਂਕਾਰ ਨਾਮ ਦਰਜ ਕਰੋ।"
+
+#: enterprise/admin/forms.py:723
+msgid ""
+"User specified is not linked to an active Enterprise Customer. Select "
+"`Applies to all contexts` or choose a different user."
+msgstr ""
+"ਨਿਰਧਾਰਤ ਉਪਭੋਗਤਾ ਕਿਸੇ ਸਰਗਰਮ ਐਂਟਰਪ੍ਰਾਈਜ਼ ਗਾਹਕ ਨਾਲ ਲਿੰਕ ਨਹੀਂ ਹੈ। `ਸਾਰੇ ਸੰਦਰਭਾਂ "
+"'ਤੇ ਲਾਗੂ ਹੁੰਦਾ ਹੈ` ਚੁਣੋ ਜਾਂ ਇੱਕ ਵੱਖਰਾ ਉਪਭੋਗਤਾ ਚੁਣੋ।"
+
+#: enterprise/admin/forms.py:783
+msgid ""
+"Please select different date range. There is another notification scheduled "
+"in this date range."
+msgstr ""
+"ਕਿਰਪਾ ਕਰਕੇ ਵੱਖਰੀ ਤਾਰੀਖ਼ ਰੇਂਜ ਚੁਣੋ। ਇਸ ਤਾਰੀਖ਼ ਰੇਂਜ ਵਿੱਚ ਇੱਕ ਹੋਰ ਸੂਚਨਾ ਨਿਯਤ "
+"ਕੀਤੀ ਗਈ ਹੈ।"
+
+#: enterprise/admin/views.py:238
+msgid "Successfully requested the Data Sharing consent from learner."
+msgstr "ਸਿਖਿਆਰਥੀ ਤੋਂ ਡੇਟਾ ਸਾਂਝਾਕਰਨ ਸਹਿਮਤੀ ਦੀ ਸਫਲਤਾਪੂਰਵਕ ਬੇਨਤੀ ਕੀਤੀ ਗਈ।"
+
+#: enterprise/admin/views.py:478
+#, python-brace-format
+msgid "{count} new learner was added to {enterprise_customer_name}."
+msgid_plural "{count} new learners were added to {enterprise_customer_name}."
+msgstr[0] ""
+"{enterprise_customer_name} ਵਿੱਚ {count} ਨਵੇਂ ਸਿਖਿਆਰਥੀ ਨੂੰ ਸ਼ਾਮਲ ਕੀਤਾ ਗਿਆ।"
+msgstr[1] ""
+"{enterprise_customer_name} ਵਿੱਚ {count} ਨਵੇਂ ਸਿਖਿਆਰਥੀ ਨੂੰ ਸ਼ਾਮਲ ਕੀਤਾ ਗਿਆ।"
+
+#: enterprise/admin/views.py:492
+#, python-brace-format
+msgid ""
+"The following learners were already associated with this Enterprise "
+"Customer: {list_of_emails}"
+msgstr ""
+"ਹੇਠ ਲਿਖੇ ਸਿਖਿਆਰਥੀ ਪਹਿਲਾਂ ਹੀ ਇਸ ਐਂਟਰਪ੍ਰਾਈਜ਼ ਗਾਹਕ ਨਾਲ ਜੁੜੇ ਹੋਏ ਸਨ: "
+"{list_of_emails}"
+
+#: enterprise/admin/views.py:502
+#, python-brace-format
+msgid ""
+"The following learners are already associated with another Enterprise "
+"Customer. These learners were not added to {enterprise_customer_name}: "
+"{list_of_emails}"
+msgstr ""
+"ਹੇਠ ਲਿਖੇ ਸਿਖਿਆਰਥੀ ਪਹਿਲਾਂ ਹੀ ਕਿਸੇ ਹੋਰ ਐਂਟਰਪ੍ਰਾਈਜ਼ ਗਾਹਕ ਨਾਲ ਜੁੜੇ ਹੋਏ ਹਨ। ਇਹਨਾਂ"
+" ਸਿਖਿਆਰਥੀਆਂ ਨੂੰ {enterprise_customer_name} ਵਿੱਚ ਸ਼ਾਮਲ ਨਹੀਂ ਕੀਤਾ ਗਿਆ ਸੀ: "
+"{list_of_emails}"
+
+#: enterprise/admin/views.py:514
+#, python-brace-format
+msgid ""
+"The following duplicate email addresses were not added: {list_of_emails}"
+msgstr "ਹੇਠਾਂ ਦਿੱਤੇ ਡੁਪਲੀਕੇਟ ਈਮੇਲ ਪਤੇ ਸ਼ਾਮਲ ਨਹੀਂ ਕੀਤੇ ਗਏ ਸਨ: {list_of_emails}"
+
+#: enterprise/admin/views.py:557
+#, python-brace-format
+msgid "Error at line {line}: {message}\n"
+msgstr "ਲਾਈਨ {ਲਾਈਨ} ਵਿੱਚ ਗਲਤੀ: {message}"
+
+#: enterprise/admin/views.py:632
+#, python-brace-format
+msgid "{enrolled_count} learner was enrolled in {enrolled_in}."
+msgid_plural "{enrolled_count} learners were enrolled in {enrolled_in}."
+msgstr[0] ""
+"{enrolled_count} ਸਿੱਖਣ ਵਾਲੇ ਨੂੰ {enrolled_in} ਵਿੱਚ ਦਾਖਲ ਕੀਤਾ ਗਿਆ ਸੀ।"
+msgstr[1] ""
+"{enrolled_count} ਸਿੱਖਣ ਵਾਲੇ ਨੂੰ {enrolled_in} ਵਿੱਚ ਦਾਖਲ ਕੀਤਾ ਗਿਆ ਸੀ।"
+
+#: enterprise/admin/views.py:657
+#, python-brace-format
+msgid ""
+"The following learners could not be enrolled in {enrolled_in}: {user_list}"
+msgstr ""
+"ਹੇਠ ਲਿਖੇ ਸਿਖਿਆਰਥੀਆਂ ਨੂੰ {enrolled_in} ਵਿੱਚ ਦਾਖਲ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ: "
+"{user_list}"
+
+#: enterprise/admin/views.py:680
+#, python-brace-format
+msgid ""
+"The following learners do not have an account on {platform_name}. They have "
+"not been enrolled in {enrolled_in}. When these learners create an account, "
+"they will be enrolled automatically: {pending_email_list}"
+msgstr ""
+"ਹੇਠ ਲਿਖੇ ਸਿਖਿਆਰਥੀਆਂ ਦਾ {platform_name} 'ਤੇ ਕੋਈ ਖਾਤਾ ਨਹੀਂ ਹੈ। ਉਹਨਾਂ ਨੂੰ "
+"{enrolled_in} ਵਿੱਚ ਦਰਜ ਨਹੀਂ ਕੀਤਾ ਗਿਆ ਹੈ। ਜਦੋਂ ਇਹ ਸਿਖਿਆਰਥੀ ਖਾਤਾ ਬਣਾਉਂਦੇ ਹਨ, "
+"ਤਾਂ ਉਹਨਾਂ ਨੂੰ ਆਪਣੇ ਆਪ ਦਰਜ ਕੀਤਾ ਜਾਵੇਗਾ: {pending_email_list}"
+
+#: enterprise/admin/views.py:919
+#, python-brace-format
+msgid "Email {email} is not associated with Enterprise Customer {ec_name}"
+msgstr "ਈਮੇਲ {email} ਐਂਟਰਪ੍ਰਾਈਜ਼ ਗਾਹਕ {ec_name} ਨਾਲ ਸੰਬੰਧਿਤ ਨਹੀਂ ਹੈ।"
+
+#: enterprise/admin/views.py:983
+msgid ""
+"Successfully written the \"Auth org id\" field for this enterprise customer."
+msgstr "ਇਸ ਐਂਟਰਪ੍ਰਾਈਜ਼ ਗਾਹਕ ਲਈ \"Auth org id\" ਖੇਤਰ ਸਫਲਤਾਪੂਰਵਕ ਲਿਖਿਆ ਗਿਆ।"
+
+#: enterprise/api/utils.py:97
+#, python-brace-format
+msgid ""
+"{token_email} from {token_enterprise_name} has requested {token_number_codes} additional codes. Please reach out to them.\n"
+"Additional Notes:\n"
+"{token_notes}."
+msgstr ""
+"{token_enterprise_name} ਤੋਂ {token_email} ਨੇ {token_number_codes} ਵਾਧੂ ਕੋਡਾਂ ਦੀ ਬੇਨਤੀ ਕੀਤੀ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਉਨ੍ਹਾਂ ਨਾਲ ਸੰਪਰਕ ਕਰੋ।\n"
+"ਵਾਧੂ ਨੋਟਸ:\n"
+"{token_notes}।"
+
+#: enterprise/api/utils.py:104
+#, python-brace-format
+msgid ""
+"{token_email} from {token_enterprise_name} has requested "
+"{token_number_codes} additional codes. Please reach out to them."
+msgstr ""
+"{token_enterprise_name} ਤੋਂ {token_email} ਨੇ {token_number_codes} ਵਾਧੂ ਕੋਡਾਂ"
+" ਦੀ ਬੇਨਤੀ ਕੀਤੀ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਉਨ੍ਹਾਂ ਨਾਲ ਸੰਪਰਕ ਕਰੋ।"
+
+#: enterprise/api/utils.py:110
+#, python-brace-format
+msgid ""
+"{token_email} from {token_enterprise_name} has requested additional codes. Please reach out to them.\n"
+"Additional Notes:\n"
+"{token_notes}."
+msgstr ""
+"{token_enterprise_name} ਤੋਂ {token_email} ਨੇ ਵਾਧੂ ਕੋਡਾਂ ਦੀ ਬੇਨਤੀ ਕੀਤੀ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਉਨ੍ਹਾਂ ਨਾਲ ਸੰਪਰਕ ਕਰੋ।\n"
+"ਵਾਧੂ ਨੋਟਸ:\n"
+"{token_notes}."
+
+#: enterprise/api/utils.py:116
+#, python-brace-format
+msgid ""
+"{token_email} from {token_enterprise_name} has requested additional codes. "
+"Please reach out to them."
+msgstr ""
+"{token_enterprise_name} ਦੇ {token_email} ਨੇ ਵਾਧੂ ਕੋਡਾਂ ਦੀ ਬੇਨਤੀ ਕੀਤੀ ਹੈ। "
+"ਕਿਰਪਾ ਕਰਕੇ ਉਨ੍ਹਾਂ ਨਾਲ ਸੰਪਰਕ ਕਰੋ।"
+
+#: enterprise/api/v1/serializers.py:95
+msgid "Total count of items."
+msgstr "ਵਸਤੂਆਂ ਦੀ ਕੁੱਲ ਗਿਣਤੀ।"
+
+#: enterprise/api/v1/serializers.py:96
+msgid "URL to fetch next page of items."
+msgstr "ਆਈਟਮਾਂ ਦੇ ਅਗਲੇ ਪੰਨੇ ਨੂੰ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ URL।"
+
+#: enterprise/api/v1/serializers.py:97
+msgid "URL to fetch previous page of items."
+msgstr "ਆਈਟਮਾਂ ਦੇ ਪਿਛਲੇ ਪੰਨੇ ਨੂੰ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ URL।"
+
+#: enterprise/api/v1/serializers.py:98
+msgid "List of items."
+msgstr "ਚੀਜ਼ਾਂ ਦੀ ਸੂਚੀ।"
+
+#: enterprise/api/v1/views/coupon_codes.py:96
+#, python-brace-format
+msgid "Code Management - Request for Codes by {token_enterprise_name}"
+msgstr "ਕੋਡ ਪ੍ਰਬੰਧਨ - {token_enterprise_name} ਦੁਆਰਾ ਕੋਡਾਂ ਲਈ ਬੇਨਤੀ"
+
+#: enterprise/api/v1/views/coupon_codes.py:121
+#, python-brace-format
+msgid ""
+"[Enterprise API] Failure in sending e-mail to support. SupportEmail: "
+"{token_cs_email}, UserEmail: {token_email}, EnterpriseName: "
+"{token_enterprise_name}"
+msgstr ""
+"[ਐਂਟਰਪ੍ਰਾਈਜ਼ API] ਸਹਾਇਤਾ ਨੂੰ ਈਮੇਲ ਭੇਜਣ ਵਿੱਚ ਅਸਫਲਤਾ। ਸਹਾਇਤਾ ਈਮੇਲ: "
+"{token_cs_email}, ਉਪਭੋਗਤਾ ਈਮੇਲ: {token_email}, EnterpriseName: "
+"{token_enterprise_name}"
+
+#: enterprise/api/v1/views/enterprise_customer_catalog.py:189
+#, python-brace-format
+msgid ""
+"[Enterprise API] CourseKey not found in the Catalog. Course: {course_key}, "
+"Catalog: {catalog_id}"
+msgstr ""
+"[Enterprise API] ਕੈਟਾਲਾਗ ਵਿੱਚ CourseKey ਨਹੀਂ ਮਿਲੀ। Course: {course_key}, "
+"Catalog: {catalog_id}"
+
+#: enterprise/api/v1/views/enterprise_customer_catalog.py:217
+#, python-brace-format
+msgid ""
+"[Enterprise API] CourseRun not found in the Catalog. CourseRun: {course_id},"
+" Catalog: {catalog_id}"
+msgstr ""
+"[ਐਂਟਰਪ੍ਰਾਈਜ਼ API] ਕੈਟਾਲਾਗ ਵਿੱਚ ਕੋਰਸਰਨ ਨਹੀਂ ਮਿਲਿਆ। ਕੋਰਸਰਨ: {course_id}, "
+"ਕੈਟਾਲਾਗ: {catalog_id}"
+
+#: enterprise/api/v1/views/enterprise_customer_catalog.py:245
+#, python-brace-format
+msgid ""
+"[Enterprise API] Program not found in the Catalog. Program: {program_uuid}, "
+"Catalog: {catalog_id}"
+msgstr ""
+"[ਐਂਟਰਪ੍ਰਾਈਜ਼ API] ਪ੍ਰੋਗਰਾਮ ਕੈਟਾਲਾਗ ਵਿੱਚ ਨਹੀਂ ਮਿਲਿਆ। ਪ੍ਰੋਗਰਾਮ: "
+"{program_uuid}, ਕੈਟਾਲਾਗ: {catalog_id}"
+
+#: enterprise/api/v1/views/enterprise_subsidy_fulfillment.py:500
+#: enterprise/api/v1/views/enterprise_subsidy_fulfillment.py:554
+#: enterprise_learner_portal/api/v1/views.py:69
+#: enterprise_learner_portal/api/v1/views.py:132
+msgid ""
+"To use this endpoint, this package must be installed in an Open edX "
+"environment."
+msgstr ""
+"ਇਸ ਐਂਡਪੁਆਇੰਟ ਦੀ ਵਰਤੋਂ ਕਰਨ ਲਈ, ਇਸ ਪੈਕੇਜ ਨੂੰ ਇੱਕ ਓਪਨ edX ਵਾਤਾਵਰਣ ਵਿੱਚ ਸਥਾਪਿਤ "
+"ਕੀਤਾ ਜਾਣਾ ਚਾਹੀਦਾ ਹੈ।"
+
+#: enterprise/api_client/discovery.py:60
+#: enterprise/api_client/discovery.py:399 enterprise/utils.py:1642
+msgid ""
+"To get a CatalogIntegration object, this package must be installed in an "
+"Open edX environment."
+msgstr ""
+"ਕੈਟਾਲਾਗ ਇੰਟੀਗ੍ਰੇਸ਼ਨ ਆਬਜੈਕਟ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ, ਇਸ ਪੈਕੇਜ ਨੂੰ ਇੱਕ ਓਪਨ edX ਵਾਤਾਵਰਣ "
+"ਵਿੱਚ ਸਥਾਪਿਤ ਕੀਤਾ ਜਾਣਾ ਚਾਹੀਦਾ ਹੈ।"
+
+#: enterprise/api_client/discovery.py:65
+msgid ""
+"To parse a Catalog API response, this package must be installed in an Open "
+"edX environment."
+msgstr ""
+"ਇੱਕ ਕੈਟਾਲਾਗ API ਜਵਾਬ ਨੂੰ ਪਾਰਸ ਕਰਨ ਲਈ, ਇਸ ਪੈਕੇਜ ਨੂੰ ਇੱਕ ਓਪਨ edX ਵਾਤਾਵਰਣ ਵਿੱਚ "
+"ਸਥਾਪਿਤ ਕੀਤਾ ਜਾਣਾ ਚਾਹੀਦਾ ਹੈ।"
+
+#: enterprise/api_client/discovery.py:410
+msgid "The configured CatalogIntegration service user does not exist."
+msgstr "ਕੌਂਫਿਗਰ ਕੀਤਾ CatalogIntegration ਸੇਵਾ ਉਪਭੋਗਤਾ ਮੌਜੂਦ ਨਹੀਂ ਹੈ।"
+
+#: enterprise/api_client/discovery.py:413
+msgid "There is no active CatalogIntegration."
+msgstr "ਕੋਈ ਸਰਗਰਮ ਕੈਟਾਲਾਗ ਇੰਟੀਗ੍ਰੇਸ਼ਨ ਨਹੀਂ ਹੈ।"
+
+#: enterprise/api_client/ecommerce.py:43
+msgid ""
+"To get a ecommerce_api_client, this package must be installed in an Open edX"
+" environment."
+msgstr ""
+"ecommerce_api_client ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ, ਇਸ ਪੈਕੇਜ ਨੂੰ ਇੱਕ Open edX ਵਾਤਾਵਰਣ ਵਿੱਚ "
+"ਸਥਾਪਿਤ ਕੀਤਾ ਜਾਣਾ ਚਾਹੀਦਾ ਹੈ।"
+
+#: enterprise/constants.py:14
+#, python-brace-format
+msgid ""
+"To log in using this SSO identity provider and access special course offers,"
+" you must first consent to share your learning achievements with "
+"{enterprise_customer_name}."
+msgstr ""
+"ਇਸ SSO ਪਛਾਣ ਪ੍ਰਦਾਤਾ ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਲੌਗਇਨ ਕਰਨ ਅਤੇ ਵਿਸ਼ੇਸ਼ ਕੋਰਸ ਪੇਸ਼ਕਸ਼ਾਂ ਤੱਕ "
+"ਪਹੁੰਚ ਕਰਨ ਲਈ, ਤੁਹਾਨੂੰ ਪਹਿਲਾਂ ਆਪਣੀਆਂ ਸਿੱਖਣ ਪ੍ਰਾਪਤੀਆਂ ਨੂੰ "
+"{enterprise_customer_name} ਨਾਲ ਸਾਂਝਾ ਕਰਨ ਲਈ ਸਹਿਮਤੀ ਦੇਣੀ ਪਵੇਗੀ।"
+
+#: enterprise/constants.py:18
+#, python-brace-format
+msgid ""
+"In order to sign in and access special offers, you must consent to share "
+"your course data with {enterprise_customer_name}."
+msgstr ""
+"ਸਾਈਨ ਇਨ ਕਰਨ ਅਤੇ ਵਿਸ਼ੇਸ਼ ਪੇਸ਼ਕਸ਼ਾਂ ਤੱਕ ਪਹੁੰਚ ਕਰਨ ਲਈ, ਤੁਹਾਨੂੰ ਆਪਣਾ ਕੋਰਸ ਡੇਟਾ "
+"{enterprise_customer_name} ਨਾਲ ਸਾਂਝਾ ਕਰਨ ਲਈ ਸਹਿਮਤੀ ਦੇਣੀ ਪਵੇਗੀ।"
+
+#: enterprise/constants.py:22
+#, python-brace-format
+msgid ""
+"If you do not consent to share your course data, that information may be "
+"shared with {enterprise_customer_name}."
+msgstr ""
+"ਜੇਕਰ ਤੁਸੀਂ ਆਪਣਾ ਕੋਰਸ ਡੇਟਾ ਸਾਂਝਾ ਕਰਨ ਲਈ ਸਹਿਮਤੀ ਨਹੀਂ ਦਿੰਦੇ ਹੋ, ਤਾਂ ਉਹ ਜਾਣਕਾਰੀ "
+"{enterprise_customer_name} ਨਾਲ ਸਾਂਝੀ ਕੀਤੀ ਜਾ ਸਕਦੀ ਹੈ।"
+
+#: enterprise/constants.py:25
+#, python-brace-format
+msgid "Welcome to {platform_name}."
+msgstr "{platform_name} ਵਿੱਚ ਤੁਹਾਡਾ ਸਵਾਗਤ ਹੈ।"
+
+#: enterprise/constants.py:27
+#, python-brace-format
+msgid ""
+"You have left the {strong_start}{enterprise_customer_name}{strong_end} "
+"website and are now on the {platform_name} site. {enterprise_customer_name} "
+"has partnered with {platform_name} to offer you high-quality, always "
+"available learning programs to help you advance your knowledge and career. "
+"{line_break}Please note that {platform_name} has a different "
+"{privacy_policy_link_start}Privacy Policy {privacy_policy_link_end} from "
+"{enterprise_customer_name}."
+msgstr ""
+"ਤੁਸੀਂ {strong_start}{enterprise_customer_name}{strong_end} ਵੈੱਬਸਾਈਟ ਛੱਡ "
+"ਦਿੱਤੀ ਹੈ ਅਤੇ ਹੁਣ {platform_name} ਸਾਈਟ 'ਤੇ ਹੋ। {enterprise_customer_name} ਨੇ "
+"ਤੁਹਾਨੂੰ ਉੱਚ-ਗੁਣਵੱਤਾ ਵਾਲੇ, ਹਮੇਸ਼ਾ ਉਪਲਬਧ ਸਿਖਲਾਈ ਪ੍ਰੋਗਰਾਮ ਪੇਸ਼ ਕਰਨ ਲਈ "
+"{platform_name} ਨਾਲ ਭਾਈਵਾਲੀ ਕੀਤੀ ਹੈ ਤਾਂ ਜੋ ਤੁਹਾਡੇ ਗਿਆਨ ਅਤੇ ਕਰੀਅਰ ਨੂੰ ਅੱਗੇ "
+"ਵਧਾਉਣ ਵਿੱਚ ਤੁਹਾਡੀ ਮਦਦ ਕੀਤੀ ਜਾ ਸਕੇ। {line_break}ਕਿਰਪਾ ਕਰਕੇ ਧਿਆਨ ਦਿਓ ਕਿ "
+"{platform_name} ਦੀ {enterprise_customer_name} ਤੋਂ ਇੱਕ ਵੱਖਰੀ "
+"{privacy_policy_link_start}ਗੋਪਨੀਯਤਾ ਨੀਤੀ {privacy_policy_link_end} ਹੈ।"
+
+#: enterprise/constants.py:88
+msgid ""
+"A series of Master’s-level courses to advance your career, created by top "
+"universities and recognized by companies. MicroMasters Programs are credit-"
+"eligible, provide in-demand knowledge and may be applied to accelerate a "
+"Master’s Degree."
+msgstr ""
+"ਤੁਹਾਡੇ ਕਰੀਅਰ ਨੂੰ ਅੱਗੇ ਵਧਾਉਣ ਲਈ ਮਾਸਟਰ-ਪੱਧਰ ਦੇ ਕੋਰਸਾਂ ਦੀ ਇੱਕ ਲੜੀ, ਜੋ ਕਿ ਚੋਟੀ "
+"ਦੀਆਂ ਯੂਨੀਵਰਸਿਟੀਆਂ ਦੁਆਰਾ ਬਣਾਈ ਗਈ ਹੈ ਅਤੇ ਕੰਪਨੀਆਂ ਦੁਆਰਾ ਮਾਨਤਾ ਪ੍ਰਾਪਤ ਹੈ। "
+"ਮਾਈਕ੍ਰੋਮਾਸਟਰ ਪ੍ਰੋਗਰਾਮ ਕ੍ਰੈਡਿਟ-ਯੋਗ ਹਨ, ਮੰਗ ਅਨੁਸਾਰ ਗਿਆਨ ਪ੍ਰਦਾਨ ਕਰਦੇ ਹਨ ਅਤੇ "
+"ਮਾਸਟਰ ਡਿਗਰੀ ਨੂੰ ਤੇਜ਼ ਕਰਨ ਲਈ ਲਾਗੂ ਕੀਤੇ ਜਾ ਸਕਦੇ ਹਨ।"
+
+#: enterprise/constants.py:94
+msgid ""
+"Designed by industry leaders and top universities to enhance professional "
+"skills, Professional Certificates develop the proficiency and expertise that"
+" employers are looking for with specialized training and professional "
+"education."
+msgstr ""
+"ਉਦਯੋਗ ਦੇ ਆਗੂਆਂ ਅਤੇ ਚੋਟੀ ਦੀਆਂ ਯੂਨੀਵਰਸਿਟੀਆਂ ਦੁਆਰਾ ਪੇਸ਼ੇਵਰ ਹੁਨਰਾਂ ਨੂੰ ਵਧਾਉਣ ਲਈ "
+"ਤਿਆਰ ਕੀਤਾ ਗਿਆ, ਪੇਸ਼ੇਵਰ ਸਰਟੀਫਿਕੇਟ ਉਸ ਮੁਹਾਰਤ ਅਤੇ ਮੁਹਾਰਤ ਨੂੰ ਵਿਕਸਤ ਕਰਦੇ ਹਨ "
+"ਜਿਸਦੀ ਮਾਲਕ ਵਿਸ਼ੇਸ਼ ਸਿਖਲਾਈ ਅਤੇ ਪੇਸ਼ੇਵਰ ਸਿੱਖਿਆ ਨਾਲ ਭਾਲ ਕਰ ਰਹੇ ਹਨ।"
+
+#: enterprise/constants.py:100
+msgid ""
+"Created by world-renowned experts and top universities, XSeries are designed"
+" to provide a deep understanding of key subjects through a series of "
+"courses. Complete the series to earn a valuable XSeries Certificate that "
+"illustrates your achievement."
+msgstr ""
+"ਵਿਸ਼ਵ-ਪ੍ਰਸਿੱਧ ਮਾਹਿਰਾਂ ਅਤੇ ਚੋਟੀ ਦੀਆਂ ਯੂਨੀਵਰਸਿਟੀਆਂ ਦੁਆਰਾ ਤਿਆਰ ਕੀਤਾ ਗਿਆ, "
+"XSeries ਕੋਰਸਾਂ ਦੀ ਇੱਕ ਲੜੀ ਰਾਹੀਂ ਮੁੱਖ ਵਿਸ਼ਿਆਂ ਦੀ ਡੂੰਘੀ ਸਮਝ ਪ੍ਰਦਾਨ ਕਰਨ ਲਈ ਤਿਆਰ"
+" ਕੀਤਾ ਗਿਆ ਹੈ। ਇੱਕ ਕੀਮਤੀ XSeries ਸਰਟੀਫਿਕੇਟ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ ਲੜੀ ਨੂੰ ਪੂਰਾ ਕਰੋ ਜੋ "
+"ਤੁਹਾਡੀ ਪ੍ਰਾਪਤੀ ਨੂੰ ਦਰਸਾਉਂਦਾ ਹੈ।"
+
+#: enterprise/forms.py:15
+msgid ""
+"You have access to multiple organizations. Select the organization that you "
+"will use to sign up for courses. If you want to change organizations, sign "
+"out and sign back in."
+msgstr ""
+"ਤੁਹਾਡੇ ਕੋਲ ਕਈ ਸੰਸਥਾਵਾਂ ਤੱਕ ਪਹੁੰਚ ਹੈ। ਉਹ ਸੰਸਥਾ ਚੁਣੋ ਜਿਸਦੀ ਵਰਤੋਂ ਤੁਸੀਂ ਕੋਰਸਾਂ "
+"ਲਈ ਸਾਈਨ ਅੱਪ ਕਰਨ ਲਈ ਕਰੋਗੇ। ਜੇਕਰ ਤੁਸੀਂ ਸੰਸਥਾਵਾਂ ਬਦਲਣਾ ਚਾਹੁੰਦੇ ਹੋ, ਤਾਂ ਸਾਈਨ ਆਊਟ"
+" ਕਰੋ ਅਤੇ ਵਾਪਸ ਸਾਈਨ ਇਨ ਕਰੋ।"
+
+#: enterprise/forms.py:18
+msgid "Enter the organization name"
+msgstr "ਸੰਸਥਾ ਦਾ ਨਾਮ ਦਰਜ ਕਰੋ"
+
+#: enterprise/forms.py:20
+msgid ""
+"Have an account through your company, school, or organization? Enter your "
+"organization’s name below to sign in."
+msgstr ""
+"ਕੀ ਤੁਹਾਡੀ ਕੰਪਨੀ, ਸਕੂਲ, ਜਾਂ ਸੰਸਥਾ ਰਾਹੀਂ ਕੋਈ ਖਾਤਾ ਹੈ? ਸਾਈਨ ਇਨ ਕਰਨ ਲਈ ਹੇਠਾਂ "
+"ਆਪਣੀ ਸੰਸਥਾ ਦਾ ਨਾਮ ਦਰਜ ਕਰੋ।"
+
+#: enterprise/forms.py:23
+msgid ""
+"The attempt to login with this organization name was not successful. Please "
+"try again, or contact our support."
+msgstr ""
+"ਇਸ ਸੰਸਥਾ ਦੇ ਨਾਮ ਨਾਲ ਲੌਗਇਨ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਸਫਲ ਨਹੀਂ ਹੋਈ। ਕਿਰਪਾ ਕਰਕੇ ਦੁਬਾਰਾ "
+"ਕੋਸ਼ਿਸ਼ ਕਰੋ, ਜਾਂ ਸਾਡੀ ਸਹਾਇਤਾ ਨਾਲ ਸੰਪਰਕ ਕਰੋ।"
+
+#: enterprise/forms.py:60
+msgid "Enterprise not found"
+msgstr "ਐਂਟਰਪ੍ਰਾਈਜ਼ ਨਹੀਂ ਮਿਲਿਆ"
+
+#: enterprise/forms.py:64
+msgid "Wrong Enterprise"
+msgstr "ਗਲਤ ਐਂਟਰਪ੍ਰਾਈਜ਼"
+
+#: enterprise/management/commands/migrate_enterprise_catalogs.py:30
+msgid "Username of a user authorized to access the Enterprise Catalog API."
+msgstr ""
+"ਐਂਟਰਪ੍ਰਾਈਜ਼ ਕੈਟਾਲਾਗ API ਤੱਕ ਪਹੁੰਚ ਕਰਨ ਲਈ ਅਧਿਕਾਰਤ ਵਰਤੋਂਕਾਰ ਦਾ ਵਰਤੋਂਕਾਰ ਨਾਮ।"
+
+#: enterprise/management/commands/migrate_enterprise_catalogs.py:36
+msgid "Comma separated list of uuids of enterprise catalogs to migrate."
+msgstr ""
+"ਮਾਈਗ੍ਰੇਟ ਕਰਨ ਲਈ ਐਂਟਰਪ੍ਰਾਈਜ਼ ਕੈਟਾਲਾਗਾਂ ਦੇ uuids ਦੀ ਕਾਮੇ ਨਾਲ ਵੱਖ ਕੀਤੀ ਸੂਚੀ।"
+
+#: enterprise/management/commands/update_config_last_errored_at.py:64
+msgid ""
+"\n"
+"    Set error state for configurations.\n"
+"    "
+msgstr "ਸੰਰਚਨਾਵਾਂ ਲਈ ਗਲਤੀ ਸਥਿਤੀ ਸੈੱਟ ਕਰੋ।"
+
+#: enterprise/messages.py:24
+#, python-brace-format
+msgid ""
+"{strong_start}We could not enroll you in "
+"{em_start}{item}{em_end}.{strong_end} {span_start}If you have questions or "
+"concerns about sharing your data, please contact your learning manager at "
+"{enterprise_customer_name}, or contact {link_start}{platform_name} "
+"support{link_end}.{span_end}"
+msgstr ""
+"{strong_start}ਅਸੀਂ ਤੁਹਾਨੂੰ {em_start}{item}{em_end} ਵਿੱਚ ਦਰਜ ਨਹੀਂ ਕਰਵਾ "
+"ਸਕੇ।{strong_end} {span_start}ਜੇਕਰ ਤੁਹਾਡੇ ਡੇਟਾ ਨੂੰ ਸਾਂਝਾ ਕਰਨ ਬਾਰੇ ਕੋਈ ਸਵਾਲ "
+"ਜਾਂ ਚਿੰਤਾਵਾਂ ਹਨ, ਤਾਂ ਕਿਰਪਾ ਕਰਕੇ {enterprise_customer_name} 'ਤੇ ਆਪਣੇ ਸਿਖਲਾਈ "
+"ਪ੍ਰਬੰਧਕ ਨਾਲ ਸੰਪਰਕ ਕਰੋ, ਜਾਂ {link_start}{platform_name} ਸਹਾਇਤਾ{link_end} ਨਾਲ "
+"ਸੰਪਰਕ ਕਰੋ।{span_end}"
+
+#: enterprise/messages.py:55
+#, python-brace-format
+msgid ""
+"{strong_start}We could not gather price information for "
+"{em_start}{item}{em_end}.{strong_end} {span_start}If you continue to have "
+"these issues, please contact {link_start}{platform_name} "
+"support{link_end}.{span_end}"
+msgstr ""
+"{strong_start}ਅਸੀਂ {em_start}{item}{em_end} ਲਈ ਕੀਮਤ ਜਾਣਕਾਰੀ ਇਕੱਠੀ ਨਹੀਂ ਕਰ "
+"ਸਕੇ।{strong_end} {span_start}ਜੇਕਰ ਤੁਹਾਨੂੰ ਇਹ ਸਮੱਸਿਆਵਾਂ ਆਉਂਦੀਆਂ ਰਹਿੰਦੀਆਂ ਹਨ, "
+"ਤਾਂ ਕਿਰਪਾ ਕਰਕੇ {link_start}{platform_name} ਸਹਾਇਤਾ{link_end} ਨਾਲ ਸੰਪਰਕ "
+"ਕਰੋ।{span_end}"
+
+#: enterprise/messages.py:85
+#, python-brace-format
+msgid ""
+"{strong_start}Something happened.{strong_end} {span_start}This {item} is not"
+" currently open to new learners. Please start over and select a different "
+"{item}.{span_end}"
+msgstr ""
+"{strong_start}ਕੁਝ ਹੋਇਆ।{strong_end} {span_start}ਇਹ {item} ਇਸ ਵੇਲੇ ਨਵੇਂ "
+"ਸਿਖਿਆਰਥੀਆਂ ਲਈ ਖੁੱਲ੍ਹਾ ਨਹੀਂ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਦੁਬਾਰਾ ਸ਼ੁਰੂ ਕਰੋ ਅਤੇ ਇੱਕ ਵੱਖਰੀ "
+"{item} ਚੁਣੋ।{span_end}"
+
+#: enterprise/messages.py:111
+#, python-brace-format
+msgid ""
+"{strong_start}Something happened.{strong_end} {span_start}Please reach out "
+"to your learning administrator with the following error code and they will "
+"be able to help you out.{span_end}{span_start}Error code: "
+"{error_code}{span_end}{span_start}Username: {username}{span_end}"
+msgstr ""
+"{strong_start}ਕੁਝ ਹੋਇਆ।{strong_end} {span_start}ਕਿਰਪਾ ਕਰਕੇ ਹੇਠਾਂ ਦਿੱਤੇ ਗਲਤੀ "
+"ਕੋਡ ਨਾਲ ਆਪਣੇ ਸਿਖਲਾਈ ਪ੍ਰਸ਼ਾਸਕ ਨਾਲ ਸੰਪਰਕ ਕਰੋ ਅਤੇ ਉਹ ਤੁਹਾਡੀ ਮਦਦ ਕਰ "
+"ਸਕਣਗੇ।{span_end}{span_start}ਗਲਤੀ ਕੋਡ: "
+"{error_code}{span_end}{span_start}ਉਪਭੋਗਤਾ ਨਾਮ: {username}{span_end}"
+
+#: enterprise/models.py:147
+msgid "Enterprise Customer Type"
+msgstr "ਐਂਟਰਪ੍ਰਾਈਜ਼ ਗਾਹਕ ਕਿਸਮ"
+
+#: enterprise/models.py:148
+msgid "Enterprise Customer Types"
+msgstr "ਐਂਟਰਪ੍ਰਾਈਜ਼ ਗਾਹਕ ਕਿਸਮਾਂ"
+
+#: enterprise/models.py:155
+msgid "Specifies enterprise customer type."
+msgstr "ਐਂਟਰਪ੍ਰਾਈਜ਼ ਗਾਹਕ ਕਿਸਮ ਦੱਸਦਾ ਹੈ।"
+
+#: enterprise/models.py:215 enterprise/models.py:3404
+msgid "Enterprise Customer"
+msgstr "ਐਂਟਰਪ੍ਰਾਈਜ਼ ਗਾਹਕ"
+
+#: enterprise/models.py:216
+msgid "Enterprise Customers"
+msgstr "ਐਂਟਰਪ੍ਰਾਈਜ਼ ਗਾਹਕ"
+
+#: enterprise/models.py:223
+msgid "Enterprise Customer name."
+msgstr "ਐਂਟਰਪ੍ਰਾਈਜ਼ ਗਾਹਕ ਦਾ ਨਾਮ।"
+
+#: enterprise/models.py:243
+msgid "Hides course price on learning platform course confirmation screen."
+msgstr "ਲਰਨਿੰਗ ਪਲੇਟਫਾਰਮ ਕੋਰਸ ਪੁਸ਼ਟੀਕਰਨ ਸਕ੍ਰੀਨ 'ਤੇ ਕੋਰਸ ਦੀ ਕੀਮਤ ਲੁਕਾਉਂਦਾ ਹੈ।"
+
+#: enterprise/models.py:266
+msgid ""
+"Enables data sharing consent prompt for learners each time they enroll in a "
+"course. If left unchecked, the prompt will not appear and relevant data will"
+" not be shared."
+msgstr ""
+"ਹਰ ਵਾਰ ਜਦੋਂ ਸਿਖਿਆਰਥੀ ਕਿਸੇ ਕੋਰਸ ਵਿੱਚ ਦਾਖਲਾ ਲੈਂਦੇ ਹਨ ਤਾਂ ਡਾਟਾ ਸਾਂਝਾਕਰਨ ਸਹਿਮਤੀ "
+"ਪ੍ਰੋਂਪਟ ਨੂੰ ਸਮਰੱਥ ਬਣਾਉਂਦਾ ਹੈ। ਜੇਕਰ ਅਣਚੈਕ ਕੀਤਾ ਜਾਂਦਾ ਹੈ, ਤਾਂ ਪ੍ਰੋਂਪਟ ਦਿਖਾਈ "
+"ਨਹੀਂ ਦੇਵੇਗਾ ਅਤੇ ਸੰਬੰਧਿਤ ਡੇਟਾ ਸਾਂਝਾ ਨਹੀਂ ਕੀਤਾ ਜਾਵੇਗਾ।"
+
+#: enterprise/models.py:278
+msgid ""
+"Setting to either require learners to accept data sharing consent at course "
+"enrollment, or through an external process."
+msgstr ""
+"ਕੋਰਸ ਦਾਖਲੇ ਸਮੇਂ, ਜਾਂ ਕਿਸੇ ਬਾਹਰੀ ਪ੍ਰਕਿਰਿਆ ਰਾਹੀਂ, ਸਿਖਿਆਰਥੀਆਂ ਨੂੰ ਡੇਟਾ ਸਾਂਝਾ "
+"ਕਰਨ ਦੀ ਸਹਿਮਤੀ ਸਵੀਕਾਰ ਕਰਨ ਦੀ ਲੋੜ ਲਈ ਸੈੱਟ ਕਰਨਾ।"
+
+#: enterprise/models.py:287
+msgid ""
+"Allows learners enrolling through learning platforms to select the audit "
+"track."
+msgstr ""
+"ਲਰਨਿੰਗ ਪਲੇਟਫਾਰਮਾਂ ਰਾਹੀਂ ਦਾਖਲਾ ਲੈਣ ਵਾਲੇ ਸਿਖਿਆਰਥੀਆਂ ਨੂੰ ਆਡਿਟ ਟਰੈਕ ਚੁਣਨ ਦੀ ਆਗਿਆ"
+" ਦਿੰਦਾ ਹੈ।"
+
+#: enterprise/models.py:295
+msgid ""
+"Enables transmission of audit enrollment data from learning platform "
+"learners."
+msgstr ""
+"ਲਰਨਿੰਗ ਪਲੇਟਫਾਰਮ ਸਿੱਖਣ ਵਾਲਿਆਂ ਤੋਂ ਆਡਿਟ ਨਾਮਾਂਕਣ ਡੇਟਾ ਦੇ ਸੰਚਾਰ ਨੂੰ ਸਮਰੱਥ "
+"ਬਣਾਉਂਦਾ ਹੈ।"
+
+#: enterprise/models.py:303
+msgid ""
+"Specifies whether to replace the display of potentially sensitive SSO "
+"usernames with a more generic name, e.g. EnterpriseLearner."
+msgstr ""
+"ਇਹ ਦੱਸਦਾ ਹੈ ਕਿ ਸੰਭਾਵੀ ਤੌਰ 'ਤੇ ਸੰਵੇਦਨਸ਼ੀਲ SSO ਉਪਭੋਗਤਾ ਨਾਮਾਂ ਦੇ ਪ੍ਰਦਰਸ਼ਨ ਨੂੰ "
+"ਇੱਕ ਹੋਰ ਆਮ ਨਾਮ ਨਾਲ ਬਦਲਣਾ ਹੈ, ਜਿਵੇਂ ਕਿ EnterpriseLearner।"
+
+#: enterprise/models.py:314
+msgid ""
+"Specifies whether the customer is able to assign learners to cohorts upon "
+"enrollment."
+msgstr ""
+"ਇਹ ਦੱਸਦਾ ਹੈ ਕਿ ਕੀ ਗਾਹਕ ਦਾਖਲੇ 'ਤੇ ਸਿਖਿਆਰਥੀਆਂ ਨੂੰ ਸਮੂਹਾਂ ਵਿੱਚ ਨਿਯੁਕਤ ਕਰਨ ਦੇ "
+"ਯੋਗ ਹੈ।"
+
+#: enterprise/models.py:319
+msgid "Customer Type"
+msgstr "ਗਾਹਕ ਦੀ ਕਿਸਮ"
+
+#: enterprise/models.py:327
+msgid ""
+"If checked, learners and admins will not receive notifications leading up to"
+" the expiration date for learner credit plans. This includes removing the "
+"expiration date from the subsidy box for upcoming expirations. The subsidy "
+"summary box will not display for expired plans. Other notifications "
+"signaling the expiration (and loss of usability) itself will still appear."
+msgstr ""
+"ਜੇਕਰ ਚੈੱਕ ਕੀਤਾ ਜਾਂਦਾ ਹੈ, ਤਾਂ ਸਿਖਿਆਰਥੀਆਂ ਅਤੇ ਪ੍ਰਸ਼ਾਸਕਾਂ ਨੂੰ ਸਿੱਖਣ ਵਾਲੇ "
+"ਕ੍ਰੈਡਿਟ ਯੋਜਨਾਵਾਂ ਦੀ ਮਿਆਦ ਪੁੱਗਣ ਦੀ ਮਿਤੀ ਤੋਂ ਪਹਿਲਾਂ ਦੀਆਂ ਸੂਚਨਾਵਾਂ ਪ੍ਰਾਪਤ ਨਹੀਂ "
+"ਹੋਣਗੀਆਂ। ਇਸ ਵਿੱਚ ਆਉਣ ਵਾਲੀਆਂ ਮਿਆਦ ਪੁੱਗਣ ਦੀ ਮਿਤੀ ਲਈ ਸਬਸਿਡੀ ਬਾਕਸ ਤੋਂ ਮਿਆਦ ਪੁੱਗਣ"
+" ਦੀ ਮਿਤੀ ਨੂੰ ਹਟਾਉਣਾ ਸ਼ਾਮਲ ਹੈ। ਮਿਆਦ ਪੁੱਗਣ ਵਾਲੀਆਂ ਯੋਜਨਾਵਾਂ ਲਈ ਸਬਸਿਡੀ ਸੰਖੇਪ "
+"ਬਾਕਸ ਪ੍ਰਦਰਸ਼ਿਤ ਨਹੀਂ ਹੋਵੇਗਾ। ਮਿਆਦ ਪੁੱਗਣ (ਅਤੇ ਵਰਤੋਂਯੋਗਤਾ ਦੇ ਨੁਕਸਾਨ) ਦਾ ਸੰਕੇਤ "
+"ਦੇਣ ਵਾਲੀਆਂ ਹੋਰ ਸੂਚਨਾਵਾਂ ਅਜੇ ਵੀ ਦਿਖਾਈ ਦੇਣਗੀਆਂ।"
+
+#: enterprise/models.py:341
+msgid ""
+"Enables the scheduled reporting configurations screen on the administrator "
+"portal."
+msgstr ""
+"ਐਡਮਿਨਿਸਟ੍ਰੇਟਰ ਪੋਰਟਲ 'ਤੇ ਸ਼ਡਿਊਲਡ ਰਿਪੋਰਟਿੰਗ ਕੌਂਫਿਗਰੇਸ਼ਨ ਸਕ੍ਰੀਨ ਨੂੰ ਸਮਰੱਥ "
+"ਬਣਾਉਂਦਾ ਹੈ।"
+
+#: enterprise/models.py:352
+msgid ""
+"Enables the Single Sign On (SSO) configuration screen on the administrator "
+"portal. "
+msgstr ""
+"ਐਡਮਿਨਿਸਟ੍ਰੇਟਰ ਪੋਰਟਲ 'ਤੇ ਸਿੰਗਲ ਸਾਈਨ ਆਨ (SSO) ਕੌਂਫਿਗਰੇਸ਼ਨ ਸਕ੍ਰੀਨ ਨੂੰ ਸਮਰੱਥ "
+"ਬਣਾਉਂਦਾ ਹੈ।"
+
+#: enterprise/models.py:367
+msgid ""
+"Automatically enabled. If unchecked, learners won't have access to the "
+"learner portal."
+msgstr ""
+"ਸਵੈਚਲਿਤ ਤੌਰ 'ਤੇ ਸਮਰੱਥ। ਜੇਕਰ ਅਣਚੈਕ ਕੀਤਾ ਜਾਂਦਾ ਹੈ, ਤਾਂ ਸਿਖਿਆਰਥੀਆਂ ਕੋਲ ਸਿੱਖਣ "
+"ਵਾਲੇ ਪੋਰਟਲ ਤੱਕ ਪਹੁੰਚ ਨਹੀਂ ਹੋਵੇਗੀ।"
+
+#: enterprise/models.py:373
+msgid ""
+"Specifies whether enterprise offers will be made known to learners in the "
+"learner portal. This only applies to customers with “offers”, the old "
+"version of learner credit."
+msgstr ""
+"ਇਹ ਦੱਸਦਾ ਹੈ ਕਿ ਕੀ ਐਂਟਰਪ੍ਰਾਈਜ਼ ਪੇਸ਼ਕਸ਼ਾਂ ਸਿੱਖਣ ਵਾਲੇ ਪੋਰਟਲ ਵਿੱਚ ਸਿਖਿਆਰਥੀਆਂ ਨੂੰ"
+" ਦੱਸੀਆਂ ਜਾਣਗੀਆਂ। ਇਹ ਸਿਰਫ਼ \"ਪੇਸ਼ਕਸ਼ਾਂ\" ਵਾਲੇ ਗਾਹਕਾਂ 'ਤੇ ਲਾਗੂ ਹੁੰਦਾ ਹੈ, ਜੋ ਕਿ"
+" ਸਿੱਖਣ ਵਾਲੇ ਕ੍ਰੈਡਿਟ ਦਾ ਪੁਰਾਣਾ ਸੰਸਕਰਣ ਹੈ।"
+
+#: enterprise/models.py:385
+msgid ""
+"Specifies whether to display the Learner Credit message box in the learner "
+"portal."
+msgstr ""
+"ਇਹ ਦੱਸਦਾ ਹੈ ਕਿ ਲਰਨਰ ਪੋਰਟਲ ਵਿੱਚ ਲਰਨਰ ਕ੍ਰੈਡਿਟ ਸੁਨੇਹਾ ਬਾਕਸ ਪ੍ਰਦਰਸ਼ਿਤ ਕਰਨਾ ਹੈ "
+"ਜਾਂ ਨਹੀਂ।"
+
+#: enterprise/models.py:391
+msgid ""
+"Hides labor market data from learners (populated by features using Lightcast"
+" integration). "
+msgstr ""
+"ਸਿਖਿਆਰਥੀਆਂ ਤੋਂ ਲੇਬਰ ਮਾਰਕੀਟ ਡੇਟਾ ਲੁਕਾਉਂਦਾ ਹੈ (ਲਾਈਟਕਾਸਟ ਏਕੀਕਰਣ ਦੀ ਵਰਤੋਂ ਕਰਦੇ "
+"ਹੋਏ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਦੁਆਰਾ ਭਰਿਆ ਹੋਇਆ)।"
+
+#: enterprise/models.py:398
+msgid ""
+"Automatically enabled. If unchecked, the learners won't be able to search "
+"for a course on the learner portal."
+msgstr ""
+"ਆਟੋਮੈਟਿਕਲੀ ਸਮਰੱਥ। ਜੇਕਰ ਅਣਚੈਕ ਨਹੀਂ ਕੀਤਾ ਜਾਂਦਾ, ਤਾਂ ਸਿਖਿਆਰਥੀ ਲਰਨਰ ਪੋਰਟਲ 'ਤੇ "
+"ਕੋਰਸ ਦੀ ਖੋਜ ਨਹੀਂ ਕਰ ਸਕਣਗੇ।"
+
+#: enterprise/models.py:407
+msgid ""
+"If checked, learners will be able to see content in the Learner Portal "
+"Sidebar found in the HTML box."
+msgstr ""
+"ਜੇਕਰ ਚੈੱਕ ਕੀਤਾ ਜਾਂਦਾ ਹੈ, ਤਾਂ ਸਿਖਿਆਰਥੀ HTML ਬਾਕਸ ਵਿੱਚ ਮਿਲਣ ਵਾਲੇ ਲਰਨਰ ਪੋਰਟਲ "
+"ਸਾਈਡਬਾਰ ਵਿੱਚ ਸਮੱਗਰੀ ਦੇਖ ਸਕਣਗੇ।"
+
+#: enterprise/models.py:415
+msgid ""
+"If checked, the learners will be able to see the pathways on the learner "
+"portal dashboard."
+msgstr ""
+"ਜੇਕਰ ਚੈੱਕ ਕੀਤਾ ਜਾਂਦਾ ਹੈ, ਤਾਂ ਸਿਖਿਆਰਥੀ ਲਰਨਰ ਪੋਰਟਲ ਡੈਸ਼ਬੋਰਡ 'ਤੇ ਰਸਤੇ ਦੇਖ "
+"ਸਕਣਗੇ।"
+
+#: enterprise/models.py:423
+msgid ""
+"If checked, the learners will be able to see the programs on the learner "
+"portal dashboard."
+msgstr ""
+"ਜੇਕਰ ਚੈੱਕ ਕੀਤਾ ਜਾਂਦਾ ਹੈ, ਤਾਂ ਸਿਖਿਆਰਥੀ ਲਰਨਰ ਪੋਰਟਲ ਡੈਸ਼ਬੋਰਡ 'ਤੇ ਪ੍ਰੋਗਰਾਮਾਂ ਨੂੰ"
+" ਦੇਖ ਸਕਣਗੇ।"
+
+#: enterprise/models.py:431
+msgid ""
+"If checked, the learners will be able to see the academies on the learner "
+"portal dashboard."
+msgstr ""
+"ਜੇਕਰ ਚੈੱਕ ਕੀਤਾ ਜਾਂਦਾ ਹੈ, ਤਾਂ ਸਿਖਿਆਰਥੀ ਲਰਨਰ ਪੋਰਟਲ ਡੈਸ਼ਬੋਰਡ 'ਤੇ ਅਕੈਡਮੀਆਂ ਨੂੰ "
+"ਦੇਖ ਸਕਣਗੇ।"
+
+#: enterprise/models.py:438
+msgid ""
+"If checked, search will be replaced with one academy on enterprise learner "
+"portal."
+msgstr ""
+"ਜੇਕਰ ਚੈੱਕ ਕੀਤਾ ਜਾਂਦਾ ਹੈ, ਤਾਂ ਖੋਜ ਨੂੰ ਐਂਟਰਪ੍ਰਾਈਜ਼ ਲਰਨਰ ਪੋਰਟਲ 'ਤੇ ਇੱਕ ਅਕੈਡਮੀ "
+"ਨਾਲ ਬਦਲ ਦਿੱਤਾ ਜਾਵੇਗਾ।"
+
+#: enterprise/models.py:445
+msgid ""
+"If checked, videos will be displayed in the search results on the learner "
+"portal."
+msgstr ""
+"ਜੇਕਰ ਚੈੱਕ ਕੀਤਾ ਜਾਂਦਾ ਹੈ, ਤਾਂ ਵੀਡੀਓ ਲਰਨਰ ਪੋਰਟਲ 'ਤੇ ਖੋਜ ਨਤੀਜਿਆਂ ਵਿੱਚ ਪ੍ਰਦਰਸ਼ਿਤ"
+" ਕੀਤੇ ਜਾਣਗੇ।"
+
+#: enterprise/models.py:451
+msgid ""
+"Automatically enabled. Displays advanced analytics page on the administrator"
+" portal, which includes skill and labor market data."
+msgstr ""
+"ਆਟੋਮੈਟਿਕਲੀ ਸਮਰੱਥ। ਪ੍ਰਸ਼ਾਸਕ ਪੋਰਟਲ 'ਤੇ ਉੱਨਤ ਵਿਸ਼ਲੇਸ਼ਣ ਪੰਨਾ ਪ੍ਰਦਰਸ਼ਿਤ ਕਰਦਾ ਹੈ, "
+"ਜਿਸ ਵਿੱਚ ਹੁਨਰ ਅਤੇ ਕਿਰਤ ਬਾਜ਼ਾਰ ਡੇਟਾ ਸ਼ਾਮਲ ਹੁੰਦਾ ਹੈ।"
+
+#: enterprise/models.py:459
+msgid ""
+"Enables the learning platform configuration screen on the administrator "
+"portal."
+msgstr ""
+"ਐਡਮਿਨਿਸਟ੍ਰੇਟਰ ਪੋਰਟਲ 'ਤੇ ਲਰਨਿੰਗ ਪਲੇਟਫਾਰਮ ਕੌਂਫਿਗਰੇਸ਼ਨ ਸਕ੍ਰੀਨ ਨੂੰ ਸਮਰੱਥ ਬਣਾਉਂਦਾ"
+" ਹੈ।"
+
+#: enterprise/models.py:465
+msgid ""
+"Allows a learner to input customer slug to identify their org in the SSO "
+"process. Should be enabled for customers that leverage SSO."
+msgstr ""
+"ਇੱਕ ਸਿੱਖਣ ਵਾਲੇ ਨੂੰ SSO ਪ੍ਰਕਿਰਿਆ ਵਿੱਚ ਆਪਣੇ ਸੰਗਠਨ ਦੀ ਪਛਾਣ ਕਰਨ ਲਈ ਗਾਹਕ ਸਲੱਗ "
+"ਇਨਪੁਟ ਕਰਨ ਦੀ ਆਗਿਆ ਦਿੰਦਾ ਹੈ। ਉਹਨਾਂ ਗਾਹਕਾਂ ਲਈ ਸਮਰੱਥ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ ਜੋ SSO ਦਾ "
+"ਲਾਭ ਉਠਾਉਂਦੇ ਹਨ।"
+
+#: enterprise/models.py:471
+msgid ""
+"Specifies whether the organization should have access to executive education"
+" 2U content."
+msgstr ""
+"ਇਹ ਦੱਸਦਾ ਹੈ ਕਿ ਕੀ ਸੰਗਠਨ ਕੋਲ ਕਾਰਜਕਾਰੀ ਸਿੱਖਿਆ 2U ਸਮੱਗਰੀ ਤੱਕ ਪਹੁੰਚ ਹੋਣੀ ਚਾਹੀਦੀ "
+"ਹੈ।"
+
+#: enterprise/models.py:477
+msgid ""
+"Display Demo data from analyitcs and learner progress report for demo "
+"customer."
+msgstr ""
+"ਡੈਮੋ ਗਾਹਕ ਲਈ ਵਿਸ਼ਲੇਸ਼ਣ ਅਤੇ ਸਿੱਖਣ ਵਾਲੇ ਦੀ ਪ੍ਰਗਤੀ ਰਿਪੋਰਟ ਤੋਂ ਡੈਮੋ ਡੇਟਾ "
+"ਪ੍ਰਦਰਸ਼ਿਤ ਕਰੋ।"
+
+#: enterprise/models.py:484
+msgid ""
+"Email linked on learner portal as public point of contact, will default to "
+"all admin users associated with this customer if left blank."
+msgstr ""
+"ਲਰਨਰ ਪੋਰਟਲ 'ਤੇ ਜਨਤਕ ਸੰਪਰਕ ਬਿੰਦੂ ਵਜੋਂ ਲਿੰਕ ਕੀਤੀ ਗਈ ਈਮੇਲ, ਜੇਕਰ ਖਾਲੀ ਛੱਡ ਦਿੱਤੀ "
+"ਜਾਂਦੀ ਹੈ ਤਾਂ ਇਸ ਗਾਹਕ ਨਾਲ ਜੁੜੇ ਸਾਰੇ ਐਡਮਿਨ ਉਪਭੋਗਤਾਵਾਂ ਲਈ ਡਿਫੌਲਟ ਹੋ ਜਾਵੇਗੀ।"
+
+#: enterprise/models.py:494
+msgid ""
+"Specifies the discount percent used for enrollments from the enrollment API "
+"where capturing the discount per order is not possible. This is passed to "
+"ecommerce when creating orders for financial data reporting."
+msgstr ""
+"ਨਾਮਾਂਕਣ API ਤੋਂ ਨਾਮਾਂਕਣਾਂ ਲਈ ਵਰਤੇ ਜਾਣ ਵਾਲੇ ਛੋਟ ਪ੍ਰਤੀਸ਼ਤ ਨੂੰ ਦਰਸਾਉਂਦਾ ਹੈ "
+"ਜਿੱਥੇ ਪ੍ਰਤੀ ਆਰਡਰ ਛੋਟ ਹਾਸਲ ਕਰਨਾ ਸੰਭਵ ਨਹੀਂ ਹੈ। ਵਿੱਤੀ ਡੇਟਾ ਰਿਪੋਰਟਿੰਗ ਲਈ ਆਰਡਰ "
+"ਬਣਾਉਂਦੇ ਸਮੇਂ ਇਹ ਈ-ਕਾਮਰਸ ਨੂੰ ਪਾਸ ਕੀਤਾ ਜਾਂਦਾ ਹੈ।"
+
+#: enterprise/models.py:508
+msgid "Specifies the default language for learners of the organization."
+msgstr "ਸੰਗਠਨ ਦੇ ਸਿਖਿਆਰਥੀਆਂ ਲਈ ਡਿਫਾਲਟ ਭਾਸ਼ਾ ਨਿਰਧਾਰਤ ਕਰਦਾ ਹੈ।"
+
+#: enterprise/models.py:518
+msgid "Specifies the sender alias for automated emails from the edX system."
+msgstr "edX ਸਿਸਟਮ ਤੋਂ ਆਟੋਮੇਟਿਡ ਈਮੇਲਾਂ ਲਈ ਭੇਜਣ ਵਾਲੇ ਦਾ ਉਪਨਾਮ ਨਿਰਧਾਰਤ ਕਰਦਾ ਹੈ।"
+
+#: enterprise/models.py:526
+msgid ""
+"Email address that will receive learner replies to automated edX emails."
+msgstr "ਈਮੇਲ ਪਤਾ ਜੋ ਸਵੈਚਲਿਤ edX ਈਮੇਲਾਂ ਦੇ ਸਿਖਿਆਰਥੀਆਂ ਦੇ ਜਵਾਬ ਪ੍ਰਾਪਤ ਕਰੇਗਾ।"
+
+#: enterprise/models.py:537
+msgid ""
+"Text shown on the learner portal dashboard for customer specific purposes. "
+"Open HTML field."
+msgstr ""
+"ਗਾਹਕ ਖਾਸ ਉਦੇਸ਼ਾਂ ਲਈ ਲਰਨਰ ਪੋਰਟਲ ਡੈਸ਼ਬੋਰਡ 'ਤੇ ਦਿਖਾਇਆ ਗਿਆ ਟੈਕਸਟ। HTML ਖੇਤਰ "
+"ਖੋਲ੍ਹੋ।"
+
+#: enterprise/models.py:867
+msgid ""
+"Course details were not found for course key {} - Course Catalog API "
+"returned nothing. Proceeding with enrollment, but notifications won't be "
+"sent"
+msgstr ""
+"ਕੋਰਸ ਕੁੰਜੀ {} ਲਈ ਕੋਰਸ ਵੇਰਵੇ ਨਹੀਂ ਮਿਲੇ - ਕੋਰਸ ਕੈਟਾਲਾਗ API ਨੇ ਕੁਝ ਵੀ ਵਾਪਸ ਨਹੀਂ"
+" ਕੀਤਾ। ਦਾਖਲਾ ਜਾਰੀ ਹੈ, ਪਰ ਸੂਚਨਾਵਾਂ ਨਹੀਂ ਭੇਜੀਆਂ ਜਾਣਗੀਆਂ।"
+
+#: enterprise/models.py:1102
+msgid ""
+"When enabled along with `active`, all other linked enterprise customers for "
+"this user will be marked as inactive upon save."
+msgstr ""
+"ਜਦੋਂ `ਸਰਗਰਮ` ਦੇ ਨਾਲ ਸਮਰੱਥ ਬਣਾਇਆ ਜਾਂਦਾ ਹੈ, ਤਾਂ ਇਸ ਉਪਭੋਗਤਾ ਲਈ ਹੋਰ ਸਾਰੇ ਲਿੰਕ "
+"ਕੀਤੇ ਐਂਟਰਪ੍ਰਾਈਜ਼ ਗਾਹਕਾਂ ਨੂੰ ਸੇਵ ਕਰਨ 'ਤੇ ਅਕਿਰਿਆਸ਼ੀਲ ਵਜੋਂ ਚਿੰਨ੍ਹਿਤ ਕੀਤਾ "
+"ਜਾਵੇਗਾ।"
+
+#: enterprise/models.py:1109
+msgid "Enterprise Customer Learner"
+msgstr "ਐਂਟਰਪ੍ਰਾਈਜ਼ ਗਾਹਕ ਸਿੱਖਣ ਵਾਲਾ"
+
+#: enterprise/models.py:1110
+msgid "Enterprise Customer Learners"
+msgstr "ਐਂਟਰਪ੍ਰਾਈਜ਼ ਗਾਹਕ ਸਿੱਖਣ ਵਾਲੇ"
+
+#: enterprise/models.py:1738
+msgid "Logo images must be in .png format."
+msgstr "ਲੋਗੋ ਚਿੱਤਰ .png ਫਾਰਮੈਟ ਵਿੱਚ ਹੋਣੇ ਚਾਹੀਦੇ ਹਨ।"
+
+#: enterprise/models.py:1765
+msgid "Branding Configuration"
+msgstr "ਬ੍ਰਾਂਡਿੰਗ ਸੰਰਚਨਾ"
+
+#: enterprise/models.py:1766
+msgid "Branding Configurations"
+msgstr "ਬ੍ਰਾਂਡਿੰਗ ਸੰਰਚਨਾਵਾਂ"
+
+#: enterprise/models.py:1854
+msgid "Specifies whether this is default provider for enterprise customer."
+msgstr "ਇਹ ਦੱਸਦਾ ਹੈ ਕਿ ਕੀ ਇਹ ਐਂਟਰਪ੍ਰਾਈਜ਼ ਗਾਹਕ ਲਈ ਡਿਫੌਲਟ ਪ੍ਰਦਾਤਾ ਹੈ।"
+
+#: enterprise/models.py:1939
+msgid ""
+"The UUID of the course (not course run) in which the learner is entitled."
+msgstr "ਉਸ ਕੋਰਸ ਦਾ UUID (ਕੋਰਸ ਚਲਾਇਆ ਨਹੀਂ ਗਿਆ) ਜਿਸ ਵਿੱਚ ਸਿਖਿਆਰਥੀ ਹੱਕਦਾਰ ਹੈ।"
+
+#: enterprise/models.py:1949
+msgid "The enterprise learner to which this entitlement is attached."
+msgstr "ਉਹ ਐਂਟਰਪ੍ਰਾਈਜ਼ ਸਿੱਖਣ ਵਾਲਾ ਜਿਸ ਨਾਲ ਇਹ ਹੱਕ ਜੁੜਿਆ ਹੋਇਆ ਹੈ।"
+
+#: enterprise/models.py:2072
+msgid "The enterprise learner to which this enrollment is attached."
+msgstr "ਉਹ ਐਂਟਰਪ੍ਰਾਈਜ਼ ਲਰਨਰ ਜਿਸ ਨਾਲ ਇਹ ਨਾਮਾਂਕਣ ਜੁੜਿਆ ਹੋਇਆ ਹੈ।"
+
+#: enterprise/models.py:2079
+msgid "The ID of the course in which the learner was enrolled."
+msgstr "ਉਸ ਕੋਰਸ ਦੀ ਆਈਡੀ ਜਿਸ ਵਿੱਚ ਸਿਖਿਆਰਥੀ ਦਾਖਲ ਹੋਇਆ ਸੀ।"
+
+#: enterprise/models.py:2086
+msgid ""
+"Specifies whether a user marked this course as saved for later in the "
+"learner portal."
+msgstr ""
+"ਇਹ ਦੱਸਦਾ ਹੈ ਕਿ ਕੀ ਕਿਸੇ ਉਪਭੋਗਤਾ ਨੇ ਇਸ ਕੋਰਸ ਨੂੰ ਲਰਨਰ ਪੋਰਟਲ ਵਿੱਚ ਬਾਅਦ ਲਈ "
+"ਸੁਰੱਖਿਅਤ ਕੀਤੇ ਵਜੋਂ ਚਿੰਨ੍ਹਿਤ ਕੀਤਾ ਹੈ।"
+
+#: enterprise/models.py:2102
+msgid ""
+"Specifies whether the enterprise course enrollment's course enrollment "
+"object was unenrolled."
+msgstr ""
+"ਇਹ ਦੱਸਦਾ ਹੈ ਕਿ ਕੀ ਐਂਟਰਪ੍ਰਾਈਜ਼ ਕੋਰਸ ਨਾਮਾਂਕਣ ਦਾ ਕੋਰਸ ਨਾਮਾਂਕਣ ਵਸਤੂ ਅਣ-ਨਾਮਾਂਕਿਤ "
+"ਸੀ।"
+
+#: enterprise/models.py:2112
+msgid ""
+"Specifies when an enterprise course enrollment's course enrollment object "
+"was unenrolled."
+msgstr ""
+"ਇਹ ਦੱਸਦਾ ਹੈ ਕਿ ਕਿਸੇ ਐਂਟਰਪ੍ਰਾਈਜ਼ ਕੋਰਸ ਨਾਮਾਂਕਣ ਦੇ ਕੋਰਸ ਨਾਮਾਂਕਣ ਵਸਤੂ ਨੂੰ ਕਦੋਂ "
+"ਅਣ-ਨਾਮਾਂਕਿਤ ਕੀਤਾ ਗਿਆ ਸੀ।"
+
+#: enterprise/models.py:2370
+msgid "The course entitlement the associated subsidy is for."
+msgstr "ਸੰਬੰਧਿਤ ਸਬਸਿਡੀ ਜਿਸ ਕੋਰਸ ਹੱਕਦਾਰੀ ਲਈ ਹੈ।"
+
+#: enterprise/models.py:2381
+msgid "The course enrollment the associated subsidy is for."
+msgstr "ਜਿਸ ਕੋਰਸ ਦੇ ਦਾਖਲੇ ਲਈ ਸੰਬੰਧਿਤ ਸਬਸਿਡੀ ਹੈ।"
+
+#: enterprise/models.py:2388
+msgid ""
+"Whether the enterprise subsidy is revoked, e.g., when a user's license is "
+"revoked."
+msgstr ""
+"ਕੀ ਐਂਟਰਪ੍ਰਾਈਜ਼ ਸਬਸਿਡੀ ਰੱਦ ਕੀਤੀ ਜਾਂਦੀ ਹੈ, ਉਦਾਹਰਨ ਲਈ, ਜਦੋਂ ਕਿਸੇ ਉਪਭੋਗਤਾ ਦਾ "
+"ਲਾਇਸੈਂਸ ਰੱਦ ਕੀਤਾ ਜਾਂਦਾ ਹੈ।"
+
+#: enterprise/models.py:2549
+msgid "The customer for which this default enrollment will be realized."
+msgstr "ਜਿਸ ਗਾਹਕ ਲਈ ਇਹ ਡਿਫਾਲਟ ਨਾਮਾਂਕਣ ਪ੍ਰਾਪਤ ਕੀਤਾ ਜਾਵੇਗਾ।"
+
+#: enterprise/models.py:2558
+msgid "The type of content (e.g. a course vs. a course run)."
+msgstr "ਸਮੱਗਰੀ ਦੀ ਕਿਸਮ (ਜਿਵੇਂ ਕਿ ਇੱਕ ਕੋਰਸ ਬਨਾਮ ਇੱਕ ਕੋਰਸ ਦੌੜ)।"
+
+#: enterprise/models.py:2566
+msgid ""
+"A course or course run that related users should be automatically enrolled "
+"into."
+msgstr "ਇੱਕ ਕੋਰਸ ਜਾਂ ਕੋਰਸ ਰਨ ਜਿਸ ਵਿੱਚ ਸੰਬੰਧਿਤ ਉਪਭੋਗਤਾ ਆਪਣੇ ਆਪ ਹੀ ਦਾਖਲ ਹੋ ਜਾਣ।"
+
+#: enterprise/models.py:2738
+#, python-brace-format
+msgid ""
+"A default enrollment intention with this enterprise customer and content key"
+" already exists, but is soft-deleted. Please restore it <a "
+"href=\"{existing_record_admin_url}\">here</a>."
+msgstr ""
+"ਇਸ ਐਂਟਰਪ੍ਰਾਈਜ਼ ਗਾਹਕ ਅਤੇ ਸਮੱਗਰੀ ਕੁੰਜੀ ਦੇ ਨਾਲ ਇੱਕ ਡਿਫੌਲਟ ਨਾਮਾਂਕਣ ਇਰਾਦਾ ਪਹਿਲਾਂ "
+"ਹੀ ਮੌਜੂਦ ਹੈ, ਪਰ ਇਸਨੂੰ ਸਾਫਟ-ਡਿਲੀਟ ਕੀਤਾ ਗਿਆ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਇਸਨੂੰ <a "
+"href=\"{existing_record_admin_url}\">ਇੱਥੇ</a> ਰੀਸਟੋਰ ਕਰੋ।"
+
+#: enterprise/models.py:2753
+msgid "The content key did not resolve to a valid course run."
+msgstr "ਸਮੱਗਰੀ ਕੁੰਜੀ ਇੱਕ ਵੈਧ ਕੋਰਸ ਰਨ ਲਈ ਹੱਲ ਨਹੀਂ ਹੋਈ।"
+
+#: enterprise/models.py:2821
+msgid ""
+"Query parameters which will be used to filter the discovery service's "
+"search/all endpoint results, specified as a JSON object. An empty JSON "
+"object means that all available content items will be included in the "
+"catalog.  Must be unique."
+msgstr ""
+"ਪੁੱਛਗਿੱਛ ਪੈਰਾਮੀਟਰ ਜੋ ਕਿ ਖੋਜ ਸੇਵਾ ਦੇ ਖੋਜ/ਸਾਰੇ ਅੰਤਮ ਬਿੰਦੂ ਨਤੀਜਿਆਂ ਨੂੰ ਫਿਲਟਰ "
+"ਕਰਨ ਲਈ ਵਰਤੇ ਜਾਣਗੇ, ਇੱਕ JSON ਵਸਤੂ ਦੇ ਤੌਰ 'ਤੇ ਨਿਰਧਾਰਤ। ਇੱਕ ਖਾਲੀ JSON ਵਸਤੂ ਦਾ "
+"ਮਤਲਬ ਹੈ ਕਿ ਸਾਰੀਆਂ ਉਪਲਬਧ ਸਮੱਗਰੀ ਆਈਟਮਾਂ ਕੈਟਾਲਾਗ ਵਿੱਚ ਸ਼ਾਮਲ ਕੀਤੀਆਂ ਜਾਣਗੀਆਂ। "
+"ਵਿਲੱਖਣ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ।"
+
+#: enterprise/models.py:2836
+msgid ""
+"Specifies whether the catalog is allowed to include exec ed (2U) courses.  "
+"This means that, when the content_filter specifies that 'course' content "
+"types should be included in the catalog, executive-education-2u course types"
+" won't be excluded from the content of the associated catalog."
+msgstr ""
+"ਇਹ ਦੱਸਦਾ ਹੈ ਕਿ ਕੀ ਕੈਟਾਲਾਗ ਨੂੰ ਐਗਜ਼ੀਕਿਊਟਿਵ (2U) ਕੋਰਸਾਂ ਨੂੰ ਸ਼ਾਮਲ ਕਰਨ ਦੀ "
+"ਇਜਾਜ਼ਤ ਹੈ। ਇਸਦਾ ਮਤਲਬ ਹੈ ਕਿ, ਜਦੋਂ content_filter ਇਹ ਦੱਸਦਾ ਹੈ ਕਿ 'ਕੋਰਸ' ਸਮੱਗਰੀ"
+" ਕਿਸਮਾਂ ਨੂੰ ਕੈਟਾਲਾਗ ਵਿੱਚ ਸ਼ਾਮਲ ਕੀਤਾ ਜਾਣਾ ਚਾਹੀਦਾ ਹੈ, ਤਾਂ executive-"
+"education-2u ਕੋਰਸ ਕਿਸਮਾਂ ਨੂੰ ਸੰਬੰਧਿਤ ਕੈਟਾਲਾਗ ਦੀ ਸਮੱਗਰੀ ਤੋਂ ਬਾਹਰ ਨਹੀਂ ਰੱਖਿਆ "
+"ਜਾਵੇਗਾ।"
+
+#: enterprise/models.py:2843
+msgid "Enterprise Catalog Query"
+msgstr "ਐਂਟਰਪ੍ਰਾਈਜ਼ ਕੈਟਾਲਾਗ ਪੁੱਛਗਿੱਛ"
+
+#: enterprise/models.py:2844
+msgid "Enterprise Catalog Queries"
+msgstr "ਐਂਟਰਪ੍ਰਾਈਜ਼ ਕੈਟਾਲਾਗ ਪੁੱਛਗਿੱਛਾਂ"
+
+#: enterprise/models.py:2957
+msgid ""
+"Query parameters which will be used to filter the discovery service's "
+"search/all endpoint results, specified as a Json object. An empty Json "
+"object means that all available content items will be included in the "
+"catalog."
+msgstr ""
+"ਪੁੱਛਗਿੱਛ ਪੈਰਾਮੀਟਰ ਜੋ ਕਿ ਖੋਜ ਸੇਵਾ ਦੇ ਖੋਜ/ਸਾਰੇ ਅੰਤਮ ਬਿੰਦੂ ਨਤੀਜਿਆਂ ਨੂੰ ਫਿਲਟਰ "
+"ਕਰਨ ਲਈ ਵਰਤੇ ਜਾਣਗੇ, ਜੋ ਕਿ ਇੱਕ Json ਵਸਤੂ ਦੇ ਤੌਰ 'ਤੇ ਨਿਰਧਾਰਤ ਹਨ। ਇੱਕ ਖਾਲੀ Json "
+"ਵਸਤੂ ਦਾ ਮਤਲਬ ਹੈ ਕਿ ਸਾਰੀਆਂ ਉਪਲਬਧ ਸਮੱਗਰੀ ਆਈਟਮਾਂ ਕੈਟਾਲਾਗ ਵਿੱਚ ਸ਼ਾਮਲ ਕੀਤੀਆਂ "
+"ਜਾਣਗੀਆਂ।"
+
+#: enterprise/models.py:2965
+msgid ""
+"Ordered list of enrollment modes which can be displayed to learners for "
+"course runs in this catalog."
+msgstr ""
+"ਇਸ ਕੈਟਾਲਾਗ ਵਿੱਚ ਕੋਰਸ ਚਲਾਉਣ ਲਈ ਸਿਖਿਆਰਥੀਆਂ ਨੂੰ ਪ੍ਰਦਰਸ਼ਿਤ ਕੀਤੇ ਜਾ ਸਕਣ ਵਾਲੇ "
+"ਦਾਖਲੇ ਦੇ ਤਰੀਕਿਆਂ ਦੀ ਕ੍ਰਮਬੱਧ ਸੂਚੀ।"
+
+#: enterprise/models.py:2971
+msgid ""
+"Specifies whether courses should be published with direct-to-audit "
+"enrollment URLs."
+msgstr ""
+"ਇਹ ਦੱਸਦਾ ਹੈ ਕਿ ਕੀ ਕੋਰਸ ਡਾਇਰੈਕਟ-ਟੂ-ਆਡਿਟ ਨਾਮਾਂਕਣ URL ਨਾਲ ਪ੍ਰਕਾਸ਼ਿਤ ਕੀਤੇ ਜਾਣੇ "
+"ਚਾਹੀਦੇ ਹਨ।"
+
+#: enterprise/models.py:2978
+msgid "Enterprise Customer Catalog"
+msgstr "ਐਂਟਰਪ੍ਰਾਈਜ਼ ਗਾਹਕ ਕੈਟਾਲਾਗ"
+
+#: enterprise/models.py:2979 enterprise/models.py:3526
+msgid "Enterprise Customer Catalogs"
+msgstr "ਐਂਟਰਪ੍ਰਾਈਜ਼ ਗਾਹਕ ਕੈਟਾਲਾਗ"
+
+#: enterprise/models.py:3246
+msgid ""
+"Fill in a standard Django template that, when rendered, produces the email you want sent to newly-enrolled Enterprise Customer learners. The following variables may be available:\n"
+"<ul><li>user_name: A human-readable name for the person being emailed. Be sure to handle the case where this is not defined, as it may be missing in some cases. It may also be a username, if the learner hasn't configured their \"real\" name in the system.</li>    <li>organization_name: The name of the organization sponsoring the enrollment.</li>    <li>enrolled_in: Details of the course or program that was enrolled in. It may contain:    <ul><li>name: The name of the enrollable item (e.g., \"Demo Course\").</li>        <li>url: A link to the homepage of the enrolled-in item.</li>        <li>branding: A custom branding name for the enrolled-in item. For example, the branding of a MicroMasters program would be \"MicroMasters\".</li>     <li>start: The date the enrolled-in item becomes available. Render this to text using the Django `date` template filter (see <a href=\"https://docs.djangoproject.com/en/1.8/ref/templates/builtins/#date\">the Django documentation</a>).</li><li>type: Whether the enrolled-in item is a course, a program, or something else.</li></ul></ul>"
+msgstr ""
+"ਇੱਕ ਮਿਆਰੀ Django ਟੈਂਪਲੇਟ ਭਰੋ ਜੋ, ਜਦੋਂ ਰੈਂਡਰ ਕੀਤਾ ਜਾਂਦਾ ਹੈ, ਉਹ ਈਮੇਲ ਤਿਆਰ ਕਰਦਾ ਹੈ ਜੋ ਤੁਸੀਂ ਨਵੇਂ-ਨਾਮਜਦ ਕੀਤੇ ਐਂਟਰਪ੍ਰਾਈਜ਼ ਗਾਹਕ ਸਿਖਿਆਰਥੀਆਂ ਨੂੰ ਭੇਜਣਾ ਚਾਹੁੰਦੇ ਹੋ। ਹੇਠ ਲਿਖੇ ਵੇਰੀਏਬਲ ਉਪਲਬਧ ਹੋ ਸਕਦੇ ਹਨ:\n"
+"<ul><li>user_name: ਈਮੇਲ ਕੀਤੇ ਜਾ ਰਹੇ ਵਿਅਕਤੀ ਲਈ ਇੱਕ ਮਨੁੱਖੀ-ਪੜ੍ਹਨਯੋਗ ਨਾਮ। ਉਸ ਮਾਮਲੇ ਨੂੰ ਸੰਭਾਲਣਾ ਯਕੀਨੀ ਬਣਾਓ ਜਿੱਥੇ ਇਹ ਪਰਿਭਾਸ਼ਿਤ ਨਹੀਂ ਹੈ, ਕਿਉਂਕਿ ਇਹ ਕੁਝ ਮਾਮਲਿਆਂ ਵਿੱਚ ਗੁੰਮ ਹੋ ਸਕਦਾ ਹੈ। ਇਹ ਇੱਕ ਉਪਭੋਗਤਾ ਨਾਮ ਵੀ ਹੋ ਸਕਦਾ ਹੈ, ਜੇਕਰ ਸਿਖਿਆਰਥੀ ਨੇ ਸਿਸਟਮ ਵਿੱਚ ਆਪਣਾ \"ਅਸਲੀ\" ਨਾਮ ਕੌਂਫਿਗਰ ਨਹੀਂ ਕੀਤਾ ਹੈ।</li> <li>organization_name: ਨਾਮਾਂਕਣ ਨੂੰ ਸਪਾਂਸਰ ਕਰਨ ਵਾਲੀ ਸੰਸਥਾ ਦਾ ਨਾਮ।</li> <li>enrolled_in: ਕੋਰਸ ਜਾਂ ਪ੍ਰੋਗਰਾਮ ਦੇ ਵੇਰਵੇ ਜਿਸ ਵਿੱਚ ਨਾਮ ਦਰਜ ਕੀਤਾ ਗਿਆ ਸੀ। ਇਸ ਵਿੱਚ ਸ਼ਾਮਲ ਹੋ ਸਕਦੇ ਹਨ: <ul><li>name: ਨਾਮ ਦਰਜ ਕਰਨ ਯੋਗ ਆਈਟਮ ਦਾ ਨਾਮ (ਜਿਵੇਂ ਕਿ, \"ਡੈਮੋ ਕੋਰਸ\")।</li> <li>url: ਨਾਮ ਦਰਜ ਕੀਤੀ ਆਈਟਮ ਦੇ ਹੋਮਪੇਜ ਦਾ ਲਿੰਕ।</li> <li>ਬ੍ਰਾਂਡਿੰਗ: ਨਾਮ ਦਰਜ ਕੀਤੀ ਆਈਟਮ ਲਈ ਇੱਕ ਕਸਟਮ ਬ੍ਰਾਂਡਿੰਗ ਨਾਮ। ਉਦਾਹਰਨ ਲਈ, ਇੱਕ ਮਾਈਕ੍ਰੋਮਾਸਟਰ ਪ੍ਰੋਗਰਾਮ ਦੀ ਬ੍ਰਾਂਡਿੰਗ \"ਮਾਈਕ੍ਰੋਮਾਸਟਰ\" ਹੋਵੇਗੀ।</li> <li>ਸ਼ੁਰੂਆਤ: ਉਹ ਤਾਰੀਖ ਜਦੋਂ ਦਾਖਲ-ਇਨ ਆਈਟਮ ਉਪਲਬਧ ਹੁੰਦੀ ਹੈ। ਇਸਨੂੰ Django `date` ਟੈਂਪਲੇਟ ਫਿਲਟਰ ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਟੈਕਸਟ ਵਿੱਚ ਰੈਂਡਰ ਕਰੋ (<a href=\"https://docs.djangoproject.com/en/1.8/ref/templates/builtins/#date\">Django ਦਸਤਾਵੇਜ਼</a> ਵੇਖੋ)।</li><li>ਕਿਸਮ: ਕੀ ਦਾਖਲ-ਇਨ ਆਈਟਮ ਇੱਕ ਕੋਰਸ, ਇੱਕ ਪ੍ਰੋਗਰਾਮ, ਜਾਂ ਕੁਝ ਹੋਰ ਹੈ।</li></ul></ul>"
+
+#: enterprise/models.py:3264
+#, python-brace-format
+msgid ""
+"Enter a string that can be used to generate a dynamic subject line for "
+"notification emails. The placeholder {course_name} will be replaced with the"
+" name of the course or program that was enrolled in."
+msgstr ""
+"ਇੱਕ ਸਤਰ ਦਰਜ ਕਰੋ ਜਿਸਦੀ ਵਰਤੋਂ ਸੂਚਨਾ ਈਮੇਲਾਂ ਲਈ ਇੱਕ ਗਤੀਸ਼ੀਲ ਵਿਸ਼ਾ ਲਾਈਨ ਬਣਾਉਣ ਲਈ "
+"ਕੀਤੀ ਜਾ ਸਕਦੀ ਹੈ। ਪਲੇਸਹੋਲਡਰ {course_name} ਨੂੰ ਉਸ ਕੋਰਸ ਜਾਂ ਪ੍ਰੋਗਰਾਮ ਦੇ ਨਾਮ ਨਾਲ"
+" ਬਦਲ ਦਿੱਤਾ ਜਾਵੇਗਾ ਜਿਸ ਵਿੱਚ ਦਾਖਲਾ ਲਿਆ ਗਿਆ ਸੀ।"
+
+#: enterprise/models.py:3406
+msgid "Active"
+msgstr "ਕਿਰਿਆਸ਼ੀਲ"
+
+#: enterprise/models.py:3407
+msgid "Include Date"
+msgstr "ਮਿਤੀ ਸ਼ਾਮਲ ਕਰੋ"
+
+#: enterprise/models.py:3408
+msgid "Include date in the report file name"
+msgstr "ਰਿਪੋਰਟ ਫਾਈਲ ਨਾਮ ਵਿੱਚ ਤਾਰੀਖ ਸ਼ਾਮਲ ਕਰੋ"
+
+#: enterprise/models.py:3414
+msgid "Delivery Method"
+msgstr "ਡਿਲੀਵਰੀ ਵਿਧੀ"
+
+#: enterprise/models.py:3415
+msgid "The method in which the data should be sent."
+msgstr "ਉਹ ਤਰੀਕਾ ਜਿਸ ਵਿੱਚ ਡੇਟਾ ਭੇਜਿਆ ਜਾਣਾ ਚਾਹੀਦਾ ਹੈ।"
+
+#: enterprise/models.py:3420
+msgid ""
+"Specifies whether report should be compressed. Without compression files "
+"will not be password protected or encrypted."
+msgstr ""
+"ਇਹ ਦੱਸਦਾ ਹੈ ਕਿ ਕੀ ਰਿਪੋਰਟ ਨੂੰ ਸੰਕੁਚਿਤ ਕੀਤਾ ਜਾਣਾ ਚਾਹੀਦਾ ਹੈ। ਸੰਕੁਚਿਤ ਕੀਤੇ ਬਿਨਾਂ"
+" ਫਾਈਲਾਂ ਪਾਸਵਰਡ ਨਾਲ ਸੁਰੱਖਿਅਤ ਜਾਂ ਇਨਕ੍ਰਿਪਟਡ ਨਹੀਂ ਹੋਣਗੀਆਂ।"
+
+#: enterprise/models.py:3427
+msgid "PGP Encryption Key"
+msgstr "ਪੀਜੀਪੀ ਇਨਕ੍ਰਿਪਸ਼ਨ ਕੁੰਜੀ"
+
+#: enterprise/models.py:3428
+msgid "The key for encryption, if PGP encrypted file is required."
+msgstr "ਜੇਕਰ PGP ਇਨਕ੍ਰਿਪਟਡ ਫਾਈਲ ਦੀ ਲੋੜ ਹੋਵੇ, ਤਾਂ ਇਨਕ੍ਰਿਪਸ਼ਨ ਲਈ ਕੁੰਜੀ।"
+
+#: enterprise/models.py:3436
+msgid "Data Type"
+msgstr "ਡਾਟਾ ਕਿਸਮ"
+
+#: enterprise/models.py:3437
+msgid "The type of data this report should contain."
+msgstr "ਇਸ ਰਿਪੋਰਟ ਵਿੱਚ ਕਿਸ ਕਿਸਮ ਦਾ ਡੇਟਾ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ।"
+
+#: enterprise/models.py:3444
+msgid "Report Type"
+msgstr "ਰਿਪੋਰਟ ਕਿਸਮ"
+
+#: enterprise/models.py:3445
+msgid "The type this report should be sent as, e.g. CSV."
+msgstr ""
+"ਇਸ ਰਿਪੋਰਟ ਨੂੰ ਕਿਸ ਕਿਸਮ ਦੇ ਰੂਪ ਵਿੱਚ ਭੇਜਿਆ ਜਾਣਾ ਚਾਹੀਦਾ ਹੈ, ਜਿਵੇਂ ਕਿ CSV।"
+
+#: enterprise/models.py:3449
+msgid "Email"
+msgstr "ਈਮੇਲ"
+
+#: enterprise/models.py:3450
+msgid "The email(s), one per line, where the report should be sent."
+msgstr "ਈਮੇਲ(ਆਂ), ਪ੍ਰਤੀ ਲਾਈਨ ਇੱਕ, ਜਿੱਥੇ ਰਿਪੋਰਟ ਭੇਜੀ ਜਾਣੀ ਚਾਹੀਦੀ ਹੈ।"
+
+#: enterprise/models.py:3457
+msgid "Frequency"
+msgstr "ਬਾਰੰਬਾਰਤਾ"
+
+#: enterprise/models.py:3458
+msgid ""
+"The frequency interval (daily, weekly, or monthly) that the report should be"
+" sent."
+msgstr "ਰਿਪੋਰਟ ਭੇਜਣ ਦਾ ਸਮਾਂ ਅੰਤਰਾਲ (ਰੋਜ਼ਾਨਾ, ਹਫ਼ਤਾਵਾਰੀ, ਜਾਂ ਮਹੀਨਾਵਾਰ)।"
+
+#: enterprise/models.py:3463
+msgid "Day of Month"
+msgstr "ਮਹੀਨੇ ਦਾ ਦਿਨ"
+
+#: enterprise/models.py:3464
+msgid ""
+"The day of the month to send the report. This field is required and only "
+"valid when the frequency is monthly."
+msgstr ""
+"ਰਿਪੋਰਟ ਭੇਜਣ ਲਈ ਮਹੀਨੇ ਦਾ ਦਿਨ। ਇਹ ਖੇਤਰ ਲੋੜੀਂਦਾ ਹੈ ਅਤੇ ਸਿਰਫ਼ ਉਦੋਂ ਹੀ ਵੈਧ ਹੁੰਦਾ "
+"ਹੈ ਜਦੋਂ ਬਾਰੰਬਾਰਤਾ ਮਹੀਨਾਵਾਰ ਹੋਵੇ।"
+
+#: enterprise/models.py:3472
+msgid "Day of Week"
+msgstr "ਹਫ਼ਤੇ ਦਾ ਦਿਨ"
+
+#: enterprise/models.py:3473
+msgid ""
+"The day of the week to send the report. This field is required and only "
+"valid when the frequency is weekly."
+msgstr ""
+"ਰਿਪੋਰਟ ਭੇਜਣ ਲਈ ਹਫ਼ਤੇ ਦਾ ਦਿਨ। ਇਹ ਖੇਤਰ ਲੋੜੀਂਦਾ ਹੈ ਅਤੇ ਸਿਰਫ਼ ਉਦੋਂ ਹੀ ਵੈਧ ਹੁੰਦਾ "
+"ਹੈ ਜਦੋਂ ਬਾਰੰਬਾਰਤਾ ਹਫ਼ਤਾਵਾਰੀ ਹੋਵੇ।"
+
+#: enterprise/models.py:3477
+msgid "Hour of Day"
+msgstr "ਦਿਨ ਦਾ ਸਮਾਂ"
+
+#: enterprise/models.py:3478
+msgid ""
+"The hour of the day to send the report, in Eastern Standard Time (EST). This"
+" is required for all frequency settings."
+msgstr ""
+"ਰਿਪੋਰਟ ਭੇਜਣ ਲਈ ਦਿਨ ਦਾ ਸਮਾਂ, ਪੂਰਬੀ ਮਿਆਰੀ ਸਮੇਂ (EST) ਵਿੱਚ। ਇਹ ਸਾਰੀਆਂ ਬਾਰੰਬਾਰਤਾ"
+" ਸੈਟਿੰਗਾਂ ਲਈ ਲੋੜੀਂਦਾ ਹੈ।"
+
+#: enterprise/models.py:3486
+msgid ""
+"This password will be used to secure the zip file. It will be encrypted when"
+" stored in the database."
+msgstr ""
+"ਇਹ ਪਾਸਵਰਡ ਜ਼ਿਪ ਫਾਈਲ ਨੂੰ ਸੁਰੱਖਿਅਤ ਕਰਨ ਲਈ ਵਰਤਿਆ ਜਾਵੇਗਾ। ਡੇਟਾਬੇਸ ਵਿੱਚ ਸਟੋਰ ਕੀਤੇ"
+" ਜਾਣ 'ਤੇ ਇਸਨੂੰ ਏਨਕ੍ਰਿਪਟ ਕੀਤਾ ਜਾਵੇਗਾ।"
+
+#: enterprise/models.py:3493
+msgid "SFTP Host name"
+msgstr "SFTP ਹੋਸਟ ਨਾਮ"
+
+#: enterprise/models.py:3494
+msgid "If the delivery method is sftp, the host to deliver the report to."
+msgstr "ਜੇਕਰ ਡਿਲੀਵਰੀ ਵਿਧੀ sftp ਹੈ, ਤਾਂ ਰਿਪੋਰਟ ਜਿਸ ਹੋਸਟ ਨੂੰ ਡਿਲੀਵਰ ਕਰਨੀ ਹੈ।"
+
+#: enterprise/models.py:3499
+msgid "SFTP Port"
+msgstr "SFTP ਪੋਰਟ"
+
+#: enterprise/models.py:3500
+msgid "If the delivery method is sftp, the port on the host to connect to."
+msgstr "ਜੇਕਰ ਡਿਲੀਵਰੀ ਵਿਧੀ sftp ਹੈ, ਤਾਂ ਹੋਸਟ 'ਤੇ ਪੋਰਟ ਜਿਸ ਨਾਲ ਜੁੜਨਾ ਹੈ।"
+
+#: enterprise/models.py:3507
+msgid "SFTP username"
+msgstr "SFTP ਵਰਤੋਂਕਾਰ ਨਾਮ"
+
+#: enterprise/models.py:3508
+msgid ""
+"If the delivery method is sftp, the username to use to securely access the "
+"host."
+msgstr ""
+"ਜੇਕਰ ਡਿਲੀਵਰੀ ਵਿਧੀ sftp ਹੈ, ਤਾਂ ਹੋਸਟ ਤੱਕ ਸੁਰੱਖਿਅਤ ਪਹੁੰਚ ਲਈ ਵਰਤਣ ਲਈ ਯੂਜ਼ਰਨੇਮ।"
+
+#: enterprise/models.py:3514
+msgid ""
+"If the delivery method is sftp, the password to use to securely access the "
+"host. The password will be encrypted when stored in the database."
+msgstr ""
+"ਜੇਕਰ ਡਿਲੀਵਰੀ ਵਿਧੀ sftp ਹੈ, ਤਾਂ ਹੋਸਟ ਤੱਕ ਸੁਰੱਖਿਅਤ ਪਹੁੰਚ ਲਈ ਵਰਤਿਆ ਜਾਣ ਵਾਲਾ "
+"ਪਾਸਵਰਡ। ਡੇਟਾਬੇਸ ਵਿੱਚ ਸਟੋਰ ਕੀਤੇ ਜਾਣ 'ਤੇ ਪਾਸਵਰਡ ਨੂੰ ਏਨਕ੍ਰਿਪਟ ਕੀਤਾ ਜਾਵੇਗਾ।"
+
+#: enterprise/models.py:3521
+msgid "SFTP file path"
+msgstr "SFTP ਫਾਈਲ ਮਾਰਗ"
+
+#: enterprise/models.py:3522
+msgid ""
+"If the delivery method is sftp, the path on the host to deliver the report "
+"to."
+msgstr ""
+"ਜੇਕਰ ਡਿਲੀਵਰੀ ਵਿਧੀ sftp ਹੈ, ਤਾਂ ਹੋਸਟ 'ਤੇ ਉਹ ਮਾਰਗ ਜਿਸ ਨੂੰ ਰਿਪੋਰਟ ਡਿਲੀਵਰ ਕਰਨੀ "
+"ਹੈ।"
+
+#: enterprise/models.py:3630
+msgid "Delivery method cannot be updated"
+msgstr "ਡਿਲੀਵਰੀ ਵਿਧੀ ਨੂੰ ਅੱਪਡੇਟ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ।"
+
+#: enterprise/models.py:3646
+msgid "Day of week must be set if the frequency is weekly."
+msgstr "ਜੇਕਰ ਬਾਰੰਬਾਰਤਾ ਹਫ਼ਤਾਵਾਰੀ ਹੈ ਤਾਂ ਹਫ਼ਤੇ ਦਾ ਦਿਨ ਸੈੱਟ ਕਰਨਾ ਲਾਜ਼ਮੀ ਹੈ।"
+
+#: enterprise/models.py:3650
+msgid "Day of month must be set if the frequency is monthly."
+msgstr "ਜੇਕਰ ਬਾਰੰਬਾਰਤਾ ਮਹੀਨਾਵਾਰ ਹੈ ਤਾਂ ਮਹੀਨੇ ਦਾ ਦਿਨ ਸੈੱਟ ਕਰਨਾ ਲਾਜ਼ਮੀ ਹੈ।"
+
+#: enterprise/models.py:3653
+msgid "Frequency must be set to either daily, weekly, or monthly."
+msgstr "ਬਾਰੰਬਾਰਤਾ ਰੋਜ਼ਾਨਾ, ਹਫ਼ਤਾਵਾਰੀ, ਜਾਂ ਮਹੀਨਾਵਾਰ ਸੈੱਟ ਕੀਤੀ ਜਾਣੀ ਚਾਹੀਦੀ ਹੈ।"
+
+#: enterprise/models.py:3659
+msgid "Email(s) must be set if the delivery method is email."
+msgstr "ਜੇਕਰ ਡਿਲੀਵਰੀ ਵਿਧੀ ਈਮੇਲ ਹੈ ਤਾਂ ਈਮੇਲ(ਆਂ) ਸੈੱਟ ਕੀਤੇ ਜਾਣੇ ਚਾਹੀਦੇ ਹਨ।"
+
+#: enterprise/models.py:3663
+msgid "Decrypted password must be set if the delivery method is email."
+msgstr "ਜੇਕਰ ਡਿਲੀਵਰੀ ਵਿਧੀ ਈਮੇਲ ਹੈ ਤਾਂ ਡੀਕ੍ਰਿਪਟਡ ਪਾਸਵਰਡ ਸੈੱਟ ਕਰਨਾ ਲਾਜ਼ਮੀ ਹੈ।"
+
+#: enterprise/models.py:3667
+msgid "SFTP Hostname must be set if the delivery method is sftp."
+msgstr "ਜੇਕਰ ਡਿਲੀਵਰੀ ਵਿਧੀ sftp ਹੈ ਤਾਂ SFTP ਹੋਸਟਨੇਮ ਸੈੱਟ ਕਰਨਾ ਲਾਜ਼ਮੀ ਹੈ।"
+
+#: enterprise/models.py:3669
+msgid "SFTP username must be set if the delivery method is sftp."
+msgstr "ਜੇਕਰ ਡਿਲੀਵਰੀ ਵਿਧੀ sftp ਹੈ ਤਾਂ SFTP ਯੂਜ਼ਰਨੇਮ ਸੈੱਟ ਕਰਨਾ ਲਾਜ਼ਮੀ ਹੈ।"
+
+#: enterprise/models.py:3671
+msgid "SFTP File Path must be set if the delivery method is sftp."
+msgstr "ਜੇਕਰ ਡਿਲੀਵਰੀ ਵਿਧੀ sftp ਹੈ ਤਾਂ SFTP ਫਾਈਲ ਪਾਥ ਸੈੱਟ ਕਰਨਾ ਲਾਜ਼ਮੀ ਹੈ।"
+
+#: enterprise/models.py:3674
+msgid "Decrypted SFTP password must be set if the delivery method is SFTP."
+msgstr ""
+"ਜੇਕਰ ਡਿਲੀਵਰੀ ਵਿਧੀ SFTP ਹੈ ਤਾਂ ਡੀਕ੍ਰਿਪਟਡ SFTP ਪਾਸਵਰਡ ਸੈੱਟ ਕਰਨਾ ਲਾਜ਼ਮੀ ਹੈ।"
+
+#: enterprise/models.py:3737
+msgid ""
+"The EnterpriseCustomer for which the role is assigned to for the provided "
+"user. Defaults to the first active Enterprise Customer that the user is "
+"linked to.If another Enterprise Customer object is desired, please first "
+"create the record then modify the enterprise customer field by using the "
+"drop down."
+msgstr ""
+"ਉਹ EnterpriseCustomer ਜਿਸ ਲਈ ਪ੍ਰਦਾਨ ਕੀਤੇ ਗਏ ਉਪਭੋਗਤਾ ਲਈ ਭੂਮਿਕਾ ਨਿਰਧਾਰਤ ਕੀਤੀ "
+"ਗਈ ਹੈ। ਪਹਿਲੇ ਸਰਗਰਮ Enterprise Customer ਲਈ ਡਿਫੌਲਟ ਹੁੰਦਾ ਹੈ ਜਿਸ ਨਾਲ ਉਪਭੋਗਤਾ "
+"ਲਿੰਕ ਹੁੰਦਾ ਹੈ। ਜੇਕਰ ਕੋਈ ਹੋਰ Enterprise Customer ਵਸਤੂ ਲੋੜੀਂਦੀ ਹੈ, ਤਾਂ ਕਿਰਪਾ "
+"ਕਰਕੇ ਪਹਿਲਾਂ ਰਿਕਾਰਡ ਬਣਾਓ ਅਤੇ ਫਿਰ ਡ੍ਰੌਪ ਡਾਊਨ ਦੀ ਵਰਤੋਂ ਕਰਕੇ Enterprise Customer"
+" ਖੇਤਰ ਨੂੰ ਸੋਧੋ।"
+
+#: enterprise/models.py:4026
+msgid "Filters to show banner notifications conditionally."
+msgstr "ਬੈਨਰ ਸੂਚਨਾਵਾਂ ਨੂੰ ਸ਼ਰਤ ਅਨੁਸਾਰ ਦਿਖਾਉਣ ਲਈ ਫਿਲਟਰ।"
+
+#: enterprise/models.py:4031
+msgid "Admin Notification Filter"
+msgstr "ਐਡਮਿਨ ਸੂਚਨਾ ਫਿਲਟਰ"
+
+#: enterprise/models.py:4032
+msgid "Admin Notification Filters"
+msgstr "ਐਡਮਿਨ ਸੂਚਨਾ ਫਿਲਟਰ"
+
+#: enterprise/models.py:4058
+msgid ""
+"Notification banner title which will appear to enterprise admin on admin "
+"portal."
+msgstr ""
+"ਸੂਚਨਾ ਬੈਨਰ ਦਾ ਸਿਰਲੇਖ ਜੋ ਐਡਮਿਨ ਪੋਰਟਲ 'ਤੇ ਐਂਟਰਪ੍ਰਾਈਜ਼ ਐਡਮਿਨ ਨੂੰ ਦਿਖਾਈ ਦੇਵੇਗਾ।"
+
+#: enterprise/models.py:4066
+msgid ""
+"Notification banner text which will appear to enterprise admin on admin "
+"portal. You can enter maximum of 512 characters. This text support markdown."
+" See https://commonmark.org/help/ for the supported markdown features."
+msgstr ""
+"ਸੂਚਨਾ ਬੈਨਰ ਟੈਕਸਟ ਜੋ ਐਡਮਿਨ ਪੋਰਟਲ 'ਤੇ ਐਂਟਰਪ੍ਰਾਈਜ਼ ਐਡਮਿਨ ਨੂੰ ਦਿਖਾਈ ਦੇਵੇਗਾ। "
+"ਤੁਸੀਂ ਵੱਧ ਤੋਂ ਵੱਧ 512 ਅੱਖਰ ਦਰਜ ਕਰ ਸਕਦੇ ਹੋ। ਇਹ ਟੈਕਸਟ ਮਾਰਕਡਾਊਨ ਦਾ ਸਮਰਥਨ ਕਰਦਾ "
+"ਹੈ। ਸਮਰਥਿਤ ਮਾਰਕਡਾਊਨ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਲਈ https://commonmark.org/help/ ਵੇਖੋ।"
+
+#: enterprise/models.py:4083
+msgid "Admin Notification"
+msgstr "ਐਡਮਿਨ ਸੂਚਨਾ"
+
+#: enterprise/models.py:4084
+msgid "Admin Notifications"
+msgstr "ਪ੍ਰਬੰਧਕ ਸੂਚਨਾਵਾਂ"
+
+#: enterprise/models.py:4122
+msgid "Admin Notification Read"
+msgstr "ਐਡਮਿਨ ਸੂਚਨਾ ਪੜ੍ਹੀ ਗਈ"
+
+#: enterprise/models.py:4123
+msgid "Admin Notifications Read"
+msgstr "ਐਡਮਿਨ ਸੂਚਨਾਵਾਂ ਪੜ੍ਹੀਆਂ ਗਈਆਂ"
+
+#: enterprise/models.py:4156 enterprise/models.py:4260
+#: enterprise/models.py:4405
+msgid "The enterprise that can be linked using this key."
+msgstr "ਉਹ ਉੱਦਮ ਜਿਸਨੂੰ ਇਸ ਕੁੰਜੀ ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਲਿੰਕ ਕੀਤਾ ਜਾ ਸਕਦਾ ਹੈ।"
+
+#: enterprise/models.py:4165
+msgid "The number of times this key can be used to link a learner."
+msgstr "ਇਸ ਕੁੰਜੀ ਨੂੰ ਸਿੱਖਣ ਵਾਲੇ ਨੂੰ ਲਿੰਕ ਕਰਨ ਲਈ ਕਿੰਨੀ ਵਾਰ ਵਰਤਿਆ ਜਾ ਸਕਦਾ ਹੈ।"
+
+#: enterprise/models.py:4174
+msgid "The key will no longer be valid after this date."
+msgstr "ਇਸ ਮਿਤੀ ਤੋਂ ਬਾਅਦ ਕੁੰਜੀ ਵੈਧ ਨਹੀਂ ਰਹੇਗੀ।"
+
+#: enterprise/models.py:4183
+msgid ""
+"Specifies if the key is active. Once deactivated, the key is no longer valid"
+" and cannot be reactivated."
+msgstr ""
+"ਇਹ ਦੱਸਦਾ ਹੈ ਕਿ ਕੀ ਕੁੰਜੀ ਕਿਰਿਆਸ਼ੀਲ ਹੈ। ਇੱਕ ਵਾਰ ਅਕਿਰਿਆਸ਼ੀਲ ਹੋਣ ਤੋਂ ਬਾਅਦ, ਕੁੰਜੀ"
+" ਹੁਣ ਵੈਧ ਨਹੀਂ ਰਹਿੰਦੀ ਅਤੇ ਇਸਨੂੰ ਦੁਬਾਰਾ ਕਿਰਿਆਸ਼ੀਲ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ।"
+
+#: enterprise/models.py:4264
+msgid "ChatGPT prompt."
+msgstr "ਚੈਟਜੀਪੀਟੀ ਪ੍ਰੋਂਪਟ।"
+
+#: enterprise/models.py:4266
+msgid "ChatGPT response."
+msgstr "ਚੈਟਜੀਪੀਟੀ ਜਵਾਬ।"
+
+#: enterprise/models.py:4267
+msgid "Prompt type."
+msgstr "ਪ੍ਰੋਂਪਟ ਕਿਸਮ।"
+
+#: enterprise/models.py:4271
+msgid "ChatGPT Response"
+msgstr "ਚੈਟਜੀਪੀਟੀ ਜਵਾਬ"
+
+#: enterprise/models.py:4272
+msgid "ChatGPT Responses"
+msgstr "ਚੈਟਜੀਪੀਟੀ ਜਵਾਬ"
+
+#: enterprise/models.py:4382
+msgid "Enterprise Customer SSO Configuration"
+msgstr "ਐਂਟਰਪ੍ਰਾਈਜ਼ ਗਾਹਕ SSO ਸੰਰਚਨਾ"
+
+#: enterprise/models.py:4383
+msgid "Enterprise Customer SSO Configurations"
+msgstr "ਐਂਟਰਪ੍ਰਾਈਜ਼ ਗਾਹਕ SSO ਸੰਰਚਨਾਵਾਂ"
+
+#: enterprise/models.py:4392
+msgid "The display name of the SSO configuration."
+msgstr "SSO ਸੰਰਚਨਾ ਦਾ ਡਿਸਪਲੇ ਨਾਮ।"
+
+#: enterprise/models.py:4414
+msgid ""
+"Specifies whether the integration with the SSO orchestration is active."
+msgstr "ਇਹ ਦੱਸਦਾ ਹੈ ਕਿ ਕੀ SSO ਆਰਕੈਸਟ੍ਰੇਸ਼ਨ ਨਾਲ ਏਕੀਕਰਨ ਕਿਰਿਆਸ਼ੀਲ ਹੈ।"
+
+#: enterprise/models.py:4423
+msgid "The identity provider integrated with by the SSO orchestrator ."
+msgstr "SSO ਆਰਕੈਸਟ੍ਰੇਟਰ ਦੁਆਰਾ ਏਕੀਕ੍ਰਿਤ ਪਛਾਣ ਪ੍ਰਦਾਤਾ।"
+
+#: enterprise/models.py:4432
+msgid "The metadata url of the identity provider."
+msgstr "ਪਛਾਣ ਪ੍ਰਦਾਤਾ ਦਾ ਮੈਟਾਡੇਟਾ url।"
+
+#: enterprise/models.py:4440
+msgid "The metadata xml of the identity provider."
+msgstr "ਪਛਾਣ ਪ੍ਰਦਾਤਾ ਦਾ ਮੈਟਾਡਾਟਾ xml।"
+
+#: enterprise/models.py:4449
+msgid "The entity id of the identity provider."
+msgstr "ਪਛਾਣ ਪ੍ਰਦਾਤਾ ਦੀ ਇਕਾਈ ਆਈਡੀ।"
+
+#: enterprise/models.py:4458
+msgid ""
+"Specifies whether the integration with the customer's identity provider "
+"should auto update metadata."
+msgstr ""
+"ਇਹ ਦੱਸਦਾ ਹੈ ਕਿ ਗਾਹਕ ਦੇ ਪਛਾਣ ਪ੍ਰਦਾਤਾ ਨਾਲ ਏਕੀਕਰਨ ਨੂੰ ਮੈਟਾਡੇਟਾ ਨੂੰ ਸਵੈਚਲਿਤ ਤੌਰ "
+"'ਤੇ ਅੱਪਡੇਟ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ ਜਾਂ ਨਹੀਂ।"
+
+#: enterprise/models.py:4512
+msgid ""
+"The date and time when the configuration was submitted to the SSO "
+"orchestration."
+msgstr "ਉਹ ਮਿਤੀ ਅਤੇ ਸਮਾਂ ਜਦੋਂ ਸੰਰਚਨਾ SSO ਆਰਕੈਸਟ੍ਰੇਸ਼ਨ ਨੂੰ ਜਮ੍ਹਾਂ ਕਰਵਾਈ ਗਈ ਸੀ।"
+
+#: enterprise/models.py:4520
+msgid ""
+"The date and time when the configuration was completed by the SSO "
+"orchestration."
+msgstr "ਉਹ ਮਿਤੀ ਅਤੇ ਸਮਾਂ ਜਦੋਂ SSO ਆਰਕੈਸਟ੍ਰੇਸ਼ਨ ਦੁਆਰਾ ਸੰਰਚਨਾ ਪੂਰੀ ਕੀਤੀ ਗਈ ਸੀ।"
+
+#: enterprise/models.py:4528
+msgid ""
+"The date and time when the configuration was validated and used for the "
+"first time."
+msgstr ""
+"ਉਹ ਮਿਤੀ ਅਤੇ ਸਮਾਂ ਜਦੋਂ ਸੰਰਚਨਾ ਨੂੰ ਪ੍ਰਮਾਣਿਤ ਕੀਤਾ ਗਿਆ ਸੀ ਅਤੇ ਪਹਿਲੀ ਵਾਰ ਵਰਤਿਆ "
+"ਗਿਆ ਸੀ।"
+
+#: enterprise/models.py:4536
+msgid ""
+"The date and time when the orchestrator encountered an error during "
+"configuration."
+msgstr ""
+"ਮਿਤੀ ਅਤੇ ਸਮਾਂ ਜਦੋਂ ਆਰਕੈਸਟ੍ਰੇਟਰ ਨੂੰ ਸੰਰਚਨਾ ਦੌਰਾਨ ਗਲਤੀ ਦਾ ਸਾਹਮਣਾ ਕਰਨਾ ਪਿਆ।"
+
+#: enterprise/models.py:4545
+msgid ""
+"Whether admin has indicated the service provider metadata was uploaded."
+msgstr "ਕੀ ਪ੍ਰਸ਼ਾਸਕ ਨੇ ਦੱਸਿਆ ਹੈ ਕਿ ਸੇਵਾ ਪ੍ਰਦਾਤਾ ਮੈਟਾਡੇਟਾ ਅੱਪਲੋਡ ਕੀਤਾ ਗਿਆ ਸੀ।"
+
+#: enterprise/models.py:4555 enterprise/models.py:4591
+msgid ""
+"SAP specific configuration: the timeout interval for the OData API in "
+"seconds."
+msgstr "SAP ਖਾਸ ਸੰਰਚਨਾ: OData API ਲਈ ਸਮਾਂ ਸਮਾਪਤੀ ਅੰਤਰਾਲ ਸਕਿੰਟਾਂ ਵਿੱਚ।"
+
+#: enterprise/models.py:4565
+msgid "SAP specific configuration: the root url of the OData API."
+msgstr "SAP ਖਾਸ ਸੰਰਚਨਾ: OData API ਦਾ ਰੂਟ url।"
+
+#: enterprise/models.py:4574
+msgid "SAP specific configuration: the company id of the OData API."
+msgstr "SAP ਖਾਸ ਸੰਰਚਨਾ: OData API ਦੀ ਕੰਪਨੀ ਆਈਡੀ।"
+
+#: enterprise/models.py:4583
+msgid ""
+"SAP specific configuration: the root url of the SAP SuccessFactors OAuth "
+"API."
+msgstr "SAP ਖਾਸ ਸੰਰਚਨਾ: SAP SuccessFactors OAuth API ਦਾ ਰੂਟ url।"
+
+#: enterprise/models.py:4600
+msgid ""
+"SAP specific configuration: the private key used to sign the SAML assertion."
+msgstr ""
+"SAP ਖਾਸ ਸੰਰਚਨਾ: SAML ਦਾਅਵੇ ਨੂੰ ਦਸਤਖਤ ਕਰਨ ਲਈ ਵਰਤੀ ਜਾਣ ਵਾਲੀ ਪ੍ਰਾਈਵੇਟ ਕੁੰਜੀ।"
+
+#: enterprise/models.py:4609
+msgid "SAP specific configuration: the client id of the OData API."
+msgstr "SAP ਖਾਸ ਸੰਰਚਨਾ: OData API ਦਾ ਕਲਾਇੰਟ ਆਈਡੀ।"
+
+#: enterprise/models.py:4618
+msgid "SAP specific configuration: the user id of the OAuth API."
+msgstr "SAP ਖਾਸ ਸੰਰਚਨਾ: OAuth API ਦਾ ਯੂਜ਼ਰ ਆਈਡੀ।"
+
+#: enterprise/models.py:4640
+msgid "Field is locked as the configuration has already been submitted."
+msgstr "ਫੀਲਡ ਲਾਕ ਹੈ ਕਿਉਂਕਿ ਸੰਰਚਨਾ ਪਹਿਲਾਂ ਹੀ ਜਮ੍ਹਾਂ ਹੋ ਚੁੱਕੀ ਹੈ।"
+
+#: enterprise/models.py:4678
+msgid "Record has already been submitted for configuration."
+msgstr "ਰਿਕਾਰਡ ਪਹਿਲਾਂ ਹੀ ਸੰਰਚਨਾ ਲਈ ਜਮ੍ਹਾਂ ਕਰ ਦਿੱਤਾ ਗਿਆ ਹੈ।"
+
+#: enterprise/models.py:4728
+msgid "Specifies enterprise group name."
+msgstr "ਐਂਟਰਪ੍ਰਾਈਜ਼ ਗਰੁੱਪ ਦਾ ਨਾਮ ਦੱਸਦਾ ਹੈ।"
+
+#: enterprise/models.py:4743
+msgid "The type of enterprise group"
+msgstr "ਐਂਟਰਪ੍ਰਾਈਜ਼ ਗਰੁੱਪ ਦੀ ਕਿਸਮ"
+
+#: enterprise/models.py:4749
+msgid "Enterprise Group"
+msgstr "ਐਂਟਰਪ੍ਰਾਈਜ਼ ਗਰੁੱਪ"
+
+#: enterprise/models.py:4750
+msgid "Enterprise Groups"
+msgstr "ਐਂਟਰਪ੍ਰਾਈਜ਼ ਗਰੁੱਪ"
+
+#: enterprise/models.py:4863
+msgid ""
+"The moment at which the membership record is written with an Enterprise "
+"Customer User record."
+msgstr ""
+"ਉਹ ਪਲ ਜਦੋਂ ਮੈਂਬਰਸ਼ਿਪ ਰਿਕਾਰਡ ਐਂਟਰਪ੍ਰਾਈਜ਼ ਗਾਹਕ ਉਪਭੋਗਤਾ ਰਿਕਾਰਡ ਨਾਲ ਲਿਖਿਆ ਜਾਂਦਾ "
+"ਹੈ।"
+
+#: enterprise/models.py:4873
+msgid "Current status of the membership record"
+msgstr "ਮੈਂਬਰਸ਼ਿਪ ਰਿਕਾਰਡ ਦੀ ਮੌਜੂਦਾ ਸਥਿਤੀ"
+
+#: enterprise/models.py:4880
+msgid ""
+"The moment at which the membership record was revoked by an Enterprise "
+"admin."
+msgstr ""
+"ਉਹ ਪਲ ਜਦੋਂ ਇੱਕ ਐਂਟਰਪ੍ਰਾਈਜ਼ ਐਡਮਿਨ ਦੁਆਰਾ ਮੈਂਬਰਸ਼ਿਪ ਰਿਕਾਰਡ ਰੱਦ ਕੀਤਾ ਗਿਆ ਸੀ।"
+
+#: enterprise/models.py:4888
+msgid ""
+"The last time the membership action was in an error state. Null means the "
+"membership is not errored."
+msgstr ""
+"ਪਿਛਲੀ ਵਾਰ ਜਦੋਂ ਮੈਂਬਰਸ਼ਿਪ ਕਾਰਵਾਈ ਗਲਤੀ ਵਾਲੀ ਸਥਿਤੀ ਵਿੱਚ ਸੀ। ਨਲ ਦਾ ਮਤਲਬ ਹੈ ਕਿ "
+"ਮੈਂਬਰਸ਼ਿਪ ਗਲਤ ਨਹੀਂ ਹੈ।"
+
+#: enterprise/models.py:4893
+msgid "Enterprise Group Membership"
+msgstr "ਐਂਟਰਪ੍ਰਾਈਜ਼ ਗਰੁੱਪ ਮੈਂਬਰਸ਼ਿਪ"
+
+#: enterprise/models.py:4894
+msgid "Enterprise Group Memberships"
+msgstr "ਐਂਟਰਪ੍ਰਾਈਜ਼ ਗਰੁੱਪ ਮੈਂਬਰਸ਼ਿਪਾਂ"
+
+#: enterprise/models.py:4963
+msgid "Title summarizing the onboarding flow."
+msgstr "ਆਨਬੋਰਡਿੰਗ ਪ੍ਰਵਾਹ ਦਾ ਸਾਰ ਦਿੰਦਾ ਸਿਰਲੇਖ।"
+
+#: enterprise/models.py:4969
+msgid ""
+"Specifies whether this flow is active and shown to admin users in the "
+"onboarding tour."
+msgstr ""
+"ਇਹ ਦੱਸਦਾ ਹੈ ਕਿ ਕੀ ਇਹ ਪ੍ਰਵਾਹ ਕਿਰਿਆਸ਼ੀਲ ਹੈ ਅਤੇ ਆਨਬੋਰਡਿੰਗ ਟੂਰ ਵਿੱਚ ਪ੍ਰਸ਼ਾਸਕ "
+"ਉਪਭੋਗਤਾਵਾਂ ਨੂੰ ਦਿਖਾਇਆ ਜਾਂਦਾ ਹੈ।"
+
+#: enterprise/models.py:4988
+msgid "The enterprise customer user who is an admin."
+msgstr "ਐਂਟਰਪ੍ਰਾਈਜ਼ ਗਾਹਕ ਉਪਭੋਗਤਾ ਜੋ ਇੱਕ ਐਡਮਿਨ ਹੈ।"
+
+#: enterprise/models.py:4993
+msgid "The last time the admin logged into the admin portal."
+msgstr "ਆਖਰੀ ਵਾਰ ਜਦੋਂ ਐਡਮਿਨ ਨੇ ਐਡਮਿਨ ਪੋਰਟਲ ਵਿੱਚ ਲੌਗਇਨ ਕੀਤਾ ਸੀ।"
+
+#: enterprise/models.py:4998
+msgid "The onboarding flows that this admin has completed."
+msgstr "ਇਸ ਪ੍ਰਸ਼ਾਸਕ ਦੁਆਰਾ ਪੂਰਾ ਕੀਤਾ ਗਿਆ ਔਨਬੋਰਡਿੰਗ ਫਲੋ।"
+
+#: enterprise/models.py:5002
+msgid "Whether the admin has dismissed the onboarding tour."
+msgstr "ਕੀ ਐਡਮਿਨ ਨੇ ਆਨਬੋਰਡਿੰਗ ਟੂਰ ਨੂੰ ਖਾਰਜ ਕਰ ਦਿੱਤਾ ਹੈ।"
+
+#: enterprise/models.py:5006
+msgid "Whether the admin has completed the onboarding tour."
+msgstr "ਕੀ ਐਡਮਿਨ ਨੇ ਆਨਬੋਰਡਿੰਗ ਟੂਰ ਪੂਰਾ ਕਰ ਲਿਆ ਹੈ।"
+
+#: enterprise/models.py:5011
+msgid "Enterprise Customer Admin"
+msgstr "ਐਂਟਰਪ੍ਰਾਈਜ਼ ਗਾਹਕ ਪ੍ਰਸ਼ਾਸਕ"
+
+#: enterprise/models.py:5012
+msgid "Enterprise Customer Admins"
+msgstr "ਐਂਟਰਪ੍ਰਾਈਜ਼ ਗਾਹਕ ਪ੍ਰਸ਼ਾਸਕ"
+
+#: enterprise/templates/enterprise/_data_sharing_decline_modal.html:7
+#: enterprise/views.py:1616 enterprise/views.py:2118
+msgid "Close"
+msgstr "ਬੰਦ ਕਰੋ"
+
+#: enterprise/templates/enterprise/admin/clear_learners_data_sharing_consent.html:18
+#: enterprise/templates/enterprise/admin/manage_learners.html:47
+#: enterprise/templates/enterprise/admin/setup_auth_org_id.html:6
+#: enterprise/templates/enterprise/admin/transmit_courses_metadata.html:18
+msgid "Home"
+msgstr "ਮੁੱਖ ਪੇਜ"
+
+#: enterprise/templates/enterprise/admin/clear_learners_data_sharing_consent.html:33
+#: enterprise/templates/enterprise/admin/clear_learners_data_sharing_consent.html:40
+msgid "Clear Data Sharing Consent"
+msgstr "ਡਾਟਾ ਸਾਂਝਾਕਰਨ ਸਹਿਮਤੀ ਸਾਫ਼ ਕਰੋ"
+
+#: enterprise/templates/enterprise/admin/manage_learners.html:65
+msgid "Manage Learners"
+msgstr "ਸਿੱਖਣ ਵਾਲਿਆਂ ਦਾ ਪ੍ਰਬੰਧਨ ਕਰੋ"
+
+#: enterprise/templates/enterprise/admin/manage_learners.html:68
+msgid "Search Term: "
+msgstr "ਖੋਜ ਸ਼ਬਦ:"
+
+#: enterprise/templates/enterprise/admin/manage_learners.html:87
+msgid "Search email address or username"
+msgstr "ਈਮੇਲ ਪਤਾ ਜਾਂ ਵਰਤੋਂਕਾਰ ਨਾਮ ਖੋਜੋ"
+
+#: enterprise/templates/enterprise/admin/manage_learners.html:98
+msgid "User Email"
+msgstr "ਯੂਜ਼ਰ ਈਮੇਲ"
+
+#: enterprise/templates/enterprise/admin/manage_learners.html:99
+msgid "Username"
+msgstr "ਯੂਜ਼ਰਨੇਮ"
+
+#: enterprise/templates/enterprise/admin/manage_learners.html:100
+msgid "Linked Date"
+msgstr "ਲਿੰਕ ਕੀਤੀ ਤਾਰੀਖ"
+
+#: enterprise/templates/enterprise/admin/manage_learners.html:101
+#: enterprise/templates/enterprise/admin/manage_learners.html:141
+msgid "Enroll"
+msgstr "ਨਾਮ ਦਰਜ ਕਰੋ"
+
+#: enterprise/templates/enterprise/admin/manage_learners.html:139
+msgid "Learner Email"
+msgstr "ਸਿੱਖਣ ਵਾਲੇ ਦਾ ਈਮੇਲ"
+
+#: enterprise/templates/enterprise/admin/manage_learners.html:140
+msgid "Date Added"
+msgstr "ਜੋੜਨ ਦੀ ਤਾਰੀਖ"
+
+#: enterprise/templates/enterprise/admin/manage_learners.html:162
+msgid "Link learners"
+msgstr "ਸਿੱਖਣ ਵਾਲਿਆਂ ਨੂੰ ਲਿੰਕ ਕਰੋ"
+
+#: enterprise/templates/enterprise/admin/setup_auth_org_id.html:21
+#: enterprise/templates/enterprise/admin/setup_auth_org_id.html:28
+#: enterprise/templates/enterprise/admin/setup_auth_org_id.html:41
+msgid "Setup Auth org id"
+msgstr "ਪ੍ਰਮਾਣੀਕਰਨ ਸੰਗਠਨ ਆਈਡੀ ਸੈੱਟਅੱਪ ਕਰੋ"
+
+#: enterprise/templates/enterprise/admin/setup_auth_org_id.html:46
+msgid "Cancel"
+msgstr "ਰੱਦ ਕਰੋ"
+
+#: enterprise/templates/enterprise/admin/transmit_courses_metadata.html:33
+#: enterprise/templates/enterprise/admin/transmit_courses_metadata.html:40
+msgid "Transmit Courses Metadata"
+msgstr "ਕੋਰਸ ਮੈਟਾਡੇਟਾ ਭੇਜੋ"
+
+#: enterprise/templates/enterprise/enterprise_customer_login_page.html:44
+#: enterprise/templates/enterprise/enterprise_customer_select_form.html:50
+#: enterprise/views.py:372 enterprise/views.py:1612
+msgid "Continue"
+msgstr "ਜਾਰੀ ਰੱਖੋ"
+
+#: enterprise/utils.py:149
+msgid ""
+"Either \"Email or Username\" or \"CSV bulk upload\" must be specified, but "
+"both were."
+msgstr ""
+"\"ਈਮੇਲ ਜਾਂ ਯੂਜ਼ਰਨੇਮ\" ਜਾਂ \"CSV ਬਲਕ ਅੱਪਲੋਡ\" ਜਾਂ ਤਾਂ ਨਿਰਧਾਰਤ ਕੀਤਾ ਜਾਣਾ "
+"ਚਾਹੀਦਾ ਹੈ, ਪਰ ਦੋਵੇਂ ਸਨ।"
+
+#: enterprise/utils.py:152
+msgid "Error: Learners could not be added. Correct the following errors."
+msgstr ""
+"ਗਲਤੀ: ਸਿਖਿਆਰਥੀਆਂ ਨੂੰ ਸ਼ਾਮਲ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ। ਹੇਠ ਲਿਖੀਆਂ ਗਲਤੀਆਂ ਨੂੰ ਠੀਕ ਕਰੋ।"
+
+#: enterprise/utils.py:154
+#, python-brace-format
+msgid ""
+"Enrollment track {course_mode} is not available for course {course_id}."
+msgstr "ਕੋਰਸ {course_id} ਲਈ ਦਾਖਲਾ ਟਰੈਕ {course_mode} ਉਪਲਬਧ ਨਹੀਂ ਹੈ।"
+
+#: enterprise/utils.py:156
+msgid "Select a course enrollment track for the given course(s)."
+msgstr "ਦਿੱਤੇ ਗਏ ਕੋਰਸ(ਕੋਰਸਾਂ) ਲਈ ਇੱਕ ਕੋਰਸ ਦਾਖਲਾ ਟਰੈਕ ਚੁਣੋ।"
+
+#: enterprise/utils.py:158
+#, python-brace-format
+msgid ""
+"Could not retrieve details for the course ID {course_id}. Specify a valid "
+"ID."
+msgstr ""
+"ਕੋਰਸ ਆਈਡੀ {course_id} ਲਈ ਵੇਰਵੇ ਪ੍ਰਾਪਤ ਨਹੀਂ ਕੀਤੇ ਜਾ ਸਕੇ। ਇੱਕ ਵੈਧ ਆਈਡੀ ਦੱਸੋ।"
+
+#: enterprise/utils.py:161
+msgid ""
+"Either \"CSV bulk upload\" or a singular course ID may be used for manual "
+"enrollments, but not both together."
+msgstr ""
+"ਹੱਥੀਂ ਦਾਖਲਿਆਂ ਲਈ ਜਾਂ ਤਾਂ \"CSV ਬਲਕ ਅਪਲੋਡ\" ਜਾਂ ਇੱਕ ਸਿੰਗਲ ਕੋਰਸ ਆਈਡੀ ਦੀ ਵਰਤੋਂ "
+"ਕੀਤੀ ਜਾ ਸਕਦੀ ਹੈ, ਪਰ ਦੋਵੇਂ ਇਕੱਠੇ ਨਹੀਂ।"
+
+#: enterprise/utils.py:165
+#, python-brace-format
+msgid "{argument} does not appear to be a valid email address."
+msgstr "{argument} ਇੱਕ ਵੈਧ ਈਮੇਲ ਪਤਾ ਨਹੀਂ ਜਾਪਦਾ।"
+
+#: enterprise/utils.py:167
+#, python-brace-format
+msgid ""
+"{argument} does not appear to be a valid email address or known username"
+msgstr "{argument} ਇੱਕ ਵੈਧ ਈਮੇਲ ਪਤਾ ਜਾਂ ਜਾਣਿਆ-ਪਛਾਣਿਆ ਯੂਜ਼ਰਨੇਮ ਨਹੀਂ ਜਾਪਦਾ ਹੈ।"
+
+#: enterprise/utils.py:170
+#, python-brace-format
+msgid ""
+"Expected a CSV file with [{expected_columns}] columns, but found "
+"[{actual_columns}] columns instead."
+msgstr ""
+"[{expected_columns}] ਕਾਲਮਾਂ ਵਾਲੀ CSV ਫਾਈਲ ਦੀ ਉਮੀਦ ਸੀ, ਪਰ ਇਸਦੀ ਬਜਾਏ "
+"[{actual_columns}] ਕਾਲਮ ਮਿਲੇ।"
+
+#: enterprise/utils.py:174
+msgid "Reason field is required but was not filled."
+msgstr "ਕਾਰਨ ਖੇਤਰ ਲੋੜੀਂਦਾ ਹੈ ਪਰ ਭਰਿਆ ਨਹੀਂ ਗਿਆ।"
+
+#: enterprise/utils.py:177
+msgid ""
+"Either \"Email or Username\" or \"CSV bulk upload\" must be specified, but "
+"neither were."
+msgstr ""
+"\"ਈਮੇਲ ਜਾਂ ਯੂਜ਼ਰਨੇਮ\" ਜਾਂ \"CSV ਬਲਕ ਅੱਪਲੋਡ\" ਜਾਂ ਤਾਂ ਨਿਰਧਾਰਤ ਕੀਤਾ ਜਾਣਾ "
+"ਚਾਹੀਦਾ ਹੈ, ਪਰ ਦੋਵਾਂ ਵਿੱਚੋਂ ਕੋਈ ਵੀ ਨਹੀਂ ਸੀ।"
+
+#: enterprise/utils.py:180
+#, python-brace-format
+msgid ""
+"User with email address {email} is already registered with Enterprise "
+"Customer {ec_name}"
+msgstr ""
+"ਈਮੇਲ ਪਤੇ {email} ਵਾਲਾ ਉਪਭੋਗਤਾ ਪਹਿਲਾਂ ਹੀ ਐਂਟਰਪ੍ਰਾਈਜ਼ ਗਾਹਕ {ec_name} ਨਾਲ "
+"ਰਜਿਸਟਰ ਹੈ।"
+
+#: enterprise/utils.py:182
+msgid "User is not linked with Enterprise Customer"
+msgstr "ਉਪਭੋਗਤਾ ਐਂਟਰਪ੍ਰਾਈਜ਼ ਗਾਹਕ ਨਾਲ ਲਿੰਕ ਨਹੀਂ ਹੈ।"
+
+#: enterprise/utils.py:183
+#, python-brace-format
+msgid "User with email address {email} doesn't exist."
+msgstr "ਈਮੇਲ ਪਤੇ {email} ਵਾਲਾ ਉਪਭੋਗਤਾ ਮੌਜੂਦ ਨਹੀਂ ਹੈ।"
+
+#: enterprise/utils.py:184
+#, python-brace-format
+msgid "Course ID {course_id} doesn't exist in Enterprise Customer's Catalog"
+msgstr "ਕੋਰਸ ਆਈਡੀ {course_id} ਐਂਟਰਪ੍ਰਾਈਜ਼ ਗਾਹਕ ਦੇ ਕੈਟਾਲਾਗ ਵਿੱਚ ਮੌਜੂਦ ਨਹੀਂ ਹੈ।"
+
+#: enterprise/utils.py:186
+#, python-brace-format
+msgid ""
+"Enterprise channel worker user with the username "
+"\"{channel_worker_username}\" was not found."
+msgstr ""
+"\"{channel_worker_username}\" ਯੂਜ਼ਰਨੇਮ ਵਾਲਾ ਐਂਟਰਪ੍ਰਾਈਜ਼ ਚੈਨਲ ਵਰਕਰ ਯੂਜ਼ਰ ਨਹੀਂ"
+" ਮਿਲਿਆ।"
+
+#: enterprise/utils.py:189
+msgid ""
+"Unable to parse CSV file. Please make sure it is a CSV 'utf-8' encoded file."
+msgstr ""
+"CSV ਫਾਈਲ ਨੂੰ ਪਾਰਸ ਕਰਨ ਵਿੱਚ ਅਸਮਰੱਥ। ਕਿਰਪਾ ਕਰਕੇ ਯਕੀਨੀ ਬਣਾਓ ਕਿ ਇਹ ਇੱਕ CSV "
+"'utf-8' ਏਨਕੋਡ ਕੀਤੀ ਫਾਈਲ ਹੈ।"
+
+#: enterprise/utils.py:192
+msgid "Discount percentage should be from 0 to 100."
+msgstr "ਛੋਟ ਪ੍ਰਤੀਸ਼ਤ 0 ਤੋਂ 100 ਤੱਕ ਹੋਣੀ ਚਾਹੀਦੀ ਹੈ।"
+
+#: enterprise/utils.py:402
+#, python-brace-format
+msgid "You've been enrolled in {course_name}!"
+msgstr "ਤੁਸੀਂ {course_name} ਵਿੱਚ ਦਾਖਲ ਹੋ ਗਏ ਹੋ!"
+
+#: enterprise/utils.py:561 enterprise/utils.py:640
+msgid "`user` must have one of either `email` or `user_email`."
+msgstr "`user` ਕੋਲ `email` ਜਾਂ `user_email` ਵਿੱਚੋਂ ਕੋਈ ਇੱਕ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ।"
+
+#: enterprise/validators.py:30
+msgid "Value entered is not a valid hex color code."
+msgstr "ਦਰਜ ਕੀਤਾ ਮੁੱਲ ਇੱਕ ਵੈਧ ਹੈਕਸ ਰੰਗ ਕੋਡ ਨਹੀਂ ਹੈ।"
+
+#: enterprise/validators.py:41
+msgid "Unsupported file extension."
+msgstr "ਅਸਮਰਥਿਤ ਫਾਈਲ ਐਕਸਟੈਂਸ਼ਨ।"
+
+#: enterprise/validators.py:52
+#, python-format
+msgid "The logo image file size must be less than or equal to %s KB."
+msgstr "ਲੋਗੋ ਚਿੱਤਰ ਫਾਈਲ ਦਾ ਆਕਾਰ %s KB ਤੋਂ ਘੱਟ ਜਾਂ ਇਸਦੇ ਬਰਾਬਰ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ।"
+
+#: enterprise/views.py:211
+msgid ""
+"The following method from the Open edX platform is necessary for this view "
+"but isn't available."
+msgstr ""
+"ਇਸ ਦ੍ਰਿਸ਼ ਲਈ Open edX ਪਲੇਟਫਾਰਮ ਤੋਂ ਹੇਠ ਲਿਖੀ ਵਿਧੀ ਜ਼ਰੂਰੀ ਹੈ ਪਰ ਉਪਲਬਧ ਨਹੀਂ ਹੈ।"
+
+#: enterprise/views.py:232
+#, python-brace-format
+msgid "{platform_name} home page"
+msgstr "{platform_name} ਹੋਮ ਪੇਜ"
+
+#: enterprise/views.py:352
+msgid "Data sharing consent required"
+msgstr "ਡਾਟਾ ਸਾਂਝਾਕਰਨ ਲਈ ਸਹਿਮਤੀ ਦੀ ਲੋੜ ਹੈ"
+
+#: enterprise/views.py:353
+msgid "Consent to share your data"
+msgstr "ਤੁਹਾਡਾ ਡੇਟਾ ਸਾਂਝਾ ਕਰਨ ਲਈ ਸਹਿਮਤੀ"
+
+#: enterprise/views.py:355
+#, python-brace-format
+msgid ""
+"Per the {start_link}Data Sharing Policy{end_link}, "
+"{bold_start}{enterprise_customer_name}{bold_end} would like to know about:"
+msgstr ""
+"{start_link}ਡਾਟਾ ਸਾਂਝਾਕਰਨ ਨੀਤੀ{end_link} ਦੇ ਅਨੁਸਾਰ, "
+"{bold_start}{enterprise_customer_name}{bold_end} ਇਸ ਬਾਰੇ ਜਾਣਨਾ ਚਾਹੁੰਦਾ ਹੈ:"
+
+#: enterprise/views.py:366
+#, python-brace-format
+msgid ""
+"I agree to allow {platform_name} to share data about my enrollment, "
+"completion and performance in all {platform_name} courses and programs where"
+" my enrollment is sponsored by {enterprise_customer_name}."
+msgstr ""
+"ਮੈਂ {platform_name} ਨੂੰ ਉਹਨਾਂ ਸਾਰੇ {platform_name} ਕੋਰਸਾਂ ਅਤੇ ਪ੍ਰੋਗਰਾਮਾਂ "
+"ਵਿੱਚ ਮੇਰੇ ਦਾਖਲੇ, ਸੰਪੂਰਨਤਾ ਅਤੇ ਪ੍ਰਦਰਸ਼ਨ ਬਾਰੇ ਡੇਟਾ ਸਾਂਝਾ ਕਰਨ ਦੀ ਆਗਿਆ ਦੇਣ ਲਈ "
+"ਸਹਿਮਤ ਹਾਂ ਜਿੱਥੇ ਮੇਰਾ ਦਾਖਲਾ {enterprise_customer_name} ਦੁਆਰਾ ਸਪਾਂਸਰ ਕੀਤਾ ਗਿਆ "
+"ਹੈ।"
+
+#: enterprise/views.py:373
+msgid "Decline and go back"
+msgstr "ਅਸਵੀਕਾਰ ਕਰੋ ਅਤੇ ਵਾਪਸ ਜਾਓ"
+
+#: enterprise/views.py:374
+msgid "Data Sharing Policy"
+msgstr "ਡਾਟਾ ਸਾਂਝਾਕਰਨ ਨੀਤੀ"
+
+#: enterprise/views.py:376
+#, python-brace-format
+msgid ""
+"Enrollment, completion, and performance data that may be shared with "
+"{enterprise_customer_name} (or its designee) for these courses and programs "
+"are limited to the following:"
+msgstr ""
+"ਇਹਨਾਂ ਕੋਰਸਾਂ ਅਤੇ ਪ੍ਰੋਗਰਾਮਾਂ ਲਈ {enterprise_customer_name} (ਜਾਂ ਇਸਦੇ ਮਨੋਨੀਤ "
+"ਵਿਅਕਤੀ) ਨਾਲ ਸਾਂਝਾ ਕੀਤਾ ਜਾ ਸਕਦਾ ਹੈ, ਨਾਮਾਂਕਣ, ਸੰਪੂਰਨਤਾ ਅਤੇ ਪ੍ਰਦਰਸ਼ਨ ਡੇਟਾ ਹੇਠ "
+"ਲਿਖਿਆਂ ਤੱਕ ਸੀਮਿਤ ਹੈ:"
+
+#: enterprise/views.py:383
+#, python-brace-format
+msgid ""
+"My email address for my {platform_name} account, and the date when I created"
+" my {platform_name} account"
+msgstr ""
+"ਮੇਰੇ {platform_name} ਖਾਤੇ ਲਈ ਮੇਰਾ ਈਮੇਲ ਪਤਾ, ਅਤੇ ਉਹ ਤਾਰੀਖ ਜਦੋਂ ਮੈਂ ਆਪਣਾ "
+"{platform_name} ਖਾਤਾ ਬਣਾਇਆ ਸੀ"
+
+#: enterprise/views.py:389
+#, python-brace-format
+msgid ""
+"My {platform_name} ID, and if I log in via single sign-on, my "
+"{enterprise_customer_name} SSO user-ID"
+msgstr ""
+"ਮੇਰੀ {platform_name} ਆਈਡੀ, ਅਤੇ ਜੇਕਰ ਮੈਂ ਸਿੰਗਲ ਸਾਈਨ-ਆਨ ਰਾਹੀਂ ਲੌਗਇਨ ਕਰਦਾ ਹਾਂ, "
+"ਤਾਂ ਮੇਰਾ {enterprise_customer_name} SSO ਯੂਜ਼ਰ-ਆਈਡੀ"
+
+#: enterprise/views.py:395
+#, python-brace-format
+msgid "My {platform_name} username"
+msgstr "ਮੇਰਾ {platform_name} ਵਰਤੋਂਕਾਰ ਨਾਮ"
+
+#: enterprise/views.py:396
+msgid "My country or region of residence"
+msgstr "ਮੇਰਾ ਦੇਸ਼ ਜਾਂ ਰਿਹਾਇਸ਼ ਦਾ ਖੇਤਰ"
+
+#: enterprise/views.py:398
+msgid ""
+"What courses and/or programs I've enrolled in or unenrolled from, what track"
+" I enrolled in (audit or verified) and the date when I enrolled in each "
+"course or program"
+msgstr ""
+"ਮੈਂ ਕਿਹੜੇ ਕੋਰਸਾਂ ਅਤੇ/ਜਾਂ ਪ੍ਰੋਗਰਾਮਾਂ ਵਿੱਚ ਦਾਖਲਾ ਲਿਆ ਹੈ ਜਾਂ ਰੱਦ ਕੀਤਾ ਹੈ, ਮੈਂ "
+"ਕਿਹੜੇ ਟਰੈਕ ਵਿੱਚ ਦਾਖਲਾ ਲਿਆ (ਆਡਿਟ ਜਾਂ ਤਸਦੀਕ ਕੀਤਾ ਗਿਆ) ਅਤੇ ਉਹ ਮਿਤੀ ਜਦੋਂ ਮੈਂ "
+"ਹਰੇਕ ਕੋਰਸ ਜਾਂ ਪ੍ਰੋਗਰਾਮ ਵਿੱਚ ਦਾਖਲਾ ਲਿਆ ਸੀ।"
+
+#: enterprise/views.py:402
+msgid ""
+"Information about each course or program I've enrolled in, including its "
+"duration and level of effort required"
+msgstr ""
+"ਮੇਰੇ ਦੁਆਰਾ ਦਾਖਲ ਕੀਤੇ ਗਏ ਹਰੇਕ ਕੋਰਸ ਜਾਂ ਪ੍ਰੋਗਰਾਮ ਬਾਰੇ ਜਾਣਕਾਰੀ, ਜਿਸ ਵਿੱਚ ਇਸਦੀ "
+"ਮਿਆਦ ਅਤੇ ਲੋੜੀਂਦੇ ਯਤਨਾਂ ਦਾ ਪੱਧਰ ਸ਼ਾਮਲ ਹੈ।"
+
+#: enterprise/views.py:406
+msgid ""
+"Whether I completed specific parts of each course or program (for example, "
+"whether I watched a given video or attempted or completed a given homework "
+"assignment)"
+msgstr ""
+"ਕੀ ਮੈਂ ਹਰੇਕ ਕੋਰਸ ਜਾਂ ਪ੍ਰੋਗਰਾਮ ਦੇ ਖਾਸ ਹਿੱਸੇ ਪੂਰੇ ਕੀਤੇ ਹਨ (ਉਦਾਹਰਣ ਵਜੋਂ, ਕੀ ਮੈਂ"
+" ਕੋਈ ਦਿੱਤਾ ਗਿਆ ਵੀਡੀਓ ਦੇਖਿਆ ਹੈ ਜਾਂ ਦਿੱਤਾ ਗਿਆ ਹੋਮਵਰਕ ਅਸਾਈਨਮੈਂਟ ਪੂਰਾ ਕਰਨ ਦੀ "
+"ਕੋਸ਼ਿਸ਼ ਕੀਤੀ ਹੈ ਜਾਂ ਕੀਤੀ ਹੈ)"
+
+#: enterprise/views.py:410
+msgid ""
+"My overall percentage completion of each course or program on a periodic "
+"basis, including the total time spent in each course or program, the date "
+"when I last logged in to each course or program and how much of the course "
+"or program content I have consumed"
+msgstr ""
+"ਹਰੇਕ ਕੋਰਸ ਜਾਂ ਪ੍ਰੋਗਰਾਮ ਨੂੰ ਸਮੇਂ-ਸਮੇਂ 'ਤੇ ਪੂਰਾ ਕਰਨ ਦਾ ਮੇਰਾ ਕੁੱਲ ਪ੍ਰਤੀਸ਼ਤ, ਜਿਸ"
+" ਵਿੱਚ ਹਰੇਕ ਕੋਰਸ ਜਾਂ ਪ੍ਰੋਗਰਾਮ ਵਿੱਚ ਬਿਤਾਇਆ ਕੁੱਲ ਸਮਾਂ, ਉਹ ਮਿਤੀ ਜਦੋਂ ਮੈਂ ਆਖਰੀ "
+"ਵਾਰ ਹਰੇਕ ਕੋਰਸ ਜਾਂ ਪ੍ਰੋਗਰਾਮ ਵਿੱਚ ਲੌਗਇਨ ਕੀਤਾ ਸੀ ਅਤੇ ਮੈਂ ਕੋਰਸ ਜਾਂ ਪ੍ਰੋਗਰਾਮ ਦੀ "
+"ਕਿੰਨੀ ਸਮੱਗਰੀ ਦੀ ਵਰਤੋਂ ਕੀਤੀ ਹੈ, ਸ਼ਾਮਲ ਹੈ।"
+
+#: enterprise/views.py:414
+msgid ""
+"My performance in each course or program, including, for example, my score "
+"on each assignment and current average of correct answers out of total "
+"attempted answers"
+msgstr ""
+"ਹਰੇਕ ਕੋਰਸ ਜਾਂ ਪ੍ਰੋਗਰਾਮ ਵਿੱਚ ਮੇਰਾ ਪ੍ਰਦਰਸ਼ਨ, ਉਦਾਹਰਣ ਵਜੋਂ, ਹਰੇਕ ਅਸਾਈਨਮੈਂਟ 'ਤੇ "
+"ਮੇਰਾ ਸਕੋਰ ਅਤੇ ਕੁੱਲ ਕੋਸ਼ਿਸ਼ ਕੀਤੇ ਉੱਤਰਾਂ ਵਿੱਚੋਂ ਸਹੀ ਉੱਤਰਾਂ ਦੀ ਮੌਜੂਦਾ ਔਸਤ ਸਮੇਤ।"
+
+#: enterprise/views.py:416
+msgid ""
+"My final grade in each course or program, and the date when I completed each"
+" course or program"
+msgstr ""
+"ਹਰੇਕ ਕੋਰਸ ਜਾਂ ਪ੍ਰੋਗਰਾਮ ਵਿੱਚ ਮੇਰਾ ਅੰਤਿਮ ਗ੍ਰੇਡ, ਅਤੇ ਉਹ ਤਾਰੀਖ ਜਦੋਂ ਮੈਂ ਹਰੇਕ "
+"ਕੋਰਸ ਜਾਂ ਪ੍ਰੋਗਰਾਮ ਪੂਰਾ ਕੀਤਾ ਸੀ"
+
+#: enterprise/views.py:417
+msgid "Whether I received a certificate in each course or program"
+msgstr "ਕੀ ਮੈਨੂੰ ਹਰੇਕ ਕੋਰਸ ਜਾਂ ਪ੍ਰੋਗਰਾਮ ਵਿੱਚ ਸਰਟੀਫਿਕੇਟ ਮਿਲਿਆ ਹੈ"
+
+#: enterprise/views.py:420
+#, python-brace-format
+msgid ""
+"My permission applies only to data from courses or programs that are "
+"sponsored by {enterprise_customer_name}, and not to data from any "
+"{platform_name} courses or programs that I take on my own. I understand that"
+" I may withdraw my permission only by fully unenrolling from any courses or "
+"programs that are sponsored by {enterprise_customer_name}."
+msgstr ""
+"ਮੇਰੀ ਇਜਾਜ਼ਤ ਸਿਰਫ਼ ਉਹਨਾਂ ਕੋਰਸਾਂ ਜਾਂ ਪ੍ਰੋਗਰਾਮਾਂ ਦੇ ਡੇਟਾ 'ਤੇ ਲਾਗੂ ਹੁੰਦੀ ਹੈ ਜੋ "
+"{enterprise_customer_name} ਦੁਆਰਾ ਸਪਾਂਸਰ ਕੀਤੇ ਜਾਂਦੇ ਹਨ, ਅਤੇ ਕਿਸੇ ਵੀ "
+"{platform_name} ਕੋਰਸਾਂ ਜਾਂ ਪ੍ਰੋਗਰਾਮਾਂ ਦੇ ਡੇਟਾ 'ਤੇ ਨਹੀਂ ਜੋ ਮੈਂ ਆਪਣੇ ਆਪ ਲੈਂਦਾ "
+"ਹਾਂ। ਮੈਂ ਸਮਝਦਾ ਹਾਂ ਕਿ ਮੈਂ ਆਪਣੀ ਇਜਾਜ਼ਤ ਸਿਰਫ਼ ਉਹਨਾਂ ਕੋਰਸਾਂ ਜਾਂ ਪ੍ਰੋਗਰਾਮਾਂ ਤੋਂ "
+"ਪੂਰੀ ਤਰ੍ਹਾਂ ਨਾਮਾਂਕਣ ਰੱਦ ਕਰਕੇ ਵਾਪਸ ਲੈ ਸਕਦਾ ਹਾਂ ਜੋ {enterprise_customer_name} "
+"ਦੁਆਰਾ ਸਪਾਂਸਰ ਕੀਤੇ ਜਾਂਦੇ ਹਨ।"
+
+#: enterprise/views.py:428
+msgid "Please note"
+msgstr "ਕ੍ਰਿਪਾ ਧਿਆਨ ਦਿਓ"
+
+#: enterprise/views.py:430
+#, python-brace-format
+msgid ""
+"If you decline to consent, that fact may be shared with "
+"{enterprise_customer_name}."
+msgstr ""
+"ਜੇਕਰ ਤੁਸੀਂ ਸਹਿਮਤੀ ਦੇਣ ਤੋਂ ਇਨਕਾਰ ਕਰਦੇ ਹੋ, ਤਾਂ ਉਹ ਤੱਥ "
+"{enterprise_customer_name} ਨਾਲ ਸਾਂਝਾ ਕੀਤਾ ਜਾ ਸਕਦਾ ਹੈ।"
+
+#: enterprise/views.py:434
+msgid ""
+"Any version of this Data Sharing Policy in a language other than English is "
+"provided for convenience and you understand and agree that the English "
+"language version will control if there is any conflict."
+msgstr ""
+"ਇਸ ਡੇਟਾ ਸ਼ੇਅਰਿੰਗ ਨੀਤੀ ਦਾ ਕੋਈ ਵੀ ਸੰਸਕਰਣ ਅੰਗਰੇਜ਼ੀ ਤੋਂ ਇਲਾਵਾ ਕਿਸੇ ਹੋਰ ਭਾਸ਼ਾ "
+"ਵਿੱਚ ਸਹੂਲਤ ਲਈ ਪ੍ਰਦਾਨ ਕੀਤਾ ਗਿਆ ਹੈ ਅਤੇ ਤੁਸੀਂ ਸਮਝਦੇ ਹੋ ਅਤੇ ਸਹਿਮਤ ਹੁੰਦੇ ਹੋ ਕਿ "
+"ਜੇਕਰ ਕੋਈ ਵਿਵਾਦ ਹੁੰਦਾ ਹੈ ਤਾਂ ਅੰਗਰੇਜ਼ੀ ਭਾਸ਼ਾ ਦਾ ਸੰਸਕਰਣ ਨਿਯੰਤਰਣ ਕਰੇਗਾ।"
+
+#: enterprise/views.py:439
+msgid "Are you sure you want to decline?"
+msgstr "ਕੀ ਤੁਸੀਂ ਪੱਕਾ ਅਸਵੀਕਾਰ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?"
+
+#: enterprise/views.py:440
+msgid "I decline"
+msgstr "ਮੈਂ ਇਨਕਾਰ ਕਰਦਾ ਹਾਂ"
+
+#: enterprise/views.py:441
+msgid "View the data sharing policy"
+msgstr "ਡਾਟਾ ਸਾਂਝਾਕਰਨ ਨੀਤੀ ਵੇਖੋ"
+
+#: enterprise/views.py:442
+#, python-brace-format
+msgid "View the {start_link}data sharing policy{end_link}."
+msgstr "{start_link}ਡਾਟਾ ਸਾਂਝਾਕਰਨ ਨੀਤੀ{end_link} ਵੇਖੋ।"
+
+#: enterprise/views.py:447
+msgid "Return to Top"
+msgstr "ਉੱਪਰ ਵਾਪਸ ਜਾਓ"
+
+#: enterprise/views.py:591
+#, python-brace-format
+msgid ""
+"To access this {item}, you must first consent to share your learning "
+"achievements with {bold_start}{enterprise_customer_name}{bold_end}. If you "
+"decline now, you will be redirected to the previous page."
+msgstr ""
+"ਇਸ {item} ਤੱਕ ਪਹੁੰਚ ਕਰਨ ਲਈ, ਤੁਹਾਨੂੰ ਪਹਿਲਾਂ ਆਪਣੀਆਂ ਸਿੱਖਣ ਪ੍ਰਾਪਤੀਆਂ ਨੂੰ "
+"{bold_start}{enterprise_customer_name}{bold_end} ਨਾਲ ਸਾਂਝਾ ਕਰਨ ਲਈ ਸਹਿਮਤੀ "
+"ਦੇਣੀ ਪਵੇਗੀ। ਜੇਕਰ ਤੁਸੀਂ ਹੁਣੇ ਅਸਵੀਕਾਰ ਕਰਦੇ ਹੋ, ਤਾਂ ਤੁਹਾਨੂੰ ਪਿਛਲੇ ਪੰਨੇ 'ਤੇ ਭੇਜ "
+"ਦਿੱਤਾ ਜਾਵੇਗਾ।"
+
+#: enterprise/views.py:601
+#, python-brace-format
+msgid ""
+"To access this {item} and use your discount, you {bold_start}must{bold_end} "
+"consent to sharing your {item} data with {enterprise_customer_name}. If you "
+"decline now, you will be redirected to the previous page."
+msgstr ""
+"ਇਸ {item} ਤੱਕ ਪਹੁੰਚ ਕਰਨ ਅਤੇ ਆਪਣੀ ਛੋਟ ਦੀ ਵਰਤੋਂ ਕਰਨ ਲਈ, ਤੁਹਾਨੂੰ "
+"{enterprise_customer_name} ਨਾਲ ਆਪਣਾ {item} ਡਾਟਾ ਸਾਂਝਾ ਕਰਨ ਲਈ "
+"{bold_start}ਦੀ{bold_end} ਸਹਿਮਤੀ ਦੇਣੀ ਪਵੇਗੀ। ਜੇਕਰ ਤੁਸੀਂ ਹੁਣੇ ਅਸਵੀਕਾਰ ਕਰਦੇ ਹੋ,"
+" ਤਾਂ ਤੁਹਾਨੂੰ ਪਿਛਲੇ ਪੰਨੇ 'ਤੇ ਭੇਜ ਦਿੱਤਾ ਜਾਵੇਗਾ।"
+
+#: enterprise/views.py:615
+#, python-brace-format
+msgid "your enrollment in this {item}"
+msgstr "ਇਸ {ਆਈਟਮ} ਵਿੱਚ ਤੁਹਾਡਾ ਦਾਖਲਾ"
+
+#: enterprise/views.py:616
+msgid "your learning progress"
+msgstr "ਤੁਹਾਡੀ ਸਿੱਖਣ ਦੀ ਪ੍ਰਗਤੀ"
+
+#: enterprise/views.py:617
+msgid "course completion"
+msgstr "ਕੋਰਸ ਪੂਰਾ ਕਰਨਾ"
+
+#: enterprise/views.py:985
+msgid "Enterprise Slug Login"
+msgstr "ਐਂਟਰਪ੍ਰਾਈਜ਼ ਸਲੱਗ ਲੌਗਇਨ"
+
+#: enterprise/views.py:1109
+msgid "Select Organization"
+msgstr "ਸੰਗਠਨ ਚੁਣੋ"
+
+#: enterprise/views.py:1110
+msgid "Select an organization"
+msgstr "ਕੋਈ ਸੰਸਥਾ ਚੁਣੋ"
+
+#: enterprise/views.py:1264
+msgid "Instructor-Paced"
+msgstr "ਇੰਸਟ੍ਰਕਟਰ-ਰਫ਼ਤਾਰ ਵਾਲਾ"
+
+#: enterprise/views.py:1265
+msgid "Self-Paced"
+msgstr "ਸਵੈ-ਰਫ਼ਤਾਰ"
+
+#: enterprise/views.py:1455
+msgid "FREE"
+msgstr "ਮੁਫ਼ਤ"
+
+#: enterprise/views.py:1457
+msgid "Not eligible for a certificate."
+msgstr "ਸਰਟੀਫਿਕੇਟ ਲਈ ਯੋਗ ਨਹੀਂ ਹੈ।"
+
+#: enterprise/views.py:1459
+msgid "Earn a verified certificate!"
+msgstr "ਇੱਕ ਪ੍ਰਮਾਣਿਤ ਸਰਟੀਫਿਕੇਟ ਕਮਾਓ!"
+
+#: enterprise/views.py:1518
+#, python-brace-format
+msgid "{num_weeks}, starting on {start_date} and ending at {end_date}"
+msgstr "{num_weeks}, {start_date} ਤੋਂ ਸ਼ੁਰੂ ਹੋ ਕੇ {end_date} ਨੂੰ ਖਤਮ ਹੁੰਦਾ ਹੈ"
+
+#: enterprise/views.py:1520 enterprise/views.py:1939
+msgid "{} week"
+msgid_plural "{} weeks"
+msgstr[0] "{} ਹਫ਼ਤਾ"
+msgstr[1] "{} ਹਫ਼ਤਾ"
+
+#: enterprise/views.py:1580
+#, python-brace-format
+msgid ""
+"Discount provided by {strong_start}{enterprise_customer_name}{strong_end}"
+msgstr ""
+"{strong_start}{enterprise_customer_name}{strong_end} ਦੁਆਰਾ ਦਿੱਤੀ ਗਈ ਛੋਟ"
+
+#: enterprise/views.py:1606 enterprise/views.py:1607
+msgid "Confirm your course"
+msgstr "ਆਪਣੇ ਕੋਰਸ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ"
+
+#: enterprise/views.py:1609
+msgid "View Course Details"
+msgstr "ਕੋਰਸ ਵੇਰਵੇ ਵੇਖੋ"
+
+#: enterprise/views.py:1610
+msgid "Please select one:"
+msgstr "ਕਿਰਪਾ ਕਰਕੇ ਇੱਕ ਚੁਣੋ:"
+
+#: enterprise/views.py:1611 enterprise/views.py:2112
+msgid "Price"
+msgstr "ਕੀਮਤ"
+
+#: enterprise/views.py:1613 enterprise/views.py:2115
+msgid "Level"
+msgstr "ਪੱਧਰ"
+
+#: enterprise/views.py:1614 enterprise/views.py:2114
+msgid "Effort"
+msgstr "ਕੋਸ਼ਿਸ਼"
+
+#: enterprise/views.py:1615
+msgid "Duration"
+msgstr "ਮਿਆਦ"
+
+#: enterprise/views.py:1617 enterprise/views.py:2104
+msgid "What you'll learn"
+msgstr "ਤੁਸੀਂ ਕੀ ਸਿੱਖੋਗੇ"
+
+#: enterprise/views.py:1618 enterprise/views.py:2116
+msgid "About This Course"
+msgstr "ਇਸ ਕੋਰਸ ਬਾਰੇ"
+
+#: enterprise/views.py:1619 enterprise/views.py:2117
+msgid "Course Staff"
+msgstr "ਕੋਰਸ ਸਟਾਫ਼"
+
+#: enterprise/views.py:2056
+#, python-brace-format
+msgid "{count} Course"
+msgid_plural "{count} Courses"
+msgstr[0] "{ਗਿਣਤੀ} ਕੋਰਸ"
+msgstr[1] "{ਗਿਣਤੀ} ਕੋਰਸ"
+
+#: enterprise/views.py:2063
+msgid "{}-{} hours per week, per course"
+msgstr "{}-{} ਘੰਟੇ ਪ੍ਰਤੀ ਹਫ਼ਤਾ, ਪ੍ਰਤੀ ਕੋਰਸ"
+
+#: enterprise/views.py:2070
+msgid "{}-{} weeks per course"
+msgstr "{}-{} ਹਫ਼ਤੇ ਪ੍ਰਤੀ ਕੋਰਸ"
+
+#: enterprise/views.py:2077
+msgid "Purchase all unenrolled courses"
+msgstr "ਸਾਰੇ ਗੈਰ-ਨਾਮਜ਼ਦ ਕੋਰਸ ਖਰੀਦੋ"
+
+#: enterprise/views.py:2078
+msgid "enrollment"
+msgstr "ਦਾਖਲਾ"
+
+#: enterprise/views.py:2080
+msgid "Pursue the program"
+msgstr "ਪ੍ਰੋਗਰਾਮ ਦੀ ਪਾਲਣਾ ਕਰੋ"
+
+#: enterprise/views.py:2081
+msgid "program enrollment"
+msgstr "ਪ੍ਰੋਗਰਾਮ ਦਾਖਲਾ"
+
+#: enterprise/views.py:2102
+msgid "enrolled"
+msgstr "ਦਰਜ ਕੀਤਾ ਗਿਆ"
+
+#: enterprise/views.py:2103
+msgid "already enrolled, must pay for certificate"
+msgstr "ਪਹਿਲਾਂ ਹੀ ਦਾਖਲ ਹੈ, ਸਰਟੀਫਿਕੇਟ ਲਈ ਭੁਗਤਾਨ ਕਰਨਾ ਪਵੇਗਾ"
+
+#: enterprise/views.py:2106
+msgid "Real Career Impact"
+msgstr "ਅਸਲ ਕਰੀਅਰ ਪ੍ਰਭਾਵ"
+
+#: enterprise/views.py:2108
+msgid "See More"
+msgstr "ਹੋਰ ਵੇਖੋ"
+
+#: enterprise/views.py:2109
+msgid "See Less"
+msgstr "ਘੱਟ ਦੇਖੋ"
+
+#: enterprise/views.py:2110
+msgid "Confirm Program"
+msgstr "ਪ੍ਰੋਗਰਾਮ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ"
+
+#: enterprise/views.py:2111
+msgid "Program Summary"
+msgstr "ਪ੍ਰੋਗਰਾਮ ਦਾ ਸਾਰ"
+
+#: enterprise/views.py:2113
+msgid "Length"
+msgstr "ਲੰਬਾਈ"
+
+#: enterprise/views.py:2119
+msgid "Program not eligible for one-click purchase."
+msgstr "ਪ੍ਰੋਗਰਾਮ ਇੱਕ-ਕਲਿੱਕ ਖਰੀਦ ਲਈ ਯੋਗ ਨਹੀਂ ਹੈ।"
+
+#: enterprise/views.py:2120
+#, python-brace-format
+msgid "What is an {platform_name} {program_type}?"
+msgstr "{platform_name} {program_type} ਕੀ ਹੁੰਦਾ ਹੈ?"
+
+#: enterprise/views.py:2124
+#, python-brace-format
+msgid "What is {platform_name}?"
+msgstr "{platform_name} ਕੀ ਹੈ?"
+
+#: enterprise/views.py:2129
+#, python-brace-format
+msgid "Presented by {organization}"
+msgstr "{ਸੰਗਠਨ} ਦੁਆਰਾ ਪੇਸ਼ ਕੀਤਾ ਗਿਆ"
+
+#: enterprise/views.py:2130
+#, python-brace-format
+msgid "Confirm your {item}"
+msgstr "ਆਪਣੀ {ਆਈਟਮ} ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ"
+
+#: enterprise/views.py:2142
+msgid "Credit- and Certificate-eligible"
+msgstr "ਕ੍ਰੈਡਿਟ- ਅਤੇ ਸਰਟੀਫਿਕੇਟ-ਯੋਗ"
+
+#: enterprise/views.py:2143
+msgid "Self-paced; courses can be taken in any order"
+msgstr "ਸਵੈ-ਗਤੀ; ਕੋਰਸ ਕਿਸੇ ਵੀ ਕ੍ਰਮ ਵਿੱਚ ਲਏ ਜਾ ਸਕਦੇ ਹਨ"
+
+#: enterprise/views.py:2145
+#, python-brace-format
+msgid "{purchase_action} for"
+msgstr "ਲਈ {ਖਰੀਦ_ਕਾਰਵਾਈ}"
+
+#: enterprise_learner_portal/api/v1/serializers.py:40
+msgid ""
+"To use this EnterpriseCourseEnrollmentSerializer, this package must be "
+"installed in an Open edX environment."
+msgstr ""
+"ਇਸ EnterpriseCourseEnrollmentSerializer ਦੀ ਵਰਤੋਂ ਕਰਨ ਲਈ, ਇਸ ਪੈਕੇਜ ਨੂੰ ਇੱਕ "
+"Open edX ਵਾਤਾਵਰਣ ਵਿੱਚ ਸਥਾਪਿਤ ਕੀਤਾ ਜਾਣਾ ਚਾਹੀਦਾ ਹੈ।"
+
+#: enterprise/config/models.py:41
+msgid ""
+"Specifies which user role assignments to update.  If unspecified, will "
+"update for all roles."
+msgstr ""
+"ਇਹ ਦੱਸਦਾ ਹੈ ਕਿ ਕਿਹੜੇ ਯੂਜ਼ਰ ਰੋਲ ਅਸਾਈਨਮੈਂਟਾਂ ਨੂੰ ਅੱਪਡੇਟ ਕਰਨਾ ਹੈ। ਜੇਕਰ ਨਿਰਧਾਰਤ "
+"ਨਹੀਂ ਕੀਤਾ ਗਿਆ ਹੈ, ਤਾਂ ਸਾਰੀਆਂ ਭੂਮਿਕਾਵਾਂ ਲਈ ਅੱਪਡੇਟ ਕੀਤਾ ਜਾਵੇਗਾ।"
+
+#: enterprise/config/models.py:45
+msgid "Number of user role asssignments to update in each batch of updates."
+msgstr ""
+"ਅੱਪਡੇਟਾਂ ਦੇ ਹਰੇਕ ਬੈਚ ਵਿੱਚ ਅੱਪਡੇਟ ਕਰਨ ਲਈ ਉਪਭੋਗਤਾ ਭੂਮਿਕਾ ਅਸਾਈਨਮੈਂਟਾਂ ਦੀ ਗਿਣਤੀ।"
+
+#: enterprise/config/models.py:50
+msgid "The enterprise customer to limit role assignments to."
+msgstr "ਐਂਟਰਪ੍ਰਾਈਜ਼ ਗਾਹਕ ਨੂੰ ਭੂਮਿਕਾ ਦੇ ਕੰਮ ਨੂੰ ਇਹਨਾਂ ਤੱਕ ਸੀਮਤ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ।"
+
+#: enterprise/config/models.py:55
+msgid ""
+"If set, no updates or creates will occur; will instead iterate over the "
+"assignments that would be modified or created"
+msgstr ""
+"ਜੇਕਰ ਸੈੱਟ ਕੀਤਾ ਜਾਂਦਾ ਹੈ, ਤਾਂ ਕੋਈ ਅੱਪਡੇਟ ਜਾਂ ਰਚਨਾ ਨਹੀਂ ਹੋਵੇਗੀ; ਇਸਦੀ ਬਜਾਏ "
+"ਉਹਨਾਂ ਅਸਾਈਨਮੈਂਟਾਂ 'ਤੇ ਦੁਹਰਾਇਆ ਜਾਵੇਗਾ ਜੋ ਸੋਧੀਆਂ ਜਾਂ ਬਣਾਈਆਂ ਜਾਣਗੀਆਂ।"

@@ -1,0 +1,330 @@
+# #-#-#-#-#  djangojs.po (edx-proctoring)  #-#-#-#-#
+# edX translation file
+# Copyright (C) 2018 edX
+# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+# EdX Team <info@edx.org>, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: edx-proctoring\n"
+"Report-Msgid-Bugs-To: Blend-ed Language Team <dev@blend-ed.com>\n"
+"POT-Creation-Date: 2025-10-30 00:49+0000\n"
+"PO-Revision-Date: 2018-03-14 17:16-0500\n"
+"Last-Translator: Zameel Hassan <zameel@blend-ed.com>\n"
+"Language-Team: Blend-ed Language Team <dev@blend-ed.com>\n"
+"Language: pa\n"    
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: static/proctoring/js/exam_action_handler.js:44
+msgid "OK"
+msgstr "ਠੀਕ ਹੈ"
+
+#: static/proctoring/js/exam_action_handler.js:130
+#: static/proctoring/js/exam_action_handler.js:195
+#: static/proctoring/js/exam_action_handler.js:206
+msgid "Error Ending Exam"
+msgstr "ਪ੍ਰੀਖਿਆ ਸਮਾਪਤ ਕਰਨ ਵਿੱਚ ਗਲਤੀ"
+
+#: static/proctoring/js/exam_action_handler.js:132
+#: static/proctoring/js/exam_action_handler.js:208
+msgid ""
+"Something has gone wrong ending your exam. Please reload the page and start "
+"again."
+msgstr ""
+"ਤੁਹਾਡੀ ਪ੍ਰੀਖਿਆ ਨੂੰ ਖਤਮ ਕਰਨ ਵੇਲੇ ਕੁਝ ਗਲਤ ਹੋ ਗਿਆ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਪੰਨੇ ਨੂੰ ਰੀਲੋਡ"
+" ਕਰੋ ਅਤੇ ਦੁਬਾਰਾ ਸ਼ੁਰੂ ਕਰੋ।"
+
+#: static/proctoring/js/exam_action_handler.js:159
+#: static/proctoring/js/exam_action_handler.js:170
+msgid "Error Starting Exam"
+msgstr "ਪ੍ਰੀਖਿਆ ਸ਼ੁਰੂ ਕਰਨ ਵਿੱਚ ਗਲਤੀ"
+
+#: static/proctoring/js/exam_action_handler.js:161
+msgid ""
+"Something has gone wrong starting your exam. Please double-check that the "
+"application is running."
+msgstr ""
+"ਤੁਹਾਡੀ ਪ੍ਰੀਖਿਆ ਸ਼ੁਰੂ ਕਰਨ ਵੇਲੇ ਕੁਝ ਗਲਤ ਹੋ ਗਿਆ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਦੁਬਾਰਾ ਜਾਂਚ ਕਰੋ "
+"ਕਿ ਐਪਲੀਕੇਸ਼ਨ ਚੱਲ ਰਹੀ ਹੈ।"
+
+#: static/proctoring/js/exam_action_handler.js:172
+msgid ""
+"Something has gone wrong starting your exam. Please reload the page and "
+"start again."
+msgstr ""
+"ਤੁਹਾਡੀ ਪ੍ਰੀਖਿਆ ਸ਼ੁਰੂ ਕਰਨ ਵੇਲੇ ਕੁਝ ਗਲਤ ਹੋ ਗਿਆ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਪੰਨੇ ਨੂੰ ਰੀਲੋਡ "
+"ਕਰੋ ਅਤੇ ਦੁਬਾਰਾ ਸ਼ੁਰੂ ਕਰੋ।"
+
+#: static/proctoring/js/exam_action_handler.js:197
+msgid ""
+"Something has gone wrong ending your exam. Please double-check that the "
+"application is running."
+msgstr ""
+"ਤੁਹਾਡੀ ਪ੍ਰੀਖਿਆ ਨੂੰ ਖਤਮ ਕਰਨ ਵੇਲੇ ਕੁਝ ਗਲਤ ਹੋ ਗਿਆ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਦੁਬਾਰਾ ਜਾਂਚ "
+"ਕਰੋ ਕਿ ਐਪਲੀਕੇਸ਼ਨ ਚੱਲ ਰਹੀ ਹੈ।"
+
+#: static/proctoring/js/views/proctored_exam_add_bulk_allowance_view.js:218
+#: static/proctoring/js/views/proctored_exam_allowance_view.js:13
+#: static/proctoring/spec/proctored_exam_add_bulk_allowance_spec.js:82
+msgid "Review Policy Exception"
+msgstr "ਨੀਤੀ ਅਪਵਾਦ ਦੀ ਸਮੀਖਿਆ ਕਰੋ"
+
+#: static/proctoring/js/views/proctored_exam_add_bulk_allowance_view.js:224
+msgid "Add Time(Minutes)"
+msgstr "ਸਮਾਂ ਜੋੜੋ (ਮਿੰਟ)"
+
+#: static/proctoring/js/views/proctored_exam_add_bulk_allowance_view.js:226
+msgid "Add Multiplier as a Number Greater Than 1"
+msgstr "1 ਤੋਂ ਵੱਡੀ ਸੰਖਿਆ ਦੇ ਰੂਪ ਵਿੱਚ ਗੁਣਕ ਜੋੜੋ"
+
+#: static/proctoring/js/views/proctored_exam_add_bulk_allowance_view.js:228
+msgid "Add Policy Exception"
+msgstr "ਨੀਤੀ ਅਪਵਾਦ ਸ਼ਾਮਲ ਕਰੋ"
+
+#: static/proctoring/js/views/proctored_exam_add_bulk_allowance_view.js:268
+#: static/proctoring/js/views/proctored_exam_add_bulk_allowance_view.js:276
+#: static/proctoring/js/views/proctored_exam_edit_allowance_view.js:118
+msgid "Required field"
+msgstr "ਲੋੜੀਂਦਾ ਖੇਤਰ"
+
+#: static/proctoring/js/views/proctored_exam_allowance_view.js:12
+#: static/proctoring/spec/proctored_exam_add_bulk_allowance_spec.js:81
+msgid "Additional Time (minutes)"
+msgstr "ਵਾਧੂ ਸਮਾਂ (ਮਿੰਟ)"
+
+#: static/proctoring/js/views/proctored_exam_allowance_view.js:14
+#: static/proctoring/spec/proctored_exam_add_bulk_allowance_spec.js:83
+msgid "Time Multiplier"
+msgstr "ਸਮਾਂ ਗੁਣਕ"
+
+#: static/proctoring/js/views/proctored_exam_attempt_view.js:10
+msgid "Eligible"
+msgstr "ਯੋਗ"
+
+#: static/proctoring/js/views/proctored_exam_attempt_view.js:11
+msgid "Created"
+msgstr "ਬਣਾਇਆ ਗਿਆ"
+
+#: static/proctoring/js/views/proctored_exam_attempt_view.js:12
+msgid "Download Software Clicked"
+msgstr "ਸਾਫਟਵੇਅਰ ਡਾਊਨਲੋਡ ਕਰਨ 'ਤੇ ਕਲਿੱਕ ਕੀਤਾ ਗਿਆ"
+
+#: static/proctoring/js/views/proctored_exam_attempt_view.js:13
+msgid "Ready to start"
+msgstr "ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਤਿਆਰ"
+
+#: static/proctoring/js/views/proctored_exam_attempt_view.js:14
+#: static/proctoring/js/views/proctored_exam_info.js:17
+#: static/proctoring/js/views/proctored_exam_onboarding_view.js:33
+msgid "Started"
+msgstr "ਸ਼ੁਰੂ ਕੀਤਾ"
+
+#: static/proctoring/js/views/proctored_exam_attempt_view.js:15
+msgid "Ready to submit"
+msgstr "ਸਪੁਰਦ ਕਰਨ ਲਈ ਤਿਆਰ"
+
+#: static/proctoring/js/views/proctored_exam_attempt_view.js:16
+msgid "Declined"
+msgstr "ਅਸਵੀਕਾਰ ਕੀਤਾ ਗਿਆ"
+
+#: static/proctoring/js/views/proctored_exam_attempt_view.js:17
+msgid "Timed out"
+msgstr "ਸਮਾਂ ਸਮਾਪਤ"
+
+#: static/proctoring/js/views/proctored_exam_attempt_view.js:18
+msgid "Second Review Required"
+msgstr "ਦੂਜੀ ਸਮੀਖਿਆ ਲੋੜੀਂਦੀ ਹੈ"
+
+#: static/proctoring/js/views/proctored_exam_attempt_view.js:19
+#: static/proctoring/js/views/proctored_exam_info.js:21
+#: static/proctoring/js/views/proctored_exam_onboarding_view.js:34
+msgid "Submitted"
+msgstr "ਸਪੁਰਦ ਕੀਤਾ ਗਿਆ"
+
+#: static/proctoring/js/views/proctored_exam_attempt_view.js:20
+#: static/proctoring/js/views/proctored_exam_info.js:34
+#: static/proctoring/js/views/proctored_exam_onboarding_view.js:35
+msgid "Verified"
+msgstr "ਪ੍ਰਮਾਣਿਤ"
+
+#: static/proctoring/js/views/proctored_exam_attempt_view.js:21
+#: static/proctoring/js/views/proctored_exam_info.js:38
+#: static/proctoring/js/views/proctored_exam_onboarding_view.js:36
+msgid "Rejected"
+msgstr "ਅਸਵੀਕਾਰ ਕੀਤਾ ਗਿਆ"
+
+#: static/proctoring/js/views/proctored_exam_attempt_view.js:22
+#: static/proctoring/js/views/proctored_exam_info.js:42
+#: static/proctoring/js/views/proctored_exam_onboarding_view.js:37
+msgid "Error"
+msgstr "ਗਲਤੀ"
+
+#: static/proctoring/js/views/proctored_exam_attempt_view.js:23
+msgid "Onboarding Missing"
+msgstr "ਔਨਬੋਰਡਿੰਗ ਗੁੰਮ ਹੈ"
+
+#: static/proctoring/js/views/proctored_exam_attempt_view.js:24
+msgid "Onboarding Pending"
+msgstr "ਆਨਬੋਰਡਿੰਗ ਵਿਚਾਰ-ਅਧੀਨ ਹੈ"
+
+#: static/proctoring/js/views/proctored_exam_attempt_view.js:25
+msgid "Onboarding Failed"
+msgstr "ਆਨਬੋਰਡਿੰਗ ਅਸਫਲ ਰਹੀ"
+
+#: static/proctoring/js/views/proctored_exam_attempt_view.js:26
+msgid "Onboarding Expired"
+msgstr "ਆਨਬੋਰਡਿੰਗ ਦੀ ਮਿਆਦ ਖਤਮ ਹੋ ਗਈ ਹੈ"
+
+#: static/proctoring/js/views/proctored_exam_attempt_view.js:179
+msgid "Practice"
+msgstr "ਅਭਿਆਸ"
+
+#: static/proctoring/js/views/proctored_exam_attempt_view.js:179
+msgid "Proctored"
+msgstr "ਪ੍ਰੋਕਟਰਡ"
+
+#: static/proctoring/js/views/proctored_exam_attempt_view.js:181
+msgid "Timed"
+msgstr "ਸਮਾਂਬੱਧ"
+
+#: static/proctoring/js/views/proctored_exam_attempt_view.js:214
+msgid "Are you sure you want to remove this student's exam attempt?"
+msgstr ""
+"ਕੀ ਤੁਸੀਂ ਪੱਕਾ ਇਸ ਵਿਦਿਆਰਥੀ ਦੀ ਪ੍ਰੀਖਿਆ ਦੀ ਕੋਸ਼ਿਸ਼ ਨੂੰ ਹਟਾਉਣਾ ਚਾਹੁੰਦੇ ਹੋ?"
+
+#: static/proctoring/js/views/proctored_exam_attempt_view.js:248
+msgid "Are you sure you want to resume this student's exam attempt?"
+msgstr ""
+"ਕੀ ਤੁਸੀਂ ਪੱਕਾ ਇਸ ਵਿਦਿਆਰਥੀ ਦੀ ਪ੍ਰੀਖਿਆ ਦੀ ਕੋਸ਼ਿਸ਼ ਦੁਬਾਰਾ ਸ਼ੁਰੂ ਕਰਨਾ ਚਾਹੁੰਦੇ "
+"ਹੋ?"
+
+#: static/proctoring/js/views/proctored_exam_info.js:13
+#: static/proctoring/js/views/proctored_exam_onboarding_view.js:29
+msgid "Not Started"
+msgstr "ਸ਼ੁਰੂ ਨਹੀਂ ਹੋਇਆ"
+
+#: static/proctoring/js/views/proctored_exam_info.js:14
+msgid "You have not started your onboarding exam."
+msgstr "ਤੁਸੀਂ ਆਪਣੀ ਆਨਬੋਰਡਿੰਗ ਪ੍ਰੀਖਿਆ ਸ਼ੁਰੂ ਨਹੀਂ ਕੀਤੀ ਹੈ।"
+
+#: static/proctoring/js/views/proctored_exam_info.js:18
+msgid "You have started your onboarding exam."
+msgstr "ਤੁਸੀਂ ਆਪਣੀ ਆਨਬੋਰਡਿੰਗ ਪ੍ਰੀਖਿਆ ਸ਼ੁਰੂ ਕਰ ਦਿੱਤੀ ਹੈ।"
+
+#: static/proctoring/js/views/proctored_exam_info.js:22
+msgid "You have submitted your onboarding exam."
+msgstr "ਤੁਸੀਂ ਆਪਣੀ ਆਨਬੋਰਡਿੰਗ ਪ੍ਰੀਖਿਆ ਜਮ੍ਹਾਂ ਕਰਵਾ ਦਿੱਤੀ ਹੈ।"
+
+#: static/proctoring/js/views/proctored_exam_info.js:35
+msgid "Your onboarding exam has been approved in this course."
+msgstr "ਇਸ ਕੋਰਸ ਵਿੱਚ ਤੁਹਾਡੀ ਆਨਬੋਰਡਿੰਗ ਪ੍ਰੀਖਿਆ ਨੂੰ ਮਨਜ਼ੂਰੀ ਦੇ ਦਿੱਤੀ ਗਈ ਹੈ।"
+
+#: static/proctoring/js/views/proctored_exam_info.js:39
+msgid "Your onboarding exam has been rejected. Please retry onboarding."
+msgstr ""
+"ਤੁਹਾਡੀ ਆਨਬੋਰਡਿੰਗ ਪ੍ਰੀਖਿਆ ਰੱਦ ਕਰ ਦਿੱਤੀ ਗਈ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਦੁਬਾਰਾ ਆਨਬੋਰਡਿੰਗ ਦੀ "
+"ਕੋਸ਼ਿਸ਼ ਕਰੋ।"
+
+#: static/proctoring/js/views/proctored_exam_info.js:43
+msgid ""
+"An error has occurred during your onboarding exam. Please retry onboarding."
+msgstr ""
+"ਤੁਹਾਡੀ ਆਨਬੋਰਡਿੰਗ ਪ੍ਰੀਖਿਆ ਦੌਰਾਨ ਇੱਕ ਗਲਤੀ ਆਈ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਦੁਬਾਰਾ ਆਨਬੋਰਡਿੰਗ "
+"ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰੋ।"
+
+#: static/proctoring/js/views/proctored_exam_info.js:46
+#: static/proctoring/js/views/proctored_exam_onboarding_view.js:32
+msgid "Approved in Another Course"
+msgstr "ਕਿਸੇ ਹੋਰ ਕੋਰਸ ਵਿੱਚ ਮਨਜ਼ੂਰੀ ਦਿੱਤੀ ਗਈ"
+
+#: static/proctoring/js/views/proctored_exam_info.js:47
+msgid "Your onboarding exam has been approved in another course."
+msgstr ""
+"ਤੁਹਾਡੀ ਆਨਬੋਰਡਿੰਗ ਪ੍ਰੀਖਿਆ ਨੂੰ ਕਿਸੇ ਹੋਰ ਕੋਰਸ ਵਿੱਚ ਮਨਜ਼ੂਰੀ ਦੇ ਦਿੱਤੀ ਗਈ ਹੈ।"
+
+#: static/proctoring/js/views/proctored_exam_info.js:49
+msgid ""
+"If your device has changed, we recommend that you complete this course's "
+"onboarding exam in order to ensure that your setup still meets the "
+"requirements for proctoring."
+msgstr ""
+"ਜੇਕਰ ਤੁਹਾਡੀ ਡਿਵਾਈਸ ਬਦਲ ਗਈ ਹੈ, ਤਾਂ ਅਸੀਂ ਸਿਫ਼ਾਰਿਸ਼ ਕਰਦੇ ਹਾਂ ਕਿ ਤੁਸੀਂ ਇਸ ਕੋਰਸ "
+"ਦੀ ਆਨਬੋਰਡਿੰਗ ਪ੍ਰੀਖਿਆ ਪੂਰੀ ਕਰੋ ਤਾਂ ਜੋ ਇਹ ਯਕੀਨੀ ਬਣਾਇਆ ਜਾ ਸਕੇ ਕਿ ਤੁਹਾਡਾ ਸੈੱਟਅੱਪ"
+" ਅਜੇ ਵੀ ਪ੍ਰੋਕਟਰਿੰਗ ਲਈ ਜ਼ਰੂਰਤਾਂ ਨੂੰ ਪੂਰਾ ਕਰਦਾ ਹੈ।"
+
+#: static/proctoring/js/views/proctored_exam_info.js:55
+msgid "Expiring Soon"
+msgstr "ਮਿਆਦ ਜਲਦੀ ਹੀ ਸਮਾਪਤ ਹੋ ਰਹੀ ਹੈ"
+
+#: static/proctoring/js/views/proctored_exam_info.js:57
+msgid ""
+"Your onboarding profile has been approved. However, your onboarding status "
+"is expiring soon. Please complete onboarding again to ensure that you will "
+"be able to continue taking proctored exams."
+msgstr ""
+"ਤੁਹਾਡੀ ਔਨਬੋਰਡਿੰਗ ਪ੍ਰੋਫਾਈਲ ਨੂੰ ਮਨਜ਼ੂਰੀ ਦੇ ਦਿੱਤੀ ਗਈ ਹੈ। ਹਾਲਾਂਕਿ, ਤੁਹਾਡੀ "
+"ਔਨਬੋਰਡਿੰਗ ਸਥਿਤੀ ਜਲਦੀ ਹੀ ਖਤਮ ਹੋ ਰਹੀ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਇਹ ਯਕੀਨੀ ਬਣਾਉਣ ਲਈ ਦੁਬਾਰਾ "
+"ਔਨਬੋਰਡਿੰਗ ਪੂਰੀ ਕਰੋ ਕਿ ਤੁਸੀਂ ਪ੍ਰੋਕਟੋਰਡ ਪ੍ਰੀਖਿਆਵਾਂ ਦੇਣਾ ਜਾਰੀ ਰੱਖ ਸਕੋਗੇ।"
+
+#: static/proctoring/js/views/proctored_exam_info.js:64
+#: static/proctoring/js/views/proctored_exam_onboarding_view.js:38
+msgid "Expired"
+msgstr "ਮਿਆਦ ਪੁੱਗ ਗਈ"
+
+#: static/proctoring/js/views/proctored_exam_info.js:66
+msgid ""
+"Your onboarding status has expired. Please complete onboarding again to "
+"continue taking proctored exams."
+msgstr ""
+"ਤੁਹਾਡੀ ਔਨਬੋਰਡਿੰਗ ਸਥਿਤੀ ਦੀ ਮਿਆਦ ਖਤਮ ਹੋ ਗਈ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਪ੍ਰੋਕਟੋਰਡ ਪ੍ਰੀਖਿਆਵਾਂ"
+" ਦੇਣਾ ਜਾਰੀ ਰੱਖਣ ਲਈ ਦੁਬਾਰਾ ਔਨਬੋਰਡਿੰਗ ਪੂਰੀ ਕਰੋ।"
+
+#: static/proctoring/js/views/proctored_exam_onboarding_view.js:30
+msgid "Setup Started"
+msgstr "ਸੈੱਟਅੱਪ ਸ਼ੁਰੂ ਹੋਇਆ"
+
+#: static/proctoring/js/views/proctored_exam_onboarding_view.js:31
+msgid "Onboarding Started"
+msgstr "ਆਨਬੋਰਡਿੰਗ ਸ਼ੁਰੂ ਹੋਈ"
+
+#: static/proctoring/js/views/proctored_exam_onboarding_view.js:40
+msgid "Onboarding Reset Failed Due to Past Due Exam"
+msgstr "ਪਿਛਲੀ ਬਕਾਇਆ ਪ੍ਰੀਖਿਆ ਦੇ ਕਾਰਨ ਆਨਬੋਰਡਿੰਗ ਰੀਸੈਟ ਅਸਫਲ ਰਿਹਾ"
+
+#: static/proctoring/js/views/proctored_exam_onboarding_view.js:42
+msgid "Audit"
+msgstr "ਆਡਿਟ"
+
+#: static/proctoring/js/views/proctored_exam_onboarding_view.js:43
+msgid "Honor"
+msgstr "ਸਨਮਾਨ"
+
+#: static/proctoring/js/views/proctored_exam_onboarding_view.js:44
+msgid "Professional"
+msgstr "ਪੇਸ਼ੇਵਰ"
+
+#: static/proctoring/js/views/proctored_exam_onboarding_view.js:45
+msgid "No ID Professional"
+msgstr "ਕੋਈ ਆਈਡੀ ਪੇਸ਼ੇਵਰ ਨਹੀਂ"
+
+#: static/proctoring/js/views/proctored_exam_onboarding_view.js:46
+msgid "Credit"
+msgstr "ਕ੍ਰੈਡਿਟ"
+
+#: static/proctoring/js/views/proctored_exam_onboarding_view.js:47
+msgid "Master's"
+msgstr "ਮਾਸਟਰਜ਼"
+
+#: static/proctoring/js/views/proctored_exam_onboarding_view.js:48
+msgid "Executive Education"
+msgstr "ਕਾਰਜਕਾਰੀ ਸਿੱਖਿਆ"
+
+#: static/proctoring/js/views/proctored_exam_view.js:153
+msgid ""
+"Are you sure you want to leave this page? \n"
+"To pass your proctored exam you must also pass the online proctoring session review."
+msgstr ""
+"ਕੀ ਤੁਸੀਂ ਯਕੀਨਨ ਇਸ ਪੰਨੇ ਨੂੰ ਛੱਡਣਾ ਚਾਹੁੰਦੇ ਹੋ? \n"
+"ਆਪਣੀ ਪ੍ਰੋਕਟਰਡ ਪ੍ਰੀਖਿਆ ਪਾਸ ਕਰਨ ਲਈ ਤੁਹਾਨੂੰ ਔਨਲਾਈਨ ਪ੍ਰੋਕਟਰਿੰਗ ਸੈਸ਼ਨ ਸਮੀਖਿਆ ਵੀ ਪਾਸ ਕਰਨੀ ਪਵੇਗੀ।"

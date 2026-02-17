@@ -1,0 +1,115 @@
+# edX translation file.
+# Copyright (C) 2025 EdX
+# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+# EdX Team <info@edx.org>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1a\n"
+"Report-Msgid-Bugs-To: Blend-ed Language Team <dev@blend-ed.com>\n"
+"POT-Creation-Date: 2023-06-13 08:00+0000\n"
+"PO-Revision-Date: 2023-06-13 09:00+0000\n"
+"Last-Translator: Zameel Hassan <zameel@blend-ed.com>\n"
+"Language-Team: Blend-ed Language Team <dev@blend-ed.com>\n"
+"Language: pa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: templates/edit.html:8
+msgid "Display Name"
+msgstr "ਦਿਖਾਇਆ ਹੋਇਆ ਨਾਮ"
+
+#: templates/edit.html:11
+msgid "This name appears in the horizontal navigation at the top of the page"
+msgstr "ਇਹ ਨਾਮ ਪੰਨੇ ਦੇ ਸਿਖਰ 'ਤੇ ਖਿਤਿਜੀ ਨੈਵੀਗੇਸ਼ਨ ਵਿੱਚ ਦਿਖਾਈ ਦਿੰਦਾ ਹੈ।"
+
+#: templates/edit.html:16
+msgid "Weight"
+msgstr "ਭਾਰ"
+
+#: templates/edit.html:19
+msgid "This assigns an integer value representing the weight of this problem"
+msgstr ""
+"ਇਹ ਇਸ ਸਮੱਸਿਆ ਦੇ ਭਾਰ ਨੂੰ ਦਰਸਾਉਣ ਵਾਲਾ ਇੱਕ ਪੂਰਨ ਅੰਕ ਮੁੱਲ ਨਿਰਧਾਰਤ ਕਰਦਾ ਹੈ।"
+
+#: templates/edit.html:24
+msgid "Max Attempts"
+msgstr "ਵੱਧ ਤੋਂ ਵੱਧ ਕੋਸ਼ਿਸ਼ਾਂ"
+
+#: templates/edit.html:27
+msgid ""
+"This assigns an integer value representing the maximum number of times a "
+"student can attempt the problem"
+msgstr ""
+"ਇਹ ਇੱਕ ਪੂਰਨ ਅੰਕ ਮੁੱਲ ਨਿਰਧਾਰਤ ਕਰਦਾ ਹੈ ਜੋ ਇੱਕ ਵਿਦਿਆਰਥੀ ਸਮੱਸਿਆ ਨੂੰ ਅਜ਼ਮਾਉਣ ਦੀ "
+"ਵੱਧ ਤੋਂ ਵੱਧ ਸੰਖਿਆ ਨੂੰ ਦਰਸਾਉਂਦਾ ਹੈ।"
+
+#: templates/edit.html:32
+msgid "Label for Student Answer"
+msgstr "ਵਿਦਿਆਰਥੀ ਜਵਾਬ ਲਈ ਲੇਬਲ"
+
+#: templates/edit.html:35
+msgid "Label for the text area containing the student's answer"
+msgstr "ਵਿਦਿਆਰਥੀ ਦੇ ਜਵਾਬ ਵਾਲੇ ਟੈਕਸਟ ਖੇਤਰ ਲਈ ਲੇਬਲ"
+
+#: templates/edit.html:40
+msgid "Label for Expert Answer"
+msgstr "ਮਾਹਰ ਜਵਾਬ ਲਈ ਲੇਬਲ"
+
+#: templates/edit.html:43
+msgid "Label for the 'expert' answer"
+msgstr "'ਮਾਹਰ' ਜਵਾਬ ਲਈ ਲੇਬਲ"
+
+#: templates/edit.html:48
+msgid "Label for Submit Button"
+msgstr "ਸਪੁਰਦ ਕਰੋ ਬਟਨ ਲਈ ਲੇਬਲ"
+
+#: templates/edit.html:51
+msgid "Label for the submit button"
+msgstr "ਸਪੁਰਦ ਕਰੋ ਬਟਨ ਲਈ ਲੇਬਲ"
+
+#: templates/edit.html:56
+msgid "Definition"
+msgstr "ਪਰਿਭਾਸ਼ਾ"
+
+#: templates/edit.html:57
+msgid "The XML definition for the question and expert answer"
+msgstr "ਸਵਾਲ ਅਤੇ ਮਾਹਰ ਜਵਾਬ ਲਈ XML ਪਰਿਭਾਸ਼ਾ"
+
+#: templates/edit.html:69
+msgid "Save"
+msgstr "ਸੇਵ ਕਰੋ"
+
+#: templates/edit.html:72
+msgid "Cancel"
+msgstr "ਰੱਦ ਕਰੋ"
+
+#: views.py:223
+#, python-brace-format
+msgid "Hint ({number} of {total}): {hint}"
+msgstr "ਸੰਕੇਤ ({ਕੁੱਲ} ਵਿੱਚੋਂ {ਨੰਬਰ}): {ਸੰਕੇਤ}"
+
+#: views.py:244
+#, python-brace-format
+msgid "You have used {count_attempts} of {max_attempts} submission"
+msgid_plural "You have used {count_attempts} of {max_attempts} submissions"
+msgstr[0] ""
+"ਤੁਸੀਂ {max_attempts} ਵਿੱਚੋਂ {count_attempts} ਸਬਮਿਸ਼ਨ ਦੀ ਵਰਤੋਂ ਕੀਤੀ ਹੈ।"
+msgstr[1] ""
+"ਤੁਸੀਂ {max_attempts} ਵਿੱਚੋਂ {count_attempts} ਸਬਮਿਸ਼ਨ ਦੀ ਵਰਤੋਂ ਕੀਤੀ ਹੈ।"
+
+#: views.py:287
+#, python-brace-format
+msgid "{weight} point possible"
+msgid_plural "{weight} points possible"
+msgstr[0] "{ਵਜ਼ਨ} ਪੁਆਇੰਟ ਸੰਭਵ ਹੈ"
+msgstr[1] "{ਵਜ਼ਨ} ਪੁਆਇੰਟ ਸੰਭਵ ਹੈ"
+
+#: views.py:299
+#, python-brace-format
+msgid "/{weight} point"
+msgid_plural "/{weight} points"
+msgstr[0] "/{ਵਜ਼ਨ} ਪੁਆਇੰਟ"
+msgstr[1] "/{ਵਜ਼ਨ} ਪੁਆਇੰਟ"

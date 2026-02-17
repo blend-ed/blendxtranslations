@@ -1,0 +1,227 @@
+# edX translation file.
+# Copyright (C) 2025 EdX
+# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+# EdX Team <info@edx.org>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1a\n"
+"Report-Msgid-Bugs-To: Blend-ed Language Team <dev@blend-ed.com>\n"
+"POT-Creation-Date: 2023-06-13 08:00+0000\n"
+"PO-Revision-Date: 2023-06-13 09:00+0000\n"
+"Last-Translator: Zameel Hassan <zameel@blend-ed.com>\n"
+"Language-Team: Blend-ed Language Team <dev@blend-ed.com>\n"
+"Language: pa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: templates/edx.org/_footer.html:7
+msgid "Legal Policies"
+msgstr "ਕਾਨੂੰਨੀ ਨੀਤੀਆਂ"
+
+#: templates/edx.org/_footer.html:11
+msgid "Terms of Service & Honor Code"
+msgstr "ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ ਅਤੇ ਸਨਮਾਨ ਕੋਡ"
+
+#: templates/edx.org/_footer.html:16
+msgid "Privacy Policy"
+msgstr "ਪਰਾਈਵੇਟ ਨੀਤੀ"
+
+#: templates/edx.org/_footer.html:21
+msgid "Cookie Policy"
+msgstr "ਕੂਕੀ ਨੀਤੀ"
+
+#: templates/edx.org/_footer.html:26
+msgid "Your Privacy Choices"
+msgstr "ਤੁਹਾਡੀਆਂ ਗੋਪਨੀਯਤਾ ਚੋਣਾਂ"
+
+#: templates/edx.org/_footer.html:36
+msgid ""
+"All rights reserved except where noted. edX, Open edX and the edX and Open "
+"edX logos are registered trademarks or trademarks of edX Inc."
+msgstr ""
+"ਸਾਰੇ ਹੱਕ ਰਾਖਵੇਂ ਹਨ ਸਿਵਾਏ ਜਿੱਥੇ ਨੋਟ ਕੀਤਾ ਗਿਆ ਹੈ। edX, Open edX ਅਤੇ edX ਅਤੇ "
+"Open edX ਲੋਗੋ edX Inc. ਦੇ ਰਜਿਸਟਰਡ ਟ੍ਰੇਡਮਾਰਕ ਜਾਂ ਟ੍ਰੇਡਮਾਰਕ ਹਨ।"
+
+#: templates/edx.org/_footer.html:46
+msgid "Powered by"
+msgstr "ਦੁਆਰਾ ਸੰਚਾਲਿਤ"
+
+#: templates/edx.org/credentials/programs/base.html:30
+msgid "About edX"
+msgstr "edX ਬਾਰੇ"
+
+#: templates/edx.org/credentials/programs/base.html:33
+#, python-brace-format
+msgid ""
+"{link_start} edX{link_end} offers interactive online classes and MOOCs from "
+"the world’s best universities, including MIT, Harvard, Berkeley, University "
+"of Texas, and many others. edX is an online initiative created by founding "
+"partners Harvard and MIT."
+msgstr ""
+"{link_start} edX{link_end} ਦੁਨੀਆ ਦੀਆਂ ਸਭ ਤੋਂ ਵਧੀਆ ਯੂਨੀਵਰਸਿਟੀਆਂ ਤੋਂ ਇੰਟਰਐਕਟਿਵ"
+" ਔਨਲਾਈਨ ਕਲਾਸਾਂ ਅਤੇ MOOCs ਦੀ ਪੇਸ਼ਕਸ਼ ਕਰਦਾ ਹੈ, ਜਿਸ ਵਿੱਚ MIT, ਹਾਰਵਰਡ, ਬਰਕਲੇ, "
+"ਯੂਨੀਵਰਸਿਟੀ ਆਫ਼ ਟੈਕਸਾਸ, ਅਤੇ ਹੋਰ ਬਹੁਤ ਸਾਰੀਆਂ ਸ਼ਾਮਲ ਹਨ। edX ਇੱਕ ਔਨਲਾਈਨ ਪਹਿਲ ਹੈ "
+"ਜੋ ਸੰਸਥਾਪਕ ਭਾਈਵਾਲ ਹਾਰਵਰਡ ਅਤੇ MIT ਦੁਆਰਾ ਬਣਾਈ ਗਈ ਹੈ।"
+
+#. Translators: MicroBachelors should not be translated, this phrase is
+#. preceded by the learner's name and followed by a program title
+#: templates/edx.org/credentials/programs/microbachelors/certificate.html:7
+msgid ""
+"has successfully completed all courses and received passing grades to earn a"
+" MicroBachelors program certificate in"
+msgstr ""
+"ਵਿੱਚ ਮਾਈਕ੍ਰੋਬੈਚਲਰ ਪ੍ਰੋਗਰਾਮ ਸਰਟੀਫਿਕੇਟ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ ਸਾਰੇ ਕੋਰਸ ਸਫਲਤਾਪੂਰਵਕ ਪੂਰੇ"
+" ਕੀਤੇ ਹਨ ਅਤੇ ਪਾਸਿੰਗ ਗ੍ਰੇਡ ਪ੍ਰਾਪਤ ਕੀਤੇ ਹਨ।"
+
+#. Translators: MicroBachelors should not be translated
+#: templates/edx.org/credentials/programs/microbachelors/certificate.html:12
+msgid "MicroBachelors program certificate"
+msgstr "ਮਾਈਕ੍ਰੋਬੈਚਲਰ ਪ੍ਰੋਗਰਾਮ ਸਰਟੀਫਿਕੇਟ"
+
+#. Translators: MicroBachelors should not be translated
+#: templates/edx.org/credentials/programs/microbachelors/certificate.html:17
+msgid "About the edX MicroBachelors program certificate"
+msgstr "edX ਮਾਈਕ੍ਰੋਬੈਚਲਰ ਪ੍ਰੋਗਰਾਮ ਸਰਟੀਫਿਕੇਟ ਬਾਰੇ"
+
+#. Translators: MicroBachelors should not be translated
+#: templates/edx.org/credentials/programs/microbachelors/certificate.html:22
+#, python-brace-format
+msgid ""
+"An edX MicroBachelors credential signifies that the learner has completed a "
+"group of courses that add up to a rich understanding of an area of study. "
+"Completion of MicroBachelors programs requires that learners earn "
+"{link_start}Verified Certificates{link_end} from each of the courses "
+"included in the program."
+msgstr ""
+"ਇੱਕ edX ਮਾਈਕ੍ਰੋਬੈਚਲਰ ਪ੍ਰਮਾਣ ਪੱਤਰ ਦਰਸਾਉਂਦਾ ਹੈ ਕਿ ਸਿਖਿਆਰਥੀ ਨੇ ਕੋਰਸਾਂ ਦਾ ਇੱਕ "
+"ਸਮੂਹ ਪੂਰਾ ਕਰ ਲਿਆ ਹੈ ਜੋ ਅਧਿਐਨ ਦੇ ਖੇਤਰ ਦੀ ਭਰਪੂਰ ਸਮਝ ਨੂੰ ਵਧਾਉਂਦਾ ਹੈ। "
+"ਮਾਈਕ੍ਰੋਬੈਚਲਰ ਪ੍ਰੋਗਰਾਮਾਂ ਨੂੰ ਪੂਰਾ ਕਰਨ ਲਈ ਸਿਖਿਆਰਥੀਆਂ ਨੂੰ ਪ੍ਰੋਗਰਾਮ ਵਿੱਚ ਸ਼ਾਮਲ "
+"ਹਰੇਕ ਕੋਰਸ ਤੋਂ {link_start}ਤਸਦੀਕਸ਼ੁਦਾ ਸਰਟੀਫਿਕੇਟ{link_end} ਪ੍ਰਾਪਤ ਕਰਨ ਦੀ ਲੋੜ "
+"ਹੁੰਦੀ ਹੈ।"
+
+#. Translators: MicroMasters should not be translated
+#: templates/edx.org/credentials/programs/micromasters/certificate.html:8
+#, python-format
+msgid ""
+"You worked hard to earn your MicroMasters Credential from "
+"%(organization_name)s."
+msgstr ""
+"ਤੁਸੀਂ %(organization_name)s ਤੋਂ ਆਪਣਾ ਮਾਈਕ੍ਰੋਮਾਸਟਰ ਕ੍ਰੈਡੈਂਸ਼ੀਅਲ ਹਾਸਲ ਕਰਨ ਲਈ "
+"ਸਖ਼ਤ ਮਿਹਨਤ ਕੀਤੀ ਹੈ।"
+
+#. Translators: MicroMasters should not be translated, this phrase is preceded
+#. by the learner's name and followed by a program title
+#: templates/edx.org/credentials/programs/micromasters/certificate.html:16
+msgid ""
+"has successfully completed all courses and received passing grades to earn a"
+" MicroMasters program certificate in"
+msgstr ""
+"ਵਿੱਚ ਮਾਈਕ੍ਰੋਮਾਸਟਰ ਪ੍ਰੋਗਰਾਮ ਸਰਟੀਫਿਕੇਟ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ ਸਾਰੇ ਕੋਰਸ ਸਫਲਤਾਪੂਰਵਕ ਪੂਰੇ"
+" ਕੀਤੇ ਹਨ ਅਤੇ ਪਾਸਿੰਗ ਗ੍ਰੇਡ ਪ੍ਰਾਪਤ ਕੀਤੇ ਹਨ।"
+
+#. Translators: MicroMasters should not be translated
+#: templates/edx.org/credentials/programs/micromasters/certificate.html:21
+msgid "MicroMasters program certificate"
+msgstr "ਮਾਈਕ੍ਰੋਮਾਸਟਰ ਪ੍ਰੋਗਰਾਮ ਸਰਟੀਫਿਕੇਟ"
+
+#. Translators: MicroMasters should not be translated
+#: templates/edx.org/credentials/programs/micromasters/certificate.html:26
+msgid "About the edX MicroMasters credential"
+msgstr "edX ਮਾਈਕ੍ਰੋਮਾਸਟਰਸ ਕ੍ਰੇਡੈਂਸ਼ੀਅਲ ਬਾਰੇ"
+
+#. Translators: MicroMasters should not be translated
+#: templates/edx.org/credentials/programs/micromasters/certificate.html:31
+#, python-brace-format
+msgid ""
+"An edX MicroMasters credential signifies that the learner has completed a "
+"group of courses that add up to a rich understanding of an area of study. "
+"Completion of MicroMasters Programs requires that learners earn "
+"{link_start}Verified Certificates{link_end} from each of the courses "
+"included in the Program."
+msgstr ""
+"ਇੱਕ edX ਮਾਈਕ੍ਰੋਮਾਸਟਰਸ ਪ੍ਰਮਾਣ ਪੱਤਰ ਦਰਸਾਉਂਦਾ ਹੈ ਕਿ ਸਿਖਿਆਰਥੀ ਨੇ ਕੋਰਸਾਂ ਦਾ ਇੱਕ "
+"ਸਮੂਹ ਪੂਰਾ ਕਰ ਲਿਆ ਹੈ ਜੋ ਅਧਿਐਨ ਦੇ ਖੇਤਰ ਦੀ ਭਰਪੂਰ ਸਮਝ ਨੂੰ ਵਧਾਉਂਦੇ ਹਨ। "
+"ਮਾਈਕ੍ਰੋਮਾਸਟਰਸ ਪ੍ਰੋਗਰਾਮਾਂ ਨੂੰ ਪੂਰਾ ਕਰਨ ਲਈ ਸਿਖਿਆਰਥੀਆਂ ਨੂੰ ਪ੍ਰੋਗਰਾਮ ਵਿੱਚ ਸ਼ਾਮਲ "
+"ਹਰੇਕ ਕੋਰਸ ਤੋਂ {link_start}ਤਸਦੀਕਸ਼ੁਦਾ ਸਰਟੀਫਿਕੇਟ{link_end} ਪ੍ਰਾਪਤ ਕਰਨ ਦੀ ਲੋੜ "
+"ਹੁੰਦੀ ਹੈ।"
+
+#. Translators: This phrase is preceded by the learner's name and followed by
+#. a program title
+#: templates/edx.org/credentials/programs/professional-certificate/certificate.html:7
+msgid ""
+"successfully completed all courses and received passing grades for a "
+"Professional Certificate in"
+msgstr ""
+"ਸਾਰੇ ਕੋਰਸ ਸਫਲਤਾਪੂਰਵਕ ਪੂਰੇ ਕੀਤੇ ਅਤੇ ਪ੍ਰੋਫੈਸ਼ਨਲ ਸਰਟੀਫਿਕੇਟ ਲਈ ਪਾਸਿੰਗ ਗ੍ਰੇਡ "
+"ਪ੍ਰਾਪਤ ਕੀਤੇ"
+
+#: templates/edx.org/credentials/programs/professional-certificate/certificate.html:11
+msgid "Professional Certificate"
+msgstr "ਪੇਸ਼ੇਵਰ ਸਰਟੀਫਿਕੇਟ"
+
+#: templates/edx.org/credentials/programs/professional-certificate/certificate.html:15
+msgid "About the edX Professional Certificate"
+msgstr "edX ਪ੍ਰੋਫੈਸ਼ਨਲ ਸਰਟੀਫਿਕੇਟ ਬਾਰੇ"
+
+#: templates/edx.org/credentials/programs/professional-certificate/certificate.html:19
+#, python-brace-format
+msgid ""
+"An edX Professional Certificate signifies that the learner has completed a "
+"group of courses that add up to a rich understanding of an area of study. "
+"Completion of Professional Certificate Programs requires that learners earn "
+"{link_start}Verified Certificates{link_end} from each of the courses "
+"included in the Program."
+msgstr ""
+"ਇੱਕ edX ਪ੍ਰੋਫੈਸ਼ਨਲ ਸਰਟੀਫਿਕੇਟ ਦਰਸਾਉਂਦਾ ਹੈ ਕਿ ਸਿਖਿਆਰਥੀ ਨੇ ਕੋਰਸਾਂ ਦਾ ਇੱਕ ਸਮੂਹ "
+"ਪੂਰਾ ਕਰ ਲਿਆ ਹੈ ਜੋ ਅਧਿਐਨ ਦੇ ਖੇਤਰ ਦੀ ਭਰਪੂਰ ਸਮਝ ਨੂੰ ਵਧਾਉਂਦੇ ਹਨ। ਪ੍ਰੋਫੈਸ਼ਨਲ "
+"ਸਰਟੀਫਿਕੇਟ ਪ੍ਰੋਗਰਾਮਾਂ ਨੂੰ ਪੂਰਾ ਕਰਨ ਲਈ ਸਿਖਿਆਰਥੀਆਂ ਨੂੰ ਪ੍ਰੋਗਰਾਮ ਵਿੱਚ ਸ਼ਾਮਲ ਹਰੇਕ"
+" ਕੋਰਸ ਤੋਂ {link_start}ਪ੍ਰਮਾਣਿਤ ਸਰਟੀਫਿਕੇਟ{link_end} ਪ੍ਰਾਪਤ ਕਰਨ ਦੀ ਲੋੜ ਹੁੰਦੀ "
+"ਹੈ।"
+
+#. Translators: XSeries should not be translated
+#: templates/edx.org/credentials/programs/xseries/certificate.html:8
+#, python-format
+msgid ""
+"You worked hard to earn your XSeries Program certificate from "
+"%(organization_name)s."
+msgstr ""
+"ਤੁਸੀਂ %(organization_name)s ਤੋਂ ਆਪਣਾ XSeries ਪ੍ਰੋਗਰਾਮ ਸਰਟੀਫਿਕੇਟ ਹਾਸਲ ਕਰਨ ਲਈ "
+"ਸਖ਼ਤ ਮਿਹਨਤ ਕੀਤੀ ਹੈ।"
+
+#. Translators: XSeries should not be translated, this phrase is preceded by
+#. the learner's name and followed by a program title
+#: templates/edx.org/credentials/programs/xseries/certificate.html:16
+msgid ""
+"has successfully completed all courses and received passing grades for an "
+"XSeries Program certificate in"
+msgstr ""
+"ਵਿੱਚ ਸਾਰੇ ਕੋਰਸ ਸਫਲਤਾਪੂਰਵਕ ਪੂਰੇ ਕੀਤੇ ਹਨ ਅਤੇ XSeries ਪ੍ਰੋਗਰਾਮ ਸਰਟੀਫਿਕੇਟ ਲਈ "
+"ਪਾਸਿੰਗ ਗ੍ਰੇਡ ਪ੍ਰਾਪਤ ਕੀਤੇ ਹਨ।"
+
+#. Translators: XSeries should not be translated
+#: templates/edx.org/credentials/programs/xseries/certificate.html:21
+msgid "XSeries Program certificate"
+msgstr "XSeries ਪ੍ਰੋਗਰਾਮ ਸਰਟੀਫਿਕੇਟ"
+
+#. Translators: XSeries should not be translated
+#: templates/edx.org/credentials/programs/xseries/certificate.html:26
+msgid "About the edX XSeries Program certificate"
+msgstr "edX XSeries ਪ੍ਰੋਗਰਾਮ ਸਰਟੀਫਿਕੇਟ ਬਾਰੇ"
+
+#. Translators: XSeries should not be translated
+#: templates/edx.org/credentials/programs/xseries/certificate.html:31
+#, python-brace-format
+msgid ""
+"An edX XSeries Program certificate signifies that the learner has completed "
+"a group of courses that add up to a rich understanding of an area of study. "
+"Completion of XSeries Programs requires that learners earn "
+"{link_start}Verified Certificates{link_end} from each of the courses "
+"included in the Program."
+msgstr ""
+"ਇੱਕ edX XSeries ਪ੍ਰੋਗਰਾਮ ਸਰਟੀਫਿਕੇਟ ਦਰਸਾਉਂਦਾ ਹੈ ਕਿ ਸਿਖਿਆਰਥੀ ਨੇ ਕੋਰਸਾਂ ਦਾ ਇੱਕ "
+"ਸਮੂਹ ਪੂਰਾ ਕਰ ਲਿਆ ਹੈ ਜੋ ਅਧਿਐਨ ਦੇ ਖੇਤਰ ਦੀ ਭਰਪੂਰ ਸਮਝ ਨੂੰ ਵਧਾਉਂਦੇ ਹਨ। XSeries "
+"ਪ੍ਰੋਗਰਾਮਾਂ ਨੂੰ ਪੂਰਾ ਕਰਨ ਲਈ ਸਿਖਿਆਰਥੀਆਂ ਨੂੰ ਪ੍ਰੋਗਰਾਮ ਵਿੱਚ ਸ਼ਾਮਲ ਹਰੇਕ ਕੋਰਸ ਤੋਂ "
+"{link_start}ਤਸਦੀਕਸ਼ੁਦਾ ਸਰਟੀਫਿਕੇਟ{link_end} ਪ੍ਰਾਪਤ ਕਰਨ ਦੀ ਲੋੜ ਹੁੰਦੀ ਹੈ।"

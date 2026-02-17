@@ -1,0 +1,179 @@
+# edX translation file.
+# Copyright (C) 2025 EdX
+# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+# EdX Team <info@edx.org>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1a\n"
+"Report-Msgid-Bugs-To: Blend-ed Language Team <dev@blend-ed.com>\n"
+"POT-Creation-Date: 2023-06-13 08:00+0000\n"
+"PO-Revision-Date: 2023-06-13 09:00+0000\n"
+"Last-Translator: Zameel Hassan <zameel@blend-ed.com>\n"
+"Language-Team: Blend-ed Language Team <dev@blend-ed.com>\n"
+"Language: pa\n"
+"MIME-Version: 1.0\n"   
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: mixins/grading.py:72
+msgid "We could not execute your query; please try again."
+msgstr ""
+"ਅਸੀਂ ਤੁਹਾਡੀ ਪੁੱਛਗਿੱਛ ਨੂੰ ਲਾਗੂ ਨਹੀਂ ਕਰ ਸਕੇ; ਕਿਰਪਾ ਕਰਕੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।"
+
+#: mixins/grading.py:89
+msgid "Weight"
+msgstr "ਭਾਰ"
+
+#: mixins/grading.py:91
+msgid "This assigns an integer value representing the weight of this problem"
+msgstr ""
+"ਇਹ ਇਸ ਸਮੱਸਿਆ ਦੇ ਭਾਰ ਨੂੰ ਦਰਸਾਉਣ ਵਾਲਾ ਇੱਕ ਪੂਰਨ ਅੰਕ ਮੁੱਲ ਨਿਰਧਾਰਤ ਕਰਦਾ ਹੈ।"
+
+#: mixins/grading.py:170
+msgid "Display Name"
+msgstr "ਦਿਖਾਇਆ ਹੋਇਆ ਨਾਮ"
+
+#: mixins/grading.py:171
+msgid "The display name for this component."
+msgstr "ਇਸ ਹਿੱਸੇ ਲਈ ਡਿਸਪਲੇ ਨਾਮ।"
+
+#: mixins/grading.py:172
+msgid "SQL Problem"
+msgstr "SQL ਸਮੱਸਿਆ"
+
+#: mixins/grading.py:176
+msgid "Dataset"
+msgstr "ਡਾਟਾਸੈੱਟ"
+
+#: mixins/grading.py:177
+msgid "Which initial dataset/database to be used for queries"
+msgstr "ਪੁੱਛਗਿੱਛਾਂ ਲਈ ਕਿਹੜਾ ਸ਼ੁਰੂਆਤੀ ਡੇਟਾਸੈਟ/ਡਾਟਾਬੇਸ ਵਰਤਿਆ ਜਾਣਾ ਹੈ"
+
+#: mixins/grading.py:183
+msgid "Answer Query"
+msgstr "ਸਵਾਲ ਦਾ ਜਵਾਬ ਦਿਓ"
+
+#: mixins/grading.py:184
+msgid "A correct response SQL query"
+msgstr "ਇੱਕ ਸਹੀ ਜਵਾਬ SQL ਪੁੱਛਗਿੱਛ"
+
+#: mixins/grading.py:190
+msgid "Verify Query"
+msgstr "ਪੁੱਛਗਿੱਛ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ"
+
+#: mixins/grading.py:192
+msgid ""
+"A secondary verification SQL query, to be used if the answer_query modifies "
+"the database (UPDATE, INSERT, DELETE, etc.). Only enter a single SELECT "
+"query here, which is used for matching the answer"
+msgstr ""
+"ਇੱਕ ਸੈਕੰਡਰੀ ਪੁਸ਼ਟੀਕਰਨ SQL ਪੁੱਛਗਿੱਛ, ਜੇਕਰ answer_query ਡੇਟਾਬੇਸ ਨੂੰ ਸੋਧਦਾ ਹੈ "
+"(ਅੱਪਡੇਟ, ਇਨਸਰਟ, ਡਿਲੀਟ, ਆਦਿ) ਤਾਂ ਵਰਤੀ ਜਾਵੇਗੀ। ਇੱਥੇ ਸਿਰਫ਼ ਇੱਕ ਸਿੰਗਲ SELECT "
+"ਪੁੱਛਗਿੱਛ ਦਰਜ ਕਰੋ, ਜੋ ਕਿ ਜਵਾਬ ਨਾਲ ਮੇਲ ਕਰਨ ਲਈ ਵਰਤੀ ਜਾਂਦੀ ਹੈ।"
+
+#: mixins/grading.py:202
+msgid "Modification query statements"
+msgstr "ਸੋਧ ਪੁੱਛਗਿੱਛ ਸਟੇਟਮੈਂਟਾਂ"
+
+#: mixins/grading.py:204
+msgid ""
+"Optional SQL statements, to be executed after the user-submitted query, but "
+"before the verify_query."
+msgstr ""
+"ਵਿਕਲਪਿਕ SQL ਸਟੇਟਮੈਂਟਾਂ, ਜੋ ਕਿ ਉਪਭੋਗਤਾ ਦੁਆਰਾ ਜਮ੍ਹਾਂ ਕੀਤੀ ਗਈ ਪੁੱਛਗਿੱਛ ਤੋਂ "
+"ਬਾਅਦ, ਪਰ verify_query ਤੋਂ ਪਹਿਲਾਂ ਚਲਾਈਆਂ ਜਾਣਗੀਆਂ।"
+
+#: mixins/grading.py:212
+msgid "Is Ordered?"
+msgstr "ਆਰਡਰ ਕੀਤਾ ਗਿਆ ਹੈ?"
+
+#: mixins/grading.py:213
+msgid "Should results be in order?"
+msgstr "ਕੀ ਨਤੀਜੇ ਕ੍ਰਮ ਵਿੱਚ ਹੋਣੇ ਚਾਹੀਦੇ ਹਨ?"
+
+#: mixins/grading.py:228
+msgid "Prompt"
+msgstr "ਪ੍ਰੋਂਪਟ"
+
+#: mixins/grading.py:229
+msgid "Explanatory text to accompany the problem"
+msgstr "ਸਮੱਸਿਆ ਦੇ ਨਾਲ ਵਿਆਖਿਆਤਮਕ ਟੈਕਸਟ"
+
+#: mixins/grading.py:234
+msgid "Submission Query"
+msgstr "ਸਬਮਿਸ਼ਨ ਪੁੱਛਗਿੱਛ"
+
+#: mixins/grading.py:235
+msgid "A Submission Query"
+msgstr "ਇੱਕ ਸਬਮਿਸ਼ਨ ਪੁੱਛਗਿੱਛ"
+
+#: templates/view.html:6
+#, python-format
+msgid ""
+"\n"
+"            %(score_weighted)s/%(max_score)s point (graded)\n"
+"        "
+msgid_plural ""
+"\n"
+"            %(score_weighted)s/%(max_score)s points (graded)\n"
+"        "
+msgstr[0] "%(score_weighted)s/%(max_score)s ਪੁਆਇੰਟ (ਗ੍ਰੇਡ ਕੀਤਾ ਗਿਆ)"
+msgstr[1] "%(score_weighted)s/%(max_score)s ਪੁਆਇੰਟ (ਗ੍ਰੇਡ ਕੀਤਾ ਗਿਆ)"
+
+#: templates/view.html:12
+msgid "0 points (ungraded)"
+msgstr "0 ਅੰਕ (ਗ੍ਰੇਡ ਨਹੀਂ ਕੀਤੇ ਗਏ)"
+
+#: templates/view.html:21
+msgid "Note:"
+msgstr "ਨੋਟ:"
+
+#: templates/view.html:22
+msgid ""
+"Your queries are executed using SQLite, so you must conform to the SQL "
+"constructs supported by SQLite."
+msgstr ""
+"ਤੁਹਾਡੀਆਂ ਪੁੱਛਗਿੱਛਾਂ SQLite ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਕੀਤੀਆਂ ਜਾਂਦੀਆਂ ਹਨ, ਇਸ ਲਈ ਤੁਹਾਨੂੰ "
+"SQLite ਦੁਆਰਾ ਸਮਰਥਿਤ SQL ਨਿਰਮਾਣਾਂ ਦੀ ਪਾਲਣਾ ਕਰਨੀ ਚਾਹੀਦੀ ਹੈ।"
+
+#: templates/view.html:27
+msgid "Press ESC then TAB or click outside of the code editor to exit"
+msgstr "ਬਾਹਰ ਨਿਕਲਣ ਲਈ ESC ਦਬਾਓ ਫਿਰ TAB ਦਬਾਓ ਜਾਂ ਕੋਡ ਐਡੀਟਰ ਦੇ ਬਾਹਰ ਕਲਿੱਕ ਕਰੋ।"
+
+#: templates/view.html:33
+msgid "Submit"
+msgstr "ਜਮ੍ਹਾਂ ਕਰੋ"
+
+#: templates/view.html:40
+msgid "Show Answer"
+msgstr "ਜਵਾਬ ਦਿਖਾਓ"
+
+#: templates/view.html:50
+msgid "Correct"
+msgstr "ਸਹੀ"
+
+#: templates/view.html:52
+msgid "Incorrect"
+msgstr "ਗਲਤ"
+
+#: templates/view.html:55
+msgid "Unanswered"
+msgstr "ਜਵਾਬ ਨਹੀਂ ਦਿੱਤਾ ਗਿਆ"
+
+#: templates/view.html:63
+msgid ""
+"To check your data modification statement, we ran the following query after "
+"your modification:"
+msgstr ""
+"ਤੁਹਾਡੇ ਡੇਟਾ ਸੋਧ ਸਟੇਟਮੈਂਟ ਦੀ ਜਾਂਚ ਕਰਨ ਲਈ, ਅਸੀਂ ਤੁਹਾਡੇ ਸੋਧ ਤੋਂ ਬਾਅਦ ਹੇਠ ਲਿਖੀ "
+"ਪੁੱਛਗਿੱਛ ਚਲਾਈ:"
+
+#: templates/view.html:75
+msgid "Your Query Result:"
+msgstr "ਤੁਹਾਡੀ ਪੁੱਛਗਿੱਛ ਦਾ ਨਤੀਜਾ:"
+
+#: templates/view.html:80
+msgid "Expected Query Result:"
+msgstr "ਉਮੀਦ ਕੀਤੀ ਪੁੱਛਗਿੱਛ ਨਤੀਜਾ:"

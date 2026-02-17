@@ -1,0 +1,811 @@
+# edX translation file.
+# Copyright (C) 2025 EdX
+# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+# EdX Team <info@edx.org>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1a\n"
+"Report-Msgid-Bugs-To: Blend-ed Language Team <dev@blend-ed.com>\n"
+"POT-Creation-Date: 2023-06-13 08:00+0000\n"
+"PO-Revision-Date: 2023-06-13 09:00+0000\n"
+"Last-Translator: Zameel Hassan <zameel@blend-ed.com>\n"
+"Language-Team: Blend-ed Language Team <dev@blend-ed.com>\n"
+"Language: pa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: lti_1p3/extensions/rest_framework/authentication.py:41
+msgid "Missing LTI 1.3 authentication token."
+msgstr "LTI 1.3 ਪ੍ਰਮਾਣੀਕਰਨ ਟੋਕਨ ਗੁੰਮ ਹੈ।"
+
+#: lti_1p3/extensions/rest_framework/authentication.py:45
+msgid "Invalid token header. No credentials provided."
+msgstr "ਅਵੈਧ ਟੋਕਨ ਹੈਡਰ। ਕੋਈ ਕ੍ਰੀਡੈਂਸ਼ੀਅਲ ਪ੍ਰਦਾਨ ਨਹੀਂ ਕੀਤੇ ਗਏ।"
+
+#: lti_1p3/extensions/rest_framework/authentication.py:49
+msgid "Invalid token header. Token string should not contain spaces."
+msgstr "ਅਵੈਧ ਟੋਕਨ ਹੈਡਰ। ਟੋਕਨ ਸਟ੍ਰਿੰਗ ਵਿੱਚ ਖਾਲੀ ਥਾਂ ਨਹੀਂ ਹੋਣੀ ਚਾਹੀਦੀ।"
+
+#: lti_1p3/extensions/rest_framework/authentication.py:57
+msgid "LTI configuration not found."
+msgstr "LTI ਸੰਰਚਨਾ ਨਹੀਂ ਮਿਲੀ।"
+
+#: lti_1p3/extensions/rest_framework/authentication.py:66
+msgid "Invalid token signature."
+msgstr "ਅਵੈਧ ਟੋਕਨ ਦਸਤਖਤ।"
+
+#: lti_xblock.py:134
+msgid "No valid user id found in endpoint URL"
+msgstr "ਐਂਡਪੁਆਇੰਟ URL ਵਿੱਚ ਕੋਈ ਵੈਧ ਯੂਜ਼ਰ ਆਈਡੀ ਨਹੀਂ ਮਿਲੀ"
+
+#: lti_xblock.py:147
+msgid "Configuration on block"
+msgstr "ਬਲਾਕ 'ਤੇ ਸੰਰਚਨਾ"
+
+#: lti_xblock.py:151
+msgid "Database Configuration"
+msgstr "ਡਾਟਾਬੇਸ ਸੰਰਚਨਾ"
+
+#: lti_xblock.py:154
+msgid "Reusable Configuration"
+msgstr "ਮੁੜ ਵਰਤੋਂ ਯੋਗ ਸੰਰਚਨਾ"
+
+#: lti_xblock.py:262
+msgid "Display Name"
+msgstr "ਦਿਖਾਇਆ ਹੋਇਆ ਨਾਮ"
+
+#: lti_xblock.py:264
+msgid ""
+"Enter the name that students see for this component. Analytics reports may "
+"also use the display name to identify this component."
+msgstr ""
+"ਇਸ ਹਿੱਸੇ ਲਈ ਵਿਦਿਆਰਥੀ ਜੋ ਨਾਮ ਦੇਖਦੇ ਹਨ, ਉਹ ਦਰਜ ਕਰੋ। ਵਿਸ਼ਲੇਸ਼ਣ ਰਿਪੋਰਟਾਂ ਇਸ "
+"ਹਿੱਸੇ ਦੀ ਪਛਾਣ ਕਰਨ ਲਈ ਡਿਸਪਲੇ ਨਾਮ ਦੀ ਵਰਤੋਂ ਵੀ ਕਰ ਸਕਦੀਆਂ ਹਨ।"
+
+#: lti_xblock.py:268
+msgid "LTI Consumer"
+msgstr "LTI ਖਪਤਕਾਰ"
+
+#: lti_xblock.py:271
+msgid "LTI Application Information"
+msgstr "LTI ਅਰਜ਼ੀ ਜਾਣਕਾਰੀ"
+
+#: lti_xblock.py:273
+msgid ""
+"Enter a description of the third party application. If requesting username "
+"and/or email, use this text box to inform users why their username and/or "
+"email will be forwarded to a third party application."
+msgstr ""
+"ਤੀਜੀ ਧਿਰ ਦੀ ਅਰਜ਼ੀ ਦਾ ਵੇਰਵਾ ਦਰਜ ਕਰੋ। ਜੇਕਰ ਤੁਸੀਂ ਵਰਤੋਂਕਾਰ ਨਾਮ ਅਤੇ/ਜਾਂ ਈਮੇਲ ਦੀ "
+"ਬੇਨਤੀ ਕਰ ਰਹੇ ਹੋ, ਤਾਂ ਇਸ ਟੈਕਸਟ ਬਾਕਸ ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਉਪਭੋਗਤਾਵਾਂ ਨੂੰ ਇਹ ਦੱਸੋ ਕਿ "
+"ਉਨ੍ਹਾਂ ਦਾ ਵਰਤੋਂਕਾਰ ਨਾਮ ਅਤੇ/ਜਾਂ ਈਮੇਲ ਤੀਜੀ ਧਿਰ ਦੀ ਅਰਜ਼ੀ ਨੂੰ ਕਿਉਂ ਭੇਜਿਆ ਜਾਵੇਗਾ।"
+
+#: lti_xblock.py:281
+msgid "Configuration Type"
+msgstr "ਸੰਰਚਨਾ ਕਿਸਮ"
+
+#: lti_xblock.py:286
+msgid ""
+"Select 'Configuration on block' to configure a new LTI Tool. If the support "
+"staff provided you with a pre-configured LTI reusable Tool ID, "
+"select'Reusable Configuration' and enter it in the text field below."
+msgstr ""
+"ਇੱਕ ਨਵੇਂ LTI ਟੂਲ ਨੂੰ ਕੌਂਫਿਗਰ ਕਰਨ ਲਈ 'ਬਲਾਕ 'ਤੇ ਕੌਂਫਿਗਰੇਸ਼ਨ' ਚੁਣੋ। ਜੇਕਰ ਸਹਾਇਤਾ"
+" ਸਟਾਫ ਨੇ ਤੁਹਾਨੂੰ ਪਹਿਲਾਂ ਤੋਂ ਸੰਰਚਿਤ LTI ਮੁੜ ਵਰਤੋਂ ਯੋਗ ਟੂਲ ID ਪ੍ਰਦਾਨ ਕੀਤਾ ਹੈ, "
+"ਤਾਂ 'ਮੁੜ ਵਰਤੋਂ ਯੋਗ ਕੌਂਫਿਗਰੇਸ਼ਨ' ਚੁਣੋ ਅਤੇ ਇਸਨੂੰ ਹੇਠਾਂ ਦਿੱਤੇ ਟੈਕਸਟ ਖੇਤਰ ਵਿੱਚ "
+"ਦਰਜ ਕਰੋ।"
+
+#: lti_xblock.py:293
+msgid "LTI Version"
+msgstr "LTI ਵਰਜਨ"
+
+#: lti_xblock.py:301
+msgid ""
+"Select the LTI version that your tool supports.<br />The XBlock LTI Consumer"
+" fully supports LTI 1.1.1, LTI 1.3 and LTI Advantage features."
+msgstr ""
+"ਉਹ LTI ਸੰਸਕਰਣ ਚੁਣੋ ਜਿਸਦਾ ਤੁਹਾਡਾ ਟੂਲ ਸਮਰਥਨ ਕਰਦਾ ਹੈ।<br />XBlock LTI ਕੰਜ਼ਿਊਮਰ "
+"ਪੂਰੀ ਤਰ੍ਹਾਂ LTI 1.1.1, LTI 1.3 ਅਤੇ LTI ਐਡਵਾਂਟੇਜ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਦਾ ਸਮਰਥਨ ਕਰਦਾ "
+"ਹੈ।"
+
+#: lti_xblock.py:308
+msgid "LTI Reusable Configuration ID"
+msgstr "LTI ਮੁੜ ਵਰਤੋਂ ਯੋਗ ਸੰਰਚਨਾ ਆਈਡੀ"
+
+#: lti_xblock.py:310
+msgid ""
+"Enter the reusable LTI external configuration ID provided by the support "
+"staff."
+msgstr ""
+"ਸਹਾਇਤਾ ਸਟਾਫ਼ ਦੁਆਰਾ ਪ੍ਰਦਾਨ ਕੀਤੀ ਮੁੜ ਵਰਤੋਂ ਯੋਗ LTI ਬਾਹਰੀ ਸੰਰਚਨਾ ID ਦਰਜ ਕਰੋ।"
+
+#: lti_xblock.py:315
+msgid "Tool Launch URL"
+msgstr "ਟੂਲ ਲਾਂਚ URL"
+
+#: lti_xblock.py:319
+msgid ""
+"Enter the LTI 1.3 Tool Launch URL. <br />This is the URL the LMS will use to"
+" launch the LTI Tool."
+msgstr ""
+"LTI 1.3 ਟੂਲ ਲਾਂਚ URL ਦਰਜ ਕਰੋ। <br />ਇਹ ਉਹ URL ਹੈ ਜਿਸਦੀ ਵਰਤੋਂ LMS LTI ਟੂਲ "
+"ਲਾਂਚ ਕਰਨ ਲਈ ਕਰੇਗਾ।"
+
+#: lti_xblock.py:324
+msgid "Tool Initiate Login URL"
+msgstr "ਟੂਲ ਇਨੀਸ਼ੀਏਟ ਲੌਗਇਨ URL"
+
+#: lti_xblock.py:328
+msgid ""
+"Enter the LTI 1.3 Tool OIDC Authorization url (can also be called login or "
+"login initiation URL).<br />This is the URL the LMS will use to start a LTI "
+"authorization prior to doing the launch request."
+msgstr ""
+"LTI 1.3 ਟੂਲ OIDC ਪ੍ਰਮਾਣੀਕਰਨ url (ਇਸਨੂੰ ਲੌਗਇਨ ਜਾਂ ਲੌਗਇਨ ਸ਼ੁਰੂਆਤ URL ਵੀ ਕਿਹਾ "
+"ਜਾ ਸਕਦਾ ਹੈ) ਦਰਜ ਕਰੋ।<br />ਇਹ ਉਹ URL ਹੈ ਜਿਸਦੀ ਵਰਤੋਂ LMS ਲਾਂਚ ਬੇਨਤੀ ਕਰਨ ਤੋਂ "
+"ਪਹਿਲਾਂ LTI ਪ੍ਰਮਾਣੀਕਰਨ ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਕਰੇਗਾ।"
+
+#: lti_xblock.py:334
+msgid "Registered Redirect URIs"
+msgstr "ਰਜਿਸਟਰਡ ਰੀਡਾਇਰੈਕਟ URI"
+
+#: lti_xblock.py:336
+msgid ""
+"Valid urls the Tool may request us to redirect the id token to. The redirect"
+" uris are often the same as the launch url/deep linking url so if this field"
+" is empty, it will use them as the default. If you need to use different "
+"redirect uri's, enter them here. If you use this field you must enter all "
+"valid redirect uri's the tool may request."
+msgstr ""
+"ਵੈਧ ਯੂਆਰਐਲ ਜਿਨ੍ਹਾਂ 'ਤੇ ਟੂਲ ਸਾਨੂੰ ਆਈਡੀ ਟੋਕਨ ਨੂੰ ਰੀਡਾਇਰੈਕਟ ਕਰਨ ਲਈ ਬੇਨਤੀ ਕਰ "
+"ਸਕਦਾ ਹੈ। ਰੀਡਾਇਰੈਕਟ ਯੂਆਰਆਈ ਅਕਸਰ ਲਾਂਚ ਯੂਆਰਐਲ/ਡੀਪ ਲਿੰਕਿੰਗ ਯੂਆਰਐਲ ਦੇ ਸਮਾਨ ਹੁੰਦੇ "
+"ਹਨ, ਇਸ ਲਈ ਜੇਕਰ ਇਹ ਖੇਤਰ ਖਾਲੀ ਹੈ, ਤਾਂ ਇਹ ਉਹਨਾਂ ਨੂੰ ਡਿਫਾਲਟ ਵਜੋਂ ਵਰਤੇਗਾ। ਜੇਕਰ "
+"ਤੁਹਾਨੂੰ ਵੱਖ-ਵੱਖ ਰੀਡਾਇਰੈਕਟ ਯੂਆਰਆਈ ਵਰਤਣ ਦੀ ਲੋੜ ਹੈ, ਤਾਂ ਉਹਨਾਂ ਨੂੰ ਇੱਥੇ ਦਰਜ ਕਰੋ।"
+" ਜੇਕਰ ਤੁਸੀਂ ਇਸ ਖੇਤਰ ਦੀ ਵਰਤੋਂ ਕਰਦੇ ਹੋ ਤਾਂ ਤੁਹਾਨੂੰ ਸਾਰੇ ਵੈਧ ਰੀਡਾਇਰੈਕਟ ਯੂਆਰਆਈ "
+"ਦਰਜ ਕਰਨੇ ਪੈਣਗੇ ਜੋ ਟੂਲ ਬੇਨਤੀ ਕਰ ਸਕਦਾ ਹੈ।"
+
+#: lti_xblock.py:346
+msgid "Tool Public Key Mode"
+msgstr "ਟੂਲ ਪਬਲਿਕ ਕੁੰਜੀ ਮੋਡ"
+
+#: lti_xblock.py:354
+msgid "Select how the tool's public key information will be specified."
+msgstr "ਚੁਣੋ ਕਿ ਟੂਲ ਦੀ ਜਨਤਕ ਕੁੰਜੀ ਜਾਣਕਾਰੀ ਕਿਵੇਂ ਨਿਰਧਾਰਤ ਕੀਤੀ ਜਾਵੇਗੀ।"
+
+#: lti_xblock.py:358
+msgid "Tool Keyset URL"
+msgstr "ਟੂਲ ਕੀਸੈੱਟ URL"
+
+#: lti_xblock.py:362
+msgid ""
+"Enter the LTI 1.3 Tool's JWK keysets URL.<br />This link should retrieve a "
+"JSON file containing public keys and signature algorithm information, so "
+"that the LMS can check if the messages and launch requests received have the"
+" signature from the tool.<br /><b>This is not required when doing LTI 1.3 "
+"Launches without LTI Advantage nor Basic Outcomes requests.</b>"
+msgstr ""
+"LTI 1.3 ਟੂਲ ਦੇ JWK ਕੀਸੈੱਟ URL ਨੂੰ ਦਰਜ ਕਰੋ।<br />ਇਸ ਲਿੰਕ ਨੂੰ ਜਨਤਕ ਕੁੰਜੀਆਂ ਅਤੇ"
+" ਦਸਤਖਤ ਐਲਗੋਰਿਦਮ ਜਾਣਕਾਰੀ ਵਾਲੀ ਇੱਕ JSON ਫਾਈਲ ਪ੍ਰਾਪਤ ਕਰਨੀ ਚਾਹੀਦੀ ਹੈ, ਤਾਂ ਜੋ LMS"
+" ਇਹ ਜਾਂਚ ਕਰ ਸਕੇ ਕਿ ਕੀ ਪ੍ਰਾਪਤ ਹੋਏ ਸੁਨੇਹਿਆਂ ਅਤੇ ਲਾਂਚ ਬੇਨਤੀਆਂ ਵਿੱਚ ਟੂਲ ਤੋਂ "
+"ਦਸਤਖਤ ਹਨ।<br /><b>ਇਹ LTI 1.3 ਨੂੰ LTI ਐਡਵਾਂਟੇਜ ਜਾਂ ਬੇਸਿਕ ਆਉਟਕਮ ਬੇਨਤੀਆਂ ਤੋਂ "
+"ਬਿਨਾਂ ਲਾਂਚ ਕਰਨ ਵੇਲੇ ਜ਼ਰੂਰੀ ਨਹੀਂ ਹੈ।</b>"
+
+#: lti_xblock.py:372
+msgid "Tool Public Key"
+msgstr "ਟੂਲ ਪਬਲਿਕ ਕੁੰਜੀ"
+
+#: lti_xblock.py:377
+msgid ""
+"Enter the LTI 1.3 Tool's public key.<br />This is a string that starts with "
+"'-----BEGIN PUBLIC KEY-----' and is required so that the LMS can check if "
+"the messages and launch requests received have the signature from the "
+"tool.<br /><b>This is not required when doing LTI 1.3 Launches without LTI "
+"Advantage nor Basic Outcomes requests.</b>"
+msgstr ""
+"LTI 1.3 ਟੂਲ ਦੀ ਪਬਲਿਕ ਕੁੰਜੀ ਦਰਜ ਕਰੋ।<br />ਇਹ ਇੱਕ ਸਤਰ ਹੈ ਜੋ '----BEGIN PUBLIC "
+"KEY-----' ਨਾਲ ਸ਼ੁਰੂ ਹੁੰਦੀ ਹੈ ਅਤੇ ਇਸਦੀ ਲੋੜ ਹੁੰਦੀ ਹੈ ਤਾਂ ਜੋ LMS ਇਹ ਜਾਂਚ ਕਰ ਸਕੇ"
+" ਕਿ ਕੀ ਪ੍ਰਾਪਤ ਹੋਏ ਸੁਨੇਹਿਆਂ ਅਤੇ ਲਾਂਚ ਬੇਨਤੀਆਂ ਵਿੱਚ ਟੂਲ ਤੋਂ ਦਸਤਖਤ ਹਨ।<br "
+"/><b>ਇਹ LTI 1.3 ਨੂੰ LTI ਐਡਵਾਂਟੇਜ ਜਾਂ ਬੇਸਿਕ ਆਉਟਕਮ ਬੇਨਤੀਆਂ ਤੋਂ ਬਿਨਾਂ ਲਾਂਚ ਕਰਨ "
+"ਵੇਲੇ ਜ਼ਰੂਰੀ ਨਹੀਂ ਹੈ।</b>"
+
+#: lti_xblock.py:387
+msgid "Enable LTI NRPS"
+msgstr "LTI NRPS ਨੂੰ ਸਮਰੱਥ ਬਣਾਓ"
+
+#: lti_xblock.py:388
+msgid "Enable LTI Names and Role Provisioning Services."
+msgstr "LTI ਨਾਮ ਅਤੇ ਭੂਮਿਕਾ ਪ੍ਰੋਵਿਜ਼ਨਿੰਗ ਸੇਵਾਵਾਂ ਨੂੰ ਸਮਰੱਥ ਬਣਾਓ।"
+
+#: lti_xblock.py:395
+msgid "Deep linking"
+msgstr "ਡੀਪ ਲਿੰਕਿੰਗ"
+
+#: lti_xblock.py:396
+msgid "Select True if you want to enable LTI Advantage Deep Linking."
+msgstr ""
+"ਜੇਕਰ ਤੁਸੀਂ LTI ਐਡਵਾਂਟੇਜ ਡੀਪ ਲਿੰਕਿੰਗ ਨੂੰ ਸਮਰੱਥ ਬਣਾਉਣਾ ਚਾਹੁੰਦੇ ਹੋ ਤਾਂ True "
+"ਚੁਣੋ।"
+
+#: lti_xblock.py:401
+msgid "Deep Linking Launch URL"
+msgstr "ਡੀਪ ਲਿੰਕਿੰਗ ਲਾਂਚ URL"
+
+#: lti_xblock.py:405
+msgid ""
+"Enter the LTI Advantage Deep Linking Launch URL. If the tool does not "
+"specify one, use the same value as 'Tool Launch URL'."
+msgstr ""
+"LTI ਐਡਵਾਂਟੇਜ ਡੀਪ ਲਿੰਕਿੰਗ ਲਾਂਚ URL ਦਰਜ ਕਰੋ। ਜੇਕਰ ਟੂਲ ਇੱਕ ਨਹੀਂ ਦੱਸਦਾ ਹੈ, ਤਾਂ "
+"'ਟੂਲ ਲਾਂਚ URL' ਦੇ ਸਮਾਨ ਮੁੱਲ ਦੀ ਵਰਤੋਂ ਕਰੋ।"
+
+#: lti_xblock.py:410
+msgid "LTI Assignment and Grades Service"
+msgstr "LTI ਅਸਾਈਨਮੈਂਟ ਅਤੇ ਗ੍ਰੇਡ ਸੇਵਾ"
+
+#: lti_xblock.py:412
+msgid "Disabled"
+msgstr "ਅਯੋਗ"
+
+#: lti_xblock.py:413
+msgid "Allow tools to submit grades only (declarative)"
+msgstr "ਟੂਲਸ ਨੂੰ ਸਿਰਫ਼ ਗ੍ਰੇਡ ਜਮ੍ਹਾਂ ਕਰਨ ਦੀ ਆਗਿਆ ਦਿਓ (ਘੋਸ਼ਣਾਤਮਕ)"
+
+#: lti_xblock.py:414
+msgid "Allow tools to manage and submit grade (programmatic)"
+msgstr "ਟੂਲਸ ਨੂੰ ਗ੍ਰੇਡ ਦਾ ਪ੍ਰਬੰਧਨ ਅਤੇ ਸਪੁਰਦਗੀ ਕਰਨ ਦੀ ਆਗਿਆ ਦਿਓ (ਪ੍ਰੋਗਰਾਮੈਟਿਕ)"
+
+#: lti_xblock.py:419
+msgid ""
+"Enable the LTI-AGS service and select the functionality enabled for LTI "
+"tools. The 'declarative' mode (default) will provide a tool with a LineItem "
+"created from the XBlock settings, while the 'programmatic' one will allow "
+"tools to manage, create and link the grades."
+msgstr ""
+"LTI-AGS ਸੇਵਾ ਨੂੰ ਸਮਰੱਥ ਬਣਾਓ ਅਤੇ LTI ਟੂਲਸ ਲਈ ਸਮਰੱਥ ਕਾਰਜਸ਼ੀਲਤਾ ਦੀ ਚੋਣ ਕਰੋ। "
+"'ਘੋਸ਼ਣਾਤਮਕ' ਮੋਡ (ਡਿਫਾਲਟ) XBlock ਸੈਟਿੰਗਾਂ ਤੋਂ ਬਣਾਈ ਗਈ ਇੱਕ ਲਾਈਨ ਆਈਟਮ ਵਾਲਾ ਇੱਕ "
+"ਟੂਲ ਪ੍ਰਦਾਨ ਕਰੇਗਾ, ਜਦੋਂ ਕਿ 'ਪ੍ਰੋਗਰਾਮੈਟਿਕ' ਮੋਡ ਟੂਲਸ ਨੂੰ ਗ੍ਰੇਡਾਂ ਦਾ ਪ੍ਰਬੰਧਨ, "
+"ਬਣਾਉਣ ਅਤੇ ਲਿੰਕ ਕਰਨ ਦੀ ਆਗਿਆ ਦੇਵੇਗਾ।"
+
+#: lti_xblock.py:427
+msgid "LTI ID"
+msgstr "ਐਲਟੀਆਈ ਆਈਡੀ"
+
+#: lti_xblock.py:429
+#, python-brace-format
+msgid ""
+"Enter the LTI ID for the external LTI provider. This value must be the same "
+"LTI ID that you entered in the LTI Passports setting on the Advanced "
+"Settings page.<br />See the {docs_anchor_open}edX LTI "
+"documentation{anchor_close} for more details on this setting."
+msgstr ""
+"ਬਾਹਰੀ LTI ਪ੍ਰਦਾਤਾ ਲਈ LTI ID ਦਰਜ ਕਰੋ। ਇਹ ਮੁੱਲ ਉਹੀ LTI ID ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ ਜੋ "
+"ਤੁਸੀਂ ਐਡਵਾਂਸਡ ਸੈਟਿੰਗਜ਼ ਪੰਨੇ 'ਤੇ LTI ਪਾਸਪੋਰਟ ਸੈਟਿੰਗ ਵਿੱਚ ਦਰਜ ਕੀਤਾ ਸੀ।<br />ਇਸ"
+" ਸੈਟਿੰਗ ਬਾਰੇ ਹੋਰ ਵੇਰਵਿਆਂ ਲਈ {docs_anchor_open}edX LTI ਦਸਤਾਵੇਜ਼{anchor_close}"
+" ਵੇਖੋ।"
+
+#: lti_xblock.py:441
+msgid "LTI URL"
+msgstr "LTI URL"
+
+#: lti_xblock.py:443
+#, python-brace-format
+msgid ""
+"Enter the URL of the external tool that this component launches. This "
+"setting is only used when Hide External Tool is set to False.<br />See the "
+"{docs_anchor_open}edX LTI documentation{anchor_close} for more details on "
+"this setting."
+msgstr ""
+"ਇਸ ਕੰਪੋਨੈਂਟ ਦੁਆਰਾ ਲਾਂਚ ਕੀਤੇ ਗਏ ਬਾਹਰੀ ਟੂਲ ਦਾ URL ਦਰਜ ਕਰੋ। ਇਹ ਸੈਟਿੰਗ ਸਿਰਫ਼ "
+"ਉਦੋਂ ਵਰਤੀ ਜਾਂਦੀ ਹੈ ਜਦੋਂ ਬਾਹਰੀ ਟੂਲ ਲੁਕਾਓ ਗਲਤ 'ਤੇ ਸੈੱਟ ਕੀਤਾ ਜਾਂਦਾ ਹੈ।<br />ਇਸ "
+"ਸੈਟਿੰਗ ਬਾਰੇ ਹੋਰ ਜਾਣਕਾਰੀ ਲਈ {docs_anchor_open}edX LTI ਦਸਤਾਵੇਜ਼{anchor_close} "
+"ਵੇਖੋ।"
+
+#: lti_xblock.py:456
+msgid "Custom Parameters"
+msgstr "ਕਸਟਮ ਪੈਰਾਮੀਟਰ"
+
+#: lti_xblock.py:458
+#, python-brace-format
+msgid ""
+"Add the key/value pair for any custom parameters, such as the page your "
+"e-book should open to or the background color for this component. Ex. "
+"[\"page=1\", \"color=white\"]<br />See the {docs_anchor_open}edX LTI "
+"documentation{anchor_close} for more details on this setting."
+msgstr ""
+"ਕਿਸੇ ਵੀ ਕਸਟਮ ਪੈਰਾਮੀਟਰਾਂ ਲਈ ਕੁੰਜੀ/ਮੁੱਲ ਜੋੜਾ ਜੋੜੋ, ਜਿਵੇਂ ਕਿ ਉਹ ਪੰਨਾ ਜਿਸ 'ਤੇ "
+"ਤੁਹਾਡੀ ਈ-ਕਿਤਾਬ ਖੁੱਲ੍ਹਣੀ ਚਾਹੀਦੀ ਹੈ ਜਾਂ ਇਸ ਹਿੱਸੇ ਲਈ ਪਿਛੋਕੜ ਦਾ ਰੰਗ। ਉਦਾਹਰਨ ਲਈ "
+"[\"page=1\", \"color=white\"]<br />ਇਸ ਸੈਟਿੰਗ ਬਾਰੇ ਹੋਰ ਵੇਰਵਿਆਂ ਲਈ "
+"{docs_anchor_open}edX LTI ਦਸਤਾਵੇਜ਼{anchor_close} ਵੇਖੋ।"
+
+#: lti_xblock.py:468
+msgid "LTI Launch Target"
+msgstr "LTI ਲਾਂਚ ਟੀਚਾ"
+
+#: lti_xblock.py:470
+msgid ""
+"Select Inline if you want the LTI content to open in an IFrame in the "
+"current page. Select Modal if you want the LTI content to open in a modal "
+"window in the current page. Select New Window if you want the LTI content to"
+" open in a new browser window. This setting is only used when Hide External "
+"Tool is set to False."
+msgstr ""
+"ਜੇਕਰ ਤੁਸੀਂ ਚਾਹੁੰਦੇ ਹੋ ਕਿ LTI ਸਮੱਗਰੀ ਮੌਜੂਦਾ ਪੰਨੇ ਵਿੱਚ ਇੱਕ IFrame ਵਿੱਚ ਖੁੱਲ੍ਹੇ"
+" ਤਾਂ ਇਨਲਾਈਨ ਚੁਣੋ। ਜੇਕਰ ਤੁਸੀਂ ਚਾਹੁੰਦੇ ਹੋ ਕਿ LTI ਸਮੱਗਰੀ ਮੌਜੂਦਾ ਪੰਨੇ ਵਿੱਚ ਇੱਕ "
+"ਮਾਡਲ ਵਿੰਡੋ ਵਿੱਚ ਖੁੱਲ੍ਹੇ ਤਾਂ ਮਾਡਲ ਚੁਣੋ। ਜੇਕਰ ਤੁਸੀਂ ਚਾਹੁੰਦੇ ਹੋ ਕਿ LTI ਸਮੱਗਰੀ "
+"ਇੱਕ ਨਵੀਂ ਬ੍ਰਾਊਜ਼ਰ ਵਿੰਡੋ ਵਿੱਚ ਖੁੱਲ੍ਹੇ ਤਾਂ ਨਵੀਂ ਵਿੰਡੋ ਚੁਣੋ। ਇਹ ਸੈਟਿੰਗ ਸਿਰਫ਼ "
+"ਉਦੋਂ ਵਰਤੀ ਜਾਂਦੀ ਹੈ ਜਦੋਂ Hide External Tool ਗਲਤ 'ਤੇ ਸੈੱਟ ਕੀਤਾ ਜਾਂਦਾ ਹੈ।"
+
+#: lti_xblock.py:484
+msgid "Button Text"
+msgstr "ਬਟਨ ਟੈਕਸਟ"
+
+#: lti_xblock.py:486
+msgid ""
+"Enter the text on the button used to launch the third party application. "
+"This setting is only used when Hide External Tool is set to False and LTI "
+"Launch Target is set to Modal or New Window."
+msgstr ""
+"ਤੀਜੀ ਧਿਰ ਐਪਲੀਕੇਸ਼ਨ ਲਾਂਚ ਕਰਨ ਲਈ ਵਰਤੇ ਜਾਣ ਵਾਲੇ ਬਟਨ 'ਤੇ ਟੈਕਸਟ ਦਰਜ ਕਰੋ। ਇਹ "
+"ਸੈਟਿੰਗ ਸਿਰਫ਼ ਉਦੋਂ ਵਰਤੀ ਜਾਂਦੀ ਹੈ ਜਦੋਂ ਬਾਹਰੀ ਟੂਲ ਨੂੰ ਲੁਕਾਓ ਗਲਤ 'ਤੇ ਸੈੱਟ ਕੀਤਾ "
+"ਜਾਂਦਾ ਹੈ ਅਤੇ LTI ਲਾਂਚ ਟਾਰਗੇਟ ਨੂੰ ਮਾਡਲ ਜਾਂ ਨਵੀਂ ਵਿੰਡੋ 'ਤੇ ਸੈੱਟ ਕੀਤਾ ਜਾਂਦਾ ਹੈ।"
+
+#: lti_xblock.py:494
+msgid "Inline Height"
+msgstr "ਇਨਲਾਈਨ ਉਚਾਈ"
+
+#: lti_xblock.py:496
+msgid ""
+"Enter the desired pixel height of the iframe which will contain the LTI "
+"tool. This setting is only used when Hide External Tool is set to False and "
+"LTI Launch Target is set to Inline."
+msgstr ""
+"ਉਸ iframe ਦੀ ਲੋੜੀਂਦੀ ਪਿਕਸਲ ਉਚਾਈ ਦਰਜ ਕਰੋ ਜਿਸ ਵਿੱਚ LTI ਟੂਲ ਹੋਵੇਗਾ। ਇਹ ਸੈਟਿੰਗ "
+"ਸਿਰਫ਼ ਉਦੋਂ ਵਰਤੀ ਜਾਂਦੀ ਹੈ ਜਦੋਂ Hide External Tool ਨੂੰ False ਤੇ ਸੈੱਟ ਕੀਤਾ "
+"ਜਾਂਦਾ ਹੈ ਅਤੇ LTI Launch Target ਨੂੰ Inline ਤੇ ਸੈੱਟ ਕੀਤਾ ਜਾਂਦਾ ਹੈ।"
+
+#: lti_xblock.py:504
+msgid "Modal Height"
+msgstr "ਮਾਡਲ ਦੀ ਉਚਾਈ"
+
+#: lti_xblock.py:506
+msgid ""
+"Enter the desired viewport percentage height of the modal overlay which will"
+" contain the LTI tool. This setting is only used when Hide External Tool is "
+"set to False and LTI Launch Target is set to Modal."
+msgstr ""
+"ਮਾਡਲ ਓਵਰਲੇਅ ਦੀ ਲੋੜੀਂਦੀ ਵਿਊਪੋਰਟ ਪ੍ਰਤੀਸ਼ਤ ਉਚਾਈ ਦਰਜ ਕਰੋ ਜਿਸ ਵਿੱਚ LTI ਟੂਲ "
+"ਹੋਵੇਗਾ। ਇਹ ਸੈਟਿੰਗ ਸਿਰਫ਼ ਉਦੋਂ ਵਰਤੀ ਜਾਂਦੀ ਹੈ ਜਦੋਂ ਬਾਹਰੀ ਟੂਲ ਨੂੰ ਲੁਕਾਓ ਗਲਤ ਤੇ "
+"ਸੈੱਟ ਕੀਤਾ ਜਾਂਦਾ ਹੈ ਅਤੇ LTI ਲਾਂਚ ਟਾਰਗੇਟ ਨੂੰ ਮਾਡਲ ਤੇ ਸੈੱਟ ਕੀਤਾ ਜਾਂਦਾ ਹੈ।"
+
+#: lti_xblock.py:514
+msgid "Modal Width"
+msgstr "ਮਾਡਲ ਚੌੜਾਈ"
+
+#: lti_xblock.py:516
+msgid ""
+"Enter the desired viewport percentage width of the modal overlay which will "
+"contain the LTI tool. This setting is only used when Hide External Tool is "
+"set to False and LTI Launch Target is set to Modal."
+msgstr ""
+"ਮਾਡਲ ਓਵਰਲੇਅ ਦੀ ਲੋੜੀਂਦੀ ਵਿਊਪੋਰਟ ਪ੍ਰਤੀਸ਼ਤ ਚੌੜਾਈ ਦਰਜ ਕਰੋ ਜਿਸ ਵਿੱਚ LTI ਟੂਲ "
+"ਹੋਵੇਗਾ। ਇਹ ਸੈਟਿੰਗ ਸਿਰਫ਼ ਉਦੋਂ ਵਰਤੀ ਜਾਂਦੀ ਹੈ ਜਦੋਂ ਬਾਹਰੀ ਟੂਲ ਨੂੰ ਲੁਕਾਓ ਗਲਤ ਤੇ "
+"ਸੈੱਟ ਕੀਤਾ ਜਾਂਦਾ ਹੈ ਅਤੇ LTI ਲਾਂਚ ਟਾਰਗੇਟ ਨੂੰ ਮਾਡਲ ਤੇ ਸੈੱਟ ਕੀਤਾ ਜਾਂਦਾ ਹੈ।"
+
+#: lti_xblock.py:524
+msgid "Scored"
+msgstr "ਸਕੋਰ ਕੀਤਾ"
+
+#: lti_xblock.py:525
+msgid ""
+"Select True if this component will receive a numerical score from the "
+"external LTI system."
+msgstr ""
+"ਜੇਕਰ ਇਹ ਕੰਪੋਨੈਂਟ ਬਾਹਰੀ LTI ਸਿਸਟਮ ਤੋਂ ਇੱਕ ਸੰਖਿਆਤਮਕ ਸਕੋਰ ਪ੍ਰਾਪਤ ਕਰੇਗਾ ਤਾਂ True"
+" ਚੁਣੋ।"
+
+#: lti_xblock.py:532
+msgid ""
+"Enter the number of points possible for this component.  The default value "
+"is 1.0.  This setting is only used when Scored is set to True."
+msgstr ""
+"ਇਸ ਹਿੱਸੇ ਲਈ ਸੰਭਵ ਅੰਕਾਂ ਦੀ ਗਿਣਤੀ ਦਰਜ ਕਰੋ। ਡਿਫੌਲਟ ਮੁੱਲ 1.0 ਹੈ। ਇਹ ਸੈਟਿੰਗ ਸਿਰਫ਼"
+" ਉਦੋਂ ਵਰਤੀ ਜਾਂਦੀ ਹੈ ਜਦੋਂ ਸਕੋਰਡ ਨੂੰ ਸਹੀ 'ਤੇ ਸੈੱਟ ਕੀਤਾ ਜਾਂਦਾ ਹੈ।"
+
+#: lti_xblock.py:541
+msgid ""
+"The score kept in the xblock KVS -- duplicate of the published score in "
+"django DB"
+msgstr ""
+"xblock KVS ਵਿੱਚ ਰੱਖਿਆ ਗਿਆ ਸਕੋਰ -- django DB ਵਿੱਚ ਪ੍ਰਕਾਸ਼ਿਤ ਸਕੋਰ ਦਾ ਡੁਪਲੀਕੇਟ।"
+
+#: lti_xblock.py:546
+msgid "Comment as returned from grader, LTI2.0 spec"
+msgstr "ਗ੍ਰੇਡਰ, LTI2.0 ਸਪੈਕ ਤੋਂ ਵਾਪਸ ਕੀਤੀ ਗਈ ਟਿੱਪਣੀ"
+
+#: lti_xblock.py:551
+msgid "Hide External Tool"
+msgstr "ਬਾਹਰੀ ਔਜ਼ਾਰ ਲੁਕਾਓ"
+
+#: lti_xblock.py:553
+msgid ""
+"Select True if you want to use this component as a placeholder for syncing "
+"with an external grading  system rather than launch an external tool.  This "
+"setting hides the Launch button and any IFrames for this component."
+msgstr ""
+"ਜੇਕਰ ਤੁਸੀਂ ਇਸ ਕੰਪੋਨੈਂਟ ਨੂੰ ਕਿਸੇ ਬਾਹਰੀ ਟੂਲ ਨੂੰ ਲਾਂਚ ਕਰਨ ਦੀ ਬਜਾਏ ਕਿਸੇ ਬਾਹਰੀ "
+"ਗਰੇਡਿੰਗ ਸਿਸਟਮ ਨਾਲ ਸਿੰਕ ਕਰਨ ਲਈ ਪਲੇਸਹੋਲਡਰ ਵਜੋਂ ਵਰਤਣਾ ਚਾਹੁੰਦੇ ਹੋ ਤਾਂ True ਚੁਣੋ।"
+" ਇਹ ਸੈਟਿੰਗ ਇਸ ਕੰਪੋਨੈਂਟ ਲਈ ਲਾਂਚ ਬਟਨ ਅਤੇ ਕਿਸੇ ਵੀ IFrames ਨੂੰ ਲੁਕਾਉਂਦੀ ਹੈ।"
+
+#: lti_xblock.py:561
+msgid "Accept grades past deadline"
+msgstr "ਆਖਰੀ ਮਿਤੀ ਤੋਂ ਬਾਅਦ ਦੇ ਗ੍ਰੇਡ ਸਵੀਕਾਰ ਕਰੋ"
+
+#: lti_xblock.py:562
+msgid ""
+"Select True to allow third party systems to post grades past the deadline."
+msgstr ""
+"ਤੀਜੀ ਧਿਰ ਦੇ ਸਿਸਟਮਾਂ ਨੂੰ ਆਖਰੀ ਮਿਤੀ ਤੋਂ ਬਾਅਦ ਗ੍ਰੇਡ ਪੋਸਟ ਕਰਨ ਦੀ ਆਗਿਆ ਦੇਣ ਲਈ "
+"True ਚੁਣੋ।"
+
+#: lti_xblock.py:570
+msgid "Request user's username"
+msgstr "ਵਰਤੋਂਕਾਰ ਦੇ ਵਰਤੋਂਕਾਰ ਨਾਮ ਦੀ ਬੇਨਤੀ ਕਰੋ"
+
+#. Translators: This is used to request the user's username for a third party
+#. service.
+#: lti_xblock.py:572
+msgid "Select True to request the user's username."
+msgstr "ਯੂਜ਼ਰ ਦੇ ਯੂਜ਼ਰਨੇਮ ਦੀ ਬੇਨਤੀ ਕਰਨ ਲਈ True ਚੁਣੋ।"
+
+#: lti_xblock.py:577
+msgid "Request user's full name"
+msgstr "ਵਰਤੋਂਕਾਰ ਦਾ ਪੂਰਾ ਨਾਮ ਮੰਗੋ"
+
+#. Translators: This is used to request the user's full name for a third party
+#. service.
+#: lti_xblock.py:579
+msgid "Select True to request the user's full name."
+msgstr "ਯੂਜ਼ਰ ਦਾ ਪੂਰਾ ਨਾਮ ਮੰਗਣ ਲਈ True ਚੁਣੋ।"
+
+#: lti_xblock.py:584
+msgid "Request user's email"
+msgstr "ਵਰਤੋਂਕਾਰ ਦੀ ਈਮੇਲ ਦੀ ਬੇਨਤੀ ਕਰੋ"
+
+#. Translators: This is used to request the user's email for a third party
+#. service.
+#: lti_xblock.py:586
+msgid "Select True to request the user's email address."
+msgstr "ਉਪਭੋਗਤਾ ਦੇ ਈਮੇਲ ਪਤੇ ਦੀ ਬੇਨਤੀ ਕਰਨ ਲਈ True ਚੁਣੋ।"
+
+#: lti_xblock.py:592
+msgid "Send extra parameters"
+msgstr "ਵਾਧੂ ਪੈਰਾਮੀਟਰ ਭੇਜੋ"
+
+#: lti_xblock.py:593
+msgid ""
+"Select True to send the extra parameters, which might contain Personally "
+"Identifiable Information. The processors are site-wide, please consult the "
+"site administrator if you have any questions."
+msgstr ""
+"ਵਾਧੂ ਪੈਰਾਮੀਟਰ ਭੇਜਣ ਲਈ True ਚੁਣੋ, ਜਿਸ ਵਿੱਚ ਨਿੱਜੀ ਤੌਰ 'ਤੇ ਪਛਾਣਨਯੋਗ ਜਾਣਕਾਰੀ ਹੋ "
+"ਸਕਦੀ ਹੈ। ਪ੍ਰੋਸੈਸਰ ਸਾਈਟ-ਵਿਆਪੀ ਹਨ, ਜੇਕਰ ਤੁਹਾਡੇ ਕੋਈ ਸਵਾਲ ਹਨ ਤਾਂ ਕਿਰਪਾ ਕਰਕੇ ਸਾਈਟ"
+" ਪ੍ਰਸ਼ਾਸਕ ਨਾਲ ਸਲਾਹ ਕਰੋ।"
+
+#: lti_xblock.py:668
+msgid "Custom Parameters must be a list"
+msgstr "ਵਿਉਂਤੇ ਪੈਰਾਮੀਟਰ ਇੱਕ ਸੂਚੀ ਹੋਣੇ ਚਾਹੀਦੇ ਹਨ"
+
+#: lti_xblock.py:675
+msgid "Custom Parameters should be strings in \"x=y\" format."
+msgstr "ਕਸਟਮ ਪੈਰਾਮੀਟਰ \"x=y\" ਫਾਰਮੈਟ ਵਿੱਚ ਸਤਰ ਹੋਣੇ ਚਾਹੀਦੇ ਹਨ।"
+
+#: lti_xblock.py:685
+msgid ""
+"Reusable configuration ID must be set when using external config (Example: "
+"\"x:y\")."
+msgstr ""
+"ਬਾਹਰੀ ਸੰਰਚਨਾ (ਉਦਾਹਰਨ: \"x:y\") ਦੀ ਵਰਤੋਂ ਕਰਦੇ ਸਮੇਂ ਮੁੜ ਵਰਤੋਂ ਯੋਗ ਸੰਰਚਨਾ ID "
+"ਸੈੱਟ ਕੀਤਾ ਜਾਣਾ ਚਾਹੀਦਾ ਹੈ।"
+
+#: lti_xblock.py:709
+msgid ""
+"The specified LTI ID is not configured in this course's Advanced Settings."
+msgstr ""
+"ਨਿਰਧਾਰਤ LTI ID ਇਸ ਕੋਰਸ ਦੀਆਂ ਐਡਵਾਂਸਡ ਸੈਟਿੰਗਾਂ ਵਿੱਚ ਕੌਂਫਿਗਰ ਨਹੀਂ ਕੀਤੀ ਗਈ ਹੈ।"
+
+#: lti_xblock.py:838 lti_xblock.py:1129
+msgid "Could not get user data for current request"
+msgstr "ਮੌਜੂਦਾ ਬੇਨਤੀ ਲਈ ਉਪਭੋਗਤਾ ਡੇਟਾ ਪ੍ਰਾਪਤ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ।"
+
+#: lti_xblock.py:878
+msgid ""
+"Could not parse LTI passport: {lti_passport!r}. Should be \"id:key:secret\" "
+"string."
+msgstr ""
+"LTI ਪਾਸਪੋਰਟ ਨੂੰ ਪਾਰਸ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ: {lti_passport!r}। \"id:key:secret\" "
+"ਸਤਰ ਹੋਣੀ ਚਾਹੀਦੀ ਹੈ।"
+
+#: lti_xblock.py:896 lti_xblock.py:910 lti_xblock.py:926
+msgid "Could not get user id for current request"
+msgstr "ਮੌਜੂਦਾ ਬੇਨਤੀ ਲਈ ਯੂਜ਼ਰ ਆਈਡੀ ਪ੍ਰਾਪਤ ਨਹੀਂ ਕੀਤੀ ਜਾ ਸਕੀ।"
+
+#: lti_xblock.py:1062
+msgid ""
+"Could not parse custom parameter: {custom_parameter!r}. Should be \"x=y\" "
+"string."
+msgstr ""
+"ਕਸਟਮ ਪੈਰਾਮੀਟਰ ਨੂੰ ਪਾਰਸ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ: {custom_parameter!r}। \"x=y\" ਸਤਰ "
+"ਹੋਣੀ ਚਾਹੀਦੀ ਹੈ।"
+
+#: lti_xblock.py:1452
+msgid "[LTI]: Real user not found against anon_id: {}"
+msgstr "[LTI]: anon_id ਦੇ ਵਿਰੁੱਧ ਅਸਲੀ ਉਪਭੋਗਤਾ ਨਹੀਂ ਮਿਲਿਆ: {}"
+
+#: models.py:85
+msgid "Configuration Stored on XBlock fields"
+msgstr "XBlock ਖੇਤਰਾਂ ਵਿੱਚ ਸਟੋਰ ਕੀਤੀ ਗਈ ਸੰਰਚਨਾ"
+
+#: models.py:86
+msgid "Configuration Stored on this model"
+msgstr "ਇਸ ਮਾਡਲ 'ਤੇ ਸਟੋਰ ਕੀਤੀ ਗਈ ਸੰਰਚਨਾ"
+
+#: models.py:87
+msgid "Configuration Stored on external service"
+msgstr "ਬਾਹਰੀ ਸੇਵਾ 'ਤੇ ਸਟੋਰ ਕੀਤੀ ਗਈ ਸੰਰਚਨਾ"
+
+#: models.py:119
+msgid "LTI configuration data."
+msgstr "LTI ਸੰਰਚਨਾ ਡੇਟਾ।"
+
+#: models.py:126
+msgid "The URL of the external tool that initiates the launch."
+msgstr "ਬਾਹਰੀ ਟੂਲ ਦਾ URL ਜੋ ਲਾਂਚ ਸ਼ੁਰੂ ਕਰਦਾ ਹੈ।"
+
+#: models.py:131
+msgid "Client key provided by the LTI tool provider."
+msgstr "LTI ਟੂਲ ਪ੍ਰਦਾਤਾ ਦੁਆਰਾ ਪ੍ਰਦਾਨ ਕੀਤੀ ਗਈ ਕਲਾਇੰਟ ਕੁੰਜੀ।"
+
+#: models.py:137
+msgid "Client secret provided by the LTI tool provider."
+msgstr "LTI ਟੂਲ ਪ੍ਰਦਾਤਾ ਦੁਆਰਾ ਪ੍ਰਦਾਨ ਕੀਤਾ ਗਿਆ ਕਲਾਇੰਟ ਗੁਪਤ।"
+
+#: models.py:143
+msgid "Platform's generated Private key. Keep this value secret."
+msgstr "ਪਲੇਟਫਾਰਮ ਦੁਆਰਾ ਤਿਆਰ ਕੀਤੀ ਗਈ ਪ੍ਰਾਈਵੇਟ ਕੁੰਜੀ। ਇਸ ਮੁੱਲ ਨੂੰ ਗੁਪਤ ਰੱਖੋ।"
+
+#: models.py:149
+msgid "Platform's generated Private key ID"
+msgstr "ਪਲੇਟਫਾਰਮ ਦੀ ਤਿਆਰ ਕੀਤੀ ਨਿੱਜੀ ਕੁੰਜੀ ਆਈਡੀ"
+
+#: models.py:154
+msgid "Platform's generated JWK keyset."
+msgstr "ਪਲੇਟਫਾਰਮ ਦਾ ਤਿਆਰ ਕੀਤਾ JWK ਕੀਸੈੱਟ।"
+
+#: models.py:160
+msgid "Client ID used by LTI tool"
+msgstr "LTI ਟੂਲ ਦੁਆਰਾ ਵਰਤੀ ਗਈ ਕਲਾਇੰਟ ਆਈਡੀ"
+
+#: models.py:256
+msgid "LTI Configuration stores on XBlock needs a block location set."
+msgstr ""
+"XBlock 'ਤੇ LTI ਕੌਂਫਿਗਰੇਸ਼ਨ ਸਟੋਰਾਂ ਨੂੰ ਇੱਕ ਬਲਾਕ ਸਥਾਨ ਸੈੱਟ ਦੀ ਲੋੜ ਹੁੰਦੀ ਹੈ।"
+
+#: models.py:261
+msgid ""
+"LTI Configuration using reusable configuration needs a external ID in "
+"\"x:y\" format."
+msgstr ""
+"ਮੁੜ ਵਰਤੋਂ ਯੋਗ ਸੰਰਚਨਾ ਦੀ ਵਰਤੋਂ ਕਰਨ ਵਾਲੀ LTI ਸੰਰਚਨਾ ਨੂੰ \"x:y\" ਫਾਰਮੈਟ ਵਿੱਚ "
+"ਇੱਕ ਬਾਹਰੀ ID ਦੀ ਲੋੜ ਹੁੰਦੀ ਹੈ।"
+
+#: models.py:268
+msgid ""
+"LTI Configuration stored on the model for LTI 1.3 must have a value for one "
+"of lti_1p3_tool_public_key or lti_1p3_tool_keyset_url."
+msgstr ""
+"LTI 1.3 ਲਈ ਮਾਡਲ 'ਤੇ ਸਟੋਰ ਕੀਤੀ LTI ਸੰਰਚਨਾ ਵਿੱਚ lti_1p3_tool_public_key ਜਾਂ "
+"lti_1p3_tool_keyset_url ਵਿੱਚੋਂ ਕਿਸੇ ਇੱਕ ਲਈ ਮੁੱਲ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ।"
+
+#: models.py:275
+msgid ""
+"CONFIG_ON_XBLOCK and CONFIG_EXTERNAL are not supported for LTI 1.3 "
+"Proctoring Services."
+msgstr ""
+"LTI 1.3 ਪ੍ਰੋਕਟਰਿੰਗ ਸੇਵਾਵਾਂ ਲਈ CONFIG_ON_XBLOCK ਅਤੇ CONFIG_EXTERNAL ਸਮਰਥਿਤ "
+"ਨਹੀਂ ਹਨ।"
+
+#: models.py:283
+msgid "Invalid LTI configuration."
+msgstr "ਅਵੈਧ LTI ਸੰਰਚਨਾ।"
+
+#: plugin/views.py:575
+msgid "The selected content type is not supported by Open edX."
+msgstr "ਚੁਣੀ ਗਈ ਸਮੱਗਰੀ ਕਿਸਮ Open edX ਦੁਆਰਾ ਸਮਰਥਿਤ ਨਹੀਂ ਹੈ।"
+
+#: plugin/views.py:590
+msgid "You don't have access to save LTI Content Items."
+msgstr "ਤੁਹਾਡੇ ਕੋਲ LTI ਸਮੱਗਰੀ ਆਈਟਮਾਂ ਨੂੰ ਸੁਰੱਖਿਅਤ ਕਰਨ ਦੀ ਪਹੁੰਚ ਨਹੀਂ ਹੈ।"
+
+#: plugin/views.py:591
+msgid ""
+"Please check that you have course staff permissions and double check this "
+"block's LTI settings."
+msgstr ""
+"ਕਿਰਪਾ ਕਰਕੇ ਜਾਂਚ ਕਰੋ ਕਿ ਤੁਹਾਡੇ ਕੋਲ ਕੋਰਸ ਸਟਾਫ ਦੀਆਂ ਇਜਾਜ਼ਤਾਂ ਹਨ ਅਤੇ ਇਸ ਬਲਾਕ "
+"ਦੀਆਂ LTI ਸੈਟਿੰਗਾਂ ਦੀ ਦੁਬਾਰਾ ਜਾਂਚ ਕਰੋ।"
+
+#: templates/html/lti-dl/dl_response_error.html:6
+msgid "LTI Deep Linking failed."
+msgstr "LTI ਡੀਪ ਲਿੰਕਿੰਗ ਅਸਫਲ ਰਹੀ।"
+
+#: templates/html/lti-dl/dl_response_saved.html:6
+msgid "LTI Deep Linking"
+msgstr "LTI ਡੀਪ ਲਿੰਕਿੰਗ"
+
+#: templates/html/lti-dl/dl_response_saved.html:10
+msgid "The LTI Deep Linking content was successfully saved in the LMS."
+msgstr "LTI ਡੀਪ ਲਿੰਕਿੰਗ ਸਮੱਗਰੀ ਨੂੰ LMS ਵਿੱਚ ਸਫਲਤਾਪੂਰਵਕ ਸੁਰੱਖਿਅਤ ਕੀਤਾ ਗਿਆ ਸੀ।"
+
+#: templates/html/lti-dl/dl_response_saved.html:13
+msgid "You can safely close this page now."
+msgstr "ਤੁਸੀਂ ਹੁਣ ਇਸ ਪੰਨੇ ਨੂੰ ਸੁਰੱਖਿਅਤ ਢੰਗ ਨਾਲ ਬੰਦ ਕਰ ਸਕਦੇ ਹੋ।"
+
+#: templates/html/lti_1p3_permission_error.html:10
+msgid "Unauthorized."
+msgstr "ਅਣਅਧਿਕਾਰਤ।"
+
+#: templates/html/lti_1p3_permission_error.html:13
+msgid ""
+"Students don't have permissions to perform LTI Deep Linking configuration "
+"launches."
+msgstr ""
+"ਵਿਦਿਆਰਥੀਆਂ ਕੋਲ LTI ਡੀਪ ਲਿੰਕਿੰਗ ਕੌਂਫਿਗਰੇਸ਼ਨ ਲਾਂਚ ਕਰਨ ਦੀਆਂ ਇਜਾਜ਼ਤਾਂ ਨਹੀਂ ਹਨ।"
+
+#: templates/html/lti_1p3_studio.html:3
+msgid "LTI 1.3 Launches can only be performed from the LMS."
+msgstr "LTI 1.3 ਲਾਂਚ ਸਿਰਫ਼ LMS ਤੋਂ ਹੀ ਕੀਤੇ ਜਾ ਸਕਦੇ ਹਨ।"
+
+#: templates/html/lti_1p3_studio.html:7
+msgid ""
+"To set up the LTI integration, you need to register the LMS in the tool with"
+" the information provided below."
+msgstr ""
+"LTI ਏਕੀਕਰਨ ਸੈੱਟਅੱਪ ਕਰਨ ਲਈ, ਤੁਹਾਨੂੰ ਹੇਠਾਂ ਦਿੱਤੀ ਜਾਣਕਾਰੀ ਨਾਲ ਟੂਲ ਵਿੱਚ LMS "
+"ਰਜਿਸਟਰ ਕਰਨ ਦੀ ਲੋੜ ਹੈ।"
+
+#: templates/html/lti_1p3_studio.html:11
+msgid "Client ID: "
+msgstr "ਕਲਾਇੰਟ ਆਈਡੀ:"
+
+#: templates/html/lti_1p3_studio.html:16
+msgid "Deployment ID: "
+msgstr "ਤੈਨਾਤੀ ਆਈਡੀ:"
+
+#: templates/html/lti_1p3_studio.html:21
+msgid "Keyset URL: "
+msgstr "ਕੀਸੈੱਟ URL:"
+
+#: templates/html/lti_1p3_studio.html:26
+msgid "Access Token URL: "
+msgstr "ਪਹੁੰਚ ਟੋਕਨ URL:"
+
+#: templates/html/lti_1p3_studio.html:31
+msgid "Login URL: "
+msgstr "ਲੌਗਇਨ URL:"
+
+#: templates/html/lti_1p3_studio.html:39
+msgid "Deep Linking is configured on this tool."
+msgstr "ਇਸ ਟੂਲ 'ਤੇ ਡੀਪ ਲਿੰਕਿੰਗ ਨੂੰ ਕੌਂਫਿਗਰ ਕੀਤਾ ਗਿਆ ਹੈ।"
+
+#: templates/html/lti_1p3_studio.html:40
+msgid "The Deep Linking configuration stored is presented below:"
+msgstr "ਸਟੋਰ ਕੀਤੀ ਡੀਪ ਲਿੰਕਿੰਗ ਕੌਂਫਿਗਰੇਸ਼ਨ ਹੇਠਾਂ ਦਿੱਤੀ ਗਈ ਹੈ:"
+
+#: templates/html/lti_1p3_studio.html:45
+msgid "If you run deep linking again, the content above will be replaced."
+msgstr ""
+"ਜੇਕਰ ਤੁਸੀਂ ਦੁਬਾਰਾ ਡੀਪ ਲਿੰਕਿੰਗ ਚਲਾਉਂਦੇ ਹੋ, ਤਾਂ ਉੱਪਰ ਦਿੱਤੀ ਸਮੱਗਰੀ ਬਦਲ ਦਿੱਤੀ "
+"ਜਾਵੇਗੀ।"
+
+#: templates/html/lti_1p3_studio.html:49
+msgid "You can configure this tool's content using LTI Deep Linking."
+msgstr ""
+"ਤੁਸੀਂ LTI ਡੀਪ ਲਿੰਕਿੰਗ ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਇਸ ਟੂਲ ਦੀ ਸਮੱਗਰੀ ਨੂੰ ਕੌਂਫਿਗਰ ਕਰ ਸਕਦੇ ਹੋ।"
+
+#: templates/html/lti_1p3_studio.html:50
+msgid "To do that, make sure the block is published and click the link below:"
+msgstr ""
+"ਅਜਿਹਾ ਕਰਨ ਲਈ, ਯਕੀਨੀ ਬਣਾਓ ਕਿ ਬਲਾਕ ਪ੍ਰਕਾਸ਼ਿਤ ਹੋ ਗਿਆ ਹੈ ਅਤੇ ਹੇਠਾਂ ਦਿੱਤੇ ਲਿੰਕ "
+"'ਤੇ ਕਲਿੱਕ ਕਰੋ:"
+
+#: templates/html/lti_1p3_studio.html:53
+msgid "Deep Linking Launch - Configure tool"
+msgstr "ਡੀਪ ਲਿੰਕਿੰਗ ਲਾਂਚ - ਕੌਂਫਿਗਰ ਟੂਲ"
+
+#: templates/html/lti_launch.html:27
+msgid "Press to Launch"
+msgstr "ਲਾਂਚ ਕਰਨ ਲਈ ਦਬਾਓ"
+
+#: templates/html/lti_launch_error.html:10
+msgid "There was an error while launching the LTI tool: "
+msgstr "LTI ਟੂਲ ਲਾਂਚ ਕਰਨ ਵੇਲੇ ਇੱਕ ਗਲਤੀ ਆਈ:"
+
+#: templates/html/lti_launch_error.html:16
+#: templates/html/lti_proctoring_start_error.html:13
+msgid ""
+"If you're seeing this on a live course, please contact the course staff."
+msgstr ""
+"ਜੇਕਰ ਤੁਸੀਂ ਇਸਨੂੰ ਲਾਈਵ ਕੋਰਸ 'ਤੇ ਦੇਖ ਰਹੇ ਹੋ, ਤਾਂ ਕਿਰਪਾ ਕਰਕੇ ਕੋਰਸ ਸਟਾਫ ਨਾਲ "
+"ਸੰਪਰਕ ਕਰੋ।"
+
+#: templates/html/lti_proctoring_start_error.html:10
+msgid "There was an error while starting your LTI proctored assessment."
+msgstr "ਤੁਹਾਡਾ LTI ਪ੍ਰੋਕਟੋਰਡ ਮੁਲਾਂਕਣ ਸ਼ੁਰੂ ਕਰਨ ਵੇਲੇ ਇੱਕ ਗਲਤੀ ਹੋਈ।"
+
+#: templates/html/lti_start_assessment.html:11
+msgid "Sending you back to your exam."
+msgstr "ਤੁਹਾਨੂੰ ਤੁਹਾਡੀ ਪ੍ਰੀਖਿਆ ਲਈ ਵਾਪਸ ਭੇਜ ਰਿਹਾ ਹਾਂ।"
+
+#: templates/html/lti_start_assessment.html:15
+msgid "Return to exam."
+msgstr "ਪ੍ਰੀਖਿਆ ’ਤੇ ਵਾਪਸ ਜਾਓ।"
+
+#: static/js/xblock_lti_consumer.js:143
+msgid "Cancel"
+msgstr "ਰੱਦ ਕਰੋ"
+
+#: static/js/xblock_lti_consumer.js:145
+msgid "OK"
+msgstr "ਠੀਕ ਹੈ"
+
+#: static/js/xblock_lti_consumer.js:174
+msgid ""
+"Click OK to have your username, full name, and e-mail address sent to a 3rd "
+"party application."
+msgstr ""
+"ਆਪਣਾ ਯੂਜ਼ਰਨੇਮ, ਪੂਰਾ ਨਾਮ, ਅਤੇ ਈ-ਮੇਲ ਪਤਾ ਤੀਜੀ ਧਿਰ ਦੀ ਅਰਜ਼ੀ 'ਤੇ ਭੇਜਣ ਲਈ ਠੀਕ ਹੈ "
+"'ਤੇ ਕਲਿੱਕ ਕਰੋ।"
+
+#: static/js/xblock_lti_consumer.js:178
+msgid ""
+"Click OK to have your username and e-mail address sent to a 3rd party "
+"application."
+msgstr ""
+"ਆਪਣਾ ਯੂਜ਼ਰਨੇਮ ਅਤੇ ਈ-ਮੇਲ ਪਤਾ ਤੀਜੀ ਧਿਰ ਦੀ ਅਰਜ਼ੀ 'ਤੇ ਭੇਜਣ ਲਈ ਠੀਕ ਹੈ 'ਤੇ ਕਲਿੱਕ "
+"ਕਰੋ।"
+
+#: static/js/xblock_lti_consumer.js:181
+msgid ""
+"Click OK to have your username and full name sent to a 3rd party "
+"application."
+msgstr ""
+"ਆਪਣਾ ਯੂਜ਼ਰਨੇਮ ਅਤੇ ਪੂਰਾ ਨਾਮ ਤੀਜੀ ਧਿਰ ਦੀ ਅਰਜ਼ੀ 'ਤੇ ਭੇਜਣ ਲਈ ਠੀਕ ਹੈ 'ਤੇ ਕਲਿੱਕ "
+"ਕਰੋ।"
+
+#: static/js/xblock_lti_consumer.js:184
+msgid ""
+"Click OK to have your full name and e-mail address sent to a 3rd party "
+"application."
+msgstr ""
+"ਆਪਣਾ ਪੂਰਾ ਨਾਮ ਅਤੇ ਈ-ਮੇਲ ਪਤਾ ਤੀਜੀ ਧਿਰ ਦੀ ਅਰਜ਼ੀ 'ਤੇ ਭੇਜਣ ਲਈ ਠੀਕ ਹੈ 'ਤੇ ਕਲਿੱਕ "
+"ਕਰੋ।"
+
+#: static/js/xblock_lti_consumer.js:187
+msgid "Click OK to have your username sent to a 3rd party application."
+msgstr "ਆਪਣਾ ਯੂਜ਼ਰਨੇਮ ਤੀਜੀ ਧਿਰ ਦੀ ਅਰਜ਼ੀ 'ਤੇ ਭੇਜਣ ਲਈ ਠੀਕ ਹੈ 'ਤੇ ਕਲਿੱਕ ਕਰੋ।"
+
+#: static/js/xblock_lti_consumer.js:189
+msgid "Click OK to have your full name sent to a 3rd party application."
+msgstr "ਆਪਣਾ ਪੂਰਾ ਨਾਮ ਤੀਜੀ ਧਿਰ ਦੀ ਅਰਜ਼ੀ 'ਤੇ ਭੇਜਣ ਲਈ ਠੀਕ ਹੈ 'ਤੇ ਕਲਿੱਕ ਕਰੋ।"
+
+#: static/js/xblock_lti_consumer.js:191
+msgid "Click OK to have your e-mail address sent to a 3rd party application."
+msgstr "ਆਪਣਾ ਈ-ਮੇਲ ਪਤਾ ਤੀਜੀ ਧਿਰ ਦੀ ਅਰਜ਼ੀ 'ਤੇ ਭੇਜਣ ਲਈ ਠੀਕ ਹੈ 'ਤੇ ਕਲਿੱਕ ਕਰੋ।"
+
+#: static/js/xblock_lti_consumer.js:198
+msgid "Click Cancel to return to this page without sending your information."
+msgstr ""
+"ਆਪਣੀ ਜਾਣਕਾਰੀ ਭੇਜੇ ਬਿਨਾਂ ਇਸ ਪੰਨੇ 'ਤੇ ਵਾਪਸ ਜਾਣ ਲਈ ਰੱਦ ਕਰੋ 'ਤੇ ਕਲਿੱਕ ਕਰੋ।"

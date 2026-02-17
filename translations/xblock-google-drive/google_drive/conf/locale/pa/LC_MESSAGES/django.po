@@ -1,0 +1,127 @@
+# edX translation file.
+# Copyright (C) 2025 EdX
+# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+# EdX Team <info@edx.org>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1a\n"
+"Report-Msgid-Bugs-To: Blend-ed Language Team <dev@blend-ed.com>\n"
+"POT-Creation-Date: 2023-06-13 08:00+0000\n"
+"PO-Revision-Date: 2023-06-13 09:00+0000\n"
+"Last-Translator: Zameel Hassan <zameel@blend-ed.com>\n"
+"Language-Team: Blend-ed Language Team <dev@blend-ed.com>\n"
+"Language: pa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: google_calendar.py:45 google_docs.py:59
+#: templates/html/google_calendar_edit.html:17
+#: templates/html/google_docs_edit.html:17
+msgid "Display Name"
+msgstr "ਦਿਖਾਇਆ ਹੋਇਆ ਨਾਮ"
+
+#: google_calendar.py:46 google_docs.py:60
+#: templates/html/google_calendar_edit.html:24
+#: templates/html/google_docs_edit.html:24
+msgid "This name appears in the horizontal navigation at the top of the page."
+msgstr "ਇਹ ਨਾਮ ਪੰਨੇ ਦੇ ਸਿਖਰ 'ਤੇ ਖਿਤਿਜੀ ਨੈਵੀਗੇਸ਼ਨ ਵਿੱਚ ਦਿਖਾਈ ਦਿੰਦਾ ਹੈ।"
+
+#: google_calendar.py:51 templates/html/google_calendar_edit.html:28
+msgid "Public Calendar ID"
+msgstr "ਜਨਤਕ ਕੈਲੰਡਰ ਆਈਡੀ"
+
+#: google_calendar.py:53
+msgid ""
+"Google provides an ID for publicly available calendars. In the Google "
+"Calendar, open Settings and copy the ID from the Calendar Address section "
+"into this field."
+msgstr ""
+"Google ਜਨਤਕ ਤੌਰ 'ਤੇ ਉਪਲਬਧ ਕੈਲੰਡਰਾਂ ਲਈ ਇੱਕ ID ਪ੍ਰਦਾਨ ਕਰਦਾ ਹੈ। Google Calendar"
+" ਵਿੱਚ, ਸੈਟਿੰਗਾਂ ਖੋਲ੍ਹੋ ਅਤੇ ਕੈਲੰਡਰ ਪਤਾ ਭਾਗ ਤੋਂ ID ਨੂੰ ਇਸ ਖੇਤਰ ਵਿੱਚ ਕਾਪੀ ਕਰੋ।"
+
+#: google_calendar.py:60 templates/html/google_calendar_edit.html:41
+msgid "Default View"
+msgstr "ਡਿਫਾਲਟ ਦ੍ਰਿਸ਼"
+
+#: google_calendar.py:61 templates/html/google_calendar_edit.html:50
+msgid ""
+"The calendar view that students see by default. A student can change this "
+"view."
+msgstr ""
+"ਕੈਲੰਡਰ ਦ੍ਰਿਸ਼ ਜੋ ਵਿਦਿਆਰਥੀ ਡਿਫਾਲਟ ਤੌਰ 'ਤੇ ਦੇਖਦੇ ਹਨ। ਇੱਕ ਵਿਦਿਆਰਥੀ ਇਸ ਦ੍ਰਿਸ਼ "
+"ਨੂੰ ਬਦਲ ਸਕਦਾ ਹੈ।"
+
+#: google_docs.py:65 templates/html/google_docs_edit.html:28
+msgid "Embed Code"
+msgstr "ਕੋਡ ਸ਼ਾਮਲ ਕਰੋ"
+
+#: google_docs.py:67 templates/html/google_docs_edit.html:31
+msgid ""
+"Google provides an embed code for Drive documents. In the Google Drive "
+"document, from the File menu, select Publish to the Web. Modify settings as "
+"needed, click Publish, and copy the embed code into this field."
+msgstr ""
+"ਗੂਗਲ ਡਰਾਈਵ ਦਸਤਾਵੇਜ਼ਾਂ ਲਈ ਇੱਕ ਏਮਬੈਡ ਕੋਡ ਪ੍ਰਦਾਨ ਕਰਦਾ ਹੈ। ਗੂਗਲ ਡਰਾਈਵ ਦਸਤਾਵੇਜ਼ "
+"ਵਿੱਚ, ਫਾਈਲ ਮੀਨੂ ਤੋਂ, ਵੈੱਬ 'ਤੇ ਪ੍ਰਕਾਸ਼ਿਤ ਕਰੋ ਚੁਣੋ। ਲੋੜ ਅਨੁਸਾਰ ਸੈਟਿੰਗਾਂ ਨੂੰ "
+"ਸੋਧੋ, ਪ੍ਰਕਾਸ਼ਿਤ ਕਰੋ 'ਤੇ ਕਲਿੱਕ ਕਰੋ, ਅਤੇ ਇਸ ਖੇਤਰ ਵਿੱਚ ਏਮਬੈਡ ਕੋਡ ਦੀ ਨਕਲ ਕਰੋ।"
+
+#: google_docs.py:75
+msgid "Alternative Text"
+msgstr "ਵਿਕਲਪਿਕ ਟੈਕਸਟ"
+
+#: google_docs.py:76 templates/html/google_docs_edit.html:38
+msgid ""
+"Alternative text describes an image and appears if the image is unavailable."
+msgstr ""
+"ਵਿਕਲਪਿਕ ਟੈਕਸਟ ਇੱਕ ਚਿੱਤਰ ਦਾ ਵਰਣਨ ਕਰਦਾ ਹੈ ਅਤੇ ਜੇਕਰ ਚਿੱਤਰ ਉਪਲਬਧ ਨਹੀਂ ਹੈ ਤਾਂ "
+"ਦਿਖਾਈ ਦਿੰਦਾ ਹੈ।"
+
+#: templates/html/google_calendar_edit.html:9
+msgid "Invalid Google Calendar"
+msgstr "ਅਵੈਧ Google ਕੈਲੰਡਰ"
+
+#: templates/html/google_calendar_edit.html:10
+#: templates/html/google_docs_edit.html:10
+msgid "Please correct the outlined fields."
+msgstr "ਕਿਰਪਾ ਕਰਕੇ ਦੱਸੇ ਗਏ ਖੇਤਰਾਂ ਨੂੰ ਠੀਕ ਕਰੋ।"
+
+#: templates/html/google_calendar_edit.html:21
+#: templates/html/google_calendar_edit.html:32
+#: templates/html/google_docs_edit.html:21
+msgid "Clear Value"
+msgstr "ਸਾਫ਼ ਮੁੱਲ"
+
+#: templates/html/google_calendar_edit.html:35
+msgid ""
+"Google provides an ID for publicly available calendars. In the Google "
+"Calendar, open Settings and copy the ID from the Calendar Address section "
+"into this field. You can "
+msgstr ""
+"Google ਜਨਤਕ ਤੌਰ 'ਤੇ ਉਪਲਬਧ ਕੈਲੰਡਰਾਂ ਲਈ ਇੱਕ ID ਪ੍ਰਦਾਨ ਕਰਦਾ ਹੈ। Google Calendar"
+" ਵਿੱਚ, ਸੈਟਿੰਗਾਂ ਖੋਲ੍ਹੋ ਅਤੇ ਕੈਲੰਡਰ ਪਤਾ ਭਾਗ ਤੋਂ ID ਨੂੰ ਇਸ ਖੇਤਰ ਵਿੱਚ ਕਾਪੀ ਕਰੋ। "
+"ਤੁਸੀਂ"
+
+#: templates/html/google_calendar_edit.html:60
+#: templates/html/google_docs_edit.html:47
+msgid "Save"
+msgstr "ਸੇਵ ਕਰੋ"
+
+#: templates/html/google_calendar_edit.html:64
+#: templates/html/google_docs_edit.html:51
+msgid "Cancel"
+msgstr "ਰੱਦ ਕਰੋ"
+
+#: templates/html/google_docs_edit.html:9
+msgid "Invalid Google Document"
+msgstr "ਅਵੈਧ Google ਦਸਤਾਵੇਜ਼"
+
+#: templates/html/google_docs_edit.html:35
+msgid "Alternative text"
+msgstr "ਵਿਕਲਪਿਕ ਟੈਕਸਟ"
+
+#: public/js/google_calendar_edit.js:88 public/js/google_docs_edit.js:55
+msgid "Saving"
+msgstr "ਬੱਚਤ"

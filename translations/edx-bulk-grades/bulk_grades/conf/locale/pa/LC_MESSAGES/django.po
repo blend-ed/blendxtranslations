@@ -1,0 +1,56 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: Blend-ed Language Team <dev@blend-ed.com>\n"
+"POT-Creation-Date: 2025-10-30 00:40+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Zameel Hassan <zameel@blend-ed.com>\n"
+"Language-Team: Blend-ed Language Team <dev@blend-ed.com>\n"
+"Language: pa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: api.py:125
+msgid ""
+"The CSV does not match this problem. Check that you uploaded the right CSV."
+msgstr ""
+"CSV ਇਸ ਸਮੱਸਿਆ ਨਾਲ ਮੇਲ ਨਹੀਂ ਖਾਂਦਾ। ਜਾਂਚ ਕਰੋ ਕਿ ਤੁਸੀਂ ਸਹੀ CSV ਅੱਪਲੋਡ ਕੀਤਾ ਹੈ।"
+
+#: api.py:130
+msgid "Points must be numbers."
+msgstr "ਅੰਕ ਨੰਬਰ ਹੋਣੇ ਚਾਹੀਦੇ ਹਨ।"
+
+#: api.py:132
+msgid "Points must not be greater than {}."
+msgstr "ਅੰਕ {} ਤੋਂ ਵੱਧ ਨਹੀਂ ਹੋਣੇ ਚਾਹੀਦੇ।"
+
+#: api.py:134
+msgid "Points must be greater than 0"
+msgstr "ਅੰਕ 0 ਤੋਂ ਵੱਧ ਹੋਣੇ ਚਾਹੀਦੇ ਹਨ"
+
+#: api.py:347
+msgid "Wrong course id {} != {}"
+msgstr "ਗਲਤ ਕੋਰਸ ਆਈਡੀ {} != {}"
+
+#: api.py:366 api.py:368
+msgid "Repeated user_id: "
+msgstr "ਦੁਹਰਾਇਆ ਗਿਆ user_id:"
+
+#: api.py:385
+msgid "Grade must be a number"
+msgstr "ਗ੍ਰੇਡ ਇੱਕ ਨੰਬਰ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ"
+
+#: api.py:388
+msgid "Grade must not be negative"
+msgstr "ਗ੍ਰੇਡ ਨਕਾਰਾਤਮਕ ਨਹੀਂ ਹੋਣਾ ਚਾਹੀਦਾ"
+
+#: api.py:642
+msgid "score must be positive"
+msgstr "ਸਕੋਰ ਸਕਾਰਾਤਮਕ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ।"

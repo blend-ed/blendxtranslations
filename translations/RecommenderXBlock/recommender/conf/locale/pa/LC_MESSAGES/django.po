@@ -1,0 +1,514 @@
+# edX translation file.
+# Copyright (C) 2025 EdX
+# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+# EdX Team <info@edx.org>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1a\n"
+"Report-Msgid-Bugs-To: Blend-ed Language Team <dev@blend-ed.com>\n"
+"POT-Creation-Date: 2023-06-13 08:00+0000\n"
+"PO-Revision-Date: 2023-06-13 09:00+0000\n"
+"Last-Translator: Zameel Hassan <zameel@blend-ed.com>\n"
+"Language-Team: Blend-ed Language Team <dev@blend-ed.com>\n"
+"Language: pa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: recommender.py:314
+msgid "Invalid location URL provided"
+msgstr "ਅਵੈਧ ਸਥਾਨ URL ਦਿੱਤਾ ਗਿਆ ਹੈ"
+
+#: recommender.py:325
+msgid "The resource you are attempting to provide already exists"
+msgstr "ਤੁਸੀਂ ਜੋ ਸਰੋਤ ਪ੍ਰਦਾਨ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰ ਰਹੇ ਹੋ ਉਹ ਪਹਿਲਾਂ ਹੀ ਮੌਜੂਦ ਹੈ।"
+
+#: recommender.py:338
+msgid ""
+"The resource you are attempting to provide has been disallowed by the staff."
+" Reason: "
+msgstr ""
+"ਜਿਸ ਸਰੋਤ ਨੂੰ ਤੁਸੀਂ ਪ੍ਰਦਾਨ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰ ਰਹੇ ਹੋ, ਉਸਨੂੰ ਸਟਾਫ਼ ਦੁਆਰਾ "
+"ਮਨਜ਼ੂਰੀ ਨਹੀਂ ਦਿੱਤੀ ਗਈ ਹੈ। ਕਾਰਨ:"
+
+#: recommender.py:355
+msgid "The selected resource does not exist"
+msgstr "ਚੁਣਿਆ ਸਰੋਤ ਮੌਜੂਦ ਨਹੀਂ ਹੈ।"
+
+#: recommender.py:403
+msgid "Size of uploaded file exceeds threshold"
+msgstr "ਅੱਪਲੋਡ ਕੀਤੀ ਫਾਈਲ ਦਾ ਆਕਾਰ ਸੀਮਾ ਤੋਂ ਵੱਧ ਹੈ"
+
+#: recommender.py:414
+msgid "The configuration of pyfs is not properly set"
+msgstr "pyfs ਦੀ ਸੰਰਚਨਾ ਸਹੀ ਢੰਗ ਨਾਲ ਸੈੱਟ ਨਹੀਂ ਕੀਤੀ ਗਈ ਹੈ।"
+
+#: recommender.py:753
+msgid "Endorse resource without permission"
+msgstr "ਬਿਨਾਂ ਇਜਾਜ਼ਤ ਦੇ ਸਰੋਤ ਦਾ ਸਮਰਥਨ ਕਰੋ"
+
+#: recommender.py:797
+msgid "You don't have the permission to remove this resource"
+msgstr "ਤੁਹਾਡੇ ਕੋਲ ਇਸ ਸਰੋਤ ਨੂੰ ਹਟਾਉਣ ਦੀ ਇਜਾਜ਼ਤ ਨਹੀਂ ਹੈ।"
+
+#: recommender.py:848
+msgid "Only staff can import resources"
+msgstr "ਸਿਰਫ਼ ਸਟਾਫ਼ ਹੀ ਸਰੋਤ ਆਯਾਤ ਕਰ ਸਕਦਾ ਹੈ।"
+
+#: recommender.py:859 recommender.py:886
+msgid ""
+"Please submit the JSON file obtained with the download resources button"
+msgstr "ਕਿਰਪਾ ਕਰਕੇ ਡਾਊਨਲੋਡ ਸਰੋਤ ਬਟਨ ਨਾਲ ਪ੍ਰਾਪਤ ਕੀਤੀ JSON ਫਾਈਲ ਜਮ੍ਹਾਂ ਕਰੋ।"
+
+#: recommender.py:899
+msgid "Tried to access flagged resources without staff permission"
+msgstr ""
+"ਸਟਾਫ ਦੀ ਇਜਾਜ਼ਤ ਤੋਂ ਬਿਨਾਂ ਫਲੈਗ ਕੀਤੇ ਸਰੋਤਾਂ ਤੱਕ ਪਹੁੰਚ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕੀਤੀ"
+
+#: templates/recommender.html:85
+msgid "This is a list of recommended resources. If you\\"
+msgstr "ਇਹ ਸਿਫ਼ਾਰਸ਼ ਕੀਤੇ ਸਰੋਤਾਂ ਦੀ ਸੂਚੀ ਹੈ। ਜੇਕਰ ਤੁਸੀਂ\\"
+
+#: templates/recommender.html:86 static/js/src/cats.js:158
+msgid "Show related resources"
+msgstr "ਸੰਬੰਧਿਤ ਸਰੋਤ ਦਿਖਾਓ"
+
+#: templates/recommender.html:93
+msgid ""
+"This will be a list of resources your fellow students thought might be "
+"helpful, but it is empty currently. If you find useful resources, either on "
+"edx.org or elsewhere, please add it."
+msgstr ""
+"ਇਹ ਉਹਨਾਂ ਸਰੋਤਾਂ ਦੀ ਸੂਚੀ ਹੋਵੇਗੀ ਜੋ ਤੁਹਾਡੇ ਸਾਥੀ ਵਿਦਿਆਰਥੀਆਂ ਨੂੰ ਮਦਦਗਾਰ ਲੱਗ ਸਕਦੇ"
+" ਹਨ, ਪਰ ਇਹ ਵਰਤਮਾਨ ਵਿੱਚ ਖਾਲੀ ਹੈ। ਜੇਕਰ ਤੁਹਾਨੂੰ ਉਪਯੋਗੀ ਸਰੋਤ ਮਿਲਦੇ ਹਨ, ਜਾਂ ਤਾਂ "
+"edx.org 'ਤੇ ਜਾਂ ਕਿਤੇ ਹੋਰ, ਤਾਂ ਕਿਰਪਾ ਕਰਕੇ ਇਸਨੂੰ ਸ਼ਾਮਲ ਕਰੋ।"
+
+#: templates/recommender.html:120
+msgid "Add new resource &gt;&gt;"
+msgstr "ਨਵਾਂ ਸਰੋਤ ਸ਼ਾਮਲ ਕਰੋ &gt;&gt;"
+
+#: templates/recommender.html:121
+msgid "Download resources"
+msgstr "ਸਰੋਤ ਡਾਊਨਲੋਡ ਕਰੋ"
+
+#: templates/recommender.html:122 templates/recommender.html:148
+msgid "Upload resources"
+msgstr "ਸਰੋਤ ਅੱਪਲੋਡ ਕਰੋ"
+
+#: templates/recommender.html:124
+msgid "mode"
+msgstr "ਮੋਡ"
+
+#: templates/recommender.html:133
+msgid ""
+"This is a list of resources your fellow students thought might be helpful. "
+"If you find another useful resource, either on edx.org or elsewhere, please "
+"add it. If you can improve the description or preview of a resource, please "
+"do so as well. If you find a resource helpful, upvote it. If it&rsquo;s not "
+"so helpful, downvote it. If it has issues (illegal material, incorrect, "
+"etc.), please flag it and let us know the reason."
+msgstr ""
+"ਇਹ ਉਹਨਾਂ ਸਰੋਤਾਂ ਦੀ ਸੂਚੀ ਹੈ ਜੋ ਤੁਹਾਡੇ ਸਾਥੀ ਵਿਦਿਆਰਥੀਆਂ ਨੂੰ ਮਦਦਗਾਰ ਲੱਗ ਸਕਦੇ ਹਨ।"
+" ਜੇਕਰ ਤੁਹਾਨੂੰ ਕੋਈ ਹੋਰ ਉਪਯੋਗੀ ਸਰੋਤ ਮਿਲਦਾ ਹੈ, ਜਾਂ ਤਾਂ edx.org 'ਤੇ ਜਾਂ ਕਿਤੇ "
+"ਹੋਰ, ਤਾਂ ਕਿਰਪਾ ਕਰਕੇ ਇਸਨੂੰ ਸ਼ਾਮਲ ਕਰੋ। ਜੇਕਰ ਤੁਸੀਂ ਕਿਸੇ ਸਰੋਤ ਦੇ ਵਰਣਨ ਜਾਂ "
+"ਪੂਰਵਦਰਸ਼ਨ ਨੂੰ ਬਿਹਤਰ ਬਣਾ ਸਕਦੇ ਹੋ, ਤਾਂ ਕਿਰਪਾ ਕਰਕੇ ਅਜਿਹਾ ਵੀ ਕਰੋ। ਜੇਕਰ ਤੁਹਾਨੂੰ "
+"ਕੋਈ ਸਰੋਤ ਮਦਦਗਾਰ ਲੱਗਦਾ ਹੈ, ਤਾਂ ਇਸਨੂੰ ਅਪਵੋਟ ਕਰੋ। ਜੇਕਰ ਇਹ ਇੰਨਾ ਮਦਦਗਾਰ ਨਹੀਂ ਹੈ, "
+"ਤਾਂ ਇਸਨੂੰ ਡਾਊਨਵੋਟ ਕਰੋ। ਜੇਕਰ ਇਸ ਵਿੱਚ ਕੋਈ ਸਮੱਸਿਆ ਹੈ (ਗੈਰ-ਕਾਨੂੰਨੀ ਸਮੱਗਰੀ, ਗਲਤ, "
+"ਆਦਿ), ਤਾਂ ਕਿਰਪਾ ਕਰਕੇ ਇਸਨੂੰ ਫਲੈਗ ਕਰੋ ਅਤੇ ਸਾਨੂੰ ਕਾਰਨ ਦੱਸੋ।"
+
+#: templates/recommender.html:141
+msgid "cancel and go back to resource list"
+msgstr "ਰੱਦ ਕਰੋ ਅਤੇ ਸਰੋਤ ਸੂਚੀ ਤੇ ਵਾਪਸ ਜਾਓ"
+
+#: templates/recommender.html:141
+msgid "&lt; Related resources"
+msgstr "<ਸੰਬੰਧਿਤ ਸਰੋਤ>"
+
+#: templates/recommender.html:147
+msgid "Resources (in JSON format):"
+msgstr "ਸਰੋਤ (JSON ਫਾਰਮੈਟ ਵਿੱਚ):"
+
+#: templates/recommender.html:147
+msgid "Provide a file of resource list in JSON format"
+msgstr "JSON ਫਾਰਮੈਟ ਵਿੱਚ ਸਰੋਤ ਸੂਚੀ ਦੀ ਇੱਕ ਫਾਈਲ ਪ੍ਰਦਾਨ ਕਰੋ"
+
+#: templates/recommender.html:153 templates/recommender.html:163
+#: templates/recommender.html:173
+msgid "Reason"
+msgstr "ਕਾਰਨ"
+
+#: templates/recommender.html:157
+msgid "Reason for why this resource should be removed"
+msgstr "ਇਸ ਸਰੋਤ ਨੂੰ ਕਿਉਂ ਹਟਾਇਆ ਜਾਣਾ ਚਾਹੀਦਾ ਹੈ ਇਸਦਾ ਕਾਰਨ"
+
+#: templates/recommender.html:167
+msgid "Reason for why this resource should be endorsed"
+msgstr "ਇਸ ਸਰੋਤ ਨੂੰ ਕਿਉਂ ਸਮਰਥਨ ਦਿੱਤਾ ਜਾਣਾ ਚਾਹੀਦਾ ਹੈ ਇਸਦਾ ਕਾਰਨ"
+
+#: templates/recommender.html:177
+msgid "Reason for why this resource should be flagged"
+msgstr "ਇਸ ਸਰੋਤ ਨੂੰ ਫਲੈਗ ਕਰਨ ਦਾ ਕਾਰਨ"
+
+#: templates/recommender.html:183 templates/recommender.html:208
+msgid "Title"
+msgstr "ਟਾਈਟਲ"
+
+#: templates/recommender.html:185 templates/recommender.html:210
+msgid "Provide a resource title, required"
+msgstr "ਇੱਕ ਸਰੋਤ ਸਿਰਲੇਖ ਪ੍ਰਦਾਨ ਕਰੋ, ਲੋੜੀਂਦਾ ਹੈ"
+
+#: templates/recommender.html:187 templates/recommender.html:212
+msgid ""
+"Provide a meaningful title so other students know whether this is useful to "
+"them"
+msgstr ""
+"ਇੱਕ ਅਰਥਪੂਰਨ ਸਿਰਲੇਖ ਪ੍ਰਦਾਨ ਕਰੋ ਤਾਂ ਜੋ ਦੂਜੇ ਵਿਦਿਆਰਥੀਆਂ ਨੂੰ ਪਤਾ ਲੱਗੇ ਕਿ ਇਹ "
+"ਉਹਨਾਂ ਲਈ ਲਾਭਦਾਇਕ ਹੈ ਜਾਂ ਨਹੀਂ।"
+
+#: templates/recommender.html:189
+msgid "Location"
+msgstr "ਟਿਕਾਣਾ"
+
+#: templates/recommender.html:191 templates/recommender.html:216
+msgid "Provide a resource location in url, required"
+msgstr "url ਵਿੱਚ ਇੱਕ ਸਰੋਤ ਸਥਾਨ ਪ੍ਰਦਾਨ ਕਰੋ, ਲੋੜੀਂਦਾ ਹੈ"
+
+#: templates/recommender.html:195 templates/recommender.html:220
+msgid "Description"
+msgstr "ਵੇਰਵਾ"
+
+#: templates/recommender.html:199 templates/recommender.html:224
+msgid ""
+"Provide a meaningful description so other students know whether this is "
+"useful to them"
+msgstr ""
+"ਇੱਕ ਅਰਥਪੂਰਨ ਵਰਣਨ ਪ੍ਰਦਾਨ ਕਰੋ ਤਾਂ ਜੋ ਦੂਜੇ ਵਿਦਿਆਰਥੀਆਂ ਨੂੰ ਪਤਾ ਲੱਗੇ ਕਿ ਇਹ ਉਹਨਾਂ "
+"ਲਈ ਲਾਭਦਾਇਕ ਹੈ ਜਾਂ ਨਹੀਂ।"
+
+#: templates/recommender.html:202
+msgid "Preview screenshot:"
+msgstr "ਝਲਕ ਸਕ੍ਰੀਨਸ਼ਾਟ:"
+
+#: templates/recommender.html:202
+msgid "Provide a resource screenshot"
+msgstr "ਸਰੋਤ ਸਕ੍ਰੀਨਸ਼ਾਟ ਪ੍ਰਦਾਨ ਕਰੋ"
+
+#: templates/recommender.html:203
+msgid "Save change"
+msgstr "ਬਦਲਾਅ ਰੱਖਿਅਤ ਕਰੋ"
+
+#: templates/recommender.html:222
+msgid "Provide a resource description"
+msgstr "ਸਰੋਤ ਵੇਰਵਾ ਪ੍ਰਦਾਨ ਕਰੋ"
+
+#: templates/recommender.html:227
+msgid "Provide a file of resource screenshot"
+msgstr "ਸਰੋਤ ਸਕ੍ਰੀਨਸ਼ਾਟ ਦੀ ਇੱਕ ਫਾਈਲ ਪ੍ਰਦਾਨ ਕਰੋ"
+
+#: templates/recommender.html:228
+msgid "Add resource"
+msgstr "ਸਰੋਤ ਸ਼ਾਮਲ ਕਰੋ"
+
+#: templates/recommenderstudio.html:6
+msgid "Configuration setting"
+msgstr "ਸੰਰਚਨਾ ਸੈਟਿੰਗ"
+
+#: templates/recommenderstudio.html:9
+msgid ""
+"Set the student-view, client side configurations for RecommenderXblock."
+msgstr "RecommenderXblock ਲਈ ਵਿਦਿਆਰਥੀ-ਦ੍ਰਿਸ਼, ਕਲਾਇੰਟ ਸਾਈਡ ਸੰਰਚਨਾਵਾਂ ਸੈੱਟ ਕਰੋ।"
+
+#: templates/recommenderstudio.html:12 templates/recommenderstudio.html:18
+msgid "Yes"
+msgstr "ਹਾਂ"
+
+#: templates/recommenderstudio.html:13 templates/recommenderstudio.html:19
+msgid "No"
+msgstr "ਨਹੀਂ"
+
+#: templates/recommenderstudio.html:14
+msgid ""
+"Do you want to take users on a little tour when they see the "
+"RecommenderXBlock first time?"
+msgstr ""
+"ਕੀ ਤੁਸੀਂ ਉਪਭੋਗਤਾਵਾਂ ਨੂੰ ਪਹਿਲੀ ਵਾਰ RecommenderXBlock ਦੇਖਣ 'ਤੇ ਇੱਕ ਛੋਟੇ ਜਿਹੇ "
+"ਟੂਰ 'ਤੇ ਲੈ ਜਾਣਾ ਚਾਹੁੰਦੇ ਹੋ?"
+
+#: templates/recommenderstudio.html:21
+msgid "Do you want to disable the UX functions which are under development?"
+msgstr "ਕੀ ਤੁਸੀਂ ਵਿਕਾਸ ਅਧੀਨ UX ਫੰਕਸ਼ਨਾਂ ਨੂੰ ਅਯੋਗ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?"
+
+#: templates/recommenderstudio.html:36
+msgid "How many resources you want to show in each page of the resource list?"
+msgstr "ਸਰੋਤ ਸੂਚੀ ਦੇ ਹਰੇਕ ਪੰਨੇ ਵਿੱਚ ਤੁਸੀਂ ਕਿੰਨੇ ਸਰੋਤ ਦਿਖਾਉਣਾ ਚਾਹੁੰਦੇ ਹੋ?"
+
+#: templates/recommenderstudio.html:46
+msgid ""
+"How many page icons in pagination control (i.e., page range)? The icons for "
+"pages from (current page - page range) to (current page + page range) will "
+"be shown."
+msgstr ""
+"ਪੰਨਾਬੰਦੀ ਨਿਯੰਤਰਣ ਵਿੱਚ ਕਿੰਨੇ ਪੰਨੇ ਆਈਕਨ ਹਨ (ਭਾਵ, ਪੰਨਾ ਰੇਂਜ)? (ਮੌਜੂਦਾ ਪੰਨਾ - "
+"ਪੰਨਾ ਰੇਂਜ) ਤੋਂ (ਮੌਜੂਦਾ ਪੰਨਾ + ਪੰਨਾ ਰੇਂਜ) ਤੱਕ ਦੇ ਪੰਨਿਆਂ ਲਈ ਆਈਕਨ ਦਿਖਾਏ ਜਾਣਗੇ।"
+
+#: static/js/src/cats.js:65
+msgid ""
+"Recommend a new resource which may be helpful to other students solving this"
+" problem"
+msgstr ""
+"ਇੱਕ ਨਵੇਂ ਸਰੋਤ ਦੀ ਸਿਫ਼ਾਰਸ਼ ਕਰੋ ਜੋ ਇਸ ਸਮੱਸਿਆ ਨੂੰ ਹੱਲ ਕਰਨ ਲਈ ਦੂਜੇ ਵਿਦਿਆਰਥੀਆਂ ਲਈ"
+" ਮਦਦਗਾਰ ਹੋ ਸਕਦਾ ਹੈ।"
+
+#: static/js/src/cats.js:66
+msgid "Edit this resource"
+msgstr "ਇਸ ਸਰੋਤ ਨੂੰ ਸੰਪਾਦਿਤ ਕਰੋ"
+
+#: static/js/src/cats.js:67
+msgid "Upvote if the resource is helpful"
+msgstr "ਜੇਕਰ ਸਰੋਤ ਮਦਦਗਾਰ ਹੋਵੇ ਤਾਂ ਅੱਪਵੋਟ ਕਰੋ"
+
+#: static/js/src/cats.js:68
+msgid "Downvote if the resource is not helpful"
+msgstr "ਜੇਕਰ ਸਰੋਤ ਮਦਦਗਾਰ ਨਹੀਂ ਹੈ ਤਾਂ ਡਾਊਨਵੋਟ ਕਰੋ"
+
+#: static/js/src/cats.js:69
+msgid "Votes"
+msgstr "ਵੋਟਾਂ"
+
+#: static/js/src/cats.js:70
+msgid "Resource title"
+msgstr "ਸਰੋਤ ਸਿਰਲੇਖ"
+
+#: static/js/src/cats.js:71
+msgid "Remove this resource and give the reason why you do that"
+msgstr "ਇਸ ਸਰੋਤ ਨੂੰ ਹਟਾਓ ਅਤੇ ਕਾਰਨ ਦੱਸੋ ਕਿ ਤੁਸੀਂ ਅਜਿਹਾ ਕਿਉਂ ਕਰਦੇ ਹੋ।"
+
+#: static/js/src/cats.js:72
+msgid "Preview image (typically, a screenshot)"
+msgstr "ਚਿੱਤਰ ਦੀ ਝਲਕ (ਆਮ ਤੌਰ 'ਤੇ, ਇੱਕ ਸਕ੍ਰੀਨਸ਼ਾਟ)"
+
+#: static/js/src/cats.js:73 static/js/src/cats.js:77
+msgid ""
+"Give a short (1-3 sentence) summary of the resource; ideally, this should be"
+" concise, but give enough detail to let students know whether this resources"
+" is useful to them"
+msgstr ""
+"ਸਰੋਤ ਦਾ ਇੱਕ ਛੋਟਾ (1-3 ਵਾਕ) ਸਾਰ ਦਿਓ; ਆਦਰਸ਼ਕ ਤੌਰ 'ਤੇ, ਇਹ ਸੰਖੇਪ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ,"
+" ਪਰ ਵਿਦਿਆਰਥੀਆਂ ਨੂੰ ਇਹ ਦੱਸਣ ਲਈ ਕਾਫ਼ੀ ਵੇਰਵਾ ਦਿਓ ਕਿ ਕੀ ਇਹ ਸਰੋਤ ਉਨ੍ਹਾਂ ਲਈ "
+"ਲਾਭਦਾਇਕ ਹੈ।"
+
+#: static/js/src/cats.js:74 static/js/src/cats.js:78
+msgid "Cut-and-paste the URL of the resource."
+msgstr "ਸਰੋਤ ਦੇ URL ਨੂੰ ਕੱਟੋ ਅਤੇ ਪੇਸਟ ਕਰੋ।"
+
+#: static/js/src/cats.js:75 static/js/src/cats.js:79
+msgid ""
+"Give a paragraph of summary of the resource; the summary should be more "
+"detailed than you gave in Title"
+msgstr ""
+"ਸਰੋਤ ਦੇ ਸੰਖੇਪ ਦਾ ਇੱਕ ਪੈਰਾ ਦਿਓ; ਸੰਖੇਪ ਤੁਹਾਡੇ ਦੁਆਰਾ ਸਿਰਲੇਖ ਵਿੱਚ ਦਿੱਤੇ ਗਏ ਨਾਲੋਂ"
+" ਵਧੇਰੇ ਵਿਸਤ੍ਰਿਤ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ।"
+
+#: static/js/src/cats.js:76 static/js/src/cats.js:80
+msgid ""
+"Upload a preview screenshot (in GIF/PNG/JPG) of the resource; ideally, this "
+"should let students know whether this resources is useful to them"
+msgstr ""
+"ਸਰੋਤ ਦਾ ਇੱਕ ਪ੍ਰੀਵਿਊ ਸਕ੍ਰੀਨਸ਼ਾਟ (GIF/PNG/JPG ਵਿੱਚ) ਅਪਲੋਡ ਕਰੋ; ਆਦਰਸ਼ਕ ਤੌਰ 'ਤੇ,"
+" ਇਸ ਨਾਲ ਵਿਦਿਆਰਥੀਆਂ ਨੂੰ ਪਤਾ ਲੱਗਣਾ ਚਾਹੀਦਾ ਹੈ ਕਿ ਕੀ ਇਹ ਸਰੋਤ ਉਨ੍ਹਾਂ ਲਈ ਲਾਭਦਾਇਕ "
+"ਹਨ।"
+
+#: static/js/src/cats.js:81
+msgid "Go back to the main list"
+msgstr "ਮੁੱਖ ਸੂਚੀ 'ਤੇ ਵਾਪਸ ਜਾਓ।"
+
+#: static/js/src/cats.js:82
+msgid "Give a meaningful reason for why this resource should be removed"
+msgstr "ਇਸ ਸਰੋਤ ਨੂੰ ਕਿਉਂ ਹਟਾਇਆ ਜਾਣਾ ਚਾਹੀਦਾ ਹੈ, ਇਸਦਾ ਇੱਕ ਸਾਰਥਕ ਕਾਰਨ ਦੱਸੋ।"
+
+#: static/js/src/cats.js:83
+msgid "Flag this resource as problematic and give your reason"
+msgstr "ਇਸ ਸਰੋਤ ਨੂੰ ਸਮੱਸਿਆ ਵਾਲੇ ਵਜੋਂ ਨਿਸ਼ਾਨਬੱਧ ਕਰੋ ਅਤੇ ਆਪਣਾ ਕਾਰਨ ਦੱਸੋ।"
+
+#: static/js/src/cats.js:84
+msgid "Delete this resource"
+msgstr "ਇਸ ਸਰੋਤ ਨੂੰ ਮਿਟਾਓ"
+
+#: static/js/src/cats.js:85
+msgid "Show a list of student-recommented related resources"
+msgstr "ਵਿਦਿਆਰਥੀ-ਸਿਫ਼ਾਰਸ਼ ਕੀਤੇ ਸੰਬੰਧਿਤ ਸਰੋਤਾਂ ਦੀ ਇੱਕ ਸੂਚੀ ਦਿਖਾਓ"
+
+#: static/js/src/cats.js:86
+msgid "Hide the recommendations list"
+msgstr "ਸਿਫ਼ਾਰਸ਼ਾਂ ਦੀ ਸੂਚੀ ਲੁਕਾਓ"
+
+#: static/js/src/cats.js:87
+msgid "Check the icon to endorse this resource"
+msgstr "ਇਸ ਸਰੋਤ ਦੀ ਪੁਸ਼ਟੀ ਕਰਨ ਲਈ ਆਈਕਨ 'ਤੇ ਨਿਸ਼ਾਨ ਲਗਾਓ।"
+
+#: static/js/src/cats.js:88
+msgid "This resource is endorsed by staff"
+msgstr "ਇਸ ਸਰੋਤ ਨੂੰ ਸਟਾਫ਼ ਦੁਆਰਾ ਸਮਰਥਨ ਦਿੱਤਾ ਜਾਂਦਾ ਹੈ।"
+
+#: static/js/src/cats.js:89
+msgid "Click to view resources for removal"
+msgstr "ਹਟਾਉਣ ਲਈ ਸਰੋਤ ਦੇਖਣ ਲਈ ਕਲਿੱਕ ਕਰੋ"
+
+#: static/js/src/cats.js:90
+msgid "Click to view resources in ordinary decreasing-vote order"
+msgstr "ਆਮ ਘਟਦੇ ਵੋਟ ਕ੍ਰਮ ਵਿੱਚ ਸਰੋਤਾਂ ਨੂੰ ਦੇਖਣ ਲਈ ਕਲਿੱਕ ਕਰੋ"
+
+#: static/js/src/cats.js:93
+msgid ""
+"Here is a list of reasons why students think this resource problematic:"
+msgstr ""
+"ਇੱਥੇ ਉਹਨਾਂ ਕਾਰਨਾਂ ਦੀ ਸੂਚੀ ਦਿੱਤੀ ਗਈ ਹੈ ਕਿ ਵਿਦਿਆਰਥੀ ਇਸ ਸਰੋਤ ਨੂੰ ਸਮੱਸਿਆ ਵਾਲਾ "
+"ਕਿਉਂ ਸਮਝਦੇ ਹਨ:"
+
+#: static/js/src/cats.js:94
+msgid "The reason why it is endorsed is:"
+msgstr "ਇਸਦਾ ਸਮਰਥਨ ਕਰਨ ਦਾ ਕਾਰਨ ਇਹ ਹੈ:"
+
+#: static/js/src/cats.js:95
+msgid "Resource: "
+msgstr "ਸਰੋਤ:"
+
+#: static/js/src/cats.js:96
+msgid "votes"
+msgstr "ਵੋਟਾਂ"
+
+#: static/js/src/cats.js:104
+msgid ""
+"The content you typed has not been submitted yet. Are you sure to go back?"
+msgstr ""
+"ਤੁਹਾਡੇ ਦੁਆਰਾ ਟਾਈਪ ਕੀਤੀ ਸਮੱਗਰੀ ਅਜੇ ਤੱਕ ਸਪੁਰਦ ਨਹੀਂ ਕੀਤੀ ਗਈ ਹੈ। ਕੀ ਤੁਸੀਂ ਵਾਪਸ "
+"ਜਾਣਾ ਚਾਹੁੰਦੇ ਹੋ?"
+
+#: static/js/src/cats.js:107 static/js/src/cats.js:199
+msgid "Import resources"
+msgstr "ਸਰੋਤ ਆਯਾਤ ਕਰੋ"
+
+#: static/js/src/cats.js:108
+msgid "Suggest resource"
+msgstr "ਸਰੋਤ ਸੁਝਾਓ"
+
+#: static/js/src/cats.js:109 static/js/src/cats.js:207
+msgid "Edit existing resource"
+msgstr "ਮੌਜੂਦਾ ਸਰੋਤ ਸੋਧੋ"
+
+#: static/js/src/cats.js:110
+msgid "Flag Resource"
+msgstr "ਫਲੈਗ ਸਰੋਤ"
+
+#: static/js/src/cats.js:111
+msgid "Endorse Resource"
+msgstr "ਸਰੋਤ ਦਾ ਸਮਰਥਨ ਕਰੋ"
+
+#: static/js/src/cats.js:112
+msgid "Remove Resource"
+msgstr "ਸਰੋਤ ਹਟਾਓ"
+
+#: static/js/src/cats.js:116
+msgid "Upload resources in JSON format to the database."
+msgstr "ਡੇਟਾਬੇਸ ਵਿੱਚ JSON ਫਾਰਮੈਟ ਵਿੱਚ ਸਰੋਤ ਅੱਪਲੋਡ ਕਰੋ।"
+
+#: static/js/src/cats.js:117
+msgid ""
+"Suggest a resource which can help other students with this problem. Please "
+"do not give the answer directly."
+msgstr ""
+"ਇੱਕ ਅਜਿਹਾ ਸਰੋਤ ਸੁਝਾਓ ਜੋ ਇਸ ਸਮੱਸਿਆ ਵਿੱਚ ਦੂਜੇ ਵਿਦਿਆਰਥੀਆਂ ਦੀ ਮਦਦ ਕਰ ਸਕੇ। ਕਿਰਪਾ "
+"ਕਰਕੇ ਸਿੱਧਾ ਜਵਾਬ ਨਾ ਦਿਓ।"
+
+#: static/js/src/cats.js:118
+msgid ""
+"Edit the resource and make it more helpful for other students with this "
+"problem. Please do not give the answer directly."
+msgstr ""
+"ਸਰੋਤ ਨੂੰ ਸੰਪਾਦਿਤ ਕਰੋ ਅਤੇ ਇਸ ਸਮੱਸਿਆ ਵਾਲੇ ਹੋਰ ਵਿਦਿਆਰਥੀਆਂ ਲਈ ਇਸਨੂੰ ਹੋਰ ਮਦਦਗਾਰ "
+"ਬਣਾਓ। ਕਿਰਪਾ ਕਰਕੇ ਸਿੱਧਾ ਜਵਾਬ ਨਾ ਦਿਓ।"
+
+#: static/js/src/cats.js:119
+msgid ""
+"Why would you like to flag this resource? The staff will review all flagged "
+"resources, and remove inappropriate ones (spam, incorrect, abusive, etc.). "
+"Giving a clear reason will help us do this efficiently."
+msgstr ""
+"ਤੁਸੀਂ ਇਸ ਸਰੋਤ ਨੂੰ ਕਿਉਂ ਫਲੈਗ ਕਰਨਾ ਚਾਹੋਗੇ? ਸਟਾਫ ਸਾਰੇ ਫਲੈਗ ਕੀਤੇ ਸਰੋਤਾਂ ਦੀ "
+"ਸਮੀਖਿਆ ਕਰੇਗਾ, ਅਤੇ ਅਣਉਚਿਤ ਸਰੋਤਾਂ (ਸਪੈਮ, ਗਲਤ, ਦੁਰਵਿਵਹਾਰ, ਆਦਿ) ਨੂੰ ਹਟਾ ਦੇਵੇਗਾ। "
+"ਇੱਕ ਸਪੱਸ਼ਟ ਕਾਰਨ ਦੇਣ ਨਾਲ ਸਾਨੂੰ ਇਹ ਕੁਸ਼ਲਤਾ ਨਾਲ ਕਰਨ ਵਿੱਚ ਮਦਦ ਮਿਲੇਗੀ।"
+
+#: static/js/src/cats.js:120
+msgid "Endorse this resource and give the reason why you do that."
+msgstr ""
+"ਇਸ ਸਰੋਤ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ ਅਤੇ ਇਸ ਦਾ ਕਾਰਨ ਦੱਸੋ ਕਿ ਤੁਸੀਂ ਅਜਿਹਾ ਕਿਉਂ ਕਰਦੇ ਹੋ।"
+
+#: static/js/src/cats.js:121
+msgid "Remove this resource and give the reason why you do that."
+msgstr "ਇਸ ਸਰੋਤ ਨੂੰ ਹਟਾਓ ਅਤੇ ਕਾਰਨ ਦੱਸੋ ਕਿ ਤੁਸੀਂ ਅਜਿਹਾ ਕਿਉਂ ਕਰਦੇ ਹੋ।"
+
+#: static/js/src/cats.js:157
+msgid "Hide related resources"
+msgstr "ਸੰਬੰਧਿਤ ਸਰੋਤ ਲੁਕਾਓ"
+
+#: static/js/src/cats.js:191
+msgid "From page {fromPage} To page {toPage}"
+msgstr "ਪੰਨੇ {fromPage} ਤੋਂ ਪੰਨੇ {toPage} ਤੱਕ"
+
+#: static/js/src/cats.js:196
+msgid "Export resources"
+msgstr "ਸਰੋਤ ਨਿਰਯਾਤ ਕਰੋ"
+
+#: static/js/src/cats.js:198
+msgid "Entering import resource mode"
+msgstr "ਆਯਾਤ ਸਰੋਤ ਮੋਡ ਵਿੱਚ ਦਾਖਲ ਹੋ ਰਿਹਾ ਹੈ"
+
+#: static/js/src/cats.js:202
+msgid "Entering add resource mode"
+msgstr "ਸਰੋਤ ਜੋੜੋ ਮੋਡ ਵਿੱਚ ਦਾਖਲ ਹੋ ਰਿਹਾ ਹੈ"
+
+#: static/js/src/cats.js:203
+msgid "Add new resource"
+msgstr "ਨਵਾਂ ਸਰੋਤ ਸ਼ਾਮਲ ਕਰੋ"
+
+#: static/js/src/cats.js:206
+msgid "Entering edit resource mode"
+msgstr "ਸੰਪਾਦਨ ਸਰੋਤ ਮੋਡ ਵਿੱਚ ਦਾਖਲ ਹੋ ਰਿਹਾ ਹੈ"
+
+#: static/js/src/cats.js:210
+msgid "Entering flag resource mode"
+msgstr "ਫਲੈਗ ਸਰੋਤ ਮੋਡ ਵਿੱਚ ਦਾਖਲ ਹੋ ਰਿਹਾ ਹੈ"
+
+#: static/js/src/cats.js:211
+msgid "Flag resource"
+msgstr "ਸਰੋਤ ਨੂੰ ਫਲੈਗ ਕਰੋ"
+
+#: static/js/src/cats.js:212
+msgid "Unflag resource"
+msgstr "ਸਰੋਤ ਨੂੰ ਅਣਫਲੈਗ ਕਰੋ"
+
+#: static/js/src/cats.js:215
+msgid "Endorse resource"
+msgstr "ਸਰੋਤ ਦਾ ਸਮਰਥਨ ਕਰੋ"
+
+#: static/js/src/cats.js:216
+msgid "Unendorse resource"
+msgstr "ਸਰੋਤ ਨੂੰ ਅਸਵੀਕਾਰ ਕਰੋ"
+
+#: static/js/src/cats.js:218
+msgid "Remove resource"
+msgstr "ਸਰੋਤ ਹਟਾਓ"
+
+#: static/js/src/cats.js:219
+msgid "Hovering resource"
+msgstr "ਹੋਵਰਿੰਗ ਸਰੋਤ"
+
+#: static/js/src/cats.js:220
+msgid "A resource was clicked"
+msgstr "ਇੱਕ ਸਰੋਤ 'ਤੇ ਕਲਿੱਕ ਕੀਤਾ ਗਿਆ ਸੀ"
+
+#: static/js/src/cats.js:221
+msgid "Back to resource list mode"
+msgstr "ਸਰੋਤ ਸੂਚੀ ਮੋਡ 'ਤੇ ਵਾਪਸ ਜਾਓ"

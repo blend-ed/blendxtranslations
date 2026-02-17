@@ -1,0 +1,90 @@
+# edX translation file.
+# Copyright (C) 2025 EdX
+# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+# EdX Team <info@edx.org>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1a\n"
+"Report-Msgid-Bugs-To: Blend-ed Language Team <dev@blend-ed.com>\n"
+"POT-Creation-Date: 2023-06-13 08:00+0000\n"
+"PO-Revision-Date: 2023-06-13 09:00+0000\n"
+"Last-Translator: Zameel Hassan <zameel@blend-ed.com>\n"
+"Language-Team: Blend-ed Language Team <dev@blend-ed.com>\n"
+"Language: pa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: image_explorer.py:59
+msgid "Display Name"
+msgstr "ਦਿਖਾਇਆ ਹੋਇਆ ਨਾਮ"
+
+#: image_explorer.py:60
+msgid "This name appears in the horizontal navigation at the top of the page."
+msgstr "ਇਹ ਨਾਮ ਪੰਨੇ ਦੇ ਸਿਖਰ 'ਤੇ ਖਿਤਿਜੀ ਨੈਵੀਗੇਸ਼ਨ ਵਿੱਚ ਦਿਖਾਈ ਦਿੰਦਾ ਹੈ।"
+
+#: image_explorer.py:62
+msgid "Image Explorer"
+msgstr "ਚਿੱਤਰ ਐਕਸਪਲੋਰਰ"
+
+#: image_explorer.py:66
+msgid "Hot Spots Coordinates Centered"
+msgstr "ਗਰਮ ਸਥਾਨ ਕੋਆਰਡੀਨੇਟ ਕੇਂਦਰਿਤ"
+
+#: image_explorer.py:72
+msgid "Store hotspots opened by student, for completion"
+msgstr "ਵਿਦਿਆਰਥੀ ਦੁਆਰਾ ਖੋਲ੍ਹੇ ਗਏ ਸਟੋਰ ਹੌਟਸਪੌਟ, ਪੂਰਤੀ ਲਈ"
+
+#: image_explorer.py:77
+msgid "XML contents to display for this module"
+msgstr "ਇਸ ਮੋਡੀਊਲ ਲਈ ਪ੍ਰਦਰਸ਼ਿਤ ਕਰਨ ਲਈ XML ਸਮੱਗਰੀ"
+
+#: image_explorer.py:230
+msgid "Missing event_type in JSON data"
+msgstr "JSON ਡੇਟਾ ਵਿੱਚ event_type ਗੁੰਮ ਹੈ"
+
+#: templates/html/image_explorer_edit.html:8
+msgid "Title"
+msgstr "ਟਾਈਟਲ"
+
+#: templates/html/image_explorer_edit.html:11
+msgid "The title of the Image Explorer that is displayed to the user"
+msgstr "ਚਿੱਤਰ ਐਕਸਪਲੋਰਰ ਦਾ ਸਿਰਲੇਖ ਜੋ ਉਪਭੋਗਤਾ ਨੂੰ ਪ੍ਰਦਰਸ਼ਿਤ ਕੀਤਾ ਜਾਂਦਾ ਹੈ"
+
+#: templates/html/image_explorer_edit.html:17
+msgid "Hotspot coordinates centered"
+msgstr "ਹੌਟਸਪੌਟ ਕੋਆਰਡੀਨੇਟਸ ਕੇਂਦਰਿਤ"
+
+#: templates/html/image_explorer_edit.html:19
+msgid ""
+"If set to true, hotspot coordinates interpreted to point to the center of "
+"the hotspot"
+msgstr ""
+"ਜੇਕਰ ਸਹੀ 'ਤੇ ਸੈੱਟ ਕੀਤਾ ਜਾਂਦਾ ਹੈ, ਤਾਂ ਹੌਟਸਪੌਟ ਕੋਆਰਡੀਨੇਟਸ ਨੂੰ ਹੌਟਸਪੌਟ ਦੇ ਕੇਂਦਰ"
+" ਵੱਲ ਇਸ਼ਾਰਾ ਕਰਨ ਲਈ ਸਮਝਿਆ ਜਾਂਦਾ ਹੈ।"
+
+#: templates/html/image_explorer_edit.html:19
+msgid ""
+"If set to false, assumed to point to the top left corner of the hotspot "
+"image"
+msgstr ""
+"ਜੇਕਰ ਗਲਤ 'ਤੇ ਸੈੱਟ ਕੀਤਾ ਜਾਂਦਾ ਹੈ, ਤਾਂ ਮੰਨਿਆ ਜਾਂਦਾ ਹੈ ਕਿ ਇਹ ਹੌਟਸਪੌਟ ਚਿੱਤਰ ਦੇ "
+"ਉੱਪਰਲੇ ਖੱਬੇ ਕੋਨੇ ਵੱਲ ਇਸ਼ਾਰਾ ਕਰਦਾ ਹੈ।"
+
+#: templates/html/image_explorer_edit.html:24
+msgid "Definition"
+msgstr "ਪਰਿਭਾਸ਼ਾ"
+
+#: templates/html/image_explorer_edit.html:25
+msgid "The XML definition for the Image Explorer"
+msgstr "ਚਿੱਤਰ ਐਕਸਪਲੋਰਰ ਲਈ XML ਪਰਿਭਾਸ਼ਾ"
+
+#: templates/html/image_explorer_edit.html:36
+msgid "Save"
+msgstr "ਸੇਵ ਕਰੋ"
+
+#: templates/html/image_explorer_edit.html:40
+msgid "Cancel"
+msgstr "ਰੱਦ ਕਰੋ"

@@ -1,0 +1,118 @@
+# edX translation file.
+# Copyright (C) 2024 EdX
+# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+# EdX Team <info@edx.org>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1a\n"
+"Report-Msgid-Bugs-To: Blend-ed Language Team <dev@blend-ed.com>\n"
+"POT-Creation-Date: 2025-10-30 00:53+0000\n"
+"PO-Revision-Date: 2023-06-13 09:00+0000\n"
+"Last-Translator: Zameel Hassan <zameel@blend-ed.com>\n"
+"Language-Team: Blend-ed Language Team <dev@blend-ed.com>\n"
+"Language: pa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: extensions/filters.py:58
+msgid "Reports"
+msgstr "ਰਿਪੋਰਟਾਂ"
+
+#: settings/common.py:31
+msgid "Course Dashboard"
+msgstr "ਕੋਰਸ ਡੈਸ਼ਬੋਰਡ"
+
+#: settings/common.py:37
+msgid "Individual Learner Dashboard"
+msgstr "ਵਿਅਕਤੀਗਤ ਸਿੱਖਣ ਵਾਲਾ ਡੈਸ਼ਬੋਰਡ"
+
+#: settings/common.py:43
+msgid "At-Risk Learners Dashboard"
+msgstr "ਜੋਖਮ 'ਤੇ ਸਿੱਖਣ ਵਾਲੇ ਡੈਸ਼ਬੋਰਡ"
+
+#: settings/common.py:114
+msgid "Course"
+msgstr "ਕੋਰਸ"
+
+#: settings/common.py:122
+msgid "Graded Subsection"
+msgstr "ਗ੍ਰੇਡ ਕੀਤਾ ਗਿਆ ਉਪਭਾਗ"
+
+#: settings/common.py:130
+msgid "Problem"
+msgstr "ਸਮੱਸਿਆ"
+
+#: settings/common.py:138
+msgid "Video"
+msgstr "ਵੀਡੀਓ"
+
+#: static/html/superset.html:9
+msgid ""
+"Superset is not configured properly. Please contact your system "
+"administrator."
+msgstr ""
+"ਸੁਪਰਸੈੱਟ ਸਹੀ ਢੰਗ ਨਾਲ ਸੰਰਚਿਤ ਨਹੀਂ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਆਪਣੇ ਸਿਸਟਮ ਪ੍ਰਸ਼ਾਸਕ ਨਾਲ "
+"ਸੰਪਰਕ ਕਰੋ।"
+
+#: static/html/superset_student.html:4
+msgid ""
+"Superset is only visible to course staff and instructors. Please contact "
+"your system administrator."
+msgstr ""
+"ਸੁਪਰਸੈੱਟ ਸਿਰਫ਼ ਕੋਰਸ ਸਟਾਫ਼ ਅਤੇ ਇੰਸਟ੍ਰਕਟਰਾਂ ਨੂੰ ਹੀ ਦਿਖਾਈ ਦਿੰਦਾ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ "
+"ਆਪਣੇ ਸਿਸਟਮ ਪ੍ਰਸ਼ਾਸਕ ਨਾਲ ਸੰਪਰਕ ਕਰੋ।"
+
+#: views.py:87
+#, python-brace-format
+msgid "Course not found: '{course_id}'"
+msgstr "ਕੋਰਸ ਨਹੀਂ ਮਿਲਿਆ: '{course_id}'"
+
+#: views.py:114
+#, python-brace-format
+msgid "Invalid course id: '{course_id}'"
+msgstr "ਅਵੈਧ ਕੋਰਸ ਆਈਡੀ: '{course_id}'"
+
+#: views.py:179
+#, python-brace-format
+msgid "Invalid usage id: '{usage_id}'"
+msgstr "ਅਵੈਧ ਵਰਤੋਂ ਆਈਡੀ: '{usage_id}'"
+
+#: views.py:208
+#, python-brace-format
+msgid "No dashboard for block type: '{block_type}'"
+msgstr "ਬਲਾਕ ਕਿਸਮ ਲਈ ਕੋਈ ਡੈਸ਼ਬੋਰਡ ਨਹੀਂ: '{block_type}'"
+
+#: xblock.py:48 xblock.py:49
+msgid "Display name"
+msgstr "ਦਿਖਾਇਆ ਹੋਇਆ ਨਾਮ"
+
+#: xblock.py:50
+msgid "Superset Dashboard"
+msgstr "ਸੁਪਰਸੈੱਟ ਡੈਸ਼ਬੋਰਡ"
+
+#: xblock.py:55
+msgid "Dashboard UUID"
+msgstr "ਡੈਸ਼ਬੋਰਡ UUID"
+
+#: xblock.py:57
+msgid ""
+"The ID of the dashboard to embed. Available in the Superset embed dashboard "
+"UI."
+msgstr "ਏਮਬੈਡ ਕਰਨ ਲਈ ਡੈਸ਼ਬੋਰਡ ਦੀ ਆਈਡੀ। ਸੁਪਰਸੈੱਟ ਏਮਬੈਡ ਡੈਸ਼ਬੋਰਡ UI ਵਿੱਚ ਉਪਲਬਧ।"
+
+#: xblock.py:64
+msgid "Filters"
+msgstr "ਫਿਲਟਰ"
+
+#: xblock.py:66
+msgid ""
+"List of SQL filters to apply to the\n"
+"               dashboard. E.g: [\"org='edX'\", \"country in ('us', 'co')\"]\n"
+"               The fields used here must be available on every dataset used by the dashboard.\n"
+"               "
+msgstr ""
+"ਡੈਸ਼ਬੋਰਡ 'ਤੇ ਲਾਗੂ ਕਰਨ ਲਈ SQL ਫਿਲਟਰਾਂ ਦੀ ਸੂਚੀ। ਉਦਾਹਰਨ ਲਈ: [\"org='edX'\", \"country in ('us', 'co')\"]\n"
+"ਇੱਥੇ ਵਰਤੇ ਗਏ ਖੇਤਰ ਡੈਸ਼ਬੋਰਡ ਦੁਆਰਾ ਵਰਤੇ ਗਏ ਹਰੇਕ ਡੇਟਾਸੈੱਟ 'ਤੇ ਉਪਲਬਧ ਹੋਣੇ ਚਾਹੀਦੇ ਹਨ।"

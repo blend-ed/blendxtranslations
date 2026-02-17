@@ -1,0 +1,795 @@
+# edX translation file.
+# Copyright (C) 2025 EdX
+# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+# EdX Team <info@edx.org>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1a\n"
+"Report-Msgid-Bugs-To: Blend-ed Language Team <dev@blend-ed.com>\n"
+"POT-Creation-Date: 2023-06-13 08:00+0000\n"
+"PO-Revision-Date: 2023-06-13 09:00+0000\n"
+"Last-Translator: Zameel Hassan <zameel@blend-ed.com>\n"
+"Language-Team: Blend-ed Language Team <dev@blend-ed.com>\n"
+"Language: pa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: default_data.py:5
+msgid ""
+"An isosceles triangle with three layers of similar height. It is shown "
+"upright, so the widest layer is located at the bottom, and the narrowest "
+"layer is located at the top."
+msgstr ""
+"ਇੱਕ ਸਮਦੁਬਾਰਾ ਤਿਕੋਣ ਜਿਸਦੀ ਉਚਾਈ ਇੱਕੋ ਜਿਹੀ ਹੈ। ਇਹ ਸਿੱਧਾ ਦਿਖਾਇਆ ਗਿਆ ਹੈ, ਇਸ ਲਈ ਸਭ"
+" ਤੋਂ ਚੌੜੀ ਪਰਤ ਹੇਠਾਂ ਸਥਿਤ ਹੈ, ਅਤੇ ਸਭ ਤੋਂ ਤੰਗ ਪਰਤ ਸਿਖਰ 'ਤੇ ਸਥਿਤ ਹੈ।"
+
+#: default_data.py:14
+msgid "The Top Zone"
+msgstr "ਦ ਟਾਪ ਜ਼ੋਨ"
+
+#: default_data.py:15
+msgid "The Middle Zone"
+msgstr "ਮੱਧ ਜ਼ੋਨ"
+
+#: default_data.py:16
+msgid "The Bottom Zone"
+msgstr "ਦ ਬੌਟਮ ਜ਼ੋਨ"
+
+#: default_data.py:18
+msgid "Use this zone to associate an item with the top layer of the triangle."
+msgstr "ਕਿਸੇ ਵਸਤੂ ਨੂੰ ਤਿਕੋਣ ਦੀ ਉੱਪਰਲੀ ਪਰਤ ਨਾਲ ਜੋੜਨ ਲਈ ਇਸ ਜ਼ੋਨ ਦੀ ਵਰਤੋਂ ਕਰੋ।"
+
+#: default_data.py:19
+msgid ""
+"Use this zone to associate an item with the middle layer of the triangle."
+msgstr "ਕਿਸੇ ਵਸਤੂ ਨੂੰ ਤਿਕੋਣ ਦੀ ਵਿਚਕਾਰਲੀ ਪਰਤ ਨਾਲ ਜੋੜਨ ਲਈ ਇਸ ਜ਼ੋਨ ਦੀ ਵਰਤੋਂ ਕਰੋ।"
+
+#: default_data.py:20
+msgid ""
+"Use this zone to associate an item with the bottom layer of the triangle."
+msgstr "ਕਿਸੇ ਵਸਤੂ ਨੂੰ ਤਿਕੋਣ ਦੀ ਹੇਠਲੀ ਪਰਤ ਨਾਲ ਜੋੜਨ ਲਈ ਇਸ ਜ਼ੋਨ ਦੀ ਵਰਤੋਂ ਕਰੋ।"
+
+#: default_data.py:22
+msgid "Correct! This one belongs to The Top Zone."
+msgstr "ਸਹੀ! ਇਹ ਟਾਪ ਜ਼ੋਨ ਨਾਲ ਸਬੰਧਤ ਹੈ।"
+
+#: default_data.py:23
+msgid "Correct! This one belongs to The Middle Zone."
+msgstr "ਸਹੀ! ਇਹ ਮਿਡਲ ਜ਼ੋਨ ਨਾਲ ਸਬੰਧਤ ਹੈ।"
+
+#: default_data.py:24
+msgid "Correct! This one belongs to The Bottom Zone."
+msgstr "ਸਹੀ! ਇਹ ਦ ਬੌਟਮ ਜ਼ੋਨ ਨਾਲ ਸਬੰਧਤ ਹੈ।"
+
+#: default_data.py:25
+msgid "No, this item does not belong here. Try again."
+msgstr "ਨਹੀਂ, ਇਹ ਆਈਟਮ ਇੱਥੇ ਨਹੀਂ ਹੈ। ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।"
+
+#: default_data.py:26
+msgid "You silly, there are no zones for this one."
+msgstr "ਮੂਰਖ, ਇਸ ਲਈ ਕੋਈ ਜ਼ੋਨ ਨਹੀਂ ਹਨ।"
+
+#: default_data.py:27
+msgid "Of course it goes here! It goes anywhere!"
+msgstr "ਬੇਸ਼ੱਕ ਇਹ ਇੱਥੇ ਜਾਂਦਾ ਹੈ! ਇਹ ਕਿਤੇ ਵੀ ਜਾਂਦਾ ਹੈ!"
+
+#: default_data.py:29
+msgid "Goes to the top"
+msgstr "ਸਿਖਰ 'ਤੇ ਜਾਂਦਾ ਹੈ"
+
+#: default_data.py:30
+msgid "Goes to the middle"
+msgstr "ਵਿਚਕਾਰ ਜਾਂਦਾ ਹੈ।"
+
+#: default_data.py:31
+msgid "Goes to the bottom"
+msgstr "ਹੇਠਾਂ ਵੱਲ ਜਾਂਦਾ ਹੈ।"
+
+#: default_data.py:32
+msgid "Goes anywhere"
+msgstr "ਕਿਤੇ ਵੀ ਜਾਂਦਾ ਹੈ"
+
+#: default_data.py:33
+msgid "I don't belong anywhere"
+msgstr "ਮੈਂ ਕਿਤੇ ਵੀ ਨਹੀਂ ਹਾਂ।"
+
+#: default_data.py:35
+msgid "Drag the items onto the image above."
+msgstr "ਉੱਪਰ ਦਿੱਤੀ ਤਸਵੀਰ 'ਤੇ ਆਈਟਮਾਂ ਨੂੰ ਘਸੀਟੋ।"
+
+#: default_data.py:36
+msgid "Good work! You have completed this drag and drop problem."
+msgstr "ਬਹੁਤ ਵਧੀਆ! ਤੁਸੀਂ ਇਸ ਡਰੈਗ ਐਂਡ ਡ੍ਰੌਪ ਸਮੱਸਿਆ ਨੂੰ ਪੂਰਾ ਕਰ ਲਿਆ ਹੈ।"
+
+#: drag_and_drop_v2.py:83
+msgid "Title"
+msgstr "ਟਾਈਟਲ"
+
+#: drag_and_drop_v2.py:84
+msgid ""
+"The title of the drag and drop problem. The title is displayed to learners."
+msgstr ""
+"ਡਰੈਗ ਐਂਡ ਡ੍ਰੌਪ ਸਮੱਸਿਆ ਦਾ ਸਿਰਲੇਖ। ਇਹ ਸਿਰਲੇਖ ਸਿਖਿਆਰਥੀਆਂ ਨੂੰ ਦਿਖਾਇਆ ਜਾਂਦਾ ਹੈ।"
+
+#: drag_and_drop_v2.py:86
+msgid "Drag and Drop"
+msgstr "ਘਸੀਟੋ ਅਤੇ ਛੱਡੋ"
+
+#: drag_and_drop_v2.py:91
+msgid "Mode"
+msgstr "ਮੋਡ"
+
+#: drag_and_drop_v2.py:93
+msgid ""
+"Standard mode: the problem provides immediate feedback each time a learner "
+"drops an item on a target zone. Assessment mode: the problem provides "
+"feedback only after a learner drops all available items on target zones."
+msgstr ""
+"ਸਟੈਂਡਰਡ ਮੋਡ: ਸਮੱਸਿਆ ਹਰ ਵਾਰ ਜਦੋਂ ਕੋਈ ਸਿਖਿਆਰਥੀ ਟਾਰਗੇਟ ਜ਼ੋਨ 'ਤੇ ਕੋਈ ਚੀਜ਼ ਸੁੱਟਦਾ"
+" ਹੈ ਤਾਂ ਤੁਰੰਤ ਫੀਡਬੈਕ ਪ੍ਰਦਾਨ ਕਰਦੀ ਹੈ। ਮੁਲਾਂਕਣ ਮੋਡ: ਸਮੱਸਿਆ ਉਦੋਂ ਹੀ ਫੀਡਬੈਕ "
+"ਪ੍ਰਦਾਨ ਕਰਦੀ ਹੈ ਜਦੋਂ ਕੋਈ ਸਿਖਿਆਰਥੀ ਟਾਰਗੇਟ ਜ਼ੋਨ 'ਤੇ ਸਾਰੀਆਂ ਉਪਲਬਧ ਚੀਜ਼ਾਂ ਸੁੱਟਦਾ "
+"ਹੈ।"
+
+#: drag_and_drop_v2.py:100
+msgid "Standard"
+msgstr "ਮਿਆਰੀ"
+
+#: drag_and_drop_v2.py:101
+msgid "Assessment"
+msgstr "ਮੁਲਾਂਕਣ"
+
+#: drag_and_drop_v2.py:108
+msgid "Maximum attempts"
+msgstr "ਵੱਧ ਤੋਂ ਵੱਧ ਕੋਸ਼ਿਸ਼ਾਂ"
+
+#: drag_and_drop_v2.py:110
+msgid ""
+"Defines the number of times a student can try to answer this problem. If the"
+" value is not set, infinite attempts are allowed."
+msgstr ""
+"ਇਹ ਪਰਿਭਾਸ਼ਿਤ ਕਰਦਾ ਹੈ ਕਿ ਇੱਕ ਵਿਦਿਆਰਥੀ ਇਸ ਸਮੱਸਿਆ ਦਾ ਜਵਾਬ ਦੇਣ ਦੀ ਕਿੰਨੀ ਵਾਰ "
+"ਕੋਸ਼ਿਸ਼ ਕਰ ਸਕਦਾ ਹੈ। ਜੇਕਰ ਮੁੱਲ ਸੈੱਟ ਨਹੀਂ ਹੈ, ਤਾਂ ਅਨੰਤ ਕੋਸ਼ਿਸ਼ਾਂ ਦੀ ਆਗਿਆ ਹੈ।"
+
+#: drag_and_drop_v2.py:119
+msgid "Show title"
+msgstr "ਸਿਰਲੇਖ ਦਿਖਾਓ"
+
+#: drag_and_drop_v2.py:120
+msgid "Display the title to the learner?"
+msgstr "ਸਿਖਿਆਰਥੀ ਨੂੰ ਸਿਰਲੇਖ ਦਿਖਾਓ?"
+
+#: drag_and_drop_v2.py:127
+msgid "Problem text"
+msgstr "ਸਮੱਸਿਆ ਵਾਲਾ ਟੈਕਸਟ"
+
+#: drag_and_drop_v2.py:128
+msgid "The description of the problem or instructions shown to the learner."
+msgstr "ਸਮੱਸਿਆ ਦਾ ਵੇਰਵਾ ਜਾਂ ਸਿਖਿਆਰਥੀ ਨੂੰ ਦਿਖਾਏ ਗਏ ਨਿਰਦੇਸ਼।"
+
+#: drag_and_drop_v2.py:135
+msgid "Show \"Problem\" heading"
+msgstr "\"ਸਮੱਸਿਆ\" ਸਿਰਲੇਖ ਦਿਖਾਓ"
+
+#: drag_and_drop_v2.py:136
+msgid "Display the heading \"Problem\" above the problem text?"
+msgstr "ਸਮੱਸਿਆ ਵਾਲੇ ਟੈਕਸਟ ਦੇ ਉੱਪਰ \"ਸਮੱਸਿਆ\" ਸਿਰਲੇਖ ਪ੍ਰਦਰਸ਼ਿਤ ਕਰਨਾ ਹੈ?"
+
+#: drag_and_drop_v2.py:142
+msgid "Show answer"
+msgstr "ਜਵਾਬ ਦਿਖਾਓ"
+
+#: drag_and_drop_v2.py:143
+msgid ""
+"Defines when to show the answer to the problem. A default value can be set "
+"in Advanced Settings. To revert setting a custom value, choose the 'Default'"
+" option."
+msgstr ""
+"ਇਹ ਪਰਿਭਾਸ਼ਿਤ ਕਰਦਾ ਹੈ ਕਿ ਸਮੱਸਿਆ ਦਾ ਜਵਾਬ ਕਦੋਂ ਦਿਖਾਉਣਾ ਹੈ। ਇੱਕ ਡਿਫੌਲਟ ਮੁੱਲ "
+"ਐਡਵਾਂਸਡ ਸੈਟਿੰਗਾਂ ਵਿੱਚ ਸੈੱਟ ਕੀਤਾ ਜਾ ਸਕਦਾ ਹੈ। ਇੱਕ ਕਸਟਮ ਮੁੱਲ ਸੈੱਟ ਕਰਨ ਨੂੰ ਵਾਪਸ "
+"ਕਰਨ ਲਈ, 'ਡਿਫੌਲਟ' ਵਿਕਲਪ ਚੁਣੋ।"
+
+#: drag_and_drop_v2.py:149
+msgid "Default"
+msgstr "ਡਿਫਾਲਟ"
+
+#: drag_and_drop_v2.py:150
+msgid "Always"
+msgstr "ਹਮੇਸ਼ਾ"
+
+#: drag_and_drop_v2.py:151
+msgid "Answered"
+msgstr "ਜਵਾਬ ਦਿੱਤਾ"
+
+#: drag_and_drop_v2.py:152
+msgid "Attempted or Past Due"
+msgstr "ਕੋਸ਼ਿਸ਼ ਕੀਤੀ ਗਈ ਜਾਂ ਬਕਾਇਆ"
+
+#: drag_and_drop_v2.py:153
+msgid "Closed"
+msgstr "ਬੰਦ"
+
+#: drag_and_drop_v2.py:154
+msgid "Finished"
+msgstr "ਪੂਰਾ ਹੋਇਆ"
+
+#: drag_and_drop_v2.py:155
+msgid "Correct or Past Due"
+msgstr "ਸਹੀ ਜਾਂ ਪੁਰਾਣਾ ਬਕਾਇਆ"
+
+#: drag_and_drop_v2.py:156
+msgid "Past Due"
+msgstr "ਪਿਛਲੀ ਬਕਾਇਆ"
+
+#: drag_and_drop_v2.py:157
+msgid "Never"
+msgstr "ਕਦੇ ਨਹੀਂ"
+
+#: drag_and_drop_v2.py:158
+msgid "After All Attempts"
+msgstr "ਸਾਰੀਆਂ ਕੋਸ਼ਿਸ਼ਾਂ ਤੋਂ ਬਾਅਦ"
+
+#: drag_and_drop_v2.py:159
+msgid "After All Attempts or Correct"
+msgstr "ਸਾਰੀਆਂ ਕੋਸ਼ਿਸ਼ਾਂ ਤੋਂ ਬਾਅਦ ਜਾਂ ਸਹੀ"
+
+#: drag_and_drop_v2.py:160
+msgid "Attempted"
+msgstr "ਕੋਸ਼ਿਸ਼ ਕੀਤੀ"
+
+#: drag_and_drop_v2.py:166
+msgid "Problem Weight"
+msgstr "ਸਮੱਸਿਆ ਵਾਲਾ ਭਾਰ"
+
+#: drag_and_drop_v2.py:167
+msgid "Defines the number of points the problem is worth."
+msgstr "ਸਮੱਸਿਆ ਦੇ ਯੋਗ ਅੰਕਾਂ ਦੀ ਸੰਖਿਆ ਨੂੰ ਪਰਿਭਾਸ਼ਿਤ ਕਰਦਾ ਹੈ।"
+
+#: drag_and_drop_v2.py:174
+msgid "Item background color"
+msgstr "ਆਈਟਮ ਦੀ ਪਿੱਠਭੂਮੀ ਦਾ ਰੰਗ"
+
+#: drag_and_drop_v2.py:175
+msgid ""
+"The background color of draggable items in the problem (example: 'blue' or "
+"'#0000ff')."
+msgstr ""
+"ਸਮੱਸਿਆ ਵਿੱਚ ਘਸੀਟਣਯੋਗ ਆਈਟਮਾਂ ਦਾ ਪਿਛੋਕੜ ਰੰਗ (ਉਦਾਹਰਨ: 'ਨੀਲਾ' ਜਾਂ '#0000ff')।"
+
+#: drag_and_drop_v2.py:182
+msgid "Item text color"
+msgstr "ਆਈਟਮ ਦੇ ਟੈਕਸਟ ਦਾ ਰੰਗ"
+
+#: drag_and_drop_v2.py:183
+msgid "Text color to use for draggable items (example: 'white' or '#ffffff')."
+msgstr "ਘਸੀਟਣਯੋਗ ਆਈਟਮਾਂ ਲਈ ਵਰਤਣ ਲਈ ਟੈਕਸਟ ਰੰਗ (ਉਦਾਹਰਨ: 'ਚਿੱਟਾ' ਜਾਂ '#ffffff')।"
+
+#: drag_and_drop_v2.py:190
+msgid "Maximum items per zone"
+msgstr "ਪ੍ਰਤੀ ਜ਼ੋਨ ਵੱਧ ਤੋਂ ਵੱਧ ਆਈਟਮਾਂ"
+
+#: drag_and_drop_v2.py:191
+msgid ""
+"This setting limits the number of items that can be dropped into a single "
+"zone."
+msgstr ""
+"ਇਹ ਸੈਟਿੰਗ ਉਹਨਾਂ ਆਈਟਮਾਂ ਦੀ ਗਿਣਤੀ ਨੂੰ ਸੀਮਿਤ ਕਰਦੀ ਹੈ ਜਿਨ੍ਹਾਂ ਨੂੰ ਇੱਕ ਸਿੰਗਲ ਜ਼ੋਨ"
+" ਵਿੱਚ ਸੁੱਟਿਆ ਜਾ ਸਕਦਾ ਹੈ।"
+
+#: drag_and_drop_v2.py:198
+msgid "Problem data"
+msgstr "ਸਮੱਸਿਆ ਡੇਟਾ"
+
+#: drag_and_drop_v2.py:200
+msgid ""
+"Information about zones, items, feedback, explanation and background image "
+"for this problem. This information is derived from the input that a course "
+"author provides via the interactive editor when configuring the problem."
+msgstr ""
+"ਇਸ ਸਮੱਸਿਆ ਲਈ ਜ਼ੋਨਾਂ, ਆਈਟਮਾਂ, ਫੀਡਬੈਕ, ਵਿਆਖਿਆ ਅਤੇ ਪਿਛੋਕੜ ਚਿੱਤਰ ਬਾਰੇ ਜਾਣਕਾਰੀ। "
+"ਇਹ ਜਾਣਕਾਰੀ ਉਸ ਇਨਪੁਟ ਤੋਂ ਪ੍ਰਾਪਤ ਕੀਤੀ ਗਈ ਹੈ ਜੋ ਇੱਕ ਕੋਰਸ ਲੇਖਕ ਸਮੱਸਿਆ ਨੂੰ "
+"ਕੌਂਫਿਗਰ ਕਰਦੇ ਸਮੇਂ ਇੰਟਰਐਕਟਿਵ ਐਡੀਟਰ ਰਾਹੀਂ ਪ੍ਰਦਾਨ ਕਰਦਾ ਹੈ।"
+
+#: drag_and_drop_v2.py:210
+msgid ""
+"Information about current positions of items that a learner has dropped on "
+"the target image."
+msgstr ""
+"ਉਹਨਾਂ ਆਈਟਮਾਂ ਦੀਆਂ ਮੌਜੂਦਾ ਸਥਿਤੀਆਂ ਬਾਰੇ ਜਾਣਕਾਰੀ ਜੋ ਇੱਕ ਸਿਖਿਆਰਥੀ ਨੇ ਨਿਸ਼ਾਨਾ "
+"ਚਿੱਤਰ 'ਤੇ ਸੁੱਟੀਆਂ ਹਨ।"
+
+#: drag_and_drop_v2.py:217
+msgid "Number of attempts learner used"
+msgstr "ਸਿਖਿਆਰਥੀ ਦੁਆਰਾ ਵਰਤੇ ਗਏ ਯਤਨਾਂ ਦੀ ਗਿਣਤੀ"
+
+#: drag_and_drop_v2.py:224
+msgid "Indicates whether a learner has completed the problem at least once"
+msgstr ""
+"ਇਹ ਦਰਸਾਉਂਦਾ ਹੈ ਕਿ ਕੀ ਕਿਸੇ ਸਿਖਿਆਰਥੀ ਨੇ ਘੱਟੋ-ਘੱਟ ਇੱਕ ਵਾਰ ਸਮੱਸਿਆ ਪੂਰੀ ਕੀਤੀ ਹੈ।"
+
+#: drag_and_drop_v2.py:231
+msgid ""
+"DEPRECATED. Keeps maximum score achieved by student as a weighted value."
+msgstr ""
+"ਨਾਪਸੰਦ ਕੀਤਾ ਗਿਆ। ਵਿਦਿਆਰਥੀ ਦੁਆਰਾ ਪ੍ਰਾਪਤ ਕੀਤੇ ਵੱਧ ਤੋਂ ਵੱਧ ਅੰਕ ਨੂੰ ਇੱਕ ਭਾਰ ਮੁੱਲ"
+" ਵਜੋਂ ਰੱਖਦਾ ਹੈ।"
+
+#: drag_and_drop_v2.py:237
+msgid ""
+"Keeps maximum score achieved by student as a raw value between 0 and 1."
+msgstr ""
+"ਵਿਦਿਆਰਥੀ ਦੁਆਰਾ ਪ੍ਰਾਪਤ ਕੀਤੇ ਵੱਧ ਤੋਂ ਵੱਧ ਅੰਕ ਨੂੰ 0 ਅਤੇ 1 ਦੇ ਵਿਚਕਾਰ ਇੱਕ ਕੱਚੇ "
+"ਮੁੱਲ ਵਜੋਂ ਰੱਖਦਾ ਹੈ।"
+
+#: drag_and_drop_v2.py:244
+msgid "Maximum score available of the problem as a raw value between 0 and 1."
+msgstr ""
+"ਸਮੱਸਿਆ ਦਾ ਵੱਧ ਤੋਂ ਵੱਧ ਉਪਲਬਧ ਸਕੋਰ 0 ਅਤੇ 1 ਦੇ ਵਿਚਕਾਰ ਇੱਕ ਕੱਚੇ ਮੁੱਲ ਦੇ ਰੂਪ "
+"ਵਿੱਚ।"
+
+#: drag_and_drop_v2.py:568
+#, python-brace-format
+msgid "Unknown DnDv2 mode {mode} - course is misconfigured"
+msgstr "ਅਣਜਾਣ DnDv2 ਮੋਡ {ਮੋਡ} - ਕੋਰਸ ਗਲਤ ਢੰਗ ਨਾਲ ਸੰਰਚਿਤ ਹੈ।"
+
+#: drag_and_drop_v2.py:643
+msgid "show_answer handler should only be called for assessment mode"
+msgstr "show_answer ਹੈਂਡਲਰ ਨੂੰ ਸਿਰਫ਼ ਮੁਲਾਂਕਣ ਮੋਡ ਲਈ ਬੁਲਾਇਆ ਜਾਣਾ ਚਾਹੀਦਾ ਹੈ।"
+
+#: drag_and_drop_v2.py:648
+msgid "The answer is unavailable"
+msgstr "ਜਵਾਬ ਉਪਲਬਧ ਨਹੀਂ ਹੈ।"
+
+#: drag_and_drop_v2.py:789
+msgid "do_attempt handler should only be called for assessment mode"
+msgstr "do_attempt ਹੈਂਡਲਰ ਨੂੰ ਸਿਰਫ਼ ਮੁਲਾਂਕਣ ਮੋਡ ਲਈ ਬੁਲਾਇਆ ਜਾਣਾ ਚਾਹੀਦਾ ਹੈ"
+
+#: drag_and_drop_v2.py:794 drag_and_drop_v2.py:912
+msgid "Max number of attempts reached"
+msgstr "ਕੋਸ਼ਿਸ਼ਾਂ ਦੀ ਵੱਧ ਤੋਂ ਵੱਧ ਗਿਣਤੀ ਪੂਰੀ ਹੋ ਗਈ ਹੈ"
+
+#: drag_and_drop_v2.py:799
+msgid "Submission deadline has passed."
+msgstr "ਜਮ੍ਹਾਂ ਕਰਨ ਦੀ ਆਖਰੀ ਮਿਤੀ ਲੰਘ ਗਈ ਹੈ।"
+
+#: templates/html/drag_and_drop.html:4
+msgid "Loading drag and drop problem."
+msgstr "ਡਰੈਗ ਐਂਡ ਡ੍ਰੌਪ ਲੋਡ ਕਰਨ ਵਿੱਚ ਸਮੱਸਿਆ।"
+
+#: templates/html/drag_and_drop_edit.html:10
+msgid "Basic Settings"
+msgstr "ਮੁੱਢਲੀਆਂ ਸੈਟਿੰਗਾਂ"
+
+#: templates/html/drag_and_drop_edit.html:53
+msgid "(inherited from Advanced Settings)"
+msgstr "(ਐਡਵਾਂਸਡ ਸੈਟਿੰਗਾਂ ਤੋਂ ਪ੍ਰਾਪਤ)"
+
+#: templates/html/drag_and_drop_edit.html:90
+msgid "Introductory feedback"
+msgstr "ਸ਼ੁਰੂਆਤੀ ਫੀਡਬੈਕ"
+
+#: templates/html/drag_and_drop_edit.html:95
+msgid "Final feedback"
+msgstr "ਅੰਤਿਮ ਫੀਡਬੈਕ"
+
+#: templates/html/drag_and_drop_edit.html:100
+msgid "Explanation Text"
+msgstr "ਵਿਆਖਿਆ ਟੈਕਸਟ"
+
+#: templates/html/drag_and_drop_edit.html:109
+msgid "Zones"
+msgstr "ਜ਼ੋਨ"
+
+#: templates/html/drag_and_drop_edit.html:114
+msgid "Background Image"
+msgstr "ਬੈਕਗ੍ਰਾਊਂਡ ਚਿੱਤਰ"
+
+#: templates/html/drag_and_drop_edit.html:117
+msgid "Provide custom image"
+msgstr "ਕਸਟਮ ਚਿੱਤਰ ਪ੍ਰਦਾਨ ਕਰੋ"
+
+#: templates/html/drag_and_drop_edit.html:121
+msgid "Generate image automatically"
+msgstr "ਚਿੱਤਰ ਆਪਣੇ ਆਪ ਤਿਆਰ ਕਰੋ"
+
+#: templates/html/drag_and_drop_edit.html:126
+msgid "Background URL"
+msgstr "ਬੈਕਗ੍ਰਾਊਂਡ URL"
+
+#: templates/html/drag_and_drop_edit.html:133
+msgid "Change background"
+msgstr "ਬੈਕਗ੍ਰਾਊਂਡ ਬਦਲੋ"
+
+#: templates/html/drag_and_drop_edit.html:135
+msgid ""
+"For example, 'http://example.com/background.png' or "
+"'/static/background.png'."
+msgstr ""
+"ਉਦਾਹਰਨ ਲਈ, 'http://example.com/background.png' ਜਾਂ '/static/background.png'।"
+
+#: templates/html/drag_and_drop_edit.html:140
+msgid "Zone Layout"
+msgstr "ਜ਼ੋਨ ਲੇਆਉਟ"
+
+#: templates/html/drag_and_drop_edit.html:142
+msgid "Number of columns"
+msgstr "ਕਾਲਮਾਂ ਦੀ ਗਿਣਤੀ"
+
+#: templates/html/drag_and_drop_edit.html:150
+msgid "Number of rows"
+msgstr "ਕਤਾਰਾਂ ਦੀ ਗਿਣਤੀ"
+
+#: templates/html/drag_and_drop_edit.html:157
+msgid "Number of columns and rows."
+msgstr "ਕਾਲਮਾਂ ਅਤੇ ਕਤਾਰਾਂ ਦੀ ਗਿਣਤੀ।"
+
+#: templates/html/drag_and_drop_edit.html:161
+msgid "Zone Size"
+msgstr "ਜ਼ੋਨ ਦਾ ਆਕਾਰ"
+
+#: templates/html/drag_and_drop_edit.html:163
+msgid "Zone width"
+msgstr "ਜ਼ੋਨ ਚੌੜਾਈ"
+
+#: templates/html/drag_and_drop_edit.html:171
+msgid "Zone height"
+msgstr "ਜ਼ੋਨ ਦੀ ਉਚਾਈ"
+
+#: templates/html/drag_and_drop_edit.html:178
+msgid "Size of a single zone in pixels."
+msgstr "ਇੱਕ ਸਿੰਗਲ ਜ਼ੋਨ ਦਾ ਆਕਾਰ ਪਿਕਸਲ ਵਿੱਚ।"
+
+#: templates/html/drag_and_drop_edit.html:181
+msgid "Generate image and zones"
+msgstr "ਚਿੱਤਰ ਅਤੇ ਜ਼ੋਨ ਤਿਆਰ ਕਰੋ"
+
+#: templates/html/drag_and_drop_edit.html:184
+msgid "Background description"
+msgstr "ਪਿਛੋਕੜ ਵੇਰਵਾ"
+
+#: templates/html/drag_and_drop_edit.html:189
+msgid ""
+"\n"
+"                            Please provide a description of the image for non-visual users.\n"
+"                            The description should provide sufficient information to allow anyone\n"
+"                            to solve the problem even without seeing the image.\n"
+"                        "
+msgstr ""
+"\n"
+"ਕਿਰਪਾ ਕਰਕੇ ਗੈਰ-ਵਿਜ਼ੂਅਲ ਉਪਭੋਗਤਾਵਾਂ ਲਈ ਚਿੱਤਰ ਦਾ ਵੇਰਵਾ ਪ੍ਰਦਾਨ ਕਰੋ।\n"
+"ਵਰਣਨ ਵਿੱਚ ਲੋੜੀਂਦੀ ਜਾਣਕਾਰੀ ਪ੍ਰਦਾਨ ਕਰਨੀ ਚਾਹੀਦੀ ਹੈ ਤਾਂ ਜੋ ਕੋਈ ਵੀ ਚਿੱਤਰ ਨੂੰ ਦੇਖੇ ਬਿਨਾਂ ਵੀ ਸਮੱਸਿਆ ਦਾ ਹੱਲ ਕਰ ਸਕੇ।"
+
+#: templates/html/drag_and_drop_edit.html:199
+msgid "Zone labels"
+msgstr "ਜ਼ੋਨ ਲੇਬਲ"
+
+#: templates/html/drag_and_drop_edit.html:202
+msgid "Display label names on the image"
+msgstr "ਚਿੱਤਰ 'ਤੇ ਲੇਬਲ ਦੇ ਨਾਮ ਦਿਖਾਓ"
+
+#: templates/html/drag_and_drop_edit.html:206
+msgid "Zone borders"
+msgstr "ਜ਼ੋਨ ਦੀਆਂ ਹੱਦਾਂ"
+
+#: templates/html/drag_and_drop_edit.html:209
+msgid "Display zone borders on the image"
+msgstr "ਚਿੱਤਰ 'ਤੇ ਜ਼ੋਨ ਬਾਰਡਰ ਦਿਖਾਓ"
+
+#: templates/html/drag_and_drop_edit.html:215
+msgid "Display zone borders when dragging an item"
+msgstr "ਕਿਸੇ ਆਈਟਮ ਨੂੰ ਖਿੱਚਦੇ ਸਮੇਂ ਜ਼ੋਨ ਬਾਰਡਰ ਦਿਖਾਓ"
+
+#: templates/html/drag_and_drop_edit.html:220
+msgid "Zone definitions"
+msgstr "ਜ਼ੋਨ ਪਰਿਭਾਸ਼ਾਵਾਂ"
+
+#: templates/html/drag_and_drop_edit.html:226
+msgid "Add a zone"
+msgstr "ਇੱਕ ਜ਼ੋਨ ਜੋੜੋ"
+
+#: templates/html/drag_and_drop_edit.html:240
+msgid "Items"
+msgstr "ਆਈਟਮਾਂ"
+
+#: templates/html/drag_and_drop_edit.html:274
+msgid "Item definitions"
+msgstr "ਆਈਟਮ ਪਰਿਭਾਸ਼ਾਵਾਂ"
+
+#: templates/html/drag_and_drop_edit.html:278
+msgid "Add an item"
+msgstr "ਇੱਕ ਆਈਟਮ ਸ਼ਾਮਲ ਕਰੋ"
+
+#: templates/html/drag_and_drop_edit.html:288
+msgid "Continue"
+msgstr "ਜਾਰੀ ਰੱਖੋ"
+
+#: templates/html/drag_and_drop_edit.html:292
+msgid "Save"
+msgstr "ਸੇਵ ਕਰੋ"
+
+#: templates/html/drag_and_drop_edit.html:296
+msgid "Cancel"
+msgstr "ਰੱਦ ਕਰੋ"
+
+#: utils.py:121
+#, python-brace-format
+msgid "Your highest score is {score}"
+msgstr "ਤੁਹਾਡਾ ਸਭ ਤੋਂ ਵੱਧ ਸਕੋਰ {score} ਹੈ।"
+
+#: utils.py:122
+#, python-brace-format
+msgid "Final attempt was used, highest score is {score}"
+msgstr "ਆਖਰੀ ਕੋਸ਼ਿਸ਼ ਵਰਤੀ ਗਈ, ਸਭ ਤੋਂ ਵੱਧ ਸਕੋਰ {score} ਹੈ।"
+
+#: utils.py:130
+#, python-brace-format
+msgid "Correctly placed {correct_count} item"
+msgid_plural "Correctly placed {correct_count} items"
+msgstr[0] "ਸਹੀ ਢੰਗ ਨਾਲ ਰੱਖੀ ਗਈ {correct_count} ਆਈਟਮ"
+msgstr[1] "ਸਹੀ ਢੰਗ ਨਾਲ ਰੱਖੀ ਗਈ {correct_count} ਆਈਟਮ"
+
+#: utils.py:141
+#, python-brace-format
+msgid "Misplaced {misplaced_count} item"
+msgid_plural "Misplaced {misplaced_count} items"
+msgstr[0] "ਗਲਤ ਥਾਂ 'ਤੇ {misplaced_count} ਆਈਟਮ"
+msgstr[1] "ਗਲਤ ਥਾਂ 'ਤੇ {misplaced_count} ਆਈਟਮ"
+
+#: utils.py:152
+#, python-brace-format
+msgid ""
+"Misplaced {misplaced_count} item (misplaced item was returned to the item "
+"bank)"
+msgid_plural ""
+"Misplaced {misplaced_count} items (misplaced items were returned to the item"
+" bank)"
+msgstr[0] ""
+"{misplaced_count} ਆਈਟਮ ਗੁੰਮ ਹੋ ਗਈ (ਗੁੰਮ ਹੋ ਗਈ ਆਈਟਮ ਆਈਟਮ ਬੈਂਕ ਵਿੱਚ ਵਾਪਸ ਕਰ "
+"ਦਿੱਤੀ ਗਈ ਸੀ)"
+msgstr[1] ""
+"{misplaced_count} ਆਈਟਮ ਗੁੰਮ ਹੋ ਗਈ (ਗੁੰਮ ਹੋ ਗਈ ਆਈਟਮ ਆਈਟਮ ਬੈਂਕ ਵਿੱਚ ਵਾਪਸ ਕਰ "
+"ਦਿੱਤੀ ਗਈ ਸੀ)"
+
+#: utils.py:163
+#, python-brace-format
+msgid "Did not place {missing_count} required item"
+msgid_plural "Did not place {missing_count} required items"
+msgstr[0] "{missing_count} ਲੋੜੀਂਦੀ ਚੀਜ਼ ਨਹੀਂ ਰੱਖੀ"
+msgstr[1] "{missing_count} ਲੋੜੀਂਦੀ ਚੀਜ਼ ਨਹੀਂ ਰੱਖੀ"
+
+#: public/js/drag_and_drop.js:48 public/js/drag_and_drop.js:399
+msgid "Submitting"
+msgstr "ਸਪੁਰਦ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ"
+
+#: public/js/drag_and_drop.js:162
+msgid "Unknown Zone"
+msgstr "ਅਣਜਾਣ ਜ਼ੋਨ"
+
+#: public/js/drag_and_drop.js:166
+msgid "Placed in: {zone_title}"
+msgstr "ਇਸ ਵਿੱਚ ਰੱਖਿਆ ਗਿਆ: {zone_title}"
+
+#: public/js/drag_and_drop.js:170
+msgid "Correctly placed in: {zone_title}"
+msgstr "ਸਹੀ ਢੰਗ ਨਾਲ ਇਸ ਵਿੱਚ ਰੱਖਿਆ ਗਿਆ: {zone_title}"
+
+#: public/js/drag_and_drop.js:182
+msgid ", draggable, grabbed"
+msgstr ", ਘਸੀਟਣਯੋਗ, ਫੜਿਆ ਗਿਆ"
+
+#: public/js/drag_and_drop.js:182
+msgid ", draggable"
+msgstr ", ਘਸੀਟਣਯੋਗ"
+
+#: public/js/drag_and_drop.js:259
+msgid "No items placed here"
+msgstr "ਇੱਥੇ ਕੋਈ ਵਸਤੂਆਂ ਨਹੀਂ ਰੱਖੀਆਂ ਗਈਆਂ।"
+
+#: public/js/drag_and_drop.js:265
+msgid "Items placed here: "
+msgstr "ਇੱਥੇ ਰੱਖੀਆਂ ਗਈਆਂ ਚੀਜ਼ਾਂ:"
+
+#: public/js/drag_and_drop.js:297
+msgid ", dropzone"
+msgstr ", ਡ੍ਰੌਪ ਜ਼ੋਨ"
+
+#: public/js/drag_and_drop.js:300
+msgid "droppable"
+msgstr "ਛੱਡਣਯੋਗ"
+
+#: public/js/drag_and_drop.js:321 public/js/drag_and_drop.js:325
+msgid "Feedback"
+msgstr "ਫੀਡਬੈਕ"
+
+#: public/js/drag_and_drop.js:336 public/js/drag_and_drop.js:341
+msgid "Explanation"
+msgstr "ਵਿਆਖਿਆ"
+
+#: public/js/drag_and_drop.js:357 public/js/drag_and_drop.js:547
+msgid "Close"
+msgstr "ਬੰਦ ਕਰੋ"
+
+#: public/js/drag_and_drop.js:360 public/js/drag_and_drop.js:595
+msgid "Keyboard Help"
+msgstr "ਕੀਬੋਰਡ ਮਦਦ"
+
+#: public/js/drag_and_drop.js:363
+msgid "This is a screen reader-friendly problem."
+msgstr "ਇਹ ਇੱਕ ਸਕ੍ਰੀਨ ਰੀਡਰ-ਅਨੁਕੂਲ ਸਮੱਸਿਆ ਹੈ।"
+
+#: public/js/drag_and_drop.js:364
+msgid ""
+"Drag and Drop problems consist of draggable items and dropzones. Users "
+"should select a draggable item with their keyboard and then navigate to an "
+"appropriate dropzone to drop it."
+msgstr ""
+"ਡਰੈਗ ਐਂਡ ਡ੍ਰੌਪ ਸਮੱਸਿਆਵਾਂ ਵਿੱਚ ਡਰੈਗ ਕਰਨ ਯੋਗ ਆਈਟਮਾਂ ਅਤੇ ਡ੍ਰੌਪ ਜ਼ੋਨ ਸ਼ਾਮਲ ਹੁੰਦੇ"
+" ਹਨ। ਉਪਭੋਗਤਾਵਾਂ ਨੂੰ ਆਪਣੇ ਕੀਬੋਰਡ ਨਾਲ ਇੱਕ ਡਰੈਗ ਕਰਨ ਯੋਗ ਆਈਟਮ ਚੁਣਨੀ ਚਾਹੀਦੀ ਹੈ "
+"ਅਤੇ ਫਿਰ ਇਸਨੂੰ ਛੱਡਣ ਲਈ ਇੱਕ ਢੁਕਵੇਂ ਡ੍ਰੌਪ ਜ਼ੋਨ 'ਤੇ ਨੈਵੀਗੇਟ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ।"
+
+#: public/js/drag_and_drop.js:365
+msgid ""
+"You can complete this problem using only your keyboard by following the "
+"guidance below:"
+msgstr ""
+"ਤੁਸੀਂ ਹੇਠਾਂ ਦਿੱਤੇ ਮਾਰਗਦਰਸ਼ਨ ਦੀ ਪਾਲਣਾ ਕਰਕੇ ਸਿਰਫ਼ ਆਪਣੇ ਕੀਬੋਰਡ ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਇਸ"
+" ਸਮੱਸਿਆ ਨੂੰ ਪੂਰਾ ਕਰ ਸਕਦੇ ਹੋ:"
+
+#: public/js/drag_and_drop.js:367
+msgid ""
+"Use only TAB and SHIFT+TAB to navigate between draggable items and drop "
+"zones."
+msgstr ""
+"ਡਰੈਗ ਕਰਨ ਯੋਗ ਆਈਟਮਾਂ ਅਤੇ ਡ੍ਰੌਪ ਜ਼ੋਨਾਂ ਵਿਚਕਾਰ ਨੈਵੀਗੇਟ ਕਰਨ ਲਈ ਸਿਰਫ਼ TAB ਅਤੇ "
+"SHIFT+TAB ਦੀ ਵਰਤੋਂ ਕਰੋ।"
+
+#: public/js/drag_and_drop.js:368
+msgid "Press CTRL+M to select a draggable item (effectively picking it up)."
+msgstr ""
+"ਡਰੈਗ ਕਰਨ ਯੋਗ ਆਈਟਮ ਚੁਣਨ ਲਈ CTRL+M ਦਬਾਓ (ਇਸਨੂੰ ਪ੍ਰਭਾਵਸ਼ਾਲੀ ਢੰਗ ਨਾਲ ਚੁੱਕਣਾ)।"
+
+#: public/js/drag_and_drop.js:369
+msgid ""
+"Navigate using TAB and SHIFT+TAB to the appropriate dropzone and press "
+"CTRL+M once more to drop it here."
+msgstr ""
+"TAB ਅਤੇ SHIFT+TAB ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਢੁਕਵੇਂ ਡ੍ਰੌਪਜ਼ੋਨ ਤੱਕ ਨੈਵੀਗੇਟ ਕਰੋ ਅਤੇ ਇਸਨੂੰ "
+"ਇੱਥੇ ਛੱਡਣ ਲਈ ਇੱਕ ਵਾਰ ਫਿਰ CTRL+M ਦਬਾਓ।"
+
+#: public/js/drag_and_drop.js:370
+msgid ""
+"Press ESC if you want to cancel the drop operation (for example, to select a"
+" different item)."
+msgstr ""
+"ਜੇਕਰ ਤੁਸੀਂ ਡ੍ਰੌਪ ਓਪਰੇਸ਼ਨ ਨੂੰ ਰੱਦ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ (ਉਦਾਹਰਣ ਵਜੋਂ, ਕੋਈ ਵੱਖਰੀ "
+"ਆਈਟਮ ਚੁਣਨ ਲਈ) ਤਾਂ ESC ਦਬਾਓ।"
+
+#: public/js/drag_and_drop.js:371
+msgid ""
+"TAB back to the list of draggable items and repeat this process until all of"
+" the draggable items have been placed on their respective dropzones."
+msgstr ""
+"ਟੈਬ ਖਿੱਚਣਯੋਗ ਆਈਟਮਾਂ ਦੀ ਸੂਚੀ 'ਤੇ ਵਾਪਸ ਜਾਓ ਅਤੇ ਇਸ ਪ੍ਰਕਿਰਿਆ ਨੂੰ ਦੁਹਰਾਓ ਜਦੋਂ ਤੱਕ"
+" ਸਾਰੀਆਂ ਖਿੱਚਣਯੋਗ ਆਈਟਮਾਂ ਨੂੰ ਉਹਨਾਂ ਦੇ ਸੰਬੰਧਿਤ ਡ੍ਰੌਪ ਜ਼ੋਨਾਂ 'ਤੇ ਨਹੀਂ ਰੱਖਿਆ "
+"ਜਾਂਦਾ।"
+
+#: public/js/drag_and_drop.js:389
+msgid "You have used {used} of {total} attempts."
+msgstr "ਤੁਸੀਂ {total} ਕੋਸ਼ਿਸ਼ਾਂ ਵਿੱਚੋਂ {used} ਕੋਸ਼ਿਸ਼ਾਂ ਵਰਤ ਲਈਆਂ ਹਨ।"
+
+#: public/js/drag_and_drop.js:412
+msgid "Submit"
+msgstr "ਜਮ੍ਹਾਂ ਕਰੋ"
+
+#: public/js/drag_and_drop.js:453
+msgid "Show Answer"
+msgstr "ਜਵਾਬ ਦਿਖਾਓ"
+
+#: public/js/drag_and_drop.js:466
+msgid "Go to Beginning"
+msgstr "ਸ਼ੁਰੂਆਤ 'ਤੇ ਜਾਓ"
+
+#: public/js/drag_and_drop.js:472
+msgid "Reset"
+msgstr "ਰੀਸੈੱਟ"
+
+#: public/js/drag_and_drop.js:506 public/js/drag_and_drop.js:1243
+msgid "Some of your answers were not correct."
+msgstr "ਤੁਹਾਡੇ ਕੁਝ ਜਵਾਬ ਸਹੀ ਨਹੀਂ ਸਨ।"
+
+#: public/js/drag_and_drop.js:507 public/js/drag_and_drop.js:1246
+msgid "Hints:"
+msgstr "ਸੰਕੇਤ:"
+
+#: public/js/drag_and_drop.js:577
+msgid "Correct"
+msgstr "ਸਹੀ"
+
+#: public/js/drag_and_drop.js:577
+msgid "Incorrect"
+msgstr "ਗਲਤ"
+
+#. Translators: {earned} is the number of points earned. {possible} is the
+#. total number of points (examples: 0/1, 1/1, 2/3, 5/10). The total number of
+#. points will always be at least 1. We pluralize based on the total number of
+#. points (example: 0/1 point; 1/2 points).
+#: public/js/drag_and_drop.js:610
+msgid "{earned}/{possible} point (graded)"
+msgid_plural "{earned}/{possible} points (graded)"
+msgstr[0] "{ਕਮਾਇਆ}/{ਸੰਭਵ} ਅੰਕ (ਗ੍ਰੇਡ ਕੀਤਾ ਗਿਆ)"
+msgstr[1] "{ਕਮਾਇਆ}/{ਸੰਭਵ} ਅੰਕ (ਗ੍ਰੇਡ ਕੀਤਾ ਗਿਆ)"
+
+#. Translators: {earned} is the number of points earned. {possible} is the
+#. total number of points (examples: 0/1, 1/1, 2/3, 5/10). The total number of
+#. points will always be at least 1. We pluralize based on the total number of
+#. points (example: 0/1 point; 1/2 points).
+#: public/js/drag_and_drop.js:617
+msgid "{earned}/{possible} point (ungraded)"
+msgid_plural "{earned}/{possible} points (ungraded)"
+msgstr[0] "{ਕਮਾਇਆ}/{ਸੰਭਵ} ਅੰਕ (ਗ੍ਰੇਡ ਨਹੀਂ ਕੀਤਾ ਗਿਆ)"
+msgstr[1] "{ਕਮਾਇਆ}/{ਸੰਭਵ} ਅੰਕ (ਗ੍ਰੇਡ ਨਹੀਂ ਕੀਤਾ ਗਿਆ)"
+
+#. Translators: {possible} is the number of points possible (examples: 1, 3,
+#. 10).
+#: public/js/drag_and_drop.js:627
+msgid "{possible} point possible (graded)"
+msgid_plural "{possible} points possible (graded)"
+msgstr[0] "{possible} ਸੰਭਵ ਅੰਕ (ਗ੍ਰੇਡ ਕੀਤਾ ਗਿਆ)"
+msgstr[1] "{possible} ਸੰਭਵ ਅੰਕ (ਗ੍ਰੇਡ ਕੀਤਾ ਗਿਆ)"
+
+#. Translators: {possible} is the number of points possible (examples: 1, 3,
+#. 10).
+#: public/js/drag_and_drop.js:634
+msgid "{possible} point possible (ungraded)"
+msgid_plural "{possible} points possible (ungraded)"
+msgstr[0] "{possible} ਸੰਭਵ ਅੰਕ (ਗ੍ਰੇਡ ਨਹੀਂ ਕੀਤਾ ਗਿਆ)"
+msgstr[1] "{possible} ਸੰਭਵ ਅੰਕ (ਗ੍ਰੇਡ ਨਹੀਂ ਕੀਤਾ ਗਿਆ)"
+
+#: public/js/drag_and_drop.js:660
+msgid "Drag and Drop Problem"
+msgstr "ਡਰੈਗ ਐਂਡ ਡ੍ਰੌਪ ਸਮੱਸਿਆ"
+
+#: public/js/drag_and_drop.js:662
+msgid "Problem"
+msgstr "ਸਮੱਸਿਆ"
+
+#: public/js/drag_and_drop.js:687
+msgid "Item Bank"
+msgstr "ਆਈਟਮ ਬੈਂਕ"
+
+#: public/js/drag_and_drop.js:732
+msgid "Drop Targets"
+msgstr "ਸੁੱਟਣ ਦੇ ਨਿਸ਼ਾਨੇ"
+
+#: public/js/drag_and_drop.js:898
+msgid "An error occurred. Unable to load drag and drop problem."
+msgstr "ਇੱਕ ਗਲਤੀ ਹੋਈ। ਡਰੈਗ ਐਂਡ ਡ੍ਰੌਪ ਲੋਡ ਕਰਨ ਵਿੱਚ ਅਸਮਰੱਥ ਸਮੱਸਿਆ।"
+
+#: public/js/drag_and_drop.js:1387
+msgid "You cannot add any more items to this zone."
+msgstr "ਤੁਸੀਂ ਇਸ ਜ਼ੋਨ ਵਿੱਚ ਹੋਰ ਆਈਟਮਾਂ ਨਹੀਂ ਜੋੜ ਸਕਦੇ।"
+
+#: public/js/drag_and_drop_edit.js:123 public/js/drag_and_drop_edit.js:524
+#: public/js/drag_and_drop_edit.js:755
+msgid "There was an error with your form."
+msgstr "ਤੁਹਾਡੇ ਫਾਰਮ ਵਿੱਚ ਇੱਕ ਗਲਤੀ ਸੀ।"
+
+#: public/js/drag_and_drop_edit.js:124
+msgid "Please check over your submission."
+msgstr "ਕਿਰਪਾ ਕਰਕੇ ਆਪਣੀ ਸਪੁਰਦਗੀ ਦੀ ਜਾਂਚ ਕਰੋ।"
+
+#: public/js/drag_and_drop_edit.js:374
+msgid "Zone {num}"
+msgid_plural "Zone {num}"
+msgstr[0] "ਜ਼ੋਨ {ਨੰਬਰ}"
+msgstr[1] "ਜ਼ੋਨ {ਨੰਬਰ}"
+
+#: public/js/drag_and_drop_edit.js:525
+msgid "Please check the values you entered."
+msgstr "ਕਿਰਪਾ ਕਰਕੇ ਤੁਹਾਡੇ ਦੁਆਰਾ ਦਾਖਲ ਕੀਤੇ ਮੁੱਲਾਂ ਦੀ ਜਾਂਚ ਕਰੋ।"
+
+#: public/js/drag_and_drop_edit.js:748
+msgid "Saving"
+msgstr "ਬੱਚਤ"
