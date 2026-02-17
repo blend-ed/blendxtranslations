@@ -860,8 +860,8 @@ msgid ""
 "                %(start_tag)s%(title)s%(end_tag)s%(start_grade_tag)s - %(grade)s%(end_tag)s\n"
 "              "
 msgstr ""
-"%(ਸ਼ੁਰੂਆਤੀ_ਟੈਗ)s%(ਸਿਰਲੇਖ)s%(ਅੰਤ_ਟੈਗ)s%(ਸ਼ੁਰੂਆਤੀ_ਗ੍ਰੇਡ_ਟੈਗ)s - "
-"%(ਗ੍ਰੇਡ)s%(ਅੰਤ_ਟੈਗ)s"
+"\n"
+"%(start_tag)s%(title)s%(end_tag)s%(start_grade_tag)s - %(grade)s%(end_tag)s"
 
 #: templates/legacy/grade/oa_assessment_title.html:7
 #, python-format
@@ -873,8 +873,12 @@ msgid_plural ""
 "\n"
 "                      %(assessment_title)s - %(points)s points\n"
 "                  "
-msgstr[0] "%(assessment_title)s - %(points)s ਅੰਕ"
-msgstr[1] "%(assessment_title)s - %(points)s ਅੰਕ"
+msgstr[0] ""
+"\n"
+"%(assessment_title)s - %(points)s ਅੰਕ"
+msgstr[1] ""
+"\n"
+"%(assessment_title)s - %(points)s ਅੰਕ"
 
 #: templates/legacy/grade/oa_assessment_title.html:24
 #, python-format
@@ -896,7 +900,9 @@ msgid ""
 "\n"
 "                                        %(points_earned)s out of %(points_possible)s\n"
 "                                    "
-msgstr "%(points_possible)s ਵਿੱਚੋਂ %(points_earned)s"
+msgstr ""
+"\n"
+"%(points_possible)s ਵਿੱਚੋਂ %(points_earned)s"
 
 #: templates/legacy/grade/oa_grade_cancelled.html:38
 msgid "Your submission has been cancelled."
@@ -908,7 +914,9 @@ msgid ""
 "\n"
 "                                            %(points_earned)s out of %(points_possible)s\n"
 "                                        "
-msgstr "%(points_possible)s ਵਿੱਚੋਂ %(points_earned)s"
+msgstr ""
+"\n"
+"%(points_possible)s ਵਿੱਚੋਂ %(points_earned)s"
 
 #: templates/legacy/grade/oa_grade_complete.html:38
 #: templates/legacy/response/oa_response.html:29
@@ -1188,9 +1196,8 @@ msgid ""
 "                                    %(start_strong)sThis assignment is in progress. The self assessment step will close soon.%(end_strong)s You still need to complete the %(start_link)sself assessment%(end_link)s step.\n"
 "                                "
 msgstr ""
-"%(start_strong)sਇਹ ਅਸਾਈਨਮੈਂਟ ਪ੍ਰਗਤੀ ਅਧੀਨ ਹੈ। ਸਵੈ-ਮੁਲਾਂਕਣ ਕਦਮ ਜਲਦੀ ਹੀ ਬੰਦ ਹੋ "
-"ਜਾਵੇਗਾ।%(end_strong)s ਤੁਹਾਨੂੰ ਅਜੇ ਵੀ %(start_link)ssself ਮੁਲਾਂਕਣ%(end_link)s"
-" ਕਦਮ ਨੂੰ ਪੂਰਾ ਕਰਨ ਦੀ ਲੋੜ ਹੈ।"
+"\n"
+"%(start_strong)sਇਹ ਅਸਾਈਨਮੈਂਟ ਪ੍ਰਗਤੀ ਅਧੀਨ ਹੈ। ਸਵੈ-ਮੁਲਾਂਕਣ ਕਦਮ ਜਲਦੀ ਹੀ ਬੰਦ ਹੋ ਜਾਵੇਗਾ।%(end_strong)s ਤੁਹਾਨੂੰ ਅਜੇ ਵੀ %(start_link)ssself ਮੁਲਾਂਕਣ%(end_link)s ਕਦਮ ਨੂੰ ਪੂਰਾ ਕਰਨ ਦੀ ਲੋੜ ਹੈ।"
 
 #: templates/legacy/message/oa_message_incomplete.html:24
 #, python-format
@@ -1199,8 +1206,8 @@ msgid ""
 "                                    This assignment is in progress. You still need to complete the %(start_link)sself assessment%(end_link)s step.\n"
 "                                "
 msgstr ""
-"ਇਹ ਅਸਾਈਨਮੈਂਟ ਪ੍ਰਗਤੀ ਅਧੀਨ ਹੈ। ਤੁਹਾਨੂੰ ਅਜੇ ਵੀ %(start_link)ssself "
-"assessment%(end_link)s ਪੜਾਅ ਨੂੰ ਪੂਰਾ ਕਰਨ ਦੀ ਲੋੜ ਹੈ।"
+"\n"
+"ਇਹ ਅਸਾਈਨਮੈਂਟ ਪ੍ਰਗਤੀ ਅਧੀਨ ਹੈ। ਤੁਹਾਨੂੰ ਅਜੇ ਵੀ %(start_link)ssself assessment%(end_link)s ਪੜਾਅ ਨੂੰ ਪੂਰਾ ਕਰਨ ਦੀ ਲੋੜ ਹੈ।"
 
 #: templates/legacy/message/oa_message_incomplete.html:38
 #, python-format
@@ -1209,11 +1216,8 @@ msgid ""
 "                                    This assignment is in progress.%(start_strong)sThe peer assessment step will close soon.%(end_strong)s All submitted peer responses have been assessed. Check back later to see if more learners have submitted responses. You still need to complete the %(start_link)speer assessment%(end_link)s step.\n"
 "                                "
 msgstr ""
-"ਇਹ ਅਸਾਈਨਮੈਂਟ ਪ੍ਰਗਤੀ ਅਧੀਨ ਹੈ।%(start_strong)sਪੀਅਰ ਮੁਲਾਂਕਣ ਕਦਮ ਜਲਦੀ ਹੀ ਬੰਦ ਹੋ "
-"ਜਾਵੇਗਾ।%(end_strong)s ਸਾਰੇ ਜਮ੍ਹਾਂ ਕੀਤੇ ਗਏ ਪੀਅਰ ਜਵਾਬਾਂ ਦਾ ਮੁਲਾਂਕਣ ਕੀਤਾ ਗਿਆ "
-"ਹੈ। ਇਹ ਦੇਖਣ ਲਈ ਬਾਅਦ ਵਿੱਚ ਦੁਬਾਰਾ ਜਾਂਚ ਕਰੋ ਕਿ ਕੀ ਹੋਰ ਸਿਖਿਆਰਥੀਆਂ ਨੇ ਜਵਾਬ ਜਮ੍ਹਾਂ"
-" ਕੀਤੇ ਹਨ। ਤੁਹਾਨੂੰ ਅਜੇ ਵੀ %(start_link)speer ਮੁਲਾਂਕਣ%(end_link)s ਕਦਮ ਨੂੰ ਪੂਰਾ"
-" ਕਰਨ ਦੀ ਲੋੜ ਹੈ।"
+"\n"
+"ਇਹ ਅਸਾਈਨਮੈਂਟ ਪ੍ਰਗਤੀ ਅਧੀਨ ਹੈ।%(start_strong)sਪੀਅਰ ਮੁਲਾਂਕਣ ਕਦਮ ਜਲਦੀ ਹੀ ਬੰਦ ਹੋ ਜਾਵੇਗਾ।%(end_strong)s ਸਾਰੇ ਜਮ੍ਹਾਂ ਕੀਤੇ ਗਏ ਪੀਅਰ ਜਵਾਬਾਂ ਦਾ ਮੁਲਾਂਕਣ ਕੀਤਾ ਗਿਆ ਹੈ। ਇਹ ਦੇਖਣ ਲਈ ਬਾਅਦ ਵਿੱਚ ਦੁਬਾਰਾ ਜਾਂਚ ਕਰੋ ਕਿ ਕੀ ਹੋਰ ਸਿਖਿਆਰਥੀਆਂ ਨੇ ਜਵਾਬ ਜਮ੍ਹਾਂ ਕੀਤੇ ਹਨ। ਤੁਹਾਨੂੰ ਅਜੇ ਵੀ %(start_link)speer ਮੁਲਾਂਕਣ%(end_link)s ਕਦਮ ਨੂੰ ਪੂਰਾ ਕਰਨ ਦੀ ਲੋੜ ਹੈ।"
 
 #: templates/legacy/message/oa_message_incomplete.html:42
 #, python-format
@@ -1222,10 +1226,8 @@ msgid ""
 "                                    This assignment is in progress. All submitted peer responses have been assessed. Check back later to see if more learners have submitted responses. You still need to complete the %(start_link)speer assessment%(end_link)s step.\n"
 "                                "
 msgstr ""
-"ਇਹ ਅਸਾਈਨਮੈਂਟ ਪ੍ਰਗਤੀ ਅਧੀਨ ਹੈ। ਸਾਰੇ ਜਮ੍ਹਾ ਕੀਤੇ ਗਏ ਸਾਥੀ ਜਵਾਬਾਂ ਦਾ ਮੁਲਾਂਕਣ ਕੀਤਾ "
-"ਗਿਆ ਹੈ। ਇਹ ਦੇਖਣ ਲਈ ਬਾਅਦ ਵਿੱਚ ਦੁਬਾਰਾ ਜਾਂਚ ਕਰੋ ਕਿ ਕੀ ਹੋਰ ਸਿਖਿਆਰਥੀਆਂ ਨੇ ਜਵਾਬ "
-"ਜਮ੍ਹਾਂ ਕੀਤੇ ਹਨ। ਤੁਹਾਨੂੰ ਅਜੇ ਵੀ %(start_link)speer assessment%(end_link)s ਕਦਮ"
-" ਨੂੰ ਪੂਰਾ ਕਰਨ ਦੀ ਲੋੜ ਹੈ।"
+"\n"
+"ਇਹ ਅਸਾਈਨਮੈਂਟ ਪ੍ਰਗਤੀ ਅਧੀਨ ਹੈ। ਸਾਰੇ ਜਮ੍ਹਾ ਕੀਤੇ ਗਏ ਸਾਥੀ ਜਵਾਬਾਂ ਦਾ ਮੁਲਾਂਕਣ ਕੀਤਾ ਗਿਆ ਹੈ। ਇਹ ਦੇਖਣ ਲਈ ਬਾਅਦ ਵਿੱਚ ਦੁਬਾਰਾ ਜਾਂਚ ਕਰੋ ਕਿ ਕੀ ਹੋਰ ਸਿਖਿਆਰਥੀਆਂ ਨੇ ਜਵਾਬ ਜਮ੍ਹਾਂ ਕੀਤੇ ਹਨ। ਤੁਹਾਨੂੰ ਅਜੇ ਵੀ %(start_link)speer assessment%(end_link)s ਕਦਮ ਨੂੰ ਪੂਰਾ ਕਰਨ ਦੀ ਲੋੜ ਹੈ।"
 
 #: templates/legacy/message/oa_message_incomplete.html:46
 #, python-format
@@ -1234,9 +1236,8 @@ msgid ""
 "                                    This assignment is in progress. %(start_strong)sThe peer assessment step will close soon.%(end_strong)s You still need to complete the %(start_link)speer assessment%(end_link)s step.\n"
 "                                "
 msgstr ""
-"ਇਹ ਅਸਾਈਨਮੈਂਟ ਪ੍ਰਗਤੀ ਅਧੀਨ ਹੈ। %(start_strong)sਪੀਅਰ ਮੁਲਾਂਕਣ ਕਦਮ ਜਲਦੀ ਹੀ ਬੰਦ ਹੋ"
-" ਜਾਵੇਗਾ।%(end_strong)s ਤੁਹਾਨੂੰ ਅਜੇ ਵੀ %(start_link)speer ਮੁਲਾਂਕਣ%(end_link)s"
-" ਕਦਮ ਨੂੰ ਪੂਰਾ ਕਰਨ ਦੀ ਲੋੜ ਹੈ।"
+"\n"
+"ਇਹ ਅਸਾਈਨਮੈਂਟ ਪ੍ਰਗਤੀ ਅਧੀਨ ਹੈ। %(start_strong)sਪੀਅਰ ਮੁਲਾਂਕਣ ਕਦਮ ਜਲਦੀ ਹੀ ਬੰਦ ਹੋ ਜਾਵੇਗਾ।%(end_strong)s ਤੁਹਾਨੂੰ ਅਜੇ ਵੀ %(start_link)speer ਮੁਲਾਂਕਣ%(end_link)s ਕਦਮ ਨੂੰ ਪੂਰਾ ਕਰਨ ਦੀ ਲੋੜ ਹੈ।"
 
 #: templates/legacy/message/oa_message_incomplete.html:50
 #, python-format
@@ -1245,8 +1246,8 @@ msgid ""
 "                                    This assignment is in progress. You still need to complete the %(start_link)speer assessment%(end_link)s step.\n"
 "                                "
 msgstr ""
-"ਇਹ ਅਸਾਈਨਮੈਂਟ ਪ੍ਰਗਤੀ ਅਧੀਨ ਹੈ। ਤੁਹਾਨੂੰ ਅਜੇ ਵੀ %(start_link)speer "
-"assessment%(end_link)s ਸਟੈਪ ਨੂੰ ਪੂਰਾ ਕਰਨ ਦੀ ਲੋੜ ਹੈ।"
+"\n"
+"ਇਹ ਅਸਾਈਨਮੈਂਟ ਪ੍ਰਗਤੀ ਅਧੀਨ ਹੈ। ਤੁਹਾਨੂੰ ਅਜੇ ਵੀ %(start_link)speer assessment%(end_link)s ਸਟੈਪ ਨੂੰ ਪੂਰਾ ਕਰਨ ਦੀ ਲੋੜ ਹੈ।"
 
 #: templates/legacy/message/oa_message_no_team.html:4
 msgid "Team membership is required to view this assignment"
@@ -1261,6 +1262,7 @@ msgid ""
 "            You must be on a team in team-set \"%(teamset_name)s\" to access this team assignment.\n"
 "            "
 msgstr ""
+"\n"
 "ਇਹ ਟੀਮ-ਸੈੱਟ \"%(teamset_name)s\" ਲਈ ਇੱਕ ਟੀਮ ਅਸਾਈਨਮੈਂਟ ਹੈ।\n"
 "\n"
 "ਤੁਸੀਂ ਇਸ ਵੇਲੇ ਟੀਮ-ਸੈੱਟ \"%(teamset_name)s\" ਵਿੱਚ ਕਿਸੇ ਟੀਮ ਵਿੱਚ ਨਹੀਂ ਹੋ।\n"
@@ -1274,9 +1276,8 @@ msgid ""
 "                    Assignment submissions will close soon. To receive a grade, first provide a response to the prompt, then complete the steps below the %(start_tag)sYour Response%(end_tag)s field.\n"
 "                "
 msgstr ""
-"ਅਸਾਈਨਮੈਂਟ ਸਬਮਿਸ਼ਨ ਜਲਦੀ ਹੀ ਬੰਦ ਹੋ ਜਾਣਗੇ। ਗ੍ਰੇਡ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ, ਪਹਿਲਾਂ ਪ੍ਰੋਂਪਟ "
-"ਦਾ ਜਵਾਬ ਦਿਓ, ਫਿਰ %(start_tag)sYour Response%(end_tag)s ਖੇਤਰ ਦੇ ਹੇਠਾਂ ਦਿੱਤੇ "
-"ਕਦਮਾਂ ਨੂੰ ਪੂਰਾ ਕਰੋ।"
+"\n"
+"ਅਸਾਈਨਮੈਂਟ ਸਬਮਿਸ਼ਨ ਜਲਦੀ ਹੀ ਬੰਦ ਹੋ ਜਾਣਗੇ। ਗ੍ਰੇਡ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ, ਪਹਿਲਾਂ ਪ੍ਰੋਂਪਟ ਦਾ ਜਵਾਬ ਦਿਓ, ਫਿਰ %(start_tag)sYour Response%(end_tag)s ਖੇਤਰ ਦੇ ਹੇਠਾਂ ਦਿੱਤੇ ਕਦਮਾਂ ਨੂੰ ਪੂਰਾ ਕਰੋ।"
 
 #: templates/legacy/message/oa_message_open.html:11
 #, python-format
@@ -1285,9 +1286,8 @@ msgid ""
 "                    This assignment has several steps. In the first step, you'll provide a response to the prompt. The other steps appear below the %(start_tag)sYour Response%(end_tag)s field.\n"
 "                "
 msgstr ""
-"ਇਸ ਅਸਾਈਨਮੈਂਟ ਵਿੱਚ ਕਈ ਕਦਮ ਹਨ। ਪਹਿਲੇ ਕਦਮ ਵਿੱਚ, ਤੁਸੀਂ ਪ੍ਰੋਂਪਟ ਦਾ ਜਵਾਬ ਪ੍ਰਦਾਨ "
-"ਕਰੋਗੇ। ਹੋਰ ਕਦਮ %(start_tag)sYour Response%(end_tag)s ਖੇਤਰ ਦੇ ਹੇਠਾਂ ਦਿਖਾਈ "
-"ਦਿੰਦੇ ਹਨ।"
+"\n"
+"ਇਸ ਅਸਾਈਨਮੈਂਟ ਵਿੱਚ ਕਈ ਕਦਮ ਹਨ। ਪਹਿਲੇ ਕਦਮ ਵਿੱਚ, ਤੁਸੀਂ ਪ੍ਰੋਂਪਟ ਦਾ ਜਵਾਬ ਪ੍ਰਦਾਨ ਕਰੋਗੇ। ਹੋਰ ਕਦਮ %(start_tag)sYour Response%(end_tag)s ਖੇਤਰ ਦੇ ਹੇਠਾਂ ਦਿਖਾਈ ਦਿੰਦੇ ਹਨ।"
 
 #: templates/legacy/message/oa_message_unavailable.html:4
 msgid "Instructions Unavailable"
@@ -1373,10 +1373,8 @@ msgid ""
 "            <span id=\"oa_step_deadline_peer\" class=\"date ora-datetime\" data-datetime=\"%(start_date)s\" data-string=\"available {date} (in %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
 "            "
 msgstr ""
-"<span id=\"oa_step_deadline_peer\" class=\"date ora-datetime\" data-"
-"datetime=\"%(start_date)s\" data-string=\"ਉਪਲਬਧ {date} (%(time_until)s "
-"ਵਿੱਚ)\" data-timezone=\"%(user_timezone)s\" data-"
-"language=\"%(user_language)s\"></span>"
+"\n"
+"<span id=\"oa_step_deadline_peer\" class=\"date ora-datetime\" data-datetime=\"%(start_date)s\" data-string=\"ਉਪਲਬਧ {date} (%(time_until)s ਵਿੱਚ)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>"
 
 #. Translators: This string displays a date to the user, then tells them the
 #. time until that date.  Example: "due August 13th, 2014 00:00 UTC (in 5 days
@@ -1388,10 +1386,8 @@ msgid ""
 "            <span id=\"oa_step_deadline_peer\" class=\"date ora-datetime\" data-datetime=\"%(due_date)s\" data-string=\"due {date} (in %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
 "            "
 msgstr ""
-"<span id=\"oa_step_deadline_peer\" class=\"date ora-datetime\" data-"
-"datetime=\"%(due_date)s\" data-string=\"due {date} (%(time_until)s ਵਿੱਚ)\" "
-"data-timezone=\"%(user_timezone)s\" data-"
-"language=\"%(user_language)s\"></span>"
+"\n"
+"<span id=\"oa_step_deadline_peer\" class=\"date ora-datetime\" data-datetime=\"%(due_date)s\" data-string=\"due {date} (%(time_until)s ਵਿੱਚ)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>"
 
 #: templates/legacy/peer/oa_peer_assessment.html:61
 #, python-format
@@ -1399,7 +1395,9 @@ msgid ""
 "\n"
 "                    In Progress (%(review_number)s of %(num_must_grade)s)\n"
 "                "
-msgstr "ਪ੍ਰਗਤੀ ਅਧੀਨ (%(ਸਮੀਖਿਆ_ਨੰਬਰ)s ਵਿੱਚੋਂ %(num_must_grade)s)"
+msgstr ""
+"\n"
+"ਪ੍ਰਗਤੀ ਅਧੀਨ (%(step_number)s ਵਿੱਚੋਂ %(num_must_grade)s)"
 
 #: templates/legacy/peer/oa_peer_assessment.html:75
 #: templates/legacy/peer/oa_peer_turbo_mode.html:45
@@ -1436,7 +1434,9 @@ msgid ""
 "\n"
 "            Incomplete (%(num_graded)s of %(num_must_grade)s)\n"
 "        "
-msgstr "ਅਧੂਰਾ (%(num_graded)s ਵਿੱਚੋਂ %(num_must_grade)s)"
+msgstr ""
+"\n"
+"ਅਧੂਰਾ (%(num_graded)s ਵਿੱਚੋਂ %(num_must_grade)s)"
 
 #: templates/legacy/peer/oa_peer_closed.html:35
 msgid ""
@@ -1479,7 +1479,9 @@ msgid ""
 "\n"
 "        Complete (%(num_graded)s)\n"
 "      "
-msgstr "ਪੂਰਾ (%(num_graded)s)"
+msgstr ""
+"\n"
+"ਪੂਰਾ (%(num_graded)s)"
 
 #: templates/legacy/peer/oa_peer_turbo_mode_waiting.html:38
 msgid ""
@@ -1502,7 +1504,9 @@ msgid ""
 "\n"
 "          In Progress (%(review_number)s of %(num_must_grade)s)\n"
 "        "
-msgstr "ਪ੍ਰਗਤੀ ਅਧੀਨ (%(ਸਮੀਖਿਆ_ਨੰਬਰ)s ਵਿੱਚੋਂ %(num_must_grade)s)"
+msgstr ""
+"\n"
+"ਪ੍ਰਗਤੀ ਅਧੀਨ (%(step_number)s ਵਿੱਚੋਂ %(num_must_grade)s)"
 
 #: templates/legacy/peer/oa_peer_waiting.html:37
 msgid ""
@@ -1530,10 +1534,8 @@ msgid ""
 "            <span id=\"oa_step_deadline_response\" class=\"date ora-datetime\" data-datetime=\"%(start_date)s\" data-string=\"available {date} (in %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
 "            "
 msgstr ""
-"<span id=\"oa_step_deadline_response\" class=\"date ora-datetime\" data-"
-"datetime=\"%(start_date)s\" data-string=\"ਉਪਲਬਧ {date} (%(time_until)s "
-"ਵਿੱਚ)\" data-timezone=\"%(user_timezone)s\" data-"
-"language=\"%(user_language)s\"></span>"
+"\n"
+"<span id=\"oa_step_deadline_response\" class=\"date ora-datetime\" data-datetime=\"%(start_date)s\" data-string=\"ਉਪਲਬਧ {date} (%(time_until)s ਵਿੱਚ)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>"
 
 #. Translators: This string displays a date to the user, then tells them the
 #. time until that date.  Example: "due August 13th, 2014 (in 5 days and 45
@@ -1545,10 +1547,8 @@ msgid ""
 "            <span id=\"oa_step_deadline_response\" class=\"date ora-datetime\" data-datetime=\"%(due_date)s\" data-string=\"due {date} (in %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
 "            "
 msgstr ""
-"<span id=\"oa_step_deadline_response\" class=\"date ora-datetime\" data-"
-"datetime=\"%(due_date)s\" data-string=\"due {date} (%(time_until)s ਵਿੱਚ)\" "
-"data-timezone=\"%(user_timezone)s\" data-"
-"language=\"%(user_language)s\"></span>"
+"\n"
+"<span id=\"oa_step_deadline_response\" class=\"date ora-datetime\" data-datetime=\"%(due_date)s\" data-string=\"due {date} (%(time_until)s ਵਿੱਚ)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>"
 
 #: templates/legacy/response/oa_response.html:54
 #: templates/legacy/self/oa_self_assessment.html:56
@@ -1565,8 +1565,8 @@ msgid ""
 "                        Your work will save automatically and you can return to complete your team's response at any time before the due date\n"
 "                      "
 msgstr ""
-"ਤੁਹਾਡਾ ਕੰਮ ਆਪਣੇ ਆਪ ਸੁਰੱਖਿਅਤ ਹੋ ਜਾਵੇਗਾ ਅਤੇ ਤੁਸੀਂ ਨਿਯਤ ਮਿਤੀ ਤੋਂ ਪਹਿਲਾਂ ਕਿਸੇ ਵੀ"
-" ਸਮੇਂ ਆਪਣੀ ਟੀਮ ਦੇ ਜਵਾਬ ਨੂੰ ਪੂਰਾ ਕਰਨ ਲਈ ਵਾਪਸ ਆ ਸਕਦੇ ਹੋ।"
+"\n"
+"ਤੁਹਾਡਾ ਕੰਮ ਆਪਣੇ ਆਪ ਸੁਰੱਖਿਅਤ ਹੋ ਜਾਵੇਗਾ ਅਤੇ ਤੁਸੀਂ ਨਿਯਤ ਮਿਤੀ ਤੋਂ ਪਹਿਲਾਂ ਕਿਸੇ ਵੀ ਸਮੇਂ ਆਪਣੀ ਟੀਮ ਦੇ ਜਵਾਬ ਨੂੰ ਪੂਰਾ ਕਰਨ ਲਈ ਵਾਪਸ ਆ ਸਕਦੇ ਹੋ।"
 
 #: templates/legacy/response/oa_response.html:81
 msgid ""
@@ -1574,8 +1574,8 @@ msgid ""
 "                        Your work will save automatically and you can return to complete your team's response at any time.\n"
 "                      "
 msgstr ""
-"ਤੁਹਾਡਾ ਕੰਮ ਆਪਣੇ ਆਪ ਸੁਰੱਖਿਅਤ ਹੋ ਜਾਵੇਗਾ ਅਤੇ ਤੁਸੀਂ ਕਿਸੇ ਵੀ ਸਮੇਂ ਆਪਣੀ ਟੀਮ ਦੇ "
-"ਜਵਾਬ ਨੂੰ ਪੂਰਾ ਕਰਨ ਲਈ ਵਾਪਸ ਆ ਸਕਦੇ ਹੋ।"
+"\n"
+"ਤੁਹਾਡਾ ਕੰਮ ਆਪਣੇ ਆਪ ਸੁਰੱਖਿਅਤ ਹੋ ਜਾਵੇਗਾ ਅਤੇ ਤੁਸੀਂ ਕਿਸੇ ਵੀ ਸਮੇਂ ਆਪਣੀ ਟੀਮ ਦੇ ਜਵਾਬ ਨੂੰ ਪੂਰਾ ਕਰਨ ਲਈ ਵਾਪਸ ਆ ਸਕਦੇ ਹੋ।"
 
 #: templates/legacy/response/oa_response.html:86
 msgid ""
@@ -1648,6 +1648,7 @@ msgid ""
 "                                              and will not be a part of your team's submission or assignment grade.\n"
 "                                          "
 msgstr ""
+"\n"
 "%(team_members_with_external_submissions)s\n"
 "ਨੇ ਪਹਿਲਾਂ ਹੀ ਕਿਸੇ ਹੋਰ ਟੀਮ ਨਾਲ ਇਸ ਅਸਾਈਨਮੈਂਟ ਦਾ ਜਵਾਬ ਜਮ੍ਹਾ ਕਰ ਦਿੱਤਾ ਹੈ/ਕਰ ਚੁੱਕੇ ਹਨ,\n"
 "ਅਤੇ ਤੁਹਾਡੀ ਟੀਮ ਦੇ ਸਬਮਿਸ਼ਨ ਜਾਂ ਅਸਾਈਨਮੈਂਟ ਗ੍ਰੇਡ ਦਾ ਹਿੱਸਾ ਨਹੀਂ ਹੋਣਗੇ।"
@@ -1680,6 +1681,7 @@ msgid ""
 "                                              member should submit.\n"
 "                                          "
 msgstr ""
+"\n"
 "ਟੀਮਾਂ ਨੂੰ ਪੂਰੀ ਟੀਮ ਵੱਲੋਂ ਜਵਾਬ ਜਮ੍ਹਾਂ ਕਰਾਉਣ ਲਈ ਇੱਕ ਟੀਮ ਮੈਂਬਰ ਨੂੰ ਨਿਯੁਕਤ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ। ਟੀਮ ਦੇ ਸਾਰੇ ਮੈਂਬਰ ਡਰਾਫਟ ਜਵਾਬਾਂ 'ਤੇ ਕੰਮ ਕਰਨ ਲਈ ਇਸ ਜਗ੍ਹਾ ਦੀ ਵਰਤੋਂ ਕਰ ਸਕਦੇ ਹਨ,\n"
 "ਪਰ ਤੁਸੀਂ ਇਸ ਜਗ੍ਹਾ ਵਿੱਚ ਆਪਣੇ ਸਾਥੀਆਂ ਦੇ ਬਣਾਏ ਗਏ ਡਰਾਫਟ ਨਹੀਂ ਦੇਖ ਸਕੋਗੇ, ਇਸ ਲਈ\n"
 "ਕਿਰਪਾ ਕਰਕੇ ਉਨ੍ਹਾਂ ਨਾਲ ਤਾਲਮੇਲ ਕਰੋ ਤਾਂ ਜੋ ਨਿਰਧਾਰਤ ਟੀਮ\n"
@@ -1700,6 +1702,7 @@ msgid ""
 "                                      receive a grade for their submission.\n"
 "                                  "
 msgstr ""
+"\n"
 "ਤੁਸੀਂ ਇਸ ਵੇਲੇ ਟੀਮ %(team_name)s 'ਤੇ ਹੋ। ਕਿਉਂਕਿ ਤੁਸੀਂ ਟੀਮ %(previous_team_name)s\n"
 "'ਤੇ ਸੀ ਜਦੋਂ ਉਹਨਾਂ ਨੇ ਇਸ ਅਸਾਈਨਮੈਂਟ ਦਾ ਜਵਾਬ ਜਮ੍ਹਾ ਕੀਤਾ ਸੀ, ਤੁਸੀਂ ਟੀਮ %(previous_team_name)s\n"
 "ਦਾ ਜਵਾਬ ਦੇਖ ਰਹੇ ਹੋ ਅਤੇ ਤੁਹਾਨੂੰ ਇਸ ਅਸਾਈਨਮੈਂਟ ਲਈ ਉਹੀ ਗ੍ਰੇਡ ਮਿਲੇਗਾ ਜੋ ਤੁਹਾਡੇ ਸਾਬਕਾ ਸਾਥੀਆਂ ਲਈ ਹੈ।\n"
@@ -1724,9 +1727,8 @@ msgid ""
 "                                  descriptions to your files to help your teammates identify them.\n"
 "                              "
 msgstr ""
-"ਹੇਠਾਂ ਤੁਹਾਡੇ ਅਤੇ ਤੁਹਾਡੇ ਸਾਥੀਆਂ ਦੁਆਰਾ ਅਪਲੋਡ ਕੀਤੀਆਂ ਫਾਈਲਾਂ ਨੂੰ ਅਪਲੋਡ ਕਰੋ ਅਤੇ "
-"ਸਮੀਖਿਆ ਕਰੋ। ਆਪਣੇ ਸਾਥੀਆਂ ਦੀ ਪਛਾਣ ਕਰਨ ਵਿੱਚ ਮਦਦ ਕਰਨ ਲਈ ਆਪਣੀਆਂ ਫਾਈਲਾਂ ਵਿੱਚ ਵੇਰਵੇ"
-" ਸ਼ਾਮਲ ਕਰਨਾ ਯਕੀਨੀ ਬਣਾਓ।"
+"\n"
+"ਹੇਠਾਂ ਤੁਹਾਡੇ ਅਤੇ ਤੁਹਾਡੇ ਸਾਥੀਆਂ ਦੁਆਰਾ ਅਪਲੋਡ ਕੀਤੀਆਂ ਫਾਈਲਾਂ ਨੂੰ ਅਪਲੋਡ ਕਰੋ ਅਤੇ ਸਮੀਖਿਆ ਕਰੋ। ਆਪਣੇ ਸਾਥੀਆਂ ਦੀ ਪਛਾਣ ਕਰਨ ਵਿੱਚ ਮਦਦ ਕਰਨ ਲਈ ਆਪਣੀਆਂ ਫਾਈਲਾਂ ਵਿੱਚ ਵੇਰਵੇ ਸ਼ਾਮਲ ਕਰਨਾ ਯਕੀਨੀ ਬਣਾਓ।"
 
 #: templates/legacy/response/oa_response.html:261
 msgid "We could not upload files"
@@ -1791,9 +1793,8 @@ msgid ""
 "                  Learn more about team assignments here: (<a target=\"_blank\" href=\"https://support.edx.org/hc/en-us/articles/360000191067-Submit-your-response#h_01FVD8SXM9E5H2DNAG87X25ZHR\">link</a>)\n"
 "                  "
 msgstr ""
-"ਟੀਮ ਅਸਾਈਨਮੈਂਟਾਂ ਬਾਰੇ ਹੋਰ ਜਾਣਕਾਰੀ ਇੱਥੇ ਪ੍ਰਾਪਤ ਕਰੋ: (<a target=\"_blank\" "
-"href=\"https://support.edx.org/hc/en-us/articles/360000191067-Submit-your-"
-"response#h_01FVD8SXM9E5H2DNAG87X25ZHR\">ਲਿੰਕ</a>)"
+"\n"
+"ਟੀਮ ਅਸਾਈਨਮੈਂਟਾਂ ਬਾਰੇ ਹੋਰ ਜਾਣਕਾਰੀ ਇੱਥੇ ਪ੍ਰਾਪਤ ਕਰੋ: (<a target=\"_blank\" href=\"https://support.edx.org/hc/en-us/articles/360000191067-Submit-your-response#h_01FVD8SXM9E5H2DNAG87X25ZHR\">ਲਿੰਕ</a>)"
 
 #: templates/legacy/response/oa_response.html:323
 msgid "We could not submit your response"
@@ -1814,8 +1815,8 @@ msgid ""
 "                                Your submission has been cancelled by %(removed_by_username)s on %(removed_datetime)s\n"
 "                            "
 msgstr ""
-"ਤੁਹਾਡੀ ਸਬਮਿਸ਼ਨ %(removed_by_username)s ਦੁਆਰਾ %(removed_datetime)s 'ਤੇ ਰੱਦ ਕਰ"
-" ਦਿੱਤੀ ਗਈ ਹੈ।"
+"\n"
+"ਤੁਹਾਡੀ ਸਬਮਿਸ਼ਨ %(removed_by_username)s ਦੁਆਰਾ %(removed_datetime)s 'ਤੇ ਰੱਦ ਕਰ ਦਿੱਤੀ ਗਈ ਹੈ।"
 
 #: templates/legacy/response/oa_response_cancelled.html:41
 #, python-format
@@ -1823,7 +1824,9 @@ msgid ""
 "\n"
 "                               Your submission was cancelled on %(removed_datetime)s\n"
 "                            "
-msgstr "ਤੁਹਾਡੀ ਸਪੁਰਦਗੀ %(removed_datetime)s ਨੂੰ ਰੱਦ ਕਰ ਦਿੱਤੀ ਗਈ ਸੀ।"
+msgstr ""
+"\n"
+"ਤੁਹਾਡੀ ਸਪੁਰਦਗੀ %(removed_datetime)s ਨੂੰ ਰੱਦ ਕਰ ਦਿੱਤੀ ਗਈ ਸੀ।"
 
 #: templates/legacy/response/oa_response_cancelled.html:48
 #, python-format
@@ -1831,7 +1834,9 @@ msgid ""
 "\n"
 "                            Comments: %(comments)s\n"
 "                        "
-msgstr "ਟਿੱਪਣੀਆਂ: %(ਟਿੱਪਣੀਆਂ)s"
+msgstr ""
+"\n"
+"ਟਿੱਪਣੀਆਂ: %(comments)s"
 
 #: templates/legacy/response/oa_response_closed.html:19
 #: templates/legacy/self/oa_self_closed.html:20
@@ -1884,8 +1889,8 @@ msgid ""
 "                        You still need to complete the %(peer_start_tag)speer assessment%(end_tag)s and %(self_start_tag)sself assessment%(end_tag)s steps.\n"
 "                    "
 msgstr ""
-"ਤੁਹਾਨੂੰ ਅਜੇ ਵੀ %(peer_start_tag)speer assessment%(end_tag)s ਅਤੇ "
-"%(self_start_tag)sself assessment%(end_tag)s ਕਦਮ ਪੂਰੇ ਕਰਨ ਦੀ ਲੋੜ ਹੈ।"
+"\n"
+"ਤੁਹਾਨੂੰ ਅਜੇ ਵੀ %(peer_start_tag)speer assessment%(end_tag)s ਅਤੇ %(self_start_tag)sself assessment%(end_tag)s ਕਦਮ ਪੂਰੇ ਕਰਨ ਦੀ ਲੋੜ ਹੈ।"
 
 #: templates/legacy/response/oa_response_submitted.html:38
 #, python-format
@@ -1894,8 +1899,8 @@ msgid ""
 "                        You still need to complete the %(start_tag)speer assessment%(end_tag)s step.\n"
 "                    "
 msgstr ""
-"ਤੁਹਾਨੂੰ ਅਜੇ ਵੀ %(start_tag)speer assessment%(end_tag)s ਸਟੈਪ ਨੂੰ ਪੂਰਾ ਕਰਨ ਦੀ "
-"ਲੋੜ ਹੈ।"
+"\n"
+"ਤੁਹਾਨੂੰ ਅਜੇ ਵੀ %(start_tag)speer assessment%(end_tag)s ਸਟੈਪ ਨੂੰ ਪੂਰਾ ਕਰਨ ਦੀ ਲੋੜ ਹੈ।"
 
 #: templates/legacy/response/oa_response_submitted.html:42
 #, python-format
@@ -1904,8 +1909,8 @@ msgid ""
 "                        You still need to complete the %(start_tag)sself assessment%(end_tag)s step.\n"
 "                    "
 msgstr ""
-"ਤੁਹਾਨੂੰ ਅਜੇ ਵੀ %(start_tag)ssself assessment%(end_tag)s ਸਟੈਪ ਨੂੰ ਪੂਰਾ ਕਰਨ ਦੀ"
-" ਲੋੜ ਹੈ।"
+"\n"
+"ਤੁਹਾਨੂੰ ਅਜੇ ਵੀ %(start_tag)ssself assessment%(end_tag)s ਸਟੈਪ ਨੂੰ ਪੂਰਾ ਕਰਨ ਦੀ ਲੋੜ ਹੈ।"
 
 #: templates/legacy/response/oa_response_submitted.html:63
 msgid "We could not reset your response"
@@ -1929,6 +1934,7 @@ msgid ""
 "                            options for this assignment.\n"
 "                        "
 msgstr ""
+"\n"
 "ਤੁਸੀਂ ਟੀਮ %(team_name)s ਵਿੱਚ ਇਸ ਅਸਾਈਨਮੈਂਟ ਲਈ ਜਵਾਬ ਜਮ੍ਹਾਂ ਕਰਨ ਤੋਂ ਬਾਅਦ ਸ਼ਾਮਲ ਹੋਏ ਹੋ\n"
 "ਅਤੇ ਤੁਹਾਨੂੰ ਉਨ੍ਹਾਂ ਦੇ ਜਵਾਬ ਲਈ ਕੋਈ ਗ੍ਰੇਡ ਨਹੀਂ ਮਿਲੇਗਾ। ਤੁਸੀਂ ਪਹਿਲਾਂ ਕਿਸੇ ਹੋਰ ਟੀਮ ਨਾਲ ਇਸ ਅਸਾਈਨਮੈਂਟ ਦਾ ਜਵਾਬ ਵੀ ਜਮ੍ਹਾਂ ਨਹੀਂ ਕਰਵਾਇਆ ਹੈ। ਇਸ ਅਸਾਈਨਮੈਂਟ ਲਈ ਆਪਣੇ\n"
 "ਵਿਕਲਪਾਂ ਬਾਰੇ ਚਰਚਾ ਕਰਨ ਲਈ ਕਿਰਪਾ ਕਰਕੇ ਕੋਰਸ ਸਟਾਫ ਨਾਲ ਸੰਪਰਕ ਕਰੋ।"
@@ -1947,10 +1953,8 @@ msgid ""
 "               <span id=\"oa_step_deadline_self\" class=\"date ora-datetime\" data-datetime=\"%(start_date)s\" data-string=\"available {date} (in %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
 "           "
 msgstr ""
-"<span id=\"oa_step_deadline_self\" class=\"date ora-datetime\" data-"
-"datetime=\"%(start_date)s\" data-string=\"ਉਪਲਬਧ {date} (%(time_until)s "
-"ਵਿੱਚ)\" data-timezone=\"%(user_timezone)s\" data-"
-"language=\"%(user_language)s\"></span>"
+"\n"
+"<span id=\"oa_step_deadline_self\" class=\"date ora-datetime\" data-datetime=\"%(start_date)s\" data-string=\"ਉਪਲਬਧ {date} (%(time_until)s ਵਿੱਚ)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>"
 
 #. Translators: This string displays a date to the user, then tells them the
 #. time until that date.  Example: "due August 13th, 2014 (in 5 days and 45
@@ -1962,10 +1966,8 @@ msgid ""
 "               <span id=\"oa_step_deadline_self\" class=\"date ora-datetime\" data-datetime=\"%(due_date)s\" data-string=\"due {date} (in %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
 "           "
 msgstr ""
-"<span id=\"oa_step_deadline_self\" class=\"date ora-datetime\" data-"
-"datetime=\"%(due_date)s\" data-string=\"due {date} (%(time_until)s ਵਿੱਚ)\" "
-"data-timezone=\"%(user_timezone)s\" data-"
-"language=\"%(user_language)s\"></span>"
+"\n"
+"<span id=\"oa_step_deadline_self\" class=\"date ora-datetime\" data-datetime=\"%(due_date)s\" data-string=\"due {date} (%(time_until)s ਵਿੱਚ)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>"
 
 #: templates/legacy/self/oa_self_assessment.html:88
 msgid "Submit your assessment"
@@ -2081,7 +2083,9 @@ msgid ""
 "\n"
 "                                        Response for: %(team_name)s with %(team_usernames)s\n"
 "                                    "
-msgstr "%(team_name)s ਲਈ ਜਵਾਬ: %(team_usernames)s ਦੇ ਨਾਲ"
+msgstr ""
+"\n"
+"%(team_name)s ਲਈ ਜਵਾਬ: %(team_usernames)s ਦੇ ਨਾਲ"
 
 #: templates/legacy/staff_area/oa_staff_grade_learners_assessment.html:30
 #: templates/legacy/staff_area/oa_staff_override_assessment.html:20
@@ -2090,7 +2094,9 @@ msgid ""
 "\n"
 "                                        Response for: %(student_username)s\n"
 "                                    "
-msgstr "ਜਵਾਬ: %(student_username)s"
+msgstr ""
+"\n"
+"ਜਵਾਬ: %(student_username)s"
 
 #: templates/legacy/staff_area/oa_staff_grade_learners_assessment.html:34
 #: templates/legacy/staff_area/oa_staff_override_assessment.html:24
@@ -2122,7 +2128,9 @@ msgid ""
 "\n"
 "                %(ungraded)s Available and %(in_progress)s Checked Out\n"
 "            "
-msgstr "%(ungraded)s ਉਪਲਬਧ ਹੈ ਅਤੇ %(in_progress)s ਚੈੱਕ ਆਊਟ ਕੀਤਾ ਗਿਆ ਹੈ"
+msgstr ""
+"\n"
+"%(ungraded)s ਉਪਲਬਧ ਹੈ ਅਤੇ %(in_progress)s ਚੈੱਕ ਆਊਟ ਕੀਤਾ ਗਿਆ ਹੈ"
 
 #: templates/legacy/staff_area/oa_staff_override_assessment.html:7
 msgid "Override this learner's current grade using the problem's rubric."
@@ -2149,7 +2157,9 @@ msgid ""
 "\n"
 "                    Viewing learner: %(learner)s\n"
 "                "
-msgstr "ਦੇਖਣ ਵਾਲਾ ਸਿਖਿਆਰਥੀ: %(ਸਿੱਖਿਆਰਥੀ)s"
+msgstr ""
+"\n"
+"ਦੇਖਣ ਵਾਲਾ ਸਿਖਿਆਰਥੀ: %(student)s"
 
 #: templates/legacy/staff_area/oa_student_info.html:15
 #, python-format
@@ -2157,7 +2167,9 @@ msgid ""
 "\n"
 "                    Viewing team: %(team)s\n"
 "                "
-msgstr "ਦੇਖਣ ਵਾਲੀ ਟੀਮ: %(team)s"
+msgstr ""
+"\n"
+"ਦੇਖਣ ਵਾਲੀ ਟੀਮ: %(team)s"
 
 #: templates/legacy/staff_area/oa_student_info.html:28
 msgid "Learner's Response"
@@ -2174,8 +2186,8 @@ msgid ""
 "                            Learner submission removed by %(removed_by_username)s on %(removed_datetime)s\n"
 "                        "
 msgstr ""
-"%(removed_by_username)s ਦੁਆਰਾ %(removed_datetime)s 'ਤੇ ਸਿੱਖਿਅਕ ਸਬਮਿਸ਼ਨ ਹਟਾਈ "
-"ਗਈ"
+"\n"
+"%(removed_by_username)s ਦੁਆਰਾ %(removed_datetime)s 'ਤੇ ਸਿੱਖਿਅਕ ਸਬਮਿਸ਼ਨ ਹਟਾਈ ਗਈ"
 
 #: templates/legacy/staff_area/oa_student_info.html:43
 #, python-format
@@ -2183,7 +2195,9 @@ msgid ""
 "\n"
 "                            Learner submission removed on %(removed_datetime)s\n"
 "                        "
-msgstr "%(removed_datetime)s ਨੂੰ ਸਿੱਖਣ ਵਾਲੇ ਦੀ ਸਬਮਿਸ਼ਨ ਹਟਾਈ ਗਈ"
+msgstr ""
+"\n"
+"%(removed_datetime)s ਨੂੰ ਸਿੱਖਣ ਵਾਲੇ ਦੀ ਸਬਮਿਸ਼ਨ ਹਟਾਈ ਗਈ"
 
 #: templates/legacy/staff_area/oa_student_info.html:50
 #, python-format
@@ -2191,7 +2205,9 @@ msgid ""
 "\n"
 "                        Comments: %(comments)s\n"
 "                    "
-msgstr "ਟਿੱਪਣੀਆਂ: %(ਟਿੱਪਣੀਆਂ)s"
+msgstr ""
+"\n"
+"ਟਿੱਪਣੀਆਂ: %(comments)s"
 
 #: templates/legacy/staff_area/oa_student_info.html:71
 msgid "Peer Assessments for This Learner"
@@ -2227,7 +2243,9 @@ msgid ""
 "\n"
 "                            Final grade: %(points_earned)s out of %(points_possible)s\n"
 "                        "
-msgstr "ਅੰਤਿਮ ਗ੍ਰੇਡ: %(points_possible)s ਵਿੱਚੋਂ %(points_earned)s"
+msgstr ""
+"\n"
+"ਅੰਤਿਮ ਗ੍ਰੇਡ: %(points_possible)s ਵਿੱਚੋਂ %(points_earned)s"
 
 #: templates/legacy/staff_area/oa_student_info.html:119
 msgid "Final Grade Details"
@@ -2243,8 +2261,12 @@ msgid_plural ""
 "\n"
 "                                        %(assessment_label)s - %(points)s points\n"
 "                                    "
-msgstr[0] "%(assessment_label)s - %(points)s ਅੰਕ"
-msgstr[1] "%(assessment_label)s - %(points)s ਅੰਕ"
+msgstr[0] ""
+"\n"
+"%(assessment_label)s - %(points)s ਅੰਕ"
+msgstr[1] ""
+"\n"
+"%(assessment_label)s - %(points)s ਅੰਕ"
 
 #: templates/legacy/staff_area/oa_student_info.html:154
 msgid "Feedback Recorded"
@@ -2358,7 +2380,9 @@ msgid ""
 "\n"
 "                            Assessment %(assessment_num)s:\n"
 "                        "
-msgstr "ਮੁਲਾਂਕਣ %(assessment_num):"
+msgstr ""
+"\n"
+"ਮੁਲਾਂਕਣ %(assessment_num):"
 
 #: templates/legacy/staff_area/oa_student_info_assessment_detail.html:22
 msgid "Assessment Details"
@@ -2387,6 +2411,7 @@ msgid ""
 "                      In Progress (%(current_progress_num)s of %(training_available_num)s)\n"
 "                  "
 msgstr ""
+"\n"
 "ਪ੍ਰਗਤੀ ਅਧੀਨ (%(current_progress_num)s ਵਿੱਚੋਂ %(training_available_num)s)"
 
 #. Translators: This string displays a date to the user, then tells them the
@@ -2399,10 +2424,8 @@ msgid ""
 "            <span id=\"oa_step_deadline\" class=\"date ora-datetime\" data-datetime=\"%(start_date)s\" data-string=\"available {date} (in %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
 "            "
 msgstr ""
-"<span id=\"oa_step_deadline\" class=\"date ora-datetime\" data-"
-"datetime=\"%(start_date)s\" data-string=\"ਉਪਲਬਧ {date} (%(time_until)s "
-"ਵਿੱਚ)\" data-timezone=\"%(user_timezone)s\" data-"
-"language=\"%(user_language)s\"></span>"
+"\n"
+"<span id=\"oa_step_deadline\" class=\"date ora-datetime\" data-datetime=\"%(start_date)s\" data-string=\"ਉਪਲਬਧ {date} (%(time_until)s ਵਿੱਚ)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>"
 
 #. Translators: This string displays a date to the user, then tells them the
 #. time until that date.  Example: "due August 13th, 2014 (in 5 days and 45
@@ -2414,10 +2437,8 @@ msgid ""
 "            <span id=\"oa_step_deadline\" class=\"date ora-datetime\" data-datetime=\"%(due_date)s\" data-string=\"due {date} (in %(time_until)s)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>\n"
 "            "
 msgstr ""
-"<span id=\"oa_step_deadline\" class=\"date ora-datetime\" data-"
-"datetime=\"%(due_date)s\" data-string=\"due {date} (%(time_until)s ਵਿੱਚ)\" "
-"data-timezone=\"%(user_timezone)s\" data-"
-"language=\"%(user_language)s\"></span>"
+"\n"
+"<span id=\"oa_step_deadline\" class=\"date ora-datetime\" data-datetime=\"%(due_date)s\" data-string=\"due {date} (%(time_until)s ਵਿੱਚ)\" data-timezone=\"%(user_timezone)s\" data-language=\"%(user_language)s\"></span>"
 
 #: templates/legacy/student_training/student_training.html:58
 #: templates/legacy/student_training/student_training.html:66

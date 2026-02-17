@@ -2944,7 +2944,9 @@ msgid ""
 "\n"
 "                    Proctoring requirements for %(course_name)s\n"
 "                "
-msgstr "%(course_name)s ਲਈ ਪ੍ਰੋਕਟਰਿੰਗ ਲੋੜਾਂ"
+msgstr ""
+"\n"
+"%(course_name)s ਲਈ ਪ੍ਰੋਕਟਰਿੰਗ ਲੋੜਾਂ"
 
 #: common/templates/student/edx_ace/proctoringrequirements/email/body.html:20
 #, python-format
@@ -2952,7 +2954,9 @@ msgid ""
 "\n"
 "                    Hello %(full_name)s,\n"
 "                "
-msgstr "ਹੈਲੋ %(ਪੂਰਾ_ਨਾਮ)s,"
+msgstr ""
+"\n"
+"ਹੈਲੋ %(ਪੂਰਾ_ਨਾਮ)s,"
 
 #: common/templates/student/edx_ace/proctoringrequirements/email/body.html:29
 #, python-format
@@ -2961,8 +2965,8 @@ msgid ""
 "                    You are enrolled in %(course_name)s at %(platform_name)s. This course contains proctored exams.\n"
 "                "
 msgstr ""
-"ਤੁਸੀਂ %(platform_name)s 'ਤੇ %(course_name)s ਵਿੱਚ ਦਾਖਲ ਹੋ। ਇਸ ਕੋਰਸ ਵਿੱਚ "
-"ਪ੍ਰੋਕਟੋਰਡ ਪ੍ਰੀਖਿਆਵਾਂ ਸ਼ਾਮਲ ਹਨ।"
+"\n"
+"ਤੁਸੀਂ %(platform_name)s 'ਤੇ %(course_name)s ਵਿੱਚ ਦਾਖਲ ਹੋ। ਇਸ ਕੋਰਸ ਵਿੱਚ ਪ੍ਰੋਕਟੋਰਡ ਪ੍ਰੀਖਿਆਵਾਂ ਸ਼ਾਮਲ ਹਨ।"
 
 #: common/templates/student/edx_ace/proctoringrequirements/email/body.html:38
 #, python-format
@@ -2971,10 +2975,8 @@ msgid ""
 "                    Proctored exams are timed exams that you take while proctoring software monitors your computer's desktop, webcam video, and audio. Your course uses %(proctoring_provider)s software for proctoring.\n"
 "                "
 msgstr ""
-"ਪ੍ਰੋਕਟਰਡ ਪ੍ਰੀਖਿਆਵਾਂ ਉਹ ਸਮਾਂਬੱਧ ਪ੍ਰੀਖਿਆਵਾਂ ਹੁੰਦੀਆਂ ਹਨ ਜੋ ਤੁਸੀਂ ਲੈਂਦੇ ਹੋ ਜਦੋਂ "
-"ਪ੍ਰੋਕਟਰਿੰਗ ਸੌਫਟਵੇਅਰ ਤੁਹਾਡੇ ਕੰਪਿਊਟਰ ਦੇ ਡੈਸਕਟੌਪ, ਵੈਬਕੈਮ ਵੀਡੀਓ ਅਤੇ ਆਡੀਓ ਦੀ "
-"ਨਿਗਰਾਨੀ ਕਰਦਾ ਹੈ। ਤੁਹਾਡਾ ਕੋਰਸ ਪ੍ਰੋਕਟਰਿੰਗ ਲਈ %(proctoring_provider)s ਸੌਫਟਵੇਅਰ "
-"ਦੀ ਵਰਤੋਂ ਕਰਦਾ ਹੈ।"
+"\n"
+"ਪ੍ਰੋਕਟਰਡ ਪ੍ਰੀਖਿਆਵਾਂ ਉਹ ਸਮਾਂਬੱਧ ਪ੍ਰੀਖਿਆਵਾਂ ਹੁੰਦੀਆਂ ਹਨ ਜੋ ਤੁਸੀਂ ਲੈਂਦੇ ਹੋ ਜਦੋਂ ਪ੍ਰੋਕਟਰਿੰਗ ਸੌਫਟਵੇਅਰ ਤੁਹਾਡੇ ਕੰਪਿਊਟਰ ਦੇ ਡੈਸਕਟੌਪ, ਵੈਬਕੈਮ ਵੀਡੀਓ ਅਤੇ ਆਡੀਓ ਦੀ ਨਿਗਰਾਨੀ ਕਰਦਾ ਹੈ। ਤੁਹਾਡਾ ਕੋਰਸ ਪ੍ਰੋਕਟਰਿੰਗ ਲਈ %(proctoring_provider)s ਸੌਫਟਵੇਅਰ ਦੀ ਵਰਤੋਂ ਕਰਦਾ ਹੈ।"
 
 #: common/templates/student/edx_ace/proctoringrequirements/email/body.html:46
 msgid ""
@@ -2982,15 +2984,17 @@ msgid ""
 "                    Carefully review the system requirements as well as the steps to take a proctored exam in order to ensure that you are prepared.\n"
 "                "
 msgstr ""
-"ਇਹ ਯਕੀਨੀ ਬਣਾਉਣ ਲਈ ਕਿ ਤੁਸੀਂ ਤਿਆਰ ਹੋ, ਸਿਸਟਮ ਜ਼ਰੂਰਤਾਂ ਦੇ ਨਾਲ-ਨਾਲ ਪ੍ਰੋਕਟੋਰਡ "
-"ਪ੍ਰੀਖਿਆ ਦੇਣ ਦੇ ਕਦਮਾਂ ਦੀ ਧਿਆਨ ਨਾਲ ਸਮੀਖਿਆ ਕਰੋ।"
+"\n"
+"ਇਹ ਯਕੀਨੀ ਬਣਾਉਣ ਲਈ ਕਿ ਤੁਸੀਂ ਤਿਆਰ ਹੋ, ਸਿਸਟਮ ਜ਼ਰੂਰਤਾਂ ਦੇ ਨਾਲ-ਨਾਲ ਪ੍ਰੋਕਟੋਰਡ ਪ੍ਰੀਖਿਆ ਦੇਣ ਦੇ ਕਦਮਾਂ ਦੀ ਧਿਆਨ ਨਾਲ ਸਮੀਖਿਆ ਕਰੋ।"
 
 #: common/templates/student/edx_ace/proctoringrequirements/email/body.html:53
 msgid ""
 "\n"
 "                Proctoring Instructions and Requirements\n"
 "            "
-msgstr "ਪ੍ਰੋਕਟਰਿੰਗ ਨਿਰਦੇਸ਼ ਅਤੇ ਜ਼ਰੂਰਤਾਂ"
+msgstr ""
+"\n"
+"ਪ੍ਰੋਕਟਰਿੰਗ ਨਿਰਦੇਸ਼ ਅਤੇ ਜ਼ਰੂਰਤਾਂ"
 
 #: common/templates/student/edx_ace/proctoringrequirements/email/body.html:60
 #: common/templates/student/edx_ace/proctoringrequirements/email/body.txt:11
@@ -3859,7 +3863,9 @@ msgid ""
 "\n"
 "            You’re almost there, %(user_name)s!\n"
 "        "
-msgstr "ਤੁਸੀਂ ਲਗਭਗ ਉੱਥੇ ਹੋ ਗਏ ਹੋ, %(user_name)s!"
+msgstr ""
+"\n"
+"ਤੁਸੀਂ ਲਗਭਗ ਉੱਥੇ ਹੋ ਗਏ ਹੋ, %(user_name)s!"
 
 #: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:49
 #, python-format, python-brace-format
@@ -3872,20 +3878,20 @@ msgid_plural ""
 "                    You set a goal of learning {start_bold}%(days_per_week)s times a week in %(course_name)s{end_bold}. Now it’s up to you to make those goals a reality.\n"
 "                "
 msgstr[0] ""
-"ਤੁਸੀਂ %(course_name)s{end_bold} ਵਿੱਚ ਹਫ਼ਤੇ ਵਿੱਚ {start_bold}%(days_per_week)"
-" ਦਾ ਸਮਾਂ ਸਿੱਖਣ ਦਾ ਟੀਚਾ ਰੱਖਿਆ ਹੈ। ਹੁਣ ਇਹ ਤੁਹਾਡੇ 'ਤੇ ਨਿਰਭਰ ਕਰਦਾ ਹੈ ਕਿ ਤੁਸੀਂ "
-"ਉਨ੍ਹਾਂ ਟੀਚਿਆਂ ਨੂੰ ਹਕੀਕਤ ਵਿੱਚ ਬਦਲੋ।"
+"\n"
+"ਤੁਸੀਂ %(course_name)s{end_bold} ਵਿੱਚ ਹਫ਼ਤੇ ਵਿੱਚ {start_bold}%(days_per_week) ਦਾ ਸਮਾਂ ਸਿੱਖਣ ਦਾ ਟੀਚਾ ਰੱਖਿਆ ਹੈ। ਹੁਣ ਇਹ ਤੁਹਾਡੇ 'ਤੇ ਨਿਰਭਰ ਕਰਦਾ ਹੈ ਕਿ ਤੁਸੀਂ ਉਨ੍ਹਾਂ ਟੀਚਿਆਂ ਨੂੰ ਹਕੀਕਤ ਵਿੱਚ ਬਦਲੋ।"
 msgstr[1] ""
-"ਤੁਸੀਂ %(course_name)s{end_bold} ਵਿੱਚ ਹਫ਼ਤੇ ਵਿੱਚ {start_bold}%(days_per_week)"
-" ਦਾ ਸਮਾਂ ਸਿੱਖਣ ਦਾ ਟੀਚਾ ਰੱਖਿਆ ਹੈ। ਹੁਣ ਇਹ ਤੁਹਾਡੇ 'ਤੇ ਨਿਰਭਰ ਕਰਦਾ ਹੈ ਕਿ ਤੁਸੀਂ "
-"ਉਨ੍ਹਾਂ ਟੀਚਿਆਂ ਨੂੰ ਹਕੀਕਤ ਵਿੱਚ ਬਦਲੋ।"
+"\n"
+"ਤੁਸੀਂ %(course_name)s{end_bold} ਵਿੱਚ ਹਫ਼ਤੇ ਵਿੱਚ {start_bold}%(days_per_week) ਦਾ ਸਮਾਂ ਸਿੱਖਣ ਦਾ ਟੀਚਾ ਰੱਖਿਆ ਹੈ। ਹੁਣ ਇਹ ਤੁਹਾਡੇ 'ਤੇ ਨਿਰਭਰ ਕਰਦਾ ਹੈ ਕਿ ਤੁਸੀਂ ਉਨ੍ਹਾਂ ਟੀਚਿਆਂ ਨੂੰ ਹਕੀਕਤ ਵਿੱਚ ਬਦਲੋ।"
 
 #: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:79
 msgid ""
 "\n"
 "                        Jump back in\n"
 "                    "
-msgstr "ਵਾਪਸ ਜਾਓ"
+msgstr ""
+"\n"
+"ਵਾਪਸ ਜਾਓ"
 
 #: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:98
 #: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:117
@@ -3907,14 +3913,18 @@ msgid ""
 "\n"
 "                            Unsubscribe from goal reminder emails for this course\n"
 "                        "
-msgstr "ਇਸ ਕੋਰਸ ਲਈ ਟੀਚਾ ਰੀਮਾਈਂਡਰ ਈਮੇਲਾਂ ਤੋਂ ਗਾਹਕੀ ਹਟਾਓ"
+msgstr ""
+"\n"
+"ਇਸ ਕੋਰਸ ਲਈ ਟੀਚਾ ਰੀਮਾਈਂਡਰ ਈਮੇਲਾਂ ਤੋਂ ਗਾਹਕੀ ਹਟਾਓ"
 
 #: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:158
 msgid ""
 "\n"
 "                                Unsubscribe from goal reminder emails for this course\n"
 "                                "
-msgstr "ਇਸ ਕੋਰਸ ਲਈ ਟੀਚਾ ਰੀਮਾਈਂਡਰ ਈਮੇਲਾਂ ਤੋਂ ਗਾਹਕੀ ਹਟਾਓ"
+msgstr ""
+"\n"
+"ਇਸ ਕੋਰਸ ਲਈ ਟੀਚਾ ਰੀਮਾਈਂਡਰ ਈਮੇਲਾਂ ਤੋਂ ਗਾਹਕੀ ਹਟਾਓ"
 
 #: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.txt:2
 msgid "You're almost there!"
@@ -4782,7 +4792,9 @@ msgid ""
 "\n"
 "                        %(course_name)s: Reported content awaits review\n"
 "                    "
-msgstr "%(course_name)s: ਰਿਪੋਰਟ ਕੀਤੀ ਸਮੱਗਰੀ ਸਮੀਖਿਆ ਦੀ ਉਡੀਕ ਕਰ ਰਹੀ ਹੈ"
+msgstr ""
+"\n"
+"%(course_name)s: ਰਿਪੋਰਟ ਕੀਤੀ ਸਮੱਗਰੀ ਸਮੀਖਿਆ ਦੀ ਉਡੀਕ ਕਰ ਰਹੀ ਹੈ"
 
 #: lms/djangoapps/discussion/templates/discussion/edx_ace/reportedcontentnotification/email/body.html:24
 #: lms/djangoapps/discussion/templates/discussion/edx_ace/reportedcontentnotification/email/body.txt:18
@@ -4951,8 +4963,8 @@ msgstr ""
 msgid ""
 "Cohort name not found: {cohort}. Ignoring cohort assignment for all users."
 msgstr ""
-"ਸਮੂਹ ਦਾ ਨਾਮ ਨਹੀਂ ਮਿਲਿਆ: {group}। ਸਾਰੇ ਉਪਭੋਗਤਾਵਾਂ ਲਈ ਸਮੂਹ ਅਸਾਈਨਮੈਂਟ ਨੂੰ ਅਣਡਿੱਠ"
-" ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ।"
+"ਸਮੂਹ ਦਾ ਨਾਮ ਨਹੀਂ ਮਿਲਿਆ: {group}। ਸਾਰੇ ਉਪਭੋਗਤਾਵਾਂ ਲਈ ਸਮੂਹ ਅਸਾਈਨਮੈਂਟ ਨੂੰ "
+"ਅਣਡਿੱਠ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ।"
 
 #: lms/djangoapps/instructor/views/api.py:461
 #, python-brace-format
@@ -6021,8 +6033,8 @@ msgid ""
 "Unable to find entrance exam submission to be {action} for student "
 "'{student}'"
 msgstr ""
-"'{student}' ਵਿਦਿਆਰਥੀ ਲਈ {action} ਵਜੋਂ ਦਾਖਲਾ ਪ੍ਰੀਖਿਆ ਜਮ੍ਹਾਂ ਕਰਵਾਉਣਾ ਨਹੀਂ ਲੱਭ"
-" ਸਕਿਆ।"
+"'{student}' ਵਿਦਿਆਰਥੀ ਲਈ {action} ਵਜੋਂ ਦਾਖਲਾ ਪ੍ਰੀਖਿਆ ਜਮ੍ਹਾਂ ਕਰਵਾਉਣਾ ਨਹੀਂ ਲੱਭ "
+"ਸਕਿਆ।"
 
 #. Translators: {action} is a past-tense verb that is localized separately.
 #. {student} is a student identifier.
@@ -6591,7 +6603,9 @@ msgid ""
 "\n"
 "            This email was automatically sent from %(platform_name)s.\n"
 "          "
-msgstr "ਇਹ ਈਮੇਲ %(platform_name)s ਤੋਂ ਆਪਣੇ ਆਪ ਭੇਜੀ ਗਈ ਸੀ।"
+msgstr ""
+"\n"
+"ਇਹ ਈਮੇਲ %(platform_name)s ਤੋਂ ਆਪਣੇ ਆਪ ਭੇਜੀ ਗਈ ਸੀ।"
 
 #: lms/templates/bulk_email/edx_ace/bulkemail/email/body.html:24
 #, python-format
@@ -6600,6 +6614,7 @@ msgid ""
 "            You are receiving this email at address %(email)s because you are enrolled in\n"
 "          "
 msgstr ""
+"\n"
 "ਤੁਹਾਨੂੰ ਇਹ ਈਮੇਲ %(email)s ਪਤੇ 'ਤੇ ਮਿਲ ਰਹੀ ਹੈ ਕਿਉਂਕਿ ਤੁਸੀਂ ਇਸ ਵਿੱਚ ਦਾਖਲ ਹੋ"
 
 #: lms/templates/bulk_email/edx_ace/bulkemail/email/body.html:30
@@ -6608,8 +6623,8 @@ msgid ""
 "            To stop receiving email like this, update your course email settings\n"
 "          "
 msgstr ""
-"ਇਸ ਤਰ੍ਹਾਂ ਦੀ ਈਮੇਲ ਪ੍ਰਾਪਤ ਕਰਨਾ ਬੰਦ ਕਰਨ ਲਈ, ਆਪਣੀਆਂ ਕੋਰਸ ਈਮੇਲ ਸੈਟਿੰਗਾਂ ਨੂੰ "
-"ਅੱਪਡੇਟ ਕਰੋ।"
+"\n"
+"ਇਸ ਤਰ੍ਹਾਂ ਦੀ ਈਮੇਲ ਪ੍ਰਾਪਤ ਕਰਨਾ ਬੰਦ ਕਰਨ ਲਈ, ਆਪਣੀਆਂ ਕੋਰਸ ਈਮੇਲ ਸੈਟਿੰਗਾਂ ਨੂੰ ਅੱਪਡੇਟ ਕਰੋ।"
 
 #: lms/templates/bulk_email/edx_ace/bulkemail/email/body.html:33
 msgid "here"
@@ -6717,8 +6732,8 @@ msgid ""
 "                    You have been invited to be a beta tester for %(course_name)s at %(site_name)s\n"
 "                "
 msgstr ""
-"ਤੁਹਾਨੂੰ %(site_name)s 'ਤੇ %(course_name)s ਲਈ ਬੀਟਾ ਟੈਸਟਰ ਬਣਨ ਲਈ ਸੱਦਾ ਦਿੱਤਾ "
-"ਗਿਆ ਹੈ।"
+"\n"
+"ਤੁਹਾਨੂੰ %(site_name)s 'ਤੇ %(course_name)s ਲਈ ਬੀਟਾ ਟੈਸਟਰ ਬਣਨ ਲਈ ਸੱਦਾ ਦਿੱਤਾ ਗਿਆ ਹੈ।"
 
 #: lms/templates/instructor/edx_ace/addbetatester/email/body.html:20
 msgid "The invitation has been sent by a member of the course staff."
@@ -6980,7 +6995,9 @@ msgid ""
 "\n"
 "                    You have been unenrolled from %(course_name)s\n"
 "                "
-msgstr "ਤੁਹਾਨੂੰ %(course_name)s ਤੋਂ ਹਟਾ ਦਿੱਤਾ ਗਿਆ ਹੈ।"
+msgstr ""
+"\n"
+"ਤੁਹਾਨੂੰ %(course_name)s ਤੋਂ ਹਟਾ ਦਿੱਤਾ ਗਿਆ ਹੈ।"
 
 #: lms/templates/instructor/edx_ace/enrolledunenroll/email/body.html:21
 #: lms/templates/instructor/edx_ace/enrolledunenroll/email/body.txt:3
@@ -7024,7 +7041,9 @@ msgid ""
 "\n"
 "                    You have been enrolled in %(course_name)s\n"
 "                "
-msgstr "ਤੁਸੀਂ %(course_name)s ਵਿੱਚ ਦਾਖਲ ਹੋ ਗਏ ਹੋ।"
+msgstr ""
+"\n"
+"ਤੁਸੀਂ %(course_name)s ਵਿੱਚ ਦਾਖਲ ਹੋ ਗਏ ਹੋ।"
 
 #: lms/templates/instructor/edx_ace/enrollenrolled/email/body.html:21
 #: lms/templates/instructor/edx_ace/enrollenrolled/email/body.txt:3
@@ -7136,8 +7155,8 @@ msgid ""
 "                  This may take a minute. If you are not redirected, go to the home page.\n"
 "                "
 msgstr ""
-"ਇਸ ਵਿੱਚ ਇੱਕ ਮਿੰਟ ਲੱਗ ਸਕਦਾ ਹੈ। ਜੇਕਰ ਤੁਹਾਨੂੰ ਰੀਡਾਇਰੈਕਟ ਨਹੀਂ ਕੀਤਾ ਜਾਂਦਾ, ਤਾਂ "
-"ਹੋਮ ਪੇਜ 'ਤੇ ਜਾਓ।"
+"\n"
+"ਇਸ ਵਿੱਚ ਇੱਕ ਮਿੰਟ ਲੱਗ ਸਕਦਾ ਹੈ। ਜੇਕਰ ਤੁਹਾਨੂੰ ਰੀਡਾਇਰੈਕਟ ਨਹੀਂ ਕੀਤਾ ਜਾਂਦਾ, ਤਾਂ ਹੋਮ ਪੇਜ 'ਤੇ ਜਾਓ।"
 
 #: lms/templates/logout.html:39
 #, python-format, python-brace-format
@@ -8378,6 +8397,7 @@ msgid ""
 "            e.g. \"video\" if a video is staged, or \"vertical\" for a unit.\n"
 "        "
 msgstr ""
+"\n"
 "ਕਿਸ ਕਿਸਮ ਦੀ ਸਮੱਗਰੀ ਸਟੇਜ ਕੀਤੀ ਜਾਂਦੀ ਹੈ। ਸਿਰਫ਼ OLX ਸਮੱਗਰੀ ਸਮਰਥਿਤ ਹੈ, ਅਤੇ\n"
 "ਇਹ ਖੇਤਰ OLX ਦੇ ਰੂਟ ਟੈਗ ਦੇ ਸਮਾਨ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ।\n"
 "ਉਦਾਹਰਨ ਲਈ, ਜੇਕਰ ਕੋਈ ਵੀਡੀਓ ਸਟੇਜ ਕੀਤਾ ਗਿਆ ਹੈ ਤਾਂ \"ਵੀਡੀਓ\", ਜਾਂ ਇੱਕ ਯੂਨਿਟ ਲਈ \"ਵਰਟੀਕਲ\"।"
@@ -14125,8 +14145,12 @@ msgid_plural ""
 "\n"
 "                Learners will see all of the %(num_selected)s selected components, in random order:\n"
 "                "
-msgstr[0] "ਸਿਖਿਆਰਥੀ ਚੁਣੇ ਹੋਏ ਹਿੱਸੇ ਨੂੰ ਵੇਖਣਗੇ:"
-msgstr[1] "ਸਿਖਿਆਰਥੀ ਚੁਣੇ ਹੋਏ ਹਿੱਸੇ ਨੂੰ ਵੇਖਣਗੇ:"
+msgstr[0] ""
+"\n"
+"ਸਿਖਿਆਰਥੀ ਚੁਣੇ ਹੋਏ ਹਿੱਸੇ ਨੂੰ ਵੇਖਣਗੇ:"
+msgstr[1] ""
+"\n"
+"ਸਿਖਿਆਰਥੀ ਚੁਣੇ ਹੋਏ ਹਿੱਸੇ ਨੂੰ ਵੇਖਣਗੇ:"
 
 #: xmodule/templates/item_bank/author_view.html:32
 #, python-brace-format
@@ -26218,6 +26242,7 @@ msgid ""
 "{end_ul_tag}\n"
 "{end_p_tag}\n"
 msgstr ""
+"\n"
 "{p_tag}ਤੁਹਾਡੇ ਕੋਲ ਇਸ ਵੇਲੇ ਕੋਈ ਪੀਅਰ ਗਰੇਡਿੰਗ ਨਹੀਂ ਹੈ। ਪੀਅਰ ਗਰੇਡਿੰਗ ਕਰਨ ਲਈ:\n"
 "{ul_tag}\n"
 "{li_tag}ਤੁਹਾਨੂੰ ਪੀਅਰ ਗਰੇਡਿੰਗ ਸਮੱਸਿਆ ਦਾ ਜਵਾਬ ਜਮ੍ਹਾ ਕਰਨ ਦੀ ਲੋੜ ਹੈ।{end_li_tag}\n"

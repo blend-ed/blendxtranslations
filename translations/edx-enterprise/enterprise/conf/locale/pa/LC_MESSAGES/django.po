@@ -349,14 +349,18 @@ msgid ""
 "\n"
 "    Backfill missing audit record foreign keys for Cornerstone.\n"
 "    "
-msgstr "ਕਾਰਨਰਸਟੋਨ ਲਈ ਬੈਕਫਿਲ ਵਿੱਚ ਗੁੰਮ ਆਡਿਟ ਰਿਕਾਰਡ ਵਿਦੇਸ਼ੀ ਕੁੰਜੀਆਂ।"
+msgstr ""
+"\n"
+"ਕਾਰਨਰਸਟੋਨ ਲਈ ਬੈਕਫਿਲ ਵਿੱਚ ਗੁੰਮ ਆਡਿਟ ਰਿਕਾਰਡ ਵਿਦੇਸ਼ੀ ਕੁੰਜੀਆਂ।"
 
 #: integrated_channels/integrated_channel/management/commands/backfill_missing_foreign_keys.py:67
 msgid ""
 "\n"
 "    Backfill missing audit record foreign keys.\n"
 "    "
-msgstr "ਬੈਕਫਿਲ ਵਿੱਚ ਗੁੰਮ ਆਡਿਟ ਰਿਕਾਰਡ ਵਿਦੇਸ਼ੀ ਕੁੰਜੀਆਂ।"
+msgstr ""
+"\n"
+"ਬੈਕਫਿਲ ਵਿੱਚ ਗੁੰਮ ਆਡਿਟ ਰਿਕਾਰਡ ਵਿਦੇਸ਼ੀ ਕੁੰਜੀਆਂ।"
 
 #: integrated_channels/integrated_channel/management/commands/cleanup_duplicate_assignment_records.py:25
 msgid ""
@@ -365,6 +369,7 @@ msgid ""
 "     EnterpriseCustomer.\n"
 "    "
 msgstr ""
+"\n"
 "ਦਿੱਤੇ ਗਏ\n"
 "EnterpriseCustomer ਲਈ ਕੌਂਫਿਗਰ ਕੀਤੇ ਗਏ IntegratedChannel(s) ਵਿੱਚ ਭੇਜੇ ਗਏ ਕਿਸੇ ਵੀ ਡੁਪਲੀਕੇਟ ਅਸਾਈਨਮੈਂਟ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ ਅਤੇ ਹਟਾਓ।"
 
@@ -389,8 +394,8 @@ msgid ""
 "    Transmit Enterprise learner course completion data for the given EnterpriseCustomer.\n"
 "    "
 msgstr ""
-"ਦਿੱਤੇ ਗਏ EnterpriseCustomer ਲਈ Enterprise Learner ਕੋਰਸ ਪੂਰਾ ਕਰਨ ਦਾ ਡੇਟਾ "
-"ਭੇਜੋ।"
+"\n"
+"ਦਿੱਤੇ ਗਏ EnterpriseCustomer ਲਈ Enterprise Learner ਕੋਰਸ ਪੂਰਾ ਕਰਨ ਦਾ ਡੇਟਾ ਭੇਜੋ।"
 
 #: integrated_channels/integrated_channel/management/commands/remove_stale_integrated_channel_api_logs.py:22
 msgid ""
@@ -398,8 +403,8 @@ msgid ""
 "    This management command deletes records from the IntegratedChannelAPIRequestLogs model that are older than one month\n"
 "    "
 msgstr ""
-"ਇਹ ਪ੍ਰਬੰਧਨ ਕਮਾਂਡ IntegratedChannelAPIRequestLogs ਮਾਡਲ ਤੋਂ ਇੱਕ ਮਹੀਨੇ ਤੋਂ "
-"ਪੁਰਾਣੇ ਰਿਕਾਰਡਾਂ ਨੂੰ ਮਿਟਾ ਦਿੰਦੀ ਹੈ।"
+"\n"
+"ਇਹ ਪ੍ਰਬੰਧਨ ਕਮਾਂਡ IntegratedChannelAPIRequestLogs ਮਾਡਲ ਤੋਂ ਇੱਕ ਮਹੀਨੇ ਤੋਂ ਪੁਰਾਣੇ ਰਿਕਾਰਡਾਂ ਨੂੰ ਮਿਟਾ ਦਿੰਦੀ ਹੈ।"
 
 #: integrated_channels/integrated_channel/management/commands/reset_sapsf_learner_transmissions.py:19
 msgid ""
@@ -407,8 +412,8 @@ msgid ""
 "    Reset SAPSF learner transmissions for the given EnterpriseCustomer and Channel between two dates.\n"
 "    "
 msgstr ""
-"ਦਿੱਤੇ ਗਏ EnterpriseCustomer ਅਤੇ ਚੈਨਲ ਲਈ ਦੋ ਤਾਰੀਖਾਂ ਵਿਚਕਾਰ SAPSF ਸਿੱਖਣ ਵਾਲੇ "
-"ਟ੍ਰਾਂਸਮਿਸ਼ਨ ਰੀਸੈਟ ਕਰੋ।"
+"\n"
+"ਦਿੱਤੇ ਗਏ EnterpriseCustomer ਅਤੇ ਚੈਨਲ ਲਈ ਦੋ ਤਾਰੀਖਾਂ ਵਿਚਕਾਰ SAPSF ਸਿੱਖਣ ਵਾਲੇ ਟ੍ਰਾਂਸਮਿਸ਼ਨ ਰੀਸੈਟ ਕਰੋ।"
 
 #: integrated_channels/integrated_channel/management/commands/reset_sapsf_learner_transmissions.py:31
 msgid "Start date and time in YYYY-MM-DDTHH:MM:SSZ format."
@@ -424,8 +429,8 @@ msgid ""
 "    Transmit Enterprise learner assessment level reporting data for the given EnterpriseCustomer.\n"
 "    "
 msgstr ""
-"ਦਿੱਤੇ ਗਏ EnterpriseCustomer ਲਈ Enterprise Learner Assessment Level Reporting"
-" ਡੇਟਾ ਭੇਜੋ।"
+"\n"
+"ਦਿੱਤੇ ਗਏ EnterpriseCustomer ਲਈ Enterprise Learner Assessment Level Reporting ਡੇਟਾ ਭੇਜੋ।"
 
 #: integrated_channels/integrated_channel/models.py:115
 msgid "A configuration nickname."
@@ -1190,7 +1195,9 @@ msgid ""
 "\n"
 "    Set error state for configurations.\n"
 "    "
-msgstr "ਸੰਰਚਨਾਵਾਂ ਲਈ ਗਲਤੀ ਸਥਿਤੀ ਸੈੱਟ ਕਰੋ।"
+msgstr ""
+"\n"
+"ਸੰਰਚਨਾਵਾਂ ਲਈ ਗਲਤੀ ਸਥਿਤੀ ਸੈੱਟ ਕਰੋ।"
 
 #: enterprise/messages.py:24
 #, python-brace-format
