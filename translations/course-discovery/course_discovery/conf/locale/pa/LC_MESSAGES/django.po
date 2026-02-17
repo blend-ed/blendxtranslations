@@ -2223,7 +2223,7 @@ msgid ""
 "This is an automated reminder that the course \"%(course_name)s\" (Course Key: %(course_key)s) is scheduled to end in %(days)s on %(course_end_date)s.\n"
 msgstr ""
 "\n"
-"ਇਹ ਇੱਕ ਸਵੈਚਾਲਿਤ ਯਾਦ-ਪੱਤਰ ਹੈ ਕਿ ਕੋਰਸ \"%(course_name)s\" (ਕੋਰਸ ਕੁੰਜੀ: %(course_key)s) %(course_end_date)s ਨੂੰ %(days)s ਵਿੱਚ ਖਤਮ ਹੋਣ ਲਈ ਤਹਿ ਕੀਤਾ ਗਿਆ ਹੈ।"
+"ਇਹ ਇੱਕ ਸਵੈਚਾਲਿਤ ਯਾਦ-ਪੱਤਰ ਹੈ ਕਿ ਕੋਰਸ \"%(course_name)s\" (ਕੋਰਸ ਕੁੰਜੀ: %(course_key)s) %(course_end_date)s ਨੂੰ %(days)s ਵਿੱਚ ਖਤਮ ਹੋਣ ਲਈ ਤਹਿ ਕੀਤਾ ਗਿਆ ਹੈ।\n"
 
 #: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:10
 #, python-format
@@ -2232,7 +2232,7 @@ msgid ""
 "This is an automated reminder that the course \"%(course_name)s\" (Course Key: %(course_key)s) has officially ended as of %(course_end_date)s.\n"
 msgstr ""
 "\n"
-"ਇਹ ਇੱਕ ਸਵੈਚਾਲਿਤ ਯਾਦ-ਪੱਤਰ ਹੈ ਕਿ ਕੋਰਸ \"%(course_name)s\" (ਕੋਰਸ ਕੁੰਜੀ: %(course_key)s) ਅਧਿਕਾਰਤ ਤੌਰ 'ਤੇ %(course_end_date)s ਨੂੰ ਖਤਮ ਹੋ ਗਿਆ ਹੈ।"
+"ਇਹ ਇੱਕ ਸਵੈਚਾਲਿਤ ਯਾਦ-ਪੱਤਰ ਹੈ ਕਿ ਕੋਰਸ \"%(course_name)s\" (ਕੋਰਸ ਕੁੰਜੀ: %(course_key)s) ਅਧਿਕਾਰਤ ਤੌਰ 'ਤੇ %(course_end_date)s ਨੂੰ ਖਤਮ ਹੋ ਗਿਆ ਹੈ।\n"
 
 #: apps/course_metadata/templates/course_metadata/email/course_deadline.txt:23
 msgid "Visit the Course in Publisher:"
@@ -2245,7 +2245,7 @@ msgid ""
 "If no action is taken, the course will no longer be available for enrollment or access by learners on %(partner_marketing_site_url)s after the end date.\n"
 msgstr ""
 "\n"
-"ਜੇਕਰ ਕੋਈ ਕਾਰਵਾਈ ਨਹੀਂ ਕੀਤੀ ਜਾਂਦੀ, ਤਾਂ ਕੋਰਸ ਸਮਾਪਤੀ ਮਿਤੀ ਤੋਂ ਬਾਅਦ %(partner_marketing_site_url)s 'ਤੇ ਸਿਖਿਆਰਥੀਆਂ ਦੁਆਰਾ ਦਾਖਲੇ ਜਾਂ ਪਹੁੰਚ ਲਈ ਉਪਲਬਧ ਨਹੀਂ ਹੋਵੇਗਾ।"
+"ਜੇਕਰ ਕੋਈ ਕਾਰਵਾਈ ਨਹੀਂ ਕੀਤੀ ਜਾਂਦੀ, ਤਾਂ ਕੋਰਸ ਸਮਾਪਤੀ ਮਿਤੀ ਤੋਂ ਬਾਅਦ %(partner_marketing_site_url)s 'ਤੇ ਸਿਖਿਆਰਥੀਆਂ ਦੁਆਰਾ ਦਾਖਲੇ ਜਾਂ ਪਹੁੰਚ ਲਈ ਉਪਲਬਧ ਨਹੀਂ ਹੋਵੇਗਾ।\n"
 
 #: apps/course_metadata/templates/course_metadata/email/go_live.html:17
 #: apps/course_metadata/templates/course_metadata/email/go_live.txt:7
@@ -2437,7 +2437,7 @@ msgid ""
 "    Course '%(course_name)s' has been successfully reviewed by edX and is now published on %(course_publish_date)s. To see live course, go here: %(course_marketing_url)s\n"
 msgstr ""
 "\n"
-"ਕੋਰਸ '%(course_name)s' ਦੀ edX ਦੁਆਰਾ ਸਫਲਤਾਪੂਰਵਕ ਸਮੀਖਿਆ ਕੀਤੀ ਗਈ ਹੈ ਅਤੇ ਹੁਣ %(course_publish_date)s ਨੂੰ ਪ੍ਰਕਾਸ਼ਿਤ ਕੀਤਾ ਗਿਆ ਹੈ। ਲਾਈਵ ਕੋਰਸ ਦੇਖਣ ਲਈ, ਇੱਥੇ ਜਾਓ: %(course_marketing_url)s"
+"ਕੋਰਸ '%(course_name)s' ਦੀ edX ਦੁਆਰਾ ਸਫਲਤਾਪੂਰਵਕ ਸਮੀਖਿਆ ਕੀਤੀ ਗਈ ਹੈ ਅਤੇ ਹੁਣ %(course_publish_date)s ਨੂੰ ਪ੍ਰਕਾਸ਼ਿਤ ਕੀਤਾ ਗਿਆ ਹੈ। ਲਾਈਵ ਕੋਰਸ ਦੇਖਣ ਲਈ, ਇੱਥੇ ਜਾਓ: %(course_marketing_url)s\n"
 
 #: apps/course_metadata/templates/course_metadata/email/watchers_course_url.txt:8
 #, python-format
@@ -2448,7 +2448,7 @@ msgid ""
 msgstr ""
 "\n"
 "ਕੋਰਸ '%(course_name)s' ਦੀ edX ਦੁਆਰਾ ਸਫਲਤਾਪੂਰਵਕ ਸਮੀਖਿਆ ਕੀਤੀ ਗਈ ਹੈ ਅਤੇ ਹੁਣ ਪ੍ਰਕਾਸ਼ਨ ਲਈ ਤਿਆਰ ਹੈ। ਕੋਰਸ %(course_publish_date)s ਨੂੰ ਪ੍ਰਕਾਸ਼ਿਤ ਕੀਤਾ ਜਾਵੇਗਾ।\n"
-"ਕੋਰਸ ਬਾਰੇ ਪੰਨੇ ਦੀ ਝਲਕ ਦੇਖਣ ਲਈ, ਇੱਥੇ ਜਾਓ: %(course_preview_url)s"
+"ਕੋਰਸ ਬਾਰੇ ਪੰਨੇ ਦੀ ਝਲਕ ਦੇਖਣ ਲਈ, ਇੱਥੇ ਜਾਓ: %(course_preview_url)s\n"
 
 #: apps/course_metadata/utils.py:391
 msgid "Special characters not allowed in Course Number."

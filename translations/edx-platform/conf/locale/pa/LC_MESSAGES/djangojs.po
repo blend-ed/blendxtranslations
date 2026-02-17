@@ -2298,7 +2298,7 @@ msgstr "ਨਿਸ਼ਾਨੇ 'ਤੇ ਡਿੱਗਿਆ"
 #: common/static/js/src/jquery.timeago.locale.js:3
 #, javascript-format
 msgid "%s ago"
-msgstr "% ਸਕਿੰਟ ਪਹਿਲਾਂ"
+msgstr "%s ਪਹਿਲਾਂ"
 
 #. Translators: %s will be a time quantity, such as "4 minutes" or "1 day"
 #: common/static/js/src/jquery.timeago.locale.js:5
@@ -8122,12 +8122,12 @@ msgstr "ਕੁਝ ਹੱਕ ਰਾਖਵੇਂ ਹਨ"
 #: cms/templates/js/list.underscore:7
 #, python-format
 msgid "%(new_item_message)s"
-msgstr "%(ਨਵਾਂ_ਆਈਟਮ_ਸੁਨੇਹਾ)s"
+msgstr "%(new_item_message)s"
 
 #: cms/templates/js/list.underscore:17
 #, python-format
 msgid "New %(item_type)s"
-msgstr "ਨਵਾਂ %(ਆਈਟਮ_ਟਾਈਪ) ਸ"
+msgstr "ਨਵਾਂ %(item_type)s"
 
 #: cms/templates/js/metadata-dict-entry.underscore:9
 #: cms/templates/js/metadata-file-uploader-entry.underscore:5
@@ -9134,12 +9134,12 @@ msgstr "ਜਮ੍ਹਾਂ ਕਰੋ"
 #: common/static/common/templates/discussion/templates.underscore:74
 #, python-format
 msgid "discussion posted %(time_ago)s by %(author)s"
-msgstr "%(ਲੇਖਕ)s ਦੁਆਰਾ %(time_ago)s 'ਤੇ ਪੋਸਟ ਕੀਤੀ ਗਈ ਚਰਚਾ"
+msgstr "%(author)s ਦੁਆਰਾ %(time_ago)s 'ਤੇ ਪੋਸਟ ਕੀਤੀ ਗਈ ਚਰਚਾ"
 
 #: common/static/common/templates/discussion/templates.underscore:76
 #, python-format
 msgid "question posted %(time_ago)s by %(author)s"
-msgstr "%(ਲੇਖਕ)s ਦੁਆਰਾ %(time_ago)s ਵਿੱਚ ਪੋਸਟ ਕੀਤਾ ਗਿਆ ਸਵਾਲ"
+msgstr "%(author)s ਦੁਆਰਾ %(time_ago)s ਵਿੱਚ ਪੋਸਟ ਕੀਤਾ ਗਿਆ ਸਵਾਲ"
 
 #: common/static/common/templates/discussion/templates.underscore:84
 #: common/static/common/templates/discussion/templates.underscore:330
@@ -9233,7 +9233,7 @@ msgstr "ਜਵਾਬ ਅੱਪਡੇਟ ਕਰੋ"
 #: common/static/common/templates/discussion/templates.underscore:275
 #, python-format
 msgid "posted %(time_ago)s by %(author)s"
-msgstr "%(ਲੇਖਕ) ਦੁਆਰਾ %(time_ago)s ਪੋਸਟ ਕੀਤਾ ਗਿਆ"
+msgstr "%(author)s ਦੁਆਰਾ %(time_ago)s ਪੋਸਟ ਕੀਤਾ ਗਿਆ"
 
 #: common/static/common/templates/discussion/templates.underscore:289
 msgid "Editing comment"
@@ -9280,7 +9280,7 @@ msgstr ""
 #: common/static/common/templates/discussion/templates.underscore:401
 #, python-format
 msgid "%(comments_count)s %(span_sr_open)scomments %(span_close)s"
-msgstr "%(ਟਿੱਪਣੀਆਂ_ਗਿਣਤੀ)s %(span_sr_open)ਟਿੱਪਣੀਆਂ %(span_close)s"
+msgstr "%(comments_count)s %(span_sr_open)s ਟਿੱਪਣੀਆਂ %(span_close)s"
 
 #: common/static/common/templates/discussion/templates.underscore:425
 #: common/static/common/templates/discussion/templates.underscore:559
@@ -9874,7 +9874,7 @@ msgstr "ਜਿਆਦਾ ਜਾਣੋ"
 #: lms/templates/discovery/course_card.underscore:17
 #, python-format
 msgid "Starts: %(start_date)s"
-msgstr "ਸ਼ੁਰੂਆਤ: %(ਸ਼ੁਰੂਆਤੀ_ਮਿਤੀ)s"
+msgstr "ਸ਼ੁਰੂਆਤ: %(start_date)s"
 
 #: lms/templates/discovery/course_card.underscore:26
 msgid "Starts"
@@ -10283,7 +10283,7 @@ msgstr "ਇੱਕ ਸਮੂਹ ਚੁਣੋ"
 #: lms/templates/instructor/instructor_dashboard_2/cohort-selector.underscore:7
 #, python-format
 msgid "%(cohort_name)s (%(user_count)s)"
-msgstr "%(ਸਮੂਹ_ਨਾਮ)s (%(ਉਪਭੋਗਤਾ_ਗਿਣਤੀ)s)"
+msgstr "%(cohort_name)s (%(user_count)s)"
 
 #: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore:2
 msgid "Enable Cohorts"
@@ -10702,7 +10702,7 @@ msgstr "ਸਾਈਨ - ਇਨ"
 #, python-format
 msgid "Would you like to sign in using your %(providerName)s credentials?"
 msgstr ""
-"ਕੀ ਤੁਸੀਂ ਆਪਣੇ %(providerName) ਦੇ ਪ੍ਰਮਾਣ ਪੱਤਰਾਂ ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਸਾਈਨ ਇਨ ਕਰਨਾ "
+"ਕੀ ਤੁਸੀਂ ਆਪਣੇ %(providerName)s ਦੇ ਪ੍ਰਮਾਣ ਪੱਤਰਾਂ ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਸਾਈਨ ਇਨ ਕਰਨਾ "
 "ਚਾਹੋਗੇ?"
 
 #: lms/templates/student_account/hinted_login.underscore:16
@@ -10900,7 +10900,7 @@ msgid ""
 "submit photos for verification again."
 msgstr ""
 "ਆਪਣੀਆਂ ਫੋਟੋਆਂ ਸਪੁਰਦ ਕਰਨ ਲਈ ਧੰਨਵਾਦ। ਅਸੀਂ ਜਲਦੀ ਹੀ ਉਹਨਾਂ ਦੀ ਸਮੀਖਿਆ ਕਰਾਂਗੇ। "
-"ਤੁਸੀਂ ਹੁਣ ਕਿਸੇ ਵੀ %(platformName) ਦੇ ਕੋਰਸ ਲਈ ਸਾਈਨ ਅੱਪ ਕਰ ਸਕਦੇ ਹੋ ਜੋ ਪ੍ਰਮਾਣਿਤ"
+"ਤੁਸੀਂ ਹੁਣ ਕਿਸੇ ਵੀ %(platformName)s ਦੇ ਕੋਰਸ ਲਈ ਸਾਈਨ ਅੱਪ ਕਰ ਸਕਦੇ ਹੋ ਜੋ ਪ੍ਰਮਾਣਿਤ"
 " ਸਰਟੀਫਿਕੇਟ ਪੇਸ਼ ਕਰਦਾ ਹੈ। ਤਸਦੀਕ ਇੱਕ ਸਾਲ ਲਈ ਯੋਗ ਹੈ। ਇੱਕ ਸਾਲ ਬਾਅਦ, ਤੁਹਾਨੂੰ "
 "ਦੁਬਾਰਾ ਤਸਦੀਕ ਲਈ ਫੋਟੋਆਂ ਸਪੁਰਦ ਕਰਨੀਆਂ ਪੈਣਗੀਆਂ।"
 
@@ -11065,7 +11065,7 @@ msgid ""
 "%(platformName)s support for additional suggestions."
 msgstr ""
 "ਜੇਕਰ ਤੁਹਾਨੂੰ ਇਹਨਾਂ ਵਿੱਚੋਂ ਕਿਸੇ ਵੀ ਫੋਟੋ ਨੂੰ ਸਬਮਿਸ਼ਨ ਲਈ ਲੈਣ ਵਿੱਚ ਸਹਾਇਤਾ ਦੀ ਲੋੜ"
-" ਹੈ, ਤਾਂ ਵਾਧੂ ਸੁਝਾਵਾਂ ਲਈ %(platformName) ਦੇ ਸਮਰਥਨ ਨਾਲ ਸੰਪਰਕ ਕਰੋ।"
+" ਹੈ, ਤਾਂ ਵਾਧੂ ਸੁਝਾਵਾਂ ਲਈ %(platformName)s ਦੇ ਸਮਰਥਨ ਨਾਲ ਸੰਪਰਕ ਕਰੋ।"
 
 #: lms/templates/verify_student/face_photo_step.underscore:77
 #: lms/templates/verify_student/id_photo_step.underscore:69
