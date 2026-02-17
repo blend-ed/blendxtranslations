@@ -1397,7 +1397,7 @@ msgid ""
 "                "
 msgstr ""
 "\n"
-"ਪ੍ਰਗਤੀ ਅਧੀਨ (%(step_number)s ਵਿੱਚੋਂ %(num_must_grade)s)"
+"ਪ੍ਰਗਤੀ ਅਧੀਨ (%(review_number)s ਵਿੱਚੋਂ %(num_must_grade)s)"
 
 #: templates/legacy/peer/oa_peer_assessment.html:75
 #: templates/legacy/peer/oa_peer_turbo_mode.html:45
@@ -1506,7 +1506,7 @@ msgid ""
 "        "
 msgstr ""
 "\n"
-"ਪ੍ਰਗਤੀ ਅਧੀਨ (%(step_number)s ਵਿੱਚੋਂ %(num_must_grade)s)"
+"ਪ੍ਰਗਤੀ ਅਧੀਨ (%(review_number)s ਵਿੱਚੋਂ %(num_must_grade)s)"
 
 #: templates/legacy/peer/oa_peer_waiting.html:37
 msgid ""
@@ -2159,7 +2159,7 @@ msgid ""
 "                "
 msgstr ""
 "\n"
-"ਦੇਖਣ ਵਾਲਾ ਸਿਖਿਆਰਥੀ: %(student)s"
+"ਦੇਖਣ ਵਾਲਾ ਸਿਖਿਆਰਥੀ: %(learner)s"
 
 #: templates/legacy/staff_area/oa_student_info.html:15
 #, python-format
@@ -2382,7 +2382,7 @@ msgid ""
 "                        "
 msgstr ""
 "\n"
-"ਮੁਲਾਂਕਣ %(assessment_num):"
+"ਮੁਲਾਂਕਣ %(assessment_num)s:"
 
 #: templates/legacy/staff_area/oa_student_info_assessment_detail.html:22
 msgid "Assessment Details"
