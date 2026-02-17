@@ -73,5 +73,5 @@
   "gradebook.GradesView.table.labels.username": "ਯੂਜ਼ਰਨੇਮ",
   "gradebook.GradesView.table.noResultsFound": "ਕੋਈ ਨਤੀਜਾ ਨਹੀਂ ਮਿਲਿਆ",
   "gradebook.GradesView.table.totalGradePercentage": "ਕੁੱਲ ਗ੍ਰੇਡ ਮੁੱਲ ਹਮੇਸ਼ਾ ਪ੍ਰਤੀਸ਼ਤ ਵਜੋਂ ਪ੍ਰਦਰਸ਼ਿਤ ਹੁੰਦੇ ਹਨ।",
-  "gradebook.page.title": "ਗ੍ਰੇਡਬੁੱਕ | {ਸਾਈਟਨੇਮ}"
+  "gradebook.page.title": "ਗ੍ਰੇਡਬੁੱਕ | {siteName}"
 }

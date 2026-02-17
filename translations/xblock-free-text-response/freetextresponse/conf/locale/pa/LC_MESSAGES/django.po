@@ -184,15 +184,15 @@ msgstr "ਇਸ ਵੇਲੇ ਦਿਖਾਉਣ ਲਈ ਕੋਈ ਜਵਾਬ ਨ
 #, python-brace-format
 msgid "{weight} point possible"
 msgid_plural "{weight} points possible"
-msgstr[0] "{ਵਜ਼ਨ} ਪੁਆਇੰਟ ਸੰਭਵ ਹੈ"
-msgstr[1] "{ਵਜ਼ਨ} ਪੁਆਇੰਟ ਸੰਭਵ ਹੈ"
+msgstr[0] "{weight} ਪੁਆਇੰਟ ਸੰਭਵ ਹੈ"
+msgstr[1] "{weight} ਪੁਆਇੰਟ ਸੰਭਵ ਹੈ"
 
 #: views.py:134
 #, python-brace-format
 msgid "{score_string}/{weight} point"
 msgid_plural "{score_string}/{weight} points"
-msgstr[0] "{ਸਕੋਰ_ਸਟ੍ਰਿੰਗ}/{ਵਜ਼ਨ} ਪੁਆਇੰਟ"
-msgstr[1] "{ਸਕੋਰ_ਸਟ੍ਰਿੰਗ}/{ਵਜ਼ਨ} ਪੁਆਇੰਟ"
+msgstr[0] "{score_string}/{weight} ਪੁਆਇੰਟ"
+msgstr[1] "{score_string}/{weight} ਪੁਆਇੰਟ"
 
 #: views.py:147
 #, python-brace-format
@@ -208,9 +208,9 @@ msgstr[1] ""
 msgid "Your response must be between {min} and {max} word."
 msgid_plural "Your response must be between {min} and {max} words."
 msgstr[0] ""
-"ਤੁਹਾਡਾ ਜਵਾਬ {ਘੱਟੋ-ਘੱਟ} ਅਤੇ {ਵੱਧ ਤੋਂ ਵੱਧ} ਸ਼ਬਦਾਂ ਦੇ ਵਿਚਕਾਰ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ।"
+"ਤੁਹਾਡਾ ਜਵਾਬ {min} ਅਤੇ {max} ਸ਼ਬਦਾਂ ਦੇ ਵਿਚਕਾਰ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ।"
 msgstr[1] ""
-"ਤੁਹਾਡਾ ਜਵਾਬ {ਘੱਟੋ-ਘੱਟ} ਅਤੇ {ਵੱਧ ਤੋਂ ਵੱਧ} ਸ਼ਬਦਾਂ ਦੇ ਵਿਚਕਾਰ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ।"
+"ਤੁਹਾਡਾ ਜਵਾਬ {min} ਅਤੇ {max} ਸ਼ਬਦਾਂ ਦੇ ਵਿਚਕਾਰ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ।"
 
 #: views.py:267
 #, python-brace-format

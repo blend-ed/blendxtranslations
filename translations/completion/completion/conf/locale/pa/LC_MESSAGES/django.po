@@ -58,4 +58,4 @@ msgstr "ਠੀਕ ਹੈ"
 #: models.py:33
 #, python-brace-format
 msgid "{value} must be between 0.0 and 1.0"
-msgstr "{ਮੁੱਲ} 0.0 ਅਤੇ 1.0 ਦੇ ਵਿਚਕਾਰ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ"
+msgstr "{value} 0.0 ਅਤੇ 1.0 ਦੇ ਵਿਚਕਾਰ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ"

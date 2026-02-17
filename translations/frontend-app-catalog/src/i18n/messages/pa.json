@@ -27,7 +27,7 @@
   "category.catalog.no-search-results": "ਸਾਨੂੰ \"{query}\" ਲਈ ਕੋਈ ਨਤੀਜਾ ਨਹੀਂ ਮਿਲਿਆ।",
   "category.catalog.page-title": "ਕੋਰਸ",
   "category.catalog.search-placeholder": "ਕੋਰਸ ਦੀ ਖੋਜ ਕਰੋ",
-  "category.catalog.search-results": "\"{ਪੁੱਛਗਿੱਛ}\" ਲਈ ਖੋਜ ਨਤੀਜੇ",
+  "category.catalog.search-results": "\"{query}\" ਲਈ ਖੋਜ ਨਤੀਜੇ",
   "category.course-about.course-intro.course-media.play-course-introduction-video": "ਕੋਰਸ ਜਾਣ-ਪਛਾਣ ਵੀਡੀਓ ਚਲਾਓ",
   "category.course-about.course-intro.enroll-now-btn": "ਹੁਣੇ ਨਾਮ ਦਰਜ ਕਰੋ",
   "category.course-about.course-intro.enroll-now-btn-pending": "ਦਰਜ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ...",

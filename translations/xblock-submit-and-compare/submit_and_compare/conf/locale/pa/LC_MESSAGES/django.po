@@ -89,7 +89,7 @@ msgstr "ਰੱਦ ਕਰੋ"
 #: views.py:223
 #, python-brace-format
 msgid "Hint ({number} of {total}): {hint}"
-msgstr "ਸੰਕੇਤ ({ਕੁੱਲ} ਵਿੱਚੋਂ {ਨੰਬਰ}): {ਸੰਕੇਤ}"
+msgstr "ਸੰਕੇਤ ({total} ਵਿੱਚੋਂ {number}): {hint}"
 
 #: views.py:244
 #, python-brace-format
@@ -104,12 +104,12 @@ msgstr[1] ""
 #, python-brace-format
 msgid "{weight} point possible"
 msgid_plural "{weight} points possible"
-msgstr[0] "{ਵਜ਼ਨ} ਪੁਆਇੰਟ ਸੰਭਵ ਹੈ"
-msgstr[1] "{ਵਜ਼ਨ} ਪੁਆਇੰਟ ਸੰਭਵ ਹੈ"
+msgstr[0] "{weight} ਪੁਆਇੰਟ ਸੰਭਵ ਹੈ"
+msgstr[1] "{weight} ਪੁਆਇੰਟ ਸੰਭਵ ਹੈ"
 
 #: views.py:299
 #, python-brace-format
 msgid "/{weight} point"
 msgid_plural "/{weight} points"
-msgstr[0] "/{ਵਜ਼ਨ} ਪੁਆਇੰਟ"
-msgstr[1] "/{ਵਜ਼ਨ} ਪੁਆਇੰਟ"
+msgstr[0] "/{weight} ਪੁਆਇੰਟ"
+msgstr[1] "/{weight} ਪੁਆਇੰਟ"

@@ -75,22 +75,22 @@ msgstr "ਅਣਜਾਣ"
 #: data.py:584
 #, python-brace-format
 msgid "Criterion {number}: {label}"
-msgstr "ਮਾਪਦੰਡ {ਨੰਬਰ}: {ਲੇਬਲ}"
+msgstr "ਮਾਪਦੰਡ {number}: {label}"
 
 #: data.py:586
 #, python-brace-format
 msgid "Points {number}"
-msgstr "ਅੰਕ {ਨੰਬਰ}"
+msgstr "ਅੰਕ {number}"
 
 #: data.py:587
 #, python-brace-format
 msgid "Median Score {number}"
-msgstr "ਮੱਧ ਸਕੋਰ {ਨੰਬਰ}"
+msgstr "ਮੱਧ ਸਕੋਰ {number}"
 
 #: data.py:588
 #, python-brace-format
 msgid "Feedback {number}"
-msgstr "ਫੀਡਬੈਕ {ਨੰਬਰ}"
+msgstr "ਫੀਡਬੈਕ {number}"
 
 #: data.py:917
 msgid "Item ID"
@@ -2526,7 +2526,7 @@ msgstr "ਸਟਾਫ ਦੀਆਂ ਟਿੱਪਣੀਆਂ"
 #: xblock/grade_mixin.py:383 xblock/grade_mixin.py:542
 #, python-brace-format
 msgid "Peer {peer_index}"
-msgstr "ਪੀਅਰ {ਪੀਅਰ_ਇੰਡੈਕਸ}"
+msgstr "ਪੀਅਰ {peer_index}"
 
 #: xblock/grade_mixin.py:384
 msgid "Peer Comments"

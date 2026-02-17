@@ -20,7 +20,7 @@
   "bulk.email.content.history.table.viewMessageInstructions": "ਭੇਜੇ ਗਏ ਈਮੇਲ ਸੁਨੇਹੇ ਨੂੰ ਪੜ੍ਹਨ ਲਈ, ਟੇਬਲ ਦੇ ਅੰਦਰ `ਸੁਨੇਹਾ ਵੇਖੋ` ਬਟਨ 'ਤੇ ਕਲਿੱਕ ਕਰੋ।",
   "bulk.email.email.task.history.header": "ਈਮੇਲ ਕਾਰਜ ਇਤਿਹਾਸ",
   "bulk.email.form.body.error": "ਸੁਨੇਹਾ ਖਾਲੀ ਨਹੀਂ ਹੋ ਸਕਦਾ।",
-  "bulk.email.form.cohort.label": "ਸਮੂਹ: {ਸਮੂਹ}",
+  "bulk.email.form.cohort.label": "ਸਮੂਹ: {group}",
   "bulk.email.form.dateTime.error": "ਤਾਰੀਖ ਅਤੇ ਸਮਾਂ ਖਾਲੀ ਨਹੀਂ ਹੋ ਸਕਦੇ, ਅਤੇ ਇਹ ਭਵਿੱਖ ਦੀ ਤਾਰੀਖ ਹੋਣੀ ਚਾਹੀਦੀ ਹੈ।",
   "bulk.email.form.error": "ਈਮੇਲ ਭੇਜਣ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰਦੇ ਸਮੇਂ ਇੱਕ ਗਲਤੀ ਆਈ।",
   "bulk.email.form.mode.label": "{courseModeName} ਟਰੈਕ ਵਿੱਚ ਸਿੱਖਣ ਵਾਲੇ",
