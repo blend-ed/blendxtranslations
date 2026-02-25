@@ -172,6 +172,7 @@
   "account.settings.static.field.empty.no.admin": "ਕੋਈ ਮੁੱਲ ਸੈੱਟ ਨਹੀਂ ਹੈ।",
   "account.settings.work.experience": "ਕੰਮ ਦਾ ਅਨੁਭਵ",
   "account.settingsfield.dob.error.general": "ਇੱਕ ਤਕਨੀਕੀ ਗਲਤੀ ਹੋਈ। ਕਿਰਪਾ ਕਰਕੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।",
+  "confirmationMessageId": "ਡਿਫਾਲਟ ਪੁਸ਼ਟੀਕਰਨ ਸੁਨੇਹਾ",
   "error.notfound.message": "ਜਿਸ ਪੰਨੇ ਦੀ ਤੁਸੀਂ ਭਾਲ ਕਰ ਰਹੇ ਹੋ ਉਹ ਉਪਲਬਧ ਨਹੀਂ ਹੈ ਜਾਂ URL ਵਿੱਚ ਕੋਈ ਗਲਤੀ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ URL ਦੀ ਜਾਂਚ ਕਰੋ ਅਤੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।",
   "id.verification.access.blocked.denied": "ਅਸੀਂ ਇਸ ਸਮੇਂ ਤੁਹਾਡੀ ਪਛਾਣ ਦੀ ਪੁਸ਼ਟੀ ਨਹੀਂ ਕਰ ਸਕਦੇ। ਜੇਕਰ ਤੁਸੀਂ ਅਜੇ ਤੱਕ ਆਪਣਾ ਖਾਤਾ ਕਿਰਿਆਸ਼ੀਲ ਨਹੀਂ ਕੀਤਾ ਹੈ, ਤਾਂ ਕਿਰਪਾ ਕਰਕੇ {email} ਤੋਂ ਕਿਰਿਆਸ਼ੀਲਤਾ ਈਮੇਲ ਲਈ ਆਪਣੇ ਸਪੈਮ ਫੋਲਡਰ ਦੀ ਜਾਂਚ ਕਰੋ।",
   "id.verification.access.blocked.enrollment": "ਤੁਸੀਂ ਇਸ ਵੇਲੇ ਕਿਸੇ ਅਜਿਹੇ ਕੋਰਸ ਵਿੱਚ ਦਾਖਲ ਨਹੀਂ ਹੋ ਜਿਸ ਲਈ ਪਛਾਣ ਦੀ ਪੁਸ਼ਟੀ ਦੀ ਲੋੜ ਹੋਵੇ।",
