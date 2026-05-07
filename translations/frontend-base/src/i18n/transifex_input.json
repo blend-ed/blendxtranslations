@@ -12,5 +12,16 @@
   "header.user.menu.profile": "Profile",
   "header.user.menu.register": "Sign Up",
   "home.content": "Home page content.",
+  "masquerade-widget.staff": "Staff",
+  "masquerade-widget.userName.input.label": "Username or email",
+  "masquerade-widget.userName.submit": "Submit",
+  "masquerade-widget.userName.submitting": "Submitting",
+  "masquerade-widget.view.as": "View this course as:",
+  "masqueradeBar.ariaLabel": "Masquerade bar",
+  "masqueradeBar.error.failedToLoadOptions": "Unable to load masquerade options.",
+  "masqueradeBar.error.genericSubmit": "An error has occurred; please try again.",
+  "masqueradeBar.error.noStudentFound": "No student with this username or email could be found.",
+  "masqueradeBar.studio": "Studio",
+  "masqueradeBar.viewCourse": "View course in:",
   "org.openedx.frontend.slot.header.courseNavigationBar.tabs.label": "Course Navigation Bar"
 }
