@@ -1,0 +1,16 @@
+{
+  "pgn.DataTable.BaseSelectionStatus.allSelectedText": "Tutte le {numSelectedRows} righe selezionate",
+  "pgn.DataTable.BaseSelectionStatus.clearSelectionText": "Cancella selezione",
+  "pgn.DataTable.BaseSelectionStatus.selectAllText": "Seleziona tutti gli elementi {itemCount}",
+  "pgn.DataTable.BaseSelectionStatus.selectedText": "{numSelectedRows} selezionate",
+  "pgn.DataTable.BaseSelectionStatus.selectedTextPaginated": "{numSelectedRows} righe selezionate ({numSelectedRowsOnPage} mostrate di seguito)",
+  "pgn.DataTable.ExpandAll.collapseAllLabel": "Comprimi tutto",
+  "pgn.DataTable.ExpandAll.expandAllLabel": "Espandi tutto",
+  "pgn.DataTable.FilterStatus.clearFiltersText": "Filtri trasparenti",
+  "pgn.DataTable.RowStatus.statusText": "Visualizzazione di {firstRow} - {lastRow} di {itemCount}.",
+  "pgn.DataTable.SidebarFilters.title": "Filtri",
+  "pgn.Dropzone.DefaultContent.label": "Trascina e rilascia oppure fai clic per caricare",
+  "pgn.Dropzone.DefaultContent.uploadButton": "Carica immagine",
+  "pgn.Dropzone.UploadProgress.cancelLabel": "Cancellare",
+  "pgn.Dropzone.UploadProgress.uploadLabel": "Caricamento di {nomefile}."
+}

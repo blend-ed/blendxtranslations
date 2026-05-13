@@ -1,0 +1,16 @@
+{
+  "pgn.DataTable.BaseSelectionStatus.allSelectedText": "ရွေးချယ်ထားသော {numSelectedRows} ခုစလုံး",
+  "pgn.DataTable.BaseSelectionStatus.clearSelectionText": "ရွေးချယ်မှုကို ဖယ်ရှားပါ",
+  "pgn.DataTable.BaseSelectionStatus.selectAllText": "{itemCount} အားလုံးကို ရွေးချယ်ပါ",
+  "pgn.DataTable.BaseSelectionStatus.selectedText": "{numSelectedRows} ခု ရွေးချယ်ထားသည်",
+  "pgn.DataTable.BaseSelectionStatus.selectedTextPaginated": "{numSelectedRows} ခု ရွေးချယ်ထားသည် ({numSelectedRowsOnPage} ကို အောက်တွင်ပြထားသည်)",
+  "pgn.DataTable.ExpandAll.collapseAllLabel": "အားလုံးကို ခေါက်သိမ်းပါ",
+  "pgn.DataTable.ExpandAll.expandAllLabel": "အားလုံးကို ချဲ့ထွင်ပါ",
+  "pgn.DataTable.FilterStatus.clearFiltersText": "စစ်ထုတ်မှုများကို ဖယ်ရှားပါ",
+  "pgn.DataTable.RowStatus.statusText": "{itemCount} မှ {firstRow} - {lastRow} ကို ပြသထားသည်။",
+  "pgn.DataTable.SidebarFilters.title": "စစ်ထုတ်ကိရိယာများ",
+  "pgn.Dropzone.DefaultContent.label": "အပ်လုဒ်လုပ်ရန် ဆွဲယူ၍ချပါ သို့မဟုတ် နှိပ်ပါ",
+  "pgn.Dropzone.DefaultContent.uploadButton": "ပုံကို အပ်လုဒ်လုပ်ပါ",
+  "pgn.Dropzone.UploadProgress.cancelLabel": "ပယ်ဖျက်ရန်",
+  "pgn.Dropzone.UploadProgress.uploadLabel": "{ဖိုင်အမည်} ကို အပ်လုဒ်လုပ်နေသည်။"
+}

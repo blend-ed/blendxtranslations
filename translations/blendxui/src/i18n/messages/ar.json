@@ -1,0 +1,16 @@
+{
+  "pgn.DataTable.BaseSelectionStatus.allSelectedText": "تم تحديد {numSelectedRows}",
+  "pgn.DataTable.BaseSelectionStatus.clearSelectionText": "كليرست",
+  "pgn.DataTable.BaseSelectionStatus.selectAllText": "حدد الكل {itemCount}",
+  "pgn.DataTable.BaseSelectionStatus.selectedText": "{numSelectedRows} تم تحديدها",
+  "pgn.DataTable.BaseSelectionStatus.selectedTextPaginated": "{numSelectedRows} تم تحديدها ({numSelectedRowsOnPage} موضحة أدناه)",
+  "pgn.DataTable.ExpandAll.collapseAllLabel": "طي الكل",
+  "pgn.DataTable.ExpandAll.expandAllLabel": "عرض الكل",
+  "pgn.DataTable.FilterStatus.clearFiltersText": "مساحة فارغة",
+  "pgn.DataTable.RowStatus.statusText": "عرض {firstRow} - {lastRow} من {itemCount}.",
+  "pgn.DataTable.SidebarFilters.title": "الفلاتر",
+  "pgn.Dropzone.DefaultContent.label": "اسحب وأفلت أو انقر للتحميل",
+  "pgn.Dropzone.DefaultContent.uploadButton": "تحميل صورة",
+  "pgn.Dropzone.UploadProgress.cancelLabel": "يلغي",
+  "pgn.Dropzone.UploadProgress.uploadLabel": "جارٍ تحميل {اسم الملف}."
+}

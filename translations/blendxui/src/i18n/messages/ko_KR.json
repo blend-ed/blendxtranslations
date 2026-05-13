@@ -1,0 +1,16 @@
+{
+  "pgn.DataTable.BaseSelectionStatus.allSelectedText": "{numSelectedRows}개 행이 모두 선택되었습니다.",
+  "pgn.DataTable.BaseSelectionStatus.clearSelectionText": "선택 해제",
+  "pgn.DataTable.BaseSelectionStatus.selectAllText": "{itemCount}개를 모두 선택하세요",
+  "pgn.DataTable.BaseSelectionStatus.selectedText": "{numSelectedRows}개가 선택되었습니다",
+  "pgn.DataTable.BaseSelectionStatus.selectedTextPaginated": "{numSelectedRows}개가 선택되었습니다({numSelectedRowsOnPage}는 아래에 표시됨).",
+  "pgn.DataTable.ExpandAll.collapseAllLabel": "모두 접기",
+  "pgn.DataTable.ExpandAll.expandAllLabel": "모두 펼치기",
+  "pgn.DataTable.FilterStatus.clearFiltersText": "필터 지우기",
+  "pgn.DataTable.RowStatus.statusText": "{itemCount}개 중 {firstRow}부터 {lastRow}까지 표시합니다.",
+  "pgn.DataTable.SidebarFilters.title": "필터",
+  "pgn.Dropzone.DefaultContent.label": "드래그 앤 드롭하거나 클릭하여 업로드하세요.",
+  "pgn.Dropzone.DefaultContent.uploadButton": "이미지 업로드",
+  "pgn.Dropzone.UploadProgress.cancelLabel": "취소",
+  "pgn.Dropzone.UploadProgress.uploadLabel": "{filename} 파일을 업로드합니다."
+}

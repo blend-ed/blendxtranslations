@@ -1,0 +1,16 @@
+{
+  "pgn.DataTable.BaseSelectionStatus.allSelectedText": "सभी {numSelectedRows} चयनित",
+  "pgn.DataTable.BaseSelectionStatus.clearSelectionText": "चयन साफ़ करें",
+  "pgn.DataTable.BaseSelectionStatus.selectAllText": "सभी {itemCount} का चयन करें",
+  "pgn.DataTable.BaseSelectionStatus.selectedText": "{numSelectedRows} चयनित",
+  "pgn.DataTable.BaseSelectionStatus.selectedTextPaginated": "{numSelectedRows} चयनित (नीचे दिखाए गए {numSelectedRowsOnPage})",
+  "pgn.DataTable.ExpandAll.collapseAllLabel": "सभी को संकुचित करें",
+  "pgn.DataTable.ExpandAll.expandAllLabel": "सभी का विस्तार",
+  "pgn.DataTable.FilterStatus.clearFiltersText": "फ़िल्टर साफ़ करें",
+  "pgn.DataTable.RowStatus.statusText": "{itemCount} में से {firstRow} से {lastRow} तक दिखाया जा रहा है।",
+  "pgn.DataTable.SidebarFilters.title": "फिल्टर",
+  "pgn.Dropzone.DefaultContent.label": "अपलोड करने के लिए ड्रैग और ड्रॉप करें या क्लिक करें",
+  "pgn.Dropzone.DefaultContent.uploadButton": "तस्विर अपलोड करना",
+  "pgn.Dropzone.UploadProgress.cancelLabel": "रद्द करना",
+  "pgn.Dropzone.UploadProgress.uploadLabel": "फ़ाइलनाम अपलोड हो रहा है।"
+}

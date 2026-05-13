@@ -1,0 +1,16 @@
+{
+  "pgn.DataTable.BaseSelectionStatus.allSelectedText": "Все {numSelectedRows} выбраны",
+  "pgn.DataTable.BaseSelectionStatus.clearSelectionText": "Четкий выбор",
+  "pgn.DataTable.BaseSelectionStatus.selectAllText": "Выбрать все {количество товаров}",
+  "pgn.DataTable.BaseSelectionStatus.selectedText": "{numSelectedRows} выбрано",
+  "pgn.DataTable.BaseSelectionStatus.selectedTextPaginated": "{numSelectedRows} выбрано ({numSelectedRowsOnPage} показано ниже)",
+  "pgn.DataTable.ExpandAll.collapseAllLabel": "Свернуть все",
+  "pgn.DataTable.ExpandAll.expandAllLabel": "Развернуть все",
+  "pgn.DataTable.FilterStatus.clearFiltersText": "Очистить фильтры",
+  "pgn.DataTable.RowStatus.statusText": "Отображается {firstRow} - {lastRow} из {itemCount}.",
+  "pgn.DataTable.SidebarFilters.title": "Фильтры",
+  "pgn.Dropzone.DefaultContent.label": "Перетащите мышью или нажмите, чтобы загрузить.",
+  "pgn.Dropzone.DefaultContent.uploadButton": "Загрузить изображение",
+  "pgn.Dropzone.UploadProgress.cancelLabel": "Отмена",
+  "pgn.Dropzone.UploadProgress.uploadLabel": "Загрузка файла {filename}."
+}

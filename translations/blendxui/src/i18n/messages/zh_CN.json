@@ -1,0 +1,16 @@
+{
+  "pgn.DataTable.BaseSelectionStatus.allSelectedText": "已选择所有 {numSelectedRows} 行",
+  "pgn.DataTable.BaseSelectionStatus.clearSelectionText": "清除选择",
+  "pgn.DataTable.BaseSelectionStatus.selectAllText": "选择所有 {itemCount}",
+  "pgn.DataTable.BaseSelectionStatus.selectedText": "已选择 {numSelectedRows} 行",
+  "pgn.DataTable.BaseSelectionStatus.selectedTextPaginated": "已选择 {numSelectedRows} 行（如下所示：{numSelectedRowsOnPage}）",
+  "pgn.DataTable.ExpandAll.collapseAllLabel": "全部收起",
+  "pgn.DataTable.ExpandAll.expandAllLabel": "全部展开",
+  "pgn.DataTable.FilterStatus.clearFiltersText": "清除过滤器",
+  "pgn.DataTable.RowStatus.statusText": "显示 {firstRow} - {lastRow} 行，共 {itemCount} 行。",
+  "pgn.DataTable.SidebarFilters.title": "过滤器",
+  "pgn.Dropzone.DefaultContent.label": "拖放或点击上传",
+  "pgn.Dropzone.DefaultContent.uploadButton": "上传图片",
+  "pgn.Dropzone.UploadProgress.cancelLabel": "取消",
+  "pgn.Dropzone.UploadProgress.uploadLabel": "正在上传{filename}。"
+}

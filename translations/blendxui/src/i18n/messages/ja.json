@@ -1,0 +1,16 @@
+{
+  "pgn.DataTable.BaseSelectionStatus.allSelectedText": "{numSelectedRows} 全て選択済み",
+  "pgn.DataTable.BaseSelectionStatus.clearSelectionText": "選択をクリア",
+  "pgn.DataTable.BaseSelectionStatus.selectAllText": "すべて選択 {itemCount}",
+  "pgn.DataTable.BaseSelectionStatus.selectedText": "{numSelectedRows} が選択されました",
+  "pgn.DataTable.BaseSelectionStatus.selectedTextPaginated": "{numSelectedRows} が選択されました（{numSelectedRowsOnPage} は下記に表示されています）",
+  "pgn.DataTable.ExpandAll.collapseAllLabel": "すべて折りたたむ",
+  "pgn.DataTable.ExpandAll.expandAllLabel": "すべて展開",
+  "pgn.DataTable.FilterStatus.clearFiltersText": "フィルターをクリアする",
+  "pgn.DataTable.RowStatus.statusText": "{itemCount}件中、{firstRow}～{lastRow}を表示しています。",
+  "pgn.DataTable.SidebarFilters.title": "フィルター",
+  "pgn.Dropzone.DefaultContent.label": "ドラッグ＆ドロップまたはクリックしてアップロード",
+  "pgn.Dropzone.DefaultContent.uploadButton": "画像をアップロード",
+  "pgn.Dropzone.UploadProgress.cancelLabel": "キャンセル",
+  "pgn.Dropzone.UploadProgress.uploadLabel": "{filename}をアップロードしています。"
+}
