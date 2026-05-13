@@ -151,6 +151,7 @@
   "registration.tpa.authentication.failure": "죄송합니다. 해당 채널을 통해 {platform_name}에 접속할 권한이 없습니다.",
   "registration.tpa.session.expired": "{provider}를 사용한 등록 시간이 초과되었습니다.",
   "registration.username.label": "공개 사용자 이름",
+  "registration.username.suggestion.close.alt": "닫다",
   "registration.username.suggestion.label": "제안:",
   "registration.using.tpa.form.heading": "계정 생성을 완료하세요",
   "reset.password": "비밀번호 재설정",

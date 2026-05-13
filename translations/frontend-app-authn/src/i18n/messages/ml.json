@@ -151,6 +151,7 @@
   "registration.tpa.authentication.failure": "ക്ഷമിക്കണം, ഈ ചാനൽ വഴി {platform_name} ആക്‌സസ് ചെയ്യാൻ നിങ്ങൾക്ക് അധികാരമില്ല.",
   "registration.tpa.session.expired": "{provider} ഉപയോഗിച്ചുള്ള രജിസ്ട്രേഷൻ കാലഹരണപ്പെട്ടു.",
   "registration.username.label": "പൊതു ഉപയോക്തൃനാമം",
+  "registration.username.suggestion.close.alt": "അടയ്ക്കുക",
   "registration.username.suggestion.label": "നിർദ്ദേശിച്ചത്:",
   "registration.using.tpa.form.heading": "നിങ്ങളുടെ അക്കൗണ്ട് സൃഷ്ടിക്കുന്നത് പൂർത്തിയാക്കുക",
   "reset.password": "പാസ്‌വേഡ് പുനഃസജ്ജമാക്കുക",

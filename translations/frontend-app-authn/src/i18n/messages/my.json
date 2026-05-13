@@ -151,6 +151,7 @@
   "registration.tpa.authentication.failure": "တောင်းပန်ပါတယ်၊ ဤချန်နယ်မှတစ်ဆင့် {platform_name} ကို ဝင်ရောက်ကြည့်ရှုခွင့် မရှိပါ။",
   "registration.tpa.session.expired": "{provider} ကို အသုံးပြု၍ မှတ်ပုံတင်ခြင်း အချိန်ကုန်သွားပါပြီ။",
   "registration.username.label": "အများသုံး အသုံးပြုသူအမည်",
+  "registration.username.suggestion.close.alt": "ပိတ်ရန်",
   "registration.username.suggestion.label": "အကြံပြုထားသည်-",
   "registration.using.tpa.form.heading": "သင့်အကောင့်ဖန်တီးခြင်းကို အပြီးသတ်ပါ",
   "reset.password": "စကားဝှက် ပြန်လည်သတ်မှတ်ပါ",
