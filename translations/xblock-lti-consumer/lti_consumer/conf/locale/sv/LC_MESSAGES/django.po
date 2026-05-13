@@ -5,6 +5,8 @@
 # 
 # Translators:
 # Eden Huthmacher, 2025
+# Transifex Bot <>, 2026
+# Brian Smith, 2026
 # 
 msgid ""
 msgstr ""
@@ -12,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2023-06-13 08:00+0000\n"
 "PO-Revision-Date: 2023-06-24 01:02+0000\n"
-"Last-Translator: Eden Huthmacher, 2025\n"
+"Last-Translator: Brian Smith, 2026\n"
 "Language-Team: Swedish (https://app.transifex.com/open-edx/teams/6205/sv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -45,16 +47,16 @@ msgid "No valid user id found in endpoint URL"
 msgstr "Ingen giltig användar-id hittades i slutpunktens URL"
 
 #: lti_xblock.py:147
-msgid "Configuration on block"
-msgstr "Konfiguration på block"
+msgid "New"
+msgstr "Ny"
 
 #: lti_xblock.py:151
-msgid "Database Configuration"
-msgstr "Databaskonfiguration"
+msgid "Database"
+msgstr "Databas"
 
 #: lti_xblock.py:154
-msgid "Reusable Configuration"
-msgstr "Återanvändbar konfiguration"
+msgid "Existing"
+msgstr "Befintlig"
 
 #: lti_xblock.py:262
 msgid "Display Name"
@@ -62,449 +64,388 @@ msgstr "Visningsnamn"
 
 #: lti_xblock.py:264
 msgid ""
-"Enter the name that students see for this component. Analytics reports may "
-"also use the display name to identify this component."
+"Enter the name learners see for this component. This name may also appear in"
+" reports."
 msgstr ""
-"Ange namnet som studenterna ser för denna komponent. Analysrapporter kan "
-"också använda visningsnamnet för att identifiera denna komponent."
+"Ange namnet som deltagarna ser för den här komponenten. Namnet kan även "
+"visas i rapporter."
 
-#: lti_xblock.py:268
+#: lti_xblock.py:267
 msgid "LTI Consumer"
 msgstr "LTI-konsument"
 
-#: lti_xblock.py:271
-msgid "LTI Application Information"
-msgstr "LTI Application Information"
+#: lti_xblock.py:270
+msgid "Data Sharing Notice"
+msgstr "Meddelande om datadelning"
 
-#: lti_xblock.py:273
+#: lti_xblock.py:272
 msgid ""
-"Enter a description of the third party application. If requesting username "
-"and/or email, use this text box to inform users why their username and/or "
-"email will be forwarded to a third party application."
+"Enter a short notice about the tool. Use this field to explain why learner "
+"data may be shared with it."
 msgstr ""
-"Ange en beskrivning av tredjepartsprogrammet. Om du begär användarnamn och /"
-" eller e-post, använd den här textrutan för att informera användarna varför "
-"deras användarnamn och / eller e-post ska vidarebefordras till en tredje "
-"part."
+"Ange en kort information om verktyget. Använd det här fältet för att "
+"förklara varför elevdata kan delas med det."
 
-#: lti_xblock.py:281
+#: lti_xblock.py:278
 msgid "Configuration Type"
 msgstr "Konfigurationstyp"
 
-#: lti_xblock.py:286
+#: lti_xblock.py:283
 msgid ""
-"Select 'Configuration on block' to configure a new LTI Tool. If the support "
-"staff provided you with a pre-configured LTI reusable Tool ID, "
-"select'Reusable Configuration' and enter it in the text field below."
+"Select 'New' to configure a new LTI Tool. If your admin has provided you "
+"with ID of an existing reusable tool configuration, select 'Existing' and "
+"enter it in the text field on the right."
 msgstr ""
-"Välj 'Konfiguration på block' för att konfigurera ett nytt LTI-verktyg. Om "
-"supportpersonalen har gett dig ett förkonfigurerat återanvändbart LTI-"
-"verktygs-ID, välj 'Återanvändbar konfiguration' och ange det i textfältet "
-"nedan."
+"Välj \"Ny\" för att konfigurera ett nytt LTI-verktyg. Om din administratör "
+"har gett dig ID för en befintlig återanvändbar verktygskonfiguration, välj "
+"\"Befintlig\" och ange det i textfältet till höger."
 
-#: lti_xblock.py:293
+#: lti_xblock.py:289
 msgid "LTI Version"
 msgstr "LTI-version"
 
-#: lti_xblock.py:301
+#: lti_xblock.py:297
+msgid "Select the LTI version supported by your tool."
+msgstr "Välj den LTI-version som ditt verktyg stöder."
+
+#: lti_xblock.py:302
+msgid "LTI Reusability ID"
+msgstr "LTI-återanvändnings-ID"
+
+#: lti_xblock.py:304
+msgid "Enter the ID of an existing reusable tool configuration."
+msgstr "Ange ID för en befintlig återanvändbar verktygskonfiguration."
+
+#: lti_xblock.py:309
+msgid "Lti 1.3 passport ID that points to Lti1p3Passport table"
+msgstr "Lti 1.3-pass-ID som pekar på Lti1p3Passport-tabellen"
+
+#: lti_xblock.py:312
+msgid "Passport ID for a reusable keys."
+msgstr "Pass-ID för återanvändbara nycklar."
+
+#: lti_xblock.py:316
+msgid "Launch URL"
+msgstr "Starta URL"
+
+#: lti_xblock.py:320
 msgid ""
-"Select the LTI version that your tool supports.<br />The XBlock LTI Consumer"
-" fully supports LTI 1.1.1, LTI 1.3 and LTI Advantage features."
+"Enter the launch URL for this tool. For LTI 1.3, this is the URL Open edX "
+"uses to launch the tool."
 msgstr ""
-"Välj den LTI-version som ditt verktyg stöder.<br />XBlock LTI Consumer "
-"stöder fullt ut LTI 1.1.1, LTI 1.3 och LTI Advantage-funktioner."
-
-#: lti_xblock.py:308
-msgid "LTI Reusable Configuration ID"
-msgstr "LTI Återanvändbart Konfigurations-ID"
-
-#: lti_xblock.py:310
-msgid ""
-"Enter the reusable LTI external configuration ID provided by the support "
-"staff."
-msgstr ""
-"Ange det återanvändbara externa LTI-konfigurations-ID som tillhandahålls av "
-"supportpersonalen."
-
-#: lti_xblock.py:315
-msgid "Tool Launch URL"
-msgstr "Verktygets start-URL"
-
-#: lti_xblock.py:319
-msgid ""
-"Enter the LTI 1.3 Tool Launch URL. <br />This is the URL the LMS will use to"
-" launch the LTI Tool."
-msgstr ""
-"Ange LTI 1.3-verktygets start-URL. <br />Detta är URL:en som LMS kommer att "
-"använda för att starta LTI-verktyget."
+"Ange start-URL:en för det här verktyget. För LTI 1.3 är detta den URL som "
+"Open edX använder för att starta verktyget."
 
 #: lti_xblock.py:324
-msgid "Tool Initiate Login URL"
-msgstr "Verktyg initiera inloggnings-URL"
+msgid "Tool Initiate Login URL (OIDC)"
+msgstr "URL för verktygets initieringsinloggning (OIDC)"
 
 #: lti_xblock.py:328
 msgid ""
-"Enter the LTI 1.3 Tool OIDC Authorization url (can also be called login or "
-"login initiation URL).<br />This is the URL the LMS will use to start a LTI "
-"authorization prior to doing the launch request."
+"Enter the tool’s OIDC login initiation URL. Open edX uses this URL to start "
+"the LTI 1.3 login flow."
 msgstr ""
-"Ange LTI 1.3-verktygets OIDC-autentiserings-URL (kan också kallas "
-"inloggnings- eller inloggningsinitierings-URL).<br />Detta är URL:en som LMS"
-" kommer att använda för att starta en LTI-autentisering innan startförfrågan"
-" görs."
+"Ange verktygets OIDC-URL för inloggningsinitiering. Open edX använder denna "
+"URL för att starta LTI 1.3-inloggningsflödet."
 
-#: lti_xblock.py:334
+#: lti_xblock.py:332
 msgid "Registered Redirect URIs"
 msgstr "Registrerade omdirigerings-URI:er"
 
-#: lti_xblock.py:336
+#: lti_xblock.py:334
 msgid ""
-"Valid urls the Tool may request us to redirect the id token to. The redirect"
-" uris are often the same as the launch url/deep linking url so if this field"
-" is empty, it will use them as the default. If you need to use different "
-"redirect uri's, enter them here. If you use this field you must enter all "
-"valid redirect uri's the tool may request."
+"Enter the redirect URIs this tool is allowed to use during login e.g. "
+"[\"https://tool.com\", \"https://tool_deeplink.com\"]. Leave this blank to "
+"use the launch URL and deep linking URL by default."
 msgstr ""
-"Giltiga URL:er som verktyget kan begära att vi omdirigerar ID-token till. "
-"Omdirigerings-URI:er är ofta samma som start-URL/djup-länk-URL, så om detta "
-"fält är tomt kommer de att användas som standard. Om du behöver använda "
-"olika omdirigerings-URI:er, ange dem här. Om du använder detta fält måste du"
-" ange alla giltiga omdirigerings-URI:er som verktyget kan begära."
+"Ange de omdirigerings-URI:er som det här verktyget får använda under "
+"inloggning, t.ex. [\"https://tool.com\", \"https://tool_deeplink.com\"]. "
+"Lämna fältet tomt för att använda start-URL:en och djuplänknings-URL:en som "
+"standard."
 
-#: lti_xblock.py:346
+#: lti_xblock.py:342
 msgid "Tool Public Key Mode"
 msgstr "Verktygets offentliga nyckelläge"
 
-#: lti_xblock.py:354
-msgid "Select how the tool's public key information will be specified."
-msgstr "Välj hur verktygets offentliga nyckelinformation ska anges."
+#: lti_xblock.py:350
+msgid ""
+"Choose how Open edX will get the tool’s public key for validating signed "
+"messages."
+msgstr ""
+"Välj hur Open edX ska få verktygets publika nyckel för att validera "
+"signerade meddelanden."
 
-#: lti_xblock.py:358
+#: lti_xblock.py:354
 msgid "Tool Keyset URL"
 msgstr "Verktygsnyckeluppsättningens URL"
 
-#: lti_xblock.py:362
+#: lti_xblock.py:358
 msgid ""
-"Enter the LTI 1.3 Tool's JWK keysets URL.<br />This link should retrieve a "
-"JSON file containing public keys and signature algorithm information, so "
-"that the LMS can check if the messages and launch requests received have the"
-" signature from the tool.<br /><b>This is not required when doing LTI 1.3 "
-"Launches without LTI Advantage nor Basic Outcomes requests.</b>"
+"Enter the URL of the tool’s JWK keyset. Open edX uses this URL to retrieve "
+"the public keys needed to validate signed messages."
 msgstr ""
-"Ange LTI 1.3-verktygets JWK-nyckeluppsättnings-URL.<br />Denna länk bör "
-"hämta en JSON-fil som innehåller offentliga nycklar och information om "
-"signaturalgoritmer, så att LMS kan kontrollera om de mottagna meddelandena "
-"och startförfrågningarna har verktygets signatur.<br /><b>Detta är inte "
-"nödvändigt vid LTI 1.3-start utan LTI Advantage eller Basic Outcomes-"
-"förfrågningar.</b>"
+"Ange URL:en till verktygets JWK-nyckeluppsättning. Open edX använder denna "
+"URL för att hämta de publika nycklar som behövs för att validera signerade "
+"meddelanden."
 
-#: lti_xblock.py:372
+#: lti_xblock.py:363
 msgid "Tool Public Key"
 msgstr "Verktygets offentliga nyckel"
 
-#: lti_xblock.py:377
+#: lti_xblock.py:368
 msgid ""
-"Enter the LTI 1.3 Tool's public key.<br />This is a string that starts with "
-"'-----BEGIN PUBLIC KEY-----' and is required so that the LMS can check if "
-"the messages and launch requests received have the signature from the "
-"tool.<br /><b>This is not required when doing LTI 1.3 Launches without LTI "
-"Advantage nor Basic Outcomes requests.</b>"
+"Enter the tool’s public key in PEM format (starts with -----BEGIN PUBLIC "
+"KEY-----). Use this when the tool provides a static public key directly."
 msgstr ""
-"Ange LTI 1.3-verktygets offentliga nyckel.<br />Detta är en sträng som "
-"börjar med '-----BEGIN PUBLIC KEY-----' och krävs för att LMS ska kunna "
-"kontrollera om de mottagna meddelandena och startförfrågningarna har "
-"verktygets signatur.<br /><b>Detta krävs inte vid LTI 1.3-start utan LTI "
-"Advantage eller Basic Outcomes-förfrågningar.</b>"
+"Ange verktygets publika nyckel i PEM-format (börjar med -----BEGIN PUBLIC "
+"KEY-----). Använd detta när verktyget tillhandahåller en statisk publik "
+"nyckel direkt."
 
-#: lti_xblock.py:387
-msgid "Enable LTI NRPS"
-msgstr "Aktivera LTI NRPS"
+#: lti_xblock.py:374
+msgid "Names & Roles (NRPS)"
+msgstr "Namn och roller (NRPS)"
 
-#: lti_xblock.py:388
-msgid "Enable LTI Names and Role Provisioning Services."
-msgstr "Aktivera LTI Names and Role Provisioning Services."
+#: lti_xblock.py:376
+msgid ""
+"Enable this to allow the tool to access the names and roles of enrolled "
+"learners, if the tool supports NRPS."
+msgstr ""
+"Aktivera detta för att tillåta verktyget att komma åt namn och roller för "
+"registrerade deltagare, om verktyget stöder NRPS."
 
-#: lti_xblock.py:395
+#: lti_xblock.py:385
 msgid "Deep linking"
 msgstr "Djup länkning"
 
-#: lti_xblock.py:396
-msgid "Select True if you want to enable LTI Advantage Deep Linking."
-msgstr "Välj Sant om du vill aktivera LTI Advantage Deep Linking."
+#: lti_xblock.py:387
+msgid ""
+"Enable this if you want to deep link content from within the tool, in "
+"Studio."
+msgstr "Aktivera detta om du vill djuplänka innehåll från verktyget i Studio."
 
-#: lti_xblock.py:401
+#: lti_xblock.py:393
 msgid "Deep Linking Launch URL"
 msgstr "URL för start av djup länkning"
 
-#: lti_xblock.py:405
+#: lti_xblock.py:397
 msgid ""
-"Enter the LTI Advantage Deep Linking Launch URL. If the tool does not "
-"specify one, use the same value as 'Tool Launch URL'."
+"Enter the deep linking URL for this tool. If the tool does not specify one, "
+"enter the 'Launch URL' here."
 msgstr ""
-"Ange LTI Advantage Deep Linking Launch URL. Om verktyget inte specificerar "
-"en, använd samma värde som 'Tool Launch URL'."
+"Ange djuplänknings-URL:en för det här verktyget. Om verktyget inte anger "
+"någon, ange \"Start-URL\" här."
 
-#: lti_xblock.py:412
+#: lti_xblock.py:401
+msgid "Assignment and Grades"
+msgstr "Uppgifter och betyg"
+
+#: lti_xblock.py:403
+msgid "Declarative"
+msgstr "Deklarativ"
+
+#: lti_xblock.py:404
+msgid "Programmatic"
+msgstr "Programmatisk"
+
+#: lti_xblock.py:405 templates/html/lti_studio_edit/_step_advantage.html:30
+#: templates/html/lti_studio_edit/_step_advantage.html:114
+#: templates/html/lti_studio_edit/_step_review.html:97
+#: templates/html/lti_studio_edit/_step_review.html:218
 msgid "Disabled"
 msgstr "Inaktiverad"
 
-#: lti_xblock.py:413
-msgid "Allow tools to submit grades only (declarative)"
-msgstr "Tillåt verktyg att endast skicka in betyg (deklarativt)"
+#: lti_xblock.py:410
+msgid ""
+"Enable AGS and select functionality. 'Declarative' provides the tool with an"
+" existing line item. 'Programmatic' allows tools to create and manage line "
+"items."
+msgstr ""
+"Aktivera AGS och välj funktionalitet. \"Deklarativ\" ger verktyget en "
+"befintlig radpost. \"Programmatisk\" låter verktyg skapa och hantera "
+"radposter."
 
-#: lti_xblock.py:414
-msgid "Allow tools to manage and submit grade (programmatic)"
-msgstr "Tillåt verktyg att hantera och skicka in betyg (programmatisk)"
+#: lti_xblock.py:417
+msgid "LTI Passport ID"
+msgstr "LTI Passport-ID"
 
 #: lti_xblock.py:419
 msgid ""
-"Enable the LTI-AGS service and select the functionality enabled for LTI "
-"tools. The 'declarative' mode (default) will provide a tool with a LineItem "
-"created from the XBlock settings, while the 'programmatic' one will allow "
-"tools to manage, create and link the grades."
+"Select the LTI passport ID for this tool. This is the ID of the LTI passport"
+" that you created on Advanced Settings page."
 msgstr ""
-"Aktivera LTI-AGS-tjänsten och välj den funktionalitet som är aktiverad för "
-"LTI-verktyg. 'Deklarativt' läge (standard) kommer att ge ett verktyg en "
-"LineItem skapad från XBlock-inställningarna, medan det 'programmerbara' "
-"läget tillåter verktyg att hantera, skapa och länka betygen."
+"Välj LTI-pass-ID för det här verktyget. Detta är ID:t för det LTI-pass som "
+"du skapade på sidan Avancerade Inställningar."
 
-#: lti_xblock.py:427
-msgid "LTI ID"
-msgstr "LTI ID"
-
-#: lti_xblock.py:429
-#, python-brace-format
-msgid ""
-"Enter the LTI ID for the external LTI provider. This value must be the same "
-"LTI ID that you entered in the LTI Passports setting on the Advanced "
-"Settings page.<br />See the {docs_anchor_open}edX LTI "
-"documentation{anchor_close} for more details on this setting."
-msgstr ""
-"Ange LTI-ID för den externa LTI-leverantören. Detta värde måste vara samma "
-"LTI-ID som du angav i LTI Passports-inställningen på sidan Avancerade "
-"inställningar.<br />Se {docs_anchor_open}edX LTI-"
-"dokumentationen{anchor_close} för mer information om den här inställningen."
-
-#: lti_xblock.py:441
+#: lti_xblock.py:426
 msgid "LTI URL"
 msgstr "LTI URL"
 
-#: lti_xblock.py:443
-#, python-brace-format
+#: lti_xblock.py:428
 msgid ""
-"Enter the URL of the external tool that this component launches. This "
-"setting is only used when Hide External Tool is set to False.<br />See the "
-"{docs_anchor_open}edX LTI documentation{anchor_close} for more details on "
-"this setting."
+"Enter the launch URL for this tool. For LTI 1.1/1.2, this is the URL Open "
+"edX uses to launch the tool."
 msgstr ""
-"Ange URL:en till det externa verktyget som den här komponenten startar. Den "
-"här inställningen används bara när Hide External Tool är inställt på "
-"False.<br />Se {docs_anchor_open}edX LTI-dokumentationen{anchor_close} för "
-"mer information om den här inställningen."
+"Ange start-URL:en för det här verktyget. För LTI 1.1/1.2 är detta den URL "
+"som Open edX använder för att starta verktyget."
 
-#: lti_xblock.py:456
+#: lti_xblock.py:436
 msgid "Custom Parameters"
 msgstr "Anpassade parametrar"
 
+#: lti_xblock.py:438
+msgid ""
+"Enter key-value pairs to send with each launch e.g. [\"page=1\", "
+"\"color=white\"]."
+msgstr ""
+"Ange nyckel-värde-par att skicka med varje start, t.ex. [\"page=1\", "
+"\"color=white\"]."
+
+#: lti_xblock.py:443
+msgid "Open tool in"
+msgstr "Öppna verktyget i"
+
+#: lti_xblock.py:445
+msgid ""
+"Choose how the tool opens for learners: inline in the page, in a modal, or "
+"in a new window."
+msgstr ""
+"Välj hur verktyget öppnas för deltagarna: infogat på sidan, i en modal eller"
+" i ett nytt fönster."
+
 #: lti_xblock.py:458
-#, python-brace-format
 msgid ""
-"Add the key/value pair for any custom parameters, such as the page your "
-"e-book should open to or the background color for this component. Ex. "
-"[\"page=1\", \"color=white\"]<br />See the {docs_anchor_open}edX LTI "
-"documentation{anchor_close} for more details on this setting."
+"Enter the label shown on the launch button when the tool opens in a modal or"
+" new window."
 msgstr ""
-"Lägg till nyckel/värdeparet för eventuella anpassade parametrar, till "
-"exempel sidan som din e-bok ska öppnas till eller bakgrundsfärgen för den "
-"här komponenten. Ex. [\"page=1\", \"color=white\"]<br />Se "
-"{docs_anchor_open}edX LTI-dokumentationen{anchor_close} för mer information "
-"om den här inställningen."
+"Ange etiketten som visas på startknappen när verktyget öppnas i en modal "
+"eller ett nytt fönster."
 
-#: lti_xblock.py:468
-msgid "LTI Launch Target"
-msgstr "LTI-startmål"
+#: lti_xblock.py:466
+msgid "Enter the height of the inline iframe in pixels."
+msgstr "Ange höjden för den inbäddade iframen i pixlar."
 
-#: lti_xblock.py:470
-msgid ""
-"Select Inline if you want the LTI content to open in an IFrame in the "
-"current page. Select Modal if you want the LTI content to open in a modal "
-"window in the current page. Select New Window if you want the LTI content to"
-" open in a new browser window. This setting is only used when Hide External "
-"Tool is set to False."
+#: lti_xblock.py:472
+msgid "Modal Height (%)"
+msgstr "Modalhöjd (%)"
+
+#: lti_xblock.py:474
+msgid "Enter the modal height as a percentage of the browser window."
+msgstr "Ange modalhöjden som en procentandel av webbläsarfönstret."
+
+#: lti_xblock.py:480
+msgid "Modal Width (%)"
+msgstr "Modalbredd (%)"
+
+#: lti_xblock.py:482
+msgid "Enter the modal width as a percentage of the browser window."
+msgstr "Ange modalens bredd som en procentandel av webbläsarfönstret."
+
+#: lti_xblock.py:488
+msgid "This activity is graded"
+msgstr "Denna aktivitet är betygsatt"
+
+#: lti_xblock.py:489
+msgid "Enable this if the tool sends a numeric score back to Open edX."
 msgstr ""
-"Välj Inline om du vill att LTI-innehållet ska öppnas i en IFrame på den "
-"aktuella sidan. Välj Modal om du vill att LTI-innehållet ska öppnas i ett "
-"modalt fönster på den aktuella sidan. Välj Nytt fönster om du vill att LTI-"
-"innehållet ska öppnas i ett nytt webbläsarfönster. Denna inställning används"
-" endast när Dölj externt verktyg är inställt på Falskt."
-
-#: lti_xblock.py:484
-msgid "Button Text"
-msgstr "Knapptext"
-
-#: lti_xblock.py:486
-msgid ""
-"Enter the text on the button used to launch the third party application. "
-"This setting is only used when Hide External Tool is set to False and LTI "
-"Launch Target is set to Modal or New Window."
-msgstr ""
-"Ange texten på knappen som används för att starta tredjepartsapplikationen. "
-"Denna inställning används endast när Dölj Externt Verktyg är inställt på "
-"Falskt och LTI Startmål är inställt på Modal eller Nytt Fönster."
+"Aktivera detta om verktyget skickar ett numeriskt resultat tillbaka till "
+"Open edX."
 
 #: lti_xblock.py:494
-msgid "Inline Height"
-msgstr "Inlinehöjd"
+msgid "Grade Weight"
+msgstr "Betygsvikt"
 
 #: lti_xblock.py:496
-msgid ""
-"Enter the desired pixel height of the iframe which will contain the LTI "
-"tool. This setting is only used when Hide External Tool is set to False and "
-"LTI Launch Target is set to Inline."
-msgstr ""
-"Ange den önskade pixelhöjden för iframen som kommer att innehålla LTI-"
-"verktyget. Denna inställning används endast när Dölj externt verktyg är "
-"inställt på Falskt och LTI-startmål är inställt på Inline."
+msgid "Enter the maximum number of points for this component."
+msgstr "Ange det maximala antalet poäng för den här komponenten."
 
-#: lti_xblock.py:504
-msgid "Modal Height"
-msgstr "Modalhöjd"
-
-#: lti_xblock.py:506
-msgid ""
-"Enter the desired viewport percentage height of the modal overlay which will"
-" contain the LTI tool. This setting is only used when Hide External Tool is "
-"set to False and LTI Launch Target is set to Modal."
-msgstr ""
-"Ange den önskade höjdprocenten för vyporten för modalöverlägget som kommer "
-"att innehålla LTI-verktyget. Denna inställning används endast när Dölj "
-"externt verktyg är inställt på Falskt och LTI-startmål är inställt på Modal."
-
-#: lti_xblock.py:514
-msgid "Modal Width"
-msgstr "Modalbredd"
-
-#: lti_xblock.py:516
-msgid ""
-"Enter the desired viewport percentage width of the modal overlay which will "
-"contain the LTI tool. This setting is only used when Hide External Tool is "
-"set to False and LTI Launch Target is set to Modal."
-msgstr ""
-"Ange den önskade procentuella bredden på vyporten för modalöverlägget som "
-"kommer att innehålla LTI-verktyget. Denna inställning används endast när "
-"Dölj externt verktyg är inställt på Falskt och LTI-startmål är inställt på "
-"Modal."
-
-#: lti_xblock.py:524
-msgid "Scored"
-msgstr "Poängsatt"
-
-#: lti_xblock.py:525
-msgid ""
-"Select True if this component will receive a numerical score from the "
-"external LTI system."
-msgstr ""
-"Välj True om den här komponenten kommer att få ett numeriskt poäng från det "
-"externa LTI-systemet."
-
-#: lti_xblock.py:532
-msgid ""
-"Enter the number of points possible for this component.  The default value "
-"is 1.0.  This setting is only used when Scored is set to True."
-msgstr ""
-"Ange antal poäng som är möjliga för denna komponent. Standardvärdet är 1,0. "
-"Den här inställningen används endast när Scored är inställd på True."
-
-#: lti_xblock.py:541
+#: lti_xblock.py:503
 msgid ""
 "The score kept in the xblock KVS -- duplicate of the published score in "
 "django DB"
 msgstr ""
 "Poängen hölls i xblock KVS - duplikat av det publicerade poänget i django DB"
 
-#: lti_xblock.py:546
+#: lti_xblock.py:508
 msgid "Comment as returned from grader, LTI2.0 spec"
 msgstr "Kommentera som returnerad från grader, LTI2.0 spec"
 
-#: lti_xblock.py:551
+#: lti_xblock.py:513
 msgid "Hide External Tool"
 msgstr "Dölj externt verktyg"
 
-#: lti_xblock.py:553
+#: lti_xblock.py:515
 msgid ""
-"Select True if you want to use this component as a placeholder for syncing "
-"with an external grading  system rather than launch an external tool.  This "
-"setting hides the Launch button and any IFrames for this component."
+"Enable this to hide launch button and iframe so you use the component for "
+"grade sync etc."
 msgstr ""
-"Välj Sant om du vill använda den här komponenten som en platshållare för "
-"synkronisering med ett externt betygssystem istället för att starta ett "
-"externt verktyg. Denna inställning döljer Start-knappen och eventuella "
-"IFrames för denna komponent."
+"Aktivera detta för att dölja startknappen och iframen så att du kan använda "
+"komponenten för betygssynkronisering etc."
 
-#: lti_xblock.py:561
-msgid "Accept grades past deadline"
-msgstr "Godkänn betyg efter deadline"
+#: lti_xblock.py:521
+msgid "Accept grades after due date"
+msgstr "Acceptera betyg efter förfallodatum"
 
-#: lti_xblock.py:562
+#: lti_xblock.py:522
 msgid ""
-"Select True to allow third party systems to post grades past the deadline."
+"Enable this to allow the tool to send grades after the due date has passed."
 msgstr ""
-"Välj True för att tillåta tredjepartssystem att skicka betyg efter "
-"tidsfristen."
+"Aktivera detta för att tillåta verktyget att skicka betyg efter att "
+"förfallodatumet har passerat."
 
-#: lti_xblock.py:570
-msgid "Request user's username"
-msgstr "Begär användarens användarnamn"
+#: lti_xblock.py:530
+msgid "Share Username"
+msgstr "Dela användarnamn"
 
 #. Translators: This is used to request the user's username for a third party
 #. service.
-#: lti_xblock.py:572
-msgid "Select True to request the user's username."
-msgstr "Välj True för att begära användarens användarnamn."
+#: lti_xblock.py:532
+msgid "Enable this to send the learner’s username to the tool."
+msgstr ""
+"Aktivera detta för att skicka deltagarens användarnamn till verktyget."
 
-#: lti_xblock.py:577
-msgid "Request user's full name"
-msgstr "Begär användarens fullständiga namn"
+#: lti_xblock.py:537
+msgid "Share Full name"
+msgstr "Dela fullständigt namn"
 
 #. Translators: This is used to request the user's full name for a third party
 #. service.
-#: lti_xblock.py:579
-msgid "Select True to request the user's full name."
-msgstr "Välj True för att begära användarens fullständiga namn."
+#: lti_xblock.py:539
+msgid "Enable this to send the learner’s full name to the tool."
+msgstr ""
+"Aktivera detta för att skicka deltagarens fullständiga namn till verktyget."
 
-#: lti_xblock.py:584
-msgid "Request user's email"
-msgstr "Begär användarens email"
+#: lti_xblock.py:544
+msgid "Share Email"
+msgstr "Dela e-post"
 
 #. Translators: This is used to request the user's email for a third party
 #. service.
-#: lti_xblock.py:586
-msgid "Select True to request the user's email address."
-msgstr "Välj Sant för att begära användarens e-postadress."
+#: lti_xblock.py:546
+msgid "Enable this to send the learner’s email address to the tool."
+msgstr ""
+"Aktivera detta för att skicka deltagarens e-postadress till verktyget."
 
-#: lti_xblock.py:592
+#: lti_xblock.py:552
 msgid "Send extra parameters"
 msgstr "Skicka extra parametrar"
 
-#: lti_xblock.py:593
+#: lti_xblock.py:553
 msgid ""
-"Select True to send the extra parameters, which might contain Personally "
-"Identifiable Information. The processors are site-wide, please consult the "
-"site administrator if you have any questions."
+"Enable this to send extra parameters (may contain PII). Consult site admin "
+"for details."
 msgstr ""
-"Välj Sant för att skicka de extra parametrarna, som kan innehålla personligt"
-" identifierbar information. Processorerna är webbplatsomfattande, vänligen "
-"kontakta webbplatsadministratören om du har några frågor."
+"Aktivera detta för att skicka extra parametrar (kan innehålla PII). Kontakta"
+" webbplatsadministratören för mer information."
 
-#: lti_xblock.py:668
+#: lti_xblock.py:627
 msgid "Custom Parameters must be a list"
 msgstr "Anpassade parametrar måste vara en lista"
 
-#: lti_xblock.py:675
+#: lti_xblock.py:634
 msgid "Custom Parameters should be strings in \"x=y\" format."
 msgstr "Anpassade parametrar ska vara strängar i formatet \"x=y\"."
 
-#: lti_xblock.py:685
+#: lti_xblock.py:644
 msgid ""
 "Reusable configuration ID must be set when using external config (Example: "
 "\"x:y\")."
@@ -512,18 +453,18 @@ msgstr ""
 "Återanvändbart konfigurations-ID måste anges när extern konfiguration "
 "används (Exempel: \"x:y\")."
 
-#: lti_xblock.py:709
+#: lti_xblock.py:668
 msgid ""
 "The specified LTI ID is not configured in this course's Advanced Settings."
 msgstr ""
 "Den angivna LTI-ID:n är inte konfigurerad i den här kursens Avancerade "
 "Inställningar."
 
-#: lti_xblock.py:838 lti_xblock.py:1129
+#: lti_xblock.py:802 lti_xblock.py:1119
 msgid "Could not get user data for current request"
 msgstr "Kunde inte hämta användardata för aktuell begäran"
 
-#: lti_xblock.py:878
+#: lti_xblock.py:842
 msgid ""
 "Could not parse LTI passport: {lti_passport!r}. Should be \"id:key:secret\" "
 "string."
@@ -531,11 +472,11 @@ msgstr ""
 "Det gick inte att tolka LTI-passet: {lti_passport!r}. Bör vara "
 "\"id:nyckel:hemlig\" sträng."
 
-#: lti_xblock.py:896 lti_xblock.py:910 lti_xblock.py:926
+#: lti_xblock.py:860 lti_xblock.py:874 lti_xblock.py:890
 msgid "Could not get user id for current request"
 msgstr "Kunde inte hämta användar-ID för aktuell begäran"
 
-#: lti_xblock.py:1062
+#: lti_xblock.py:1052
 msgid ""
 "Could not parse custom parameter: {custom_parameter!r}. Should be \"x=y\" "
 "string."
@@ -543,68 +484,27 @@ msgstr ""
 "Kunde inte tolka anpassad parameter: {custom_parameter!r}. Bör vara en "
 "\"x=y\"-sträng."
 
-#: lti_xblock.py:1452
+#: lti_xblock.py:1507
 msgid "[LTI]: Real user not found against anon_id: {}"
 msgstr "[LTI]: Verklig användare hittades inte mot anon_id: {}"
 
-#: models.py:85
-msgid "Configuration Stored on XBlock fields"
-msgstr "Konfiguration lagrad på XBlock-fält"
-
-#: models.py:86
-msgid "Configuration Stored on this model"
-msgstr "Konfiguration lagrad på denna modell"
-
-#: models.py:87
-msgid "Configuration Stored on external service"
-msgstr "Konfiguration lagrad på extern tjänst"
-
-#: models.py:119
-msgid "LTI configuration data."
-msgstr "LTI-konfigurationsdata."
-
-#: models.py:126
-msgid "The URL of the external tool that initiates the launch."
-msgstr "URL:en för det externa verktyget som initierar starten."
-
-#: models.py:131
-msgid "Client key provided by the LTI tool provider."
-msgstr "Klientnyckel tillhandahållen av LTI-verktygsleverantören."
-
-#: models.py:137
-msgid "Client secret provided by the LTI tool provider."
-msgstr "Klienthemlighet tillhandahållen av LTI-verktygsleverantören."
-
-#: models.py:143
+#: models.py:61
 msgid "Platform's generated Private key. Keep this value secret."
 msgstr "Plattformens genererade privata nyckel. Håll detta värde hemligt."
 
-#: models.py:149
+#: models.py:67
 msgid "Platform's generated Private key ID"
 msgstr "Plattformens genererade privata nyckel-ID"
 
-#: models.py:154
+#: models.py:72
 msgid "Platform's generated JWK keyset."
 msgstr "Plattformens genererade JWK-nyckeluppsättning."
 
-#: models.py:160
+#: models.py:78
 msgid "Client ID used by LTI tool"
 msgstr "Klient-ID som används av LTI-verktyg"
 
-#: models.py:256
-msgid "LTI Configuration stores on XBlock needs a block location set."
-msgstr ""
-"LTI-konfigurationer som lagras på XBlock behöver en blockplats inställd."
-
-#: models.py:261
-msgid ""
-"LTI Configuration using reusable configuration needs a external ID in "
-"\"x:y\" format."
-msgstr ""
-"LTI-konfiguration som använder återanvändbar konfiguration behöver ett "
-"externt ID i formatet \"x:y\"."
-
-#: models.py:268
+#: models.py:159
 msgid ""
 "LTI Configuration stored on the model for LTI 1.3 must have a value for one "
 "of lti_1p3_tool_public_key or lti_1p3_tool_keyset_url."
@@ -612,7 +512,48 @@ msgstr ""
 "LTI-konfigurationen som lagras i modellen för LTI 1.3 måste ha ett värde för"
 " antingen lti_1p3_tool_public_key eller lti_1p3_tool_keyset_url."
 
-#: models.py:275
+#: models.py:203
+msgid "Configuration Stored on XBlock fields"
+msgstr "Konfiguration lagrad på XBlock-fält"
+
+#: models.py:204
+msgid "Configuration Stored on this model"
+msgstr "Konfiguration lagrad på denna modell"
+
+#: models.py:205
+msgid "Configuration Stored on external service"
+msgstr "Konfiguration lagrad på extern tjänst"
+
+#: models.py:239
+msgid "LTI configuration data."
+msgstr "LTI-konfigurationsdata."
+
+#: models.py:246
+msgid "The URL of the external tool that initiates the launch."
+msgstr "URL:en för det externa verktyget som initierar starten."
+
+#: models.py:251
+msgid "Client key provided by the LTI tool provider."
+msgstr "Klientnyckel tillhandahållen av LTI-verktygsleverantören."
+
+#: models.py:257
+msgid "Client secret provided by the LTI tool provider."
+msgstr "Klienthemlighet tillhandahållen av LTI-verktygsleverantören."
+
+#: models.py:346
+msgid "LTI Configuration stores on XBlock needs a block location set."
+msgstr ""
+"LTI-konfigurationer som lagras på XBlock behöver en blockplats inställd."
+
+#: models.py:351
+msgid ""
+"LTI Configuration using reusable configuration needs a external ID in "
+"\"x:y\" format."
+msgstr ""
+"LTI-konfiguration som använder återanvändbar konfiguration behöver ett "
+"externt ID i formatet \"x:y\"."
+
+#: models.py:361
 msgid ""
 "CONFIG_ON_XBLOCK and CONFIG_EXTERNAL are not supported for LTI 1.3 "
 "Proctoring Services."
@@ -620,19 +561,19 @@ msgstr ""
 "CONFIG_ON_XBLOCK och CONFIG_EXTERNAL stöds inte för LTI 1.3 Proctoring "
 "Services."
 
-#: models.py:283
+#: models.py:369
 msgid "Invalid LTI configuration."
 msgstr "Ogiltig LTI-konfiguration."
 
-#: plugin/views.py:575
+#: plugin/views.py:620
 msgid "The selected content type is not supported by Open edX."
 msgstr "Den valda innehållstypen stöds inte av Open edX."
 
-#: plugin/views.py:590
+#: plugin/views.py:635
 msgid "You don't have access to save LTI Content Items."
 msgstr "Du har inte behörighet att spara LTI-innehållsobjekt."
 
-#: plugin/views.py:591
+#: plugin/views.py:636
 msgid ""
 "Please check that you have course staff permissions and double check this "
 "block's LTI settings."
@@ -755,9 +696,91 @@ msgstr "Skickar dig tillbaka till ditt prov."
 msgid "Return to exam."
 msgstr "Återgå till prov."
 
+#: templates/html/lti_studio_edit/_actions.html:5
+msgid "Previous"
+msgstr "Tidigare"
+
+#: templates/html/lti_studio_edit/_actions.html:10
 #: static/js/xblock_lti_consumer.js:143
 msgid "Cancel"
 msgstr "Avbryt"
+
+#: templates/html/lti_studio_edit/_actions.html:13
+msgid "Next"
+msgstr "Nästa"
+
+#: templates/html/lti_studio_edit/_actions.html:16
+msgid "Save"
+msgstr "Spara"
+
+#: templates/html/lti_studio_edit/_step_advantage.html:20
+#: templates/html/lti_studio_edit/_step_advantage.html:104
+#: templates/html/lti_studio_edit/_step_review.html:87
+#: templates/html/lti_studio_edit/_step_review.html:208
+msgid "Enabled"
+msgstr "Aktiverad"
+
+#: templates/html/lti_studio_edit/_step_review.html:22
+msgid "Grading"
+msgstr "Betygsättning"
+
+#: templates/html/lti_studio_edit/_step_review.html:39
+msgid "Graded"
+msgstr "Betygsatt"
+
+#: templates/html/lti_studio_edit/_step_review.html:49
+msgid "Ungraded"
+msgstr "Ej betygsatt"
+
+#: templates/html/lti_studio_edit/_step_review.html:108
+msgid "Advanced Information Sharing"
+msgstr "Avancerad informationsdelning"
+
+#: templates/html/lti_studio_edit/_step_review.html:174
+msgid "Administrators can enable advanced sharing options for LTI components."
+msgstr ""
+"Administratörer kan aktivera avancerade delningsalternativ för LTI-"
+"komponenter."
+
+#: templates/html/lti_studio_edit/_step_review.html:179
+msgid "Learn more."
+msgstr "Läs mer."
+
+#: templates/html/lti_studio_edit/_step_review.html:229
+msgid "Appearance Options"
+msgstr "Utseendealternativ"
+
+#: templates/html/lti_studio_edit/_step_review.html:246
+msgid "True"
+msgstr "Sann"
+
+#: templates/html/lti_studio_edit/_step_review.html:256
+msgid "False"
+msgstr "Falsk"
+
+#: templates/html/lti_studio_edit/_step_setup.html:5
+msgid "LTI Configuration"
+msgstr "LTI-konfiguration"
+
+#: templates/html/lti_studio_edit/_step_setup.html:105
+msgid "LTI 1.1/1.2 Configuration"
+msgstr "LTI 1.1/1.2-konfiguration"
+
+#: templates/html/lti_studio_edit/_step_setup.html:119
+msgid "LTI 1.3 Configuration"
+msgstr "LTI 1.3-konfiguration"
+
+#: templates/html/lti_studio_edit/_stepper_header.html:10
+msgid "Setup"
+msgstr "Inställningar"
+
+#: templates/html/lti_studio_edit/_stepper_header.html:21
+msgid "Advantage Settings"
+msgstr "Advantage-inställningar"
+
+#: templates/html/lti_studio_edit/_stepper_header.html:33
+msgid "Review Options"
+msgstr "Granskningsalternativ"
 
 #: static/js/xblock_lti_consumer.js:145
 msgid "OK"
@@ -817,3 +840,24 @@ msgid "Click Cancel to return to this page without sending your information."
 msgstr ""
 "Klicka på Avbryt för att återgå till den här sidan utan att skicka din "
 "information."
+
+#: static/js/xblock_studio_view.js:476 static/js/xblock_studio_view.js:490
+#: static/js/xblock_studio_view.js:526
+msgid "Unable to update settings"
+msgstr "Det gick inte att uppdatera inställningarna"
+
+#: static/js/xblock_studio_view.js:477
+msgid "Unable to parse the custom parameters."
+msgstr "Det gick inte att tolka de anpassade parametrarna."
+
+#: static/js/xblock_studio_view.js:491
+msgid "Unable to parse the redirect URIs."
+msgstr "Det gick inte att tolka omdirigerings-URI:erna."
+
+#: static/js/xblock_studio_view.js:511
+msgid ""
+"This may be happening because of an error with our server or your internet "
+"connection. Try refreshing the page or making sure you are online."
+msgstr ""
+"Det kan uppstå på grund av ett fel med vår servers internetanslutning. Prova"
+" att uppdatera sidan eller försäkra dig om att du är uppkopplad."

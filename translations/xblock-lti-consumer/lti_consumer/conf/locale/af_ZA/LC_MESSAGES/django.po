@@ -1,10 +1,13 @@
 # edX translation file.
-# Copyright (C) 2025 EdX
+# Copyright (C) 2026 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# EdX Team <info@edx.org>, 2025.
+# EdX Team <info@edx.org>, 2026.
 # 
 # Translators:
 # Omar Al-Ithawi <i@omardo.com>, 2024
+# Joel Edwards, 2026
+# Transifex Bot <>, 2026
+# Brian Smith, 2026
 # 
 msgid ""
 msgstr ""
@@ -12,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2023-06-13 08:00+0000\n"
 "PO-Revision-Date: 2023-06-24 01:02+0000\n"
-"Last-Translator: Omar Al-Ithawi <i@omardo.com>, 2024\n"
+"Last-Translator: Brian Smith, 2026\n"
 "Language-Team: Afrikaans (South Africa) (https://app.transifex.com/open-edx/teams/6205/af_ZA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -40,396 +43,282 @@ msgstr "LTI-opstelling nie gevind nie."
 msgid "Invalid token signature."
 msgstr "Ongeldige tekenhandtekening."
 
-#: lti_xblock.py:133
+#: lti_xblock.py:134
 msgid "No valid user id found in endpoint URL"
 msgstr "Geen geldige gebruiker-ID in eindpunt-URL gevind nie"
 
-#: lti_xblock.py:146
-msgid "Configuration on block"
-msgstr "Konfigurasie op blok"
+#: lti_xblock.py:147
+msgid "New"
+msgstr "Nuut"
 
-#: lti_xblock.py:150
-msgid "Database Configuration"
-msgstr "Databasis konfigurasie"
+#: lti_xblock.py:154
+msgid "Existing"
+msgstr "Bestaande"
 
-#: lti_xblock.py:153
-msgid "Reusable Configuration"
-msgstr "Herbruikbare konfigurasie"
-
-#: lti_xblock.py:261
+#: lti_xblock.py:262
 msgid "Display Name"
 msgstr "Vertoon Naam"
 
-#: lti_xblock.py:263
+#: lti_xblock.py:264
 msgid ""
-"Enter the name that students see for this component. Analytics reports may "
-"also use the display name to identify this component."
+"Enter the name learners see for this component. This name may also appear in"
+" reports."
 msgstr ""
-"Voer die naam in wat studente vir hierdie komponent sien. Analytics-verslae "
-"kan ook die vertoonnaam gebruik om hierdie komponent te identifiseer."
+"Voer die naam in wat leerders vir hierdie komponent sien. Hierdie naam kan "
+"ook in verslae verskyn."
 
 #: lti_xblock.py:267
 msgid "LTI Consumer"
 msgstr "LTI Verbruiker"
 
 #: lti_xblock.py:270
-msgid "LTI Application Information"
-msgstr "LTI Aansoek inligting"
+msgid "Data Sharing Notice"
+msgstr "Kennisgewing oor datadeling"
 
 #: lti_xblock.py:272
 msgid ""
-"Enter a description of the third party application. If requesting username "
-"and/or email, use this text box to inform users why their username and/or "
-"email will be forwarded to a third party application."
+"Enter a short notice about the tool. Use this field to explain why learner "
+"data may be shared with it."
 msgstr ""
-"Voer &#39;n beskrywing van die derdeparty-toepassing in. As u &#39;n "
-"gebruikernaam en/of e-pos versoek, gebruik hierdie tekskassie om gebruikers "
-"in te lig waarom hul gebruikersnaam en/of e-pos na &#39;n derdeparty-"
-"toepassing aangestuur sal word."
+"Voer 'n kort kennisgewing oor die instrument in. Gebruik hierdie veld om te "
+"verduidelik waarom leerderdata daarmee gedeel mag word."
 
-#: lti_xblock.py:280
+#: lti_xblock.py:278
 msgid "Configuration Type"
 msgstr "Konfigurasie Tipe"
 
-#: lti_xblock.py:285
+#: lti_xblock.py:283
 msgid ""
-"Select 'Configuration on block' to configure a new LTI Tool. If the support "
-"staff provided you with a pre-configured LTI reusable Tool ID, "
-"select'Reusable Configuration' and enter it in the text field below."
+"Select 'New' to configure a new LTI Tool. If your admin has provided you "
+"with ID of an existing reusable tool configuration, select 'Existing' and "
+"enter it in the text field on the right."
 msgstr ""
-"Kies &#39;Configuration on block&#39; om &#39;n nuwe LTI Tool op te stel. As"
-" die ondersteuningspersoneel aan jou &#39;n vooraf-gekonfigureerde LTI-"
-"herbruikbare Tool ID verskaf het, kies &#39;Herbruikbare konfigurasie&#39; "
-"en voer dit in die teksveld hieronder in."
+"Kies 'Nuut' om 'n nuwe LTI-nutsding op te stel. As jou administrateur jou "
+"die ID van 'n bestaande herbruikbare nutsdingkonfigurasie gegee het, kies "
+"'Bestaande' en voer dit in die teksveld aan die regterkant in."
 
-#: lti_xblock.py:292
+#: lti_xblock.py:289
 msgid "LTI Version"
 msgstr "LTI weergawe"
 
-#: lti_xblock.py:300
-msgid ""
-"Select the LTI version that your tool supports.<br />The XBlock LTI Consumer"
-" fully supports LTI 1.1.1, LTI 1.3 and LTI Advantage features."
-msgstr ""
-"Kies die LTI-weergawe wat jou instrument ondersteun.<br /> Die XBlock LTI "
-"Consumer ondersteun ten volle LTI 1.1.1, LTI 1.3 en LTI Advantage kenmerke."
+#: lti_xblock.py:297
+msgid "Select the LTI version supported by your tool."
+msgstr "Kies die LTI-weergawe wat deur jou instrument ondersteun word."
 
-#: lti_xblock.py:307
-msgid "LTI Reusable Configuration ID"
-msgstr "LTI-herbruikbare konfigurasie-ID"
+#: lti_xblock.py:302
+msgid "LTI Reusability ID"
+msgstr "LTI Herbruikbaarheid-ID"
+
+#: lti_xblock.py:304
+msgid "Enter the ID of an existing reusable tool configuration."
+msgstr "Voer die ID van 'n bestaande herbruikbare nutsgoedkonfigurasie in."
 
 #: lti_xblock.py:309
+msgid "Lti 1.3 passport ID that points to Lti1p3Passport table"
+msgstr "Lti 1.3 paspoort-ID wat na Lti1p3Passport-tabel wys"
+
+#: lti_xblock.py:312
+msgid "Passport ID for a reusable keys."
+msgstr "Paspoort-ID vir herbruikbare sleutels."
+
+#: lti_xblock.py:316
+msgid "Launch URL"
+msgstr "Begin-URL"
+
+#: lti_xblock.py:320
 msgid ""
-"Enter the reusable LTI external configuration ID provided by the support "
-"staff."
+"Enter the launch URL for this tool. For LTI 1.3, this is the URL Open edX "
+"uses to launch the tool."
 msgstr ""
-"Voer die herbruikbare LTI eksterne konfigurasie ID in wat deur die "
-"ondersteuningspersoneel verskaf is."
+"Voer die begin-URL vir hierdie instrument in. Vir LTI 1.3 is dit die URL wat"
+" Open edX gebruik om die instrument te begin."
 
-#: lti_xblock.py:314
-msgid "Tool Launch URL"
-msgstr "Gereedskap-begin-URL"
-
-#: lti_xblock.py:318
+#: lti_xblock.py:328
 msgid ""
-"Enter the LTI 1.3 Tool Launch URL. <br />This is the URL the LMS will use to"
-" launch the LTI Tool."
+"Enter the tool’s OIDC login initiation URL. Open edX uses this URL to start "
+"the LTI 1.3 login flow."
 msgstr ""
-"Voer die LTI 1.3 Tool Launch URL in.<br /> Dit is die URL wat die LMS sal "
-"gebruik om die LTI-nutsding te begin."
+"Voer die instrument se OIDC-aanmeldingsinisiërings-URL in. Open edX gebruik "
+"hierdie URL om die LTI 1.3-aanmeldingsvloei te begin."
 
-#: lti_xblock.py:323
-msgid "Tool Initiate Login URL"
-msgstr "Gereedskap Inisieer aanmeld-URL"
-
-#: lti_xblock.py:327
-msgid ""
-"Enter the LTI 1.3 Tool OIDC Authorization url (can also be called login or "
-"login initiation URL).<br />This is the URL the LMS will use to start a LTI "
-"authorization prior to doing the launch request."
-msgstr ""
-"Voer die LTI 1.3 Tool OIDC Authorization url in (kan ook aanmeldings- of "
-"aanmeld-inisiasie-URL genoem word).<br /> Dit is die URL wat die LMS sal "
-"gebruik om &#39;n LTI-magtiging te begin voordat die bekendstellingsversoek "
-"gedoen word."
-
-#: lti_xblock.py:333
+#: lti_xblock.py:332
 msgid "Registered Redirect URIs"
 msgstr "Geregistreerde herlei URI&#39;s"
 
-#: lti_xblock.py:335
+#: lti_xblock.py:334
 msgid ""
-"Valid urls the Tool may request us to redirect the id token to. The redirect"
-" uris are often the same as the launch url/deep linking url so if this field"
-" is empty, it will use them as the default. If you need to use different "
-"redirect uri's, enter them here. If you use this field you must enter all "
-"valid redirect uri's the tool may request."
+"Enter the redirect URIs this tool is allowed to use during login e.g. "
+"[\"https://tool.com\", \"https://tool_deeplink.com\"]. Leave this blank to "
+"use the launch URL and deep linking URL by default."
 msgstr ""
-"Geldige URL&#39;s wat die nutsding ons kan versoek om die ID-teken na te "
-"herlei. Die herleiding-uri&#39;s is dikwels dieselfde as die bekendstelling-"
-"url/diepskakel-url, so as hierdie veld leeg is, sal dit hulle as die verstek"
-" gebruik. As jy verskillende herleidings-uri&#39;s moet gebruik, voer hulle "
-"hier in. As jy hierdie veld gebruik, moet jy alle geldige herleidings-"
-"uri&#39;s wat die nutsding mag aanvra, invoer."
+"Voer die herleiding-URI's in wat hierdie instrument toegelaat is om tydens "
+"aanmelding te gebruik, bv. [\"https://tool.com\", "
+"\"https://tool_deeplink.com\"]. Laat dit leeg om die bekendstellings-URL en "
+"diepskakel-URL by verstek te gebruik."
 
-#: lti_xblock.py:345
+#: lti_xblock.py:342
 msgid "Tool Public Key Mode"
 msgstr "Gereedskap publieke sleutelmodus"
 
-#: lti_xblock.py:353
-msgid "Select how the tool's public key information will be specified."
+#: lti_xblock.py:350
+msgid ""
+"Choose how Open edX will get the tool’s public key for validating signed "
+"messages."
 msgstr ""
-"Kies hoe die nutsding se publieke sleutelinligting gespesifiseer sal word."
+"Kies hoe Open edX die instrument se publieke sleutel sal kry vir die "
+"validering van ondertekende boodskappe."
 
-#: lti_xblock.py:357
+#: lti_xblock.py:354
 msgid "Tool Keyset URL"
 msgstr "Tool Keyset URL"
 
-#: lti_xblock.py:361
+#: lti_xblock.py:358
 msgid ""
-"Enter the LTI 1.3 Tool's JWK keysets URL.<br />This link should retrieve a "
-"JSON file containing public keys and signature algorithm information, so "
-"that the LMS can check if the messages and launch requests received have the"
-" signature from the tool.<br /><b>This is not required when doing LTI 1.3 "
-"Launches without LTI Advantage nor Basic Outcomes requests.</b>"
+"Enter the URL of the tool’s JWK keyset. Open edX uses this URL to retrieve "
+"the public keys needed to validate signed messages."
 msgstr ""
-"Voer die LTI 1.3 Tool se JWK-sleutelstelle-URL in.<br /> Hierdie skakel "
-"behoort &#39;n JSON-lêer te haal wat publieke sleutels en "
-"handtekeningalgoritme-inligting bevat, sodat die LMS kan kyk of die "
-"boodskappe en bekendstellingsversoeke wat ontvang is, die handtekening van "
-"die instrument het.<br /> <b>Dit word nie vereis wanneer LTI "
-"1.3-bekendstellings gedoen word sonder LTI Advantage of Basiese Uitkomste-"
-"versoeke nie.</b>"
+"Voer die URL van die instrument se JWK-sleutelstel in. Open edX gebruik "
+"hierdie URL om die publieke sleutels te herwin wat nodig is om ondertekende "
+"boodskappe te valideer."
 
-#: lti_xblock.py:371
+#: lti_xblock.py:363
 msgid "Tool Public Key"
 msgstr "Gereedskap publieke sleutel"
 
 #: lti_xblock.py:376
 msgid ""
-"Enter the LTI 1.3 Tool's public key.<br />This is a string that starts with "
-"'-----BEGIN PUBLIC KEY-----' and is required so that the LMS can check if "
-"the messages and launch requests received have the signature from the "
-"tool.<br /><b>This is not required when doing LTI 1.3 Launches without LTI "
-"Advantage nor Basic Outcomes requests.</b>"
+"Enable this to allow the tool to access the names and roles of enrolled "
+"learners, if the tool supports NRPS."
 msgstr ""
-"Voer die LTI 1.3 Tool se publieke sleutel in.<br /> Dit is &#39;n string wat"
-" begin met &#39;-----BEGIN PUBLIEKE SLEUTEL-----&#39; en word vereis sodat "
-"die LMS kan kyk of die boodskappe en bekendstellingsversoeke wat ontvang is,"
-" die handtekening van die instrument het.<br /> <b>Dit word nie vereis "
-"wanneer LTI 1.3-bekendstellings gedoen word sonder LTI Advantage of Basiese "
-"Uitkomste-versoeke nie.</b>"
+"Aktiveer dit om die instrument toegang te gee tot die name en rolle van "
+"ingeskrewe leerders, indien die instrument NRPS ondersteun."
 
-#: lti_xblock.py:386
-msgid "Enable LTI NRPS"
-msgstr "Aktiveer LTI NRPS"
-
-#: lti_xblock.py:387
-msgid "Enable LTI Names and Role Provisioning Services."
-msgstr "Aktiveer LTI-name en rolvoorsieningsdienste."
-
-#: lti_xblock.py:394
+#: lti_xblock.py:385
 msgid "Deep linking"
 msgstr "Diep skakeling"
 
-#: lti_xblock.py:395
-msgid "Select True if you want to enable LTI Advantage Deep Linking."
-msgstr "Kies Waar as jy LTI Advantage Deep Linking wil aktiveer."
+#: lti_xblock.py:387
+msgid ""
+"Enable this if you want to deep link content from within the tool, in "
+"Studio."
+msgstr ""
+"Aktiveer dit as jy inhoud van binne die instrument, in Studio, diep wil "
+"skakel."
 
-#: lti_xblock.py:400
+#: lti_xblock.py:393
 msgid "Deep Linking Launch URL"
 msgstr "Diepskakeling-begin-URL"
 
-#: lti_xblock.py:404
+#: lti_xblock.py:397
 msgid ""
-"Enter the LTI Advantage Deep Linking Launch URL. If the tool does not "
-"specify one, use the same value as 'Tool Launch URL'."
+"Enter the deep linking URL for this tool. If the tool does not specify one, "
+"enter the 'Launch URL' here."
 msgstr ""
-"Voer die LTI Advantage Deep Linking Launch URL in. As die nutsding nie een "
-"spesifiseer nie, gebruik dieselfde waarde as &#39;Tool Launch URL&#39;."
+"Voer die diepskakel-URL vir hierdie instrument in. As die instrument nie een"
+" spesifiseer nie, voer die 'Bekendstelling-URL' hier in."
 
-#: lti_xblock.py:409
-msgid "LTI Assignment and Grades Service"
-msgstr "LTI Werkopdrag en Grade Diens"
+#: lti_xblock.py:401
+msgid "Assignment and Grades"
+msgstr "Toewysing en Grade"
 
-#: lti_xblock.py:411
+#: lti_xblock.py:403
+msgid "Declarative"
+msgstr "Deklaratief"
+
+#: lti_xblock.py:404
+msgid "Programmatic"
+msgstr "Programmaties"
+
+#: lti_xblock.py:405 templates/html/lti_studio_edit/_step_advantage.html:30
+#: templates/html/lti_studio_edit/_step_advantage.html:114
+#: templates/html/lti_studio_edit/_step_review.html:97
+#: templates/html/lti_studio_edit/_step_review.html:218
 msgid "Disabled"
 msgstr "Gedeaktiveer"
 
-#: lti_xblock.py:412
-msgid "Allow tools to submit grades only (declarative)"
-msgstr "Laat nutsgoed toe om slegs grade in te dien (verklarend)"
+#: lti_xblock.py:417
+msgid "LTI Passport ID"
+msgstr "LTI Paspoort ID"
 
-#: lti_xblock.py:413
-msgid "Allow tools to manage and submit grade (programmatic)"
-msgstr "Laat nutsgoed toe om graad te bestuur en in te dien (programmaties)"
-
-#: lti_xblock.py:418
+#: lti_xblock.py:419
 msgid ""
-"Enable the LTI-AGS service and select the functionality enabled for LTI "
-"tools. The 'declarative' mode (default) will provide a tool with a LineItem "
-"created from the XBlock settings, while the 'programmatic' one will allow "
-"tools to manage, create and link the grades."
+"Select the LTI passport ID for this tool. This is the ID of the LTI passport"
+" that you created on Advanced Settings page."
 msgstr ""
-"Aktiveer die LTI-AGS-diens en kies die funksionaliteit wat vir LTI-nutsgoed "
-"geaktiveer is. Die &#39;verklarende&#39; modus (verstek) sal &#39;n "
-"instrument voorsien met &#39;n lynitem wat uit die XBlock-instellings geskep"
-" is, terwyl die &#39;programmatiese&#39; een nutsgoed sal toelaat om die "
-"grade te bestuur, te skep en te koppel."
+"Kies die LTI-paspoort-ID vir hierdie instrument. Dit is die ID van die LTI-"
+"paspoort wat jy op die Gevorderde Instellings-bladsy geskep het."
 
 #: lti_xblock.py:426
-msgid "LTI ID"
-msgstr "LTI ID"
-
-#: lti_xblock.py:428
-#, python-brace-format
-msgid ""
-"Enter the LTI ID for the external LTI provider. This value must be the same "
-"LTI ID that you entered in the LTI Passports setting on the Advanced "
-"Settings page.<br />See the {docs_anchor_open}edX LTI "
-"documentation{anchor_close} for more details on this setting."
-msgstr ""
-"Voer die LTI-ID vir die eksterne LTI-verskaffer in. Hierdie waarde moet "
-"dieselfde LTI ID wees wat jy in die LTI Paspoorte-instelling op die "
-"Gevorderde Instellings-bladsy ingevoer het.<br /> Sien die "
-"{docs_anchor_open} edX LTI-dokumentasie {anchor_close} vir meer besonderhede"
-" oor hierdie instelling."
-
-#: lti_xblock.py:440
 msgid "LTI URL"
 msgstr "LTI URL"
 
-#: lti_xblock.py:442
-#, python-brace-format
+#: lti_xblock.py:428
 msgid ""
-"Enter the URL of the external tool that this component launches. This "
-"setting is only used when Hide External Tool is set to False.<br />See the "
-"{docs_anchor_open}edX LTI documentation{anchor_close} for more details on "
-"this setting."
+"Enter the launch URL for this tool. For LTI 1.1/1.2, this is the URL Open "
+"edX uses to launch the tool."
 msgstr ""
-"Voer die URL van die eksterne nutsding in wat hierdie komponent begin. "
-"Hierdie instelling word slegs gebruik wanneer Versteek eksterne hulpmiddel "
-"op Onwaar gestel is.<br /> Sien die {docs_anchor_open} edX LTI-dokumentasie "
-"{anchor_close} vir meer besonderhede oor hierdie instelling."
+"Voer die bekendstellings-URL vir hierdie instrument in. Vir LTI 1.1/1.2 is "
+"dit die URL wat Open edX gebruik om die instrument te begin."
 
-#: lti_xblock.py:455
+#: lti_xblock.py:436
 msgid "Custom Parameters"
 msgstr "Pasgemaakte parameters"
 
-#: lti_xblock.py:457
-#, python-brace-format
+#: lti_xblock.py:438
 msgid ""
-"Add the key/value pair for any custom parameters, such as the page your "
-"e-book should open to or the background color for this component. Ex. "
-"[\"page=1\", \"color=white\"]<br />See the {docs_anchor_open}edX LTI "
-"documentation{anchor_close} for more details on this setting."
+"Enter key-value pairs to send with each launch e.g. [\"page=1\", "
+"\"color=white\"]."
 msgstr ""
-"Voeg die sleutel/waarde-paar by vir enige pasgemaakte parameters, soos die "
-"bladsy waarop jou e-boek moet oopmaak of die agtergrondkleur vir hierdie "
-"komponent. Bv. [&quot;bladsy=1&quot;, &quot;kleur=wit&quot;]<br /> Sien die "
-"{docs_anchor_open} edX LTI-dokumentasie {anchor_close} vir meer besonderhede"
-" oor hierdie instelling."
+"Voer sleutel-waarde-pare in om met elke bekendstelling te stuur, bv. "
+"[\"page=1\", \"color=white\"]."
 
-#: lti_xblock.py:467
-msgid "LTI Launch Target"
-msgstr "LTI-bekendstellingsteiken"
-
-#: lti_xblock.py:469
+#: lti_xblock.py:445
 msgid ""
-"Select Inline if you want the LTI content to open in an IFrame in the "
-"current page. Select Modal if you want the LTI content to open in a modal "
-"window in the current page. Select New Window if you want the LTI content to"
-" open in a new browser window. This setting is only used when Hide External "
-"Tool is set to False."
+"Choose how the tool opens for learners: inline in the page, in a modal, or "
+"in a new window."
 msgstr ""
-"Kies Inlyn as jy wil hê dat die LTI-inhoud in &#39;n IFrame op die huidige "
-"bladsy moet oopmaak. Kies Modaal as jy wil hê dat die LTI-inhoud in &#39;n "
-"modale venster op die huidige bladsy moet oopmaak. Kies Nuwe venster as jy "
-"wil hê dat die LTI-inhoud in &#39;n nuwe blaaiervenster moet oopmaak. "
-"Hierdie instelling word slegs gebruik wanneer Versteek eksterne hulpmiddel "
-"op Onwaar gestel is."
+"Kies hoe die instrument vir leerders oopmaak: inlyn op die bladsy, in 'n "
+"modale venster, of in 'n nuwe venster."
 
-#: lti_xblock.py:483
-msgid "Button Text"
-msgstr "Knoppie teks"
+#: lti_xblock.py:464
+msgid "Inline Height (px)"
+msgstr "Inlynhoogte (px)"
 
-#: lti_xblock.py:485
-msgid ""
-"Enter the text on the button used to launch the third party application. "
-"This setting is only used when Hide External Tool is set to False and LTI "
-"Launch Target is set to Modal or New Window."
+#: lti_xblock.py:466
+msgid "Enter the height of the inline iframe in pixels."
+msgstr "Voer die hoogte van die inlyn-iframe in pixels in."
+
+#: lti_xblock.py:472
+msgid "Modal Height (%)"
+msgstr "Modale Hoogte (%)"
+
+#: lti_xblock.py:474
+msgid "Enter the modal height as a percentage of the browser window."
+msgstr "Voer die modale hoogte as 'n persentasie van die blaaier-venster in."
+
+#: lti_xblock.py:480
+msgid "Modal Width (%)"
+msgstr "Modale breedte (%)"
+
+#: lti_xblock.py:482
+msgid "Enter the modal width as a percentage of the browser window."
+msgstr "Voer die modale breedte as 'n persentasie van die blaaier-venster in."
+
+#: lti_xblock.py:489
+msgid "Enable this if the tool sends a numeric score back to Open edX."
 msgstr ""
-"Voer die teks in op die knoppie wat gebruik word om die derdeparty-"
-"toepassing te begin. Hierdie instelling word slegs gebruik wanneer Versteek "
-"eksterne nutsding op False gestel is en LTI Launch Target op Modaal of Nuwe "
-"venster gestel is."
+"Aktiveer dit as die instrument 'n numeriese telling na Open edX sal "
+"terugstuur."
 
-#: lti_xblock.py:493
-msgid "Inline Height"
-msgstr "Inlyn hoogte"
+#: lti_xblock.py:494
+msgid "Grade Weight"
+msgstr "Graadgewig"
 
-#: lti_xblock.py:495
-msgid ""
-"Enter the desired pixel height of the iframe which will contain the LTI "
-"tool. This setting is only used when Hide External Tool is set to False and "
-"LTI Launch Target is set to Inline."
-msgstr ""
-"Voer die verlangde pixelhoogte van die iframe in wat die LTI-instrument sal "
-"bevat. Hierdie instelling word slegs gebruik wanneer Versteek eksterne "
-"nutsding op False gestel is en LTI Launch Target op Inlyn gestel is."
+#: lti_xblock.py:496
+msgid "Enter the maximum number of points for this component."
+msgstr "Voer die maksimum aantal punte vir hierdie komponent in."
 
 #: lti_xblock.py:503
-msgid "Modal Height"
-msgstr "Modale Hoogte"
-
-#: lti_xblock.py:505
-msgid ""
-"Enter the desired viewport percentage height of the modal overlay which will"
-" contain the LTI tool. This setting is only used when Hide External Tool is "
-"set to False and LTI Launch Target is set to Modal."
-msgstr ""
-"Voer die gewenste viewport persentasie hoogte van die modale oorleg in wat "
-"die LTI-nutsding sal bevat. Hierdie instelling word slegs gebruik wanneer "
-"Versteek eksterne nutsding op False gestel is en LTI Launch Target op Modaal"
-" gestel is."
-
-#: lti_xblock.py:513
-msgid "Modal Width"
-msgstr "Modale breedte"
-
-#: lti_xblock.py:515
-msgid ""
-"Enter the desired viewport percentage width of the modal overlay which will "
-"contain the LTI tool. This setting is only used when Hide External Tool is "
-"set to False and LTI Launch Target is set to Modal."
-msgstr ""
-"Voer die gewenste viewport persentasie breedte van die modale oorleg in wat "
-"die LTI-nutsding sal bevat. Hierdie instelling word slegs gebruik wanneer "
-"Versteek eksterne nutsding op False gestel is en LTI Launch Target op Modaal"
-" gestel is."
-
-#: lti_xblock.py:523
-msgid "Scored"
-msgstr "Aangeteken"
-
-#: lti_xblock.py:524
-msgid ""
-"Select True if this component will receive a numerical score from the "
-"external LTI system."
-msgstr ""
-"Kies Waar as hierdie komponent &#39;n numeriese telling van die eksterne "
-"LTI-stelsel sal ontvang."
-
-#: lti_xblock.py:531
-msgid ""
-"Enter the number of points possible for this component.  The default value "
-"is 1.0.  This setting is only used when Scored is set to True."
-msgstr ""
-"Voer die aantal punte moontlik vir hierdie komponent in. Die verstekwaarde "
-"is 1.0. Hierdie instelling word slegs gebruik wanneer Puntetelling op Waar "
-"gestel is."
-
-#: lti_xblock.py:540
 msgid ""
 "The score kept in the xblock KVS -- duplicate of the published score in "
 "django DB"
@@ -437,89 +326,77 @@ msgstr ""
 "Die telling gehou in die xblok KVS -- duplikaat van die gepubliseerde "
 "telling in django DB"
 
-#: lti_xblock.py:545
+#: lti_xblock.py:508
 msgid "Comment as returned from grader, LTI2.0 spec"
 msgstr "Kommentaar soos teruggestuur van gradeerder, LTI2.0-spesifikasie"
 
-#: lti_xblock.py:550
+#: lti_xblock.py:513
 msgid "Hide External Tool"
 msgstr "Versteek eksterne hulpmiddel"
 
-#: lti_xblock.py:552
+#: lti_xblock.py:515
 msgid ""
-"Select True if you want to use this component as a placeholder for syncing "
-"with an external grading  system rather than launch an external tool.  This "
-"setting hides the Launch button and any IFrames for this component."
+"Enable this to hide launch button and iframe so you use the component for "
+"grade sync etc."
 msgstr ""
-"Kies Waar as jy hierdie komponent as &#39;n plekhouer wil gebruik vir "
-"sinkronisering met &#39;n eksterne graderingstelsel eerder as om &#39;n "
-"eksterne nutsding te begin. Hierdie instelling versteek die Begin-knoppie en"
-" enige IFrame vir hierdie komponent."
+"Aktiveer dit om die bekendstellingsknoppie en iframe te versteek sodat jy "
+"die komponent vir graadsinkronisering, ens. kan gebruik."
 
-#: lti_xblock.py:560
-msgid "Accept grades past deadline"
-msgstr "Aanvaar grade verby sperdatum"
+#: lti_xblock.py:521
+msgid "Accept grades after due date"
+msgstr "Aanvaar punte na sperdatum"
 
-#: lti_xblock.py:561
+#: lti_xblock.py:522
 msgid ""
-"Select True to allow third party systems to post grades past the deadline."
+"Enable this to allow the tool to send grades after the due date has passed."
 msgstr ""
-"Kies Waar om derdepartystelsels toe te laat om grade verby die sperdatum te "
-"plaas."
+"Aktiveer dit om die instrument toe te laat om punte te stuur nadat die "
+"sperdatum verstryk het."
 
-#: lti_xblock.py:569
-msgid "Request user's username"
-msgstr "Versoek gebruiker se gebruikersnaam"
+#: lti_xblock.py:530
+msgid "Share Username"
+msgstr "Deel gebruikernaam"
 
 #. Translators: This is used to request the user's username for a third party
 #. service.
-#: lti_xblock.py:571
-msgid "Select True to request the user's username."
-msgstr "Kies Waar om die gebruiker se gebruikersnaam aan te vra."
+#: lti_xblock.py:532
+msgid "Enable this to send the learner’s username to the tool."
+msgstr ""
+"Aktiveer dit om die leerder se gebruikersnaam na die instrument te stuur."
 
-#: lti_xblock.py:576
-msgid "Request user's full name"
-msgstr "Versoek gebruiker se volle naam"
+#: lti_xblock.py:537
+msgid "Share Full name"
+msgstr "Deel Volle naam"
 
 #. Translators: This is used to request the user's full name for a third party
 #. service.
-#: lti_xblock.py:578
-msgid "Select True to request the user's full name."
-msgstr "Kies Waar om die gebruiker se volle naam te versoek."
+#: lti_xblock.py:539
+msgid "Enable this to send the learner’s full name to the tool."
+msgstr "Aktiveer dit om die leerder se volle naam na die toepassing te stuur."
 
-#: lti_xblock.py:583
-msgid "Request user's email"
-msgstr "Versoek gebruiker se e-pos"
+#: lti_xblock.py:544
+msgid "Share Email"
+msgstr "Deel E-pos"
 
 #. Translators: This is used to request the user's email for a third party
 #. service.
-#: lti_xblock.py:585
-msgid "Select True to request the user's email address."
-msgstr "Kies Waar om die gebruiker se e-posadres aan te vra."
+#: lti_xblock.py:546
+msgid "Enable this to send the learner’s email address to the tool."
+msgstr "Aktiveer dit om die leerder se e-posadres na die instrument te stuur."
 
-#: lti_xblock.py:591
+#: lti_xblock.py:552
 msgid "Send extra parameters"
 msgstr "Stuur ekstra parameters"
 
-#: lti_xblock.py:592
-msgid ""
-"Select True to send the extra parameters, which might contain Personally "
-"Identifiable Information. The processors are site-wide, please consult the "
-"site administrator if you have any questions."
-msgstr ""
-"Kies Waar om die ekstra parameters te stuur, wat persoonlik identifiseerbare"
-" inligting kan bevat. Die verwerkers is werfwyd, raadpleeg asseblief die "
-"werfadministrateur as jy enige vrae het."
-
-#: lti_xblock.py:667
+#: lti_xblock.py:627
 msgid "Custom Parameters must be a list"
 msgstr "Gepasmaakte parameters moet &#39;n lys wees"
 
-#: lti_xblock.py:674
+#: lti_xblock.py:634
 msgid "Custom Parameters should be strings in \"x=y\" format."
 msgstr "Gepasmaakte parameters moet stringe in &quot;x=y&quot;-formaat wees."
 
-#: lti_xblock.py:684
+#: lti_xblock.py:644
 msgid ""
 "Reusable configuration ID must be set when using external config (Example: "
 "\"x:y\")."
@@ -527,18 +404,18 @@ msgstr ""
 "Herbruikbare konfigurasie-ID moet gestel word wanneer eksterne konfigurasie "
 "gebruik word (Byvoorbeeld: &quot;x:y&quot;)."
 
-#: lti_xblock.py:708
+#: lti_xblock.py:668
 msgid ""
 "The specified LTI ID is not configured in this course's Advanced Settings."
 msgstr ""
 "Die gespesifiseerde LTI ID is nie in hierdie kursus se Gevorderde "
 "Instellings opgestel nie."
 
-#: lti_xblock.py:837 lti_xblock.py:1128
+#: lti_xblock.py:802 lti_xblock.py:1119
 msgid "Could not get user data for current request"
 msgstr "Kon nie gebruikerdata vir huidige versoek kry nie"
 
-#: lti_xblock.py:877
+#: lti_xblock.py:842
 msgid ""
 "Could not parse LTI passport: {lti_passport!r}. Should be \"id:key:secret\" "
 "string."
@@ -546,11 +423,11 @@ msgstr ""
 "Kon nie LTI-paspoort ontleed nie: {lti_passport!r}. Moet "
 "&quot;id:key:secret&quot;-string wees."
 
-#: lti_xblock.py:895 lti_xblock.py:909 lti_xblock.py:925
+#: lti_xblock.py:860 lti_xblock.py:874 lti_xblock.py:890
 msgid "Could not get user id for current request"
 msgstr "Kon nie gebruiker-ID vir huidige versoek kry nie"
 
-#: lti_xblock.py:1061
+#: lti_xblock.py:1052
 msgid ""
 "Could not parse custom parameter: {custom_parameter!r}. Should be \"x=y\" "
 "string."
@@ -558,67 +435,27 @@ msgstr ""
 "Kon nie gepasmaakte parameter ontleed nie: {custom_parameter!r}. Moet "
 "&quot;x=y&quot;-string wees."
 
-#: lti_xblock.py:1446
+#: lti_xblock.py:1507
 msgid "[LTI]: Real user not found against anon_id: {}"
 msgstr "[LTI]: Regte gebruiker nie gevind teen anon_id: {}"
 
-#: models.py:84
-msgid "Configuration Stored on XBlock fields"
-msgstr "Konfigurasie gestoor op XBlock-velde"
-
-#: models.py:85
-msgid "Configuration Stored on this model"
-msgstr "Konfigurasie Geberg op hierdie model"
-
-#: models.py:86
-msgid "Configuration Stored on external service"
-msgstr "Konfigurasie gestoor op eksterne diens"
-
-#: models.py:118
-msgid "LTI configuration data."
-msgstr "LTI-konfigurasiedata."
-
-#: models.py:125
-msgid "The URL of the external tool that initiates the launch."
-msgstr "Die URL van die eksterne nutsding wat die bekendstelling begin."
-
-#: models.py:130
-msgid "Client key provided by the LTI tool provider."
-msgstr "Kliëntsleutel verskaf deur die LTI-nutsmiddelverskaffer."
-
-#: models.py:136
-msgid "Client secret provided by the LTI tool provider."
-msgstr "Kliëntgeheim verskaf deur die LTI-nutsmiddelverskaffer."
-
-#: models.py:142
+#: models.py:61
 msgid "Platform's generated Private key. Keep this value secret."
 msgstr "Platform se gegenereerde privaat sleutel. Hou hierdie waarde geheim."
 
-#: models.py:148
+#: models.py:67
 msgid "Platform's generated Private key ID"
 msgstr "Platform se gegenereerde privaatsleutel-ID"
 
-#: models.py:153
+#: models.py:72
 msgid "Platform's generated JWK keyset."
 msgstr "Platform se gegenereerde JWK-sleutelstel."
 
-#: models.py:159
+#: models.py:78
 msgid "Client ID used by LTI tool"
 msgstr "Kliënt-ID wat deur LTI-nutsding gebruik word"
 
-#: models.py:255
-msgid "LTI Configuration stores on XBlock needs a block location set."
-msgstr "LTI-konfigurasiewinkels op XBlock benodig &#39;n blokliggingstel."
-
-#: models.py:260
-msgid ""
-"LTI Configuration using reusable configuration needs a external ID in "
-"\"x:y\" format."
-msgstr ""
-"LTI-konfigurasie wat herbruikbare konfigurasie gebruik, benodig &#39;n "
-"eksterne ID in &quot;x:y&quot;-formaat."
-
-#: models.py:267
+#: models.py:159
 msgid ""
 "LTI Configuration stored on the model for LTI 1.3 must have a value for one "
 "of lti_1p3_tool_public_key or lti_1p3_tool_keyset_url."
@@ -626,7 +463,51 @@ msgstr ""
 "LTI-konfigurasie wat op die model vir LTI 1.3 gestoor word, moet &#39;n "
 "waarde hê vir een van lti_1p3_tool_public_key of lti_1p3_tool_keyset_url."
 
-#: models.py:274
+#: models.py:203
+msgid "Configuration Stored on XBlock fields"
+msgstr "Konfigurasie gestoor op XBlock-velde"
+
+#: models.py:204
+msgid "Configuration Stored on this model"
+msgstr "Konfigurasie Geberg op hierdie model"
+
+#: models.py:205
+msgid "Configuration Stored on external service"
+msgstr "Konfigurasie gestoor op eksterne diens"
+
+#: models.py:239
+msgid "LTI configuration data."
+msgstr "LTI-konfigurasiedata."
+
+#: models.py:246
+msgid "The URL of the external tool that initiates the launch."
+msgstr "Die URL van die eksterne nutsding wat die bekendstelling begin."
+
+#: models.py:251
+msgid "Client key provided by the LTI tool provider."
+msgstr "Kliëntsleutel verskaf deur die LTI-nutsmiddelverskaffer."
+
+#: models.py:257
+msgid "Client secret provided by the LTI tool provider."
+msgstr "Kliëntgeheim verskaf deur die LTI-nutsmiddelverskaffer."
+
+#: models.py:346
+msgid "LTI Configuration stores on XBlock needs a block location set."
+msgstr "LTI-konfigurasiewinkels op XBlock benodig &#39;n blokliggingstel."
+
+#: models.py:351
+msgid ""
+"LTI Configuration using reusable configuration needs a external ID in "
+"\"x:y\" format."
+msgstr ""
+"LTI-konfigurasie wat herbruikbare konfigurasie gebruik, benodig &#39;n "
+"eksterne ID in &quot;x:y&quot;-formaat."
+
+#: models.py:356
+msgid "LTI Configuration for 1.3 requires passport to be set."
+msgstr "LTI-konfigurasie vir 1.3 vereis dat paspoort gestel moet word."
+
+#: models.py:361
 msgid ""
 "CONFIG_ON_XBLOCK and CONFIG_EXTERNAL are not supported for LTI 1.3 "
 "Proctoring Services."
@@ -634,19 +515,19 @@ msgstr ""
 "CONFIG_ON_XBLOCK en CONFIG_EXTERNAL word nie vir LTI 1.3 Proctoring Services"
 " ondersteun nie."
 
-#: models.py:282
+#: models.py:369
 msgid "Invalid LTI configuration."
 msgstr "Ongeldige LTI-opstelling."
 
-#: plugin/views.py:575
+#: plugin/views.py:620
 msgid "The selected content type is not supported by Open edX."
 msgstr "Die gekose inhoudtipe word nie deur Open edX ondersteun nie."
 
-#: plugin/views.py:590
+#: plugin/views.py:635
 msgid "You don't have access to save LTI Content Items."
 msgstr "Jy het nie toegang om LTI-inhouditems te stoor nie."
 
-#: plugin/views.py:591
+#: plugin/views.py:636
 msgid ""
 "Please check that you have course staff permissions and double check this "
 "block's LTI settings."
@@ -771,15 +652,104 @@ msgstr "Stuur jou terug na jou eksamen."
 msgid "Return to exam."
 msgstr "Keer terug na eksamen."
 
+#: templates/html/lti_studio_edit/_actions.html:5
+msgid "Previous"
+msgstr "Vorige"
+
+#: templates/html/lti_studio_edit/_actions.html:10
 #: static/js/xblock_lti_consumer.js:143
 msgid "Cancel"
 msgstr "Kanselleer"
+
+#: templates/html/lti_studio_edit/_actions.html:13
+msgid "Next"
+msgstr "Volgende"
+
+#: templates/html/lti_studio_edit/_actions.html:16
+msgid "Save"
+msgstr "Stoor"
+
+#: templates/html/lti_studio_edit/_step_advantage.html:20
+#: templates/html/lti_studio_edit/_step_advantage.html:104
+#: templates/html/lti_studio_edit/_step_review.html:87
+#: templates/html/lti_studio_edit/_step_review.html:208
+msgid "Enabled"
+msgstr "Geaktiveer"
+
+#: templates/html/lti_studio_edit/_step_advantage.html:142
+msgid "Public Key"
+msgstr "Publieke Sleutel"
+
+#: templates/html/lti_studio_edit/_step_advantage.html:152
+msgid "Keyset URL"
+msgstr "Sleutelstel-URL"
+
+#: templates/html/lti_studio_edit/_step_review.html:22
+msgid "Grading"
+msgstr "Gradering"
+
+#: templates/html/lti_studio_edit/_step_review.html:39
+msgid "Graded"
+msgstr "Gegradeer"
+
+#: templates/html/lti_studio_edit/_step_review.html:49
+msgid "Ungraded"
+msgstr "Ongegradeer"
+
+#: templates/html/lti_studio_edit/_step_review.html:108
+msgid "Advanced Information Sharing"
+msgstr "Gevorderde Inligtingdeling"
+
+#: templates/html/lti_studio_edit/_step_review.html:174
+msgid "Administrators can enable advanced sharing options for LTI components."
+msgstr ""
+"Administrateurs kan gevorderde deelopsies vir LTI-komponente aktiveer."
+
+#: templates/html/lti_studio_edit/_step_review.html:179
+msgid "Learn more."
+msgstr "Leer meer."
+
+#: templates/html/lti_studio_edit/_step_review.html:229
+msgid "Appearance Options"
+msgstr "Voorkomsopsies"
+
+#: templates/html/lti_studio_edit/_step_review.html:246
+msgid "True"
+msgstr "Waar"
+
+#: templates/html/lti_studio_edit/_step_review.html:256
+msgid "False"
+msgstr "onwaar"
+
+#: templates/html/lti_studio_edit/_step_setup.html:5
+msgid "LTI Configuration"
+msgstr "LTI-konfigurasie"
+
+#: templates/html/lti_studio_edit/_step_setup.html:105
+msgid "LTI 1.1/1.2 Configuration"
+msgstr "LTI 1.1/1.2 Konfigurasie"
+
+#: templates/html/lti_studio_edit/_step_setup.html:119
+msgid "LTI 1.3 Configuration"
+msgstr "LTI 1.3 Konfigurasie"
+
+#: templates/html/lti_studio_edit/_stepper_header.html:10
+msgid "Setup"
+msgstr "Opstelling"
+
+#: templates/html/lti_studio_edit/_stepper_header.html:21
+msgid "Advantage Settings"
+msgstr "Voordeelinstellings"
+
+#: templates/html/lti_studio_edit/_stepper_header.html:33
+msgid "Review Options"
+msgstr "Hersieningsopsies"
 
 #: static/js/xblock_lti_consumer.js:145
 msgid "OK"
 msgstr "OK"
 
-#: static/js/xblock_lti_consumer.js:176
+#: static/js/xblock_lti_consumer.js:174
 msgid ""
 "Click OK to have your username, full name, and e-mail address sent to a 3rd "
 "party application."
@@ -787,7 +757,7 @@ msgstr ""
 "Klik OK om jou gebruikersnaam, volle naam en e-posadres na &#39;n "
 "derdeparty-toepassing te stuur."
 
-#: static/js/xblock_lti_consumer.js:180
+#: static/js/xblock_lti_consumer.js:178
 msgid ""
 "Click OK to have your username and e-mail address sent to a 3rd party "
 "application."
@@ -795,7 +765,7 @@ msgstr ""
 "Klik OK om jou gebruikersnaam en e-posadres na &#39;n derdeparty-toepassing "
 "te stuur."
 
-#: static/js/xblock_lti_consumer.js:183
+#: static/js/xblock_lti_consumer.js:181
 msgid ""
 "Click OK to have your username and full name sent to a 3rd party "
 "application."
@@ -803,7 +773,7 @@ msgstr ""
 "Klik OK om jou gebruikersnaam en volle naam na &#39;n derdeparty-toepassing "
 "te stuur."
 
-#: static/js/xblock_lti_consumer.js:186
+#: static/js/xblock_lti_consumer.js:184
 msgid ""
 "Click OK to have your full name and e-mail address sent to a 3rd party "
 "application."
@@ -811,21 +781,39 @@ msgstr ""
 "Klik OK om jou volle naam en e-posadres na &#39;n derdeparty-toepassing te "
 "stuur."
 
-#: static/js/xblock_lti_consumer.js:189
+#: static/js/xblock_lti_consumer.js:187
 msgid "Click OK to have your username sent to a 3rd party application."
 msgstr ""
 "Klik OK om jou gebruikersnaam na &#39;n derdeparty-toepassing te stuur."
 
-#: static/js/xblock_lti_consumer.js:191
+#: static/js/xblock_lti_consumer.js:189
 msgid "Click OK to have your full name sent to a 3rd party application."
 msgstr "Klik OK om jou volle naam na &#39;n derdeparty-toepassing te stuur."
 
-#: static/js/xblock_lti_consumer.js:193
+#: static/js/xblock_lti_consumer.js:191
 msgid "Click OK to have your e-mail address sent to a 3rd party application."
 msgstr "Klik OK om jou e-posadres na &#39;n derdeparty-toepassing te stuur."
 
-#: static/js/xblock_lti_consumer.js:200
+#: static/js/xblock_lti_consumer.js:198
 msgid "Click Cancel to return to this page without sending your information."
 msgstr ""
 "Klik Kanselleer om na hierdie bladsy terug te keer sonder om jou inligting "
 "te stuur."
+
+#: static/js/xblock_studio_view.js:476 static/js/xblock_studio_view.js:490
+#: static/js/xblock_studio_view.js:526
+msgid "Unable to update settings"
+msgstr "Kan nie instellings opdateer nie"
+
+#: static/js/xblock_studio_view.js:491
+msgid "Unable to parse the redirect URIs."
+msgstr "Kan nie die herleiding-URI's ontleed nie."
+
+#: static/js/xblock_studio_view.js:511
+msgid ""
+"This may be happening because of an error with our server or your internet "
+"connection. Try refreshing the page or making sure you are online."
+msgstr ""
+"Dit kan gebeur as gevolg van 'n fout met ons bediener of jou "
+"internetverbinding. Probeer om die bladsy te verfris of maak seker jy is "
+"aanlyn."

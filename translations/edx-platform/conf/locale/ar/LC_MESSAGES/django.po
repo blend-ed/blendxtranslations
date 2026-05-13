@@ -3396,8 +3396,8 @@ msgid ""
 "required tasks for this course under its guidelines."
 msgstr ""
 "تُشير الشهادة الـ {cert_type} إلى أنّ المتعلم قد وافق على الالتزام بميثاق "
-"الشرف الذي حدَّدته منصة {platform_name} وأنه قد أكمل جميع المهام المطلوبة "
-"لهذا المساق وفقاً للإرشادات."
+"الشرف الذي حددته منصة {platform_name} وأنه قد أكمل جميع المهام المطلوبة لهذا"
+" المساق وفقاً للإرشادات."
 
 #. Translators:  This text describes the 'ID Verified' course certificate
 #. type, which is a higher level of
@@ -5370,9 +5370,9 @@ msgid ""
 "{course}. Please remove them from the Certificate Exception list before "
 "attempting to invalidate their certificate."
 msgstr ""
-"يظهر الطالب {student} في قائمة الطلاب الذين تم استثناءهم من نَيل الشهادة في "
-"المساق {course}. من فضلك قم بإزالتهم من هذه القائمة قبل محاولة إبطال "
-"شهادتهم."
+"يظهر الطالب {student} في قائمة الطلاب الذين تم استثناءهم من الحصول على "
+"الشهادة في مساق {course}. من فضلك قم بإزالتهم من هذه القائمة قبل محاولة "
+"إبطال شهادتهم. "
 
 #: lms/djangoapps/instructor/views/api.py:4191
 #, python-brace-format
@@ -6369,7 +6369,7 @@ msgid ""
 "          "
 msgstr ""
 "\n"
-"أُرسِل هذا البريد الإلكتروني تلقائياً من %(platform_name)s.\n"
+"            أُرسل هذا البريد الإلكتروني تلقائياً من %(platform_name)s.\n"
 "          "
 
 #: lms/templates/bulk_email/edx_ace/bulkemail/email/body.html:24
@@ -6852,8 +6852,8 @@ msgid ""
 "You have been unenrolled from the course %(course_name)s. Please disregard "
 "the invitation previously sent."
 msgstr ""
-"لقد أُلغِي تسجيلك في مساق %(course_name)s. لذلك يُرجى تجاهل الدعوة المرسلة "
-"مسبقاً"
+"لقد أُلغي تسجيلك في مساق %(course_name)s. لذلك يُرجى تجاهل الدعوة المرسلة "
+"مسبقاً."
 
 #: lms/templates/instructor/edx_ace/enrolledunenroll/email/body.html:12
 #, python-format
@@ -7119,7 +7119,7 @@ msgstr "مرحبا %(full_name)s."
 
 #: lms/templates/verify_student/edx_ace/verificationapproved/email/body.html:10
 msgid "ID Verification Approved"
-msgstr "تمّت الموافقة على توثيق الهوية."
+msgstr "تمّت الموافقة على توثيق الهوية"
 
 #: lms/templates/verify_student/edx_ace/verificationapproved/email/body.html:19
 #: lms/templates/verify_student/edx_ace/verificationapproved/email/body.txt:3
@@ -11851,8 +11851,8 @@ msgid ""
 "'You must complete {link} before you can access this unit'."
 msgstr ""
 "الرسالة التي تظهر للمتعلمين في حالة عدم استيفاء جميع الشروط لإظهار محتوى هذه"
-" الكُتلة الشرطية. ضَمِّن {link} في نص رسالتك لمَنح المتعلمين رابطاً مباشراً "
-"للوحدات المطلوبة. على سبيل المثال، \"يجب أن تُكمِل {link} قبل أن تتمكن من "
+" الكتلة الشرطية. ضَمِّن {link} في نص رسالتك لمنح المتعلمين رابطاً مباشراً "
+"للوحدات المطلوبة. على سبيل المثال، \"يجب أن تُكمل {link} قبل أن تتمكن من "
 "الوصول إلى هذه الوحدة\"."
 
 #: xmodule/conditional_block.py:131

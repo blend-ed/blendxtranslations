@@ -1,15 +1,15 @@
 # edX translation file.
-# Copyright (C) 2025 EdX
+# Copyright (C) 2026 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# EdX Team <info@edx.org>, 2025.
+# EdX Team <info@edx.org>, 2026.
 # 
 # Translators:
 # Pierre Mailhot <pierre.mailhot@gmail.com>, 2023
-# Gabriel D'Amours <gabriel@opencraft.com>, 2024
+# Gabriel D'Amours, 2024
 # Nathan Robertson, 2024
 # Brian Smith, 2024
 # edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>, 2025
-# Maxime Boissonneault, 2025
+# Maxime Boissonneault, 2026
 # 
 msgid ""
 msgstr ""
@@ -17,7 +17,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2023-06-13 08:00+0000\n"
 "PO-Revision-Date: 2023-06-06 00:53+0000\n"
-"Last-Translator: Maxime Boissonneault, 2025\n"
+"Last-Translator: Maxime Boissonneault, 2026\n"
 "Language-Team: French (Canada) (https://app.transifex.com/open-edx/teams/6205/fr_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -27,12 +27,11 @@ msgstr ""
 
 #: feedback.py:30
 msgid "What did you learn from this? What was missing?"
-msgstr "Qu’avez-vous appris de cela? Que manquait-il?"
+msgstr "Qu'avez-vous appris? Que manquait-il?"
 
 #: feedback.py:31
 msgid "How would you rate this as a learning experience?"
-msgstr ""
-"Comment qualifieriez-vous le tout en tant qu’expérience d’apprentissage?"
+msgstr "Comment évaluez-vous votre expérience d'apprentissage?"
 
 #: feedback.py:33
 msgid ""
@@ -54,19 +53,19 @@ msgstr ""
 
 #: feedback.py:43 feedback.py:164
 msgid "Excellent"
-msgstr "Excellent"
+msgstr "Excellente"
 
 #: feedback.py:43 feedback.py:165
 msgid "Good"
-msgstr "Bien"
+msgstr "Bonne"
 
 #: feedback.py:43 feedback.py:166
 msgid "Average"
-msgstr "Moyen"
+msgstr "Moyenne"
 
 #: feedback.py:43 feedback.py:167
 msgid "Fair"
-msgstr "Juste"
+msgstr "Passable"
 
 #: feedback.py:43 feedback.py:168
 msgid "Poor"
@@ -306,7 +305,7 @@ msgstr "Option de Likert 4"
 
 #: templates/html/studio_view.html:108
 msgid "Example: Fair"
-msgstr "Exemple : Juste"
+msgstr "Exemple : Passable"
 
 #: templates/html/studio_view.html:113
 msgid "Likert option 5"

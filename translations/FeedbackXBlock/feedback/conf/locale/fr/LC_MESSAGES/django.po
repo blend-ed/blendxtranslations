@@ -7,6 +7,8 @@
 # Omar Al-Ithawi <i@omardo.com>, 2025
 # Brian Smith, 2025
 # Eden Huthmacher, 2025
+# Gerardo Núñez, 2026
+# Maxime Boissonneault, 2026
 # 
 msgid ""
 msgstr ""
@@ -14,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2023-06-13 08:00+0000\n"
 "PO-Revision-Date: 2023-06-06 00:53+0000\n"
-"Last-Translator: Eden Huthmacher, 2025\n"
+"Last-Translator: Maxime Boissonneault, 2026\n"
 "Language-Team: French (https://app.transifex.com/open-edx/teams/6205/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,12 +26,11 @@ msgstr ""
 
 #: feedback.py:30
 msgid "What did you learn from this? What was missing?"
-msgstr "Qu’avez-vous appris de cela ? Ce qui manquait ?"
+msgstr "Qu'avez-vous appris? Que manquait-il?"
 
 #: feedback.py:31
 msgid "How would you rate this as a learning experience?"
-msgstr ""
-"Comment qualifieriez-vous cela en tant qu’expérience d’apprentissage ?"
+msgstr "Comment évaluez-vous votre expérience d'apprentissage?"
 
 #: feedback.py:33
 msgid ""
@@ -45,17 +46,17 @@ msgid ""
 "synthesis will help you better understand and remember material from this "
 "course."
 msgstr ""
-"Prenez un peu de temps pour réfléchir ici. La recherche montre qu&#39;une "
+"Prenez un peu de temps pour réfléchir ici. La recherche montre qu'une "
 "synthèse significative vous aidera à mieux comprendre et à mémoriser le "
 "contenu de ce cours."
 
 #: feedback.py:43 feedback.py:164
 msgid "Excellent"
-msgstr "Excellent"
+msgstr "Excellente"
 
 #: feedback.py:43 feedback.py:165
 msgid "Good"
-msgstr "Bien"
+msgstr "Bonne"
 
 #: feedback.py:43 feedback.py:166
 msgid "Average"
@@ -63,11 +64,15 @@ msgstr "Moyenne"
 
 #: feedback.py:43 feedback.py:167
 msgid "Fair"
-msgstr "Équitable"
+msgstr "Passable"
 
 #: feedback.py:43 feedback.py:168
 msgid "Poor"
 msgstr "Pauvre"
+
+#: feedback.py:78
+msgid "Freeform user prompt"
+msgstr "Invitez l'utilisateur à une invite libre"
 
 #: feedback.py:84 feedback.py:100
 msgid "Random number generated for p. -1 if uninitialized"
@@ -103,11 +108,11 @@ msgstr "Message de vote"
 
 #: feedback.py:119
 msgid "Thank you for voting!"
-msgstr "Merci d&#39;avoir voté !"
+msgstr "Merci d'avoir voté !"
 
 #: feedback.py:124 templates/html/studio_view.html:25
 msgid "Feedback message"
-msgstr "Message de feedback"
+msgstr "Message de rétroaction"
 
 #: feedback.py:125
 msgid "Thank you for your feedback!"
@@ -300,7 +305,7 @@ msgstr "Option de Likert 4"
 
 #: templates/html/studio_view.html:108
 msgid "Example: Fair"
-msgstr "Exemple : Équitable"
+msgstr "Exemple : Passable"
 
 #: templates/html/studio_view.html:113
 msgid "Likert option 5"

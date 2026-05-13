@@ -12,9 +12,9 @@
 # 
 # Translators:
 # Transifex Bot <>, 2025
-# Brian Smith, 2025
 # Gerardo Núñez, 2026
 # Kaori Myatt <kaorimyatt@gmail.com>, 2026
+# Brian Smith, 2026
 # Eden Huthmacher, 2026
 # 
 #, fuzzy
@@ -9307,6 +9307,10 @@ msgstr "証明書を無効にする"
 #: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore:28
 msgid "Student"
 msgstr "受講者"
+
+#: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore:29
+msgid "Invalidated By"
+msgstr "無効化したユーザー"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificate-invalidation.underscore:30
 msgid "Invalidated"

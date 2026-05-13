@@ -4,8 +4,9 @@
 # EdX Team <info@edx.org>, 2026.
 # 
 # Translators:
-# Brian Smith, 2026
+# Transifex Bot <>, 2026
 # Gerardo Núñez, 2026
+# Brian Smith, 2026
 # 
 msgid ""
 msgstr ""
@@ -13,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2023-06-13 08:00+0000\n"
 "PO-Revision-Date: 2023-06-24 01:02+0000\n"
-"Last-Translator: Gerardo Núñez, 2026\n"
+"Last-Translator: Brian Smith, 2026\n"
 "Language-Team: Thai (https://app.transifex.com/open-edx/teams/6205/th/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -46,16 +47,12 @@ msgid "No valid user id found in endpoint URL"
 msgstr "ไม่พบรหัสผู้ใช้ที่ถูกต้องใน url ปลายทาง"
 
 #: lti_xblock.py:147
-msgid "Configuration on block"
-msgstr "การกำหนดค่าบนบล็อก"
+msgid "New"
+msgstr "ใหม่"
 
 #: lti_xblock.py:151
-msgid "Database Configuration"
-msgstr "การกำหนดค่าฐานข้อมูล"
-
-#: lti_xblock.py:154
-msgid "Reusable Configuration"
-msgstr "การกำหนดค่าที่ใช้ซ้ำได้"
+msgid "Database"
+msgstr "ฐานข้อมูล"
 
 #: lti_xblock.py:262
 msgid "Display Name"
@@ -63,433 +60,326 @@ msgstr "ชื่อที่แสดง"
 
 #: lti_xblock.py:264
 msgid ""
-"Enter the name that students see for this component. Analytics reports may "
-"also use the display name to identify this component."
+"Enter the name learners see for this component. This name may also appear in"
+" reports."
 msgstr ""
-"ป้อนชื่อที่นักเรียนเห็นสำหรับส่วนประกอบนี้ "
-"รายงานการวิเคราะห์อาจใช้ชื่อที่แสดงเพื่อระบุองค์ประกอบนี้"
+"ป้อนชื่อที่ผู้เรียนเห็นสำหรับส่วนประกอบนี้ ชื่อนี้อาจปรากฏในรายงานด้วย"
 
-#: lti_xblock.py:268
+#: lti_xblock.py:267
 msgid "LTI Consumer"
 msgstr "ผู้บริโภค LTI"
 
-#: lti_xblock.py:271
-msgid "LTI Application Information"
-msgstr "ข้อมูลแอพลิเคชัน LTI"
+#: lti_xblock.py:270
+msgid "Data Sharing Notice"
+msgstr "ประกาศการแบ่งปันข้อมูล"
 
-#: lti_xblock.py:273
+#: lti_xblock.py:272
 msgid ""
-"Enter a description of the third party application. If requesting username "
-"and/or email, use this text box to inform users why their username and/or "
-"email will be forwarded to a third party application."
+"Enter a short notice about the tool. Use this field to explain why learner "
+"data may be shared with it."
 msgstr ""
-"กรอกรายละเอียดของแอพลิเคชั่นบุคคลที่สาม ถ้าต้องการชื่อผู้ใช้หรืออีเมล์, "
-"ใช้กล่องข้อความนี้เพื่อแจ้งผู้ใช้ว่าทำไมจึงส่งต่อชื่อผู้ใช้หรืออีเมล์ไปยังแอพลิเคชั่นบุคคลที่สาม"
+"ป้อนประกาศสั้นๆ เกี่ยวกับเครื่องมือนี้ "
+"ใช้ช่องนี้เพื่ออธิบายว่าเหตุใดข้อมูลผู้เรียนจึงอาจถูกแชร์กับเครื่องมือนี้"
 
-#: lti_xblock.py:281
+#: lti_xblock.py:278
 msgid "Configuration Type"
 msgstr "ประเภทการกำหนดค่า"
 
-#: lti_xblock.py:286
+#: lti_xblock.py:283
 msgid ""
-"Select 'Configuration on block' to configure a new LTI Tool. If the support "
-"staff provided you with a pre-configured LTI reusable Tool ID, "
-"select'Reusable Configuration' and enter it in the text field below."
+"Select 'New' to configure a new LTI Tool. If your admin has provided you "
+"with ID of an existing reusable tool configuration, select 'Existing' and "
+"enter it in the text field on the right."
 msgstr ""
-"เลือก &#39;การกำหนดค่าบนบล็อก&#39; เพื่อกำหนดค่าเครื่องมือ LTI ใหม่ "
-"หากเจ้าหน้าที่ฝ่ายสนับสนุนให้รหัสเครื่องมือที่สามารถนำมาใช้ซ้ำได้ของ LTI "
-"ที่กำหนดค่าไว้ล่วงหน้าแก่คุณ ให้เลือก &#39;การกำหนดค่าที่ใช้ซ้ำได้&#39; "
-"แล้วป้อนลงในช่องข้อความด้านล่าง"
+"เลือก 'ใหม่' เพื่อกำหนดค่าเครื่องมือ LTI ใหม่ หากผู้ดูแลของคุณให้ ID "
+"การกำหนดค่าเครื่องมือที่นำกลับมาใช้ใหม่ได้ที่มีอยู่แล้ว ให้เลือก 'ที่มีอยู่'"
+" และป้อนลงในช่องข้อความทางด้านขวา"
 
-#: lti_xblock.py:293
+#: lti_xblock.py:289
 msgid "LTI Version"
 msgstr "เวอร์ชัน LTI"
 
-#: lti_xblock.py:301
+#: lti_xblock.py:297
+msgid "Select the LTI version supported by your tool."
+msgstr "เลือกรุ่น LTI ที่เครื่องมือของคุณรองรับ"
+
+#: lti_xblock.py:304
+msgid "Enter the ID of an existing reusable tool configuration."
+msgstr "ป้อน ID ของการกำหนดค่าเครื่องมือที่นำกลับมาใช้ใหม่ได้ที่มีอยู่"
+
+#: lti_xblock.py:309
+msgid "Lti 1.3 passport ID that points to Lti1p3Passport table"
+msgstr "Lti 1.3 passport ID ที่ชี้ไปยังตาราง Lti1p3Passport"
+
+#: lti_xblock.py:316
+msgid "Launch URL"
+msgstr "เปิด URL"
+
+#: lti_xblock.py:320
 msgid ""
-"Select the LTI version that your tool supports.<br />The XBlock LTI Consumer"
-" fully supports LTI 1.1.1, LTI 1.3 and LTI Advantage features."
+"Enter the launch URL for this tool. For LTI 1.3, this is the URL Open edX "
+"uses to launch the tool."
 msgstr ""
-"เลือกเวอร์ชัน LTI ที่เครื่องมือของคุณรองรับ<br /> XBlock LTI Consumer "
-"รองรับฟีเจอร์ LTI 1.1.1, LTI 1.3 และ LTI Advantage อย่างสมบูรณ์"
-
-#: lti_xblock.py:308
-msgid "LTI Reusable Configuration ID"
-msgstr "รหัสการกำหนดค่า LTI ที่ใช้ซ้ำได้"
-
-#: lti_xblock.py:310
-msgid ""
-"Enter the reusable LTI external configuration ID provided by the support "
-"staff."
-msgstr ""
-"ป้อนรหัสการกำหนดค่าภายนอก LTI "
-"ที่นำมาใช้ซ้ำได้ซึ่งได้รับมาจากเจ้าหน้าที่ฝ่ายสนับสนุน"
-
-#: lti_xblock.py:315
-msgid "Tool Launch URL"
-msgstr "URL การเปิดเครื่องมือ"
-
-#: lti_xblock.py:319
-msgid ""
-"Enter the LTI 1.3 Tool Launch URL. <br />This is the URL the LMS will use to"
-" launch the LTI Tool."
-msgstr ""
-"ป้อน URL เปิดเครื่องมือ LTI 1.3<br /> นี่คือ URL ที่ LMS "
-"จะใช้เพื่อเปิดเครื่องมือ LTI"
-
-#: lti_xblock.py:324
-msgid "Tool Initiate Login URL"
-msgstr "เครื่องมือเริ่มต้น URL เข้าสู่ระบบ"
+"ป้อน URL สำหรับเปิดใช้เครื่องมือนี้ สำหรับ LTI 1.3 นี่คือ URL ที่ Open edX "
+"ใช้เพื่อเปิดใช้เครื่องมือ"
 
 #: lti_xblock.py:328
 msgid ""
-"Enter the LTI 1.3 Tool OIDC Authorization url (can also be called login or "
-"login initiation URL).<br />This is the URL the LMS will use to start a LTI "
-"authorization prior to doing the launch request."
+"Enter the tool’s OIDC login initiation URL. Open edX uses this URL to start "
+"the LTI 1.3 login flow."
 msgstr ""
-"ป้อน URL การอนุญาต OIDC ของเครื่องมือ LTI 1.3 (อาจเรียกว่า URL "
-"การเข้าสู่ระบบหรือ URL เริ่มต้นการเข้าสู่ระบบก็ได้)<br /> นี่คือ URL ที่ LMS"
-" จะใช้เพื่อเริ่มการให้สิทธิ์ LTI ก่อนที่จะดำเนินการคำขอเปิดใช้งาน"
+"ป้อน URL การเริ่มต้นเข้าสู่ระบบ OIDC ของเครื่องมือ Open edX จะใช้ URL "
+"นี้เพื่อเริ่มขั้นตอนการเข้าสู่ระบบ LTI 1.3"
 
-#: lti_xblock.py:334
+#: lti_xblock.py:332
 msgid "Registered Redirect URIs"
 msgstr "URI การเปลี่ยนเส้นทางที่ลงทะเบียน"
 
-#: lti_xblock.py:336
+#: lti_xblock.py:334
 msgid ""
-"Valid urls the Tool may request us to redirect the id token to. The redirect"
-" uris are often the same as the launch url/deep linking url so if this field"
-" is empty, it will use them as the default. If you need to use different "
-"redirect uri's, enter them here. If you use this field you must enter all "
-"valid redirect uri's the tool may request."
+"Enter the redirect URIs this tool is allowed to use during login e.g. "
+"[\"https://tool.com\", \"https://tool_deeplink.com\"]. Leave this blank to "
+"use the launch URL and deep linking URL by default."
 msgstr ""
-"URL ที่ถูกต้องที่เครื่องมืออาจขอให้เราเปลี่ยนเส้นทางโทเค็นรหัสไป URL "
-"การเปลี่ยนเส้นทางมักจะเหมือนกับ URL เริ่มต้น/URL ลิงก์ในรายละเอียด "
-"ดังนั้นหากฟิลด์นี้ว่างเปล่า ก็จะใช้เป็นค่าเริ่มต้น หากคุณต้องการใช้ URL "
-"การเปลี่ยนเส้นทางอื่น ให้ป้อนที่นี่ หากคุณใช้ฟิลด์นี้ คุณต้องป้อน URL "
-"การเปลี่ยนเส้นทางที่ถูกต้องทั้งหมดที่เครื่องมืออาจร้องขอ"
+"ป้อน URI "
+"สำหรับการเปลี่ยนเส้นทางที่เครื่องมือนี้ได้รับอนุญาตให้ใช้ระหว่างการเข้าสู่ระบบ"
+" เช่น [\"https://tool.com\", \"https://tool_deeplink.com\"] หากเว้นว่างไว้ "
+"จะใช้ URL สำหรับการเปิดใช้งานและ URL "
+"สำหรับการเชื่อมโยงแบบเจาะลึกเป็นค่าเริ่มต้น"
 
-#: lti_xblock.py:346
+#: lti_xblock.py:342
 msgid "Tool Public Key Mode"
 msgstr "เครื่องมือโหมดคีย์สาธารณะ"
 
-#: lti_xblock.py:354
-msgid "Select how the tool's public key information will be specified."
-msgstr "เลือกวิธีการระบุข้อมูลคีย์สาธารณะของเครื่องมือ"
+#: lti_xblock.py:350
+msgid ""
+"Choose how Open edX will get the tool’s public key for validating signed "
+"messages."
+msgstr ""
+"เลือกวิธีที่ Open edX "
+"จะได้รับคีย์สาธารณะของเครื่องมือเพื่อตรวจสอบข้อความที่ลงนาม"
 
-#: lti_xblock.py:358
+#: lti_xblock.py:354
 msgid "Tool Keyset URL"
 msgstr "URL คีย์เครื่องมือ"
 
-#: lti_xblock.py:362
-msgid ""
-"Enter the LTI 1.3 Tool's JWK keysets URL.<br />This link should retrieve a "
-"JSON file containing public keys and signature algorithm information, so "
-"that the LMS can check if the messages and launch requests received have the"
-" signature from the tool.<br /><b>This is not required when doing LTI 1.3 "
-"Launches without LTI Advantage nor Basic Outcomes requests.</b>"
-msgstr ""
-"ป้อน URL ชุดคีย์ JWK ของเครื่องมือ LTI 1.3<br /> ลิงก์นี้ควรดึงไฟล์ JSON "
-"ที่มีคีย์สาธารณะและข้อมูลอัลกอริทึมลายเซ็น เพื่อให้ LMS "
-"สามารถตรวจสอบได้ว่าข้อความและคำขอเปิดใช้งานที่ได้รับมีลายเซ็นจากเครื่องมือหรือไม่<br"
-" /> <b>สิ่งนี้ไม่จำเป็นเมื่อดำเนินการเปิดตัว LTI 1.3 โดยไม่มีคำขอ LTI "
-"Advantage หรือผลลัพธ์พื้นฐาน</b>"
-
-#: lti_xblock.py:372
+#: lti_xblock.py:363
 msgid "Tool Public Key"
 msgstr "เครื่องมือกุญแจสาธารณะ"
 
-#: lti_xblock.py:377
+#: lti_xblock.py:368
 msgid ""
-"Enter the LTI 1.3 Tool's public key.<br />This is a string that starts with "
-"'-----BEGIN PUBLIC KEY-----' and is required so that the LMS can check if "
-"the messages and launch requests received have the signature from the "
-"tool.<br /><b>This is not required when doing LTI 1.3 Launches without LTI "
-"Advantage nor Basic Outcomes requests.</b>"
+"Enter the tool’s public key in PEM format (starts with -----BEGIN PUBLIC "
+"KEY-----). Use this when the tool provides a static public key directly."
 msgstr ""
-"ป้อนคีย์สาธารณะของเครื่องมือ LTI 1.3<br /> นี่คือสตริงที่ขึ้นต้นด้วย "
-"&#39;-----BEGIN PUBLIC KEY-----&#39; และจำเป็นเพื่อให้ LMS "
-"สามารถตรวจสอบว่าข้อความและคำขอเปิดใช้งานที่ได้รับมีลายเซ็นจากเครื่องมือหรือไม่<br"
-" /> <b>สิ่งนี้ไม่จำเป็นเมื่อดำเนินการเปิดตัว LTI 1.3 โดยไม่มีคำขอ LTI "
-"Advantage หรือผลลัพธ์พื้นฐาน</b>"
+"ป้อนคีย์สาธารณะของเครื่องมือในรูปแบบ PEM (ขึ้นต้นด้วย -----BEGIN PUBLIC "
+"KEY-----) ใช้สิ่งนี้เมื่อเครื่องมือให้คีย์สาธารณะแบบคงที่โดยตรง"
 
-#: lti_xblock.py:387
-msgid "Enable LTI NRPS"
-msgstr "เปิดใช้งาน LTI NRPS"
+#: lti_xblock.py:374
+msgid "Names & Roles (NRPS)"
+msgstr "ชื่อและบทบาท (NRPS)"
 
-#: lti_xblock.py:388
-msgid "Enable LTI Names and Role Provisioning Services."
-msgstr "เปิดใช้งานชื่อ LTI และบริการการจัดเตรียมบทบาท"
+#: lti_xblock.py:376
+msgid ""
+"Enable this to allow the tool to access the names and roles of enrolled "
+"learners, if the tool supports NRPS."
+msgstr ""
+"เปิดใช้งานตัวเลือกนี้เพื่อให้เครื่องมือสามารถเข้าใช้ชื่อและบทบาทของผู้เรียนที่ลงทะเบียน"
+" หากเครื่องมือรองรับ NRPS"
 
-#: lti_xblock.py:395
+#: lti_xblock.py:385
 msgid "Deep linking"
 msgstr "การเชื่อมโยงลึก"
 
-#: lti_xblock.py:396
-msgid "Select True if you want to enable LTI Advantage Deep Linking."
-msgstr "เลือก จริง หากคุณต้องการเปิดใช้งาน LTI Advantage Deep Linking"
+#: lti_xblock.py:387
+msgid ""
+"Enable this if you want to deep link content from within the tool, in "
+"Studio."
+msgstr ""
+"เปิดใช้งานตัวเลือกนี้หากคุณต้องการเชื่อมโยงเนื้อหาเชิงลึกจากภายในเครื่องมือใน"
+" Studio"
 
-#: lti_xblock.py:401
+#: lti_xblock.py:393
 msgid "Deep Linking Launch URL"
 msgstr "URL เปิดตัว Deep Linking"
 
-#: lti_xblock.py:405
-msgid ""
-"Enter the LTI Advantage Deep Linking Launch URL. If the tool does not "
-"specify one, use the same value as 'Tool Launch URL'."
-msgstr ""
-"ป้อน URL เปิดตัว LTI Advantage Deep Linking หากเครื่องมือไม่ได้ระบุ "
-"ให้ใช้ค่าเดียวกันกับ 'URL การเปิดเครื่องมือ'"
+#: lti_xblock.py:401
+msgid "Assignment and Grades"
+msgstr "การมอบหมายงานและเกรด"
 
 #: lti_xblock.py:410
-msgid "LTI Assignment and Grades Service"
-msgstr "บริการมอบหมายและเกรดของ LTI"
-
-#: lti_xblock.py:413
-msgid "Allow tools to submit grades only (declarative)"
-msgstr "อนุญาตให้เครื่องมือส่งเกรดเท่านั้น (ประกาศ)"
-
-#: lti_xblock.py:414
-msgid "Allow tools to manage and submit grade (programmatic)"
-msgstr "อนุญาตให้เครื่องมือจัดการและส่งเกรด (แบบเป็นโปรแกรม)"
-
-#: lti_xblock.py:419
 msgid ""
-"Enable the LTI-AGS service and select the functionality enabled for LTI "
-"tools. The 'declarative' mode (default) will provide a tool with a LineItem "
-"created from the XBlock settings, while the 'programmatic' one will allow "
-"tools to manage, create and link the grades."
+"Enable AGS and select functionality. 'Declarative' provides the tool with an"
+" existing line item. 'Programmatic' allows tools to create and manage line "
+"items."
 msgstr ""
-"เปิดใช้งานบริการ LTI-AGS และเลือกฟังก์ชันที่เปิดใช้งานสำหรับเครื่องมือ LTI "
-"โหมด &#39;ประกาศ&#39; (ค่าเริ่มต้น) จะให้เครื่องมือที่มี LineItem "
-"ที่สร้างจากการตั้งค่า XBlock ในขณะที่โหมด &#39;แบบเป็นโปรแกรม&#39; "
-"จะอนุญาตให้เครื่องมือจัดการ สร้าง และเชื่อมโยงเกรด"
+"เปิดใช้งาน AGS และเลือกฟังก์ชันการทำงาน 'Declarative' "
+"จะให้เครื่องมือที่มีรายการบรรทัดที่มีอยู่ 'Programmatic' "
+"จะช่วยให้เครื่องมือสามารถสร้างและจัดการรายการบรรทัดได้"
 
-#: lti_xblock.py:427
-msgid "LTI ID"
-msgstr "รหัส LTI"
+#: lti_xblock.py:417
+msgid "LTI Passport ID"
+msgstr "LTI Passport ID"
 
-#: lti_xblock.py:429
-#, python-brace-format
-msgid ""
-"Enter the LTI ID for the external LTI provider. This value must be the same "
-"LTI ID that you entered in the LTI Passports setting on the Advanced "
-"Settings page.<br />See the {docs_anchor_open}edX LTI "
-"documentation{anchor_close} for more details on this setting."
-msgstr ""
-"ป้อนรหัส LTI สำหรับผู้ให้บริการ LTI ภายนอก ค่านี้ต้องเป็นรหัส LTI "
-"เดียวกับที่คุณป้อนในการตั้งค่า LTI Passports ในหน้าการตั้งค่าขั้นสูง<br /> "
-"ดูเอกสารประกอบ {docs_anchor_open} edX LTI {anchor_close} "
-"สำหรับรายละเอียดเพิ่มเติมเกี่ยวกับการตั้งค่านี้"
-
-#: lti_xblock.py:441
+#: lti_xblock.py:426
 msgid "LTI URL"
 msgstr "LTI URL"
 
-#: lti_xblock.py:443
-#, python-brace-format
+#: lti_xblock.py:428
 msgid ""
-"Enter the URL of the external tool that this component launches. This "
-"setting is only used when Hide External Tool is set to False.<br />See the "
-"{docs_anchor_open}edX LTI documentation{anchor_close} for more details on "
-"this setting."
+"Enter the launch URL for this tool. For LTI 1.1/1.2, this is the URL Open "
+"edX uses to launch the tool."
 msgstr ""
-"ป้อน url ของเครื่องมือภายนอกที่ส่วนประกอบนี้เปิดใช้งาน "
-"การตั้งค่านี้จะใช้เมื่อซ่อนเครื่องมือภายนอกตั้งค่าเป็นเท็จเท่านั้น<br /> "
-"ดูเอกสารประกอบ {docs_anchor_open} edX LTI {anchor_close} "
-"สำหรับรายละเอียดเพิ่มเติมเกี่ยวกับการตั้งค่านี้"
+"ป้อน URL สำหรับเปิดใช้เครื่องมือนี้ สำหรับ LTI 1.1/1.2 นี่คือ URL ที่ Open "
+"edX ใช้เพื่อเปิดใช้เครื่องมือ"
 
-#: lti_xblock.py:456
+#: lti_xblock.py:436
 msgid "Custom Parameters"
 msgstr "ตัวแปรตามสั่ง"
 
+#: lti_xblock.py:438
+msgid ""
+"Enter key-value pairs to send with each launch e.g. [\"page=1\", "
+"\"color=white\"]."
+msgstr ""
+"ป้อนคู่คีย์-ค่าเพื่อส่งพร้อมกับการเปิดใช้งานแต่ละครั้ง เช่น [\"page=1\", "
+"\"color=white\"]"
+
+#: lti_xblock.py:443
+msgid "Open tool in"
+msgstr "เปิดเครื่องมือใน"
+
+#: lti_xblock.py:445
+msgid ""
+"Choose how the tool opens for learners: inline in the page, in a modal, or "
+"in a new window."
+msgstr ""
+"เลือกวิธีที่เครื่องมือจะเปิดสำหรับผู้เรียน: เปิดในหน้าเดียวกัน, "
+"ในหน้าต่างป๊อปอัป หรือในหน้าต่างใหม่"
+
 #: lti_xblock.py:458
-#, python-brace-format
 msgid ""
-"Add the key/value pair for any custom parameters, such as the page your "
-"e-book should open to or the background color for this component. Ex. "
-"[\"page=1\", \"color=white\"]<br />See the {docs_anchor_open}edX LTI "
-"documentation{anchor_close} for more details on this setting."
+"Enter the label shown on the launch button when the tool opens in a modal or"
+" new window."
 msgstr ""
-"เพิ่มคู่คีย์/ค่าสำหรับพารามิเตอร์ที่กำหนดเอง เช่น หน้าที่ eBook "
-"ของคุณควรเปิดหรือสีพื้นหลังสำหรับส่วนประกอบนี้ เช่น [\"หน้า=1\", "
-"\"สี=ขาว\"]<br /> ดูเอกสารประกอบ {docs_anchor_open} edX LTI {anchor_close} "
-"สำหรับรายละเอียดเพิ่มเติมเกี่ยวกับการตั้งค่านี้"
+"ป้อนป้ายกำกับที่แสดงบนปุ่มเปิดใช้งานเมื่อเครื่องมือเปิดขึ้นในหน้าต่างโมดอลหรือหน้าต่างใหม่"
 
-#: lti_xblock.py:468
-msgid "LTI Launch Target"
-msgstr "เป้าหมายการเปิดตัว LTI"
+#: lti_xblock.py:464
+msgid "Inline Height (px)"
+msgstr "ความสูงแบบอินไลน์ (พิกเซล)"
 
-#: lti_xblock.py:470
-msgid ""
-"Select Inline if you want the LTI content to open in an IFrame in the "
-"current page. Select Modal if you want the LTI content to open in a modal "
-"window in the current page. Select New Window if you want the LTI content to"
-" open in a new browser window. This setting is only used when Hide External "
-"Tool is set to False."
-msgstr ""
-"เลือกแบบอินไลน์หากคุณต้องการให้เนื้อหา LTI เปิดใน IFrame ในหน้าปัจจุบัน "
-"เลือก Modal หากคุณต้องการให้เนื้อหา LTI เปิดในหน้าต่างโมดอลในหน้าปัจจุบัน "
-"เลือกหน้าต่างใหม่หากคุณต้องการให้เนื้อหา LTI เปิดในหน้าต่างเบราว์เซอร์ใหม่ "
-"การตั้งค่านี้จะใช้เมื่อซ่อนเครื่องมือภายนอกตั้งค่าเป็นเท็จเท่านั้น"
+#: lti_xblock.py:466
+msgid "Enter the height of the inline iframe in pixels."
+msgstr "ป้อนความสูงของ iframe แบบอินไลน์เป็นพิกเซล"
 
-#: lti_xblock.py:484
-msgid "Button Text"
-msgstr "ปุ่มข้อความ"
+#: lti_xblock.py:472
+msgid "Modal Height (%)"
+msgstr "ความสูงของโมดัล (%)"
 
-#: lti_xblock.py:486
-msgid ""
-"Enter the text on the button used to launch the third party application. "
-"This setting is only used when Hide External Tool is set to False and LTI "
-"Launch Target is set to Modal or New Window."
-msgstr ""
-"ป้อนข้อความบนปุ่มที่ใช้ในการเปิดแอปพลิเคชันบุคคลที่สาม "
-"การตั้งค่านี้จะใช้เฉพาะเมื่อซ่อนเครื่องมือภายนอกถูกตั้งค่าเป็นเท็จ "
-"และเป้าหมายการเปิดตัว LTI ถูกตั้งค่าเป็น Modal หรือหน้าต่างใหม่"
+#: lti_xblock.py:474
+msgid "Enter the modal height as a percentage of the browser window."
+msgstr "ป้อนความสูงของโมดอลเป็นเปอร์เซ็นต์ของหน้าต่างเบราว์เซอร์"
+
+#: lti_xblock.py:480
+msgid "Modal Width (%)"
+msgstr "ความกว้างของโมดอล (%)"
+
+#: lti_xblock.py:482
+msgid "Enter the modal width as a percentage of the browser window."
+msgstr "ป้อนความกว้างของโมดอลเป็นเปอร์เซ็นต์ของหน้าต่างเบราว์เซอร์"
+
+#: lti_xblock.py:488
+msgid "This activity is graded"
+msgstr "กิจกรรมนี้มีการให้คะแนน"
+
+#: lti_xblock.py:489
+msgid "Enable this if the tool sends a numeric score back to Open edX."
+msgstr "เปิดใช้งานตัวเลือกนี้หากเครื่องมือส่งคะแนนตัวเลขกลับไปยัง Open edX"
 
 #: lti_xblock.py:494
-msgid "Inline Height"
-msgstr "ความสูงแบบอินไลน์"
+msgid "Grade Weight"
+msgstr "น้ำหนักคะแนน"
 
 #: lti_xblock.py:496
-msgid ""
-"Enter the desired pixel height of the iframe which will contain the LTI "
-"tool. This setting is only used when Hide External Tool is set to False and "
-"LTI Launch Target is set to Inline."
-msgstr ""
-"ป้อนความสูงพิกเซลที่ต้องการของ iframe ซึ่งจะมีเครื่องมือ LTI "
-"การตั้งค่านี้จะใช้เฉพาะเมื่อตั้งค่า Hide External Tool เป็น False และ LTI "
-"Launch Target ตั้งค่าเป็น Inline"
+msgid "Enter the maximum number of points for this component."
+msgstr "ป้อนคะแนนสูงสุดสำหรับส่วนประกอบนี้"
 
-#: lti_xblock.py:504
-msgid "Modal Height"
-msgstr "ความสูงของกิริยาช่วย"
-
-#: lti_xblock.py:506
-msgid ""
-"Enter the desired viewport percentage height of the modal overlay which will"
-" contain the LTI tool. This setting is only used when Hide External Tool is "
-"set to False and LTI Launch Target is set to Modal."
-msgstr ""
-"ป้อนเปอร์เซ็นต์ความสูงวิวพอร์ตที่ต้องการของการวางซ้อนโมดอลซึ่งจะมีเครื่องมือ"
-" LTI การตั้งค่านี้จะใช้เฉพาะเมื่อซ่อนเครื่องมือภายนอกถูกตั้งค่าเป็นเท็จ "
-"และเป้าหมายการเปิดตัว LTI ถูกตั้งค่าเป็น Modal"
-
-#: lti_xblock.py:516
-msgid ""
-"Enter the desired viewport percentage width of the modal overlay which will "
-"contain the LTI tool. This setting is only used when Hide External Tool is "
-"set to False and LTI Launch Target is set to Modal."
-msgstr ""
-"ป้อนเปอร์เซ็นต์ความกว้างของวิวพอร์ตที่ต้องการของการวางซ้อนโมดอลซึ่งจะมีเครื่องมือ"
-" LTI การตั้งค่านี้จะใช้เฉพาะเมื่อซ่อนเครื่องมือภายนอกถูกตั้งค่าเป็นเท็จ "
-"และเป้าหมายการเปิดตัว LTI ถูกตั้งค่าเป็น Modal"
-
-#: lti_xblock.py:524
-msgid "Scored"
-msgstr "คะแนน"
-
-#: lti_xblock.py:525
-msgid ""
-"Select True if this component will receive a numerical score from the "
-"external LTI system."
-msgstr "เลือกถูก ถ้าส่วนประกอบนี้จะได้รับคะแนนตัวเลขจากระบบภายนอก LTI"
-
-#: lti_xblock.py:532
-msgid ""
-"Enter the number of points possible for this component.  The default value "
-"is 1.0.  This setting is only used when Scored is set to True."
-msgstr ""
-"ระบุจำนวนคะแนนที่เป็นไปได้ในส่วนประกอบนี้ ค่าเบื้องต้นคือ 1.0 "
-"การตั้งค่าถูกใช้เมื่อคะแนนถูกกำหนดว่าจริง"
-
-#: lti_xblock.py:541
+#: lti_xblock.py:503
 msgid ""
 "The score kept in the xblock KVS -- duplicate of the published score in "
 "django DB"
 msgstr "คะแนนเก็บใน xblock KVS -- สำเนาคะแนนที่ถูกตีพิมพ์ใน django DB"
 
-#: lti_xblock.py:546
+#: lti_xblock.py:508
 msgid "Comment as returned from grader, LTI2.0 spec"
 msgstr "ความคิดเห็นถูกส่งกลับไปยังผู้ให้คะแนน LTI2.0 spec"
 
-#: lti_xblock.py:551
+#: lti_xblock.py:513
 msgid "Hide External Tool"
 msgstr "ซ่อนเครื่องมือภายนอก"
 
-#: lti_xblock.py:553
+#: lti_xblock.py:521
+msgid "Accept grades after due date"
+msgstr "ยอมรับเกรดหลังวันครบกำหนด"
+
+#: lti_xblock.py:522
 msgid ""
-"Select True if you want to use this component as a placeholder for syncing "
-"with an external grading  system rather than launch an external tool.  This "
-"setting hides the Launch button and any IFrames for this component."
+"Enable this to allow the tool to send grades after the due date has passed."
 msgstr ""
-"เลือกใช่หากคุณต้องการใช้ส่วนประกอบนี้เป็นตำแหน่งสำหรับการซิงค์กับระบบการให้คะแนนจากภายนอกมากกว่าการเปิดตัวเครื่องมือภายนอก"
-" การตั้งค่านี้จะซ่อนปุ่มเปิดใช้และ IFrames ใด ๆ สำหรับส่วนนี้"
+"เปิดใช้งานตัวเลือกนี้เพื่อให้เครื่องมือสามารถส่งเกรดได้หลังจากวันครบกำหนด"
 
-#: lti_xblock.py:561
-msgid "Accept grades past deadline"
-msgstr "ยอมรับวันครบกำหนดส่งการให้คะแนนล่าช้า"
-
-#: lti_xblock.py:562
-msgid ""
-"Select True to allow third party systems to post grades past the deadline."
-msgstr ""
-"เลือกใช่ "
-"เพื่ออนุญาตให้ระบบที่เป็นบุคคลที่สามโพสต์การให้คะแนนเมื่อเกินกำหนดเวลา"
-
-#: lti_xblock.py:570
-msgid "Request user's username"
-msgstr "ต้องการชื่อผู้ใช้"
+#: lti_xblock.py:530
+msgid "Share Username"
+msgstr "แบ่งปันชื่อผู้ใช้"
 
 #. Translators: This is used to request the user's username for a third party
 #. service.
-#: lti_xblock.py:572
-msgid "Select True to request the user's username."
-msgstr "เลือก \"True\" เพื่อขอชื่อผู้ใช้ของผู้ใช้"
+#: lti_xblock.py:532
+msgid "Enable this to send the learner’s username to the tool."
+msgstr "เปิดใช้งานตัวเลือกนี้เพื่อส่งชื่อผู้ใช้ของผู้เรียนไปยังเครื่องมือ"
 
-#: lti_xblock.py:577
-msgid "Request user's full name"
-msgstr "ขอชื่อเต็มของผู้ใช้"
+#: lti_xblock.py:537
+msgid "Share Full name"
+msgstr "แชร์ชื่อเต็ม"
 
 #. Translators: This is used to request the user's full name for a third party
 #. service.
-#: lti_xblock.py:579
-msgid "Select True to request the user's full name."
-msgstr "เลือก \"True\" เพื่อขอชื่อเต็มของผู้ใช้"
+#: lti_xblock.py:539
+msgid "Enable this to send the learner’s full name to the tool."
+msgstr "เปิดใช้งานตัวเลือกนี้เพื่อส่งชื่อเต็มของผู้เรียนไปยังเครื่องมือ"
 
-#: lti_xblock.py:584
-msgid "Request user's email"
-msgstr "ต้องการอีเมล์ของผู้ใช้"
+#: lti_xblock.py:544
+msgid "Share Email"
+msgstr "แบ่งปันอีเมล"
 
 #. Translators: This is used to request the user's email for a third party
 #. service.
-#: lti_xblock.py:586
-msgid "Select True to request the user's email address."
-msgstr "เลือกจริงๆ เพื่อจะขอที่อยู่อีเมล์ของผู้ใช้"
+#: lti_xblock.py:546
+msgid "Enable this to send the learner’s email address to the tool."
+msgstr "เปิดใช้งานตัวเลือกนี้เพื่อส่งที่อยู่อีเมลของผู้เรียนไปยังเครื่องมือ"
 
-#: lti_xblock.py:592
+#: lti_xblock.py:552
 msgid "Send extra parameters"
 msgstr "ส่งพารามิเตอร์พิเศษ"
 
-#: lti_xblock.py:593
+#: lti_xblock.py:553
 msgid ""
-"Select True to send the extra parameters, which might contain Personally "
-"Identifiable Information. The processors are site-wide, please consult the "
-"site administrator if you have any questions."
+"Enable this to send extra parameters (may contain PII). Consult site admin "
+"for details."
 msgstr ""
-"เลือก True เพื่อส่งพารามิเตอร์เพิ่มเติม "
-"ซึ่งอาจมีข้อมูลส่วนบุคคลที่สามารถระบุตัวตนได้ "
-"โปรเซสเซอร์ใช้งานได้ทั่วทั้งไซต์ โปรดปรึกษาผู้ดูแลหากคุณมีคำถามใดๆ"
+"เปิดใช้งานตัวเลือกนี้เพื่อส่งพารามิเตอร์เพิ่มเติม "
+"(อาจมีข้อมูลส่วนบุคคลที่ระบุตัวตนได้) "
+"โปรดปรึกษาผู้ดูแลเว็บไซต์สำหรับรายละเอียด"
 
-#: lti_xblock.py:668
+#: lti_xblock.py:627
 msgid "Custom Parameters must be a list"
 msgstr "พารามิเตอร์ที่กำหนดเองต้องเป็นรายการ"
 
-#: lti_xblock.py:675
+#: lti_xblock.py:634
 msgid "Custom Parameters should be strings in \"x=y\" format."
 msgstr "พารามิเตอร์ที่กำหนดเองควรเป็นสตริงในรูปแบบ &quot;x=y&quot;"
 
-#: lti_xblock.py:685
+#: lti_xblock.py:644
 msgid ""
 "Reusable configuration ID must be set when using external config (Example: "
 "\"x:y\")."
@@ -497,16 +387,16 @@ msgstr ""
 "ต้องตั้งค่า ID การกำหนดค่าที่ใช้ซ้ำได้เมื่อใช้การกำหนดค่าภายนอก (ตัวอย่าง: "
 "\"x:y\")"
 
-#: lti_xblock.py:709
+#: lti_xblock.py:668
 msgid ""
 "The specified LTI ID is not configured in this course's Advanced Settings."
 msgstr "LTI ID ที่ระบุไม่ได้รับการกำหนดค่าในการตั้งค่าขั้นสูงของหลักสูตรนี้"
 
-#: lti_xblock.py:838 lti_xblock.py:1129
+#: lti_xblock.py:802 lti_xblock.py:1119
 msgid "Could not get user data for current request"
 msgstr "ไม่สามารถรับข้อมูลผู้ใช้สำหรับคำขอปัจจุบัน"
 
-#: lti_xblock.py:878
+#: lti_xblock.py:842
 msgid ""
 "Could not parse LTI passport: {lti_passport!r}. Should be \"id:key:secret\" "
 "string."
@@ -514,11 +404,11 @@ msgstr ""
 "ไม่สามารถแยกวิเคราะห์หนังสือเดินทาง LTI: {lti_passport!r} ควรเป็นสตริง "
 "\"id:key:secret\""
 
-#: lti_xblock.py:896 lti_xblock.py:910 lti_xblock.py:926
+#: lti_xblock.py:860 lti_xblock.py:874 lti_xblock.py:890
 msgid "Could not get user id for current request"
 msgstr "ไม่สามารถรับ ID ผู้ใช้สำหรับคำขอปัจจุบัน"
 
-#: lti_xblock.py:1062
+#: lti_xblock.py:1052
 msgid ""
 "Could not parse custom parameter: {custom_parameter!r}. Should be \"x=y\" "
 "string."
@@ -526,68 +416,27 @@ msgstr ""
 "ไม่สามารถแยกวิเคราะห์พารามิเตอร์ที่กำหนดเอง: {custom_parameter!r} "
 "ควรเป็นสตริง \"x=y\""
 
-#: lti_xblock.py:1452
+#: lti_xblock.py:1507
 msgid "[LTI]: Real user not found against anon_id: {}"
 msgstr "[LTI]: ไม่พบผู้ใช้จริงกับ anon_id: {}"
 
-#: models.py:85
-msgid "Configuration Stored on XBlock fields"
-msgstr "การกำหนดค่าที่จัดเก็บไว้ในฟิลด์ XBlock"
-
-#: models.py:86
-msgid "Configuration Stored on this model"
-msgstr "การกำหนดค่าที่จัดเก็บไว้ในรุ่นนี้"
-
-#: models.py:87
-msgid "Configuration Stored on external service"
-msgstr "การกำหนดค่าที่เก็บไว้ในบริการภายนอก"
-
-#: models.py:119
-msgid "LTI configuration data."
-msgstr "ข้อมูลการกำหนดค่า LTI"
-
-#: models.py:126
-msgid "The URL of the external tool that initiates the launch."
-msgstr "URL ของเครื่องมือภายนอกที่เริ่มต้นการเปิดตัว"
-
-#: models.py:131
-msgid "Client key provided by the LTI tool provider."
-msgstr "รหัสไคลเอ็นต์ที่ได้รับจากผู้ให้บริการเครื่องมือ LTI"
-
-#: models.py:137
-msgid "Client secret provided by the LTI tool provider."
-msgstr "รหัสลับไคลเอ็นต์ที่ได้รับจากผู้ให้บริการเครื่องมือ LTI"
-
-#: models.py:143
+#: models.py:61
 msgid "Platform's generated Private key. Keep this value secret."
 msgstr "คีย์ส่วนตัวที่สร้างโดยแพลตฟอร์ม เก็บค่านี้ไว้เป็นความลับ"
 
-#: models.py:149
+#: models.py:67
 msgid "Platform's generated Private key ID"
 msgstr "รหัสคีย์ส่วนตัวที่สร้างขึ้นของแพลตฟอร์ม"
 
-#: models.py:154
+#: models.py:72
 msgid "Platform's generated JWK keyset."
 msgstr "ชุดคีย์ JWK ที่สร้างโดยแพลตฟอร์ม"
 
-#: models.py:160
+#: models.py:78
 msgid "Client ID used by LTI tool"
 msgstr "รหัสไคลเอ็นต์ที่ใช้โดยเครื่องมือ LTI"
 
-#: models.py:256
-msgid "LTI Configuration stores on XBlock needs a block location set."
-msgstr ""
-"การจัดเก็บการกำหนดค่า LTI บน XBlock จำเป็นต้องมีการตั้งค่าตำแหน่งบล็อก"
-
-#: models.py:261
-msgid ""
-"LTI Configuration using reusable configuration needs a external ID in "
-"\"x:y\" format."
-msgstr ""
-"การกำหนดค่า LTI ที่ใช้การกำหนดค่าแบบใช้ซ้ำได้จำเป็นต้องมี ID ภายนอกในรูปแบบ "
-"\"x:y\""
-
-#: models.py:268
+#: models.py:159
 msgid ""
 "LTI Configuration stored on the model for LTI 1.3 must have a value for one "
 "of lti_1p3_tool_public_key or lti_1p3_tool_keyset_url."
@@ -595,7 +444,48 @@ msgstr ""
 "การกำหนดค่า LTI ที่จัดเก็บไว้ในโมเดลสำหรับ LTI 1.3 จะต้องมีค่าสำหรับ "
 "lti_1p3_tool_public_key หรือ lti_1p3_tool_keyset_url อย่างใดอย่างหนึ่ง"
 
-#: models.py:275
+#: models.py:203
+msgid "Configuration Stored on XBlock fields"
+msgstr "การกำหนดค่าที่จัดเก็บไว้ในฟิลด์ XBlock"
+
+#: models.py:204
+msgid "Configuration Stored on this model"
+msgstr "การกำหนดค่าที่จัดเก็บไว้ในรุ่นนี้"
+
+#: models.py:205
+msgid "Configuration Stored on external service"
+msgstr "การกำหนดค่าที่เก็บไว้ในบริการภายนอก"
+
+#: models.py:239
+msgid "LTI configuration data."
+msgstr "ข้อมูลการกำหนดค่า LTI"
+
+#: models.py:246
+msgid "The URL of the external tool that initiates the launch."
+msgstr "URL ของเครื่องมือภายนอกที่เริ่มต้นการเปิดตัว"
+
+#: models.py:251
+msgid "Client key provided by the LTI tool provider."
+msgstr "รหัสไคลเอ็นต์ที่ได้รับจากผู้ให้บริการเครื่องมือ LTI"
+
+#: models.py:257
+msgid "Client secret provided by the LTI tool provider."
+msgstr "รหัสลับไคลเอ็นต์ที่ได้รับจากผู้ให้บริการเครื่องมือ LTI"
+
+#: models.py:346
+msgid "LTI Configuration stores on XBlock needs a block location set."
+msgstr ""
+"การจัดเก็บการกำหนดค่า LTI บน XBlock จำเป็นต้องมีการตั้งค่าตำแหน่งบล็อก"
+
+#: models.py:351
+msgid ""
+"LTI Configuration using reusable configuration needs a external ID in "
+"\"x:y\" format."
+msgstr ""
+"การกำหนดค่า LTI ที่ใช้การกำหนดค่าแบบใช้ซ้ำได้จำเป็นต้องมี ID ภายนอกในรูปแบบ "
+"\"x:y\""
+
+#: models.py:361
 msgid ""
 "CONFIG_ON_XBLOCK and CONFIG_EXTERNAL are not supported for LTI 1.3 "
 "Proctoring Services."
@@ -603,19 +493,19 @@ msgstr ""
 "CONFIG_ON_XBLOCK และ CONFIG_EXTERNAL ไม่ได้รับการสนับสนุนสำหรับ LTI 1.3 "
 "Proctoring Services"
 
-#: models.py:283
+#: models.py:369
 msgid "Invalid LTI configuration."
 msgstr "การกำหนดค่า LTI ไม่ถูกต้อง"
 
-#: plugin/views.py:575
+#: plugin/views.py:620
 msgid "The selected content type is not supported by Open edX."
 msgstr "Open edX ไม่รองรับประเภทเนื้อหาที่เลือก"
 
-#: plugin/views.py:590
+#: plugin/views.py:635
 msgid "You don't have access to save LTI Content Items."
 msgstr "คุณไม่มีสิทธิ์เข้าใช้บันทึกรายการเนื้อหา LTI"
 
-#: plugin/views.py:591
+#: plugin/views.py:636
 msgid ""
 "Please check that you have course staff permissions and double check this "
 "block's LTI settings."
@@ -733,9 +623,97 @@ msgstr "ส่งคุณกลับไปสอบ"
 msgid "Return to exam."
 msgstr "กลับไปสอบ."
 
+#: templates/html/lti_studio_edit/_actions.html:5
+msgid "Previous"
+msgstr "ก่อนหน้า"
+
+#: templates/html/lti_studio_edit/_actions.html:10
 #: static/js/xblock_lti_consumer.js:143
 msgid "Cancel"
 msgstr "ยกเลิก"
+
+#: templates/html/lti_studio_edit/_actions.html:13
+msgid "Next"
+msgstr "ถัดไป"
+
+#: templates/html/lti_studio_edit/_actions.html:16
+msgid "Save"
+msgstr "บันทึก"
+
+#: templates/html/lti_studio_edit/_step_advantage.html:20
+#: templates/html/lti_studio_edit/_step_advantage.html:104
+#: templates/html/lti_studio_edit/_step_review.html:87
+#: templates/html/lti_studio_edit/_step_review.html:208
+msgid "Enabled"
+msgstr "เปิดใช้งานแล้ว"
+
+#: templates/html/lti_studio_edit/_step_advantage.html:142
+msgid "Public Key"
+msgstr "คีย์สาธารณะ"
+
+#: templates/html/lti_studio_edit/_step_advantage.html:152
+msgid "Keyset URL"
+msgstr "URL ของชุดคีย์"
+
+#: templates/html/lti_studio_edit/_step_review.html:22
+msgid "Grading"
+msgstr "การให้คะแนน"
+
+#: templates/html/lti_studio_edit/_step_review.html:39
+msgid "Graded"
+msgstr "เกรด"
+
+#: templates/html/lti_studio_edit/_step_review.html:49
+msgid "Ungraded"
+msgstr "ไม่ได้ให้คะแนน"
+
+#: templates/html/lti_studio_edit/_step_review.html:108
+msgid "Advanced Information Sharing"
+msgstr "การแชร์ข้อมูลขั้นสูง"
+
+#: templates/html/lti_studio_edit/_step_review.html:174
+msgid "Administrators can enable advanced sharing options for LTI components."
+msgstr "ผู้ดูแลสามารถเปิดใช้งานตัวเลือกการแชร์ขั้นสูงสำหรับส่วนประกอบ LTI ได้"
+
+#: templates/html/lti_studio_edit/_step_review.html:179
+msgid "Learn more."
+msgstr "เรียนรู้เพิ่มเติม"
+
+#: templates/html/lti_studio_edit/_step_review.html:229
+msgid "Appearance Options"
+msgstr "ตัวเลือกการแสดงผล"
+
+#: templates/html/lti_studio_edit/_step_review.html:246
+msgid "True"
+msgstr "ถูก"
+
+#: templates/html/lti_studio_edit/_step_review.html:256
+msgid "False"
+msgstr "ผิด"
+
+#: templates/html/lti_studio_edit/_step_setup.html:5
+msgid "LTI Configuration"
+msgstr "การกำหนดค่า LTI"
+
+#: templates/html/lti_studio_edit/_step_setup.html:105
+msgid "LTI 1.1/1.2 Configuration"
+msgstr "การกำหนดค่า LTI 1.1/1.2"
+
+#: templates/html/lti_studio_edit/_step_setup.html:119
+msgid "LTI 1.3 Configuration"
+msgstr "การกำหนดค่า LTI 1.3"
+
+#: templates/html/lti_studio_edit/_stepper_header.html:10
+msgid "Setup"
+msgstr "การตั้งค่า"
+
+#: templates/html/lti_studio_edit/_stepper_header.html:21
+msgid "Advantage Settings"
+msgstr "การตั้งค่า Advantage"
+
+#: templates/html/lti_studio_edit/_stepper_header.html:33
+msgid "Review Options"
+msgstr "ตัวเลือกการตรวจสอบ"
 
 #: static/js/xblock_lti_consumer.js:145
 msgid "OK"
@@ -785,3 +763,24 @@ msgstr "คลิกตกลงเพื่อให้ที่อยู่อ
 #: static/js/xblock_lti_consumer.js:198
 msgid "Click Cancel to return to this page without sending your information."
 msgstr "คลิกยกเลิกเพื่อกลับมาที่หน้านี้โดยไม่ต้องส่งข้อมูลของคุณ"
+
+#: static/js/xblock_studio_view.js:476 static/js/xblock_studio_view.js:490
+#: static/js/xblock_studio_view.js:526
+msgid "Unable to update settings"
+msgstr "ไม่สามรถอัพเดทการตั้งค่าได้"
+
+#: static/js/xblock_studio_view.js:477
+msgid "Unable to parse the custom parameters."
+msgstr "ไม่สามารถแยกวิเคราะห์พารามิเตอร์ที่กำหนดเองได้"
+
+#: static/js/xblock_studio_view.js:491
+msgid "Unable to parse the redirect URIs."
+msgstr "ไม่สามารถแยกวิเคราะห์ URI การเปลี่ยนเส้นทางได้"
+
+#: static/js/xblock_studio_view.js:511
+msgid ""
+"This may be happening because of an error with our server or your internet "
+"connection. Try refreshing the page or making sure you are online."
+msgstr ""
+"กรณีนี้อาจจะเกิดขึ้นเนื่องจากข้อผิดพลาดกับเซิร์ฟเวอร์ของเราหรือเกิดจากการเชื่อมต่ออินเทอร์เน็ตของคุณ"
+" ลองรีเฟรชหน้าเว็บหรือตรวจสอบให้แน่ใจว่าคุณยังออนไลน์อยู่"
