@@ -10,7 +10,7 @@
   "account.myCertifications.detail.notFound": "لم يتم العثور على الشهادة.",
   "account.myCertifications.download": "تنزيل",
   "account.myCertifications.empty": "أكمل الدورات لفتح الشهادات",
-  "account.myCertifications.emptyCta": "تعلّم",
+  "account.myCertifications.emptyCta": "تعلّمي",
   "account.myCertifications.expiryDate": "تاريخ انتهاء الصلاحية: {value}",
   "account.myCertifications.loadError": "تعذّر علينا تحميل شهاداتك. يرجى المحاولة مرة أخرى.",
   "account.myCertifications.loading.sr": "جارٍ التحميل",
