@@ -1,16 +1,16 @@
 {
   "pgn.DataTable.BaseSelectionStatus.allSelectedText": "Alle {numSelectedRows} ausgewählt",
-  "pgn.DataTable.BaseSelectionStatus.clearSelectionText": "Auswahl löschen",
-  "pgn.DataTable.BaseSelectionStatus.selectAllText": "Alle auswählen {itemCount}",
+  "pgn.DataTable.BaseSelectionStatus.clearSelectionText": "Auswahl aufheben",
+  "pgn.DataTable.BaseSelectionStatus.selectAllText": "Alle {itemCount} auswählen",
   "pgn.DataTable.BaseSelectionStatus.selectedText": "{numSelectedRows} ausgewählt",
   "pgn.DataTable.BaseSelectionStatus.selectedTextPaginated": "{numSelectedRows} ausgewählt ({numSelectedRowsOnPage} unten angezeigt)",
-  "pgn.DataTable.ExpandAll.collapseAllLabel": "Alle ausblenden",
-  "pgn.DataTable.ExpandAll.expandAllLabel": "Alle erweitern",
-  "pgn.DataTable.FilterStatus.clearFiltersText": "Filter löschen",
-  "pgn.DataTable.RowStatus.statusText": "Es werden {firstRow} - {lastRow} von {itemCount} angezeigt.",
+  "pgn.DataTable.ExpandAll.collapseAllLabel": "Alle einklappen",
+  "pgn.DataTable.ExpandAll.expandAllLabel": "Alle ausklappen",
+  "pgn.DataTable.FilterStatus.clearFiltersText": "Filter zurücksetzen",
+  "pgn.DataTable.RowStatus.statusText": "{firstRow} - {lastRow} von {itemCount} werden angezeigt.",
   "pgn.DataTable.SidebarFilters.title": "Filter",
-  "pgn.Dropzone.DefaultContent.label": "Per Drag & Drop oder Klick hochladen",
+  "pgn.Dropzone.DefaultContent.label": "Zum Hochladen ziehen und ablegen oder klicken",
   "pgn.Dropzone.DefaultContent.uploadButton": "Bild hochladen",
-  "pgn.Dropzone.UploadProgress.cancelLabel": "Stornieren",
-  "pgn.Dropzone.UploadProgress.uploadLabel": "{Dateiname} wird hochgeladen."
+  "pgn.Dropzone.UploadProgress.cancelLabel": "Abbrechen",
+  "pgn.Dropzone.UploadProgress.uploadLabel": "{filename} wird hochgeladen."
 }
