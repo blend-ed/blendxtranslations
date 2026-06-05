@@ -12,5 +12,11 @@
   "pgn.Dropzone.DefaultContent.label": "ドラッグ＆ドロップするか、クリックしてアップロード",
   "pgn.Dropzone.DefaultContent.uploadButton": "画像をアップロード",
   "pgn.Dropzone.UploadProgress.cancelLabel": "キャンセル",
-  "pgn.Dropzone.UploadProgress.uploadLabel": "{filename}をアップロードしています。"
+  "pgn.Dropzone.UploadProgress.uploadLabel": "{filename}をアップロードしています。",
+  "pgn.NotificationsDropdown.closeAlt": "通知を閉じる",
+  "pgn.NotificationsDropdown.emptyLabel": "まだ通知はありません",
+  "pgn.NotificationsDropdown.title": "通知",
+  "pgn.NotificationsDropdown.triggerAlt": "通知を表示",
+  "pgn.NotificationsDropdown.unreadCountLabel": "未読の通知 {count} 件",
+  "pgn.NotificationsDropdown.viewAllLabel": "すべてのアクティビティを表示"
 }

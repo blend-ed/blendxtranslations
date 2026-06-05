@@ -12,5 +12,11 @@
   "pgn.Dropzone.DefaultContent.label": "Перетащите или нажмите для загрузки",
   "pgn.Dropzone.DefaultContent.uploadButton": "Загрузить изображение",
   "pgn.Dropzone.UploadProgress.cancelLabel": "Отмена",
-  "pgn.Dropzone.UploadProgress.uploadLabel": "Загрузка {filename}."
+  "pgn.Dropzone.UploadProgress.uploadLabel": "Загрузка {filename}.",
+  "pgn.NotificationsDropdown.closeAlt": "Закрыть уведомления",
+  "pgn.NotificationsDropdown.emptyLabel": "Пока нет уведомлений",
+  "pgn.NotificationsDropdown.title": "Уведомления",
+  "pgn.NotificationsDropdown.triggerAlt": "Показать уведомления",
+  "pgn.NotificationsDropdown.unreadCountLabel": "{count} непрочитанных уведомлений",
+  "pgn.NotificationsDropdown.viewAllLabel": "Показать все действия"
 }

@@ -12,5 +12,11 @@
   "pgn.Dropzone.DefaultContent.label": "अपलोड करने के लिए खींचें और छोड़ें या क्लिक करें",
   "pgn.Dropzone.DefaultContent.uploadButton": "छवि अपलोड करें",
   "pgn.Dropzone.UploadProgress.cancelLabel": "रद्द करें",
-  "pgn.Dropzone.UploadProgress.uploadLabel": "{filename} अपलोड हो रही है।"
+  "pgn.Dropzone.UploadProgress.uploadLabel": "{filename} अपलोड हो रही है।",
+  "pgn.NotificationsDropdown.closeAlt": "सूचनाएं बंद करें",
+  "pgn.NotificationsDropdown.emptyLabel": "अभी तक कोई सूचना नहीं",
+  "pgn.NotificationsDropdown.title": "सूचनाएं",
+  "pgn.NotificationsDropdown.triggerAlt": "सूचनाएं देखें",
+  "pgn.NotificationsDropdown.unreadCountLabel": "{count} अपठित सूचनाएं",
+  "pgn.NotificationsDropdown.viewAllLabel": "सभी गतिविधि देखें"
 }

@@ -12,5 +12,11 @@
   "pgn.Dropzone.DefaultContent.label": "끌어다 놓거나 클릭하여 업로드",
   "pgn.Dropzone.DefaultContent.uploadButton": "이미지 업로드",
   "pgn.Dropzone.UploadProgress.cancelLabel": "취소",
-  "pgn.Dropzone.UploadProgress.uploadLabel": "{filename} 업로드 중."
+  "pgn.Dropzone.UploadProgress.uploadLabel": "{filename} 업로드 중.",
+  "pgn.NotificationsDropdown.closeAlt": "알림 닫기",
+  "pgn.NotificationsDropdown.emptyLabel": "아직 알림이 없습니다",
+  "pgn.NotificationsDropdown.title": "알림",
+  "pgn.NotificationsDropdown.triggerAlt": "알림 보기",
+  "pgn.NotificationsDropdown.unreadCountLabel": "읽지 않은 알림 {count}개",
+  "pgn.NotificationsDropdown.viewAllLabel": "모든 활동 보기"
 }

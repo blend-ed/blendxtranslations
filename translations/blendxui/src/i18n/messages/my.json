@@ -12,5 +12,11 @@
   "pgn.Dropzone.DefaultContent.label": "ဖိဆွဲ၍ ချ သို့မဟုတ် နှိပ်၍ တင်ပါ",
   "pgn.Dropzone.DefaultContent.uploadButton": "ပုံ တင်ရန်",
   "pgn.Dropzone.UploadProgress.cancelLabel": "ပယ်ဖျက်ရန်",
-  "pgn.Dropzone.UploadProgress.uploadLabel": "{filename} ကို တင်နေသည်။"
+  "pgn.Dropzone.UploadProgress.uploadLabel": "{filename} ကို တင်နေသည်။",
+  "pgn.NotificationsDropdown.closeAlt": "အကြောင်းကြားချက်များကို ပိတ်ရန်",
+  "pgn.NotificationsDropdown.emptyLabel": "အကြောင်းကြားချက် မရှိသေးပါ",
+  "pgn.NotificationsDropdown.title": "အကြောင်းကြားချက်များ",
+  "pgn.NotificationsDropdown.triggerAlt": "အကြောင်းကြားချက်များကို ကြည့်ရန်",
+  "pgn.NotificationsDropdown.unreadCountLabel": "မဖတ်ရသေးသော အကြောင်းကြားချက် {count} ခု",
+  "pgn.NotificationsDropdown.viewAllLabel": "လှုပ်ရှားမှုအားလုံးကို ကြည့်ရန်"
 }

@@ -12,5 +12,11 @@
   "pgn.Dropzone.DefaultContent.label": "Arrastra y suelta o haz clic para subir",
   "pgn.Dropzone.DefaultContent.uploadButton": "Subir imagen",
   "pgn.Dropzone.UploadProgress.cancelLabel": "Cancelar",
-  "pgn.Dropzone.UploadProgress.uploadLabel": "Subiendo {filename}."
+  "pgn.Dropzone.UploadProgress.uploadLabel": "Subiendo {filename}.",
+  "pgn.NotificationsDropdown.closeAlt": "Cerrar notificaciones",
+  "pgn.NotificationsDropdown.emptyLabel": "Aún no hay notificaciones",
+  "pgn.NotificationsDropdown.title": "Notificaciones",
+  "pgn.NotificationsDropdown.triggerAlt": "Ver notificaciones",
+  "pgn.NotificationsDropdown.unreadCountLabel": "{count} notificaciones sin leer",
+  "pgn.NotificationsDropdown.viewAllLabel": "Ver toda la actividad"
 }

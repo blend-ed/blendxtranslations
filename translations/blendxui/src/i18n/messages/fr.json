@@ -12,5 +12,11 @@
   "pgn.Dropzone.DefaultContent.label": "Glissez-déposez ou cliquez pour téléverser",
   "pgn.Dropzone.DefaultContent.uploadButton": "Téléverser une image",
   "pgn.Dropzone.UploadProgress.cancelLabel": "Annuler",
-  "pgn.Dropzone.UploadProgress.uploadLabel": "Téléversement de {filename}."
+  "pgn.Dropzone.UploadProgress.uploadLabel": "Téléversement de {filename}.",
+  "pgn.NotificationsDropdown.closeAlt": "Fermer les notifications",
+  "pgn.NotificationsDropdown.emptyLabel": "Aucune notification pour le moment",
+  "pgn.NotificationsDropdown.title": "Notifications",
+  "pgn.NotificationsDropdown.triggerAlt": "Voir les notifications",
+  "pgn.NotificationsDropdown.unreadCountLabel": "{count} notifications non lues",
+  "pgn.NotificationsDropdown.viewAllLabel": "Voir toute l'activité"
 }

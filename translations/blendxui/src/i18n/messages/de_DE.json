@@ -12,5 +12,11 @@
   "pgn.Dropzone.DefaultContent.label": "Zum Hochladen ziehen und ablegen oder klicken",
   "pgn.Dropzone.DefaultContent.uploadButton": "Bild hochladen",
   "pgn.Dropzone.UploadProgress.cancelLabel": "Abbrechen",
-  "pgn.Dropzone.UploadProgress.uploadLabel": "{filename} wird hochgeladen."
+  "pgn.Dropzone.UploadProgress.uploadLabel": "{filename} wird hochgeladen.",
+  "pgn.NotificationsDropdown.closeAlt": "Benachrichtigungen schließen",
+  "pgn.NotificationsDropdown.emptyLabel": "Noch keine Benachrichtigungen",
+  "pgn.NotificationsDropdown.title": "Benachrichtigungen",
+  "pgn.NotificationsDropdown.triggerAlt": "Benachrichtigungen anzeigen",
+  "pgn.NotificationsDropdown.unreadCountLabel": "{count} ungelesene Benachrichtigungen",
+  "pgn.NotificationsDropdown.viewAllLabel": "Alle Aktivitäten anzeigen"
 }

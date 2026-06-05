@@ -12,5 +12,11 @@
   "pgn.Dropzone.DefaultContent.label": "拖放或点击上传",
   "pgn.Dropzone.DefaultContent.uploadButton": "上传图片",
   "pgn.Dropzone.UploadProgress.cancelLabel": "取消",
-  "pgn.Dropzone.UploadProgress.uploadLabel": "正在上传 {filename}。"
+  "pgn.Dropzone.UploadProgress.uploadLabel": "正在上传 {filename}。",
+  "pgn.NotificationsDropdown.closeAlt": "关闭通知",
+  "pgn.NotificationsDropdown.emptyLabel": "暂无通知",
+  "pgn.NotificationsDropdown.title": "通知",
+  "pgn.NotificationsDropdown.triggerAlt": "查看通知",
+  "pgn.NotificationsDropdown.unreadCountLabel": "{count} 条未读通知",
+  "pgn.NotificationsDropdown.viewAllLabel": "查看所有动态"
 }
