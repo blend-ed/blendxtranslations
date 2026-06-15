@@ -565,7 +565,7 @@
   "progress.overview.gradeLegendFail": "പരാജയം 0-{max}%",
   "progress.overview.gradeLegendPass": "വിജയം {min}-100%",
   "progress.overview.keepGoing": "തുടരുക!",
-  "progress.overview.passGrade": "പാസ് ഗ്രേഡ്",
+  "progress.overview.passGrade": "പാസ് ഗ്രേഡ്: {grade}%",
   "progress.overview.ringAriaLabel": "നിങ്ങൾ കോഴ്സ് ഉള്ളടക്കത്തിന്റെ {percent}% പൂർത്തിയാക്കി.",
   "progress.overview.unitsDone": "പൂർത്തിയാക്കിയ യൂണിറ്റുകൾ",
   "progress.overview.unitsLeft": "ബാക്കിയുള്ള യൂണിറ്റുകൾ",

@@ -565,7 +565,7 @@
   "progress.overview.gradeLegendFail": "Échec 0-{max} %",
   "progress.overview.gradeLegendPass": "Réussite {min}-100 %",
   "progress.overview.keepGoing": "Continuez !",
-  "progress.overview.passGrade": "Note de réussite",
+  "progress.overview.passGrade": "Note de réussite : {grade} %",
   "progress.overview.ringAriaLabel": "Vous avez terminé {percent} % du contenu du cours.",
   "progress.overview.unitsDone": "Unités terminées",
   "progress.overview.unitsLeft": "Unités restantes",

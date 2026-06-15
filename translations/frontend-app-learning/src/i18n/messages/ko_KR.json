@@ -565,7 +565,7 @@
   "progress.overview.gradeLegendFail": "불합격 0-{max}%",
   "progress.overview.gradeLegendPass": "합격 {min}-100%",
   "progress.overview.keepGoing": "계속하세요!",
-  "progress.overview.passGrade": "합격 성적",
+  "progress.overview.passGrade": "합격 성적: {grade}%",
   "progress.overview.ringAriaLabel": "과정 콘텐츠의 {percent}%를 완료했습니다.",
   "progress.overview.unitsDone": "완료한 단원",
   "progress.overview.unitsLeft": "남은 단원",

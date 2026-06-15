@@ -565,7 +565,7 @@
   "progress.overview.gradeLegendFail": "رسوب 0-{max}%",
   "progress.overview.gradeLegendPass": "نجاح {min}-100%",
   "progress.overview.keepGoing": "واصل التقدم!",
-  "progress.overview.passGrade": "درجة النجاح",
+  "progress.overview.passGrade": "درجة النجاح: {grade}%",
   "progress.overview.ringAriaLabel": "لقد أكملت {percent}% من محتوى المقرر.",
   "progress.overview.unitsDone": "وحدات منجزة",
   "progress.overview.unitsLeft": "وحدات متبقية",

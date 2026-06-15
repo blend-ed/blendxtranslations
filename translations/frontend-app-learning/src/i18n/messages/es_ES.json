@@ -565,7 +565,7 @@
   "progress.overview.gradeLegendFail": "Suspenso 0-{max}%",
   "progress.overview.gradeLegendPass": "Aprobado {min}-100%",
   "progress.overview.keepGoing": "¡Sigue así!",
-  "progress.overview.passGrade": "Calificación para aprobar",
+  "progress.overview.passGrade": "Calificación para aprobar: {grade} %",
   "progress.overview.ringAriaLabel": "Has completado el {percent}% del contenido del curso.",
   "progress.overview.unitsDone": "Unidades completadas",
   "progress.overview.unitsLeft": "Unidades pendientes",

@@ -565,7 +565,7 @@
   "progress.overview.gradeLegendFail": "不及格 0-{max}%",
   "progress.overview.gradeLegendPass": "及格 {min}-100%",
   "progress.overview.keepGoing": "继续加油！",
-  "progress.overview.passGrade": "及格成绩",
+  "progress.overview.passGrade": "及格成绩：{grade}%",
   "progress.overview.ringAriaLabel": "您已完成本课程内容的 {percent}%。",
   "progress.overview.unitsDone": "已完成单元",
   "progress.overview.unitsLeft": "剩余单元",

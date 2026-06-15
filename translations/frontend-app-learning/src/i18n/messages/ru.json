@@ -565,7 +565,7 @@
   "progress.overview.gradeLegendFail": "Не пройдено 0-{max}%",
   "progress.overview.gradeLegendPass": "Пройдено {min}-100%",
   "progress.overview.keepGoing": "Так держать!",
-  "progress.overview.passGrade": "Проходная оценка",
+  "progress.overview.passGrade": "Проходная оценка: {grade} %",
   "progress.overview.ringAriaLabel": "Вы выполнили {percent}% содержания курса.",
   "progress.overview.unitsDone": "Блоков пройдено",
   "progress.overview.unitsLeft": "Блоков осталось",

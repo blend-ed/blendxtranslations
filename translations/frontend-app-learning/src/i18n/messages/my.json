@@ -565,7 +565,7 @@
   "progress.overview.gradeLegendFail": "ကျရှုံး 0-{max}%",
   "progress.overview.gradeLegendPass": "အောင်မြင် {min}-100%",
   "progress.overview.keepGoing": "ဆက်လုပ်ပါ!",
-  "progress.overview.passGrade": "အောင်မြင်အဆင့်",
+  "progress.overview.passGrade": "အောင်မြင်အဆင့်- {grade}%",
   "progress.overview.ringAriaLabel": "သင်တန်းအကြောင်းအရာ၏ {percent}% ကို သင်ပြီးစီးပြီးဖြစ်သည်။",
   "progress.overview.unitsDone": "ပြီးစီးသော ယူနစ်များ",
   "progress.overview.unitsLeft": "ကျန်ရှိသော ယူနစ်များ",

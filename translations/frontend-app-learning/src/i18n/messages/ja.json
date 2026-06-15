@@ -565,7 +565,7 @@
   "progress.overview.gradeLegendFail": "不合格 0～{max}%",
   "progress.overview.gradeLegendPass": "合格 {min}～100%",
   "progress.overview.keepGoing": "その調子で！",
-  "progress.overview.passGrade": "合格点",
+  "progress.overview.passGrade": "合格点：{grade}%",
   "progress.overview.ringAriaLabel": "コースコンテンツの {percent}% を完了しました。",
   "progress.overview.unitsDone": "完了したユニット",
   "progress.overview.unitsLeft": "残りのユニット",

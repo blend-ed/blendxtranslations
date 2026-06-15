@@ -565,7 +565,7 @@
   "progress.overview.gradeLegendFail": "Insufficiente 0-{max}%",
   "progress.overview.gradeLegendPass": "Sufficiente {min}-100%",
   "progress.overview.keepGoing": "Continua così!",
-  "progress.overview.passGrade": "Voto di sufficienza",
+  "progress.overview.passGrade": "Voto di sufficienza: {grade}%",
   "progress.overview.ringAriaLabel": "Hai completato il {percent}% del contenuto del corso.",
   "progress.overview.unitsDone": "Unità completate",
   "progress.overview.unitsLeft": "Unità rimanenti",

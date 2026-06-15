@@ -565,7 +565,7 @@
   "progress.overview.gradeLegendFail": "Nicht bestanden 0-{max}%",
   "progress.overview.gradeLegendPass": "Bestanden {min}-100%",
   "progress.overview.keepGoing": "Weiter so!",
-  "progress.overview.passGrade": "Bestehensnote",
+  "progress.overview.passGrade": "Bestehensnote: {grade} %",
   "progress.overview.ringAriaLabel": "Sie haben {percent}% des Kursinhalts abgeschlossen.",
   "progress.overview.unitsDone": "Erledigte Einheiten",
   "progress.overview.unitsLeft": "Verbleibende Einheiten",

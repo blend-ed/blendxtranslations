@@ -565,7 +565,7 @@
   "progress.overview.gradeLegendFail": "अनुत्तीर्ण 0-{max}%",
   "progress.overview.gradeLegendPass": "उत्तीर्ण {min}-100%",
   "progress.overview.keepGoing": "जारी रखें!",
-  "progress.overview.passGrade": "उत्तीर्ण ग्रेड",
+  "progress.overview.passGrade": "उत्तीर्ण ग्रेड: {grade}%",
   "progress.overview.ringAriaLabel": "आपने कोर्स सामग्री का {percent}% पूरा कर लिया है।",
   "progress.overview.unitsDone": "पूर्ण इकाइयां",
   "progress.overview.unitsLeft": "शेष इकाइयां",
