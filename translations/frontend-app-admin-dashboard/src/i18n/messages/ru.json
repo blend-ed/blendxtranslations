@@ -1,4 +1,5 @@
 {
+  "actions": "Действия",
   "admin.notifications.admin": "Администраторы",
   "admin.notifications.all": "Все",
   "admin.notifications.bodyRequired": "Введите сообщение.",
@@ -548,5 +549,6 @@
   "adminDashboard.users.uploadCsvTitle": "Добавить пользователей из CSV",
   "adminDashboard.users.userActivity": "Активность пользователей",
   "adminDashboard.users.userActivityDescription": "Тренд активных пользователей за месяц.",
-  "adminDashboard.users.username": "Имя пользователя"
+  "adminDashboard.users.username": "Имя пользователя",
+  "export": "Экспорт"
 }

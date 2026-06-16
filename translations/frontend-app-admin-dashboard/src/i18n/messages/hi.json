@@ -1,4 +1,5 @@
 {
+  "actions": "कार्रवाई",
   "admin.notifications.admin": "एडमिन",
   "admin.notifications.all": "सभी",
   "admin.notifications.bodyRequired": "एक संदेश दर्ज करें।",
@@ -548,5 +549,6 @@
   "adminDashboard.users.uploadCsvTitle": "CSV से उपयोगकर्ता जोड़ें",
   "adminDashboard.users.userActivity": "उपयोगकर्ता गतिविधि",
   "adminDashboard.users.userActivityDescription": "मासिक सक्रिय उपयोगकर्ता रुझान।",
-  "adminDashboard.users.username": "उपयोगकर्ता नाम"
+  "adminDashboard.users.username": "उपयोगकर्ता नाम",
+  "export": "निर्यात"
 }

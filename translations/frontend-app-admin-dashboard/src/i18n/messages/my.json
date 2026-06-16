@@ -1,4 +1,5 @@
 {
+  "actions": "လုပ်ဆောင်ချက်များ",
   "admin.notifications.admin": "အက်ဒမင်များ",
   "admin.notifications.all": "လူတိုင်း",
   "admin.notifications.bodyRequired": "မက်ဆေ့ချ်တစ်ခု ထည့်ပါ။",
@@ -548,5 +549,6 @@
   "adminDashboard.users.uploadCsvTitle": "CSV မှ အသုံးပြုသူများ ထည့်ရန်",
   "adminDashboard.users.userActivity": "အသုံးပြုသူ လှုပ်ရှားမှု",
   "adminDashboard.users.userActivityDescription": "လစဉ် လှုပ်ရှားနေသော အသုံးပြုသူများ လမ်းကြောင်း။",
-  "adminDashboard.users.username": "အသုံးပြုသူအမည်"
+  "adminDashboard.users.username": "အသုံးပြုသူအမည်",
+  "export": "တင်ပို့ရန်"
 }

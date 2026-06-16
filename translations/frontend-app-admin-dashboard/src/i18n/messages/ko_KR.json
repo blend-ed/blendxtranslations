@@ -1,4 +1,5 @@
 {
+  "actions": "작업",
   "admin.notifications.admin": "관리자",
   "admin.notifications.all": "전체",
   "admin.notifications.bodyRequired": "메시지를 입력하세요.",
@@ -548,5 +549,6 @@
   "adminDashboard.users.uploadCsvTitle": "CSV로 사용자 추가",
   "adminDashboard.users.userActivity": "사용자 활동",
   "adminDashboard.users.userActivityDescription": "월간 활성 사용자 추세입니다.",
-  "adminDashboard.users.username": "사용자 이름"
+  "adminDashboard.users.username": "사용자 이름",
+  "export": "내보내기"
 }

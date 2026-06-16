@@ -1,4 +1,5 @@
 {
+  "actions": "الإجراءات",
   "admin.notifications.admin": "المسؤولون",
   "admin.notifications.all": "الجميع",
   "admin.notifications.bodyRequired": "أدخل رسالة.",
@@ -548,5 +549,6 @@
   "adminDashboard.users.uploadCsvTitle": "إضافة مستخدمين من ملف CSV",
   "adminDashboard.users.userActivity": "نشاط المستخدم",
   "adminDashboard.users.userActivityDescription": "اتجاه المستخدمين النشطين شهريًا.",
-  "adminDashboard.users.username": "اسم المستخدم"
+  "adminDashboard.users.username": "اسم المستخدم",
+  "export": "تصدير"
 }

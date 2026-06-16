@@ -1,4 +1,5 @@
 {
+  "actions": "操作",
   "admin.notifications.admin": "管理者",
   "admin.notifications.all": "全員",
   "admin.notifications.bodyRequired": "メッセージを入力してください。",
@@ -548,5 +549,6 @@
   "adminDashboard.users.uploadCsvTitle": "CSVからユーザーを追加",
   "adminDashboard.users.userActivity": "ユーザーアクティビティ",
   "adminDashboard.users.userActivityDescription": "月間アクティブユーザーの推移。",
-  "adminDashboard.users.username": "ユーザー名"
+  "adminDashboard.users.username": "ユーザー名",
+  "export": "エクスポート"
 }

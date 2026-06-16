@@ -1,4 +1,5 @@
 {
+  "actions": "പ്രവർത്തനങ്ങൾ",
   "admin.notifications.admin": "അഡ്മിൻമാർ",
   "admin.notifications.all": "എല്ലാവരും",
   "admin.notifications.bodyRequired": "ഒരു സന്ദേശം നൽകുക.",
@@ -548,5 +549,6 @@
   "adminDashboard.users.uploadCsvTitle": "CSV-യിൽ നിന്ന് ഉപയോക്താക്കളെ ചേർക്കുക",
   "adminDashboard.users.userActivity": "ഉപയോക്തൃ പ്രവർത്തനം",
   "adminDashboard.users.userActivityDescription": "പ്രതിമാസ സജീവ ഉപയോക്താക്കളുടെ പ്രവണത.",
-  "adminDashboard.users.username": "ഉപയോക്തൃനാമം"
+  "adminDashboard.users.username": "ഉപയോക്തൃനാമം",
+  "export": "എക്സ്പോർട്ട് ചെയ്യുക"
 }

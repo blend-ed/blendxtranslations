@@ -1,4 +1,5 @@
 {
+  "actions": "操作",
   "admin.notifications.admin": "管理员",
   "admin.notifications.all": "所有人",
   "admin.notifications.bodyRequired": "请输入消息内容。",
@@ -548,5 +549,6 @@
   "adminDashboard.users.uploadCsvTitle": "从 CSV 添加用户",
   "adminDashboard.users.userActivity": "用户活动",
   "adminDashboard.users.userActivityDescription": "月活跃用户趋势。",
-  "adminDashboard.users.username": "用户名"
+  "adminDashboard.users.username": "用户名",
+  "export": "导出"
 }
