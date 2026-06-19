@@ -2604,6 +2604,7 @@
   "course-authoring.files-and-videos.video-upload-tracker-modal.title": "アップロード中",
   "course-authoring.filter.problem-submenu.icon-button.alt": "問題タイプフィルターを開く",
   "course-authoring.generic.accessDenied.body": "このページにアクセスする権限がありません。これが間違いだと思われる場合は、管理者にお問い合わせください。",
+  "course-authoring.generic.accessDenied.featureBody": "この機能は現在、お客様の組織では無効になっています。有効にするには、プラットフォームプロバイダーにお問い合わせください。",
   "course-authoring.generic.accessDenied.goBack": "戻る",
   "course-authoring.generic.accessDenied.title": "アクセスが拒否されました",
   "course-authoring.generic.alert.warning.offline.description": "サーバーまたはインターネット接続のエラーが原因で発生している可能性があります。ページを更新するか、オンラインであることを確認してください。",

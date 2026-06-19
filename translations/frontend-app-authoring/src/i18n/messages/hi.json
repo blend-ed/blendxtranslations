@@ -2604,6 +2604,7 @@
   "course-authoring.files-and-videos.video-upload-tracker-modal.title": "अपलोड जारी है",
   "course-authoring.filter.problem-submenu.icon-button.alt": "समस्या प्रकार फ़िल्टर खोलें",
   "course-authoring.generic.accessDenied.body": "आपके पास इस पेज तक पहुँचने की अनुमति नहीं है। यदि आपको लगता है कि यह एक गलती है, तो कृपया अपने व्यवस्थापक से संपर्क करें।",
+  "course-authoring.generic.accessDenied.featureBody": "यह सुविधा फिलहाल आपके संगठन के लिए बंद है। इसे चालू करने के लिए कृपया अपने प्लेटफ़ॉर्म प्रदाता से संपर्क करें।",
   "course-authoring.generic.accessDenied.goBack": "वापस जाएँ",
   "course-authoring.generic.accessDenied.title": "पहुँच अस्वीकृत",
   "course-authoring.generic.alert.warning.offline.description": "यह हमारे सर्वर या आपके इंटरनेट कनेक्शन में किसी त्रुटि के कारण हो सकता है। पेज को रिफ़्रेश करने का प्रयास करें या सुनिश्चित करें कि आप ऑनलाइन हैं।",

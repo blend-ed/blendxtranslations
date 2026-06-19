@@ -2604,6 +2604,7 @@
   "course-authoring.files-and-videos.video-upload-tracker-modal.title": "Téléversement en cours",
   "course-authoring.filter.problem-submenu.icon-button.alt": "Ouvrir les filtres de types de problèmes",
   "course-authoring.generic.accessDenied.body": "Vous n'avez pas l'autorisation d'accéder à cette page. Si vous pensez qu'il s'agit d'une erreur, veuillez contacter votre administrateur.",
+  "course-authoring.generic.accessDenied.featureBody": "Cette fonctionnalité est actuellement désactivée pour votre organisation. Veuillez contacter votre fournisseur de plateforme pour l'activer.",
   "course-authoring.generic.accessDenied.goBack": "Retour",
   "course-authoring.generic.accessDenied.title": "Accès refusé",
   "course-authoring.generic.alert.warning.offline.description": "Cela peut être dû à une erreur de notre serveur ou de votre connexion Internet. Essayez d'actualiser la page ou assurez-vous d'être en ligne.",

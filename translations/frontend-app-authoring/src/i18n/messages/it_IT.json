@@ -2604,6 +2604,7 @@
   "course-authoring.files-and-videos.video-upload-tracker-modal.title": "Caricamento in corso",
   "course-authoring.filter.problem-submenu.icon-button.alt": "Apri i filtri dei tipi di problema",
   "course-authoring.generic.accessDenied.body": "Non hai l'autorizzazione per accedere a questa pagina. Se ritieni che si tratti di un errore, contatta il tuo amministratore.",
+  "course-authoring.generic.accessDenied.featureBody": "Questa funzionalità è attualmente disattivata per la tua organizzazione. Contatta il fornitore della piattaforma per attivarla.",
   "course-authoring.generic.accessDenied.goBack": "Torna indietro",
   "course-authoring.generic.accessDenied.title": "Accesso negato",
   "course-authoring.generic.alert.warning.offline.description": "Ciò potrebbe verificarsi a causa di un errore del nostro server o della tua connessione internet. Prova ad aggiornare la pagina o ad assicurarti di essere online.",

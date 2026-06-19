@@ -2604,6 +2604,7 @@
   "course-authoring.files-and-videos.video-upload-tracker-modal.title": "Идёт загрузка",
   "course-authoring.filter.problem-submenu.icon-button.alt": "Открыть фильтры типов задач",
   "course-authoring.generic.accessDenied.body": "У вас нет разрешения на доступ к этой странице. Если вы считаете это ошибкой, обратитесь к своему администратору.",
+  "course-authoring.generic.accessDenied.featureBody": "В настоящее время эта функция отключена для вашей организации. Пожалуйста, свяжитесь с поставщиком вашей платформы, чтобы включить её.",
   "course-authoring.generic.accessDenied.goBack": "Назад",
   "course-authoring.generic.accessDenied.title": "Доступ запрещён",
   "course-authoring.generic.alert.warning.offline.description": "Это может происходить из-за ошибки на нашем сервере или с вашим интернет-соединением. Попробуйте обновить страницу или убедитесь, что вы в сети.",

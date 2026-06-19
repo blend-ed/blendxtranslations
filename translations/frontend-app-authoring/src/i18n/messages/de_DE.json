@@ -2604,6 +2604,7 @@
   "course-authoring.files-and-videos.video-upload-tracker-modal.title": "Upload läuft",
   "course-authoring.filter.problem-submenu.icon-button.alt": "Filter für Aufgabentypen öffnen",
   "course-authoring.generic.accessDenied.body": "Sie haben keine Berechtigung, auf diese Seite zuzugreifen. Wenn Sie glauben, dass dies ein Fehler ist, wenden Sie sich bitte an Ihren Administrator.",
+  "course-authoring.generic.accessDenied.featureBody": "Diese Funktion ist für Ihre Organisation derzeit deaktiviert. Bitte wenden Sie sich an Ihren Plattformanbieter, um sie zu aktivieren.",
   "course-authoring.generic.accessDenied.goBack": "Zurück",
   "course-authoring.generic.accessDenied.title": "Zugriff verweigert",
   "course-authoring.generic.alert.warning.offline.description": "Dies kann aufgrund eines Fehlers mit unserem Server oder Ihrer Internetverbindung geschehen. Versuchen Sie, die Seite zu aktualisieren, oder stellen Sie sicher, dass Sie online sind.",

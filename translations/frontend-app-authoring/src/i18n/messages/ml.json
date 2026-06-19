@@ -2604,6 +2604,7 @@
   "course-authoring.files-and-videos.video-upload-tracker-modal.title": "അപ്‌ലോഡ് പുരോഗമിക്കുന്നു",
   "course-authoring.filter.problem-submenu.icon-button.alt": "പ്രശ്ന തരം ഫിൽട്ടറുകൾ തുറക്കുക",
   "course-authoring.generic.accessDenied.body": "ഈ പേജ് ആക്‌സസ് ചെയ്യാൻ നിങ്ങൾക്ക് അനുമതിയില്ല. ഇത് ഒരു തെറ്റാണെന്ന് നിങ്ങൾ കരുതുന്നുവെങ്കിൽ, ദയവായി നിങ്ങളുടെ അഡ്‌മിനിസ്ട്രേറ്ററെ ബന്ധപ്പെടുക.",
+  "course-authoring.generic.accessDenied.featureBody": "നിങ്ങളുടെ സ്ഥാപനത്തിന് ഈ ഫീച്ചർ നിലവിൽ ഓഫാക്കിയിരിക്കുന്നു. ഇത് പ്രവർത്തനക്ഷമമാക്കാൻ നിങ്ങളുടെ പ്ലാറ്റ്‌ഫോം ദാതാവിനെ ബന്ധപ്പെടുക.",
   "course-authoring.generic.accessDenied.goBack": "തിരികെ പോകുക",
   "course-authoring.generic.accessDenied.title": "ആക്‌സസ് നിഷേധിച്ചു",
   "course-authoring.generic.alert.warning.offline.description": "ഞങ്ങളുടെ സെർവറിലെ ഒരു പിശക് അല്ലെങ്കിൽ നിങ്ങളുടെ ഇന്റർനെറ്റ് കണക്ഷൻ കാരണം ഇത് സംഭവിക്കുന്നുണ്ടാകാം. പേജ് പുതുക്കാനോ നിങ്ങൾ ഓൺലൈനാണെന്ന് ഉറപ്പാക്കാനോ ശ്രമിക്കുക.",

@@ -2604,6 +2604,7 @@
   "course-authoring.files-and-videos.video-upload-tracker-modal.title": "Subida en curso",
   "course-authoring.filter.problem-submenu.icon-button.alt": "Abrir filtros de tipos de problema",
   "course-authoring.generic.accessDenied.body": "No tienes permiso para acceder a esta página. Si crees que se trata de un error, ponte en contacto con tu administrador.",
+  "course-authoring.generic.accessDenied.featureBody": "Esta función está desactivada actualmente para su organización. Póngase en contacto con su proveedor de plataforma para activarla.",
   "course-authoring.generic.accessDenied.goBack": "Volver",
   "course-authoring.generic.accessDenied.title": "Acceso denegado",
   "course-authoring.generic.alert.warning.offline.description": "Esto puede deberse a un error con nuestro servidor o con tu conexión a internet. Prueba a actualizar la página o a asegurarte de que estás conectado.",

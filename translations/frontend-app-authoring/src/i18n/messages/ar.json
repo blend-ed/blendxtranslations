@@ -2604,6 +2604,7 @@
   "course-authoring.files-and-videos.video-upload-tracker-modal.title": "الرفع قيد التقدم",
   "course-authoring.filter.problem-submenu.icon-button.alt": "مُرشِّحات أنواع المسائل المفتوحة",
   "course-authoring.generic.accessDenied.body": "ليس لديك إذن للوصول إلى هذه الصفحة. إذا كنت تعتقد أن هذا خطأ، يرجى الاتصال بالمسؤول.",
+  "course-authoring.generic.accessDenied.featureBody": "هذه الميزة معطلة حاليًا في مؤسستكم. يرجى التواصل مع مزود المنصة لتفعيلها.",
   "course-authoring.generic.accessDenied.goBack": "رجوع",
   "course-authoring.generic.accessDenied.title": "تم رفض الوصول",
   "course-authoring.generic.alert.warning.offline.description": "قد يحدث هذا بسبب خطأ في خادمنا أو اتصالك بالإنترنت. حاول تحديث الصفحة أو التأكد من أنك متصل بالإنترنت.",
