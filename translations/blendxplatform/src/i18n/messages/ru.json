@@ -85,6 +85,7 @@
   "blendxplatform.sidebar.userMenu.about": "О программе",
   "blendxplatform.sidebar.userMenu.allOrgsSection": "Все организации",
   "blendxplatform.sidebar.userMenu.currentOrg": "Текущая организация",
+  "blendxplatform.sidebar.userMenu.exitOrgView": "Выход в панель администратора",
   "blendxplatform.sidebar.userMenu.helpAndSupport": "Помощь и поддержка",
   "blendxplatform.sidebar.userMenu.logout": "Выйти",
   "blendxplatform.sidebar.userMenu.myProfile": "Мой профиль",

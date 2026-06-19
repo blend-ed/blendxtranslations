@@ -203,6 +203,8 @@
   "learn.sequence.entranceExamTextNotPassing": "Чтобы получить доступ к материалам курса, необходимо набрать {entranceExamMinimumScorePct}% или больше на этом экзамене. Ваш текущий результат — {entranceExamCurrentScore}%.",
   "learn.sequence.entranceExamTextPassed": "Ваш результат — {entranceExamCurrentScore}%. Вы сдали вступительный экзамен.",
   "learn.sequence.navigation.complete.button": "Завершить курс",
+  "learn.sequence.navigation.markComplete.button": "Отметить как выполненное",
+  "learn.sequence.navigation.markComplete.button.pending": "Маркировка…",
   "learn.sequence.navigation.next.button": "Следующий урок",
   "learn.sequence.navigation.next.up.button": "Далее: {title}",
   "learn.sequence.navigation.previous.button": "Назад",

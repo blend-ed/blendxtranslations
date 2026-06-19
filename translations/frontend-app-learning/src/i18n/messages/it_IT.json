@@ -203,6 +203,8 @@
   "learn.sequence.entranceExamTextNotPassing": "Per accedere ai materiali del corso, devi ottenere un punteggio pari o superiore al {entranceExamMinimumScorePct}% in questo esame. Il tuo punteggio attuale è {entranceExamCurrentScore}%.",
   "learn.sequence.entranceExamTextPassed": "Il tuo punteggio è {entranceExamCurrentScore}%. Hai superato l'esame di ammissione.",
   "learn.sequence.navigation.complete.button": "Completa il corso",
+  "learn.sequence.navigation.markComplete.button": "Contrassegna come completato",
+  "learn.sequence.navigation.markComplete.button.pending": "Contrassegno in corso…",
   "learn.sequence.navigation.next.button": "Lezione successiva",
   "learn.sequence.navigation.next.up.button": "Prossima: {title}",
   "learn.sequence.navigation.previous.button": "Precedente",

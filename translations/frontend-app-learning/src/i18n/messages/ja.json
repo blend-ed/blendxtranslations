@@ -203,6 +203,8 @@
   "learn.sequence.entranceExamTextNotPassing": "コース教材にアクセスするには、この試験で{entranceExamMinimumScorePct}%以上のスコアを取る必要があります。現在のスコアは{entranceExamCurrentScore}%です。",
   "learn.sequence.entranceExamTextPassed": "スコアは{entranceExamCurrentScore}%です。入学試験に合格しました。",
   "learn.sequence.navigation.complete.button": "コースを修了",
+  "learn.sequence.navigation.markComplete.button": "完了としてマークする",
+  "learn.sequence.navigation.markComplete.button.pending": "マーク中…",
   "learn.sequence.navigation.next.button": "次のレッスン",
   "learn.sequence.navigation.next.up.button": "次：{title}",
   "learn.sequence.navigation.previous.button": "前へ",

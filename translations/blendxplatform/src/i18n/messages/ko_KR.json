@@ -85,6 +85,7 @@
   "blendxplatform.sidebar.userMenu.about": "정보",
   "blendxplatform.sidebar.userMenu.allOrgsSection": "모든 조직",
   "blendxplatform.sidebar.userMenu.currentOrg": "현재 조직",
+  "blendxplatform.sidebar.userMenu.exitOrgView": "관리자 대시보드로 나가기",
   "blendxplatform.sidebar.userMenu.helpAndSupport": "도움말 및 지원",
   "blendxplatform.sidebar.userMenu.logout": "로그아웃",
   "blendxplatform.sidebar.userMenu.myProfile": "내 프로필",

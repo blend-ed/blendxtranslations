@@ -360,6 +360,7 @@
   "adminDashboard.orgSidebar.users": "Пользователи",
   "adminDashboard.organizationDetail.backButton": "Назад к организациям",
   "adminDashboard.organizationDetail.created": "Создано {date}",
+  "adminDashboard.organizationDetail.enterAsOrgAdmin": "Войдите как администратор организации.",
   "adminDashboard.organizationDetail.error": "Не удалось загрузить организацию: {error}",
   "adminDashboard.organizationDetail.notFound": "Организация с этим ID не найдена.",
   "adminDashboard.organizations.backToOrganizations": "Организации",

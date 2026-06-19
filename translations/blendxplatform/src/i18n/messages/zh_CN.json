@@ -85,6 +85,7 @@
   "blendxplatform.sidebar.userMenu.about": "关于",
   "blendxplatform.sidebar.userMenu.allOrgsSection": "所有组织",
   "blendxplatform.sidebar.userMenu.currentOrg": "当前组织",
+  "blendxplatform.sidebar.userMenu.exitOrgView": "退出至管理员控制面板",
   "blendxplatform.sidebar.userMenu.helpAndSupport": "帮助与支持",
   "blendxplatform.sidebar.userMenu.logout": "退出登录",
   "blendxplatform.sidebar.userMenu.myProfile": "我的资料",

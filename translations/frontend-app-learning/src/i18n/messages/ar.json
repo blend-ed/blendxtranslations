@@ -203,6 +203,8 @@
   "learn.sequence.entranceExamTextNotPassing": "للوصول إلى مواد المقرر، يجب أن تحصل على {entranceExamMinimumScorePct}% أو أعلى في هذا الاختبار. درجتك الحالية هي {entranceExamCurrentScore}%.",
   "learn.sequence.entranceExamTextPassed": "درجتك هي {entranceExamCurrentScore}%. لقد اجتزت اختبار القبول.",
   "learn.sequence.navigation.complete.button": "إكمال المقرر",
+  "learn.sequence.navigation.markComplete.button": "ضع علامة \"مكتمل\"",
+  "learn.sequence.navigation.markComplete.button.pending": "جارٍ وضع العلامة…",
   "learn.sequence.navigation.next.button": "الدرس التالي",
   "learn.sequence.navigation.next.up.button": "التالي: {title}",
   "learn.sequence.navigation.previous.button": "السابق",

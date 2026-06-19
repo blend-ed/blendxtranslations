@@ -203,6 +203,8 @@
   "learn.sequence.entranceExamTextNotPassing": "과정 자료에 액세스하려면 이 시험에서 {entranceExamMinimumScorePct}% 이상을 받아야 합니다. 현재 점수는 {entranceExamCurrentScore}%입니다.",
   "learn.sequence.entranceExamTextPassed": "점수는 {entranceExamCurrentScore}%입니다. 입학 시험에 합격하셨습니다.",
   "learn.sequence.navigation.complete.button": "과정 완료",
+  "learn.sequence.navigation.markComplete.button": "완료로 표시",
+  "learn.sequence.navigation.markComplete.button.pending": "표시 중…",
   "learn.sequence.navigation.next.button": "다음 강의",
   "learn.sequence.navigation.next.up.button": "다음: {title}",
   "learn.sequence.navigation.previous.button": "이전",

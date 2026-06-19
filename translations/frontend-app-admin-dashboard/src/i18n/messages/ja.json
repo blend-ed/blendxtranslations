@@ -360,6 +360,7 @@
   "adminDashboard.orgSidebar.users": "ユーザー",
   "adminDashboard.organizationDetail.backButton": "組織に戻る",
   "adminDashboard.organizationDetail.created": "作成日 {date}",
+  "adminDashboard.organizationDetail.enterAsOrgAdmin": "組織管理者としてログイン",
   "adminDashboard.organizationDetail.error": "組織を読み込めませんでした: {error}",
   "adminDashboard.organizationDetail.notFound": "このIDの組織は見つかりませんでした。",
   "adminDashboard.organizations.backToOrganizations": "組織",

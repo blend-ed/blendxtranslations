@@ -203,6 +203,8 @@
   "learn.sequence.entranceExamTextNotPassing": "കോഴ്‌സ് മെറ്റീരിയലുകൾ ആക്‌സസ് ചെയ്യാൻ, ഈ പരീക്ഷയിൽ നിങ്ങൾ {entranceExamMinimumScorePct}% അല്ലെങ്കിൽ അതിലധികം സ്കോർ ചെയ്യണം. നിങ്ങളുടെ നിലവിലെ സ്കോർ {entranceExamCurrentScore}% ആണ്.",
   "learn.sequence.entranceExamTextPassed": "നിങ്ങളുടെ സ്കോർ {entranceExamCurrentScore}% ആണ്. നിങ്ങൾ പ്രവേശന പരീക്ഷ പാസായി.",
   "learn.sequence.navigation.complete.button": "കോഴ്‌സ് പൂർത്തിയാക്കുക",
+  "learn.sequence.navigation.markComplete.button": "പൂർത്തിയായതായി അടയാളപ്പെടുത്തുക",
+  "learn.sequence.navigation.markComplete.button.pending": "അടയാളപ്പെടുത്തുന്നു...",
   "learn.sequence.navigation.next.button": "അടുത്ത പാഠം",
   "learn.sequence.navigation.next.up.button": "അടുത്തത്: {title}",
   "learn.sequence.navigation.previous.button": "മുമ്പത്തേത്",

@@ -203,6 +203,8 @@
   "learn.sequence.entranceExamTextNotPassing": "Pour accéder au matériel du cours, vous devez obtenir un score de {entranceExamMinimumScorePct}% ou plus à cet examen. Votre score actuel est de {entranceExamCurrentScore}%.",
   "learn.sequence.entranceExamTextPassed": "Votre score est de {entranceExamCurrentScore}%. Vous avez réussi l'examen d'entrée.",
   "learn.sequence.navigation.complete.button": "Terminer le cours",
+  "learn.sequence.navigation.markComplete.button": "Marquer comme terminé",
+  "learn.sequence.navigation.markComplete.button.pending": "Marquage…",
   "learn.sequence.navigation.next.button": "Leçon suivante",
   "learn.sequence.navigation.next.up.button": "À suivre : {title}",
   "learn.sequence.navigation.previous.button": "Précédent",

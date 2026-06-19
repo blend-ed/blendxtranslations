@@ -360,6 +360,7 @@
   "adminDashboard.orgSidebar.users": "उपयोगकर्ताओं",
   "adminDashboard.organizationDetail.backButton": "संगठनों पर वापस जाएँ",
   "adminDashboard.organizationDetail.created": "{date} को बनाया गया",
+  "adminDashboard.organizationDetail.enterAsOrgAdmin": "संगठन प्रशासक के रूप में प्रवेश करें",
   "adminDashboard.organizationDetail.error": "संगठन लोड नहीं हो सका: {error}",
   "adminDashboard.organizationDetail.notFound": "इस ID के साथ कोई संगठन नहीं मिला।",
   "adminDashboard.organizations.backToOrganizations": "संगठन",

@@ -203,6 +203,8 @@
   "learn.sequence.entranceExamTextNotPassing": "Um auf die Kursmaterialien zuzugreifen, müssen Sie in dieser Prüfung mindestens {entranceExamMinimumScorePct}% erreichen. Ihre aktuelle Punktzahl beträgt {entranceExamCurrentScore}%.",
   "learn.sequence.entranceExamTextPassed": "Ihre Punktzahl beträgt {entranceExamCurrentScore}%. Sie haben die Eingangsprüfung bestanden.",
   "learn.sequence.navigation.complete.button": "Kurs abschließen",
+  "learn.sequence.navigation.markComplete.button": "Als erledigt markieren",
+  "learn.sequence.navigation.markComplete.button.pending": "Markierung…",
   "learn.sequence.navigation.next.button": "Nächste Lektion",
   "learn.sequence.navigation.next.up.button": "Als Nächstes: {title}",
   "learn.sequence.navigation.previous.button": "Zurück",

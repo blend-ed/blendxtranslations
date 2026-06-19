@@ -360,6 +360,7 @@
   "adminDashboard.orgSidebar.users": "المستخدمون",
   "adminDashboard.organizationDetail.backButton": "العودة إلى المؤسسات",
   "adminDashboard.organizationDetail.created": "أُنشئت في {date}",
+  "adminDashboard.organizationDetail.enterAsOrgAdmin": "ادخل كمسؤول المنظمة",
   "adminDashboard.organizationDetail.error": "تعذّر تحميل المؤسسة: {error}",
   "adminDashboard.organizationDetail.notFound": "لم يتم العثور على مؤسسة بهذا المعرّف.",
   "adminDashboard.organizations.backToOrganizations": "المؤسسات",

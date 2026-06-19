@@ -360,6 +360,7 @@
   "adminDashboard.orgSidebar.users": "用户",
   "adminDashboard.organizationDetail.backButton": "返回组织列表",
   "adminDashboard.organizationDetail.created": "创建于 {date}",
+  "adminDashboard.organizationDetail.enterAsOrgAdmin": "以组织管理员身份登录",
   "adminDashboard.organizationDetail.error": "无法加载组织：{error}",
   "adminDashboard.organizationDetail.notFound": "未找到此 ID 对应的组织。",
   "adminDashboard.organizations.backToOrganizations": "组织",

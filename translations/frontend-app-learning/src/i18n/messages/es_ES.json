@@ -203,6 +203,8 @@
   "learn.sequence.entranceExamTextNotPassing": "Para acceder a los materiales del curso, debes obtener una puntuación del {entranceExamMinimumScorePct}% o superior en este examen. Tu puntuación actual es del {entranceExamCurrentScore}%.",
   "learn.sequence.entranceExamTextPassed": "Tu puntuación es del {entranceExamCurrentScore}%. Has aprobado el examen de acceso.",
   "learn.sequence.navigation.complete.button": "Completar curso",
+  "learn.sequence.navigation.markComplete.button": "Marcar como completado",
+  "learn.sequence.navigation.markComplete.button.pending": "Marcando…",
   "learn.sequence.navigation.next.button": "Lección siguiente",
   "learn.sequence.navigation.next.up.button": "A continuación: {title}",
   "learn.sequence.navigation.previous.button": "Anterior",

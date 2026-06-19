@@ -360,6 +360,7 @@
   "adminDashboard.orgSidebar.users": "사용자",
   "adminDashboard.organizationDetail.backButton": "조직으로 돌아가기",
   "adminDashboard.organizationDetail.created": "{date} 생성됨",
+  "adminDashboard.organizationDetail.enterAsOrgAdmin": "조직 관리자로 입장",
   "adminDashboard.organizationDetail.error": "조직을 불러오지 못했습니다: {error}",
   "adminDashboard.organizationDetail.notFound": "이 ID에 해당하는 조직을 찾을 수 없습니다.",
   "adminDashboard.organizations.backToOrganizations": "조직",

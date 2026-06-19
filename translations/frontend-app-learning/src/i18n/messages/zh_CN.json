@@ -203,6 +203,8 @@
   "learn.sequence.entranceExamTextNotPassing": "要访问课程资料，您必须在本次考试中取得 {entranceExamMinimumScorePct}% 或更高的分数。您当前的分数为 {entranceExamCurrentScore}%。",
   "learn.sequence.entranceExamTextPassed": "您的分数为 {entranceExamCurrentScore}%。您已通过入学考试。",
   "learn.sequence.navigation.complete.button": "完成课程",
+  "learn.sequence.navigation.markComplete.button": "标记为已完成",
+  "learn.sequence.navigation.markComplete.button.pending": "标记中…",
   "learn.sequence.navigation.next.button": "下一课",
   "learn.sequence.navigation.next.up.button": "下一个：{title}",
   "learn.sequence.navigation.previous.button": "上一步",

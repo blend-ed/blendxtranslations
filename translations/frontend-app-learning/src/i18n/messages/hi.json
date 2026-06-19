@@ -203,6 +203,8 @@
   "learn.sequence.entranceExamTextNotPassing": "कोर्स सामग्री तक पहुंचने के लिए, आपको इस परीक्षा में {entranceExamMinimumScorePct}% या उससे अधिक अंक प्राप्त करने होंगे। आपका वर्तमान स्कोर {entranceExamCurrentScore}% है।",
   "learn.sequence.entranceExamTextPassed": "आपका स्कोर {entranceExamCurrentScore}% है। आपने प्रवेश परीक्षा उत्तीर्ण कर ली है।",
   "learn.sequence.navigation.complete.button": "कोर्स पूरा करें",
+  "learn.sequence.navigation.markComplete.button": "पूर्ण के रूप में चिह्नित करें",
+  "learn.sequence.navigation.markComplete.button.pending": "चिह्नित किया जा रहा है…",
   "learn.sequence.navigation.next.button": "अगला पाठ",
   "learn.sequence.navigation.next.up.button": "अगला: {title}",
   "learn.sequence.navigation.previous.button": "पिछला",

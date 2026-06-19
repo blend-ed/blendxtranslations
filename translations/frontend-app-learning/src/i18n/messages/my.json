@@ -203,6 +203,8 @@
   "learn.sequence.entranceExamTextNotPassing": "သင်တန်းအကြောင်းအရာများကို ဝင်ရောက်ကြည့်ရှုရန် ဤစာမေးပွဲတွင် {entranceExamMinimumScorePct}% သို့မဟုတ် အထက် ရမှတ်ရရှိရပါမည်။ သင့်လက်ရှိရမှတ်မှာ {entranceExamCurrentScore}% ဖြစ်သည်။",
   "learn.sequence.entranceExamTextPassed": "သင့်ရမှတ်မှာ {entranceExamCurrentScore}% ဖြစ်သည်။ သင်သည် ဝင်ခွင့်စာမေးပွဲကို အောင်မြင်ပါပြီ။",
   "learn.sequence.navigation.complete.button": "သင်တန်း ပြီးမြောက်အောင် ဆောင်ရွက်ရန်",
+  "learn.sequence.navigation.markComplete.button": "ပြီးစီးသည်ဟု မှတ်သားပါ",
+  "learn.sequence.navigation.markComplete.button.pending": "အမှတ်အသားပြုခြင်း…",
   "learn.sequence.navigation.next.button": "နောက်သင်ခန်းစာ",
   "learn.sequence.navigation.next.up.button": "နောက်တစ်ခု: {title}",
   "learn.sequence.navigation.previous.button": "ယခင်",

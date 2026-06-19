@@ -360,6 +360,7 @@
   "adminDashboard.orgSidebar.users": "အသုံးပြုသူများ",
   "adminDashboard.organizationDetail.backButton": "အဖွဲ့အစည်းများသို့ ပြန်သွားရန်",
   "adminDashboard.organizationDetail.created": "{date} တွင် ဖန်တီးခဲ့သည်",
+  "adminDashboard.organizationDetail.enterAsOrgAdmin": "အဖွဲ့အစည်း စီမံခန့်ခွဲသူအဖြစ် ဝင်ရောက်ပါ",
   "adminDashboard.organizationDetail.error": "အဖွဲ့အစည်းကို မဖွင့်နိုင်ပါ- {error}",
   "adminDashboard.organizationDetail.notFound": "ဤ ID ဖြင့် အဖွဲ့အစည်း မတွေ့ပါ။",
   "adminDashboard.organizations.backToOrganizations": "အဖွဲ့အစည်းများ",

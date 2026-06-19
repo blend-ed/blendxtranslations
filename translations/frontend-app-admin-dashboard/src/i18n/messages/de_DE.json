@@ -360,6 +360,7 @@
   "adminDashboard.orgSidebar.users": "Benutzer",
   "adminDashboard.organizationDetail.backButton": "Zurück zu Organisationen",
   "adminDashboard.organizationDetail.created": "Erstellt am {date}",
+  "adminDashboard.organizationDetail.enterAsOrgAdmin": "Als Organisationsadministrator anmelden",
   "adminDashboard.organizationDetail.error": "Organisation konnte nicht geladen werden: {error}",
   "adminDashboard.organizationDetail.notFound": "Keine Organisation mit dieser ID gefunden.",
   "adminDashboard.organizations.backToOrganizations": "Organisationen",

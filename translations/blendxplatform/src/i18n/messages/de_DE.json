@@ -85,6 +85,7 @@
   "blendxplatform.sidebar.userMenu.about": "Über",
   "blendxplatform.sidebar.userMenu.allOrgsSection": "Alle Organisationen",
   "blendxplatform.sidebar.userMenu.currentOrg": "Aktuelle Organisation",
+  "blendxplatform.sidebar.userMenu.exitOrgView": "Zum Admin-Dashboard zurückkehren",
   "blendxplatform.sidebar.userMenu.helpAndSupport": "Hilfe & Support",
   "blendxplatform.sidebar.userMenu.logout": "Abmelden",
   "blendxplatform.sidebar.userMenu.myProfile": "Mein Profil",
