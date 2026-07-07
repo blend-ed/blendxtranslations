@@ -111,7 +111,11 @@ def parse_icu(s):
                     while p < len(s) and s[p] != '{':
                         sel += s[p]
                         p += 1
-                    sels.add(sel.strip().lstrip('='))
+                    raw = sel.strip()
+                    # `=N` explicit-value selectors (e.g. `=0 {today}`) are valid
+                    # ICU/react-intl and need no plural-keyword check.
+                    if not (raw.startswith('=') and raw[1:].isdigit()):
+                        sels.add(raw.lstrip('='))
                     p = block(p + 1)
                     if p < len(s) and s[p] == '}':
                         p += 1
