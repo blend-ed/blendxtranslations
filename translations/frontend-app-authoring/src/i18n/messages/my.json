@@ -3841,7 +3841,6 @@
   "course-authoring.program.create.error": "ပရိုဂရမ် ဖန်တီး၍မရပါ။ ကျေးဇူးပြု၍ ထပ်မံကြိုးစားပါ။",
   "course-authoring.program.create.image.hint": "PNG, JPG သို့မဟုတ် WEBP · အကြံပြုချက် 1200 × 630px",
   "course-authoring.program.create.image.instructions": "ဖိဆွဲ၍ချ သို့မဟုတ် တင်ရန် ကလစ်နှိပ်ပါ",
-  "course-authoring.program.create.image.label": "သင်တန်းကတ် ပုံ",
   "course-authoring.program.create.image.remove": "ဖယ်ရှားရန်",
   "course-authoring.program.create.image.uploadButton": "ပုံ တင်ရန်",
   "course-authoring.program.create.imageError": "ပရိုဂရမ် ဖန်တီးပြီးပါပြီ၊ သို့သော် ပုံကို တင်၍မရပါ။",

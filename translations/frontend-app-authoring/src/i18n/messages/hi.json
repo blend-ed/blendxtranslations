@@ -3841,7 +3841,6 @@
   "course-authoring.program.create.error": "प्रोग्राम नहीं बनाया जा सका। कृपया पुनः प्रयास करें।",
   "course-authoring.program.create.image.hint": "PNG, JPG या WEBP · अनुशंसित 1200 × 630px",
   "course-authoring.program.create.image.instructions": "अपलोड करने के लिए खींचें और छोड़ें या क्लिक करें",
-  "course-authoring.program.create.image.label": "पाठ्यक्रम कार्ड छवि",
   "course-authoring.program.create.image.remove": "हटाएं",
   "course-authoring.program.create.image.uploadButton": "छवि अपलोड करें",
   "course-authoring.program.create.imageError": "प्रोग्राम बनाया गया, लेकिन छवि अपलोड नहीं की जा सकी।",

@@ -3841,7 +3841,6 @@
   "course-authoring.program.create.error": "No se ha podido crear el programa. Inténtalo de nuevo.",
   "course-authoring.program.create.image.hint": "PNG, JPG o WEBP · Recomendado 1200 × 630 px",
   "course-authoring.program.create.image.instructions": "Arrastra y suelta o haz clic para subir",
-  "course-authoring.program.create.image.label": "Imagen de la tarjeta del curso",
   "course-authoring.program.create.image.remove": "Eliminar",
   "course-authoring.program.create.image.uploadButton": "Subir imagen",
   "course-authoring.program.create.imageError": "Programa creado, pero no se ha podido subir la imagen.",

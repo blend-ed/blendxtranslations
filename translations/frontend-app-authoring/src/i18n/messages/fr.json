@@ -3841,7 +3841,6 @@
   "course-authoring.program.create.error": "Impossible de créer le programme. Veuillez réessayer.",
   "course-authoring.program.create.image.hint": "PNG, JPG ou WEBP · Recommandé 1200 × 630 px",
   "course-authoring.program.create.image.instructions": "Glissez-déposez ou cliquez pour téléverser",
-  "course-authoring.program.create.image.label": "Image de la carte du cours",
   "course-authoring.program.create.image.remove": "Supprimer",
   "course-authoring.program.create.image.uploadButton": "Téléverser une image",
   "course-authoring.program.create.imageError": "Programme créé, mais l'image n'a pas pu être téléversée.",

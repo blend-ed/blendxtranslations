@@ -3841,7 +3841,6 @@
   "course-authoring.program.create.error": "Impossibile creare il programma. Riprova.",
   "course-authoring.program.create.image.hint": "PNG, JPG o WEBP · Consigliato 1200 × 630px",
   "course-authoring.program.create.image.instructions": "Trascina e rilascia o fai clic per caricare",
-  "course-authoring.program.create.image.label": "Immagine della scheda del corso",
   "course-authoring.program.create.image.remove": "Rimuovi",
   "course-authoring.program.create.image.uploadButton": "Carica immagine",
   "course-authoring.program.create.imageError": "Programma creato, ma non è stato possibile caricare l'immagine.",

@@ -3841,7 +3841,6 @@
   "course-authoring.program.create.error": "Не удалось создать программу. Повторите попытку.",
   "course-authoring.program.create.image.hint": "PNG, JPG или WEBP · Рекомендуется 1200 × 630 px",
   "course-authoring.program.create.image.instructions": "Перетащите или нажмите для загрузки",
-  "course-authoring.program.create.image.label": "Изображение карточки курса",
   "course-authoring.program.create.image.remove": "Удалить",
   "course-authoring.program.create.image.uploadButton": "Загрузить изображение",
   "course-authoring.program.create.imageError": "Программа создана, но изображение не удалось загрузить.",

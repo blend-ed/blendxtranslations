@@ -3841,7 +3841,6 @@
   "course-authoring.program.create.error": "无法创建项目。请重试。",
   "course-authoring.program.create.image.hint": "PNG、JPG 或 WEBP · 推荐 1200 × 630px",
   "course-authoring.program.create.image.instructions": "拖放或点击以上传",
-  "course-authoring.program.create.image.label": "课程卡片图片",
   "course-authoring.program.create.image.remove": "移除",
   "course-authoring.program.create.image.uploadButton": "上传图片",
   "course-authoring.program.create.imageError": "项目已创建，但图片无法上传。",

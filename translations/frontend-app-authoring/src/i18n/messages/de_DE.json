@@ -3841,7 +3841,6 @@
   "course-authoring.program.create.error": "Programm konnte nicht erstellt werden. Bitte versuchen Sie es erneut.",
   "course-authoring.program.create.image.hint": "PNG, JPG oder WEBP · Empfohlen 1200 × 630 px",
   "course-authoring.program.create.image.instructions": "Per Drag-and-drop ablegen oder zum Hochladen klicken",
-  "course-authoring.program.create.image.label": "Kurskartenbild",
   "course-authoring.program.create.image.remove": "Entfernen",
   "course-authoring.program.create.image.uploadButton": "Bild hochladen",
   "course-authoring.program.create.imageError": "Programm erstellt, aber das Bild konnte nicht hochgeladen werden.",

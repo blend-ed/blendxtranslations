@@ -3843,7 +3843,6 @@
   "course-authoring.program.create.error": "تعذّر إنشاء البرنامج. يُرجى المحاولة مرة أخرى.",
   "course-authoring.program.create.image.hint": "PNG أو JPG أو WEBP · يُنصح بأبعاد 1200 × 630 بكسل",
   "course-authoring.program.create.image.instructions": "اسحب وأفلت أو انقر للرفع",
-  "course-authoring.program.create.image.label": "صورة بطاقة الدورة",
   "course-authoring.program.create.image.remove": "إزالة",
   "course-authoring.program.create.image.uploadButton": "رفع صورة",
   "course-authoring.program.create.imageError": "تم إنشاء البرنامج، لكن تعذّر رفع الصورة.",

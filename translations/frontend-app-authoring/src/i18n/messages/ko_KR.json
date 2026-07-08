@@ -3841,7 +3841,6 @@
   "course-authoring.program.create.error": "프로그램을 생성할 수 없습니다. 다시 시도해 주세요.",
   "course-authoring.program.create.image.hint": "PNG, JPG 또는 WEBP · 권장 크기 1200 × 630px",
   "course-authoring.program.create.image.instructions": "끌어다 놓거나 클릭하여 업로드",
-  "course-authoring.program.create.image.label": "강좌 카드 이미지",
   "course-authoring.program.create.image.remove": "제거",
   "course-authoring.program.create.image.uploadButton": "이미지 업로드",
   "course-authoring.program.create.imageError": "프로그램이 생성되었지만 이미지를 업로드할 수 없습니다.",
