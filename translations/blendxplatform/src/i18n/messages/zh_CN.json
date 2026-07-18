@@ -64,6 +64,7 @@
   "blendxplatform.sidebar.menu.authoring.platformSettings.customisation": "自定义",
   "blendxplatform.sidebar.menu.authoring.platformSettings.features": "功能",
   "blendxplatform.sidebar.menu.authoring.platformSettings.integrations": "集成",
+  "blendxplatform.sidebar.menu.authoring.platformSettings.mcp": "MCP 密钥",
   "blendxplatform.sidebar.menu.authoring.platformSettings.webhooks": "Webhook",
   "blendxplatform.sidebar.menu.authoring.skills": "技能与能力",
   "blendxplatform.sidebar.menu.authoring.users": "用户",

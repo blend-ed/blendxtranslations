@@ -64,6 +64,7 @@
   "blendxplatform.sidebar.menu.authoring.platformSettings.customisation": "사용자 지정",
   "blendxplatform.sidebar.menu.authoring.platformSettings.features": "기능",
   "blendxplatform.sidebar.menu.authoring.platformSettings.integrations": "연동",
+  "blendxplatform.sidebar.menu.authoring.platformSettings.mcp": "MCP 키",
   "blendxplatform.sidebar.menu.authoring.platformSettings.webhooks": "웹훅",
   "blendxplatform.sidebar.menu.authoring.skills": "기술 및 역량",
   "blendxplatform.sidebar.menu.authoring.users": "사용자",
