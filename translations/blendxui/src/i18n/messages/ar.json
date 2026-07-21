@@ -45,5 +45,9 @@
   "pgn.ProductTour.Checkpoint.page-index-text": "{step} من {totalSteps}",
   "pgn.ProductTour.Checkpoint.top-position-text": "أعلى الخطوة {step}",
   "pgn.ProductTour.checkpointHeader.close": "إغلاق الجولة",
+  "pgn.StreakDropdown.dayInactive": "{day}: لا يوجد نشاط",
+  "pgn.StreakDropdown.title": "{count, plural, one {سلسلة # يوم} other {سلسلة # أيام}}",
+  "pgn.StreakDropdown.triggerAlt": "عرض سلسلة التعلم",
+  "pgn.StreakDropdown.weekLabel": "{day}: نشط",
   "pgn.Toast.closeLabel": "إغلاق"
 }

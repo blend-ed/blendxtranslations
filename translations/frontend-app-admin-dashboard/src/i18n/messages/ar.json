@@ -613,6 +613,7 @@
   "adminDashboard.settings.toggleHideStaffAsStudentDescription": "سيُخفي مفتاح الميزة هذا أزرار انتقال الموظفين إلى لوحة المتعلم، كما سيُخفي أسماء الموظفين من القوائم",
   "adminDashboard.settings.toggleLearnersLibraryDescription": "تبديل ظهور صفحة المكتبة للمتعلمين",
   "adminDashboard.settings.toggleLiveSessionsDescription": "ميزة لإنشاء وجدولة الجلسات المباشرة داخل المنصة",
+  "adminDashboard.settings.toggleMcpDescription": "اعرض واجهة مستخدم مفاتيح MCP حتى يتمكن المسؤولون من ربط هذه المؤسسة بمنصة MCP.",
   "adminDashboard.settings.togglePaymentsDescription": "مفتاح ميزة لتكامل الدفع",
   "adminDashboard.settings.toggleProgramsDescription": "علامة ميزة لإنشاء البرامج",
   "adminDashboard.settings.toggleSalesAnalyticsDescription": "علامة ميزة لتفعيل بيانات التحليلات المتعلقة بالمبيعات",

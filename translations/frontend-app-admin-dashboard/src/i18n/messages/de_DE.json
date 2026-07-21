@@ -613,6 +613,7 @@
   "adminDashboard.settings.toggleHideStaffAsStudentDescription": "Dieser Funktionsschalter blendet die Schaltflächen aus, mit denen Mitarbeitende zum Lernenden-Dashboard wechseln können, und blendet außerdem Namen von Mitarbeitenden aus Listen aus",
   "adminDashboard.settings.toggleLearnersLibraryDescription": "Sichtbarkeit der Bibliotheksseite für Lernende umschalten",
   "adminDashboard.settings.toggleLiveSessionsDescription": "Funktion zum Erstellen und Planen von Live-Sitzungen innerhalb der Plattform",
+  "adminDashboard.settings.toggleMcpDescription": "Zeigen Sie die Benutzeroberfläche für die MCP-Schlüssel an, damit Administratoren diese Organisation mit einem MCP-Harness verbinden können.",
   "adminDashboard.settings.togglePaymentsDescription": "Funktionsschalter für die Zahlungsintegration",
   "adminDashboard.settings.toggleProgramsDescription": "Funktions-Flag für die Programmerstellung",
   "adminDashboard.settings.toggleSalesAnalyticsDescription": "Funktions-Flag zum Aktivieren vertriebsbezogener Analysedaten",

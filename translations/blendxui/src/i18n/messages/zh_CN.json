@@ -45,5 +45,9 @@
   "pgn.ProductTour.Checkpoint.page-index-text": "第 {step} 步，共 {totalSteps} 步",
   "pgn.ProductTour.Checkpoint.top-position-text": "步骤 {step} 的顶部",
   "pgn.ProductTour.checkpointHeader.close": "关闭导览",
+  "pgn.StreakDropdown.dayInactive": "{day}：无活动",
+  "pgn.StreakDropdown.title": "{count, plural, one {连续 # 天} other {连续 # 天}}",
+  "pgn.StreakDropdown.triggerAlt": "查看学习连续记录",
+  "pgn.StreakDropdown.weekLabel": "{day}：活跃",
   "pgn.Toast.closeLabel": "关闭"
 }

@@ -45,5 +45,9 @@
   "pgn.ProductTour.Checkpoint.page-index-text": "{totalSteps} 件中 {step} 件目",
   "pgn.ProductTour.Checkpoint.top-position-text": "ステップ {step} の上部",
   "pgn.ProductTour.checkpointHeader.close": "ツアーを閉じる",
+  "pgn.StreakDropdown.dayInactive": "{day}：活動なし",
+  "pgn.StreakDropdown.title": "{count, plural, one {#日連続} other {#日連続}}",
+  "pgn.StreakDropdown.triggerAlt": "学習の連続記録を見る",
+  "pgn.StreakDropdown.weekLabel": "{day}：アクティブ",
   "pgn.Toast.closeLabel": "閉じる"
 }

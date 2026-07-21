@@ -613,6 +613,7 @@
   "adminDashboard.settings.toggleHideStaffAsStudentDescription": "Este conmutador de funciones ocultará los botones para que el personal acceda al panel del estudiante y también ocultará los nombres del personal en las listas",
   "adminDashboard.settings.toggleLearnersLibraryDescription": "Activa o desactiva la visibilidad de la página de biblioteca para los estudiantes",
   "adminDashboard.settings.toggleLiveSessionsDescription": "Función para crear y programar sesiones en directo dentro de la plataforma",
+  "adminDashboard.settings.toggleMcpDescription": "Muestre la interfaz de usuario de las claves MCP para que los administradores puedan conectar esta organización a una plataforma MCP.",
   "adminDashboard.settings.togglePaymentsDescription": "Conmutador de funciones para la integración de pagos",
   "adminDashboard.settings.toggleProgramsDescription": "Indicador de función para la creación de programas",
   "adminDashboard.settings.toggleSalesAnalyticsDescription": "Indicador de función para activar los datos analíticos relacionados con las ventas",

@@ -613,6 +613,7 @@
   "adminDashboard.settings.toggleHideStaffAsStudentDescription": "यह फ़ीचर टॉगल स्टाफ़ के लिए शिक्षार्थी डैशबोर्ड पर जाने के बटन छिपाएगा और सूचियों से स्टाफ़ के नाम भी छिपाएगा",
   "adminDashboard.settings.toggleLearnersLibraryDescription": "शिक्षार्थियों के लिए लाइब्रेरी पेज की दृश्यता टॉगल करें",
   "adminDashboard.settings.toggleLiveSessionsDescription": "प्लेटफ़ॉर्म के भीतर लाइव सत्र बनाने और शेड्यूल करने की सुविधा",
+  "adminDashboard.settings.toggleMcpDescription": "MCP कुंजी UI दिखाएँ ताकि प्रशासक इस संगठन को MCP हार्नेस से जोड़ सकें।",
   "adminDashboard.settings.togglePaymentsDescription": "भुगतान इंटीग्रेशन के लिए फ़ीचर टॉगल",
   "adminDashboard.settings.toggleProgramsDescription": "प्रोग्राम निर्माण के लिए फ़ीचर फ़्लैग",
   "adminDashboard.settings.toggleSalesAnalyticsDescription": "बिक्री संबंधी एनालिटिक्स डेटा सक्षम करने के लिए फ़ीचर फ़्लैग",

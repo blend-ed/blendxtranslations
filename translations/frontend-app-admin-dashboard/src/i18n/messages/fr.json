@@ -613,6 +613,7 @@
   "adminDashboard.settings.toggleHideStaffAsStudentDescription": "Cet indicateur de fonctionnalité masque les boutons permettant au personnel d'accéder au tableau de bord apprenant et masque également les noms du personnel dans les listes",
   "adminDashboard.settings.toggleLearnersLibraryDescription": "Activer ou désactiver la visibilité de la page de bibliothèque pour les apprenants",
   "adminDashboard.settings.toggleLiveSessionsDescription": "Fonctionnalité de création et de planification de sessions en direct au sein de la plateforme",
+  "adminDashboard.settings.toggleMcpDescription": "Afficher l'interface utilisateur des clés MCP pour permettre aux administrateurs de connecter cette organisation à un système MCP.",
   "adminDashboard.settings.togglePaymentsDescription": "Indicateur de fonctionnalité pour l'intégration des paiements",
   "adminDashboard.settings.toggleProgramsDescription": "Indicateur de fonctionnalité pour la création de programmes",
   "adminDashboard.settings.toggleSalesAnalyticsDescription": "Indicateur de fonctionnalité pour activer les données d'analyse liées aux ventes",

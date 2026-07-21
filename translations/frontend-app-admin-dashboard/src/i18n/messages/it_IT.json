@@ -613,6 +613,7 @@
   "adminDashboard.settings.toggleHideStaffAsStudentDescription": "Questo interruttore funzionalità nasconderà i pulsanti che permettono allo staff di accedere alla dashboard studente e nasconderà inoltre i nomi dello staff dagli elenchi",
   "adminDashboard.settings.toggleLearnersLibraryDescription": "Attiva/disattiva la visibilità della pagina della libreria per gli studenti",
   "adminDashboard.settings.toggleLiveSessionsDescription": "Funzione per la creazione e la pianificazione di sessioni dal vivo all'interno della piattaforma",
+  "adminDashboard.settings.toggleMcpDescription": "Mostra l'interfaccia utente delle chiavi MCP in modo che gli amministratori possano connettere questa organizzazione a un framework MCP.",
   "adminDashboard.settings.togglePaymentsDescription": "Interruttore funzionalità per l'integrazione dei pagamenti",
   "adminDashboard.settings.toggleProgramsDescription": "Flag funzionalità per la creazione di programmi",
   "adminDashboard.settings.toggleSalesAnalyticsDescription": "Flag funzionalità per abilitare i dati di analisi relativi alle vendite",

@@ -613,6 +613,7 @@
   "adminDashboard.settings.toggleHideStaffAsStudentDescription": "この機能トグルにより、スタッフが受講者ダッシュボードへ移動するためのボタンが非表示になり、リストからスタッフ名も非表示になります",
   "adminDashboard.settings.toggleLearnersLibraryDescription": "学習者向けライブラリページの表示を切り替えます",
   "adminDashboard.settings.toggleLiveSessionsDescription": "プラットフォーム内でライブセッションを作成・スケジュールする機能",
+  "adminDashboard.settings.toggleMcpDescription": "管理者がこの組織をMCPハーネスに接続できるように、MCPキーのUIを表示します。",
   "adminDashboard.settings.togglePaymentsDescription": "決済連携の機能トグル",
   "adminDashboard.settings.toggleProgramsDescription": "プログラム作成の機能フラグ",
   "adminDashboard.settings.toggleSalesAnalyticsDescription": "売上関連の分析データを有効にする機能フラグ",

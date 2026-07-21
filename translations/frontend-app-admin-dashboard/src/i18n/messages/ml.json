@@ -613,6 +613,7 @@
   "adminDashboard.settings.toggleHideStaffAsStudentDescription": "ഈ ഫീച്ചർ ടോഗിൾ സ്റ്റാഫിന് പഠിതാവ് ഡാഷ്ബോർഡിലേക്ക് പോകാനുള്ള ബട്ടണുകൾ മറയ്ക്കുകയും പട്ടികകളിൽ നിന്ന് സ്റ്റാഫ് പേരുകൾ മറയ്ക്കുകയും ചെയ്യും",
   "adminDashboard.settings.toggleLearnersLibraryDescription": "പഠിതാക്കൾക്കായി ലൈബ്രറി പേജിന്റെ ദൃശ്യപരത ടോഗിൾ ചെയ്യുക",
   "adminDashboard.settings.toggleLiveSessionsDescription": "പ്ലാറ്റ്ഫോമിനുള്ളിൽ ലൈവ് സെഷനുകൾ സൃഷ്ടിക്കാനും ഷെഡ്യൂൾ ചെയ്യാനുമുള്ള ഫീച്ചർ",
+  "adminDashboard.settings.toggleMcpDescription": "അഡ്മിൻമാർക്ക് ഈ സ്ഥാപനത്തെ ഒരു MCP ഹാർനെസുമായി ബന്ധിപ്പിക്കാൻ കഴിയുന്ന തരത്തിൽ MCP കീകളുടെ UI കാണിക്കുക.",
   "adminDashboard.settings.togglePaymentsDescription": "പേയ്മെന്റ് ഇന്റഗ്രേഷനുള്ള ഫീച്ചർ ടോഗിൾ",
   "adminDashboard.settings.toggleProgramsDescription": "പ്രോഗ്രാം സൃഷ്ടിക്കലിനുള്ള ഫീച്ചർ ഫ്ലാഗ്",
   "adminDashboard.settings.toggleSalesAnalyticsDescription": "സെയിൽസ് സംബന്ധിയായ അനലിറ്റിക്സ് ഡാറ്റ പ്രവർത്തനക്ഷമമാക്കുന്നതിനുള്ള ഫീച്ചർ ഫ്ലാഗ്",

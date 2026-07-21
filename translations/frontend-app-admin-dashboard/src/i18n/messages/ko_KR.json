@@ -613,6 +613,7 @@
   "adminDashboard.settings.toggleHideStaffAsStudentDescription": "이 기능 토글은 스태프가 학습자 대시보드로 이동하는 버튼을 숨기고 목록에서 스태프 이름도 숨깁니다",
   "adminDashboard.settings.toggleLearnersLibraryDescription": "학습자용 라이브러리 페이지의 표시 여부를 전환합니다",
   "adminDashboard.settings.toggleLiveSessionsDescription": "플랫폼 내에서 라이브 세션을 생성하고 예약하는 기능",
+  "adminDashboard.settings.toggleMcpDescription": "관리자가 이 조직을 MCP 하네스에 연결할 수 있도록 MCP 키 UI를 표시합니다.",
   "adminDashboard.settings.togglePaymentsDescription": "결제 연동용 기능 토글",
   "adminDashboard.settings.toggleProgramsDescription": "프로그램 생성용 기능 플래그",
   "adminDashboard.settings.toggleSalesAnalyticsDescription": "판매 관련 분석 데이터 활성화용 기능 플래그",

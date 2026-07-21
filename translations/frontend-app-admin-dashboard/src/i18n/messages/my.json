@@ -613,6 +613,7 @@
   "adminDashboard.settings.toggleHideStaffAsStudentDescription": "ဤအင်္ဂါရပ်ခလုတ်သည် ဝန်ထမ်းများ သင်ယူသူ ဒက်ရှ်ဘုတ်သို့ သွားရန် ခလုတ်များကို ဖျောက်ထားမည်ဖြစ်ပြီး ဝန်ထမ်းအမည်များကိုလည်း စာရင်းများမှ ဖျောက်ထားမည်ဖြစ်သည်",
   "adminDashboard.settings.toggleLearnersLibraryDescription": "သင်ယူသူများအတွက် စာကြည့်တိုက်စာမျက်နှာ မြင်နိုင်မှုကို ဖွင့်/ပိတ်ပါ",
   "adminDashboard.settings.toggleLiveSessionsDescription": "ပလက်ဖောင်းအတွင်း တိုက်ရိုက်ထုတ်လွှင့်မှုများ ဖန်တီးပြီး အချိန်ဇယားဆွဲရန် ဝန်ဆောင်မှု",
+  "adminDashboard.settings.toggleMcpDescription": "အက်ဒမင်များက ဤအဖွဲ့အစည်းကို MCP harness နှင့် ချိတ်ဆက်နိုင်စေရန် MCP သော့များ UI ကို ပြပါ",
   "adminDashboard.settings.togglePaymentsDescription": "ငွေပေးချေမှု ပေါင်းစပ်ခြင်းအတွက် အင်္ဂါရပ် ခလုတ်",
   "adminDashboard.settings.toggleProgramsDescription": "ပရိုဂရမ် ဖန်တီးခြင်းအတွက် အင်္ဂါရပ် အလံ",
   "adminDashboard.settings.toggleSalesAnalyticsDescription": "ရောင်းအားဆိုင်ရာ ခွဲခြမ်းစိတ်ဖြာမှုဒေတာကို ဖွင့်ခြင်းအတွက် အင်္ဂါရပ် အလံ",

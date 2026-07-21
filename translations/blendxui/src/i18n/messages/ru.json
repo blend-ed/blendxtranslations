@@ -45,5 +45,9 @@
   "pgn.ProductTour.Checkpoint.page-index-text": "{step} из {totalSteps}",
   "pgn.ProductTour.Checkpoint.top-position-text": "Верх шага {step}",
   "pgn.ProductTour.checkpointHeader.close": "Закрыть тур",
+  "pgn.StreakDropdown.dayInactive": "{day}: нет активности",
+  "pgn.StreakDropdown.title": "{count, plural, one {# день подряд} few {# дня подряд} many {# дней подряд} other {# дня подряд}}",
+  "pgn.StreakDropdown.triggerAlt": "Посмотреть серию дней обучения",
+  "pgn.StreakDropdown.weekLabel": "{day}: есть активность",
   "pgn.Toast.closeLabel": "Закрыть"
 }

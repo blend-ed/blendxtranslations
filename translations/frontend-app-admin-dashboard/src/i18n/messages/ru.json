@@ -613,6 +613,7 @@
   "adminDashboard.settings.toggleHideStaffAsStudentDescription": "Этот переключатель функции скроет кнопки перехода сотрудников к панели учащегося, а также скроет имена сотрудников из списков",
   "adminDashboard.settings.toggleLearnersLibraryDescription": "Переключить видимость страницы библиотеки для учащихся",
   "adminDashboard.settings.toggleLiveSessionsDescription": "Функция для создания и планирования онлайн-сессий внутри платформы",
+  "adminDashboard.settings.toggleMcpDescription": "Отобразить пользовательский интерфейс ключей MCP, чтобы администраторы могли подключить эту организацию к среде MCP.",
   "adminDashboard.settings.togglePaymentsDescription": "Переключатель функции для интеграции платежей",
   "adminDashboard.settings.toggleProgramsDescription": "Флаг функции для создания программ",
   "adminDashboard.settings.toggleSalesAnalyticsDescription": "Флаг функции для включения аналитических данных по продажам",

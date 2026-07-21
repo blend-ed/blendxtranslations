@@ -45,5 +45,9 @@
   "pgn.ProductTour.Checkpoint.page-index-text": "{totalSteps} 중 {step}",
   "pgn.ProductTour.Checkpoint.top-position-text": "{step}단계 상단",
   "pgn.ProductTour.checkpointHeader.close": "둘러보기 닫기",
+  "pgn.StreakDropdown.dayInactive": "{day}: 활동 없음",
+  "pgn.StreakDropdown.title": "{count, plural, one {#일 연속 기록} other {#일 연속 기록}}",
+  "pgn.StreakDropdown.triggerAlt": "학습 연속 기록 보기",
+  "pgn.StreakDropdown.weekLabel": "{day}: 활성",
   "pgn.Toast.closeLabel": "닫기"
 }

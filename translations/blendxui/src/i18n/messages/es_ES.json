@@ -45,5 +45,9 @@
   "pgn.ProductTour.Checkpoint.page-index-text": "{step} de {totalSteps}",
   "pgn.ProductTour.Checkpoint.top-position-text": "Inicio del paso {step}",
   "pgn.ProductTour.checkpointHeader.close": "Cerrar el tour",
+  "pgn.StreakDropdown.dayInactive": "{day}: sin actividad",
+  "pgn.StreakDropdown.title": "{count, plural, one {racha de # día} other {racha de # días}}",
+  "pgn.StreakDropdown.triggerAlt": "Ver racha de aprendizaje",
+  "pgn.StreakDropdown.weekLabel": "{day}: activo",
   "pgn.Toast.closeLabel": "Cerrar"
 }

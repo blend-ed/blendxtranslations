@@ -45,5 +45,9 @@
   "pgn.ProductTour.Checkpoint.page-index-text": "{totalSteps}-ൽ {step}",
   "pgn.ProductTour.Checkpoint.top-position-text": "ഘട്ടം {step}-ന്റെ മുകളിൽ",
   "pgn.ProductTour.checkpointHeader.close": "ടൂർ അടയ്ക്കുക",
+  "pgn.StreakDropdown.dayInactive": "{day}: പ്രവർത്തനമില്ല",
+  "pgn.StreakDropdown.title": "{count, plural, one {# ദിവസത്തെ സ്ട്രീക്ക്} other {# ദിവസത്തെ സ്ട്രീക്ക്}}",
+  "pgn.StreakDropdown.triggerAlt": "പഠന തുടർച്ച കാണുക",
+  "pgn.StreakDropdown.weekLabel": "{day}: സജീവം",
   "pgn.Toast.closeLabel": "അടയ്ക്കുക"
 }

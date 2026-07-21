@@ -45,5 +45,9 @@
   "pgn.ProductTour.Checkpoint.page-index-text": "{totalSteps} में से {step}",
   "pgn.ProductTour.Checkpoint.top-position-text": "चरण {step} का शीर्ष भाग",
   "pgn.ProductTour.checkpointHeader.close": "टूर बंद करें",
+  "pgn.StreakDropdown.dayInactive": "{day}: कोई गतिविधि नहीं",
+  "pgn.StreakDropdown.title": "{count, plural, one {# दिन की निरंतरता} other {# दिन की निरंतरता}}",
+  "pgn.StreakDropdown.triggerAlt": "सीखने की निरंतर प्रगति देखें",
+  "pgn.StreakDropdown.weekLabel": "{day}: सक्रिय",
   "pgn.Toast.closeLabel": "बंद करें"
 }

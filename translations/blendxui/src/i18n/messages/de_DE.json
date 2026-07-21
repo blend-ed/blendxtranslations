@@ -45,5 +45,9 @@
   "pgn.ProductTour.Checkpoint.page-index-text": "{step} von {totalSteps}",
   "pgn.ProductTour.Checkpoint.top-position-text": "Oberer Rand von Schritt {step}",
   "pgn.ProductTour.checkpointHeader.close": "Tour schließen",
+  "pgn.StreakDropdown.dayInactive": "{day}: keine Aktivität",
+  "pgn.StreakDropdown.title": "{count, plural, one {# Tag in Folge} other {# Tage in Folge}}",
+  "pgn.StreakDropdown.triggerAlt": "Lernserie ansehen",
+  "pgn.StreakDropdown.weekLabel": "{day}: aktiv",
   "pgn.Toast.closeLabel": "Schließen"
 }

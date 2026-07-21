@@ -613,6 +613,7 @@
   "adminDashboard.settings.toggleHideStaffAsStudentDescription": "此功能开关将隐藏教职员前往学习者仪表板的按钮，并在列表中隐藏教职员姓名",
   "adminDashboard.settings.toggleLearnersLibraryDescription": "切换学员资料库页面的可见性",
   "adminDashboard.settings.toggleLiveSessionsDescription": "用于在平台内创建和安排直播课程的功能",
+  "adminDashboard.settings.toggleMcpDescription": "显示 MCP 密钥 UI，以便管理员可以将此组织连接到 MCP 框架。",
   "adminDashboard.settings.togglePaymentsDescription": "支付集成的功能开关",
   "adminDashboard.settings.toggleProgramsDescription": "项目创建的功能标志",
   "adminDashboard.settings.toggleSalesAnalyticsDescription": "用于启用销售相关分析数据的功能标志",

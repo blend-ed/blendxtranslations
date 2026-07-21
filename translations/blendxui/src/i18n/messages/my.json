@@ -45,5 +45,9 @@
   "pgn.ProductTour.Checkpoint.page-index-text": "{totalSteps} အနက် {step}",
   "pgn.ProductTour.Checkpoint.top-position-text": "အဆင့် {step} ၏ ထိပ်ပိုင်း",
   "pgn.ProductTour.checkpointHeader.close": "လမ်းညွှန်ကို ပိတ်ရန်",
+  "pgn.StreakDropdown.dayInactive": "{day}: လှုပ်ရှားမှုမရှိပါ",
+  "pgn.StreakDropdown.title": "{count, plural, one {# ရက်ဆက်တိုက်} other {# ရက်ဆက်တိုက်}}",
+  "pgn.StreakDropdown.triggerAlt": "သင်ယူမှု ဆက်တိုက်မှတ်တမ်းကို ကြည့်ရှုပါ",
+  "pgn.StreakDropdown.weekLabel": "{day}: တက်ကြွသည်",
   "pgn.Toast.closeLabel": "ပိတ်ရန်"
 }
