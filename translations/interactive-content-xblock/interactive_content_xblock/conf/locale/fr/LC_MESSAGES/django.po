@@ -1,0 +1,277 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: interactive-content-xblock\n"
+"Report-Msgid-Bugs-To: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "HTML Content"
+msgstr ""
+
+msgid "HTML content to render in the interactive block"
+msgstr ""
+
+msgid "CSS Content"
+msgstr ""
+
+msgid "CSS styles for the interactive content"
+msgstr ""
+
+msgid "JavaScript Content"
+msgstr ""
+
+msgid ""
+"JavaScript code for interactivity. Use submitInteraction(data) to send data "
+"to the XBlock."
+msgstr ""
+
+msgid "Enable Debug Mode"
+msgstr ""
+
+msgid "Show debug information and console logs"
+msgstr ""
+
+msgid "Enable Auto-Grading"
+msgstr ""
+
+msgid "Enable automatic grading based on JS response"
+msgstr ""
+
+msgid "Completion Mode"
+msgstr ""
+
+msgid ""
+"How this block is marked complete. \"On submit\" completes when your "
+"JavaScript calls submitInteraction(). \"On view\" auto-completes after the "
+"learner views the block for the configured delay (use for simulations with "
+"no submission). \"Manual\" completes only when your JavaScript calls "
+"window.markComplete()."
+msgstr ""
+
+msgid "On submit (when interaction is submitted)"
+msgstr ""
+
+msgid "On view (auto-complete after viewing)"
+msgstr ""
+
+msgid "Manual (author JS calls markComplete())"
+msgstr ""
+
+msgid "View Completion Delay (ms)"
+msgstr ""
+
+msgid ""
+"Milliseconds the block must be viewed before auto-completing in \"On view\" "
+"mode."
+msgstr ""
+
+msgid "Weight"
+msgstr ""
+
+msgid "Weight for grading purposes"
+msgstr ""
+
+msgid "Display Name"
+msgstr ""
+
+msgid "Display name for this interactive block"
+msgstr ""
+
+msgid "Correct Answers"
+msgstr ""
+
+msgid "JSON object defining correct answers for auto-grading"
+msgstr ""
+
+msgid "Show Feedback to Learners"
+msgstr ""
+
+msgid "Show correct/incorrect feedback to learners"
+msgstr ""
+
+msgid "Show Previous Response"
+msgstr ""
+
+msgid "Show learner their previous response when they return"
+msgstr ""
+
+msgid "Captured learner interaction data"
+msgstr ""
+
+msgid "Number of interactions submitted"
+msgstr ""
+
+msgid "Timestamp of last interaction"
+msgstr ""
+
+msgid "Whether the learner response is correct"
+msgstr ""
+
+msgid "Score for the learner response"
+msgstr ""
+
+msgid "Feedback message shown to learner"
+msgstr ""
+
+msgid "Whether on-view/manual completion has already been emitted"
+msgstr ""
+
+msgid "Debug Information (Staff Only)"
+msgstr ""
+
+msgid "Block ID"
+msgstr ""
+
+msgid "User ID"
+msgstr ""
+
+msgid "Interaction Count"
+msgstr ""
+
+msgid "Last Interaction"
+msgstr ""
+
+msgid "Is Correct"
+msgstr ""
+
+msgid "Score"
+msgstr ""
+
+msgid "Correct"
+msgstr ""
+
+msgid "Incorrect"
+msgstr ""
+
+msgid "Feedback"
+msgstr ""
+
+msgid "Time spent"
+msgstr ""
+
+msgid "No content. Please add HTML content in the studio."
+msgstr ""
+
+msgid "Generate with AI"
+msgstr ""
+
+msgid ""
+"e.g. A multiple choice quiz about the water cycle with 4 questions, each "
+"with 4 answer options..."
+msgstr ""
+
+msgid "Generate"
+msgstr ""
+
+msgid "Display name for this module"
+msgstr ""
+
+msgid "Enter the HTML content that will be rendered in the interactive block"
+msgstr ""
+
+msgid "CSS Styles"
+msgstr ""
+
+msgid "Enter CSS styles for your interactive content"
+msgstr ""
+
+msgid "JavaScript Code"
+msgstr ""
+
+msgid ""
+"Enter JavaScript code for interactivity. Use submitInteraction(data) to send"
+" data to the XBlock"
+msgstr ""
+
+msgid "Weight of this problem for grading"
+msgstr ""
+
+msgid "True"
+msgstr ""
+
+msgid "False"
+msgstr ""
+
+msgid "Enable debug mode for development"
+msgstr ""
+
+msgid ""
+"How this block is marked complete. Use 'On view' for simulations with no "
+"submission."
+msgstr ""
+
+msgid ""
+"Milliseconds the block must be viewed before auto-completing (On view mode "
+"only)."
+msgstr ""
+
+msgid "Auto Grade Enabled"
+msgstr ""
+
+msgid "Enable automatic grading based on interaction data"
+msgstr ""
+
+msgid "Grading Configuration"
+msgstr ""
+
+msgid "Answer Matching Mode"
+msgstr ""
+
+msgid "None (JS controls grading)"
+msgstr ""
+
+msgid "Single Answer"
+msgstr ""
+
+msgid "Multiple Fields"
+msgstr ""
+
+msgid ""
+"Choose 'None' if your JavaScript passes correct: true/false in "
+"submitInteraction()."
+msgstr ""
+
+msgid "Correct Answer"
+msgstr ""
+
+msgid "The expected value. Comparison is case-insensitive."
+msgstr ""
+
+msgid "Answer Fields"
+msgstr ""
+
+msgid "Add Field"
+msgstr ""
+
+msgid ""
+"Map each field name to its expected value. Partial credit is awarded "
+"proportionally."
+msgstr ""
+
+msgid "Correct Feedback"
+msgstr ""
+
+msgid "Incorrect Feedback"
+msgstr ""
+
+msgid "Feedback is shown even when your JavaScript controls grading."
+msgstr ""
+
+msgid "Test Grading"
+msgstr ""
+
+msgid "Verify your grading setup before saving."
+msgstr ""
+
+msgid "Run Test"
+msgstr ""
+
+msgid "Save"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""

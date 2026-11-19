@@ -1,0 +1,116 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: openedx-scorm-xblock\n"
+"Report-Msgid-Bugs-To: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Display Name"
+msgstr "Display Name"
+
+msgid "Display name for this module"
+msgstr "Display name for this module"
+
+msgid "Path to the index page in scorm file"
+msgstr "Path to the index page in scorm file"
+
+msgid "Weight"
+msgstr "Weight"
+
+msgid "Weight/Maximum grade"
+msgstr "Weight/Maximum grade"
+
+msgid "Scored"
+msgstr "Scored"
+
+msgid ""
+"Select False if this component will not receive a numerical score from the "
+"Scorm"
+msgstr ""
+"Select False if this component will not receive a numerical score from the "
+"Scorm"
+
+msgid "Display width (px)"
+msgstr "Display width (px)"
+
+msgid "Width of iframe (default: 100%)"
+msgstr "Width of iframe (default: 100%)"
+
+msgid "Display height (px)"
+msgstr "Display height (px)"
+
+msgid "Height of iframe"
+msgstr "Height of iframe"
+
+msgid "Launch in pop-up window"
+msgstr "Launch in pop-up window"
+
+msgid ""
+"Launch in pop-up window instead of embedding the SCORM content in an iframe."
+" Enable this for older packages that need to be run in separate window."
+msgstr ""
+"Launch in pop-up window instead of embedding the SCORM content in an iframe."
+" Enable this for older packages that need to be run in separate window."
+
+msgid "Display navigation menu"
+msgstr "Display navigation menu"
+
+msgid ""
+"Select True to display a navigation menu on the left side to display table "
+"of contents"
+msgstr ""
+"Select True to display a navigation menu on the left side to display table "
+"of contents"
+
+msgid "Show Fullscreen Button"
+msgstr "Show Fullscreen Button"
+
+msgid "Select True to show fullscreen button in the SCORM content"
+msgstr "Select True to show fullscreen button in the SCORM content"
+
+msgid "Display width of navigation menu(px)"
+msgstr "Display width of navigation menu(px)"
+
+msgid ""
+"Width of navigation menu. This assumes that Navigation Menu is enabled. "
+"(default: 30%)"
+msgstr ""
+"Width of navigation menu. This assumes that Navigation Menu is enabled. "
+"(default: 30%)"
+
+msgid "points"
+msgstr "points"
+
+msgid "Fullscreen"
+msgstr "Fullscreen"
+
+msgid "Exit fullscreen"
+msgstr "Exit fullscreen"
+
+msgid "Launch unit in new window"
+msgstr "Launch unit in new window"
+
+msgid "View SCORM reports"
+msgstr "View SCORM reports"
+
+msgid "Upload .zip package"
+msgstr "Upload .zip package"
+
+msgid "Currently:"
+msgstr "Currently:"
+
+msgid "True"
+msgstr "True"
+
+msgid "False"
+msgstr "False"
+
+msgid "Save"
+msgstr "Save"
+
+msgid "Cancel"
+msgstr "Cancel"

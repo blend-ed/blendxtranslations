@@ -1,0 +1,108 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: openedx-scorm-xblock\n"
+"Report-Msgid-Bugs-To: \n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Display Name"
+msgstr ""
+
+msgid "Display name for this module"
+msgstr ""
+
+msgid "Path to the index page in scorm file"
+msgstr ""
+
+msgid "Weight"
+msgstr ""
+
+msgid "Weight/Maximum grade"
+msgstr ""
+
+msgid "Scored"
+msgstr ""
+
+msgid ""
+"Select False if this component will not receive a numerical score from the "
+"Scorm"
+msgstr ""
+
+msgid "Display width (px)"
+msgstr ""
+
+msgid "Width of iframe (default: 100%)"
+msgstr ""
+
+msgid "Display height (px)"
+msgstr ""
+
+msgid "Height of iframe"
+msgstr ""
+
+msgid "Launch in pop-up window"
+msgstr ""
+
+msgid ""
+"Launch in pop-up window instead of embedding the SCORM content in an iframe."
+" Enable this for older packages that need to be run in separate window."
+msgstr ""
+
+msgid "Display navigation menu"
+msgstr ""
+
+msgid ""
+"Select True to display a navigation menu on the left side to display table "
+"of contents"
+msgstr ""
+
+msgid "Show Fullscreen Button"
+msgstr ""
+
+msgid "Select True to show fullscreen button in the SCORM content"
+msgstr ""
+
+msgid "Display width of navigation menu(px)"
+msgstr ""
+
+msgid ""
+"Width of navigation menu. This assumes that Navigation Menu is enabled. "
+"(default: 30%)"
+msgstr ""
+
+msgid "points"
+msgstr ""
+
+msgid "Fullscreen"
+msgstr ""
+
+msgid "Exit fullscreen"
+msgstr ""
+
+msgid "Launch unit in new window"
+msgstr ""
+
+msgid "View SCORM reports"
+msgstr ""
+
+msgid "Upload .zip package"
+msgstr ""
+
+msgid "Currently:"
+msgstr ""
+
+msgid "True"
+msgstr ""
+
+msgid "False"
+msgstr ""
+
+msgid "Save"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""

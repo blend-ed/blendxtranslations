@@ -1,0 +1,140 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: blendxapi\n"
+"Report-Msgid-Bugs-To: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "{name}, you earned a Program certificate!"
+msgstr ""
+
+msgid "About this certificate"
+msgstr ""
+
+msgid "Certificate ID"
+msgstr ""
+
+msgid "Date of issue"
+msgstr ""
+
+msgid "You do not have access to this course."
+msgstr ""
+
+msgid "I completed the {course_title} course on {course_org_name}."
+msgstr ""
+
+msgid ""
+"I completed a course at {course_org_name}. Take a look at my certificate."
+msgstr ""
+
+msgid "%(fullname)s, you earned a certificate!"
+msgstr ""
+
+msgid "Awarded to:"
+msgstr ""
+
+msgid "Valid until"
+msgstr ""
+
+msgid "Validity"
+msgstr ""
+
+msgid "Does not expire"
+msgstr ""
+
+msgid "Share on"
+msgstr ""
+
+msgid "Post on Facebook"
+msgstr ""
+
+msgid "Tweet this Accomplishment"
+msgstr ""
+
+msgid "Add to LinkedIn Profile"
+msgstr ""
+
+msgid "Download PDF"
+msgstr ""
+
+msgid "This is to certify that"
+msgstr ""
+
+msgid "has successfully completed %(course_name)s offered by %(org_name)s"
+msgstr ""
+
+msgid "Date of Issue: %(date)s"
+msgstr ""
+
+msgid "Programme"
+msgstr ""
+
+msgid "Verified"
+msgstr ""
+
+msgid ""
+"has successfully completed and was awarded this certificate for the "
+"programme above."
+msgstr ""
+
+msgid ""
+"has successfully completed, received a passing grade, and was awarded this "
+"certificate for the course above."
+msgstr ""
+
+msgid "Issued on"
+msgstr ""
+
+msgid "Sincerely,"
+msgstr ""
+
+msgid "Supported by the following organizations"
+msgstr ""
+
+msgid "Noted by"
+msgstr ""
+
+msgid "This certificate has been revoked"
+msgstr ""
+
+msgid ""
+"The certificate for %(program)s was revoked on %(date)s. It is no longer "
+"valid."
+msgstr ""
+
+msgid ""
+"has successfully completed the programme %(program)s offered by %(org)s"
+msgstr ""
+
+msgid "Completed on %(date)s"
+msgstr ""
+
+msgid "Courses:"
+msgstr ""
+
+msgid "Verify this certificate at %(url)s"
+msgstr ""
+
+msgid "Certificate not found"
+msgstr ""
+
+msgid "There is no valid certificate at this link."
+msgstr ""
+
+msgid ""
+"The certificate for %(session)s was revoked on %(date)s. It is no longer "
+"valid."
+msgstr ""
+
+msgid "This certificate expired on %(date)s."
+msgstr ""
+
+msgid "has successfully attended %(session)s offered by %(org)s"
+msgstr ""
+
+msgid "{name}, you earned a Session certificate!"
+msgstr ""

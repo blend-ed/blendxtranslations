@@ -1,0 +1,298 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: interactive-content-xblock\n"
+"Report-Msgid-Bugs-To: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "HTML Content"
+msgstr "HTML Content"
+
+msgid "HTML content to render in the interactive block"
+msgstr "HTML content to render in the interactive block"
+
+msgid "CSS Content"
+msgstr "CSS Content"
+
+msgid "CSS styles for the interactive content"
+msgstr "CSS styles for the interactive content"
+
+msgid "JavaScript Content"
+msgstr "JavaScript Content"
+
+msgid ""
+"JavaScript code for interactivity. Use submitInteraction(data) to send data "
+"to the XBlock."
+msgstr ""
+"JavaScript code for interactivity. Use submitInteraction(data) to send data "
+"to the XBlock."
+
+msgid "Enable Debug Mode"
+msgstr "Enable Debug Mode"
+
+msgid "Show debug information and console logs"
+msgstr "Show debug information and console logs"
+
+msgid "Enable Auto-Grading"
+msgstr "Enable Auto-Grading"
+
+msgid "Enable automatic grading based on JS response"
+msgstr "Enable automatic grading based on JS response"
+
+msgid "Completion Mode"
+msgstr "Completion Mode"
+
+msgid ""
+"How this block is marked complete. \"On submit\" completes when your "
+"JavaScript calls submitInteraction(). \"On view\" auto-completes after the "
+"learner views the block for the configured delay (use for simulations with "
+"no submission). \"Manual\" completes only when your JavaScript calls "
+"window.markComplete()."
+msgstr ""
+"How this block is marked complete. \"On submit\" completes when your "
+"JavaScript calls submitInteraction(). \"On view\" auto-completes after the "
+"learner views the block for the configured delay (use for simulations with "
+"no submission). \"Manual\" completes only when your JavaScript calls "
+"window.markComplete()."
+
+msgid "On submit (when interaction is submitted)"
+msgstr "On submit (when interaction is submitted)"
+
+msgid "On view (auto-complete after viewing)"
+msgstr "On view (auto-complete after viewing)"
+
+msgid "Manual (author JS calls markComplete())"
+msgstr "Manual (author JS calls markComplete())"
+
+msgid "View Completion Delay (ms)"
+msgstr "View Completion Delay (ms)"
+
+msgid ""
+"Milliseconds the block must be viewed before auto-completing in \"On view\" "
+"mode."
+msgstr ""
+"Milliseconds the block must be viewed before auto-completing in \"On view\" "
+"mode."
+
+msgid "Weight"
+msgstr "Weight"
+
+msgid "Weight for grading purposes"
+msgstr "Weight for grading purposes"
+
+msgid "Display Name"
+msgstr "Display Name"
+
+msgid "Display name for this interactive block"
+msgstr "Display name for this interactive block"
+
+msgid "Correct Answers"
+msgstr "Correct Answers"
+
+msgid "JSON object defining correct answers for auto-grading"
+msgstr "JSON object defining correct answers for auto-grading"
+
+msgid "Show Feedback to Learners"
+msgstr "Show Feedback to Learners"
+
+msgid "Show correct/incorrect feedback to learners"
+msgstr "Show correct/incorrect feedback to learners"
+
+msgid "Show Previous Response"
+msgstr "Show Previous Response"
+
+msgid "Show learner their previous response when they return"
+msgstr "Show learner their previous response when they return"
+
+msgid "Captured learner interaction data"
+msgstr "Captured learner interaction data"
+
+msgid "Number of interactions submitted"
+msgstr "Number of interactions submitted"
+
+msgid "Timestamp of last interaction"
+msgstr "Timestamp of last interaction"
+
+msgid "Whether the learner response is correct"
+msgstr "Whether the learner response is correct"
+
+msgid "Score for the learner response"
+msgstr "Score for the learner response"
+
+msgid "Feedback message shown to learner"
+msgstr "Feedback message shown to learner"
+
+msgid "Whether on-view/manual completion has already been emitted"
+msgstr "Whether on-view/manual completion has already been emitted"
+
+msgid "Debug Information (Staff Only)"
+msgstr "Debug Information (Staff Only)"
+
+msgid "Block ID"
+msgstr "Block ID"
+
+msgid "User ID"
+msgstr "User ID"
+
+msgid "Interaction Count"
+msgstr "Interaction Count"
+
+msgid "Last Interaction"
+msgstr "Last Interaction"
+
+msgid "Is Correct"
+msgstr "Is Correct"
+
+msgid "Score"
+msgstr "Score"
+
+msgid "Correct"
+msgstr "Correct"
+
+msgid "Incorrect"
+msgstr "Incorrect"
+
+msgid "Feedback"
+msgstr "Feedback"
+
+msgid "Time spent"
+msgstr "Time spent"
+
+msgid "No content. Please add HTML content in the studio."
+msgstr "No content. Please add HTML content in the studio."
+
+msgid "Generate with AI"
+msgstr "Generate with AI"
+
+msgid ""
+"e.g. A multiple choice quiz about the water cycle with 4 questions, each "
+"with 4 answer options..."
+msgstr ""
+"e.g. A multiple choice quiz about the water cycle with 4 questions, each "
+"with 4 answer options..."
+
+msgid "Generate"
+msgstr "Generate"
+
+msgid "Display name for this module"
+msgstr "Display name for this module"
+
+msgid "Enter the HTML content that will be rendered in the interactive block"
+msgstr "Enter the HTML content that will be rendered in the interactive block"
+
+msgid "CSS Styles"
+msgstr "CSS Styles"
+
+msgid "Enter CSS styles for your interactive content"
+msgstr "Enter CSS styles for your interactive content"
+
+msgid "JavaScript Code"
+msgstr "JavaScript Code"
+
+msgid ""
+"Enter JavaScript code for interactivity. Use submitInteraction(data) to send"
+" data to the XBlock"
+msgstr ""
+"Enter JavaScript code for interactivity. Use submitInteraction(data) to send"
+" data to the XBlock"
+
+msgid "Weight of this problem for grading"
+msgstr "Weight of this problem for grading"
+
+msgid "True"
+msgstr "True"
+
+msgid "False"
+msgstr "False"
+
+msgid "Enable debug mode for development"
+msgstr "Enable debug mode for development"
+
+msgid ""
+"How this block is marked complete. Use 'On view' for simulations with no "
+"submission."
+msgstr ""
+"How this block is marked complete. Use 'On view' for simulations with no "
+"submission."
+
+msgid ""
+"Milliseconds the block must be viewed before auto-completing (On view mode "
+"only)."
+msgstr ""
+"Milliseconds the block must be viewed before auto-completing (On view mode "
+"only)."
+
+msgid "Auto Grade Enabled"
+msgstr "Auto Grade Enabled"
+
+msgid "Enable automatic grading based on interaction data"
+msgstr "Enable automatic grading based on interaction data"
+
+msgid "Grading Configuration"
+msgstr "Grading Configuration"
+
+msgid "Answer Matching Mode"
+msgstr "Answer Matching Mode"
+
+msgid "None (JS controls grading)"
+msgstr "None (JS controls grading)"
+
+msgid "Single Answer"
+msgstr "Single Answer"
+
+msgid "Multiple Fields"
+msgstr "Multiple Fields"
+
+msgid ""
+"Choose 'None' if your JavaScript passes correct: true/false in "
+"submitInteraction()."
+msgstr ""
+"Choose 'None' if your JavaScript passes correct: true/false in "
+"submitInteraction()."
+
+msgid "Correct Answer"
+msgstr "Correct Answer"
+
+msgid "The expected value. Comparison is case-insensitive."
+msgstr "The expected value. Comparison is case-insensitive."
+
+msgid "Answer Fields"
+msgstr "Answer Fields"
+
+msgid "Add Field"
+msgstr "Add Field"
+
+msgid ""
+"Map each field name to its expected value. Partial credit is awarded "
+"proportionally."
+msgstr ""
+"Map each field name to its expected value. Partial credit is awarded "
+"proportionally."
+
+msgid "Correct Feedback"
+msgstr "Correct Feedback"
+
+msgid "Incorrect Feedback"
+msgstr "Incorrect Feedback"
+
+msgid "Feedback is shown even when your JavaScript controls grading."
+msgstr "Feedback is shown even when your JavaScript controls grading."
+
+msgid "Test Grading"
+msgstr "Test Grading"
+
+msgid "Verify your grading setup before saving."
+msgstr "Verify your grading setup before saving."
+
+msgid "Run Test"
+msgstr "Run Test"
+
+msgid "Save"
+msgstr "Save"
+
+msgid "Cancel"
+msgstr "Cancel"
