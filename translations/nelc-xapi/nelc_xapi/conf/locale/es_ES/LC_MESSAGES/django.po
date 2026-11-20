@@ -1,0 +1,22 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: nelc-xapi\n"
+"Report-Msgid-Bugs-To: \n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "National ID / Iqama"
+msgstr "DNI / Iqama"
+
+msgid "10 digits, starting with 1, 2, or 4"
+msgstr "10 dígitos, empezando por 1, 2 o 4"
+
+msgid "National ID / Iqama must be 10 digits and start with 1, 2, or 4."
+msgstr "El DNI / Iqama debe tener 10 dígitos y empezar por 1, 2 o 4."
+
+msgid "National ID / Iqama can't be changed after registration."
+msgstr "El DNI / Iqama no se puede cambiar después del registro."

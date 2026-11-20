@@ -9,8 +9,251 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+msgid "An error occurred while processing your request. Please try again."
+msgstr ""
+"Bei der Verarbeitung Ihrer Anfrage ist ein Fehler aufgetreten. Bitte "
+"versuchen Sie es erneut."
+
+msgid "Course not found"
+msgstr "Kurs nicht gefunden"
+
+msgid "No units found in course structure"
+msgstr "Keine Einheiten in der Kursstruktur gefunden"
+
+msgid "AI service is not configured"
+msgstr "Der AI-Dienst ist nicht konfiguriert"
+
+msgid "Unit not found"
+msgstr "Einheit nicht gefunden"
+
+msgid "AI returned invalid format"
+msgstr "AI hat ein ungültiges Format zurückgegeben"
+
+msgid "Component not found"
+msgstr "Komponente nicht gefunden"
+
+msgid "AI returned invalid structure format"
+msgstr "AI hat ein ungültiges Strukturformat zurückgegeben"
+
+msgid "course_creation_id is required."
+msgstr "course_creation_id ist erforderlich."
+
+msgid "org, number, and run are all required."
+msgstr "org, number und run sind alle erforderlich."
+
+msgid "Courses can only be created in your organisation."
+msgstr "Kurse können nur in Ihrer Organisation erstellt werden."
+
+msgid "You do not have permission to create courses."
+msgstr "Sie haben keine Berechtigung, Kurse zu erstellen."
+
+msgid "Course not found."
+msgstr "Kurs nicht gefunden."
+
+msgid "You do not have access to this course."
+msgstr "Sie haben keinen Zugriff auf diesen Kurs."
+
+msgid ""
+"Course must be in script_generation, outline_creation, or failed stage. "
+"Current: {stage}"
+msgstr ""
+"Der Kurs muss sich in der Phase script_generation, outline_creation oder "
+"failed befinden. Aktuell: {stage}"
+
+msgid ""
+"Choose a video type (static link or AI avatar) in the Course Brief before "
+"building."
+msgstr ""
+"Wählen Sie vor dem Erstellen im Course Brief einen Videotyp (statischer Link"
+" oder AI-Avatar)."
+
+msgid ""
+"AI usage has been disabled for your account. Please contact your "
+"organisation admin."
+msgstr ""
+"Die AI-Nutzung wurde für Ihr Konto deaktiviert. Bitte wenden Sie sich an den"
+" Administrator Ihrer Organisation."
+
+msgid ""
+"Your organisation's AI credits are exhausted. Contact your admin to allocate"
+" more."
+msgstr ""
+"Die AI-Credits Ihrer Organisation sind aufgebraucht. Wenden Sie sich an "
+"Ihren Administrator, um weitere zuzuweisen."
+
+msgid ""
+"This session's course is live and can't be rebuilt. Start a new AI Studio "
+"session to create another course."
+msgstr ""
+"Der Kurs dieser Session ist live und kann nicht neu erstellt werden. Starten"
+" Sie eine neue AI Studio-Session, um einen weiteren Kurs zu erstellen."
+
+msgid "Message is required."
+msgstr "Nachricht ist erforderlich."
+
+msgid "An .srt transcript file is required to create a course from a video."
+msgstr ""
+"Zum Erstellen eines Kurses aus einem Video ist eine .srt-Transkriptdatei "
+"erforderlich."
+
+msgid "That video is not in your organisation's video library."
+msgstr ""
+"Dieses Video befindet sich nicht in der Videobibliothek Ihrer Organisation."
+
+msgid "That .srt file has no timed subtitles, or is larger than 2 MB."
+msgstr ""
+"Diese .srt-Datei enthält keine zeitgesteuerten Untertitel oder ist größer "
+"als 2 MB."
+
+msgid "A 'key' is required."
+msgstr "Ein „key“ ist erforderlich."
+
+msgid "The '{key}' field is read-only."
+msgstr "Das Feld „{key}“ ist schreibgeschützt."
+
+msgid "You do not have access to AI Studio for this organisation."
+msgstr "Sie haben keinen Zugriff auf AI Studio für diese Organisation."
+
+msgid ""
+"You do not have permission to manage AI Studio prompts for this "
+"organisation."
+msgstr ""
+"Sie haben keine Berechtigung, AI Studio-Prompts für diese Organisation zu "
+"verwalten."
+
+msgid ""
+"Course must be in outline_creation, component_plan, or script_generation "
+"stage. Current: {stage}"
+msgstr ""
+"Der Kurs muss sich in der Phase outline_creation, component_plan oder "
+"script_generation befinden. Aktuell: {stage}"
+
+msgid "course_creation_id and unit_id are required."
+msgstr "course_creation_id und unit_id sind erforderlich."
+
+msgid "Access denied."
+msgstr "Zugriff verweigert."
+
+msgid ""
+"Course must be in outline_creation or component_plan stage. Current: {stage}"
+msgstr ""
+"Der Kurs muss sich in der Phase outline_creation oder component_plan "
+"befinden. Aktuell: {stage}"
+
+msgid "component_types must be a non-empty list."
+msgstr "component_types muss eine nicht leere Liste sein."
+
+msgid "Invalid component types: {invalid_types}. Valid types: {valid_types}"
+msgstr ""
+"Ungültige Komponententypen: {invalid_types}. Gültige Typen: {valid_types}"
+
+msgid "component_id is required."
+msgstr "component_id ist erforderlich."
+
+msgid "instruction is required."
+msgstr "instruction ist erforderlich."
+
+msgid "Component not found."
+msgstr "Komponente nicht gefunden."
+
+msgid "You do not have access to this component."
+msgstr "Sie haben keinen Zugriff auf diese Komponente."
+
+msgid "script is required."
+msgstr "script ist erforderlich."
+
+msgid "name is required."
+msgstr "name ist erforderlich."
+
+msgid "Node not found."
+msgstr "Knoten nicht gefunden."
+
+msgid "course_creation_id, hierarchy, and name are required."
+msgstr "course_creation_id, hierarchy und name sind erforderlich."
+
+msgid "hierarchy must be section, subsection, or unit."
+msgstr "hierarchy muss section, subsection oder unit sein."
+
+msgid "Parent node not found."
+msgstr "Übergeordneter Knoten nicht gefunden."
+
+msgid "node_ids array is required."
+msgstr "Das Array node_ids ist erforderlich."
+
+msgid "Some nodes not found."
+msgstr "Einige Knoten wurden nicht gefunden."
+
+msgid "All nodes must belong to the same course."
+msgstr "Alle Knoten müssen zum selben Kurs gehören."
+
 msgid ""
 "Dummy text to generate a translation (.po) source file. It is safe to delete"
 " this line. It is also safe to delete (load i18n) above if there are no "
 "other (trans) tags in the file"
 msgstr ""
+"Platzhaltertext zum Erzeugen einer Übersetzungs-Quelldatei (.po). Diese "
+"Zeile kann gefahrlos gelöscht werden. Auch (load i18n) oben kann gefahrlos "
+"gelöscht werden, wenn die Datei keine weiteren (trans)-Tags enthält"
+
+msgid "Your course is ready"
+msgstr "Ihr Kurs ist bereit"
+
+msgid "Hi %(full_name)s,"
+msgstr "Hallo %(full_name)s,"
+
+msgid ""
+"Your AI-generated course %(start_strong)s%(course_title)s%(end_strong)s has "
+"finished building and is ready in Studio."
+msgstr ""
+"Ihr AI-generierter Kurs %(start_strong)s%(course_title)s%(end_strong)s ist "
+"fertig erstellt und in Studio bereit."
+
+msgid ""
+"%(counter)s component could not be generated and needs your attention. "
+"Review the course before you publish it."
+msgid_plural ""
+"%(counter)s components could not be generated and need your attention. "
+"Review the course before you publish it."
+msgstr[0] ""
+"%(counter)s Komponente konnte nicht generiert werden und erfordert Ihre "
+"Aufmerksamkeit. Prüfen Sie den Kurs, bevor Sie ihn veröffentlichen."
+msgstr[1] ""
+"%(counter)s Komponenten konnten nicht generiert werden und erfordern Ihre "
+"Aufmerksamkeit. Prüfen Sie den Kurs, bevor Sie ihn veröffentlichen."
+
+msgid "Open in Studio"
+msgstr "In Studio öffnen"
+
+msgid "If the button doesn't work, copy this link into your browser:"
+msgstr ""
+"Falls die Schaltfläche nicht funktioniert, kopieren Sie diesen Link in Ihren"
+" Browser:"
+
+msgid "View it as a learner"
+msgstr "Als Lernender ansehen"
+
+msgid "Course ID: %(course_key)s"
+msgstr "Kurs-ID: %(course_key)s"
+
+msgid ""
+"You got this email because you generated this course with the AI Course "
+"Creator."
+msgstr ""
+"Sie erhalten diese E-Mail, weil Sie diesen Kurs mit dem AI Course Creator "
+"generiert haben."
+
+msgid ""
+"Your AI-generated course \"%(course_title)s\" has finished building and is "
+"ready in Studio."
+msgstr ""
+"Ihr AI-generierter Kurs „%(course_title)s“ ist fertig erstellt und in Studio"
+" bereit."
+
+msgid "Open it in Studio: %(studio_url)s"
+msgstr "In Studio öffnen: %(studio_url)s"
+
+msgid "View it as a learner: %(lms_url)s"
+msgstr "Als Lernender ansehen: %(lms_url)s"
+
+msgid "Your course \"%(course_title)s\" is ready"
+msgstr "Ihr Kurs „%(course_title)s“ ist bereit"

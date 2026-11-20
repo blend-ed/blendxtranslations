@@ -1,0 +1,145 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xblock-blendx-session\n"
+"Report-Msgid-Bugs-To: \n"
+"Language: hi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Only the dates offered to the learner's Batch"
+msgstr "केवल शिक्षार्थी के बैच को दी गई तारीखें"
+
+msgid "Any open date inside the learner's access window"
+msgstr "शिक्षार्थी की पहुँच अवधि के भीतर कोई भी खुली तारीख"
+
+msgid "This Session unlocks after an earlier step."
+msgstr "यह सत्र किसी पिछले चरण के बाद अनलॉक होगा।"
+
+msgid "Choose a date to book your place."
+msgstr "अपना स्थान बुक करने के लिए एक तारीख चुनें।"
+
+msgid "Your organisation will book your Session."
+msgstr "आपका संगठन आपका सत्र बुक करेगा।"
+
+msgid "You're booked."
+msgstr "आपकी बुकिंग हो गई है।"
+
+msgid ""
+"You're on the waitlist. You'll be booked automatically if a place frees up."
+msgstr ""
+"आप प्रतीक्षा सूची में हैं। स्थान खाली होने पर आपकी बुकिंग स्वचालित रूप से हो"
+" जाएगी।"
+
+msgid "You attended this Session."
+msgstr "आप इस सत्र में उपस्थित थे।"
+
+msgid "You missed this Session."
+msgstr "आप इस सत्र में अनुपस्थित रहे।"
+
+msgid "You don't have access to this Session."
+msgstr "आपके पास इस सत्र की पहुँच नहीं है।"
+
+msgid "Display name"
+msgstr "प्रदर्शित नाम"
+
+msgid "Live Session"
+msgstr "लाइव सत्र"
+
+msgid "Session"
+msgstr "सत्र"
+
+msgid "The stand-alone Session this unit links to."
+msgstr "वह स्वतंत्र सत्र जिससे यह इकाई लिंक होती है।"
+
+msgid "Required"
+msgstr "आवश्यक"
+
+msgid ""
+"Learners must complete the Session to complete this part of the Course."
+msgstr ""
+"पाठ्यक्रम का यह भाग पूरा करने के लिए शिक्षार्थियों को सत्र पूरा करना होगा।"
+
+msgid "Which dates learners may book"
+msgstr "शिक्षार्थी कौन-सी तारीखें बुक कर सकते हैं"
+
+msgid "Booking opens here when it's available."
+msgstr "उपलब्ध होने पर बुकिंग यहाँ खुलेगी।"
+
+msgid "Optional"
+msgstr "वैकल्पिक"
+
+msgid "Choose a Session."
+msgstr "एक सत्र चुनें।"
+
+msgid "The Session no longer exists or can't be linked here."
+msgstr "सत्र अब मौजूद नहीं है या उसे यहाँ लिंक नहीं किया जा सकता।"
+
+msgid "The Session isn't published, so the link won't sync at publish."
+msgstr "सत्र प्रकाशित नहीं है, इसलिए प्रकाशित करते समय लिंक सिंक नहीं होगा।"
+
+msgid "Choose which dates learners may book."
+msgstr "चुनें कि शिक्षार्थी कौन-सी तारीखें बुक कर सकते हैं।"
+
+msgid "(no Session selected)"
+msgstr "(कोई सत्र चयनित नहीं)"
+
+msgid "Yes"
+msgstr "हाँ"
+
+msgid "No"
+msgstr "नहीं"
+
+msgid "Only course staff can change this block."
+msgstr "केवल पाठ्यक्रम कर्मचारी ही इस ब्लॉक को बदल सकते हैं।"
+
+msgid "The form wasn't sent correctly."
+msgstr "फ़ॉर्म सही तरीके से नहीं भेजा गया।"
+
+msgid "Choose a Session from the list."
+msgstr "सूची से एक सत्र चुनें।"
+
+msgid "That Session can't be linked here."
+msgstr "उस सत्र को यहाँ लिंक नहीं किया जा सकता।"
+
+msgid "Required is yes or no."
+msgstr "आवश्यक का मान हाँ या नहीं है।"
+
+msgid "Kind"
+msgstr "प्रकार"
+
+msgid "Upcoming dates"
+msgstr "आगामी तारीखें"
+
+msgid "Dates learners may book"
+msgstr "शिक्षार्थी जिन तारीखों को बुक कर सकते हैं"
+
+msgid "Limit to modes"
+msgstr "मोड तक सीमित करें"
+
+msgid "Use \"Restrict access\" on this component."
+msgstr "इस कंपोनेंट पर \"पहुँच प्रतिबंधित करें\" का उपयोग करें।"
+
+msgid "This Session isn't available yet."
+msgstr "यह सत्र अभी उपलब्ध नहीं है।"
+
+msgid "Choose a Session"
+msgstr "एक सत्र चुनें"
+
+msgid "Required to complete this part of the Course"
+msgstr "पाठ्यक्रम का यह भाग पूरा करने के लिए आवश्यक"
+
+msgid ""
+"To limit it to some learning modes, use \"Restrict access\" on the "
+"component."
+msgstr ""
+"इसे कुछ लर्निंग मोड तक सीमित करने के लिए, कंपोनेंट पर \"पहुँच प्रतिबंधित "
+"करें\" का उपयोग करें।"
+
+msgid "Save"
+msgstr "सहेजें"
+
+msgid "Cancel"
+msgstr "रद्द करें"

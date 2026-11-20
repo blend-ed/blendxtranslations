@@ -1,0 +1,148 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xblock-blendx-session\n"
+"Report-Msgid-Bugs-To: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "Only the dates offered to the learner's Batch"
+msgstr "Uniquement les dates proposées à la promotion de l'apprenant"
+
+msgid "Any open date inside the learner's access window"
+msgstr "Toute date ouverte dans la période d'accès de l'apprenant"
+
+msgid "This Session unlocks after an earlier step."
+msgstr "Cette séance se débloque après une étape précédente."
+
+msgid "Choose a date to book your place."
+msgstr "Choisissez une date pour réserver votre place."
+
+msgid "Your organisation will book your Session."
+msgstr "Votre organisation réservera votre séance."
+
+msgid "You're booked."
+msgstr "Votre réservation est confirmée."
+
+msgid ""
+"You're on the waitlist. You'll be booked automatically if a place frees up."
+msgstr ""
+"Vous êtes sur la liste d'attente. Vous serez inscrit automatiquement si une "
+"place se libère."
+
+msgid "You attended this Session."
+msgstr "Vous avez assisté à cette séance."
+
+msgid "You missed this Session."
+msgstr "Vous avez manqué cette séance."
+
+msgid "You don't have access to this Session."
+msgstr "Vous n'avez pas accès à cette séance."
+
+msgid "Display name"
+msgstr "Nom affiché"
+
+msgid "Live Session"
+msgstr "Séance en direct"
+
+msgid "Session"
+msgstr "Séance"
+
+msgid "The stand-alone Session this unit links to."
+msgstr "La séance autonome à laquelle cette unité est liée."
+
+msgid "Required"
+msgstr "Obligatoire"
+
+msgid ""
+"Learners must complete the Session to complete this part of the Course."
+msgstr ""
+"Les apprenants doivent terminer la séance pour valider cette partie du "
+"cours."
+
+msgid "Which dates learners may book"
+msgstr "Dates que les apprenants peuvent réserver"
+
+msgid "Booking opens here when it's available."
+msgstr "La réservation s'ouvrira ici dès qu'elle sera disponible."
+
+msgid "Optional"
+msgstr "Facultatif"
+
+msgid "Choose a Session."
+msgstr "Choisissez une séance."
+
+msgid "The Session no longer exists or can't be linked here."
+msgstr "La séance n'existe plus ou ne peut pas être liée ici."
+
+msgid "The Session isn't published, so the link won't sync at publish."
+msgstr ""
+"La séance n'est pas publiée : le lien ne sera donc pas synchronisé à la "
+"publication."
+
+msgid "Choose which dates learners may book."
+msgstr "Choisissez les dates que les apprenants peuvent réserver."
+
+msgid "(no Session selected)"
+msgstr "(aucune séance sélectionnée)"
+
+msgid "Yes"
+msgstr "Oui"
+
+msgid "No"
+msgstr "Non"
+
+msgid "Only course staff can change this block."
+msgstr "Seule l'équipe du cours peut modifier ce bloc."
+
+msgid "The form wasn't sent correctly."
+msgstr "Le formulaire n'a pas été envoyé correctement."
+
+msgid "Choose a Session from the list."
+msgstr "Choisissez une séance dans la liste."
+
+msgid "That Session can't be linked here."
+msgstr "Cette séance ne peut pas être liée ici."
+
+msgid "Required is yes or no."
+msgstr "Le champ Obligatoire doit valoir oui ou non."
+
+msgid "Kind"
+msgstr "Nature"
+
+msgid "Upcoming dates"
+msgstr "Dates à venir"
+
+msgid "Dates learners may book"
+msgstr "Dates que les apprenants peuvent réserver"
+
+msgid "Limit to modes"
+msgstr "Limiter à certains modes"
+
+msgid "Use \"Restrict access\" on this component."
+msgstr "Utilisez « Restreindre l'accès » sur ce composant."
+
+msgid "This Session isn't available yet."
+msgstr "Cette séance n'est pas encore disponible."
+
+msgid "Choose a Session"
+msgstr "Choisir une séance"
+
+msgid "Required to complete this part of the Course"
+msgstr "Obligatoire pour valider cette partie du cours"
+
+msgid ""
+"To limit it to some learning modes, use \"Restrict access\" on the "
+"component."
+msgstr ""
+"Pour le limiter à certains modes d'apprentissage, utilisez « Restreindre "
+"l'accès » sur le composant."
+
+msgid "Save"
+msgstr "Enregistrer"
+
+msgid "Cancel"
+msgstr "Annuler"

@@ -1,0 +1,140 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xblock-blendx-session\n"
+"Report-Msgid-Bugs-To: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Only the dates offered to the learner's Batch"
+msgstr "仅限向学员所在班期开放的日期"
+
+msgid "Any open date inside the learner's access window"
+msgstr "学员访问期内的任意开放日期"
+
+msgid "This Session unlocks after an earlier step."
+msgstr "完成前面的步骤后才会解锁该课堂。"
+
+msgid "Choose a date to book your place."
+msgstr "选择日期以预约您的名额。"
+
+msgid "Your organisation will book your Session."
+msgstr "您的组织将为您预约课堂。"
+
+msgid "You're booked."
+msgstr "您已预约成功。"
+
+msgid ""
+"You're on the waitlist. You'll be booked automatically if a place frees up."
+msgstr "您已在候补名单中。如有名额空出，系统将自动为您预约。"
+
+msgid "You attended this Session."
+msgstr "您已参加此课堂。"
+
+msgid "You missed this Session."
+msgstr "您错过了此课堂。"
+
+msgid "You don't have access to this Session."
+msgstr "您无权访问此课堂。"
+
+msgid "Display name"
+msgstr "显示名称"
+
+msgid "Live Session"
+msgstr "实时课堂"
+
+msgid "Session"
+msgstr "课堂"
+
+msgid "The stand-alone Session this unit links to."
+msgstr "此单元关联的独立课堂。"
+
+msgid "Required"
+msgstr "必填"
+
+msgid ""
+"Learners must complete the Session to complete this part of the Course."
+msgstr "学员必须完成该课堂，才能完成课程的这一部分。"
+
+msgid "Which dates learners may book"
+msgstr "学员可预约哪些日期"
+
+msgid "Booking opens here when it's available."
+msgstr "预约开放后将在此处显示。"
+
+msgid "Optional"
+msgstr "可选"
+
+msgid "Choose a Session."
+msgstr "选择一个课堂。"
+
+msgid "The Session no longer exists or can't be linked here."
+msgstr "该课堂已不存在或无法在此处关联。"
+
+msgid "The Session isn't published, so the link won't sync at publish."
+msgstr "该课堂尚未发布，因此发布时链接不会同步。"
+
+msgid "Choose which dates learners may book."
+msgstr "选择学员可以预约的日期。"
+
+msgid "(no Session selected)"
+msgstr "（未选择课堂）"
+
+msgid "Yes"
+msgstr "是"
+
+msgid "No"
+msgstr "否"
+
+msgid "Only course staff can change this block."
+msgstr "只有课程职员可以更改此块。"
+
+msgid "The form wasn't sent correctly."
+msgstr "表单未正确发送。"
+
+msgid "Choose a Session from the list."
+msgstr "从列表中选择一个课堂。"
+
+msgid "That Session can't be linked here."
+msgstr "该课堂无法在此处关联。"
+
+msgid "Required is yes or no."
+msgstr "“必填”应为“是”或“否”。"
+
+msgid "Kind"
+msgstr "种类"
+
+msgid "Upcoming dates"
+msgstr "即将到来的日期"
+
+msgid "Dates learners may book"
+msgstr "学员可预约的日期"
+
+msgid "Limit to modes"
+msgstr "限定学习模式"
+
+msgid "Use \"Restrict access\" on this component."
+msgstr "请在此组件上使用“限制访问”。"
+
+msgid "This Session isn't available yet."
+msgstr "该课堂暂不可用。"
+
+msgid "Choose a Session"
+msgstr "选择课堂"
+
+msgid "Required to complete this part of the Course"
+msgstr "完成课程的这一部分所必需"
+
+msgid ""
+"To limit it to some learning modes, use \"Restrict access\" on the "
+"component."
+msgstr "如需将其限定于部分学习模式，请在组件上使用“限制访问”。"
+
+msgid "Save"
+msgstr "保存"
+
+msgid "Cancel"
+msgstr "取消"

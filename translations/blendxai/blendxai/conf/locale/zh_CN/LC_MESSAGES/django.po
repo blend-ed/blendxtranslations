@@ -1,0 +1,386 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: blendxai\n"
+"Report-Msgid-Bugs-To: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Organisation not found"
+msgstr "未找到组织"
+
+msgid "You do not have access to this organisation."
+msgstr "您无权访问此组织。"
+
+msgid ""
+"AI usage has been disabled for your account. Please contact your "
+"organisation admin."
+msgstr "您的账户已禁用 AI 使用。请联系您的组织管理员。"
+
+msgid ""
+"Your organisation has not configured AI features yet. Please contact your "
+"admin."
+msgstr "您的组织尚未配置 AI 功能。请联系您的管理员。"
+
+msgid "The AI produced invalid problem content: {error}"
+msgstr "AI 生成的题目内容无效：{error}"
+
+msgid "Failed to generate component: {error}"
+msgstr "生成组件失败：{error}"
+
+msgid "Failed to generate image: {error}"
+msgstr "生成图片失败：{error}"
+
+msgid "The AI could not generate an image. Try rephrasing your description."
+msgstr "AI 无法生成图片。请尝试换一种方式描述。"
+
+msgid "Invalid parent_locator."
+msgstr "parent_locator 无效。"
+
+msgid "You do not have permission to edit this course."
+msgstr "您没有编辑此课程的权限。"
+
+msgid "AI usage has been disabled for your account."
+msgstr "您的账户已禁用 AI 使用。"
+
+msgid ""
+"Writing this component needs library.edit and library.publish on your "
+"organisation, besides course.edit on the course."
+msgstr ""
+"编写此组件除了需要课程的 course.edit 权限外，还需要您组织的 library.edit 和 library.publish 权限。"
+
+msgid "Failed to create component: {error}"
+msgstr "创建组件失败：{error}"
+
+msgid "This course is not in your organisation."
+msgstr "此课程不在您的组织中。"
+
+msgid "course_id is required."
+msgstr "course_id 为必填项。"
+
+msgid "Invalid course_id."
+msgstr "course_id 无效。"
+
+msgid ""
+"Your organisation has not configured AI assistant features yet. Please "
+"contact your admin."
+msgstr "您的组织尚未配置 AI 助手功能。请联系您的管理员。"
+
+msgid "Failed to read course content: {error}"
+msgstr "读取课程内容失败：{error}"
+
+msgid "Failed to generate descriptions: {error}"
+msgstr "生成描述失败：{error}"
+
+msgid "AI service not configured for this organization"
+msgstr "此组织未配置 AI 服务"
+
+msgid "Invalid request data: {error}"
+msgstr "请求数据无效：{error}"
+
+msgid "Problem generation failed: {error}"
+msgstr "题目生成失败：{error}"
+
+msgid "Problem enhancement failed: {error}"
+msgstr "题目优化失败：{error}"
+
+msgid "Problem validation failed: {error}"
+msgstr "题目验证失败：{error}"
+
+msgid "Text content generation failed: {error}"
+msgstr "文本内容生成失败：{error}"
+
+msgid "Text content enhancement failed: {error}"
+msgstr "文本内容优化失败：{error}"
+
+msgid "Content analysis failed: {error}"
+msgstr "内容分析失败：{error}"
+
+msgid "Assessment generation failed: {error}"
+msgstr "评估生成失败：{error}"
+
+msgid "Accessibility optimization failed: {error}"
+msgstr "无障碍优化失败：{error}"
+
+msgid "Chat processing failed: {error}"
+msgstr "聊天处理失败：{error}"
+
+msgid "Invalid course_id: {course_id}"
+msgstr "course_id 无效：{course_id}"
+
+msgid "Unsupported target_language: {target_language}"
+msgstr "不支持的 target_language：{target_language}"
+
+msgid "Task not found."
+msgstr "未找到任务。"
+
+msgid "AI features are disabled for this user"
+msgstr "已为此用户禁用 AI 功能"
+
+msgid "Query is required"
+msgstr "查询为必填项"
+
+msgid "Error occurred while converting query to vector"
+msgstr "将查询转换为向量时出错"
+
+msgid "Error occurred while getting similarity search course content"
+msgstr "获取课程内容相似度搜索结果时出错"
+
+msgid "Failed to generate OLX"
+msgstr "生成 OLX 失败"
+
+msgid ""
+"Please describe the skill set you want to generate (at least "
+"{min_prompt_length} characters)."
+msgstr "请描述您要生成的技能组合（至少 {min_prompt_length} 个字符）。"
+
+msgid "Prompt is too long (max {max_prompt_length} characters)."
+msgstr "提示过长（最多 {max_prompt_length} 个字符）。"
+
+msgid "Failed to generate taxonomy: {error}"
+msgstr "生成分类体系失败：{error}"
+
+msgid ""
+"Your Organization has not setup AI Assistant Features Correctly. Please "
+"contact the admin."
+msgstr "您的组织未正确设置 AI 助手功能。请联系管理员。"
+
+msgid "Message is required"
+msgstr "消息为必填项"
+
+msgid "Course ID is required"
+msgstr "需要提供课程 ID"
+
+msgid "Course ID must be in format 'course-v1:org+course+run'"
+msgstr "课程 ID 格式必须为“course-v1:org+course+run”"
+
+msgid ""
+"You don't have permission to edit courses. Please contact your "
+"administrator."
+msgstr "您没有编辑课程的权限。请联系您的管理员。"
+
+msgid "An error occurred while processing your request: {error}"
+msgstr "处理您的请求时出错：{error}"
+
+msgid "Authentication credentials were not provided."
+msgstr "未提供身份验证凭据。"
+
+msgid "You do not have permission to perform this action."
+msgstr "您没有执行此操作的权限。"
+
+msgid "organisation_id is required"
+msgstr "organisation_id 为必填项"
+
+msgid "Unknown organisation"
+msgstr "未知组织"
+
+msgid "credits_allocated must be an integer"
+msgstr "credits_allocated 必须为整数"
+
+msgid "credits_allocated must be >= 0"
+msgstr "credits_allocated 必须 >= 0"
+
+msgid ""
+"Allocation exceeds the platform AI credit limit. Only {remaining} credit(s) "
+"remain available."
+msgstr "分配额超出平台 AI 额度上限。仅剩 {remaining} 额度可用。"
+
+msgid "Unknown tenant"
+msgstr "未知租户"
+
+msgid "credits_allocated must be an integer or null"
+msgstr "credits_allocated 必须为整数或 null"
+
+msgid ""
+"The shares would exceed the organisation's AI credits. Only {remaining} "
+"credit(s) remain for this tenant."
+msgstr "分配额将超出组织的 AI 额度。此租户仅剩 {remaining} 额度。"
+
+msgid "The organisation has no AI credit pool yet"
+msgstr "该组织尚无 AI 额度池"
+
+msgid ""
+"AI features have been disabled for your organisation. Please contact your "
+"organisation admin."
+msgstr "您的组织已禁用 AI 功能。请联系您的组织管理员。"
+
+msgid "Flashcard not found."
+msgstr "未找到抽认卡。"
+
+msgid "Could not load review state"
+msgstr "无法加载复习状态"
+
+msgid "Could not save review"
+msgstr "无法保存复习"
+
+msgid "Could not load due flashcards"
+msgstr "无法加载待复习的抽认卡"
+
+msgid "Invalid request data"
+msgstr "请求数据无效"
+
+msgid "Tag with ID {skill_taxonomy_id} not found"
+msgstr "未找到 ID 为 {skill_taxonomy_id} 的标签"
+
+msgid "Invalid course ID format: {course_id}"
+msgstr "课程 ID 格式无效：{course_id}"
+
+msgid "User cannot modify courses outside their organization: {org_name}"
+msgstr "用户无法修改其组织以外的课程：{org_name}"
+
+msgid ""
+"Could not find first unit in course. Please ensure the course has at least "
+"one section, subsection, and unit."
+msgstr "找不到课程的第一个单元。请确保课程至少包含一个章节、小节和单元。"
+
+msgid "Failed to create component block"
+msgstr "创建组件块失败"
+
+msgid "Successfully created {component_type} component \"{component_name}\""
+msgstr "已成功创建 {component_type} 组件“{component_name}”"
+
+msgid "Failed to create knowledge atom: {error}"
+msgstr "创建知识点失败：{error}"
+
+msgid "Please provide a valid message."
+msgstr "请提供有效的消息。"
+
+msgid "Please provide a message."
+msgstr "请提供消息。"
+
+msgid ""
+"I apologize, but I encountered an error processing your request. Please try "
+"again."
+msgstr "抱歉，处理您的请求时出错。请重试。"
+
+msgid ""
+"I apologize, but I encountered an error processing your request. Please try "
+"again later."
+msgstr "抱歉，处理您的请求时出错。请稍后重试。"
+
+msgid "A valid lesson is required."
+msgstr "需要有效的课时。"
+
+msgid "You do not have access to this lesson."
+msgstr "您无权访问此课时。"
+
+msgid "This lesson is not available."
+msgstr "此课时不可用。"
+
+msgid "The AI tutor is turned off for this course."
+msgstr "此课程的 AI 导师已关闭。"
+
+msgid "Learning memory is not available."
+msgstr "学习记忆不可用。"
+
+msgid "Choose whether memory is enabled."
+msgstr "选择是否启用记忆。"
+
+msgid "Goals and preferences must each be text of at most 1000 characters."
+msgstr "目标和偏好均须为不超过 1000 个字符的文本。"
+
+msgid "helpful must be true or false."
+msgstr "helpful 必须为 true 或 false。"
+
+msgid "Message not found."
+msgstr "未找到消息。"
+
+msgid "Only an assistant answer can be rated."
+msgstr "只能对助手的回答进行评分。"
+
+msgid "Message is required."
+msgstr "消息为必填项。"
+
+msgid "Invalid message format."
+msgstr "消息格式无效。"
+
+msgid "Organization not found."
+msgstr "未找到组织。"
+
+msgid "Failed to create a new chat session."
+msgstr "创建新聊天会话失败。"
+
+msgid "Chat session not found."
+msgstr "未找到聊天会话。"
+
+msgid ""
+"An error occurred while processing your request. Please try again later."
+msgstr "处理您的请求时出错。请稍后重试。"
+
+msgid "An error occurred while creating the chat session."
+msgstr "创建聊天会话时出错。"
+
+msgid "Session not found."
+msgstr "未找到课堂。"
+
+msgid "sessionName is required."
+msgstr "sessionName 为必填项。"
+
+msgid "Failed to rename the chat session."
+msgstr "重命名聊天会话失败。"
+
+msgid "An error occurred while renaming the chat session."
+msgstr "重命名聊天会话时出错。"
+
+msgid "Failed to delete the chat session."
+msgstr "删除聊天会话失败。"
+
+msgid "An error occurred while deleting the chat session."
+msgstr "删除聊天会话时出错。"
+
+msgid "AI features have been disabled for your organisation."
+msgstr "您的组织已禁用 AI 功能。"
+
+msgid "Context ID is required"
+msgstr "需要提供 Context ID"
+
+msgid "User cannot access course outside their organization: {org_name}"
+msgstr "用户无法访问其组织以外的课程：{org_name}"
+
+msgid "Failed to auto-tag course: {error}"
+msgstr "自动标记课程失败：{error}"
+
+msgid "No content_tagged data provided"
+msgstr "未提供 content_tagged 数据"
+
+msgid "Each item in content_tagged must have a content_id"
+msgstr "content_tagged 中的每一项都必须包含 content_id"
+
+msgid "Each item in content_tagged must have taxonomy_suggestions"
+msgstr "content_tagged 中的每一项都必须包含 taxonomy_suggestions"
+
+msgid "No available taxonomies found for organization"
+msgstr "未找到该组织可用的分类体系"
+
+msgid "Failed to get taxonomies: {error}"
+msgstr "获取分类体系失败：{error}"
+
+msgid "Failed to apply tags: {error}"
+msgstr "应用标签失败：{error}"
+
+msgid "Failed to get course outline: {error}"
+msgstr "获取课程大纲失败：{error}"
+
+msgid "Failed to build course content list: {error}"
+msgstr "构建课程内容列表失败：{error}"
+
+msgid "Failed to get course hierarchy: {error}"
+msgstr "获取课程层级失败：{error}"
+
+msgid "Failed to remove tags: {error}"
+msgstr "移除标签失败：{error}"
+
+msgid "Error occurred while initializing image LLM"
+msgstr "初始化图像 LLM 时出错"
+
+msgid "Title and description are required"
+msgstr "标题和描述为必填项"
+
+msgid "AI features are disabled for this user."
+msgstr "已为此用户禁用 AI 功能。"
+
+msgid "Error occurred while generating program image"
+msgstr "生成项目图片时出错"

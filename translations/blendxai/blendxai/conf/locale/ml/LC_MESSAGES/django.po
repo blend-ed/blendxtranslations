@@ -1,0 +1,423 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: blendxai\n"
+"Report-Msgid-Bugs-To: \n"
+"Language: ml\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Organisation not found"
+msgstr "സ്ഥാപനം കണ്ടെത്തിയില്ല"
+
+msgid "You do not have access to this organisation."
+msgstr "ഈ സ്ഥാപനത്തിലേക്ക് നിങ്ങൾക്ക് ആക്സസ് ഇല്ല."
+
+msgid ""
+"AI usage has been disabled for your account. Please contact your "
+"organisation admin."
+msgstr ""
+"നിങ്ങളുടെ അക്കൗണ്ടിന് AI ഉപയോഗം പ്രവർത്തനരഹിതമാക്കി. ദയവായി നിങ്ങളുടെ "
+"സ്ഥാപനത്തിന്റെ അഡ്മിനെ ബന്ധപ്പെടുക."
+
+msgid ""
+"Your organisation has not configured AI features yet. Please contact your "
+"admin."
+msgstr ""
+"നിങ്ങളുടെ സ്ഥാപനം ഇതുവരെ AI ഫീച്ചറുകൾ കോൺഫിഗർ ചെയ്തിട്ടില്ല. ദയവായി "
+"നിങ്ങളുടെ അഡ്മിനെ ബന്ധപ്പെടുക."
+
+msgid "The AI produced invalid problem content: {error}"
+msgstr "AI അസാധുവായ പ്രോബ്ലം ഉള്ളടക്കം സൃഷ്ടിച്ചു: {error}"
+
+msgid "Failed to generate component: {error}"
+msgstr "ഘടകം സൃഷ്ടിക്കാനായില്ല: {error}"
+
+msgid "Failed to generate image: {error}"
+msgstr "ചിത്രം സൃഷ്ടിക്കാനായില്ല: {error}"
+
+msgid "The AI could not generate an image. Try rephrasing your description."
+msgstr ""
+"AI-ക്ക് ചിത്രം സൃഷ്ടിക്കാനായില്ല. നിങ്ങളുടെ വിവരണം മറ്റൊരു രീതിയിൽ എഴുതി "
+"നോക്കുക."
+
+msgid "Invalid parent_locator."
+msgstr "അസാധുവായ parent_locator."
+
+msgid "You do not have permission to edit this course."
+msgstr "ഈ കോഴ്സ് എഡിറ്റ് ചെയ്യാൻ നിങ്ങൾക്ക് അനുമതിയില്ല."
+
+msgid "AI usage has been disabled for your account."
+msgstr "നിങ്ങളുടെ അക്കൗണ്ടിന് AI ഉപയോഗം പ്രവർത്തനരഹിതമാക്കി."
+
+msgid ""
+"Writing this component needs library.edit and library.publish on your "
+"organisation, besides course.edit on the course."
+msgstr ""
+"ഈ ഘടകം എഴുതാൻ, കോഴ്സിലെ course.edit-ന് പുറമേ നിങ്ങളുടെ സ്ഥാപനത്തിൽ "
+"library.edit, library.publish എന്നിവയും ആവശ്യമാണ്."
+
+msgid "Failed to create component: {error}"
+msgstr "ഘടകം സൃഷ്ടിക്കാനായില്ല: {error}"
+
+msgid "This course is not in your organisation."
+msgstr "ഈ കോഴ്സ് നിങ്ങളുടെ സ്ഥാപനത്തിലില്ല."
+
+msgid "course_id is required."
+msgstr "course_id ആവശ്യമാണ്."
+
+msgid "Invalid course_id."
+msgstr "അസാധുവായ course_id."
+
+msgid ""
+"Your organisation has not configured AI assistant features yet. Please "
+"contact your admin."
+msgstr ""
+"നിങ്ങളുടെ സ്ഥാപനം ഇതുവരെ AI അസിസ്റ്റന്റ് ഫീച്ചറുകൾ കോൺഫിഗർ ചെയ്തിട്ടില്ല. "
+"ദയവായി നിങ്ങളുടെ അഡ്മിനെ ബന്ധപ്പെടുക."
+
+msgid "Failed to read course content: {error}"
+msgstr "കോഴ്സ് ഉള്ളടക്കം വായിക്കാനായില്ല: {error}"
+
+msgid "Failed to generate descriptions: {error}"
+msgstr "വിവരണങ്ങൾ സൃഷ്ടിക്കാനായില്ല: {error}"
+
+msgid "AI service not configured for this organization"
+msgstr "ഈ സ്ഥാപനത്തിന് AI സേവനം കോൺഫിഗർ ചെയ്തിട്ടില്ല"
+
+msgid "Invalid request data: {error}"
+msgstr "അസാധുവായ അഭ്യർത്ഥന ഡാറ്റ: {error}"
+
+msgid "Problem generation failed: {error}"
+msgstr "പ്രോബ്ലം സൃഷ്ടിക്കൽ പരാജയപ്പെട്ടു: {error}"
+
+msgid "Problem enhancement failed: {error}"
+msgstr "പ്രോബ്ലം മെച്ചപ്പെടുത്തൽ പരാജയപ്പെട്ടു: {error}"
+
+msgid "Problem validation failed: {error}"
+msgstr "പ്രോബ്ലം സാധൂകരണം പരാജയപ്പെട്ടു: {error}"
+
+msgid "Text content generation failed: {error}"
+msgstr "ടെക്സ്റ്റ് ഉള്ളടക്കം സൃഷ്ടിക്കൽ പരാജയപ്പെട്ടു: {error}"
+
+msgid "Text content enhancement failed: {error}"
+msgstr "ടെക്സ്റ്റ് ഉള്ളടക്കം മെച്ചപ്പെടുത്തൽ പരാജയപ്പെട്ടു: {error}"
+
+msgid "Content analysis failed: {error}"
+msgstr "ഉള്ളടക്ക വിശകലനം പരാജയപ്പെട്ടു: {error}"
+
+msgid "Assessment generation failed: {error}"
+msgstr "മൂല്യനിർണ്ണയം സൃഷ്ടിക്കൽ പരാജയപ്പെട്ടു: {error}"
+
+msgid "Accessibility optimization failed: {error}"
+msgstr "ആക്സസിബിലിറ്റി ഒപ്റ്റിമൈസേഷൻ പരാജയപ്പെട്ടു: {error}"
+
+msgid "Chat processing failed: {error}"
+msgstr "ചാറ്റ് പ്രോസസ്സിംഗ് പരാജയപ്പെട്ടു: {error}"
+
+msgid "Invalid course_id: {course_id}"
+msgstr "അസാധുവായ course_id: {course_id}"
+
+msgid "Unsupported target_language: {target_language}"
+msgstr "പിന്തുണയില്ലാത്ത target_language: {target_language}"
+
+msgid "Task not found."
+msgstr "ടാസ്ക് കണ്ടെത്തിയില്ല."
+
+msgid "AI features are disabled for this user"
+msgstr "ഈ ഉപയോക്താവിന് AI ഫീച്ചറുകൾ പ്രവർത്തനരഹിതമാണ്"
+
+msgid "Query is required"
+msgstr "ക്വറി ആവശ്യമാണ്"
+
+msgid "Error occurred while converting query to vector"
+msgstr "ക്വറി വെക്ടറാക്കി മാറ്റുമ്പോൾ പിശക് സംഭവിച്ചു"
+
+msgid "Error occurred while getting similarity search course content"
+msgstr "സമാനതാ തിരയലിനായി കോഴ്സ് ഉള്ളടക്കം ലഭ്യമാക്കുമ്പോൾ പിശക് സംഭവിച്ചു"
+
+msgid "Failed to generate OLX"
+msgstr "OLX സൃഷ്ടിക്കാനായില്ല"
+
+msgid ""
+"Please describe the skill set you want to generate (at least "
+"{min_prompt_length} characters)."
+msgstr ""
+"നിങ്ങൾ സൃഷ്ടിക്കാൻ ആഗ്രഹിക്കുന്ന കഴിവുകളുടെ കൂട്ടം വിവരിക്കുക (കുറഞ്ഞത് "
+"{min_prompt_length} അക്ഷരങ്ങൾ)."
+
+msgid "Prompt is too long (max {max_prompt_length} characters)."
+msgstr ""
+"പ്രോംപ്റ്റ് വളരെ ദൈർഘ്യമേറിയതാണ് (പരമാവധി {max_prompt_length} അക്ഷരങ്ങൾ)."
+
+msgid "Failed to generate taxonomy: {error}"
+msgstr "ടാക്സോണമി സൃഷ്ടിക്കാനായില്ല: {error}"
+
+msgid ""
+"Your Organization has not setup AI Assistant Features Correctly. Please "
+"contact the admin."
+msgstr ""
+"നിങ്ങളുടെ സ്ഥാപനം AI അസിസ്റ്റന്റ് ഫീച്ചറുകൾ ശരിയായി സജ്ജീകരിച്ചിട്ടില്ല. "
+"ദയവായി അഡ്മിനെ ബന്ധപ്പെടുക."
+
+msgid "Message is required"
+msgstr "സന്ദേശം ആവശ്യമാണ്"
+
+msgid "Course ID is required"
+msgstr "കോഴ്സ് ID ആവശ്യമാണ്"
+
+msgid "Course ID must be in format 'course-v1:org+course+run'"
+msgstr "കോഴ്സ് ID 'course-v1:org+course+run' ഫോർമാറ്റിൽ ആയിരിക്കണം"
+
+msgid ""
+"You don't have permission to edit courses. Please contact your "
+"administrator."
+msgstr ""
+"കോഴ്സുകൾ എഡിറ്റ് ചെയ്യാൻ നിങ്ങൾക്ക് അനുമതിയില്ല. ദയവായി നിങ്ങളുടെ "
+"അഡ്മിനിസ്ട്രേറ്ററെ ബന്ധപ്പെടുക."
+
+msgid "An error occurred while processing your request: {error}"
+msgstr ""
+"നിങ്ങളുടെ അഭ്യർത്ഥന പ്രോസസ്സ് ചെയ്യുമ്പോൾ ഒരു പിശക് സംഭവിച്ചു: {error}"
+
+msgid "Authentication credentials were not provided."
+msgstr "ആധികാരികത ഉറപ്പാക്കാനുള്ള ക്രെഡൻഷ്യലുകൾ നൽകിയിട്ടില്ല."
+
+msgid "You do not have permission to perform this action."
+msgstr "ഈ പ്രവർത്തനം നടത്താൻ നിങ്ങൾക്ക് അനുമതിയില്ല."
+
+msgid "organisation_id is required"
+msgstr "organisation_id ആവശ്യമാണ്"
+
+msgid "Unknown organisation"
+msgstr "അജ്ഞാത സ്ഥാപനം"
+
+msgid "credits_allocated must be an integer"
+msgstr "credits_allocated ഒരു പൂർണ്ണസംഖ്യ ആയിരിക്കണം"
+
+msgid "credits_allocated must be >= 0"
+msgstr "credits_allocated >= 0 ആയിരിക്കണം"
+
+msgid ""
+"Allocation exceeds the platform AI credit limit. Only {remaining} credit(s) "
+"remain available."
+msgstr ""
+"വിഹിതം പ്ലാറ്റ്ഫോമിന്റെ AI ക്രെഡിറ്റ് പരിധി കവിയുന്നു. {remaining} "
+"ക്രെഡിറ്റ്(കൾ) മാത്രമേ ലഭ്യമായിട്ടുള്ളൂ."
+
+msgid "Unknown tenant"
+msgstr "അജ്ഞാത ക്ലയന്റ് സ്ഥാപനം"
+
+msgid "credits_allocated must be an integer or null"
+msgstr "credits_allocated ഒരു പൂർണ്ണസംഖ്യയോ null-ഓ ആയിരിക്കണം"
+
+msgid ""
+"The shares would exceed the organisation's AI credits. Only {remaining} "
+"credit(s) remain for this tenant."
+msgstr ""
+"വിഹിതങ്ങൾ സ്ഥാപനത്തിന്റെ AI ക്രെഡിറ്റുകൾ കവിയും. ഈ ക്ലയന്റ് സ്ഥാപനത്തിന് "
+"{remaining} ക്രെഡിറ്റ്(കൾ) മാത്രമേ ബാക്കിയുള്ളൂ."
+
+msgid "The organisation has no AI credit pool yet"
+msgstr "സ്ഥാപനത്തിന് ഇതുവരെ AI ക്രെഡിറ്റ് പൂൾ ഇല്ല"
+
+msgid ""
+"AI features have been disabled for your organisation. Please contact your "
+"organisation admin."
+msgstr ""
+"നിങ്ങളുടെ സ്ഥാപനത്തിന് AI ഫീച്ചറുകൾ പ്രവർത്തനരഹിതമാക്കി. ദയവായി നിങ്ങളുടെ "
+"സ്ഥാപനത്തിന്റെ അഡ്മിനെ ബന്ധപ്പെടുക."
+
+msgid "Flashcard not found."
+msgstr "ഫ്ലാഷ്കാർഡ് കണ്ടെത്തിയില്ല."
+
+msgid "Could not load review state"
+msgstr "അവലോകന നില ലോഡ് ചെയ്യാനായില്ല"
+
+msgid "Could not save review"
+msgstr "അവലോകനം സേവ് ചെയ്യാനായില്ല"
+
+msgid "Could not load due flashcards"
+msgstr "അവലോകനത്തിനുള്ള ഫ്ലാഷ്കാർഡുകൾ ലോഡ് ചെയ്യാനായില്ല"
+
+msgid "Invalid request data"
+msgstr "അസാധുവായ അഭ്യർത്ഥന ഡാറ്റ"
+
+msgid "Tag with ID {skill_taxonomy_id} not found"
+msgstr "ID {skill_taxonomy_id} ഉള്ള ടാഗ് കണ്ടെത്തിയില്ല"
+
+msgid "Invalid course ID format: {course_id}"
+msgstr "അസാധുവായ കോഴ്സ് ID ഫോർമാറ്റ്: {course_id}"
+
+msgid "User cannot modify courses outside their organization: {org_name}"
+msgstr ""
+"ഉപയോക്താവിന് അവരുടെ സ്ഥാപനത്തിന് പുറത്തുള്ള കോഴ്സുകൾ മാറ്റാനാവില്ല: "
+"{org_name}"
+
+msgid ""
+"Could not find first unit in course. Please ensure the course has at least "
+"one section, subsection, and unit."
+msgstr ""
+"കോഴ്സിലെ ആദ്യ യൂണിറ്റ് കണ്ടെത്താനായില്ല. കോഴ്സിൽ കുറഞ്ഞത് ഒരു വിഭാഗവും "
+"ഉപവിഭാഗവും യൂണിറ്റും ഉണ്ടെന്ന് ഉറപ്പാക്കുക."
+
+msgid "Failed to create component block"
+msgstr "ഘടക ബ്ലോക്ക് സൃഷ്ടിക്കാനായില്ല"
+
+msgid "Successfully created {component_type} component \"{component_name}\""
+msgstr "{component_type} ഘടകം \"{component_name}\" വിജയകരമായി സൃഷ്ടിച്ചു"
+
+msgid "Failed to create knowledge atom: {error}"
+msgstr "നോളജ് ആറ്റം സൃഷ്ടിക്കാനായില്ല: {error}"
+
+msgid "Please provide a valid message."
+msgstr "ദയവായി സാധുവായ ഒരു സന്ദേശം നൽകുക."
+
+msgid "Please provide a message."
+msgstr "ദയവായി ഒരു സന്ദേശം നൽകുക."
+
+msgid ""
+"I apologize, but I encountered an error processing your request. Please try "
+"again."
+msgstr ""
+"ക്ഷമിക്കണം, നിങ്ങളുടെ അഭ്യർത്ഥന പ്രോസസ്സ് ചെയ്യുമ്പോൾ എനിക്ക് ഒരു പിശക് "
+"നേരിട്ടു. ദയവായി വീണ്ടും ശ്രമിക്കുക."
+
+msgid ""
+"I apologize, but I encountered an error processing your request. Please try "
+"again later."
+msgstr ""
+"ക്ഷമിക്കണം, നിങ്ങളുടെ അഭ്യർത്ഥന പ്രോസസ്സ് ചെയ്യുമ്പോൾ എനിക്ക് ഒരു പിശക് "
+"നേരിട്ടു. ദയവായി പിന്നീട് വീണ്ടും ശ്രമിക്കുക."
+
+msgid "A valid lesson is required."
+msgstr "സാധുവായ ഒരു പാഠം ആവശ്യമാണ്."
+
+msgid "You do not have access to this lesson."
+msgstr "ഈ പാഠത്തിലേക്ക് നിങ്ങൾക്ക് ആക്സസ് ഇല്ല."
+
+msgid "This lesson is not available."
+msgstr "ഈ പാഠം ലഭ്യമല്ല."
+
+msgid "The AI tutor is turned off for this course."
+msgstr "ഈ കോഴ്സിന് AI ട്യൂട്ടർ ഓഫാക്കിയിരിക്കുന്നു."
+
+msgid "Learning memory is not available."
+msgstr "പഠന മെമ്മറി ലഭ്യമല്ല."
+
+msgid "Choose whether memory is enabled."
+msgstr "മെമ്മറി പ്രവർത്തനക്ഷമമാക്കണോ എന്ന് തിരഞ്ഞെടുക്കുക."
+
+msgid "Goals and preferences must each be text of at most 1000 characters."
+msgstr ""
+"ലക്ഷ്യങ്ങളും മുൻഗണനകളും ഓരോന്നും പരമാവധി 1000 അക്ഷരങ്ങളുള്ള ടെക്സ്റ്റ് "
+"ആയിരിക്കണം."
+
+msgid "helpful must be true or false."
+msgstr "helpful true അല്ലെങ്കിൽ false ആയിരിക്കണം."
+
+msgid "Message not found."
+msgstr "സന്ദേശം കണ്ടെത്തിയില്ല."
+
+msgid "Only an assistant answer can be rated."
+msgstr "അസിസ്റ്റന്റിന്റെ ഉത്തരം മാത്രമേ റേറ്റ് ചെയ്യാനാകൂ."
+
+msgid "Message is required."
+msgstr "സന്ദേശം ആവശ്യമാണ്."
+
+msgid "Invalid message format."
+msgstr "അസാധുവായ സന്ദേശ ഫോർമാറ്റ്."
+
+msgid "Organization not found."
+msgstr "സ്ഥാപനം കണ്ടെത്തിയില്ല."
+
+msgid "Failed to create a new chat session."
+msgstr "പുതിയ ചാറ്റ് സെഷൻ സൃഷ്ടിക്കാനായില്ല."
+
+msgid "Chat session not found."
+msgstr "ചാറ്റ് സെഷൻ കണ്ടെത്തിയില്ല."
+
+msgid ""
+"An error occurred while processing your request. Please try again later."
+msgstr ""
+"നിങ്ങളുടെ അഭ്യർത്ഥന പ്രോസസ്സ് ചെയ്യുമ്പോൾ ഒരു പിശക് സംഭവിച്ചു. ദയവായി "
+"പിന്നീട് വീണ്ടും ശ്രമിക്കുക."
+
+msgid "An error occurred while creating the chat session."
+msgstr "ചാറ്റ് സെഷൻ സൃഷ്ടിക്കുമ്പോൾ ഒരു പിശക് സംഭവിച്ചു."
+
+msgid "Session not found."
+msgstr "സെഷൻ കണ്ടെത്തിയില്ല."
+
+msgid "sessionName is required."
+msgstr "sessionName ആവശ്യമാണ്."
+
+msgid "Failed to rename the chat session."
+msgstr "ചാറ്റ് സെഷന്റെ പേര് മാറ്റാനായില്ല."
+
+msgid "An error occurred while renaming the chat session."
+msgstr "ചാറ്റ് സെഷന്റെ പേര് മാറ്റുമ്പോൾ ഒരു പിശക് സംഭവിച്ചു."
+
+msgid "Failed to delete the chat session."
+msgstr "ചാറ്റ് സെഷൻ ഇല്ലാതാക്കാനായില്ല."
+
+msgid "An error occurred while deleting the chat session."
+msgstr "ചാറ്റ് സെഷൻ ഇല്ലാതാക്കുമ്പോൾ ഒരു പിശക് സംഭവിച്ചു."
+
+msgid "AI features have been disabled for your organisation."
+msgstr "നിങ്ങളുടെ സ്ഥാപനത്തിന് AI ഫീച്ചറുകൾ പ്രവർത്തനരഹിതമാക്കി."
+
+msgid "Context ID is required"
+msgstr "Context ID ആവശ്യമാണ്"
+
+msgid "User cannot access course outside their organization: {org_name}"
+msgstr ""
+"ഉപയോക്താവിന് അവരുടെ സ്ഥാപനത്തിന് പുറത്തുള്ള കോഴ്സ് ആക്സസ് ചെയ്യാനാവില്ല: "
+"{org_name}"
+
+msgid "Failed to auto-tag course: {error}"
+msgstr "കോഴ്സ് ഓട്ടോ-ടാഗ് ചെയ്യാനായില്ല: {error}"
+
+msgid "No content_tagged data provided"
+msgstr "content_tagged ഡാറ്റ നൽകിയിട്ടില്ല"
+
+msgid "Each item in content_tagged must have a content_id"
+msgstr "content_tagged-ലെ ഓരോ ഇനത്തിനും ഒരു content_id ഉണ്ടായിരിക്കണം"
+
+msgid "Each item in content_tagged must have taxonomy_suggestions"
+msgstr "content_tagged-ലെ ഓരോ ഇനത്തിനും taxonomy_suggestions ഉണ്ടായിരിക്കണം"
+
+msgid "No available taxonomies found for organization"
+msgstr "സ്ഥാപനത്തിന് ലഭ്യമായ ടാക്സോണമികളൊന്നും കണ്ടെത്തിയില്ല"
+
+msgid "Failed to get taxonomies: {error}"
+msgstr "ടാക്സോണമികൾ ലഭ്യമാക്കാനായില്ല: {error}"
+
+msgid "Failed to apply tags: {error}"
+msgstr "ടാഗുകൾ പ്രയോഗിക്കാനായില്ല: {error}"
+
+msgid "Failed to get course outline: {error}"
+msgstr "കോഴ്സ് രൂപരേഖ ലഭ്യമാക്കാനായില്ല: {error}"
+
+msgid "Failed to build course content list: {error}"
+msgstr "കോഴ്സ് ഉള്ളടക്ക ലിസ്റ്റ് നിർമ്മിക്കാനായില്ല: {error}"
+
+msgid "Failed to get course hierarchy: {error}"
+msgstr "കോഴ്സ് ശ്രേണി ലഭ്യമാക്കാനായില്ല: {error}"
+
+msgid "Failed to remove tags: {error}"
+msgstr "ടാഗുകൾ നീക്കം ചെയ്യാനായില്ല: {error}"
+
+msgid "Error occurred while initializing image LLM"
+msgstr "ഇമേജ് LLM ആരംഭിക്കുമ്പോൾ പിശക് സംഭവിച്ചു"
+
+msgid "Title and description are required"
+msgstr "തലക്കെട്ടും വിവരണവും ആവശ്യമാണ്"
+
+msgid "AI features are disabled for this user."
+msgstr "ഈ ഉപയോക്താവിന് AI ഫീച്ചറുകൾ പ്രവർത്തനരഹിതമാണ്."
+
+msgid "Error occurred while generating program image"
+msgstr "പ്രോഗ്രാം ചിത്രം സൃഷ്ടിക്കുമ്പോൾ പിശക് സംഭവിച്ചു"

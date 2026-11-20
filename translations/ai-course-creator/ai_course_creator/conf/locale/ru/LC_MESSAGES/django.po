@@ -9,8 +9,244 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
 
+msgid "An error occurred while processing your request. Please try again."
+msgstr "При обработке запроса произошла ошибка. Повторите попытку."
+
+msgid "Course not found"
+msgstr "Курс не найден"
+
+msgid "No units found in course structure"
+msgstr "В структуре курса не найдено блоков"
+
+msgid "AI service is not configured"
+msgstr "Сервис AI не настроен"
+
+msgid "Unit not found"
+msgstr "Блок не найден"
+
+msgid "AI returned invalid format"
+msgstr "AI вернул данные в неверном формате"
+
+msgid "Component not found"
+msgstr "Компонент не найден"
+
+msgid "AI returned invalid structure format"
+msgstr "AI вернул неверную структуру данных"
+
+msgid "course_creation_id is required."
+msgstr "Требуется course_creation_id."
+
+msgid "org, number, and run are all required."
+msgstr "Требуются org, number и run."
+
+msgid "Courses can only be created in your organisation."
+msgstr "Курсы можно создавать только в вашей организации."
+
+msgid "You do not have permission to create courses."
+msgstr "У вас нет прав на создание курсов."
+
+msgid "Course not found."
+msgstr "Курс не найден."
+
+msgid "You do not have access to this course."
+msgstr "У вас нет доступа к этому курсу."
+
+msgid ""
+"Course must be in script_generation, outline_creation, or failed stage. "
+"Current: {stage}"
+msgstr ""
+"Курс должен находиться на этапе script_generation, outline_creation или "
+"failed. Текущий: {stage}"
+
+msgid ""
+"Choose a video type (static link or AI avatar) in the Course Brief before "
+"building."
+msgstr ""
+"Перед созданием выберите тип видео (статическая ссылка или AI-аватар) в "
+"брифе курса."
+
+msgid ""
+"AI usage has been disabled for your account. Please contact your "
+"organisation admin."
+msgstr ""
+"Использование AI отключено для вашего аккаунта. Обратитесь к администратору "
+"организации."
+
+msgid ""
+"Your organisation's AI credits are exhausted. Contact your admin to allocate"
+" more."
+msgstr ""
+"AI-кредиты вашей организации исчерпаны. Обратитесь к администратору, чтобы "
+"выделить больше."
+
+msgid ""
+"This session's course is live and can't be rebuilt. Start a new AI Studio "
+"session to create another course."
+msgstr ""
+"Курс этого сеанса уже опубликован и не может быть пересоздан. Начните новый "
+"сеанс AI Studio, чтобы создать другой курс."
+
+msgid "Message is required."
+msgstr "Требуется сообщение."
+
+msgid "An .srt transcript file is required to create a course from a video."
+msgstr "Чтобы создать курс из видео, требуется файл субтитров .srt."
+
+msgid "That video is not in your organisation's video library."
+msgstr "Этого видео нет в видеотеке вашей организации."
+
+msgid "That .srt file has no timed subtitles, or is larger than 2 MB."
+msgstr ""
+"В этом файле .srt нет субтитров с таймкодами, или его размер превышает 2 МБ."
+
+msgid "A 'key' is required."
+msgstr "Требуется «key»."
+
+msgid "The '{key}' field is read-only."
+msgstr "Поле '{key}' доступно только для чтения."
+
+msgid "You do not have access to AI Studio for this organisation."
+msgstr "У вас нет доступа к AI Studio в этой организации."
+
+msgid ""
+"You do not have permission to manage AI Studio prompts for this "
+"organisation."
+msgstr "У вас нет прав на управление промптами AI Studio в этой организации."
+
+msgid ""
+"Course must be in outline_creation, component_plan, or script_generation "
+"stage. Current: {stage}"
+msgstr ""
+"Курс должен находиться на этапе outline_creation, component_plan или "
+"script_generation. Текущий: {stage}"
+
+msgid "course_creation_id and unit_id are required."
+msgstr "Требуются course_creation_id и unit_id."
+
+msgid "Access denied."
+msgstr "Доступ запрещён."
+
+msgid ""
+"Course must be in outline_creation or component_plan stage. Current: {stage}"
+msgstr ""
+"Курс должен находиться на этапе outline_creation или component_plan. "
+"Текущий: {stage}"
+
+msgid "component_types must be a non-empty list."
+msgstr "component_types должен быть непустым списком."
+
+msgid "Invalid component types: {invalid_types}. Valid types: {valid_types}"
+msgstr ""
+"Неверные типы компонентов: {invalid_types}. Допустимые типы: {valid_types}"
+
+msgid "component_id is required."
+msgstr "Требуется component_id."
+
+msgid "instruction is required."
+msgstr "Требуется instruction."
+
+msgid "Component not found."
+msgstr "Компонент не найден."
+
+msgid "You do not have access to this component."
+msgstr "У вас нет доступа к этому компоненту."
+
+msgid "script is required."
+msgstr "Требуется script."
+
+msgid "name is required."
+msgstr "Требуется name."
+
+msgid "Node not found."
+msgstr "Узел не найден."
+
+msgid "course_creation_id, hierarchy, and name are required."
+msgstr "Требуются course_creation_id, hierarchy и name."
+
+msgid "hierarchy must be section, subsection, or unit."
+msgstr "hierarchy должен быть section, subsection или unit."
+
+msgid "Parent node not found."
+msgstr "Родительский узел не найден."
+
+msgid "node_ids array is required."
+msgstr "Требуется массив node_ids."
+
+msgid "Some nodes not found."
+msgstr "Некоторые узлы не найдены."
+
+msgid "All nodes must belong to the same course."
+msgstr "Все узлы должны относиться к одному курсу."
+
 msgid ""
 "Dummy text to generate a translation (.po) source file. It is safe to delete"
 " this line. It is also safe to delete (load i18n) above if there are no "
 "other (trans) tags in the file"
 msgstr ""
+"Тестовый текст для создания исходного файла перевода (.po). Эту строку можно"
+" безопасно удалить. Также можно безопасно удалить (load i18n) выше, если в "
+"файле нет других тегов (trans)"
+
+msgid "Your course is ready"
+msgstr "Ваш курс готов"
+
+msgid "Hi %(full_name)s,"
+msgstr "Здравствуйте, %(full_name)s!"
+
+msgid ""
+"Your AI-generated course %(start_strong)s%(course_title)s%(end_strong)s has "
+"finished building and is ready in Studio."
+msgstr ""
+"Ваш курс %(start_strong)s%(course_title)s%(end_strong)s, созданный с помощью"
+" AI, готов и доступен в Studio."
+
+msgid ""
+"%(counter)s component could not be generated and needs your attention. "
+"Review the course before you publish it."
+msgid_plural ""
+"%(counter)s components could not be generated and need your attention. "
+"Review the course before you publish it."
+msgstr[0] ""
+"Не удалось сгенерировать компоненты (%(counter)s), требуется ваше внимание. "
+"Проверьте курс перед публикацией."
+msgstr[1] ""
+"Не удалось сгенерировать компоненты (%(counter)s), требуется ваше внимание. "
+"Проверьте курс перед публикацией."
+msgstr[2] ""
+"Не удалось сгенерировать компоненты (%(counter)s), требуется ваше внимание. "
+"Проверьте курс перед публикацией."
+
+msgid "Open in Studio"
+msgstr "Открыть в Studio"
+
+msgid "If the button doesn't work, copy this link into your browser:"
+msgstr "Если кнопка не работает, скопируйте эту ссылку в браузер:"
+
+msgid "View it as a learner"
+msgstr "Посмотреть как слушатель"
+
+msgid "Course ID: %(course_key)s"
+msgstr "ID курса: %(course_key)s"
+
+msgid ""
+"You got this email because you generated this course with the AI Course "
+"Creator."
+msgstr ""
+"Вы получили это письмо, потому что создали этот курс с помощью AI Course "
+"Creator."
+
+msgid ""
+"Your AI-generated course \"%(course_title)s\" has finished building and is "
+"ready in Studio."
+msgstr ""
+"Ваш курс «%(course_title)s», созданный с помощью AI, готов и доступен в "
+"Studio."
+
+msgid "Open it in Studio: %(studio_url)s"
+msgstr "Откройте в Studio: %(studio_url)s"
+
+msgid "View it as a learner: %(lms_url)s"
+msgstr "Посмотреть как слушатель: %(lms_url)s"
+
+msgid "Your course \"%(course_title)s\" is ready"
+msgstr "Ваш курс «%(course_title)s» готов"

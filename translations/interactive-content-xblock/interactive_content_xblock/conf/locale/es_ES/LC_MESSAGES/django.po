@@ -10,39 +10,41 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "HTML Content"
-msgstr ""
+msgstr "Contenido HTML"
 
 msgid "HTML content to render in the interactive block"
-msgstr ""
+msgstr "Contenido HTML que se mostrará en el bloque interactivo"
 
 msgid "CSS Content"
-msgstr ""
+msgstr "Contenido CSS"
 
 msgid "CSS styles for the interactive content"
-msgstr ""
+msgstr "Estilos CSS para el contenido interactivo"
 
 msgid "JavaScript Content"
-msgstr ""
+msgstr "Contenido JavaScript"
 
 msgid ""
 "JavaScript code for interactivity. Use submitInteraction(data) to send data "
 "to the XBlock."
 msgstr ""
+"Código JavaScript para la interactividad. Use submitInteraction(data) para "
+"enviar datos al XBlock."
 
 msgid "Enable Debug Mode"
-msgstr ""
+msgstr "Activar el modo de depuración"
 
 msgid "Show debug information and console logs"
-msgstr ""
+msgstr "Mostrar información de depuración y registros de la consola"
 
 msgid "Enable Auto-Grading"
-msgstr ""
+msgstr "Activar la calificación automática"
 
 msgid "Enable automatic grading based on JS response"
-msgstr ""
+msgstr "Activar la calificación automática según la respuesta de JS"
 
 msgid "Completion Mode"
-msgstr ""
+msgstr "Modo de finalización"
 
 msgid ""
 "How this block is marked complete. \"On submit\" completes when your "
@@ -51,227 +53,252 @@ msgid ""
 "no submission). \"Manual\" completes only when your JavaScript calls "
 "window.markComplete()."
 msgstr ""
+"Cómo se marca como completado este bloque. «Al enviar» lo completa cuando su"
+" JavaScript llama a submitInteraction(). «Al ver» lo completa "
+"automáticamente después de que el estudiante vea el bloque durante el "
+"retardo configurado (úselo para simulaciones sin envío). «Manual» lo "
+"completa solo cuando su JavaScript llama a window.markComplete()."
 
 msgid "On submit (when interaction is submitted)"
-msgstr ""
+msgstr "Al enviar (cuando se envía la interacción)"
 
 msgid "On view (auto-complete after viewing)"
-msgstr ""
+msgstr "Al ver (se completa automáticamente tras verlo)"
 
 msgid "Manual (author JS calls markComplete())"
-msgstr ""
+msgstr "Manual (el JS del autor llama a markComplete())"
 
 msgid "View Completion Delay (ms)"
-msgstr ""
+msgstr "Retardo de finalización al ver (ms)"
 
 msgid ""
 "Milliseconds the block must be viewed before auto-completing in \"On view\" "
 "mode."
 msgstr ""
+"Milisegundos que debe verse el bloque antes de completarse automáticamente "
+"en el modo «Al ver»."
 
 msgid "Weight"
-msgstr ""
+msgstr "Peso"
 
 msgid "Weight for grading purposes"
-msgstr ""
+msgstr "Peso a efectos de calificación"
 
 msgid "Display Name"
-msgstr ""
+msgstr "Nombre visible"
 
 msgid "Display name for this interactive block"
-msgstr ""
+msgstr "Nombre visible de este bloque interactivo"
 
 msgid "Correct Answers"
-msgstr ""
+msgstr "Respuestas correctas"
 
 msgid "JSON object defining correct answers for auto-grading"
 msgstr ""
+"Objeto JSON que define las respuestas correctas para la calificación "
+"automática"
 
 msgid "Show Feedback to Learners"
-msgstr ""
+msgstr "Mostrar comentarios a los estudiantes"
 
 msgid "Show correct/incorrect feedback to learners"
-msgstr ""
+msgstr "Mostrar a los estudiantes comentarios de correcto/incorrecto"
 
 msgid "Show Previous Response"
-msgstr ""
+msgstr "Mostrar respuesta anterior"
 
 msgid "Show learner their previous response when they return"
-msgstr ""
+msgstr "Mostrar al estudiante su respuesta anterior cuando vuelva"
 
 msgid "Captured learner interaction data"
-msgstr ""
+msgstr "Datos de interacción del estudiante registrados"
 
 msgid "Number of interactions submitted"
-msgstr ""
+msgstr "Número de interacciones enviadas"
 
 msgid "Timestamp of last interaction"
-msgstr ""
+msgstr "Marca de tiempo de la última interacción"
 
 msgid "Whether the learner response is correct"
-msgstr ""
+msgstr "Si la respuesta del estudiante es correcta"
 
 msgid "Score for the learner response"
-msgstr ""
+msgstr "Puntuación de la respuesta del estudiante"
 
 msgid "Feedback message shown to learner"
-msgstr ""
+msgstr "Mensaje de comentario que se muestra al estudiante"
 
 msgid "Whether on-view/manual completion has already been emitted"
-msgstr ""
+msgstr "Si ya se ha emitido la finalización al ver/manual"
 
 msgid "Debug Information (Staff Only)"
-msgstr ""
+msgstr "Información de depuración (solo personal)"
 
 msgid "Block ID"
-msgstr ""
+msgstr "ID del bloque"
 
 msgid "User ID"
-msgstr ""
+msgstr "ID de usuario"
 
 msgid "Interaction Count"
-msgstr ""
+msgstr "Número de interacciones"
 
 msgid "Last Interaction"
-msgstr ""
+msgstr "Última interacción"
 
 msgid "Is Correct"
-msgstr ""
+msgstr "Es correcto"
 
 msgid "Score"
-msgstr ""
+msgstr "Puntuación"
 
 msgid "Correct"
-msgstr ""
+msgstr "Correcto"
 
 msgid "Incorrect"
-msgstr ""
+msgstr "Incorrecto"
 
 msgid "Feedback"
-msgstr ""
+msgstr "Comentarios"
 
 msgid "Time spent"
-msgstr ""
+msgstr "Tiempo dedicado"
 
 msgid "No content. Please add HTML content in the studio."
-msgstr ""
+msgstr "No hay contenido. Añada contenido HTML en Studio."
 
 msgid "Generate with AI"
-msgstr ""
+msgstr "Generar con AI"
 
 msgid ""
 "e.g. A multiple choice quiz about the water cycle with 4 questions, each "
 "with 4 answer options..."
 msgstr ""
+"p. ej., Un cuestionario de opción múltiple sobre el ciclo del agua con 4 "
+"preguntas, cada una con 4 opciones de respuesta..."
 
 msgid "Generate"
-msgstr ""
+msgstr "Generar"
 
 msgid "Display name for this module"
-msgstr ""
+msgstr "Nombre visible de este módulo"
 
 msgid "Enter the HTML content that will be rendered in the interactive block"
-msgstr ""
+msgstr "Introduzca el contenido HTML que se mostrará en el bloque interactivo"
 
 msgid "CSS Styles"
-msgstr ""
+msgstr "Estilos CSS"
 
 msgid "Enter CSS styles for your interactive content"
-msgstr ""
+msgstr "Introduzca los estilos CSS de su contenido interactivo"
 
 msgid "JavaScript Code"
-msgstr ""
+msgstr "Código JavaScript"
 
 msgid ""
 "Enter JavaScript code for interactivity. Use submitInteraction(data) to send"
 " data to the XBlock"
 msgstr ""
+"Introduzca el código JavaScript para la interactividad. Use "
+"submitInteraction(data) para enviar datos al XBlock"
 
 msgid "Weight of this problem for grading"
-msgstr ""
+msgstr "Peso de este problema en la calificación"
 
 msgid "True"
-msgstr ""
+msgstr "Verdadero"
 
 msgid "False"
-msgstr ""
+msgstr "Falso"
 
 msgid "Enable debug mode for development"
-msgstr ""
+msgstr "Activar el modo de depuración para el desarrollo"
 
 msgid ""
 "How this block is marked complete. Use 'On view' for simulations with no "
 "submission."
 msgstr ""
+"Cómo se marca como completado este bloque. Use «Al ver» para simulaciones "
+"sin envío."
 
 msgid ""
 "Milliseconds the block must be viewed before auto-completing (On view mode "
 "only)."
 msgstr ""
+"Milisegundos que debe verse el bloque antes de completarse automáticamente "
+"(solo en el modo Al ver)."
 
 msgid "Auto Grade Enabled"
-msgstr ""
+msgstr "Calificación automática activada"
 
 msgid "Enable automatic grading based on interaction data"
-msgstr ""
+msgstr "Activar la calificación automática según los datos de interacción"
 
 msgid "Grading Configuration"
-msgstr ""
+msgstr "Configuración de la calificación"
 
 msgid "Answer Matching Mode"
-msgstr ""
+msgstr "Modo de coincidencia de respuestas"
 
 msgid "None (JS controls grading)"
-msgstr ""
+msgstr "Ninguno (el JS controla la calificación)"
 
 msgid "Single Answer"
-msgstr ""
+msgstr "Respuesta única"
 
 msgid "Multiple Fields"
-msgstr ""
+msgstr "Varios campos"
 
 msgid ""
 "Choose 'None' if your JavaScript passes correct: true/false in "
 "submitInteraction()."
 msgstr ""
+"Elija «Ninguno» si su JavaScript pasa correct: true/false en "
+"submitInteraction()."
 
 msgid "Correct Answer"
-msgstr ""
+msgstr "Respuesta correcta"
 
 msgid "The expected value. Comparison is case-insensitive."
 msgstr ""
+"El valor esperado. La comparación no distingue entre mayúsculas y "
+"minúsculas."
 
 msgid "Answer Fields"
-msgstr ""
+msgstr "Campos de respuesta"
 
 msgid "Add Field"
-msgstr ""
+msgstr "Añadir campo"
 
 msgid ""
 "Map each field name to its expected value. Partial credit is awarded "
 "proportionally."
 msgstr ""
+"Asigne a cada nombre de campo su valor esperado. El crédito parcial se "
+"concede de forma proporcional."
 
 msgid "Correct Feedback"
-msgstr ""
+msgstr "Comentario para respuesta correcta"
 
 msgid "Incorrect Feedback"
-msgstr ""
+msgstr "Comentario para respuesta incorrecta"
 
 msgid "Feedback is shown even when your JavaScript controls grading."
 msgstr ""
+"Los comentarios se muestran incluso cuando su JavaScript controla la "
+"calificación."
 
 msgid "Test Grading"
-msgstr ""
+msgstr "Probar calificación"
 
 msgid "Verify your grading setup before saving."
-msgstr ""
+msgstr "Verifique su configuración de calificación antes de guardar."
 
 msgid "Run Test"
-msgstr ""
+msgstr "Ejecutar prueba"
 
 msgid "Save"
-msgstr ""
+msgstr "Guardar"
 
 msgid "Cancel"
-msgstr ""
+msgstr "Cancelar"

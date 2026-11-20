@@ -1,0 +1,140 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xblock-blendx-session\n"
+"Report-Msgid-Bugs-To: \n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Only the dates offered to the learner's Batch"
+msgstr "学習者の受講期に提供される日程のみ"
+
+msgid "Any open date inside the learner's access window"
+msgstr "学習者のアクセス期間内で空きのある任意の日程"
+
+msgid "This Session unlocks after an earlier step."
+msgstr "このセッションは前のステップを完了すると利用可能になります。"
+
+msgid "Choose a date to book your place."
+msgstr "受講枠を予約する日程を選択してください。"
+
+msgid "Your organisation will book your Session."
+msgstr "セッションは組織が予約します。"
+
+msgid "You're booked."
+msgstr "予約が完了しました。"
+
+msgid ""
+"You're on the waitlist. You'll be booked automatically if a place frees up."
+msgstr "キャンセル待ちに登録されました。受講枠に空きが出ると自動的に予約されます。"
+
+msgid "You attended this Session."
+msgstr "このセッションに出席しました。"
+
+msgid "You missed this Session."
+msgstr "このセッションを欠席しました。"
+
+msgid "You don't have access to this Session."
+msgstr "このセッションへのアクセス権がありません。"
+
+msgid "Display name"
+msgstr "表示名"
+
+msgid "Live Session"
+msgstr "ライブセッション"
+
+msgid "Session"
+msgstr "セッション"
+
+msgid "The stand-alone Session this unit links to."
+msgstr "この単元がリンクしている単独のセッション。"
+
+msgid "Required"
+msgstr "必須"
+
+msgid ""
+"Learners must complete the Session to complete this part of the Course."
+msgstr "講座のこの部分を修了するには、学習者はセッションを修了する必要があります。"
+
+msgid "Which dates learners may book"
+msgstr "学習者が予約できる日程"
+
+msgid "Booking opens here when it's available."
+msgstr "予約が可能になると、ここから予約できます。"
+
+msgid "Optional"
+msgstr "任意"
+
+msgid "Choose a Session."
+msgstr "セッションを選択してください。"
+
+msgid "The Session no longer exists or can't be linked here."
+msgstr "セッションが存在しないか、ここにリンクできません。"
+
+msgid "The Session isn't published, so the link won't sync at publish."
+msgstr "セッションが公開されていないため、公開時にリンクは同期されません。"
+
+msgid "Choose which dates learners may book."
+msgstr "学習者が予約できる日程を選択してください。"
+
+msgid "(no Session selected)"
+msgstr "（セッションが選択されていません）"
+
+msgid "Yes"
+msgstr "はい"
+
+msgid "No"
+msgstr "いいえ"
+
+msgid "Only course staff can change this block."
+msgstr "このブロックを変更できるのは講座スタッフのみです。"
+
+msgid "The form wasn't sent correctly."
+msgstr "フォームが正しく送信されませんでした。"
+
+msgid "Choose a Session from the list."
+msgstr "一覧からセッションを選択してください。"
+
+msgid "That Session can't be linked here."
+msgstr "そのセッションはここにリンクできません。"
+
+msgid "Required is yes or no."
+msgstr "必須は「はい」または「いいえ」で指定してください。"
+
+msgid "Kind"
+msgstr "種類"
+
+msgid "Upcoming dates"
+msgstr "今後の日程"
+
+msgid "Dates learners may book"
+msgstr "学習者が予約できる日程"
+
+msgid "Limit to modes"
+msgstr "受講形式を限定"
+
+msgid "Use \"Restrict access\" on this component."
+msgstr "このコンポーネントの「アクセスを制限」を使用してください。"
+
+msgid "This Session isn't available yet."
+msgstr "このセッションはまだ利用できません。"
+
+msgid "Choose a Session"
+msgstr "セッションを選択"
+
+msgid "Required to complete this part of the Course"
+msgstr "講座のこの部分を修了するために必須"
+
+msgid ""
+"To limit it to some learning modes, use \"Restrict access\" on the "
+"component."
+msgstr "一部の受講形式に限定するには、コンポーネントの「アクセスを制限」を使用してください。"
+
+msgid "Save"
+msgstr "保存"
+
+msgid "Cancel"
+msgstr "キャンセル"

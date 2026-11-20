@@ -1,0 +1,148 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xblock-blendx-session\n"
+"Report-Msgid-Bugs-To: \n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Only the dates offered to the learner's Batch"
+msgstr "Solo le date offerte all'Edizione dello studente"
+
+msgid "Any open date inside the learner's access window"
+msgstr "Qualsiasi data disponibile nel periodo di accesso dello studente"
+
+msgid "This Session unlocks after an earlier step."
+msgstr "Questa Sessione si sblocca dopo un passaggio precedente."
+
+msgid "Choose a date to book your place."
+msgstr "Scegli una data per prenotare il tuo posto."
+
+msgid "Your organisation will book your Session."
+msgstr "La tua organizzazione prenoterà la tua Sessione."
+
+msgid "You're booked."
+msgstr "Prenotazione effettuata."
+
+msgid ""
+"You're on the waitlist. You'll be booked automatically if a place frees up."
+msgstr ""
+"Sei in lista d'attesa. Verrai prenotato automaticamente se si libera un "
+"posto."
+
+msgid "You attended this Session."
+msgstr "Hai partecipato a questa Sessione."
+
+msgid "You missed this Session."
+msgstr "Hai perso questa Sessione."
+
+msgid "You don't have access to this Session."
+msgstr "Non hai accesso a questa Sessione."
+
+msgid "Display name"
+msgstr "Nome visualizzato"
+
+msgid "Live Session"
+msgstr "Sessione dal vivo"
+
+msgid "Session"
+msgstr "Sessione"
+
+msgid "The stand-alone Session this unit links to."
+msgstr "La Sessione autonoma a cui è collegata questa unità."
+
+msgid "Required"
+msgstr "Obbligatorio"
+
+msgid ""
+"Learners must complete the Session to complete this part of the Course."
+msgstr ""
+"Gli studenti devono completare la Sessione per completare questa parte del "
+"Corso."
+
+msgid "Which dates learners may book"
+msgstr "Quali date gli studenti possono prenotare"
+
+msgid "Booking opens here when it's available."
+msgstr "La prenotazione si aprirà qui quando sarà disponibile."
+
+msgid "Optional"
+msgstr "Facoltativo"
+
+msgid "Choose a Session."
+msgstr "Scegli una Sessione."
+
+msgid "The Session no longer exists or can't be linked here."
+msgstr "La Sessione non esiste più o non può essere collegata qui."
+
+msgid "The Session isn't published, so the link won't sync at publish."
+msgstr ""
+"La Sessione non è pubblicata, quindi il link non verrà sincronizzato alla "
+"pubblicazione."
+
+msgid "Choose which dates learners may book."
+msgstr "Scegli quali date gli studenti possono prenotare."
+
+msgid "(no Session selected)"
+msgstr "(nessuna Sessione selezionata)"
+
+msgid "Yes"
+msgstr "Sì"
+
+msgid "No"
+msgstr "No"
+
+msgid "Only course staff can change this block."
+msgstr "Solo il personale del corso può modificare questo blocco."
+
+msgid "The form wasn't sent correctly."
+msgstr "Il modulo non è stato inviato correttamente."
+
+msgid "Choose a Session from the list."
+msgstr "Scegli una Sessione dall'elenco."
+
+msgid "That Session can't be linked here."
+msgstr "Quella Sessione non può essere collegata qui."
+
+msgid "Required is yes or no."
+msgstr "Il campo Obbligatorio accetta sì o no."
+
+msgid "Kind"
+msgstr "Tipo"
+
+msgid "Upcoming dates"
+msgstr "Prossime date"
+
+msgid "Dates learners may book"
+msgstr "Date prenotabili dagli studenti"
+
+msgid "Limit to modes"
+msgstr "Limita alle modalità"
+
+msgid "Use \"Restrict access\" on this component."
+msgstr "Usa \"Limita accesso\" su questo componente."
+
+msgid "This Session isn't available yet."
+msgstr "Questa Sessione non è ancora disponibile."
+
+msgid "Choose a Session"
+msgstr "Scegli una Sessione"
+
+msgid "Required to complete this part of the Course"
+msgstr "Obbligatorio per completare questa parte del Corso"
+
+msgid ""
+"To limit it to some learning modes, use \"Restrict access\" on the "
+"component."
+msgstr ""
+"Per limitarlo ad alcune modalità di apprendimento, usa \"Limita accesso\" "
+"sul componente."
+
+msgid "Save"
+msgstr "Salva"
+
+msgid "Cancel"
+msgstr "Annulla"

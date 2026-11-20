@@ -9,8 +9,243 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
+msgid "An error occurred while processing your request. Please try again."
+msgstr ""
+"သင့်တောင်းဆိုချက်ကို လုပ်ဆောင်စဉ် အမှားတစ်ခု ဖြစ်ပွားခဲ့သည်။ ထပ်ကြိုးစားပါ။"
+
+msgid "Course not found"
+msgstr "သင်တန်း မတွေ့ပါ"
+
+msgid "No units found in course structure"
+msgstr "သင်တန်းဖွဲ့စည်းပုံတွင် ယူနစ်များ မတွေ့ပါ"
+
+msgid "AI service is not configured"
+msgstr "AI ဝန်ဆောင်မှုကို စီစဉ်သတ်မှတ်ထားခြင်း မရှိပါ"
+
+msgid "Unit not found"
+msgstr "ယူနစ် မတွေ့ပါ"
+
+msgid "AI returned invalid format"
+msgstr "AI က မမှန်ကန်သော ပုံစံကို ပြန်ပေးခဲ့သည်"
+
+msgid "Component not found"
+msgstr "အစိတ်အပိုင်း မတွေ့ပါ"
+
+msgid "AI returned invalid structure format"
+msgstr "AI က မမှန်ကန်သော ဖွဲ့စည်းပုံ ပုံစံကို ပြန်ပေးခဲ့သည်"
+
+msgid "course_creation_id is required."
+msgstr "course_creation_id လိုအပ်ပါသည်။"
+
+msgid "org, number, and run are all required."
+msgstr "org၊ number နှင့် run အားလုံး လိုအပ်ပါသည်။"
+
+msgid "Courses can only be created in your organisation."
+msgstr "သင်တန်းများကို သင့်အဖွဲ့အစည်းတွင်သာ ဖန်တီးနိုင်ပါသည်။"
+
+msgid "You do not have permission to create courses."
+msgstr "သင်တန်းများ ဖန်တီးရန် ခွင့်ပြုချက် မရှိပါ။"
+
+msgid "Course not found."
+msgstr "သင်တန်း မတွေ့ပါ။"
+
+msgid "You do not have access to this course."
+msgstr "ဤသင်တန်းသို့ ဝင်ရောက်ခွင့် မရှိပါ။"
+
+msgid ""
+"Course must be in script_generation, outline_creation, or failed stage. "
+"Current: {stage}"
+msgstr ""
+"သင်တန်းသည် script_generation၊ outline_creation သို့မဟုတ် failed အဆင့်တွင် "
+"ရှိရမည်။ လက်ရှိ- {stage}"
+
+msgid ""
+"Choose a video type (static link or AI avatar) in the Course Brief before "
+"building."
+msgstr ""
+"မတည်ဆောက်မီ သင်တန်းအကျဉ်း (Course Brief) တွင် ဗီဒီယိုအမျိုးအစား (ပုံသေလင့်ခ်"
+" သို့မဟုတ် AI ကိုယ်စားလှယ်ပုံ) ကို ရွေးချယ်ပါ။"
+
+msgid ""
+"AI usage has been disabled for your account. Please contact your "
+"organisation admin."
+msgstr ""
+"သင့်အကောင့်အတွက် AI အသုံးပြုမှုကို ပိတ်ထားပါသည်။ သင့်အဖွဲ့အစည်း "
+"စီမံခန့်ခွဲသူကို ဆက်သွယ်ပါ။"
+
+msgid ""
+"Your organisation's AI credits are exhausted. Contact your admin to allocate"
+" more."
+msgstr ""
+"သင့်အဖွဲ့အစည်း၏ AI ခရက်ဒစ်များ ကုန်သွားပါပြီ။ ထပ်မံခွဲဝေပေးရန် "
+"သင့်စီမံခန့်ခွဲသူကို ဆက်သွယ်ပါ။"
+
+msgid ""
+"This session's course is live and can't be rebuilt. Start a new AI Studio "
+"session to create another course."
+msgstr ""
+"ဤဆက်ရှင်၏ သင်တန်းသည် အသက်ဝင်နေပြီဖြစ်၍ ပြန်လည်တည်ဆောက်၍မရပါ။ "
+"နောက်ထပ်သင်တန်းတစ်ခု ဖန်တီးရန် AI Studio ဆက်ရှင်အသစ် စတင်ပါ။"
+
+msgid "Message is required."
+msgstr "မက်ဆေ့ချ် လိုအပ်ပါသည်။"
+
+msgid "An .srt transcript file is required to create a course from a video."
+msgstr "ဗီဒီယိုမှ သင်တန်းဖန်တီးရန် .srt စာသားမှတ်တမ်းဖိုင် လိုအပ်ပါသည်။"
+
+msgid "That video is not in your organisation's video library."
+msgstr "ထိုဗီဒီယိုသည် သင့်အဖွဲ့အစည်း၏ ဗီဒီယိုစာကြည့်တိုက်တွင် မရှိပါ။"
+
+msgid "That .srt file has no timed subtitles, or is larger than 2 MB."
+msgstr ""
+"ထို .srt ဖိုင်တွင် အချိန်သတ်မှတ်ထားသော စာတန်းထိုးများ မပါဝင်ပါ၊ သို့မဟုတ် 2 "
+"MB ထက် ကြီးနေပါသည်။"
+
+msgid "A 'key' is required."
+msgstr "'key' လိုအပ်ပါသည်။"
+
+msgid "The '{key}' field is read-only."
+msgstr "'{key}' အကွက်သည် ဖတ်ရန်သာ ဖြစ်ပါသည်။"
+
+msgid "You do not have access to AI Studio for this organisation."
+msgstr "ဤအဖွဲ့အစည်းအတွက် AI Studio ကို ဝင်ရောက်ခွင့် မရှိပါ။"
+
+msgid ""
+"You do not have permission to manage AI Studio prompts for this "
+"organisation."
+msgstr ""
+"ဤအဖွဲ့အစည်းအတွက် AI Studio prompt များကို စီမံရန် ခွင့်ပြုချက် မရှိပါ။"
+
+msgid ""
+"Course must be in outline_creation, component_plan, or script_generation "
+"stage. Current: {stage}"
+msgstr ""
+"သင်တန်းသည် outline_creation၊ component_plan သို့မဟုတ် script_generation "
+"အဆင့်တွင် ရှိရမည်။ လက်ရှိ- {stage}"
+
+msgid "course_creation_id and unit_id are required."
+msgstr "course_creation_id နှင့် unit_id လိုအပ်ပါသည်။"
+
+msgid "Access denied."
+msgstr "ဝင်ရောက်ခွင့် ငြင်းပယ်ခံရသည်။"
+
+msgid ""
+"Course must be in outline_creation or component_plan stage. Current: {stage}"
+msgstr ""
+"သင်တန်းသည် outline_creation သို့မဟုတ် component_plan အဆင့်တွင် ရှိရမည်။ "
+"လက်ရှိ- {stage}"
+
+msgid "component_types must be a non-empty list."
+msgstr "component_types သည် ဗလာမဟုတ်သော စာရင်း ဖြစ်ရမည်။"
+
+msgid "Invalid component types: {invalid_types}. Valid types: {valid_types}"
+msgstr ""
+"မမှန်ကန်သော အစိတ်အပိုင်းအမျိုးအစားများ- {invalid_types}။ မှန်ကန်သော "
+"အမျိုးအစားများ- {valid_types}"
+
+msgid "component_id is required."
+msgstr "component_id လိုအပ်ပါသည်။"
+
+msgid "instruction is required."
+msgstr "instruction လိုအပ်ပါသည်။"
+
+msgid "Component not found."
+msgstr "အစိတ်အပိုင်း မတွေ့ပါ။"
+
+msgid "You do not have access to this component."
+msgstr "ဤအစိတ်အပိုင်းကို ဝင်ရောက်ခွင့် မရှိပါ။"
+
+msgid "script is required."
+msgstr "script လိုအပ်ပါသည်။"
+
+msgid "name is required."
+msgstr "name လိုအပ်ပါသည်။"
+
+msgid "Node not found."
+msgstr "Node မတွေ့ပါ။"
+
+msgid "course_creation_id, hierarchy, and name are required."
+msgstr "course_creation_id၊ hierarchy နှင့် name လိုအပ်ပါသည်။"
+
+msgid "hierarchy must be section, subsection, or unit."
+msgstr "hierarchy သည် section၊ subsection သို့မဟုတ် unit ဖြစ်ရမည်။"
+
+msgid "Parent node not found."
+msgstr "မိခင် node မတွေ့ပါ။"
+
+msgid "node_ids array is required."
+msgstr "node_ids array လိုအပ်ပါသည်။"
+
+msgid "Some nodes not found."
+msgstr "node အချို့ မတွေ့ပါ။"
+
+msgid "All nodes must belong to the same course."
+msgstr "node အားလုံးသည် တူညီသော သင်တန်းတစ်ခုတည်းနှင့် သက်ဆိုင်ရမည်။"
+
 msgid ""
 "Dummy text to generate a translation (.po) source file. It is safe to delete"
 " this line. It is also safe to delete (load i18n) above if there are no "
 "other (trans) tags in the file"
 msgstr ""
+"ဘာသာပြန် (.po) ရင်းမြစ်ဖိုင် ထုတ်လုပ်ရန် နမူနာစာသား။ ဤစာကြောင်းကို "
+"ဖျက်ခြင်းသည် ဘေးကင်းပါသည်။ ဖိုင်တွင် အခြား (trans) တဂ်များ မရှိပါက အပေါ်ရှိ "
+"(load i18n) ကို ဖျက်ခြင်းသည်လည်း ဘေးကင်းပါသည်"
+
+msgid "Your course is ready"
+msgstr "သင့်သင်တန်း အသင့်ဖြစ်ပါပြီ"
+
+msgid "Hi %(full_name)s,"
+msgstr "မင်္ဂလာပါ %(full_name)s၊"
+
+msgid ""
+"Your AI-generated course %(start_strong)s%(course_title)s%(end_strong)s has "
+"finished building and is ready in Studio."
+msgstr ""
+"AI ဖြင့် ဖန်တီးထားသော သင့်သင်တန်း "
+"%(start_strong)s%(course_title)s%(end_strong)s တည်ဆောက်ပြီးစီး၍ Studio တွင် "
+"အသင့်ဖြစ်ပါပြီ။"
+
+msgid ""
+"%(counter)s component could not be generated and needs your attention. "
+"Review the course before you publish it."
+msgid_plural ""
+"%(counter)s components could not be generated and need your attention. "
+"Review the course before you publish it."
+msgstr[0] ""
+"အစိတ်အပိုင်း %(counter)s ခုကို ဖန်တီး၍မရနိုင်သဖြင့် သင့်အာရုံစိုက်မှု "
+"လိုအပ်ပါသည်။ ထုတ်ဝေခြင်းမပြုမီ သင်တန်းကို ပြန်လည်စစ်ဆေးပါ။"
+
+msgid "Open in Studio"
+msgstr "Studio တွင် ဖွင့်ရန်"
+
+msgid "If the button doesn't work, copy this link into your browser:"
+msgstr "ခလုတ် အလုပ်မလုပ်ပါက ဤလင့်ခ်ကို သင့်ဘရောက်ဇာထဲသို့ ကူးထည့်ပါ-"
+
+msgid "View it as a learner"
+msgstr "သင်ယူသူအဖြစ် ကြည့်ရှုရန်"
+
+msgid "Course ID: %(course_key)s"
+msgstr "သင်တန်း ID- %(course_key)s"
+
+msgid ""
+"You got this email because you generated this course with the AI Course "
+"Creator."
+msgstr ""
+"AI သင်တန်းဖန်တီးသူဖြင့် ဤသင်တန်းကို သင်ဖန်တီးခဲ့သောကြောင့် ဤအီးမေးလ်ကို "
+"သင်ရရှိခြင်း ဖြစ်ပါသည်။"
+
+msgid ""
+"Your AI-generated course \"%(course_title)s\" has finished building and is "
+"ready in Studio."
+msgstr ""
+"AI ဖြင့် ဖန်တီးထားသော သင့်သင်တန်း \"%(course_title)s\" တည်ဆောက်ပြီးစီး၍ "
+"Studio တွင် အသင့်ဖြစ်ပါပြီ။"
+
+msgid "Open it in Studio: %(studio_url)s"
+msgstr "Studio တွင် ဖွင့်ပါ- %(studio_url)s"
+
+msgid "View it as a learner: %(lms_url)s"
+msgstr "သင်ယူသူအဖြစ် ကြည့်ရှုပါ- %(lms_url)s"
+
+msgid "Your course \"%(course_title)s\" is ready"
+msgstr "သင့်သင်တန်း \"%(course_title)s\" အသင့်ဖြစ်ပါပြီ"

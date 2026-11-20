@@ -10,99 +10,100 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid "Display Name"
-msgstr ""
+msgstr "表示名"
 
 msgid "Display name for this module"
-msgstr ""
+msgstr "このモジュールの表示名"
 
 msgid "Path to the index page in scorm file"
-msgstr ""
+msgstr "SCORMファイル内のインデックスページへのパス"
 
 msgid "Weight"
-msgstr ""
+msgstr "重み"
 
 msgid "Weight/Maximum grade"
-msgstr ""
+msgstr "重み/最高点"
 
 msgid "Scored"
-msgstr ""
+msgstr "採点対象"
 
 msgid ""
 "Select False if this component will not receive a numerical score from the "
 "Scorm"
-msgstr ""
+msgstr "このコンポーネントがSCORMから数値スコアを受け取らない場合は、Falseを選択してください"
 
 msgid "Display width (px)"
-msgstr ""
+msgstr "表示の幅(px)"
 
 msgid "Width of iframe (default: 100%)"
-msgstr ""
+msgstr "iframeの幅(既定: 100%)"
 
 msgid "Display height (px)"
-msgstr ""
+msgstr "表示の高さ(px)"
 
 msgid "Height of iframe"
-msgstr ""
+msgstr "iframeの高さ"
 
 msgid "Launch in pop-up window"
-msgstr ""
+msgstr "ポップアップウィンドウで起動"
 
 msgid ""
 "Launch in pop-up window instead of embedding the SCORM content in an iframe."
 " Enable this for older packages that need to be run in separate window."
 msgstr ""
+"SCORMコンテンツをiframeに埋め込む代わりに、ポップアップウィンドウで起動します。別ウィンドウで実行する必要がある古いパッケージの場合に有効にしてください。"
 
 msgid "Display navigation menu"
-msgstr ""
+msgstr "ナビゲーションメニューを表示"
 
 msgid ""
 "Select True to display a navigation menu on the left side to display table "
 "of contents"
-msgstr ""
+msgstr "左側に目次を表示するナビゲーションメニューを表示するには、Trueを選択してください"
 
 msgid "Show Fullscreen Button"
-msgstr ""
+msgstr "全画面表示ボタンを表示"
 
 msgid "Select True to show fullscreen button in the SCORM content"
-msgstr ""
+msgstr "SCORMコンテンツに全画面表示ボタンを表示するには、Trueを選択してください"
 
 msgid "Display width of navigation menu(px)"
-msgstr ""
+msgstr "ナビゲーションメニューの表示幅(px)"
 
 msgid ""
 "Width of navigation menu. This assumes that Navigation Menu is enabled. "
 "(default: 30%)"
-msgstr ""
+msgstr "ナビゲーションメニューの幅。ナビゲーションメニューが有効であることが前提です。(既定: 30%)"
 
 msgid "points"
-msgstr ""
+msgstr "ポイント"
 
 msgid "Fullscreen"
-msgstr ""
+msgstr "全画面表示"
 
 msgid "Exit fullscreen"
-msgstr ""
+msgstr "全画面表示を終了"
 
 msgid "Launch unit in new window"
-msgstr ""
+msgstr "単元を新しいウィンドウで起動"
 
 msgid "View SCORM reports"
-msgstr ""
+msgstr "SCORMレポートを表示"
 
 msgid "Upload .zip package"
-msgstr ""
+msgstr ".zipパッケージをアップロード"
 
 msgid "Currently:"
-msgstr ""
+msgstr "現在:"
 
 msgid "True"
-msgstr ""
+msgstr "True"
 
 msgid "False"
-msgstr ""
+msgstr "False"
 
 msgid "Save"
-msgstr ""
+msgstr "保存"
 
 msgid "Cancel"
-msgstr ""
+msgstr "キャンセル"

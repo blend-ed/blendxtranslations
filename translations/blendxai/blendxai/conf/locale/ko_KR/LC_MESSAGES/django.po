@@ -1,0 +1,387 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: blendxai\n"
+"Report-Msgid-Bugs-To: \n"
+"Language: ko_KR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Organisation not found"
+msgstr "조직을 찾을 수 없습니다"
+
+msgid "You do not have access to this organisation."
+msgstr "이 조직에 액세스할 권한이 없습니다."
+
+msgid ""
+"AI usage has been disabled for your account. Please contact your "
+"organisation admin."
+msgstr "계정의 AI 사용이 비활성화되었습니다. 조직 관리자에게 문의하세요."
+
+msgid ""
+"Your organisation has not configured AI features yet. Please contact your "
+"admin."
+msgstr "조직에서 아직 AI 기능을 구성하지 않았습니다. 관리자에게 문의하세요."
+
+msgid "The AI produced invalid problem content: {error}"
+msgstr "AI가 잘못된 문제 콘텐츠를 생성했습니다: {error}"
+
+msgid "Failed to generate component: {error}"
+msgstr "구성 요소 생성 실패: {error}"
+
+msgid "Failed to generate image: {error}"
+msgstr "이미지 생성 실패: {error}"
+
+msgid "The AI could not generate an image. Try rephrasing your description."
+msgstr "AI가 이미지를 생성하지 못했습니다. 설명을 다르게 작성해 보세요."
+
+msgid "Invalid parent_locator."
+msgstr "잘못된 parent_locator입니다."
+
+msgid "You do not have permission to edit this course."
+msgstr "이 강의를 편집할 권한이 없습니다."
+
+msgid "AI usage has been disabled for your account."
+msgstr "계정의 AI 사용이 비활성화되었습니다."
+
+msgid ""
+"Writing this component needs library.edit and library.publish on your "
+"organisation, besides course.edit on the course."
+msgstr ""
+"이 구성 요소를 작성하려면 강의에 대한 course.edit 외에도 조직에 대한 library.edit 및 library.publish "
+"권한이 필요합니다."
+
+msgid "Failed to create component: {error}"
+msgstr "구성 요소 생성 실패: {error}"
+
+msgid "This course is not in your organisation."
+msgstr "이 강의는 소속 조직에 없습니다."
+
+msgid "course_id is required."
+msgstr "course_id가 필요합니다."
+
+msgid "Invalid course_id."
+msgstr "잘못된 course_id입니다."
+
+msgid ""
+"Your organisation has not configured AI assistant features yet. Please "
+"contact your admin."
+msgstr "조직에서 아직 AI 어시스턴트 기능을 구성하지 않았습니다. 관리자에게 문의하세요."
+
+msgid "Failed to read course content: {error}"
+msgstr "강의 콘텐츠 읽기 실패: {error}"
+
+msgid "Failed to generate descriptions: {error}"
+msgstr "설명 생성 실패: {error}"
+
+msgid "AI service not configured for this organization"
+msgstr "이 조직에 AI 서비스가 구성되지 않았습니다"
+
+msgid "Invalid request data: {error}"
+msgstr "잘못된 요청 데이터: {error}"
+
+msgid "Problem generation failed: {error}"
+msgstr "문제 생성 실패: {error}"
+
+msgid "Problem enhancement failed: {error}"
+msgstr "문제 개선 실패: {error}"
+
+msgid "Problem validation failed: {error}"
+msgstr "문제 유효성 검사 실패: {error}"
+
+msgid "Text content generation failed: {error}"
+msgstr "텍스트 콘텐츠 생성 실패: {error}"
+
+msgid "Text content enhancement failed: {error}"
+msgstr "텍스트 콘텐츠 개선 실패: {error}"
+
+msgid "Content analysis failed: {error}"
+msgstr "콘텐츠 분석 실패: {error}"
+
+msgid "Assessment generation failed: {error}"
+msgstr "평가 생성 실패: {error}"
+
+msgid "Accessibility optimization failed: {error}"
+msgstr "접근성 최적화 실패: {error}"
+
+msgid "Chat processing failed: {error}"
+msgstr "채팅 처리 실패: {error}"
+
+msgid "Invalid course_id: {course_id}"
+msgstr "잘못된 course_id: {course_id}"
+
+msgid "Unsupported target_language: {target_language}"
+msgstr "지원되지 않는 target_language: {target_language}"
+
+msgid "Task not found."
+msgstr "작업을 찾을 수 없습니다."
+
+msgid "AI features are disabled for this user"
+msgstr "이 사용자는 AI 기능을 사용할 수 없습니다"
+
+msgid "Query is required"
+msgstr "쿼리가 필요합니다"
+
+msgid "Error occurred while converting query to vector"
+msgstr "쿼리를 벡터로 변환하는 중 오류가 발생했습니다"
+
+msgid "Error occurred while getting similarity search course content"
+msgstr "유사도 검색용 강의 콘텐츠를 가져오는 중 오류가 발생했습니다"
+
+msgid "Failed to generate OLX"
+msgstr "OLX를 생성하지 못했습니다"
+
+msgid ""
+"Please describe the skill set you want to generate (at least "
+"{min_prompt_length} characters)."
+msgstr "생성할 기술 세트를 설명해 주세요({min_prompt_length}자 이상)."
+
+msgid "Prompt is too long (max {max_prompt_length} characters)."
+msgstr "프롬프트가 너무 깁니다(최대 {max_prompt_length}자)."
+
+msgid "Failed to generate taxonomy: {error}"
+msgstr "분류 체계 생성 실패: {error}"
+
+msgid ""
+"Your Organization has not setup AI Assistant Features Correctly. Please "
+"contact the admin."
+msgstr "조직에서 AI 어시스턴트 기능을 올바르게 설정하지 않았습니다. 관리자에게 문의하세요."
+
+msgid "Message is required"
+msgstr "메시지가 필요합니다"
+
+msgid "Course ID is required"
+msgstr "강의 ID가 필요합니다"
+
+msgid "Course ID must be in format 'course-v1:org+course+run'"
+msgstr "강의 ID는 'course-v1:org+course+run' 형식이어야 합니다"
+
+msgid ""
+"You don't have permission to edit courses. Please contact your "
+"administrator."
+msgstr "강의를 편집할 권한이 없습니다. 관리자에게 문의하세요."
+
+msgid "An error occurred while processing your request: {error}"
+msgstr "요청을 처리하는 중 오류가 발생했습니다: {error}"
+
+msgid "Authentication credentials were not provided."
+msgstr "인증 자격 증명이 제공되지 않았습니다."
+
+msgid "You do not have permission to perform this action."
+msgstr "이 작업을 수행할 권한이 없습니다."
+
+msgid "organisation_id is required"
+msgstr "organisation_id가 필요합니다"
+
+msgid "Unknown organisation"
+msgstr "알 수 없는 조직"
+
+msgid "credits_allocated must be an integer"
+msgstr "credits_allocated는 정수여야 합니다"
+
+msgid "credits_allocated must be >= 0"
+msgstr "credits_allocated는 0 이상이어야 합니다"
+
+msgid ""
+"Allocation exceeds the platform AI credit limit. Only {remaining} credit(s) "
+"remain available."
+msgstr "할당량이 플랫폼 AI 크레딧 한도를 초과합니다. 사용 가능한 크레딧은 {remaining}개만 남아 있습니다."
+
+msgid "Unknown tenant"
+msgstr "알 수 없는 테넌트"
+
+msgid "credits_allocated must be an integer or null"
+msgstr "credits_allocated는 정수 또는 null이어야 합니다"
+
+msgid ""
+"The shares would exceed the organisation's AI credits. Only {remaining} "
+"credit(s) remain for this tenant."
+msgstr "할당량이 조직의 AI 크레딧을 초과합니다. 이 테넌트에 남은 크레딧은 {remaining}개뿐입니다."
+
+msgid "The organisation has no AI credit pool yet"
+msgstr "조직에 아직 AI 크레딧 풀이 없습니다"
+
+msgid ""
+"AI features have been disabled for your organisation. Please contact your "
+"organisation admin."
+msgstr "조직의 AI 기능이 비활성화되었습니다. 조직 관리자에게 문의하세요."
+
+msgid "Flashcard not found."
+msgstr "플래시카드를 찾을 수 없습니다."
+
+msgid "Could not load review state"
+msgstr "복습 상태를 불러올 수 없습니다"
+
+msgid "Could not save review"
+msgstr "복습 내용을 저장할 수 없습니다"
+
+msgid "Could not load due flashcards"
+msgstr "복습할 플래시카드를 불러올 수 없습니다"
+
+msgid "Invalid request data"
+msgstr "잘못된 요청 데이터"
+
+msgid "Tag with ID {skill_taxonomy_id} not found"
+msgstr "ID가 {skill_taxonomy_id}인 태그를 찾을 수 없습니다"
+
+msgid "Invalid course ID format: {course_id}"
+msgstr "잘못된 강의 ID 형식: {course_id}"
+
+msgid "User cannot modify courses outside their organization: {org_name}"
+msgstr "사용자는 소속 조직 외부의 강의를 수정할 수 없습니다: {org_name}"
+
+msgid ""
+"Could not find first unit in course. Please ensure the course has at least "
+"one section, subsection, and unit."
+msgstr "강의에서 첫 번째 단원을 찾을 수 없습니다. 강의에 섹션, 하위 섹션, 단원이 각각 하나 이상 있는지 확인하세요."
+
+msgid "Failed to create component block"
+msgstr "구성 요소 블록을 만들지 못했습니다"
+
+msgid "Successfully created {component_type} component \"{component_name}\""
+msgstr "{component_type} 구성 요소 \"{component_name}\"을(를) 만들었습니다"
+
+msgid "Failed to create knowledge atom: {error}"
+msgstr "지식 단위 생성 실패: {error}"
+
+msgid "Please provide a valid message."
+msgstr "유효한 메시지를 입력하세요."
+
+msgid "Please provide a message."
+msgstr "메시지를 입력하세요."
+
+msgid ""
+"I apologize, but I encountered an error processing your request. Please try "
+"again."
+msgstr "죄송합니다. 요청을 처리하는 중 오류가 발생했습니다. 다시 시도하세요."
+
+msgid ""
+"I apologize, but I encountered an error processing your request. Please try "
+"again later."
+msgstr "죄송합니다. 요청을 처리하는 중 오류가 발생했습니다. 나중에 다시 시도하세요."
+
+msgid "A valid lesson is required."
+msgstr "유효한 레슨이 필요합니다."
+
+msgid "You do not have access to this lesson."
+msgstr "이 레슨에 액세스할 권한이 없습니다."
+
+msgid "This lesson is not available."
+msgstr "이 레슨은 이용할 수 없습니다."
+
+msgid "The AI tutor is turned off for this course."
+msgstr "이 강의에는 AI 튜터가 꺼져 있습니다."
+
+msgid "Learning memory is not available."
+msgstr "학습 메모리를 사용할 수 없습니다."
+
+msgid "Choose whether memory is enabled."
+msgstr "메모리 사용 여부를 선택하세요."
+
+msgid "Goals and preferences must each be text of at most 1000 characters."
+msgstr "목표와 선호 사항은 각각 1000자 이하의 텍스트여야 합니다."
+
+msgid "helpful must be true or false."
+msgstr "helpful은 true 또는 false여야 합니다."
+
+msgid "Message not found."
+msgstr "메시지를 찾을 수 없습니다."
+
+msgid "Only an assistant answer can be rated."
+msgstr "어시스턴트 답변만 평가할 수 있습니다."
+
+msgid "Message is required."
+msgstr "메시지가 필요합니다."
+
+msgid "Invalid message format."
+msgstr "잘못된 메시지 형식입니다."
+
+msgid "Organization not found."
+msgstr "조직을 찾을 수 없습니다."
+
+msgid "Failed to create a new chat session."
+msgstr "새 채팅 세션을 만들지 못했습니다."
+
+msgid "Chat session not found."
+msgstr "채팅 세션을 찾을 수 없습니다."
+
+msgid ""
+"An error occurred while processing your request. Please try again later."
+msgstr "요청을 처리하는 중 오류가 발생했습니다. 나중에 다시 시도하세요."
+
+msgid "An error occurred while creating the chat session."
+msgstr "채팅 세션을 만드는 중 오류가 발생했습니다."
+
+msgid "Session not found."
+msgstr "세션을 찾을 수 없습니다."
+
+msgid "sessionName is required."
+msgstr "sessionName이 필요합니다."
+
+msgid "Failed to rename the chat session."
+msgstr "채팅 세션 이름을 변경하지 못했습니다."
+
+msgid "An error occurred while renaming the chat session."
+msgstr "채팅 세션 이름을 변경하는 중 오류가 발생했습니다."
+
+msgid "Failed to delete the chat session."
+msgstr "채팅 세션을 삭제하지 못했습니다."
+
+msgid "An error occurred while deleting the chat session."
+msgstr "채팅 세션을 삭제하는 중 오류가 발생했습니다."
+
+msgid "AI features have been disabled for your organisation."
+msgstr "조직의 AI 기능이 비활성화되었습니다."
+
+msgid "Context ID is required"
+msgstr "컨텍스트 ID가 필요합니다"
+
+msgid "User cannot access course outside their organization: {org_name}"
+msgstr "사용자는 소속 조직 외부의 강의에 액세스할 수 없습니다: {org_name}"
+
+msgid "Failed to auto-tag course: {error}"
+msgstr "강의 자동 태그 지정 실패: {error}"
+
+msgid "No content_tagged data provided"
+msgstr "content_tagged 데이터가 제공되지 않았습니다"
+
+msgid "Each item in content_tagged must have a content_id"
+msgstr "content_tagged의 각 항목에는 content_id가 있어야 합니다"
+
+msgid "Each item in content_tagged must have taxonomy_suggestions"
+msgstr "content_tagged의 각 항목에는 taxonomy_suggestions가 있어야 합니다"
+
+msgid "No available taxonomies found for organization"
+msgstr "조직에서 사용 가능한 분류 체계를 찾을 수 없습니다"
+
+msgid "Failed to get taxonomies: {error}"
+msgstr "분류 체계 가져오기 실패: {error}"
+
+msgid "Failed to apply tags: {error}"
+msgstr "태그 적용 실패: {error}"
+
+msgid "Failed to get course outline: {error}"
+msgstr "강의 개요 가져오기 실패: {error}"
+
+msgid "Failed to build course content list: {error}"
+msgstr "강의 콘텐츠 목록 생성 실패: {error}"
+
+msgid "Failed to get course hierarchy: {error}"
+msgstr "강의 계층 구조 가져오기 실패: {error}"
+
+msgid "Failed to remove tags: {error}"
+msgstr "태그 제거 실패: {error}"
+
+msgid "Error occurred while initializing image LLM"
+msgstr "이미지 LLM을 초기화하는 중 오류가 발생했습니다"
+
+msgid "Title and description are required"
+msgstr "제목과 설명이 필요합니다"
+
+msgid "AI features are disabled for this user."
+msgstr "이 사용자는 AI 기능을 사용할 수 없습니다."
+
+msgid "Error occurred while generating program image"
+msgstr "프로그램 이미지를 생성하는 중 오류가 발생했습니다"

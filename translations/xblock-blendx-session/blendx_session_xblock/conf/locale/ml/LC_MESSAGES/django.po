@@ -1,0 +1,146 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xblock-blendx-session\n"
+"Report-Msgid-Bugs-To: \n"
+"Language: ml\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Only the dates offered to the learner's Batch"
+msgstr "പഠിതാവിന്റെ ബാച്ചിന് നൽകിയ തീയതികൾ മാത്രം"
+
+msgid "Any open date inside the learner's access window"
+msgstr "പഠിതാവിന്റെ ആക്സസ് കാലയളവിനുള്ളിലെ ഏത് തുറന്ന തീയതിയും"
+
+msgid "This Session unlocks after an earlier step."
+msgstr "മുമ്പത്തെ ഒരു ഘട്ടത്തിന് ശേഷം ഈ സെഷൻ ലഭ്യമാകും."
+
+msgid "Choose a date to book your place."
+msgstr "നിങ്ങളുടെ സ്ഥാനം ബുക്ക് ചെയ്യാൻ ഒരു തീയതി തിരഞ്ഞെടുക്കുക."
+
+msgid "Your organisation will book your Session."
+msgstr "നിങ്ങളുടെ സ്ഥാപനം നിങ്ങളുടെ സെഷൻ ബുക്ക് ചെയ്യും."
+
+msgid "You're booked."
+msgstr "നിങ്ങൾ ബുക്ക് ചെയ്തു."
+
+msgid ""
+"You're on the waitlist. You'll be booked automatically if a place frees up."
+msgstr ""
+"നിങ്ങൾ വെയിറ്റ്‌ലിസ്റ്റിലാണ്. ഒരു സ്ഥാനം ഒഴിവായാൽ നിങ്ങളെ സ്വയമേവ ബുക്ക് "
+"ചെയ്യും."
+
+msgid "You attended this Session."
+msgstr "നിങ്ങൾ ഈ സെഷനിൽ പങ്കെടുത്തു."
+
+msgid "You missed this Session."
+msgstr "നിങ്ങൾക്ക് ഈ സെഷൻ നഷ്ടമായി."
+
+msgid "You don't have access to this Session."
+msgstr "ഈ സെഷനിലേക്ക് നിങ്ങൾക്ക് ആക്സസ് ഇല്ല."
+
+msgid "Display name"
+msgstr "പ്രദർശന നാമം"
+
+msgid "Live Session"
+msgstr "ലൈവ് സെഷൻ"
+
+msgid "Session"
+msgstr "സെഷൻ"
+
+msgid "The stand-alone Session this unit links to."
+msgstr "ഈ യൂണിറ്റ് ലിങ്ക് ചെയ്യുന്ന സ്വതന്ത്ര സെഷൻ."
+
+msgid "Required"
+msgstr "ആവശ്യമാണ്"
+
+msgid ""
+"Learners must complete the Session to complete this part of the Course."
+msgstr "കോഴ്സിന്റെ ഈ ഭാഗം പൂർത്തിയാക്കാൻ പഠിതാക്കൾ സെഷൻ പൂർത്തിയാക്കണം."
+
+msgid "Which dates learners may book"
+msgstr "പഠിതാക്കൾക്ക് ബുക്ക് ചെയ്യാവുന്ന തീയതികൾ"
+
+msgid "Booking opens here when it's available."
+msgstr "ലഭ്യമാകുമ്പോൾ ബുക്കിംഗ് ഇവിടെ തുറക്കും."
+
+msgid "Optional"
+msgstr "ഓപ്ഷണൽ"
+
+msgid "Choose a Session."
+msgstr "ഒരു സെഷൻ തിരഞ്ഞെടുക്കുക."
+
+msgid "The Session no longer exists or can't be linked here."
+msgstr "സെഷൻ ഇപ്പോൾ നിലവിലില്ല, അല്ലെങ്കിൽ ഇവിടെ ലിങ്ക് ചെയ്യാനാവില്ല."
+
+msgid "The Session isn't published, so the link won't sync at publish."
+msgstr ""
+"സെഷൻ പ്രസിദ്ധീകരിച്ചിട്ടില്ല, അതിനാൽ പ്രസിദ്ധീകരിക്കുമ്പോൾ ലിങ്ക് "
+"സമന്വയിപ്പിക്കില്ല."
+
+msgid "Choose which dates learners may book."
+msgstr "പഠിതാക്കൾക്ക് ബുക്ക് ചെയ്യാവുന്ന തീയതികൾ തിരഞ്ഞെടുക്കുക."
+
+msgid "(no Session selected)"
+msgstr "(സെഷൻ ഒന്നും തിരഞ്ഞെടുത്തിട്ടില്ല)"
+
+msgid "Yes"
+msgstr "അതെ"
+
+msgid "No"
+msgstr "ഇല്ല"
+
+msgid "Only course staff can change this block."
+msgstr "കോഴ്സ് സ്റ്റാഫിന് മാത്രമേ ഈ ബ്ലോക്ക് മാറ്റാനാകൂ."
+
+msgid "The form wasn't sent correctly."
+msgstr "ഫോം ശരിയായി അയച്ചില്ല."
+
+msgid "Choose a Session from the list."
+msgstr "ലിസ്റ്റിൽ നിന്ന് ഒരു സെഷൻ തിരഞ്ഞെടുക്കുക."
+
+msgid "That Session can't be linked here."
+msgstr "ആ സെഷൻ ഇവിടെ ലിങ്ക് ചെയ്യാനാവില്ല."
+
+msgid "Required is yes or no."
+msgstr "ആവശ്യമാണ് എന്നത് അതെ അല്ലെങ്കിൽ ഇല്ല ആയിരിക്കണം."
+
+msgid "Kind"
+msgstr "തരം"
+
+msgid "Upcoming dates"
+msgstr "വരാനിരിക്കുന്ന തീയതികൾ"
+
+msgid "Dates learners may book"
+msgstr "പഠിതാക്കൾക്ക് ബുക്ക് ചെയ്യാവുന്ന തീയതികൾ"
+
+msgid "Limit to modes"
+msgstr "മോഡുകളിലേക്ക് പരിമിതപ്പെടുത്തുക"
+
+msgid "Use \"Restrict access\" on this component."
+msgstr "ഈ ഘടകത്തിൽ \"Restrict access\" ഉപയോഗിക്കുക."
+
+msgid "This Session isn't available yet."
+msgstr "ഈ സെഷൻ ഇതുവരെ ലഭ്യമല്ല."
+
+msgid "Choose a Session"
+msgstr "ഒരു സെഷൻ തിരഞ്ഞെടുക്കുക"
+
+msgid "Required to complete this part of the Course"
+msgstr "കോഴ്സിന്റെ ഈ ഭാഗം പൂർത്തിയാക്കാൻ ആവശ്യമാണ്"
+
+msgid ""
+"To limit it to some learning modes, use \"Restrict access\" on the "
+"component."
+msgstr ""
+"ചില പഠന മോഡുകളിലേക്ക് പരിമിതപ്പെടുത്താൻ, ഘടകത്തിൽ \"Restrict access\" "
+"ഉപയോഗിക്കുക."
+
+msgid "Save"
+msgstr "സംരക്ഷിക്കുക"
+
+msgid "Cancel"
+msgstr "റദ്ദാക്കുക"

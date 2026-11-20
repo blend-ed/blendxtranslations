@@ -10,7 +10,100 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid ""
+"Either 'prompts' list or 'prompt' with 'problem_count'/'problem_types' must "
+"be provided"
+msgstr "必须提供“prompts”列表，或提供“prompt”及“problem_count”/“problem_types”"
+
+msgid "Invalid problem type: {ptype}. Valid types: {valid_types}"
+msgstr "题目类型无效：{ptype}。有效类型：{valid_types}"
+
+msgid ""
+"Sum of problem_types counts ({total}) does not match problem_count ({count})"
+msgstr "problem_types 数量之和（{total}）与 problem_count（{count}）不一致"
+
+msgid "Failed to generate OLX"
+msgstr "生成 OLX 失败"
+
+msgid "Required query parameter"
+msgstr "必需的查询参数"
+
+msgid "Generated OLX failed validation after {attempts} attempts: {error}"
+msgstr "生成的 OLX 在 {attempts} 次尝试后仍未通过验证：{error}"
+
+msgid "Rate limit error: {error}"
+msgstr "速率限制错误：{error}"
+
+msgid "Timeout error: {error}"
+msgstr "超时错误：{error}"
+
+msgid "Invalid request to LLM API: {error}"
+msgstr "对 LLM API 的请求无效：{error}"
+
+msgid "LLM API error: {error}"
+msgstr "LLM API 错误：{error}"
+
+msgid "Failed to generate OLX: {error}"
+msgstr "生成 OLX 失败：{error}"
+
+msgid "Failed to generate OLX after all retry attempts"
+msgstr "多次重试后仍未能生成 OLX"
+
+msgid ""
 "Dummy text to generate a translation (.po) source file. It is safe to delete"
 " this line. It is also safe to delete (load i18n) above if there are no "
 "other (trans) tags in the file"
 msgstr ""
+"用于生成翻译 (.po) 源文件的占位文本。可以安全删除此行。如果文件中没有其他 (trans) 标签，也可以安全删除上方的 (load i18n)。"
+
+msgid ""
+"Unsupported file type: {file_extension}. Supported types: PDF, DOCX, PPTX"
+msgstr "不支持的文件类型：{file_extension}。支持的类型：PDF、DOCX、PPTX"
+
+msgid "Failed to extract text from {filename}: {error}"
+msgstr "从 {filename} 提取文本失败：{error}"
+
+msgid "No documents could be processed successfully"
+msgstr "没有文档处理成功"
+
+msgid "No text content found in PDF"
+msgstr "PDF 中未找到文本内容"
+
+msgid "No text content found in Word document"
+msgstr "Word 文档中未找到文本内容"
+
+msgid "No text content found in PowerPoint presentation"
+msgstr "PowerPoint 演示文稿中未找到文本内容"
+
+msgid "Invalid library key format: {error}"
+msgstr "内容库键格式无效：{error}"
+
+msgid "Invalid usage key format: {error}"
+msgstr "使用键格式无效：{error}"
+
+msgid "Permission denied: {error}"
+msgstr "权限被拒绝：{error}"
+
+msgid "Invalid block type '{block_type}': {error}"
+msgstr "块类型“{block_type}”无效：{error}"
+
+msgid ""
+"Cannot add problem directly to {container_type}. Problems can only be added "
+"to collections or units."
+msgstr "无法直接向 {container_type} 添加题目。题目只能添加到合集或单元中。"
+
+msgid ""
+"Cannot add problems directly to {container_type}. Problems can only be added"
+" to collections or units."
+msgstr "无法直接向 {container_type} 添加题目。题目只能添加到合集或单元中。"
+
+msgid "OLX string cannot be empty"
+msgstr "OLX 字符串不能为空"
+
+msgid "Invalid XML syntax: {error}"
+msgstr "XML 语法无效：{error}"
+
+msgid "Error parsing XML: {error}"
+msgstr "解析 XML 时出错：{error}"
+
+msgid "Root tag mismatch: expected '<{expected}>', found '<{found}>'"
+msgstr "根标签不匹配：应为“<{expected}>”，实际为“<{found}>”"

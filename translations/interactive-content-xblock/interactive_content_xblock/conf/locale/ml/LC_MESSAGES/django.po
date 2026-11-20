@@ -10,39 +10,42 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "HTML Content"
-msgstr ""
+msgstr "HTML ഉള്ളടക്കം"
 
 msgid "HTML content to render in the interactive block"
-msgstr ""
+msgstr "ഇന്ററാക്ടീവ് ബ്ലോക്കിൽ റെൻഡർ ചെയ്യേണ്ട HTML ഉള്ളടക്കം"
 
 msgid "CSS Content"
-msgstr ""
+msgstr "CSS ഉള്ളടക്കം"
 
 msgid "CSS styles for the interactive content"
-msgstr ""
+msgstr "ഇന്ററാക്ടീവ് ഉള്ളടക്കത്തിനുള്ള CSS ശൈലികൾ"
 
 msgid "JavaScript Content"
-msgstr ""
+msgstr "JavaScript ഉള്ളടക്കം"
 
 msgid ""
 "JavaScript code for interactivity. Use submitInteraction(data) to send data "
 "to the XBlock."
 msgstr ""
+"ഇന്ററാക്ടിവിറ്റിക്കുള്ള JavaScript കോഡ്. XBlock-ലേക്ക് ഡാറ്റ അയയ്ക്കാൻ "
+"submitInteraction(data) ഉപയോഗിക്കുക."
 
 msgid "Enable Debug Mode"
-msgstr ""
+msgstr "ഡീബഗ് മോഡ് പ്രവർത്തനക്ഷമമാക്കുക"
 
 msgid "Show debug information and console logs"
-msgstr ""
+msgstr "ഡീബഗ് വിവരവും കൺസോൾ ലോഗുകളും കാണിക്കുക"
 
 msgid "Enable Auto-Grading"
-msgstr ""
+msgstr "സ്വയമേവയുള്ള ഗ്രേഡിംഗ് പ്രവർത്തനക്ഷമമാക്കുക"
 
 msgid "Enable automatic grading based on JS response"
 msgstr ""
+"JS പ്രതികരണത്തെ അടിസ്ഥാനമാക്കി സ്വയമേവയുള്ള ഗ്രേഡിംഗ് പ്രവർത്തനക്ഷമമാക്കുക"
 
 msgid "Completion Mode"
-msgstr ""
+msgstr "പൂർത്തീകരണ മോഡ്"
 
 msgid ""
 "How this block is marked complete. \"On submit\" completes when your "
@@ -51,227 +54,251 @@ msgid ""
 "no submission). \"Manual\" completes only when your JavaScript calls "
 "window.markComplete()."
 msgstr ""
+"ഈ ബ്ലോക്ക് എങ്ങനെ പൂർത്തിയായതായി അടയാളപ്പെടുത്തുന്നു. \"സമർപ്പിക്കുമ്പോൾ\" "
+"എന്നത് നിങ്ങളുടെ JavaScript submitInteraction() വിളിക്കുമ്പോൾ "
+"പൂർത്തിയാകുന്നു. \"കാണുമ്പോൾ\" എന്നത് ക്രമീകരിച്ച കാലതാമസത്തിനായി പഠിതാവ് "
+"ബ്ലോക്ക് കണ്ട ശേഷം സ്വയമേവ പൂർത്തിയാകുന്നു (സമർപ്പണമില്ലാത്ത സിമുലേഷനുകൾക്ക്"
+" ഉപയോഗിക്കുക). \"മാനുവൽ\" എന്നത് നിങ്ങളുടെ JavaScript window.markComplete() "
+"വിളിക്കുമ്പോൾ മാത്രം പൂർത്തിയാകുന്നു."
 
 msgid "On submit (when interaction is submitted)"
-msgstr ""
+msgstr "സമർപ്പിക്കുമ്പോൾ (ഇടപെടൽ സമർപ്പിക്കുമ്പോൾ)"
 
 msgid "On view (auto-complete after viewing)"
-msgstr ""
+msgstr "കാണുമ്പോൾ (കണ്ട ശേഷം സ്വയമേവ പൂർത്തിയാകും)"
 
 msgid "Manual (author JS calls markComplete())"
-msgstr ""
+msgstr "മാനുവൽ (രചയിതാവിന്റെ JS markComplete() വിളിക്കുന്നു)"
 
 msgid "View Completion Delay (ms)"
-msgstr ""
+msgstr "കാഴ്ച പൂർത്തീകരണ കാലതാമസം (ms)"
 
 msgid ""
 "Milliseconds the block must be viewed before auto-completing in \"On view\" "
 "mode."
 msgstr ""
+"\"കാണുമ്പോൾ\" മോഡിൽ സ്വയമേവ പൂർത്തിയാകുന്നതിന് മുമ്പ് ബ്ലോക്ക് കാണേണ്ട "
+"മില്ലിസെക്കൻഡുകൾ."
 
 msgid "Weight"
-msgstr ""
+msgstr "വെയിറ്റ്"
 
 msgid "Weight for grading purposes"
-msgstr ""
+msgstr "ഗ്രേഡിംഗിനുള്ള വെയിറ്റ്"
 
 msgid "Display Name"
-msgstr ""
+msgstr "പ്രദർശന നാമം"
 
 msgid "Display name for this interactive block"
-msgstr ""
+msgstr "ഈ ഇന്ററാക്ടീവ് ബ്ലോക്കിനുള്ള പ്രദർശന നാമം"
 
 msgid "Correct Answers"
-msgstr ""
+msgstr "ശരിയായ ഉത്തരങ്ങൾ"
 
 msgid "JSON object defining correct answers for auto-grading"
 msgstr ""
+"സ്വയമേവയുള്ള ഗ്രേഡിംഗിനായി ശരിയായ ഉത്തരങ്ങൾ നിർവചിക്കുന്ന JSON ഒബ്ജക്റ്റ്"
 
 msgid "Show Feedback to Learners"
-msgstr ""
+msgstr "പഠിതാക്കൾക്ക് ഫീഡ്ബാക്ക് കാണിക്കുക"
 
 msgid "Show correct/incorrect feedback to learners"
-msgstr ""
+msgstr "പഠിതാക്കൾക്ക് ശരി/തെറ്റ് ഫീഡ്ബാക്ക് കാണിക്കുക"
 
 msgid "Show Previous Response"
-msgstr ""
+msgstr "മുമ്പത്തെ പ്രതികരണം കാണിക്കുക"
 
 msgid "Show learner their previous response when they return"
-msgstr ""
+msgstr "പഠിതാവ് തിരികെ വരുമ്പോൾ അവരുടെ മുമ്പത്തെ പ്രതികരണം കാണിക്കുക"
 
 msgid "Captured learner interaction data"
-msgstr ""
+msgstr "ശേഖരിച്ച പഠിതാ ഇടപെടൽ ഡാറ്റ"
 
 msgid "Number of interactions submitted"
-msgstr ""
+msgstr "സമർപ്പിച്ച ഇടപെടലുകളുടെ എണ്ണം"
 
 msgid "Timestamp of last interaction"
-msgstr ""
+msgstr "അവസാന ഇടപെടലിന്റെ സമയമുദ്ര"
 
 msgid "Whether the learner response is correct"
-msgstr ""
+msgstr "പഠിതാവിന്റെ പ്രതികരണം ശരിയാണോ എന്ന്"
 
 msgid "Score for the learner response"
-msgstr ""
+msgstr "പഠിതാവിന്റെ പ്രതികരണത്തിനുള്ള സ്കോർ"
 
 msgid "Feedback message shown to learner"
-msgstr ""
+msgstr "പഠിതാവിന് കാണിക്കുന്ന ഫീഡ്ബാക്ക് സന്ദേശം"
 
 msgid "Whether on-view/manual completion has already been emitted"
-msgstr ""
+msgstr "കാഴ്ച/മാനുവൽ പൂർത്തീകരണം ഇതിനകം അയച്ചിട്ടുണ്ടോ എന്ന്"
 
 msgid "Debug Information (Staff Only)"
-msgstr ""
+msgstr "ഡീബഗ് വിവരം (സ്റ്റാഫിന് മാത്രം)"
 
 msgid "Block ID"
-msgstr ""
+msgstr "ബ്ലോക്ക് ID"
 
 msgid "User ID"
-msgstr ""
+msgstr "ഉപയോക്തൃ ID"
 
 msgid "Interaction Count"
-msgstr ""
+msgstr "ഇടപെടലുകളുടെ എണ്ണം"
 
 msgid "Last Interaction"
-msgstr ""
+msgstr "അവസാന ഇടപെടൽ"
 
 msgid "Is Correct"
-msgstr ""
+msgstr "ശരിയാണോ"
 
 msgid "Score"
-msgstr ""
+msgstr "സ്കോർ"
 
 msgid "Correct"
-msgstr ""
+msgstr "ശരി"
 
 msgid "Incorrect"
-msgstr ""
+msgstr "തെറ്റ്"
 
 msgid "Feedback"
-msgstr ""
+msgstr "ഫീഡ്ബാക്ക്"
 
 msgid "Time spent"
-msgstr ""
+msgstr "ചെലവഴിച്ച സമയം"
 
 msgid "No content. Please add HTML content in the studio."
-msgstr ""
+msgstr "ഉള്ളടക്കമില്ല. ദയവായി studio-യിൽ HTML ഉള്ളടക്കം ചേർക്കുക."
 
 msgid "Generate with AI"
-msgstr ""
+msgstr "AI ഉപയോഗിച്ച് സൃഷ്ടിക്കുക"
 
 msgid ""
 "e.g. A multiple choice quiz about the water cycle with 4 questions, each "
 "with 4 answer options..."
 msgstr ""
+"ഉദാ. ജലചക്രത്തെക്കുറിച്ചുള്ള 4 ചോദ്യങ്ങളുള്ള ഒരു മൾട്ടിപ്പിൾ ചോയ്സ് ക്വിസ്, "
+"ഓരോന്നിനും 4 ഉത്തര ഓപ്ഷനുകൾ..."
 
 msgid "Generate"
-msgstr ""
+msgstr "സൃഷ്ടിക്കുക"
 
 msgid "Display name for this module"
-msgstr ""
+msgstr "ഈ മൊഡ്യൂളിനുള്ള പ്രദർശന നാമം"
 
 msgid "Enter the HTML content that will be rendered in the interactive block"
-msgstr ""
+msgstr "ഇന്ററാക്ടീവ് ബ്ലോക്കിൽ റെൻഡർ ചെയ്യേണ്ട HTML ഉള്ളടക്കം നൽകുക"
 
 msgid "CSS Styles"
-msgstr ""
+msgstr "CSS ശൈലികൾ"
 
 msgid "Enter CSS styles for your interactive content"
-msgstr ""
+msgstr "നിങ്ങളുടെ ഇന്ററാക്ടീവ് ഉള്ളടക്കത്തിനുള്ള CSS ശൈലികൾ നൽകുക"
 
 msgid "JavaScript Code"
-msgstr ""
+msgstr "JavaScript കോഡ്"
 
 msgid ""
 "Enter JavaScript code for interactivity. Use submitInteraction(data) to send"
 " data to the XBlock"
 msgstr ""
+"ഇന്ററാക്ടിവിറ്റിക്കായി JavaScript കോഡ് നൽകുക. XBlock-ലേക്ക് ഡാറ്റ അയയ്ക്കാൻ "
+"submitInteraction(data) ഉപയോഗിക്കുക"
 
 msgid "Weight of this problem for grading"
-msgstr ""
+msgstr "ഗ്രേഡിംഗിനായി ഈ പ്രശ്നത്തിന്റെ വെയിറ്റ്"
 
 msgid "True"
-msgstr ""
+msgstr "ശരി"
 
 msgid "False"
-msgstr ""
+msgstr "തെറ്റ്"
 
 msgid "Enable debug mode for development"
-msgstr ""
+msgstr "ഡെവലപ്മെന്റിനായി ഡീബഗ് മോഡ് പ്രവർത്തനക്ഷമമാക്കുക"
 
 msgid ""
 "How this block is marked complete. Use 'On view' for simulations with no "
 "submission."
 msgstr ""
+"ഈ ബ്ലോക്ക് എങ്ങനെ പൂർത്തിയായതായി അടയാളപ്പെടുത്തുന്നു. സമർപ്പണമില്ലാത്ത "
+"സിമുലേഷനുകൾക്ക് 'കാണുമ്പോൾ' ഉപയോഗിക്കുക."
 
 msgid ""
 "Milliseconds the block must be viewed before auto-completing (On view mode "
 "only)."
 msgstr ""
+"സ്വയമേവ പൂർത്തിയാകുന്നതിന് മുമ്പ് ബ്ലോക്ക് കാണേണ്ട മില്ലിസെക്കൻഡുകൾ "
+"(കാണുമ്പോൾ മോഡിൽ മാത്രം)."
 
 msgid "Auto Grade Enabled"
-msgstr ""
+msgstr "സ്വയമേവയുള്ള ഗ്രേഡിംഗ് പ്രവർത്തനക്ഷമം"
 
 msgid "Enable automatic grading based on interaction data"
 msgstr ""
+"ഇടപെടൽ ഡാറ്റയെ അടിസ്ഥാനമാക്കി സ്വയമേവയുള്ള ഗ്രേഡിംഗ് പ്രവർത്തനക്ഷമമാക്കുക"
 
 msgid "Grading Configuration"
-msgstr ""
+msgstr "ഗ്രേഡിംഗ് കോൺഫിഗറേഷൻ"
 
 msgid "Answer Matching Mode"
-msgstr ""
+msgstr "ഉത്തര പൊരുത്ത മോഡ്"
 
 msgid "None (JS controls grading)"
-msgstr ""
+msgstr "ഒന്നുമില്ല (JS ഗ്രേഡിംഗ് നിയന്ത്രിക്കുന്നു)"
 
 msgid "Single Answer"
-msgstr ""
+msgstr "ഒറ്റ ഉത്തരം"
 
 msgid "Multiple Fields"
-msgstr ""
+msgstr "ഒന്നിലധികം ഫീൽഡുകൾ"
 
 msgid ""
 "Choose 'None' if your JavaScript passes correct: true/false in "
 "submitInteraction()."
 msgstr ""
+"നിങ്ങളുടെ JavaScript submitInteraction()-ൽ correct: true/false "
+"നൽകുന്നുവെങ്കിൽ 'ഒന്നുമില്ല' തിരഞ്ഞെടുക്കുക."
 
 msgid "Correct Answer"
-msgstr ""
+msgstr "ശരിയായ ഉത്തരം"
 
 msgid "The expected value. Comparison is case-insensitive."
 msgstr ""
+"പ്രതീക്ഷിക്കുന്ന മൂല്യം. താരതമ്യം വലിയക്ഷര-ചെറിയക്ഷര വ്യത്യാസമില്ലാതെയാണ്."
 
 msgid "Answer Fields"
-msgstr ""
+msgstr "ഉത്തര ഫീൽഡുകൾ"
 
 msgid "Add Field"
-msgstr ""
+msgstr "ഫീൽഡ് ചേർക്കുക"
 
 msgid ""
 "Map each field name to its expected value. Partial credit is awarded "
 "proportionally."
 msgstr ""
+"ഓരോ ഫീൽഡ് നാമവും അതിന്റെ പ്രതീക്ഷിക്കുന്ന മൂല്യവുമായി ബന്ധിപ്പിക്കുക. ഭാഗിക "
+"ക്രെഡിറ്റ് ആനുപാതികമായി നൽകും."
 
 msgid "Correct Feedback"
-msgstr ""
+msgstr "ശരിയുത്തരത്തിനുള്ള ഫീഡ്ബാക്ക്"
 
 msgid "Incorrect Feedback"
-msgstr ""
+msgstr "തെറ്റുത്തരത്തിനുള്ള ഫീഡ്ബാക്ക്"
 
 msgid "Feedback is shown even when your JavaScript controls grading."
 msgstr ""
+"നിങ്ങളുടെ JavaScript ഗ്രേഡിംഗ് നിയന്ത്രിക്കുമ്പോഴും ഫീഡ്ബാക്ക് കാണിക്കും."
 
 msgid "Test Grading"
-msgstr ""
+msgstr "ഗ്രേഡിംഗ് പരിശോധിക്കുക"
 
 msgid "Verify your grading setup before saving."
-msgstr ""
+msgstr "സംരക്ഷിക്കുന്നതിന് മുമ്പ് നിങ്ങളുടെ ഗ്രേഡിംഗ് സജ്ജീകരണം പരിശോധിക്കുക."
 
 msgid "Run Test"
-msgstr ""
+msgstr "ടെസ്റ്റ് പ്രവർത്തിപ്പിക്കുക"
 
 msgid "Save"
-msgstr ""
+msgstr "സംരക്ഷിക്കുക"
 
 msgid "Cancel"
-msgstr ""
+msgstr "റദ്ദാക്കുക"

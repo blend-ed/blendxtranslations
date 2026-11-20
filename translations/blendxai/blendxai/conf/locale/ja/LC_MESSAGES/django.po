@@ -1,0 +1,387 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: blendxai\n"
+"Report-Msgid-Bugs-To: \n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Organisation not found"
+msgstr "組織が見つかりません"
+
+msgid "You do not have access to this organisation."
+msgstr "この組織へのアクセス権がありません。"
+
+msgid ""
+"AI usage has been disabled for your account. Please contact your "
+"organisation admin."
+msgstr "あなたのアカウントでは AI の利用が無効になっています。組織の管理者にお問い合わせください。"
+
+msgid ""
+"Your organisation has not configured AI features yet. Please contact your "
+"admin."
+msgstr "組織で AI 機能がまだ設定されていません。管理者にお問い合わせください。"
+
+msgid "The AI produced invalid problem content: {error}"
+msgstr "AI が無効な問題コンテンツを生成しました: {error}"
+
+msgid "Failed to generate component: {error}"
+msgstr "コンポーネントの生成に失敗しました: {error}"
+
+msgid "Failed to generate image: {error}"
+msgstr "画像の生成に失敗しました: {error}"
+
+msgid "The AI could not generate an image. Try rephrasing your description."
+msgstr "AI が画像を生成できませんでした。説明を言い換えてお試しください。"
+
+msgid "Invalid parent_locator."
+msgstr "無効な parent_locator です。"
+
+msgid "You do not have permission to edit this course."
+msgstr "この講座を編集する権限がありません。"
+
+msgid "AI usage has been disabled for your account."
+msgstr "あなたのアカウントでは AI の利用が無効になっています。"
+
+msgid ""
+"Writing this component needs library.edit and library.publish on your "
+"organisation, besides course.edit on the course."
+msgstr ""
+"このコンポーネントを作成するには、講座の course.edit に加えて、組織の library.edit と library.publish "
+"が必要です。"
+
+msgid "Failed to create component: {error}"
+msgstr "コンポーネントの作成に失敗しました: {error}"
+
+msgid "This course is not in your organisation."
+msgstr "この講座はあなたの組織のものではありません。"
+
+msgid "course_id is required."
+msgstr "course_id は必須です。"
+
+msgid "Invalid course_id."
+msgstr "無効な course_id です。"
+
+msgid ""
+"Your organisation has not configured AI assistant features yet. Please "
+"contact your admin."
+msgstr "組織で AI アシスタント機能がまだ設定されていません。管理者にお問い合わせください。"
+
+msgid "Failed to read course content: {error}"
+msgstr "講座コンテンツを読み込めませんでした: {error}"
+
+msgid "Failed to generate descriptions: {error}"
+msgstr "説明の生成に失敗しました: {error}"
+
+msgid "AI service not configured for this organization"
+msgstr "この組織では AI サービスが設定されていません"
+
+msgid "Invalid request data: {error}"
+msgstr "無効なリクエストデータ: {error}"
+
+msgid "Problem generation failed: {error}"
+msgstr "問題の生成に失敗しました: {error}"
+
+msgid "Problem enhancement failed: {error}"
+msgstr "問題の改善に失敗しました: {error}"
+
+msgid "Problem validation failed: {error}"
+msgstr "問題の検証に失敗しました: {error}"
+
+msgid "Text content generation failed: {error}"
+msgstr "テキストコンテンツの生成に失敗しました: {error}"
+
+msgid "Text content enhancement failed: {error}"
+msgstr "テキストコンテンツの改善に失敗しました: {error}"
+
+msgid "Content analysis failed: {error}"
+msgstr "コンテンツの分析に失敗しました: {error}"
+
+msgid "Assessment generation failed: {error}"
+msgstr "アセスメントの生成に失敗しました: {error}"
+
+msgid "Accessibility optimization failed: {error}"
+msgstr "アクセシビリティの最適化に失敗しました: {error}"
+
+msgid "Chat processing failed: {error}"
+msgstr "チャットの処理に失敗しました: {error}"
+
+msgid "Invalid course_id: {course_id}"
+msgstr "無効な course_id: {course_id}"
+
+msgid "Unsupported target_language: {target_language}"
+msgstr "サポートされていない target_language: {target_language}"
+
+msgid "Task not found."
+msgstr "タスクが見つかりません。"
+
+msgid "AI features are disabled for this user"
+msgstr "このユーザーの AI 機能は無効になっています"
+
+msgid "Query is required"
+msgstr "クエリは必須です"
+
+msgid "Error occurred while converting query to vector"
+msgstr "クエリをベクトルに変換中にエラーが発生しました"
+
+msgid "Error occurred while getting similarity search course content"
+msgstr "講座コンテンツの類似検索中にエラーが発生しました"
+
+msgid "Failed to generate OLX"
+msgstr "OLX を生成できませんでした"
+
+msgid ""
+"Please describe the skill set you want to generate (at least "
+"{min_prompt_length} characters)."
+msgstr "生成したいスキルセットを説明してください（{min_prompt_length} 文字以上）。"
+
+msgid "Prompt is too long (max {max_prompt_length} characters)."
+msgstr "プロンプトが長すぎます（最大 {max_prompt_length} 文字）。"
+
+msgid "Failed to generate taxonomy: {error}"
+msgstr "タクソノミーの生成に失敗しました: {error}"
+
+msgid ""
+"Your Organization has not setup AI Assistant Features Correctly. Please "
+"contact the admin."
+msgstr "組織で AI アシスタント機能が正しく設定されていません。管理者にお問い合わせください。"
+
+msgid "Message is required"
+msgstr "メッセージは必須です"
+
+msgid "Course ID is required"
+msgstr "講座 ID は必須です"
+
+msgid "Course ID must be in format 'course-v1:org+course+run'"
+msgstr "講座 ID は 'course-v1:org+course+run' の形式である必要があります"
+
+msgid ""
+"You don't have permission to edit courses. Please contact your "
+"administrator."
+msgstr "講座を編集する権限がありません。管理者にお問い合わせください。"
+
+msgid "An error occurred while processing your request: {error}"
+msgstr "リクエストの処理中にエラーが発生しました: {error}"
+
+msgid "Authentication credentials were not provided."
+msgstr "認証情報が提供されていません。"
+
+msgid "You do not have permission to perform this action."
+msgstr "この操作を実行する権限がありません。"
+
+msgid "organisation_id is required"
+msgstr "organisation_id は必須です"
+
+msgid "Unknown organisation"
+msgstr "不明な組織"
+
+msgid "credits_allocated must be an integer"
+msgstr "credits_allocated は整数である必要があります"
+
+msgid "credits_allocated must be >= 0"
+msgstr "credits_allocated は0以上である必要があります"
+
+msgid ""
+"Allocation exceeds the platform AI credit limit. Only {remaining} credit(s) "
+"remain available."
+msgstr "割り当て量がプラットフォームの AI クレジット上限を超えています。利用可能なクレジットは残り {remaining} のみです。"
+
+msgid "Unknown tenant"
+msgstr "不明なテナント"
+
+msgid "credits_allocated must be an integer or null"
+msgstr "credits_allocated は整数または null である必要があります"
+
+msgid ""
+"The shares would exceed the organisation's AI credits. Only {remaining} "
+"credit(s) remain for this tenant."
+msgstr "割り当てが組織の AI クレジットを超えます。このテナントで利用可能なクレジットは残り {remaining} のみです。"
+
+msgid "The organisation has no AI credit pool yet"
+msgstr "組織にはまだ AI クレジットプールがありません"
+
+msgid ""
+"AI features have been disabled for your organisation. Please contact your "
+"organisation admin."
+msgstr "組織の AI 機能は無効になっています。組織の管理者にお問い合わせください。"
+
+msgid "Flashcard not found."
+msgstr "フラッシュカードが見つかりません。"
+
+msgid "Could not load review state"
+msgstr "復習の状態を読み込めませんでした"
+
+msgid "Could not save review"
+msgstr "復習を保存できませんでした"
+
+msgid "Could not load due flashcards"
+msgstr "期限のフラッシュカードを読み込めませんでした"
+
+msgid "Invalid request data"
+msgstr "無効なリクエストデータ"
+
+msgid "Tag with ID {skill_taxonomy_id} not found"
+msgstr "ID {skill_taxonomy_id} のタグが見つかりません"
+
+msgid "Invalid course ID format: {course_id}"
+msgstr "無効な講座 ID 形式: {course_id}"
+
+msgid "User cannot modify courses outside their organization: {org_name}"
+msgstr "ユーザーは組織外の講座を変更できません: {org_name}"
+
+msgid ""
+"Could not find first unit in course. Please ensure the course has at least "
+"one section, subsection, and unit."
+msgstr "講座の最初の単元が見つかりませんでした。講座に少なくとも1つのセクション、サブセクション、単元があることを確認してください。"
+
+msgid "Failed to create component block"
+msgstr "コンポーネントブロックを作成できませんでした"
+
+msgid "Successfully created {component_type} component \"{component_name}\""
+msgstr "{component_type} コンポーネント「{component_name}」を作成しました"
+
+msgid "Failed to create knowledge atom: {error}"
+msgstr "ナレッジアトムの作成に失敗しました: {error}"
+
+msgid "Please provide a valid message."
+msgstr "有効なメッセージを入力してください。"
+
+msgid "Please provide a message."
+msgstr "メッセージを入力してください。"
+
+msgid ""
+"I apologize, but I encountered an error processing your request. Please try "
+"again."
+msgstr "申し訳ありませんが、リクエストの処理中にエラーが発生しました。もう一度お試しください。"
+
+msgid ""
+"I apologize, but I encountered an error processing your request. Please try "
+"again later."
+msgstr "申し訳ありませんが、リクエストの処理中にエラーが発生しました。しばらくしてからもう一度お試しください。"
+
+msgid "A valid lesson is required."
+msgstr "有効なレッスンが必要です。"
+
+msgid "You do not have access to this lesson."
+msgstr "このレッスンへのアクセス権がありません。"
+
+msgid "This lesson is not available."
+msgstr "このレッスンは利用できません。"
+
+msgid "The AI tutor is turned off for this course."
+msgstr "この講座では AI チューターがオフになっています。"
+
+msgid "Learning memory is not available."
+msgstr "学習メモリは利用できません。"
+
+msgid "Choose whether memory is enabled."
+msgstr "メモリを有効にするかどうかを選択してください。"
+
+msgid "Goals and preferences must each be text of at most 1000 characters."
+msgstr "目標と希望はそれぞれ1000文字以内のテキストで入力してください。"
+
+msgid "helpful must be true or false."
+msgstr "helpful は true または false である必要があります。"
+
+msgid "Message not found."
+msgstr "メッセージが見つかりません。"
+
+msgid "Only an assistant answer can be rated."
+msgstr "評価できるのはアシスタントの回答のみです。"
+
+msgid "Message is required."
+msgstr "メッセージは必須です。"
+
+msgid "Invalid message format."
+msgstr "無効なメッセージ形式です。"
+
+msgid "Organization not found."
+msgstr "組織が見つかりません。"
+
+msgid "Failed to create a new chat session."
+msgstr "新しいチャットセッションを作成できませんでした。"
+
+msgid "Chat session not found."
+msgstr "チャットセッションが見つかりません。"
+
+msgid ""
+"An error occurred while processing your request. Please try again later."
+msgstr "リクエストの処理中にエラーが発生しました。しばらくしてからもう一度お試しください。"
+
+msgid "An error occurred while creating the chat session."
+msgstr "チャットセッションの作成中にエラーが発生しました。"
+
+msgid "Session not found."
+msgstr "セッションが見つかりません。"
+
+msgid "sessionName is required."
+msgstr "sessionName は必須です。"
+
+msgid "Failed to rename the chat session."
+msgstr "チャットセッションの名前を変更できませんでした。"
+
+msgid "An error occurred while renaming the chat session."
+msgstr "チャットセッションの名前変更中にエラーが発生しました。"
+
+msgid "Failed to delete the chat session."
+msgstr "チャットセッションを削除できませんでした。"
+
+msgid "An error occurred while deleting the chat session."
+msgstr "チャットセッションの削除中にエラーが発生しました。"
+
+msgid "AI features have been disabled for your organisation."
+msgstr "組織の AI 機能は無効になっています。"
+
+msgid "Context ID is required"
+msgstr "コンテキスト ID は必須です"
+
+msgid "User cannot access course outside their organization: {org_name}"
+msgstr "ユーザーは組織外の講座にアクセスできません: {org_name}"
+
+msgid "Failed to auto-tag course: {error}"
+msgstr "講座の自動タグ付けに失敗しました: {error}"
+
+msgid "No content_tagged data provided"
+msgstr "content_tagged データが指定されていません"
+
+msgid "Each item in content_tagged must have a content_id"
+msgstr "content_tagged の各項目には content_id が必要です"
+
+msgid "Each item in content_tagged must have taxonomy_suggestions"
+msgstr "content_tagged の各項目には taxonomy_suggestions が必要です"
+
+msgid "No available taxonomies found for organization"
+msgstr "組織で利用可能なタクソノミーが見つかりません"
+
+msgid "Failed to get taxonomies: {error}"
+msgstr "タクソノミーを取得できませんでした: {error}"
+
+msgid "Failed to apply tags: {error}"
+msgstr "タグの適用に失敗しました: {error}"
+
+msgid "Failed to get course outline: {error}"
+msgstr "講座のアウトラインを取得できませんでした: {error}"
+
+msgid "Failed to build course content list: {error}"
+msgstr "講座コンテンツ一覧の作成に失敗しました: {error}"
+
+msgid "Failed to get course hierarchy: {error}"
+msgstr "講座の階層を取得できませんでした: {error}"
+
+msgid "Failed to remove tags: {error}"
+msgstr "タグの削除に失敗しました: {error}"
+
+msgid "Error occurred while initializing image LLM"
+msgstr "画像 LLM の初期化中にエラーが発生しました"
+
+msgid "Title and description are required"
+msgstr "タイトルと説明は必須です"
+
+msgid "AI features are disabled for this user."
+msgstr "このユーザーの AI 機能は無効になっています。"
+
+msgid "Error occurred while generating program image"
+msgstr "プログラム画像の生成中にエラーが発生しました"

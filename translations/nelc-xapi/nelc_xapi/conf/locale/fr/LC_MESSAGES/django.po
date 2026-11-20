@@ -1,0 +1,26 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: nelc-xapi\n"
+"Report-Msgid-Bugs-To: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "National ID / Iqama"
+msgstr "Carte d'identité nationale / Iqama"
+
+msgid "10 digits, starting with 1, 2, or 4"
+msgstr "10 chiffres, commençant par 1, 2 ou 4"
+
+msgid "National ID / Iqama must be 10 digits and start with 1, 2, or 4."
+msgstr ""
+"La carte d'identité nationale / Iqama doit comporter 10 chiffres et "
+"commencer par 1, 2 ou 4."
+
+msgid "National ID / Iqama can't be changed after registration."
+msgstr ""
+"La carte d'identité nationale / Iqama ne peut pas être modifiée après "
+"l'inscription."

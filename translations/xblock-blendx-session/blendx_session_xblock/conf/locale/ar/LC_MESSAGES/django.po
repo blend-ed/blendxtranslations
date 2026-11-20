@@ -1,0 +1,140 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xblock-blendx-session\n"
+"Report-Msgid-Bugs-To: \n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+msgid "Only the dates offered to the learner's Batch"
+msgstr "المواعيد المتاحة لدفعة المتعلم فقط"
+
+msgid "Any open date inside the learner's access window"
+msgstr "أي موعد متاح ضمن فترة وصول المتعلم"
+
+msgid "This Session unlocks after an earlier step."
+msgstr "تُفتح هذه الجلسة بعد خطوة سابقة."
+
+msgid "Choose a date to book your place."
+msgstr "اختر موعدًا لحجز مكانك."
+
+msgid "Your organisation will book your Session."
+msgstr "ستحجز مؤسستك جلستك."
+
+msgid "You're booked."
+msgstr "تم حجزك."
+
+msgid ""
+"You're on the waitlist. You'll be booked automatically if a place frees up."
+msgstr "أنت في قائمة الانتظار. سيتم حجزك تلقائيًا إذا تحرّر مكان."
+
+msgid "You attended this Session."
+msgstr "حضرت هذه الجلسة."
+
+msgid "You missed this Session."
+msgstr "فاتتك هذه الجلسة."
+
+msgid "You don't have access to this Session."
+msgstr "ليس لديك وصول إلى هذه الجلسة."
+
+msgid "Display name"
+msgstr "الاسم المعروض"
+
+msgid "Live Session"
+msgstr "الجلسة المباشرة"
+
+msgid "Session"
+msgstr "الجلسة"
+
+msgid "The stand-alone Session this unit links to."
+msgstr "الجلسة المستقلة التي ترتبط بها هذه الوحدة."
+
+msgid "Required"
+msgstr "مطلوب"
+
+msgid ""
+"Learners must complete the Session to complete this part of the Course."
+msgstr "يجب على المتعلمين إكمال الجلسة لإكمال هذا الجزء من المساق."
+
+msgid "Which dates learners may book"
+msgstr "المواعيد التي يمكن للمتعلمين حجزها"
+
+msgid "Booking opens here when it's available."
+msgstr "يُفتح الحجز هنا عندما يصبح متاحًا."
+
+msgid "Optional"
+msgstr "اختياري"
+
+msgid "Choose a Session."
+msgstr "اختر جلسة."
+
+msgid "The Session no longer exists or can't be linked here."
+msgstr "لم تعد الجلسة موجودة أو لا يمكن ربطها هنا."
+
+msgid "The Session isn't published, so the link won't sync at publish."
+msgstr "الجلسة غير منشورة، لذا لن تتم مزامنة الرابط عند النشر."
+
+msgid "Choose which dates learners may book."
+msgstr "اختر المواعيد التي يمكن للمتعلمين حجزها."
+
+msgid "(no Session selected)"
+msgstr "(لم تُحدَّد جلسة)"
+
+msgid "Yes"
+msgstr "نعم"
+
+msgid "No"
+msgstr "لا"
+
+msgid "Only course staff can change this block."
+msgstr "لا يمكن إلا لطاقم المساق تغيير هذه الكتلة."
+
+msgid "The form wasn't sent correctly."
+msgstr "لم يُرسل النموذج بشكل صحيح."
+
+msgid "Choose a Session from the list."
+msgstr "اختر جلسة من القائمة."
+
+msgid "That Session can't be linked here."
+msgstr "لا يمكن ربط هذه الجلسة هنا."
+
+msgid "Required is yes or no."
+msgstr "قيمة المطلوب هي نعم أو لا."
+
+msgid "Kind"
+msgstr "النوع"
+
+msgid "Upcoming dates"
+msgstr "المواعيد القادمة"
+
+msgid "Dates learners may book"
+msgstr "المواعيد التي يمكن للمتعلمين حجزها"
+
+msgid "Limit to modes"
+msgstr "اقتصر على الأنماط"
+
+msgid "Use \"Restrict access\" on this component."
+msgstr "استخدم \"تقييد الوصول\" في هذا المكوّن."
+
+msgid "This Session isn't available yet."
+msgstr "هذه الجلسة غير متاحة بعد."
+
+msgid "Choose a Session"
+msgstr "اختر جلسة"
+
+msgid "Required to complete this part of the Course"
+msgstr "مطلوب لإكمال هذا الجزء من المساق"
+
+msgid ""
+"To limit it to some learning modes, use \"Restrict access\" on the "
+"component."
+msgstr "لقصره على بعض أنماط التعلّم، استخدم \"تقييد الوصول\" في المكوّن."
+
+msgid "Save"
+msgstr "حفظ"
+
+msgid "Cancel"
+msgstr "إلغاء"

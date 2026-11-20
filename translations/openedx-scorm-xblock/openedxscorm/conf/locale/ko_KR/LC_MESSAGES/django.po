@@ -10,99 +10,100 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid "Display Name"
-msgstr ""
+msgstr "표시 이름"
 
 msgid "Display name for this module"
-msgstr ""
+msgstr "이 모듈의 표시 이름"
 
 msgid "Path to the index page in scorm file"
-msgstr ""
+msgstr "SCORM 파일 내 인덱스 페이지 경로"
 
 msgid "Weight"
-msgstr ""
+msgstr "가중치"
 
 msgid "Weight/Maximum grade"
-msgstr ""
+msgstr "가중치/최대 성적"
 
 msgid "Scored"
-msgstr ""
+msgstr "채점됨"
 
 msgid ""
 "Select False if this component will not receive a numerical score from the "
 "Scorm"
-msgstr ""
+msgstr "이 구성 요소가 SCORM에서 숫자 점수를 받지 않으면 False를 선택하세요"
 
 msgid "Display width (px)"
-msgstr ""
+msgstr "표시 너비(px)"
 
 msgid "Width of iframe (default: 100%)"
-msgstr ""
+msgstr "iframe 너비(기본값: 100%)"
 
 msgid "Display height (px)"
-msgstr ""
+msgstr "표시 높이(px)"
 
 msgid "Height of iframe"
-msgstr ""
+msgstr "iframe 높이"
 
 msgid "Launch in pop-up window"
-msgstr ""
+msgstr "팝업 창에서 실행"
 
 msgid ""
 "Launch in pop-up window instead of embedding the SCORM content in an iframe."
 " Enable this for older packages that need to be run in separate window."
 msgstr ""
+"SCORM 콘텐츠를 iframe에 삽입하는 대신 팝업 창에서 실행합니다. 별도 창에서 실행해야 하는 이전 패키지에 사용하세요."
 
 msgid "Display navigation menu"
-msgstr ""
+msgstr "탐색 메뉴 표시"
 
 msgid ""
 "Select True to display a navigation menu on the left side to display table "
 "of contents"
-msgstr ""
+msgstr "왼쪽에 목차를 보여주는 탐색 메뉴를 표시하려면 True를 선택하세요"
 
 msgid "Show Fullscreen Button"
-msgstr ""
+msgstr "전체 화면 버튼 표시"
 
 msgid "Select True to show fullscreen button in the SCORM content"
-msgstr ""
+msgstr "SCORM 콘텐츠에 전체 화면 버튼을 표시하려면 True를 선택하세요"
 
 msgid "Display width of navigation menu(px)"
-msgstr ""
+msgstr "탐색 메뉴 표시 너비(px)"
 
 msgid ""
 "Width of navigation menu. This assumes that Navigation Menu is enabled. "
 "(default: 30%)"
-msgstr ""
+msgstr "탐색 메뉴의 너비입니다. 탐색 메뉴가 사용 설정되어 있다고 가정합니다. (기본값: 30%)"
 
 msgid "points"
-msgstr ""
+msgstr "점"
 
 msgid "Fullscreen"
-msgstr ""
+msgstr "전체 화면"
 
 msgid "Exit fullscreen"
-msgstr ""
+msgstr "전체 화면 종료"
 
 msgid "Launch unit in new window"
-msgstr ""
+msgstr "새 창에서 단원 실행"
 
 msgid "View SCORM reports"
-msgstr ""
+msgstr "SCORM 보고서 보기"
 
 msgid "Upload .zip package"
-msgstr ""
+msgstr ".zip 패키지 업로드"
 
 msgid "Currently:"
-msgstr ""
+msgstr "현재:"
 
 msgid "True"
-msgstr ""
+msgstr "참"
 
 msgid "False"
-msgstr ""
+msgstr "거짓"
 
 msgid "Save"
-msgstr ""
+msgstr "저장"
 
 msgid "Cancel"
-msgstr ""
+msgstr "취소"

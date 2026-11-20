@@ -37,7 +37,7 @@ msgid "Display width (px)"
 msgstr "Largeur d'affichage (px)"
 
 msgid "Width of iframe (default: 100%)"
-msgstr ""
+msgstr "Largeur de l’iframe (par défaut : 100 %)"
 
 msgid "Display height (px)"
 msgstr "Hauteur d'affichage (px)"
@@ -57,26 +57,31 @@ msgstr ""
 "fenêtre séparée."
 
 msgid "Display navigation menu"
-msgstr ""
+msgstr "Afficher le menu de navigation"
 
 msgid ""
 "Select True to display a navigation menu on the left side to display table "
 "of contents"
 msgstr ""
+"Sélectionnez Vrai pour afficher un menu de navigation à gauche présentant la"
+" table des matières"
 
 msgid "Show Fullscreen Button"
-msgstr ""
+msgstr "Afficher le bouton plein écran"
 
 msgid "Select True to show fullscreen button in the SCORM content"
 msgstr ""
+"Sélectionnez Vrai pour afficher un bouton plein écran dans le contenu SCORM"
 
 msgid "Display width of navigation menu(px)"
-msgstr ""
+msgstr "Largeur d’affichage du menu de navigation (px)"
 
 msgid ""
 "Width of navigation menu. This assumes that Navigation Menu is enabled. "
 "(default: 30%)"
 msgstr ""
+"Largeur du menu de navigation. Suppose que le menu de navigation est activé."
+" (par défaut : 30 %)"
 
 msgid "points"
 msgstr "points"

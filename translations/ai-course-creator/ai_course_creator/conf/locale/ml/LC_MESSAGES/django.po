@@ -9,8 +9,248 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+msgid "An error occurred while processing your request. Please try again."
+msgstr ""
+"നിങ്ങളുടെ അഭ്യർത്ഥന പ്രോസസ്സ് ചെയ്യുമ്പോൾ ഒരു പിശക് സംഭവിച്ചു. ദയവായി "
+"വീണ്ടും ശ്രമിക്കുക."
+
+msgid "Course not found"
+msgstr "കോഴ്സ് കണ്ടെത്തിയില്ല"
+
+msgid "No units found in course structure"
+msgstr "കോഴ്സ് ഘടനയിൽ യൂണിറ്റുകളൊന്നും കണ്ടെത്തിയില്ല"
+
+msgid "AI service is not configured"
+msgstr "AI സേവനം കോൺഫിഗർ ചെയ്തിട്ടില്ല"
+
+msgid "Unit not found"
+msgstr "യൂണിറ്റ് കണ്ടെത്തിയില്ല"
+
+msgid "AI returned invalid format"
+msgstr "AI അസാധുവായ ഫോർമാറ്റ് നൽകി"
+
+msgid "Component not found"
+msgstr "ഘടകം കണ്ടെത്തിയില്ല"
+
+msgid "AI returned invalid structure format"
+msgstr "AI അസാധുവായ ഘടനാ ഫോർമാറ്റ് നൽകി"
+
+msgid "course_creation_id is required."
+msgstr "course_creation_id ആവശ്യമാണ്."
+
+msgid "org, number, and run are all required."
+msgstr "org, number, run എന്നിവയെല്ലാം ആവശ്യമാണ്."
+
+msgid "Courses can only be created in your organisation."
+msgstr "നിങ്ങളുടെ സ്ഥാപനത്തിൽ മാത്രമേ കോഴ്സുകൾ സൃഷ്ടിക്കാനാകൂ."
+
+msgid "You do not have permission to create courses."
+msgstr "കോഴ്സുകൾ സൃഷ്ടിക്കാൻ നിങ്ങൾക്ക് അനുമതിയില്ല."
+
+msgid "Course not found."
+msgstr "കോഴ്സ് കണ്ടെത്തിയില്ല."
+
+msgid "You do not have access to this course."
+msgstr "ഈ കോഴ്സിലേക്ക് നിങ്ങൾക്ക് ആക്സസ് ഇല്ല."
+
+msgid ""
+"Course must be in script_generation, outline_creation, or failed stage. "
+"Current: {stage}"
+msgstr ""
+"കോഴ്സ് script_generation, outline_creation, അല്ലെങ്കിൽ failed ഘട്ടത്തിൽ "
+"ആയിരിക്കണം. നിലവിൽ: {stage}"
+
+msgid ""
+"Choose a video type (static link or AI avatar) in the Course Brief before "
+"building."
+msgstr ""
+"നിർമ്മിക്കുന്നതിന് മുമ്പ് കോഴ്സ് ബ്രീഫിൽ ഒരു വീഡിയോ തരം (സ്റ്റാറ്റിക് ലിങ്ക്"
+" അല്ലെങ്കിൽ AI അവതാർ) തിരഞ്ഞെടുക്കുക."
+
+msgid ""
+"AI usage has been disabled for your account. Please contact your "
+"organisation admin."
+msgstr ""
+"നിങ്ങളുടെ അക്കൗണ്ടിന് AI ഉപയോഗം പ്രവർത്തനരഹിതമാക്കി. ദയവായി നിങ്ങളുടെ "
+"സ്ഥാപനത്തിന്റെ അഡ്മിനെ ബന്ധപ്പെടുക."
+
+msgid ""
+"Your organisation's AI credits are exhausted. Contact your admin to allocate"
+" more."
+msgstr ""
+"നിങ്ങളുടെ സ്ഥാപനത്തിന്റെ AI ക്രെഡിറ്റുകൾ തീർന്നു. കൂടുതൽ അനുവദിക്കാൻ "
+"നിങ്ങളുടെ അഡ്മിനെ ബന്ധപ്പെടുക."
+
+msgid ""
+"This session's course is live and can't be rebuilt. Start a new AI Studio "
+"session to create another course."
+msgstr ""
+"ഈ സെഷന്റെ കോഴ്സ് ലൈവ് ആണ്, വീണ്ടും നിർമ്മിക്കാനാവില്ല. മറ്റൊരു കോഴ്സ് "
+"സൃഷ്ടിക്കാൻ പുതിയ AI Studio സെഷൻ ആരംഭിക്കുക."
+
+msgid "Message is required."
+msgstr "സന്ദേശം ആവശ്യമാണ്."
+
+msgid "An .srt transcript file is required to create a course from a video."
+msgstr ""
+"വീഡിയോയിൽ നിന്ന് കോഴ്സ് സൃഷ്ടിക്കാൻ ഒരു .srt ട്രാൻസ്ക്രിപ്റ്റ് ഫയൽ "
+"ആവശ്യമാണ്."
+
+msgid "That video is not in your organisation's video library."
+msgstr "ആ വീഡിയോ നിങ്ങളുടെ സ്ഥാപനത്തിന്റെ വീഡിയോ ലൈബ്രറിയിൽ ഇല്ല."
+
+msgid "That .srt file has no timed subtitles, or is larger than 2 MB."
+msgstr ""
+"ആ .srt ഫയലിൽ സമയബന്ധിതമായ സബ്ടൈറ്റിലുകളില്ല, അല്ലെങ്കിൽ അത് 2 MB-യിൽ "
+"കൂടുതലാണ്."
+
+msgid "A 'key' is required."
+msgstr "ഒരു 'key' ആവശ്യമാണ്."
+
+msgid "The '{key}' field is read-only."
+msgstr "'{key}' ഫീൽഡ് വായിക്കാൻ മാത്രമുള്ളതാണ്."
+
+msgid "You do not have access to AI Studio for this organisation."
+msgstr "ഈ സ്ഥാപനത്തിനായി നിങ്ങൾക്ക് AI Studio ആക്സസ് ഇല്ല."
+
+msgid ""
+"You do not have permission to manage AI Studio prompts for this "
+"organisation."
+msgstr ""
+"ഈ സ്ഥാപനത്തിനായി AI Studio പ്രോംപ്റ്റുകൾ കൈകാര്യം ചെയ്യാൻ നിങ്ങൾക്ക് "
+"അനുമതിയില്ല."
+
+msgid ""
+"Course must be in outline_creation, component_plan, or script_generation "
+"stage. Current: {stage}"
+msgstr ""
+"കോഴ്സ് outline_creation, component_plan, അല്ലെങ്കിൽ script_generation "
+"ഘട്ടത്തിൽ ആയിരിക്കണം. നിലവിൽ: {stage}"
+
+msgid "course_creation_id and unit_id are required."
+msgstr "course_creation_id, unit_id എന്നിവ ആവശ്യമാണ്."
+
+msgid "Access denied."
+msgstr "ആക്സസ് നിഷേധിച്ചു."
+
+msgid ""
+"Course must be in outline_creation or component_plan stage. Current: {stage}"
+msgstr ""
+"കോഴ്സ് outline_creation അല്ലെങ്കിൽ component_plan ഘട്ടത്തിൽ ആയിരിക്കണം. "
+"നിലവിൽ: {stage}"
+
+msgid "component_types must be a non-empty list."
+msgstr "component_types ശൂന്യമല്ലാത്ത ഒരു ലിസ്റ്റ് ആയിരിക്കണം."
+
+msgid "Invalid component types: {invalid_types}. Valid types: {valid_types}"
+msgstr "അസാധുവായ ഘടക തരങ്ങൾ: {invalid_types}. സാധുവായ തരങ്ങൾ: {valid_types}"
+
+msgid "component_id is required."
+msgstr "component_id ആവശ്യമാണ്."
+
+msgid "instruction is required."
+msgstr "instruction ആവശ്യമാണ്."
+
+msgid "Component not found."
+msgstr "ഘടകം കണ്ടെത്തിയില്ല."
+
+msgid "You do not have access to this component."
+msgstr "ഈ ഘടകത്തിലേക്ക് നിങ്ങൾക്ക് ആക്സസ് ഇല്ല."
+
+msgid "script is required."
+msgstr "script ആവശ്യമാണ്."
+
+msgid "name is required."
+msgstr "name ആവശ്യമാണ്."
+
+msgid "Node not found."
+msgstr "നോഡ് കണ്ടെത്തിയില്ല."
+
+msgid "course_creation_id, hierarchy, and name are required."
+msgstr "course_creation_id, hierarchy, name എന്നിവ ആവശ്യമാണ്."
+
+msgid "hierarchy must be section, subsection, or unit."
+msgstr "hierarchy section, subsection, അല്ലെങ്കിൽ unit ആയിരിക്കണം."
+
+msgid "Parent node not found."
+msgstr "പാരന്റ് നോഡ് കണ്ടെത്തിയില്ല."
+
+msgid "node_ids array is required."
+msgstr "node_ids അറേ ആവശ്യമാണ്."
+
+msgid "Some nodes not found."
+msgstr "ചില നോഡുകൾ കണ്ടെത്തിയില്ല."
+
+msgid "All nodes must belong to the same course."
+msgstr "എല്ലാ നോഡുകളും ഒരേ കോഴ്സിൽ ഉൾപ്പെട്ടതായിരിക്കണം."
+
 msgid ""
 "Dummy text to generate a translation (.po) source file. It is safe to delete"
 " this line. It is also safe to delete (load i18n) above if there are no "
 "other (trans) tags in the file"
 msgstr ""
+"Dummy text to generate a translation (.po) source file. It is safe to delete"
+" this line. It is also safe to delete (load i18n) above if there are no "
+"other (trans) tags in the file"
+
+msgid "Your course is ready"
+msgstr "നിങ്ങളുടെ കോഴ്സ് തയ്യാറാണ്"
+
+msgid "Hi %(full_name)s,"
+msgstr "നമസ്കാരം %(full_name)s,"
+
+msgid ""
+"Your AI-generated course %(start_strong)s%(course_title)s%(end_strong)s has "
+"finished building and is ready in Studio."
+msgstr ""
+"AI സൃഷ്ടിച്ച നിങ്ങളുടെ കോഴ്സ് %(start_strong)s%(course_title)s%(end_strong)s"
+" നിർമ്മാണം പൂർത്തിയായി, Studio-യിൽ തയ്യാറാണ്."
+
+msgid ""
+"%(counter)s component could not be generated and needs your attention. "
+"Review the course before you publish it."
+msgid_plural ""
+"%(counter)s components could not be generated and need your attention. "
+"Review the course before you publish it."
+msgstr[0] ""
+"%(counter)s ഘടകം സൃഷ്ടിക്കാനായില്ല, അതിന് നിങ്ങളുടെ ശ്രദ്ധ ആവശ്യമാണ്. "
+"പ്രസിദ്ധീകരിക്കുന്നതിന് മുമ്പ് കോഴ്സ് അവലോകനം ചെയ്യുക."
+msgstr[1] ""
+"%(counter)s ഘടകങ്ങൾ സൃഷ്ടിക്കാനായില്ല, അവയ്ക്ക് നിങ്ങളുടെ ശ്രദ്ധ ആവശ്യമാണ്. "
+"പ്രസിദ്ധീകരിക്കുന്നതിന് മുമ്പ് കോഴ്സ് അവലോകനം ചെയ്യുക."
+
+msgid "Open in Studio"
+msgstr "Studio-യിൽ തുറക്കുക"
+
+msgid "If the button doesn't work, copy this link into your browser:"
+msgstr ""
+"ബട്ടൺ പ്രവർത്തിക്കുന്നില്ലെങ്കിൽ, ഈ ലിങ്ക് നിങ്ങളുടെ ബ്രൗസറിലേക്ക് പകർത്തുക:"
+
+msgid "View it as a learner"
+msgstr "പഠിതാവായി ഇത് കാണുക"
+
+msgid "Course ID: %(course_key)s"
+msgstr "കോഴ്സ് ID: %(course_key)s"
+
+msgid ""
+"You got this email because you generated this course with the AI Course "
+"Creator."
+msgstr ""
+"നിങ്ങൾ AI കോഴ്സ് ക്രിയേറ്റർ ഉപയോഗിച്ച് ഈ കോഴ്സ് സൃഷ്ടിച്ചതിനാലാണ് നിങ്ങൾക്ക്"
+" ഈ ഇമെയിൽ ലഭിച്ചത്."
+
+msgid ""
+"Your AI-generated course \"%(course_title)s\" has finished building and is "
+"ready in Studio."
+msgstr ""
+"AI സൃഷ്ടിച്ച നിങ്ങളുടെ കോഴ്സ് \"%(course_title)s\" നിർമ്മാണം പൂർത്തിയായി, "
+"Studio-യിൽ തയ്യാറാണ്."
+
+msgid "Open it in Studio: %(studio_url)s"
+msgstr "Studio-യിൽ തുറക്കുക: %(studio_url)s"
+
+msgid "View it as a learner: %(lms_url)s"
+msgstr "പഠിതാവായി ഇത് കാണുക: %(lms_url)s"
+
+msgid "Your course \"%(course_title)s\" is ready"
+msgstr "നിങ്ങളുടെ കോഴ്സ് \"%(course_title)s\" തയ്യാറാണ്"

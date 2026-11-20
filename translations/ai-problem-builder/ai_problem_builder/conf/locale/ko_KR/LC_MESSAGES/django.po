@@ -10,7 +10,102 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid ""
+"Either 'prompts' list or 'prompt' with 'problem_count'/'problem_types' must "
+"be provided"
+msgstr ""
+"'prompts' 목록 또는 'problem_count'/'problem_types'와 함께 'prompt'를 제공해야 합니다"
+
+msgid "Invalid problem type: {ptype}. Valid types: {valid_types}"
+msgstr "잘못된 문제 유형: {ptype}. 유효한 유형: {valid_types}"
+
+msgid ""
+"Sum of problem_types counts ({total}) does not match problem_count ({count})"
+msgstr "problem_types 개수의 합({total})이 problem_count({count})와 일치하지 않습니다"
+
+msgid "Failed to generate OLX"
+msgstr "OLX를 생성하지 못했습니다"
+
+msgid "Required query parameter"
+msgstr "필수 쿼리 매개변수"
+
+msgid "Generated OLX failed validation after {attempts} attempts: {error}"
+msgstr "{attempts}회 시도 후에도 생성된 OLX가 유효성 검사를 통과하지 못했습니다: {error}"
+
+msgid "Rate limit error: {error}"
+msgstr "요청 한도 오류: {error}"
+
+msgid "Timeout error: {error}"
+msgstr "시간 초과 오류: {error}"
+
+msgid "Invalid request to LLM API: {error}"
+msgstr "LLM API에 대한 잘못된 요청: {error}"
+
+msgid "LLM API error: {error}"
+msgstr "LLM API 오류: {error}"
+
+msgid "Failed to generate OLX: {error}"
+msgstr "OLX 생성 실패: {error}"
+
+msgid "Failed to generate OLX after all retry attempts"
+msgstr "모든 재시도 후에도 OLX를 생성하지 못했습니다"
+
+msgid ""
 "Dummy text to generate a translation (.po) source file. It is safe to delete"
 " this line. It is also safe to delete (load i18n) above if there are no "
 "other (trans) tags in the file"
 msgstr ""
+"번역(.po) 원본 파일을 생성하기 위한 더미 텍스트입니다. 이 줄은 삭제해도 됩니다. 파일에 다른 (trans) 태그가 없으면 위의 "
+"(load i18n)도 삭제해도 됩니다"
+
+msgid ""
+"Unsupported file type: {file_extension}. Supported types: PDF, DOCX, PPTX"
+msgstr "지원되지 않는 파일 형식: {file_extension}. 지원 형식: PDF, DOCX, PPTX"
+
+msgid "Failed to extract text from {filename}: {error}"
+msgstr "{filename}에서 텍스트 추출 실패: {error}"
+
+msgid "No documents could be processed successfully"
+msgstr "성공적으로 처리된 문서가 없습니다"
+
+msgid "No text content found in PDF"
+msgstr "PDF에서 텍스트 콘텐츠를 찾을 수 없습니다"
+
+msgid "No text content found in Word document"
+msgstr "Word 문서에서 텍스트 콘텐츠를 찾을 수 없습니다"
+
+msgid "No text content found in PowerPoint presentation"
+msgstr "PowerPoint 프레젠테이션에서 텍스트 콘텐츠를 찾을 수 없습니다"
+
+msgid "Invalid library key format: {error}"
+msgstr "잘못된 라이브러리 키 형식: {error}"
+
+msgid "Invalid usage key format: {error}"
+msgstr "잘못된 사용 키 형식: {error}"
+
+msgid "Permission denied: {error}"
+msgstr "권한 거부됨: {error}"
+
+msgid "Invalid block type '{block_type}': {error}"
+msgstr "잘못된 블록 유형 '{block_type}': {error}"
+
+msgid ""
+"Cannot add problem directly to {container_type}. Problems can only be added "
+"to collections or units."
+msgstr "{container_type}에 문제를 직접 추가할 수 없습니다. 문제는 컬렉션 또는 단원에만 추가할 수 있습니다."
+
+msgid ""
+"Cannot add problems directly to {container_type}. Problems can only be added"
+" to collections or units."
+msgstr "{container_type}에 문제를 직접 추가할 수 없습니다. 문제는 컬렉션 또는 단원에만 추가할 수 있습니다."
+
+msgid "OLX string cannot be empty"
+msgstr "OLX 문자열은 비워 둘 수 없습니다"
+
+msgid "Invalid XML syntax: {error}"
+msgstr "잘못된 XML 구문: {error}"
+
+msgid "Error parsing XML: {error}"
+msgstr "XML 구문 분석 오류: {error}"
+
+msgid "Root tag mismatch: expected '<{expected}>', found '<{found}>'"
+msgstr "루트 태그 불일치: '<{expected}>'이(가) 필요하지만 '<{found}>'이(가) 있습니다"

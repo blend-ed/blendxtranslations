@@ -9,8 +9,243 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+msgid "An error occurred while processing your request. Please try again."
+msgstr ""
+"आपके अनुरोध को संसाधित करते समय एक त्रुटि हुई। कृपया पुनः प्रयास करें।"
+
+msgid "Course not found"
+msgstr "पाठ्यक्रम नहीं मिला"
+
+msgid "No units found in course structure"
+msgstr "पाठ्यक्रम संरचना में कोई इकाई नहीं मिली"
+
+msgid "AI service is not configured"
+msgstr "AI सेवा कॉन्फ़िगर नहीं है"
+
+msgid "Unit not found"
+msgstr "इकाई नहीं मिली"
+
+msgid "AI returned invalid format"
+msgstr "AI ने अमान्य फ़ॉर्मैट लौटाया"
+
+msgid "Component not found"
+msgstr "कंपोनेंट नहीं मिला"
+
+msgid "AI returned invalid structure format"
+msgstr "AI ने अमान्य संरचना फ़ॉर्मैट लौटाया"
+
+msgid "course_creation_id is required."
+msgstr "course_creation_id आवश्यक है।"
+
+msgid "org, number, and run are all required."
+msgstr "org, number और run सभी आवश्यक हैं।"
+
+msgid "Courses can only be created in your organisation."
+msgstr "पाठ्यक्रम केवल आपके संगठन में बनाए जा सकते हैं।"
+
+msgid "You do not have permission to create courses."
+msgstr "आपके पास पाठ्यक्रम बनाने की अनुमति नहीं है।"
+
+msgid "Course not found."
+msgstr "पाठ्यक्रम नहीं मिला।"
+
+msgid "You do not have access to this course."
+msgstr "आपको इस पाठ्यक्रम तक पहुँच नहीं है।"
+
+msgid ""
+"Course must be in script_generation, outline_creation, or failed stage. "
+"Current: {stage}"
+msgstr ""
+"पाठ्यक्रम script_generation, outline_creation या failed चरण में होना चाहिए। "
+"वर्तमान: {stage}"
+
+msgid ""
+"Choose a video type (static link or AI avatar) in the Course Brief before "
+"building."
+msgstr ""
+"बनाने से पहले पाठ्यक्रम ब्रीफ़ में वीडियो प्रकार (स्टैटिक लिंक या AI अवतार) "
+"चुनें।"
+
+msgid ""
+"AI usage has been disabled for your account. Please contact your "
+"organisation admin."
+msgstr ""
+"आपके खाते के लिए AI उपयोग अक्षम कर दिया गया है। कृपया अपने संगठन व्यवस्थापक "
+"से संपर्क करें।"
+
+msgid ""
+"Your organisation's AI credits are exhausted. Contact your admin to allocate"
+" more."
+msgstr ""
+"आपके संगठन के AI क्रेडिट समाप्त हो गए हैं। और आवंटित करने के लिए अपने "
+"व्यवस्थापक से संपर्क करें।"
+
+msgid ""
+"This session's course is live and can't be rebuilt. Start a new AI Studio "
+"session to create another course."
+msgstr ""
+"इस सत्र का पाठ्यक्रम लाइव है और उसे फिर से नहीं बनाया जा सकता। दूसरा "
+"पाठ्यक्रम बनाने के लिए नया AI Studio सत्र शुरू करें।"
+
+msgid "Message is required."
+msgstr "संदेश आवश्यक है।"
+
+msgid "An .srt transcript file is required to create a course from a video."
+msgstr "वीडियो से पाठ्यक्रम बनाने के लिए .srt ट्रांसक्रिप्ट फ़ाइल आवश्यक है।"
+
+msgid "That video is not in your organisation's video library."
+msgstr "वह वीडियो आपके संगठन के वीडियो पुस्तकालय में नहीं है।"
+
+msgid "That .srt file has no timed subtitles, or is larger than 2 MB."
+msgstr ""
+"उस .srt फ़ाइल में कोई समयबद्ध उपशीर्षक नहीं है, या वह 2 MB से बड़ी है।"
+
+msgid "A 'key' is required."
+msgstr "एक 'key' आवश्यक है।"
+
+msgid "The '{key}' field is read-only."
+msgstr "'{key}' फ़ील्ड केवल-पढ़ने योग्य है।"
+
+msgid "You do not have access to AI Studio for this organisation."
+msgstr "आपके पास इस संगठन के लिए AI Studio की पहुँच नहीं है।"
+
+msgid ""
+"You do not have permission to manage AI Studio prompts for this "
+"organisation."
+msgstr ""
+"आपके पास इस संगठन के लिए AI Studio प्रॉम्प्ट प्रबंधित करने की अनुमति नहीं "
+"है।"
+
+msgid ""
+"Course must be in outline_creation, component_plan, or script_generation "
+"stage. Current: {stage}"
+msgstr ""
+"पाठ्यक्रम outline_creation, component_plan या script_generation चरण में होना"
+" चाहिए। वर्तमान: {stage}"
+
+msgid "course_creation_id and unit_id are required."
+msgstr "course_creation_id और unit_id आवश्यक हैं।"
+
+msgid "Access denied."
+msgstr "पहुँच अस्वीकृत।"
+
+msgid ""
+"Course must be in outline_creation or component_plan stage. Current: {stage}"
+msgstr ""
+"पाठ्यक्रम outline_creation या component_plan चरण में होना चाहिए। वर्तमान: "
+"{stage}"
+
+msgid "component_types must be a non-empty list."
+msgstr "component_types एक गैर-खाली सूची होनी चाहिए।"
+
+msgid "Invalid component types: {invalid_types}. Valid types: {valid_types}"
+msgstr "अमान्य कंपोनेंट प्रकार: {invalid_types}। मान्य प्रकार: {valid_types}"
+
+msgid "component_id is required."
+msgstr "component_id आवश्यक है।"
+
+msgid "instruction is required."
+msgstr "instruction आवश्यक है।"
+
+msgid "Component not found."
+msgstr "कंपोनेंट नहीं मिला।"
+
+msgid "You do not have access to this component."
+msgstr "आपके पास इस कंपोनेंट की पहुँच नहीं है।"
+
+msgid "script is required."
+msgstr "script आवश्यक है।"
+
+msgid "name is required."
+msgstr "name आवश्यक है।"
+
+msgid "Node not found."
+msgstr "नोड नहीं मिला।"
+
+msgid "course_creation_id, hierarchy, and name are required."
+msgstr "course_creation_id, hierarchy और name आवश्यक हैं।"
+
+msgid "hierarchy must be section, subsection, or unit."
+msgstr "hierarchy का मान section, subsection या unit होना चाहिए।"
+
+msgid "Parent node not found."
+msgstr "पैरेंट नोड नहीं मिला।"
+
+msgid "node_ids array is required."
+msgstr "node_ids array आवश्यक है।"
+
+msgid "Some nodes not found."
+msgstr "कुछ नोड नहीं मिले।"
+
+msgid "All nodes must belong to the same course."
+msgstr "सभी नोड एक ही पाठ्यक्रम के होने चाहिए।"
+
 msgid ""
 "Dummy text to generate a translation (.po) source file. It is safe to delete"
 " this line. It is also safe to delete (load i18n) above if there are no "
 "other (trans) tags in the file"
 msgstr ""
+"अनुवाद (.po) स्रोत फ़ाइल बनाने के लिए डमी टेक्स्ट। इस पंक्ति को हटाना "
+"सुरक्षित है। यदि फ़ाइल में कोई अन्य (trans) टैग नहीं है, तो ऊपर (load i18n) "
+"को हटाना भी सुरक्षित है"
+
+msgid "Your course is ready"
+msgstr "आपका पाठ्यक्रम तैयार है"
+
+msgid "Hi %(full_name)s,"
+msgstr "नमस्ते %(full_name)s,"
+
+msgid ""
+"Your AI-generated course %(start_strong)s%(course_title)s%(end_strong)s has "
+"finished building and is ready in Studio."
+msgstr ""
+"आपका AI-जनरेटेड पाठ्यक्रम %(start_strong)s%(course_title)s%(end_strong)s बन "
+"गया है और Studio में तैयार है।"
+
+msgid ""
+"%(counter)s component could not be generated and needs your attention. "
+"Review the course before you publish it."
+msgid_plural ""
+"%(counter)s components could not be generated and need your attention. "
+"Review the course before you publish it."
+msgstr[0] ""
+"%(counter)s कंपोनेंट जनरेट नहीं हो सका और उस पर आपका ध्यान आवश्यक है। "
+"प्रकाशित करने से पहले पाठ्यक्रम की समीक्षा करें।"
+msgstr[1] ""
+"%(counter)s कंपोनेंट जनरेट नहीं हो सके और उन पर आपका ध्यान आवश्यक है। "
+"प्रकाशित करने से पहले पाठ्यक्रम की समीक्षा करें।"
+
+msgid "Open in Studio"
+msgstr "Studio में खोलें"
+
+msgid "If the button doesn't work, copy this link into your browser:"
+msgstr "यदि बटन काम नहीं करता, तो इस लिंक को अपने ब्राउज़र में कॉपी करें:"
+
+msgid "View it as a learner"
+msgstr "इसे शिक्षार्थी के रूप में देखें"
+
+msgid "Course ID: %(course_key)s"
+msgstr "पाठ्यक्रम ID: %(course_key)s"
+
+msgid ""
+"You got this email because you generated this course with the AI Course "
+"Creator."
+msgstr ""
+"आपको यह ईमेल इसलिए मिला क्योंकि आपने यह पाठ्यक्रम AI पाठ्यक्रम निर्माता से "
+"जनरेट किया।"
+
+msgid ""
+"Your AI-generated course \"%(course_title)s\" has finished building and is "
+"ready in Studio."
+msgstr ""
+"आपका AI-जनरेटेड पाठ्यक्रम \"%(course_title)s\" बन गया है और Studio में तैयार"
+" है।"
+
+msgid "Open it in Studio: %(studio_url)s"
+msgstr "इसे Studio में खोलें: %(studio_url)s"
+
+msgid "View it as a learner: %(lms_url)s"
+msgstr "इसे शिक्षार्थी के रूप में देखें: %(lms_url)s"
+
+msgid "Your course \"%(course_title)s\" is ready"
+msgstr "आपका पाठ्यक्रम \"%(course_title)s\" तैयार है"

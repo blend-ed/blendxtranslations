@@ -10,99 +10,99 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid "Display Name"
-msgstr ""
+msgstr "显示名称"
 
 msgid "Display name for this module"
-msgstr ""
+msgstr "此模块的显示名称"
 
 msgid "Path to the index page in scorm file"
-msgstr ""
+msgstr "SCORM 文件中索引页面的路径"
 
 msgid "Weight"
-msgstr ""
+msgstr "权重"
 
 msgid "Weight/Maximum grade"
-msgstr ""
+msgstr "权重/最高分"
 
 msgid "Scored"
-msgstr ""
+msgstr "已计分"
 
 msgid ""
 "Select False if this component will not receive a numerical score from the "
 "Scorm"
-msgstr ""
+msgstr "如果此组件不会从 SCORM 接收数值分数，请选择“否”"
 
 msgid "Display width (px)"
-msgstr ""
+msgstr "显示宽度 (px)"
 
 msgid "Width of iframe (default: 100%)"
-msgstr ""
+msgstr "iframe 宽度（默认：100%）"
 
 msgid "Display height (px)"
-msgstr ""
+msgstr "显示高度 (px)"
 
 msgid "Height of iframe"
-msgstr ""
+msgstr "iframe 高度"
 
 msgid "Launch in pop-up window"
-msgstr ""
+msgstr "在弹出窗口中启动"
 
 msgid ""
 "Launch in pop-up window instead of embedding the SCORM content in an iframe."
 " Enable this for older packages that need to be run in separate window."
-msgstr ""
+msgstr "在弹出窗口中启动，而不是将 SCORM 内容嵌入 iframe。对于需要在单独窗口中运行的旧版包，请启用此项。"
 
 msgid "Display navigation menu"
-msgstr ""
+msgstr "显示导航菜单"
 
 msgid ""
 "Select True to display a navigation menu on the left side to display table "
 "of contents"
-msgstr ""
+msgstr "选择“是”可在左侧显示导航菜单以显示目录"
 
 msgid "Show Fullscreen Button"
-msgstr ""
+msgstr "显示全屏按钮"
 
 msgid "Select True to show fullscreen button in the SCORM content"
-msgstr ""
+msgstr "选择“是”可在 SCORM 内容中显示全屏按钮"
 
 msgid "Display width of navigation menu(px)"
-msgstr ""
+msgstr "导航菜单的显示宽度 (px)"
 
 msgid ""
 "Width of navigation menu. This assumes that Navigation Menu is enabled. "
 "(default: 30%)"
-msgstr ""
+msgstr "导航菜单宽度。前提是已启用导航菜单。（默认：30%）"
 
 msgid "points"
-msgstr ""
+msgstr "积分"
 
 msgid "Fullscreen"
-msgstr ""
+msgstr "全屏"
 
 msgid "Exit fullscreen"
-msgstr ""
+msgstr "退出全屏"
 
 msgid "Launch unit in new window"
-msgstr ""
+msgstr "在新窗口中启动单元"
 
 msgid "View SCORM reports"
-msgstr ""
+msgstr "查看 SCORM 报告"
 
 msgid "Upload .zip package"
-msgstr ""
+msgstr "上传 .zip 包"
 
 msgid "Currently:"
-msgstr ""
+msgstr "当前："
 
 msgid "True"
-msgstr ""
+msgstr "是"
 
 msgid "False"
-msgstr ""
+msgstr "否"
 
 msgid "Save"
-msgstr ""
+msgstr "保存"
 
 msgid "Cancel"
-msgstr ""
+msgstr "取消"

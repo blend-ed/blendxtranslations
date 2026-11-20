@@ -10,39 +10,41 @@ msgstr ""
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 
 msgid "HTML Content"
-msgstr ""
+msgstr "محتوى HTML"
 
 msgid "HTML content to render in the interactive block"
-msgstr ""
+msgstr "محتوى HTML المراد عرضه في الكتلة التفاعلية"
 
 msgid "CSS Content"
-msgstr ""
+msgstr "محتوى CSS"
 
 msgid "CSS styles for the interactive content"
-msgstr ""
+msgstr "أنماط CSS للمحتوى التفاعلي"
 
 msgid "JavaScript Content"
-msgstr ""
+msgstr "محتوى JavaScript"
 
 msgid ""
 "JavaScript code for interactivity. Use submitInteraction(data) to send data "
 "to the XBlock."
 msgstr ""
+"شيفرة JavaScript للتفاعل. استخدم submitInteraction(data) لإرسال البيانات إلى"
+" XBlock."
 
 msgid "Enable Debug Mode"
-msgstr ""
+msgstr "فعّل وضع تصحيح الأخطاء"
 
 msgid "Show debug information and console logs"
-msgstr ""
+msgstr "اعرض معلومات تصحيح الأخطاء وسجلات وحدة التحكم"
 
 msgid "Enable Auto-Grading"
-msgstr ""
+msgstr "فعّل التقييم التلقائي"
 
 msgid "Enable automatic grading based on JS response"
-msgstr ""
+msgstr "فعّل التقييم التلقائي بناءً على استجابة JS"
 
 msgid "Completion Mode"
-msgstr ""
+msgstr "وضع الإكمال"
 
 msgid ""
 "How this block is marked complete. \"On submit\" completes when your "
@@ -51,227 +53,244 @@ msgid ""
 "no submission). \"Manual\" completes only when your JavaScript calls "
 "window.markComplete()."
 msgstr ""
+"كيفية تمييز هذه الكتلة كمكتملة. \"عند الإرسال\" تكتمل عندما يستدعي "
+"JavaScript الخاص بك submitInteraction(). \"عند العرض\" تكتمل تلقائياً بعد أن"
+" يعرض المتعلم الكتلة للمدة المضبوطة (استخدمه للمحاكاة التي لا تتضمن "
+"إرسالاً). \"يدوي\" تكتمل فقط عندما يستدعي JavaScript الخاص بك "
+"window.markComplete()."
 
 msgid "On submit (when interaction is submitted)"
-msgstr ""
+msgstr "عند الإرسال (عند إرسال التفاعل)"
 
 msgid "On view (auto-complete after viewing)"
-msgstr ""
+msgstr "عند العرض (إكمال تلقائي بعد العرض)"
 
 msgid "Manual (author JS calls markComplete())"
-msgstr ""
+msgstr "يدوي (يستدعي JS الخاص بالمؤلف markComplete())"
 
 msgid "View Completion Delay (ms)"
-msgstr ""
+msgstr "مهلة إكمال العرض (ms)"
 
 msgid ""
 "Milliseconds the block must be viewed before auto-completing in \"On view\" "
 "mode."
 msgstr ""
+"عدد الملّي ثانية التي يجب عرض الكتلة خلالها قبل الإكمال التلقائي في وضع "
+"\"عند العرض\"."
 
 msgid "Weight"
-msgstr ""
+msgstr "الوزن"
 
 msgid "Weight for grading purposes"
-msgstr ""
+msgstr "الوزن لأغراض التقييم"
 
 msgid "Display Name"
-msgstr ""
+msgstr "الاسم المعروض"
 
 msgid "Display name for this interactive block"
-msgstr ""
+msgstr "الاسم المعروض لهذه الكتلة التفاعلية"
 
 msgid "Correct Answers"
-msgstr ""
+msgstr "الإجابات الصحيحة"
 
 msgid "JSON object defining correct answers for auto-grading"
-msgstr ""
+msgstr "كائن JSON يحدد الإجابات الصحيحة للتقييم التلقائي"
 
 msgid "Show Feedback to Learners"
-msgstr ""
+msgstr "اعرض الملاحظات للمتعلمين"
 
 msgid "Show correct/incorrect feedback to learners"
-msgstr ""
+msgstr "اعرض ملاحظات الإجابة الصحيحة/غير الصحيحة للمتعلمين"
 
 msgid "Show Previous Response"
-msgstr ""
+msgstr "اعرض الاستجابة السابقة"
 
 msgid "Show learner their previous response when they return"
-msgstr ""
+msgstr "اعرض للمتعلم استجابته السابقة عند عودته"
 
 msgid "Captured learner interaction data"
-msgstr ""
+msgstr "بيانات تفاعل المتعلم المُلتقطة"
 
 msgid "Number of interactions submitted"
-msgstr ""
+msgstr "عدد التفاعلات المُرسلة"
 
 msgid "Timestamp of last interaction"
-msgstr ""
+msgstr "الطابع الزمني لآخر تفاعل"
 
 msgid "Whether the learner response is correct"
-msgstr ""
+msgstr "ما إذا كانت استجابة المتعلم صحيحة"
 
 msgid "Score for the learner response"
-msgstr ""
+msgstr "درجة استجابة المتعلم"
 
 msgid "Feedback message shown to learner"
-msgstr ""
+msgstr "رسالة الملاحظات المعروضة للمتعلم"
 
 msgid "Whether on-view/manual completion has already been emitted"
-msgstr ""
+msgstr "ما إذا كان إكمال العرض/الإكمال اليدوي قد أُرسل بالفعل"
 
 msgid "Debug Information (Staff Only)"
-msgstr ""
+msgstr "معلومات تصحيح الأخطاء (للطاقم فقط)"
 
 msgid "Block ID"
-msgstr ""
+msgstr "معرّف الكتلة"
 
 msgid "User ID"
-msgstr ""
+msgstr "معرّف المستخدم"
 
 msgid "Interaction Count"
-msgstr ""
+msgstr "عدد التفاعلات"
 
 msgid "Last Interaction"
-msgstr ""
+msgstr "آخر تفاعل"
 
 msgid "Is Correct"
-msgstr ""
+msgstr "صحيح؟"
 
 msgid "Score"
-msgstr ""
+msgstr "الدرجة"
 
 msgid "Correct"
-msgstr ""
+msgstr "صحيح"
 
 msgid "Incorrect"
-msgstr ""
+msgstr "غير صحيح"
 
 msgid "Feedback"
-msgstr ""
+msgstr "الملاحظات"
 
 msgid "Time spent"
-msgstr ""
+msgstr "الوقت المستغرق"
 
 msgid "No content. Please add HTML content in the studio."
-msgstr ""
+msgstr "لا يوجد محتوى. يرجى إضافة محتوى HTML في Studio."
 
 msgid "Generate with AI"
-msgstr ""
+msgstr "أنشئ باستخدام AI"
 
 msgid ""
 "e.g. A multiple choice quiz about the water cycle with 4 questions, each "
 "with 4 answer options..."
 msgstr ""
+"مثال: اختبار قصير متعدد الخيارات عن دورة الماء يتضمن 4 أسئلة، لكل منها 4 "
+"خيارات للإجابة..."
 
 msgid "Generate"
-msgstr ""
+msgstr "أنشئ"
 
 msgid "Display name for this module"
-msgstr ""
+msgstr "الاسم المعروض لهذه الوحدة النمطية"
 
 msgid "Enter the HTML content that will be rendered in the interactive block"
-msgstr ""
+msgstr "أدخل محتوى HTML الذي سيُعرض في الكتلة التفاعلية"
 
 msgid "CSS Styles"
-msgstr ""
+msgstr "أنماط CSS"
 
 msgid "Enter CSS styles for your interactive content"
-msgstr ""
+msgstr "أدخل أنماط CSS لمحتواك التفاعلي"
 
 msgid "JavaScript Code"
-msgstr ""
+msgstr "شيفرة JavaScript"
 
 msgid ""
 "Enter JavaScript code for interactivity. Use submitInteraction(data) to send"
 " data to the XBlock"
 msgstr ""
+"أدخل شيفرة JavaScript للتفاعل. استخدم submitInteraction(data) لإرسال "
+"البيانات إلى XBlock"
 
 msgid "Weight of this problem for grading"
-msgstr ""
+msgstr "وزن هذه المسألة في التقييم"
 
 msgid "True"
-msgstr ""
+msgstr "صحيح"
 
 msgid "False"
-msgstr ""
+msgstr "خطأ"
 
 msgid "Enable debug mode for development"
-msgstr ""
+msgstr "فعّل وضع تصحيح الأخطاء للتطوير"
 
 msgid ""
 "How this block is marked complete. Use 'On view' for simulations with no "
 "submission."
 msgstr ""
+"كيفية تمييز هذه الكتلة كمكتملة. استخدم 'عند العرض' للمحاكاة التي لا تتضمن "
+"إرسالاً."
 
 msgid ""
 "Milliseconds the block must be viewed before auto-completing (On view mode "
 "only)."
 msgstr ""
+"عدد الملّي ثانية التي يجب عرض الكتلة خلالها قبل الإكمال التلقائي (في وضع "
+"\"عند العرض\" فقط)."
 
 msgid "Auto Grade Enabled"
-msgstr ""
+msgstr "التقييم التلقائي مفعّل"
 
 msgid "Enable automatic grading based on interaction data"
-msgstr ""
+msgstr "فعّل التقييم التلقائي بناءً على بيانات التفاعل"
 
 msgid "Grading Configuration"
-msgstr ""
+msgstr "إعداد التقييم"
 
 msgid "Answer Matching Mode"
-msgstr ""
+msgstr "وضع مطابقة الإجابة"
 
 msgid "None (JS controls grading)"
-msgstr ""
+msgstr "بلا (يتحكم JS في التقييم)"
 
 msgid "Single Answer"
-msgstr ""
+msgstr "إجابة واحدة"
 
 msgid "Multiple Fields"
-msgstr ""
+msgstr "حقول متعددة"
 
 msgid ""
 "Choose 'None' if your JavaScript passes correct: true/false in "
 "submitInteraction()."
 msgstr ""
+"اختر 'بلا' إذا كان JavaScript الخاص بك يمرّر correct: true/false في "
+"submitInteraction()."
 
 msgid "Correct Answer"
-msgstr ""
+msgstr "الإجابة الصحيحة"
 
 msgid "The expected value. Comparison is case-insensitive."
-msgstr ""
+msgstr "القيمة المتوقعة. المقارنة لا تميّز بين الأحرف الكبيرة والصغيرة."
 
 msgid "Answer Fields"
-msgstr ""
+msgstr "حقول الإجابة"
 
 msgid "Add Field"
-msgstr ""
+msgstr "أضف حقلاً"
 
 msgid ""
 "Map each field name to its expected value. Partial credit is awarded "
 "proportionally."
-msgstr ""
+msgstr "اربط كل اسم حقل بقيمته المتوقعة. تُمنح الدرجة الجزئية بشكل متناسب."
 
 msgid "Correct Feedback"
-msgstr ""
+msgstr "ملاحظات الإجابة الصحيحة"
 
 msgid "Incorrect Feedback"
-msgstr ""
+msgstr "ملاحظات الإجابة غير الصحيحة"
 
 msgid "Feedback is shown even when your JavaScript controls grading."
-msgstr ""
+msgstr "تُعرض الملاحظات حتى عندما يتحكم JavaScript الخاص بك في التقييم."
 
 msgid "Test Grading"
-msgstr ""
+msgstr "اختبر التقييم"
 
 msgid "Verify your grading setup before saving."
-msgstr ""
+msgstr "تحقق من إعداد التقييم قبل الحفظ."
 
 msgid "Run Test"
-msgstr ""
+msgstr "شغّل الاختبار"
 
 msgid "Save"
-msgstr ""
+msgstr "حفظ"
 
 msgid "Cancel"
-msgstr ""
+msgstr "إلغاء"

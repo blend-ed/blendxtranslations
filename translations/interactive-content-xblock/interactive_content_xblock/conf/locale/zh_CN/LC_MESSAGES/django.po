@@ -10,39 +10,39 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid "HTML Content"
-msgstr ""
+msgstr "HTML 内容"
 
 msgid "HTML content to render in the interactive block"
-msgstr ""
+msgstr "要在交互块中呈现的 HTML 内容"
 
 msgid "CSS Content"
-msgstr ""
+msgstr "CSS 内容"
 
 msgid "CSS styles for the interactive content"
-msgstr ""
+msgstr "交互内容的 CSS 样式"
 
 msgid "JavaScript Content"
-msgstr ""
+msgstr "JavaScript 内容"
 
 msgid ""
 "JavaScript code for interactivity. Use submitInteraction(data) to send data "
 "to the XBlock."
-msgstr ""
+msgstr "用于交互的 JavaScript 代码。使用 submitInteraction(data) 向 XBlock 发送数据。"
 
 msgid "Enable Debug Mode"
-msgstr ""
+msgstr "启用调试模式"
 
 msgid "Show debug information and console logs"
-msgstr ""
+msgstr "显示调试信息和控制台日志"
 
 msgid "Enable Auto-Grading"
-msgstr ""
+msgstr "启用自动评分"
 
 msgid "Enable automatic grading based on JS response"
-msgstr ""
+msgstr "根据 JS 响应启用自动评分"
 
 msgid "Completion Mode"
-msgstr ""
+msgstr "完成模式"
 
 msgid ""
 "How this block is marked complete. \"On submit\" completes when your "
@@ -51,227 +51,230 @@ msgid ""
 "no submission). \"Manual\" completes only when your JavaScript calls "
 "window.markComplete()."
 msgstr ""
+"此块如何被标记为完成。“提交时”在您的 JavaScript 调用 submitInteraction() "
+"时完成。“查看时”在学员查看此块达到所配置的延迟后自动完成（适用于无需提交的模拟）。“手动”仅在您的 JavaScript 调用 "
+"window.markComplete() 时完成。"
 
 msgid "On submit (when interaction is submitted)"
-msgstr ""
+msgstr "提交时（提交交互时）"
 
 msgid "On view (auto-complete after viewing)"
-msgstr ""
+msgstr "查看时（查看后自动完成）"
 
 msgid "Manual (author JS calls markComplete())"
-msgstr ""
+msgstr "手动（作者 JS 调用 markComplete()）"
 
 msgid "View Completion Delay (ms)"
-msgstr ""
+msgstr "查看完成延迟（毫秒）"
 
 msgid ""
 "Milliseconds the block must be viewed before auto-completing in \"On view\" "
 "mode."
-msgstr ""
+msgstr "在“查看时”模式下，自动完成前必须查看此块的毫秒数。"
 
 msgid "Weight"
-msgstr ""
+msgstr "权重"
 
 msgid "Weight for grading purposes"
-msgstr ""
+msgstr "用于评分的权重"
 
 msgid "Display Name"
-msgstr ""
+msgstr "显示名称"
 
 msgid "Display name for this interactive block"
-msgstr ""
+msgstr "此交互块的显示名称"
 
 msgid "Correct Answers"
-msgstr ""
+msgstr "正确答案"
 
 msgid "JSON object defining correct answers for auto-grading"
-msgstr ""
+msgstr "定义自动评分正确答案的 JSON 对象"
 
 msgid "Show Feedback to Learners"
-msgstr ""
+msgstr "向学员显示反馈"
 
 msgid "Show correct/incorrect feedback to learners"
-msgstr ""
+msgstr "向学员显示正确/错误反馈"
 
 msgid "Show Previous Response"
-msgstr ""
+msgstr "显示之前的回答"
 
 msgid "Show learner their previous response when they return"
-msgstr ""
+msgstr "学员返回时向其显示之前的回答"
 
 msgid "Captured learner interaction data"
-msgstr ""
+msgstr "已捕获的学员交互数据"
 
 msgid "Number of interactions submitted"
-msgstr ""
+msgstr "已提交的交互次数"
 
 msgid "Timestamp of last interaction"
-msgstr ""
+msgstr "最后一次交互的时间戳"
 
 msgid "Whether the learner response is correct"
-msgstr ""
+msgstr "学员回答是否正确"
 
 msgid "Score for the learner response"
-msgstr ""
+msgstr "学员回答的分数"
 
 msgid "Feedback message shown to learner"
-msgstr ""
+msgstr "向学员显示的反馈消息"
 
 msgid "Whether on-view/manual completion has already been emitted"
-msgstr ""
+msgstr "是否已发出查看时/手动完成事件"
 
 msgid "Debug Information (Staff Only)"
-msgstr ""
+msgstr "调试信息（仅限职员）"
 
 msgid "Block ID"
-msgstr ""
+msgstr "块 ID"
 
 msgid "User ID"
-msgstr ""
+msgstr "用户 ID"
 
 msgid "Interaction Count"
-msgstr ""
+msgstr "交互次数"
 
 msgid "Last Interaction"
-msgstr ""
+msgstr "最后一次交互"
 
 msgid "Is Correct"
-msgstr ""
+msgstr "是否正确"
 
 msgid "Score"
-msgstr ""
+msgstr "分数"
 
 msgid "Correct"
-msgstr ""
+msgstr "正确"
 
 msgid "Incorrect"
-msgstr ""
+msgstr "错误"
 
 msgid "Feedback"
-msgstr ""
+msgstr "反馈"
 
 msgid "Time spent"
-msgstr ""
+msgstr "所用时间"
 
 msgid "No content. Please add HTML content in the studio."
-msgstr ""
+msgstr "无内容。请在 Studio 中添加 HTML 内容。"
 
 msgid "Generate with AI"
-msgstr ""
+msgstr "使用 AI 生成"
 
 msgid ""
 "e.g. A multiple choice quiz about the water cycle with 4 questions, each "
 "with 4 answer options..."
-msgstr ""
+msgstr "例如：一个关于水循环的选择题测验，共 4 道题，每道题有 4 个选项……"
 
 msgid "Generate"
-msgstr ""
+msgstr "生成"
 
 msgid "Display name for this module"
-msgstr ""
+msgstr "此模块的显示名称"
 
 msgid "Enter the HTML content that will be rendered in the interactive block"
-msgstr ""
+msgstr "输入将在交互块中呈现的 HTML 内容"
 
 msgid "CSS Styles"
-msgstr ""
+msgstr "CSS 样式"
 
 msgid "Enter CSS styles for your interactive content"
-msgstr ""
+msgstr "输入交互内容的 CSS 样式"
 
 msgid "JavaScript Code"
-msgstr ""
+msgstr "JavaScript 代码"
 
 msgid ""
 "Enter JavaScript code for interactivity. Use submitInteraction(data) to send"
 " data to the XBlock"
-msgstr ""
+msgstr "输入用于交互的 JavaScript 代码。使用 submitInteraction(data) 向 XBlock 发送数据"
 
 msgid "Weight of this problem for grading"
-msgstr ""
+msgstr "此题目的评分权重"
 
 msgid "True"
-msgstr ""
+msgstr "是"
 
 msgid "False"
-msgstr ""
+msgstr "否"
 
 msgid "Enable debug mode for development"
-msgstr ""
+msgstr "为开发启用调试模式"
 
 msgid ""
 "How this block is marked complete. Use 'On view' for simulations with no "
 "submission."
-msgstr ""
+msgstr "此块如何被标记为完成。对于无需提交的模拟，请使用“查看时”。"
 
 msgid ""
 "Milliseconds the block must be viewed before auto-completing (On view mode "
 "only)."
-msgstr ""
+msgstr "自动完成前必须查看此块的毫秒数（仅限“查看时”模式）。"
 
 msgid "Auto Grade Enabled"
-msgstr ""
+msgstr "已启用自动评分"
 
 msgid "Enable automatic grading based on interaction data"
-msgstr ""
+msgstr "根据交互数据启用自动评分"
 
 msgid "Grading Configuration"
-msgstr ""
+msgstr "评分配置"
 
 msgid "Answer Matching Mode"
-msgstr ""
+msgstr "答案匹配模式"
 
 msgid "None (JS controls grading)"
-msgstr ""
+msgstr "无（由 JS 控制评分）"
 
 msgid "Single Answer"
-msgstr ""
+msgstr "单一答案"
 
 msgid "Multiple Fields"
-msgstr ""
+msgstr "多个字段"
 
 msgid ""
 "Choose 'None' if your JavaScript passes correct: true/false in "
 "submitInteraction()."
-msgstr ""
+msgstr "如果您的 JavaScript 在 submitInteraction() 中传递 correct: true/false，请选择“无”。"
 
 msgid "Correct Answer"
-msgstr ""
+msgstr "正确答案"
 
 msgid "The expected value. Comparison is case-insensitive."
-msgstr ""
+msgstr "预期值。比较时不区分大小写。"
 
 msgid "Answer Fields"
-msgstr ""
+msgstr "答案字段"
 
 msgid "Add Field"
-msgstr ""
+msgstr "添加字段"
 
 msgid ""
 "Map each field name to its expected value. Partial credit is awarded "
 "proportionally."
-msgstr ""
+msgstr "将每个字段名称映射到其预期值。部分正确将按比例给分。"
 
 msgid "Correct Feedback"
-msgstr ""
+msgstr "正确反馈"
 
 msgid "Incorrect Feedback"
-msgstr ""
+msgstr "错误反馈"
 
 msgid "Feedback is shown even when your JavaScript controls grading."
-msgstr ""
+msgstr "即使由您的 JavaScript 控制评分，也会显示反馈。"
 
 msgid "Test Grading"
-msgstr ""
+msgstr "测试评分"
 
 msgid "Verify your grading setup before saving."
-msgstr ""
+msgstr "保存前请验证您的评分设置。"
 
 msgid "Run Test"
-msgstr ""
+msgstr "运行测试"
 
 msgid "Save"
-msgstr ""
+msgstr "保存"
 
 msgid "Cancel"
-msgstr ""
+msgstr "取消"

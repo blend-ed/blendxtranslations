@@ -10,7 +10,118 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid ""
+"Either 'prompts' list or 'prompt' with 'problem_count'/'problem_types' must "
+"be provided"
+msgstr ""
+"'prompts' စာရင်း သို့မဟုတ် 'problem_count'/'problem_types' ပါသော 'prompt' "
+"ကို ပေးရမည်"
+
+msgid "Invalid problem type: {ptype}. Valid types: {valid_types}"
+msgstr ""
+"မမှန်ကန်သော ပြဿနာအမျိုးအစား- {ptype}။ မှန်ကန်သော အမျိုးအစားများ- "
+"{valid_types}"
+
+msgid ""
+"Sum of problem_types counts ({total}) does not match problem_count ({count})"
+msgstr ""
+"problem_types အရေအတွက် စုစုပေါင်း ({total}) သည် problem_count ({count}) "
+"နှင့် မကိုက်ညီပါ"
+
+msgid "Failed to generate OLX"
+msgstr "OLX ကို ဖန်တီး၍မရပါ"
+
+msgid "Required query parameter"
+msgstr "မဖြစ်မနေ လိုအပ်သော query parameter"
+
+msgid "Generated OLX failed validation after {attempts} attempts: {error}"
+msgstr ""
+"ဖန်တီးထားသော OLX သည် ကြိုးစားမှု {attempts} ကြိမ်ပြီးနောက် စစ်ဆေးမှု "
+"မအောင်မြင်ပါ- {error}"
+
+msgid "Rate limit error: {error}"
+msgstr "နှုန်းကန့်သတ်ချက် အမှား- {error}"
+
+msgid "Timeout error: {error}"
+msgstr "အချိန်ကုန်ဆုံးမှု အမှား- {error}"
+
+msgid "Invalid request to LLM API: {error}"
+msgstr "LLM API သို့ မမှန်ကန်သော တောင်းဆိုမှု- {error}"
+
+msgid "LLM API error: {error}"
+msgstr "LLM API အမှား- {error}"
+
+msgid "Failed to generate OLX: {error}"
+msgstr "OLX ကို ဖန်တီး၍မရပါ- {error}"
+
+msgid "Failed to generate OLX after all retry attempts"
+msgstr "ထပ်ကြိုးစားမှုအားလုံးပြီးနောက် OLX ကို ဖန်တီး၍မရပါ"
+
+msgid ""
 "Dummy text to generate a translation (.po) source file. It is safe to delete"
 " this line. It is also safe to delete (load i18n) above if there are no "
 "other (trans) tags in the file"
 msgstr ""
+"ဘာသာပြန် (.po) ရင်းမြစ်ဖိုင် ထုတ်လုပ်ရန် နမူနာစာသား။ ဤစာကြောင်းကို "
+"ဖျက်ခြင်းသည် ဘေးကင်းပါသည်။ ဖိုင်တွင် အခြား (trans) တဂ်များ မရှိပါက အပေါ်ရှိ "
+"(load i18n) ကို ဖျက်ခြင်းသည်လည်း ဘေးကင်းပါသည်"
+
+msgid ""
+"Unsupported file type: {file_extension}. Supported types: PDF, DOCX, PPTX"
+msgstr ""
+"ပံ့ပိုးမထားသော ဖိုင်အမျိုးအစား- {file_extension}။ ပံ့ပိုးထားသော "
+"အမျိုးအစားများ- PDF, DOCX, PPTX"
+
+msgid "Failed to extract text from {filename}: {error}"
+msgstr "{filename} မှ စာသားကို ထုတ်ယူ၍မရပါ- {error}"
+
+msgid "No documents could be processed successfully"
+msgstr "မည်သည့်စာရွက်စာတမ်းကိုမျှ အောင်မြင်စွာ လုပ်ဆောင်၍မရပါ"
+
+msgid "No text content found in PDF"
+msgstr "PDF တွင် စာသားအကြောင်းအရာ မတွေ့ပါ"
+
+msgid "No text content found in Word document"
+msgstr "Word စာရွက်စာတမ်းတွင် စာသားအကြောင်းအရာ မတွေ့ပါ"
+
+msgid "No text content found in PowerPoint presentation"
+msgstr "PowerPoint တင်ပြချက်တွင် စာသားအကြောင်းအရာ မတွေ့ပါ"
+
+msgid "Invalid library key format: {error}"
+msgstr "မမှန်ကန်သော စာကြည့်တိုက် key ပုံစံ- {error}"
+
+msgid "Invalid usage key format: {error}"
+msgstr "မမှန်ကန်သော usage key ပုံစံ- {error}"
+
+msgid "Permission denied: {error}"
+msgstr "ခွင့်ပြုချက် ငြင်းပယ်ခံရသည်- {error}"
+
+msgid "Invalid block type '{block_type}': {error}"
+msgstr "မမှန်ကန်သော ဘလောက်အမျိုးအစား '{block_type}'- {error}"
+
+msgid ""
+"Cannot add problem directly to {container_type}. Problems can only be added "
+"to collections or units."
+msgstr ""
+"{container_type} သို့ ပြဿနာကို တိုက်ရိုက်ထည့်၍ မရပါ။ ပြဿနာများကို "
+"စုစည်းမှုများ သို့မဟုတ် ယူနစ်များသို့သာ ထည့်နိုင်ပါသည်။"
+
+msgid ""
+"Cannot add problems directly to {container_type}. Problems can only be added"
+" to collections or units."
+msgstr ""
+"{container_type} သို့ ပြဿနာများကို တိုက်ရိုက်ထည့်၍ မရပါ။ ပြဿနာများကို "
+"စုစည်းမှုများ သို့မဟုတ် ယူနစ်များသို့သာ ထည့်နိုင်ပါသည်။"
+
+msgid "OLX string cannot be empty"
+msgstr "OLX စာသား ဗလာ မဖြစ်ရပါ"
+
+msgid "Invalid XML syntax: {error}"
+msgstr "မမှန်ကန်သော XML ရေးထုံး- {error}"
+
+msgid "Error parsing XML: {error}"
+msgstr "XML ကို ခွဲခြမ်းစိတ်ဖြာရာတွင် အမှား- {error}"
+
+msgid "Root tag mismatch: expected '<{expected}>', found '<{found}>'"
+msgstr ""
+"Root tag မကိုက်ညီပါ- '<{expected}>' ကို မျှော်လင့်ထားသော်လည်း '<{found}>' "
+"ကို တွေ့ရှိသည်"

@@ -10,7 +10,116 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid ""
+"Either 'prompts' list or 'prompt' with 'problem_count'/'problem_types' must "
+"be provided"
+msgstr ""
+"'prompts' ലിസ്റ്റ് അല്ലെങ്കിൽ 'problem_count'/'problem_types' സഹിതം 'prompt'"
+" നൽകണം"
+
+msgid "Invalid problem type: {ptype}. Valid types: {valid_types}"
+msgstr "അസാധുവായ പ്രോബ്ലം തരം: {ptype}. സാധുവായ തരങ്ങൾ: {valid_types}"
+
+msgid ""
+"Sum of problem_types counts ({total}) does not match problem_count ({count})"
+msgstr ""
+"problem_types എണ്ണങ്ങളുടെ ആകെത്തുക ({total}) problem_count-മായി ({count}) "
+"പൊരുത്തപ്പെടുന്നില്ല"
+
+msgid "Failed to generate OLX"
+msgstr "OLX സൃഷ്ടിക്കാനായില്ല"
+
+msgid "Required query parameter"
+msgstr "ആവശ്യമായ ക്വറി പാരാമീറ്റർ"
+
+msgid "Generated OLX failed validation after {attempts} attempts: {error}"
+msgstr ""
+"{attempts} ശ്രമങ്ങൾക്ക് ശേഷവും സൃഷ്ടിച്ച OLX സാധൂകരണത്തിൽ പരാജയപ്പെട്ടു: "
+"{error}"
+
+msgid "Rate limit error: {error}"
+msgstr "റേറ്റ് പരിധി പിശക്: {error}"
+
+msgid "Timeout error: {error}"
+msgstr "ടൈംഔട്ട് പിശക്: {error}"
+
+msgid "Invalid request to LLM API: {error}"
+msgstr "LLM API-ലേക്കുള്ള അസാധുവായ അഭ്യർത്ഥന: {error}"
+
+msgid "LLM API error: {error}"
+msgstr "LLM API പിശക്: {error}"
+
+msgid "Failed to generate OLX: {error}"
+msgstr "OLX സൃഷ്ടിക്കാനായില്ല: {error}"
+
+msgid "Failed to generate OLX after all retry attempts"
+msgstr "എല്ലാ ശ്രമങ്ങൾക്കും ശേഷവും OLX സൃഷ്ടിക്കാനായില്ല"
+
+msgid ""
 "Dummy text to generate a translation (.po) source file. It is safe to delete"
 " this line. It is also safe to delete (load i18n) above if there are no "
 "other (trans) tags in the file"
 msgstr ""
+"Dummy text to generate a translation (.po) source file. It is safe to delete"
+" this line. It is also safe to delete (load i18n) above if there are no "
+"other (trans) tags in the file"
+
+msgid ""
+"Unsupported file type: {file_extension}. Supported types: PDF, DOCX, PPTX"
+msgstr ""
+"പിന്തുണയില്ലാത്ത ഫയൽ തരം: {file_extension}. പിന്തുണയുള്ള തരങ്ങൾ: PDF, DOCX, "
+"PPTX"
+
+msgid "Failed to extract text from {filename}: {error}"
+msgstr "{filename}-ൽ നിന്ന് ടെക്സ്റ്റ് എടുക്കാനായില്ല: {error}"
+
+msgid "No documents could be processed successfully"
+msgstr "ഒരു ഡോക്യുമെന്റും വിജയകരമായി പ്രോസസ്സ് ചെയ്യാനായില്ല"
+
+msgid "No text content found in PDF"
+msgstr "PDF-ൽ ടെക്സ്റ്റ് ഉള്ളടക്കമൊന്നും കണ്ടെത്തിയില്ല"
+
+msgid "No text content found in Word document"
+msgstr "Word ഡോക്യുമെന്റിൽ ടെക്സ്റ്റ് ഉള്ളടക്കമൊന്നും കണ്ടെത്തിയില്ല"
+
+msgid "No text content found in PowerPoint presentation"
+msgstr "PowerPoint പ്രസന്റേഷനിൽ ടെക്സ്റ്റ് ഉള്ളടക്കമൊന്നും കണ്ടെത്തിയില്ല"
+
+msgid "Invalid library key format: {error}"
+msgstr "അസാധുവായ ലൈബ്രറി കീ ഫോർമാറ്റ്: {error}"
+
+msgid "Invalid usage key format: {error}"
+msgstr "അസാധുവായ usage key ഫോർമാറ്റ്: {error}"
+
+msgid "Permission denied: {error}"
+msgstr "അനുമതി നിഷേധിച്ചു: {error}"
+
+msgid "Invalid block type '{block_type}': {error}"
+msgstr "അസാധുവായ ബ്ലോക്ക് തരം '{block_type}': {error}"
+
+msgid ""
+"Cannot add problem directly to {container_type}. Problems can only be added "
+"to collections or units."
+msgstr ""
+"{container_type}-ലേക്ക് നേരിട്ട് പ്രോബ്ലം ചേർക്കാനാവില്ല. പ്രോബ്ലങ്ങൾ "
+"കളക്ഷനുകളിലേക്കോ യൂണിറ്റുകളിലേക്കോ മാത്രമേ ചേർക്കാനാകൂ."
+
+msgid ""
+"Cannot add problems directly to {container_type}. Problems can only be added"
+" to collections or units."
+msgstr ""
+"{container_type}-ലേക്ക് നേരിട്ട് പ്രോബ്ലങ്ങൾ ചേർക്കാനാവില്ല. പ്രോബ്ലങ്ങൾ "
+"കളക്ഷനുകളിലേക്കോ യൂണിറ്റുകളിലേക്കോ മാത്രമേ ചേർക്കാനാകൂ."
+
+msgid "OLX string cannot be empty"
+msgstr "OLX സ്ട്രിംഗ് ശൂന്യമായിരിക്കരുത്"
+
+msgid "Invalid XML syntax: {error}"
+msgstr "അസാധുവായ XML വാക്യഘടന: {error}"
+
+msgid "Error parsing XML: {error}"
+msgstr "XML പാഴ്സ് ചെയ്യുമ്പോൾ പിശക്: {error}"
+
+msgid "Root tag mismatch: expected '<{expected}>', found '<{found}>'"
+msgstr ""
+"റൂട്ട് ടാഗ് പൊരുത്തപ്പെടുന്നില്ല: '<{expected}>' പ്രതീക്ഷിച്ചു, '<{found}>' "
+"കണ്ടെത്തി"

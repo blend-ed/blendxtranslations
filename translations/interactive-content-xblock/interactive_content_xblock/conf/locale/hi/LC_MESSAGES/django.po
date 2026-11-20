@@ -10,39 +10,41 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "HTML Content"
-msgstr ""
+msgstr "HTML सामग्री"
 
 msgid "HTML content to render in the interactive block"
-msgstr ""
+msgstr "इंटरैक्टिव ब्लॉक में दिखाने के लिए HTML सामग्री"
 
 msgid "CSS Content"
-msgstr ""
+msgstr "CSS सामग्री"
 
 msgid "CSS styles for the interactive content"
-msgstr ""
+msgstr "इंटरैक्टिव सामग्री के लिए CSS स्टाइल"
 
 msgid "JavaScript Content"
-msgstr ""
+msgstr "JavaScript सामग्री"
 
 msgid ""
 "JavaScript code for interactivity. Use submitInteraction(data) to send data "
 "to the XBlock."
 msgstr ""
+"इंटरैक्टिविटी के लिए JavaScript कोड। XBlock को डेटा भेजने के लिए "
+"submitInteraction(data) का उपयोग करें।"
 
 msgid "Enable Debug Mode"
-msgstr ""
+msgstr "डीबग मोड सक्षम करें"
 
 msgid "Show debug information and console logs"
-msgstr ""
+msgstr "डीबग जानकारी और कंसोल लॉग दिखाएँ"
 
 msgid "Enable Auto-Grading"
-msgstr ""
+msgstr "स्वचालित ग्रेडिंग सक्षम करें"
 
 msgid "Enable automatic grading based on JS response"
-msgstr ""
+msgstr "JS प्रतिक्रिया के आधार पर स्वचालित ग्रेडिंग सक्षम करें"
 
 msgid "Completion Mode"
-msgstr ""
+msgstr "पूर्णता मोड"
 
 msgid ""
 "How this block is marked complete. \"On submit\" completes when your "
@@ -51,227 +53,248 @@ msgid ""
 "no submission). \"Manual\" completes only when your JavaScript calls "
 "window.markComplete()."
 msgstr ""
+"यह ब्लॉक पूर्ण कैसे चिह्नित होता है। \"सबमिट करने पर\" तब पूर्ण होता है जब "
+"आपका JavaScript submitInteraction() कॉल करता है। \"देखने पर\" शिक्षार्थी "
+"द्वारा कॉन्फ़िगर की गई देरी तक ब्लॉक देखने के बाद अपने आप पूर्ण होता है "
+"(बिना सबमिशन वाले सिमुलेशन के लिए उपयोग करें)। \"मैन्युअल\" केवल तब पूर्ण "
+"होता है जब आपका JavaScript window.markComplete() कॉल करता है।"
 
 msgid "On submit (when interaction is submitted)"
-msgstr ""
+msgstr "सबमिट करने पर (जब इंटरैक्शन सबमिट होता है)"
 
 msgid "On view (auto-complete after viewing)"
-msgstr ""
+msgstr "देखने पर (देखने के बाद अपने आप पूर्ण)"
 
 msgid "Manual (author JS calls markComplete())"
-msgstr ""
+msgstr "मैन्युअल (लेखक का JS markComplete() कॉल करता है)"
 
 msgid "View Completion Delay (ms)"
-msgstr ""
+msgstr "देखने पर पूर्णता देरी (ms)"
 
 msgid ""
 "Milliseconds the block must be viewed before auto-completing in \"On view\" "
 "mode."
 msgstr ""
+"\"देखने पर\" मोड में अपने आप पूर्ण होने से पहले ब्लॉक को कितने मिलीसेकंड "
+"देखा जाना चाहिए।"
 
 msgid "Weight"
-msgstr ""
+msgstr "वेटेज"
 
 msgid "Weight for grading purposes"
-msgstr ""
+msgstr "ग्रेडिंग के लिए वेटेज"
 
 msgid "Display Name"
-msgstr ""
+msgstr "प्रदर्शित नाम"
 
 msgid "Display name for this interactive block"
-msgstr ""
+msgstr "इस इंटरैक्टिव ब्लॉक के लिए प्रदर्शित नाम"
 
 msgid "Correct Answers"
-msgstr ""
+msgstr "सही उत्तर"
 
 msgid "JSON object defining correct answers for auto-grading"
-msgstr ""
+msgstr "स्वचालित ग्रेडिंग के लिए सही उत्तर परिभाषित करने वाला JSON ऑब्जेक्ट"
 
 msgid "Show Feedback to Learners"
-msgstr ""
+msgstr "शिक्षार्थियों को फ़ीडबैक दिखाएँ"
 
 msgid "Show correct/incorrect feedback to learners"
-msgstr ""
+msgstr "शिक्षार्थियों को सही/गलत फ़ीडबैक दिखाएँ"
 
 msgid "Show Previous Response"
-msgstr ""
+msgstr "पिछली प्रतिक्रिया दिखाएँ"
 
 msgid "Show learner their previous response when they return"
-msgstr ""
+msgstr "लौटने पर शिक्षार्थी को उनकी पिछली प्रतिक्रिया दिखाएँ"
 
 msgid "Captured learner interaction data"
-msgstr ""
+msgstr "दर्ज किया गया शिक्षार्थी इंटरैक्शन डेटा"
 
 msgid "Number of interactions submitted"
-msgstr ""
+msgstr "सबमिट किए गए इंटरैक्शन की संख्या"
 
 msgid "Timestamp of last interaction"
-msgstr ""
+msgstr "अंतिम इंटरैक्शन का टाइमस्टैम्प"
 
 msgid "Whether the learner response is correct"
-msgstr ""
+msgstr "क्या शिक्षार्थी की प्रतिक्रिया सही है"
 
 msgid "Score for the learner response"
-msgstr ""
+msgstr "शिक्षार्थी की प्रतिक्रिया का स्कोर"
 
 msgid "Feedback message shown to learner"
-msgstr ""
+msgstr "शिक्षार्थी को दिखाया जाने वाला फ़ीडबैक संदेश"
 
 msgid "Whether on-view/manual completion has already been emitted"
-msgstr ""
+msgstr "क्या देखने पर/मैन्युअल पूर्णता पहले ही भेजी जा चुकी है"
 
 msgid "Debug Information (Staff Only)"
-msgstr ""
+msgstr "डीबग जानकारी (केवल कर्मचारी)"
 
 msgid "Block ID"
-msgstr ""
+msgstr "ब्लॉक ID"
 
 msgid "User ID"
-msgstr ""
+msgstr "उपयोगकर्ता ID"
 
 msgid "Interaction Count"
-msgstr ""
+msgstr "इंटरैक्शन संख्या"
 
 msgid "Last Interaction"
-msgstr ""
+msgstr "अंतिम इंटरैक्शन"
 
 msgid "Is Correct"
-msgstr ""
+msgstr "सही है"
 
 msgid "Score"
-msgstr ""
+msgstr "स्कोर"
 
 msgid "Correct"
-msgstr ""
+msgstr "सही"
 
 msgid "Incorrect"
-msgstr ""
+msgstr "गलत"
 
 msgid "Feedback"
-msgstr ""
+msgstr "फ़ीडबैक"
 
 msgid "Time spent"
-msgstr ""
+msgstr "बिताया गया समय"
 
 msgid "No content. Please add HTML content in the studio."
-msgstr ""
+msgstr "कोई सामग्री नहीं। कृपया स्टूडियो में HTML सामग्री जोड़ें।"
 
 msgid "Generate with AI"
-msgstr ""
+msgstr "AI से जनरेट करें"
 
 msgid ""
 "e.g. A multiple choice quiz about the water cycle with 4 questions, each "
 "with 4 answer options..."
 msgstr ""
+"उदा. जल चक्र पर 4 प्रश्नों वाला एक बहुविकल्पीय क्विज़, हर प्रश्न में 4 उत्तर"
+" विकल्प..."
 
 msgid "Generate"
-msgstr ""
+msgstr "जनरेट करें"
 
 msgid "Display name for this module"
-msgstr ""
+msgstr "इस मॉड्यूल के लिए प्रदर्शित नाम"
 
 msgid "Enter the HTML content that will be rendered in the interactive block"
-msgstr ""
+msgstr "वह HTML सामग्री दर्ज करें जो इंटरैक्टिव ब्लॉक में दिखाई जाएगी"
 
 msgid "CSS Styles"
-msgstr ""
+msgstr "CSS स्टाइल"
 
 msgid "Enter CSS styles for your interactive content"
-msgstr ""
+msgstr "अपनी इंटरैक्टिव सामग्री के लिए CSS स्टाइल दर्ज करें"
 
 msgid "JavaScript Code"
-msgstr ""
+msgstr "JavaScript कोड"
 
 msgid ""
 "Enter JavaScript code for interactivity. Use submitInteraction(data) to send"
 " data to the XBlock"
 msgstr ""
+"इंटरैक्टिविटी के लिए JavaScript कोड दर्ज करें। XBlock को डेटा भेजने के लिए "
+"submitInteraction(data) का उपयोग करें"
 
 msgid "Weight of this problem for grading"
-msgstr ""
+msgstr "ग्रेडिंग के लिए इस समस्या का वेटेज"
 
 msgid "True"
-msgstr ""
+msgstr "सही"
 
 msgid "False"
-msgstr ""
+msgstr "गलत"
 
 msgid "Enable debug mode for development"
-msgstr ""
+msgstr "डेवलपमेंट के लिए डीबग मोड सक्षम करें"
 
 msgid ""
 "How this block is marked complete. Use 'On view' for simulations with no "
 "submission."
 msgstr ""
+"यह ब्लॉक पूर्ण कैसे चिह्नित होता है। बिना सबमिशन वाले सिमुलेशन के लिए 'देखने"
+" पर' का उपयोग करें।"
 
 msgid ""
 "Milliseconds the block must be viewed before auto-completing (On view mode "
 "only)."
 msgstr ""
+"अपने आप पूर्ण होने से पहले ब्लॉक को कितने मिलीसेकंड देखा जाना चाहिए (केवल "
+"देखने पर मोड)।"
 
 msgid "Auto Grade Enabled"
-msgstr ""
+msgstr "स्वचालित ग्रेडिंग सक्षम"
 
 msgid "Enable automatic grading based on interaction data"
-msgstr ""
+msgstr "इंटरैक्शन डेटा के आधार पर स्वचालित ग्रेडिंग सक्षम करें"
 
 msgid "Grading Configuration"
-msgstr ""
+msgstr "ग्रेडिंग कॉन्फ़िगरेशन"
 
 msgid "Answer Matching Mode"
-msgstr ""
+msgstr "उत्तर मिलान मोड"
 
 msgid "None (JS controls grading)"
-msgstr ""
+msgstr "कोई नहीं (JS ग्रेडिंग नियंत्रित करता है)"
 
 msgid "Single Answer"
-msgstr ""
+msgstr "एकल उत्तर"
 
 msgid "Multiple Fields"
-msgstr ""
+msgstr "एकाधिक फ़ील्ड"
 
 msgid ""
 "Choose 'None' if your JavaScript passes correct: true/false in "
 "submitInteraction()."
 msgstr ""
+"यदि आपका JavaScript submitInteraction() में correct: true/false भेजता है, तो"
+" 'कोई नहीं' चुनें।"
 
 msgid "Correct Answer"
-msgstr ""
+msgstr "सही उत्तर"
 
 msgid "The expected value. Comparison is case-insensitive."
 msgstr ""
+"अपेक्षित मान। तुलना में अक्षरों के छोटे-बड़े होने का ध्यान नहीं रखा जाता।"
 
 msgid "Answer Fields"
-msgstr ""
+msgstr "उत्तर फ़ील्ड"
 
 msgid "Add Field"
-msgstr ""
+msgstr "फ़ील्ड जोड़ें"
 
 msgid ""
 "Map each field name to its expected value. Partial credit is awarded "
 "proportionally."
 msgstr ""
+"हर फ़ील्ड नाम को उसके अपेक्षित मान से मैप करें। आंशिक क्रेडिट अनुपात में "
+"दिया जाता है।"
 
 msgid "Correct Feedback"
-msgstr ""
+msgstr "सही उत्तर पर फ़ीडबैक"
 
 msgid "Incorrect Feedback"
-msgstr ""
+msgstr "गलत उत्तर पर फ़ीडबैक"
 
 msgid "Feedback is shown even when your JavaScript controls grading."
 msgstr ""
+"जब आपका JavaScript ग्रेडिंग नियंत्रित करता है, तब भी फ़ीडबैक दिखाया जाता है।"
 
 msgid "Test Grading"
-msgstr ""
+msgstr "ग्रेडिंग का परीक्षण करें"
 
 msgid "Verify your grading setup before saving."
-msgstr ""
+msgstr "सहेजने से पहले अपना ग्रेडिंग सेटअप सत्यापित करें।"
 
 msgid "Run Test"
-msgstr ""
+msgstr "टेस्ट चलाएँ"
 
 msgid "Save"
-msgstr ""
+msgstr "सहेजें"
 
 msgid "Cancel"
-msgstr ""
+msgstr "रद्द करें"

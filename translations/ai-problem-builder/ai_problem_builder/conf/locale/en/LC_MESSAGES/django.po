@@ -10,6 +10,48 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid ""
+"Either 'prompts' list or 'prompt' with 'problem_count'/'problem_types' must "
+"be provided"
+msgstr ""
+"Either 'prompts' list or 'prompt' with 'problem_count'/'problem_types' must "
+"be provided"
+
+msgid "Invalid problem type: {ptype}. Valid types: {valid_types}"
+msgstr "Invalid problem type: {ptype}. Valid types: {valid_types}"
+
+msgid ""
+"Sum of problem_types counts ({total}) does not match problem_count ({count})"
+msgstr ""
+"Sum of problem_types counts ({total}) does not match problem_count ({count})"
+
+msgid "Failed to generate OLX"
+msgstr "Failed to generate OLX"
+
+msgid "Required query parameter"
+msgstr "Required query parameter"
+
+msgid "Generated OLX failed validation after {attempts} attempts: {error}"
+msgstr "Generated OLX failed validation after {attempts} attempts: {error}"
+
+msgid "Rate limit error: {error}"
+msgstr "Rate limit error: {error}"
+
+msgid "Timeout error: {error}"
+msgstr "Timeout error: {error}"
+
+msgid "Invalid request to LLM API: {error}"
+msgstr "Invalid request to LLM API: {error}"
+
+msgid "LLM API error: {error}"
+msgstr "LLM API error: {error}"
+
+msgid "Failed to generate OLX: {error}"
+msgstr "Failed to generate OLX: {error}"
+
+msgid "Failed to generate OLX after all retry attempts"
+msgstr "Failed to generate OLX after all retry attempts"
+
+msgid ""
 "Dummy text to generate a translation (.po) source file. It is safe to delete"
 " this line. It is also safe to delete (load i18n) above if there are no "
 "other (trans) tags in the file"
@@ -17,3 +59,61 @@ msgstr ""
 "Dummy text to generate a translation (.po) source file. It is safe to delete"
 " this line. It is also safe to delete (load i18n) above if there are no "
 "other (trans) tags in the file"
+
+msgid ""
+"Unsupported file type: {file_extension}. Supported types: PDF, DOCX, PPTX"
+msgstr ""
+"Unsupported file type: {file_extension}. Supported types: PDF, DOCX, PPTX"
+
+msgid "Failed to extract text from {filename}: {error}"
+msgstr "Failed to extract text from {filename}: {error}"
+
+msgid "No documents could be processed successfully"
+msgstr "No documents could be processed successfully"
+
+msgid "No text content found in PDF"
+msgstr "No text content found in PDF"
+
+msgid "No text content found in Word document"
+msgstr "No text content found in Word document"
+
+msgid "No text content found in PowerPoint presentation"
+msgstr "No text content found in PowerPoint presentation"
+
+msgid "Invalid library key format: {error}"
+msgstr "Invalid library key format: {error}"
+
+msgid "Invalid usage key format: {error}"
+msgstr "Invalid usage key format: {error}"
+
+msgid "Permission denied: {error}"
+msgstr "Permission denied: {error}"
+
+msgid "Invalid block type '{block_type}': {error}"
+msgstr "Invalid block type '{block_type}': {error}"
+
+msgid ""
+"Cannot add problem directly to {container_type}. Problems can only be added "
+"to collections or units."
+msgstr ""
+"Cannot add problem directly to {container_type}. Problems can only be added "
+"to collections or units."
+
+msgid ""
+"Cannot add problems directly to {container_type}. Problems can only be added"
+" to collections or units."
+msgstr ""
+"Cannot add problems directly to {container_type}. Problems can only be added"
+" to collections or units."
+
+msgid "OLX string cannot be empty"
+msgstr "OLX string cannot be empty"
+
+msgid "Invalid XML syntax: {error}"
+msgstr "Invalid XML syntax: {error}"
+
+msgid "Error parsing XML: {error}"
+msgstr "Error parsing XML: {error}"
+
+msgid "Root tag mismatch: expected '<{expected}>', found '<{found}>'"
+msgstr "Root tag mismatch: expected '<{expected}>', found '<{found}>'"

@@ -1,0 +1,394 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: blendxai\n"
+"Report-Msgid-Bugs-To: \n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+msgid "Organisation not found"
+msgstr "لم يتم العثور على المؤسسة"
+
+msgid "You do not have access to this organisation."
+msgstr "ليس لديك وصول إلى هذه المؤسسة."
+
+msgid ""
+"AI usage has been disabled for your account. Please contact your "
+"organisation admin."
+msgstr "عُطّل استخدام AI لحسابك. يُرجى التواصل مع مسؤول مؤسستك."
+
+msgid ""
+"Your organisation has not configured AI features yet. Please contact your "
+"admin."
+msgstr "لم تُهيّئ مؤسستك ميزات AI بعد. يُرجى التواصل مع المسؤول."
+
+msgid "The AI produced invalid problem content: {error}"
+msgstr "أنتج AI محتوى مسألة غير صالح: {error}"
+
+msgid "Failed to generate component: {error}"
+msgstr "فشل إنشاء المكوّن: {error}"
+
+msgid "Failed to generate image: {error}"
+msgstr "فشل إنشاء الصورة: {error}"
+
+msgid "The AI could not generate an image. Try rephrasing your description."
+msgstr "تعذّر على AI إنشاء صورة. جرّب إعادة صياغة الوصف."
+
+msgid "Invalid parent_locator."
+msgstr "parent_locator غير صالح."
+
+msgid "You do not have permission to edit this course."
+msgstr "ليس لديك إذن بتعديل هذا المساق."
+
+msgid "AI usage has been disabled for your account."
+msgstr "عُطّل استخدام AI لحسابك."
+
+msgid ""
+"Writing this component needs library.edit and library.publish on your "
+"organisation, besides course.edit on the course."
+msgstr ""
+"تتطلب كتابة هذا المكوّن صلاحيتي library.edit وlibrary.publish على مؤسستك، "
+"إضافة إلى course.edit على المساق."
+
+msgid "Failed to create component: {error}"
+msgstr "فشل إنشاء المكوّن: {error}"
+
+msgid "This course is not in your organisation."
+msgstr "هذا المساق ليس ضمن مؤسستك."
+
+msgid "course_id is required."
+msgstr "course_id مطلوب."
+
+msgid "Invalid course_id."
+msgstr "course_id غير صالح."
+
+msgid ""
+"Your organisation has not configured AI assistant features yet. Please "
+"contact your admin."
+msgstr "لم تُهيّئ مؤسستك ميزات مساعد AI بعد. يُرجى التواصل مع المسؤول."
+
+msgid "Failed to read course content: {error}"
+msgstr "فشلت قراءة محتوى المساق: {error}"
+
+msgid "Failed to generate descriptions: {error}"
+msgstr "فشل إنشاء الأوصاف: {error}"
+
+msgid "AI service not configured for this organization"
+msgstr "خدمة AI غير مهيّأة لهذه المؤسسة"
+
+msgid "Invalid request data: {error}"
+msgstr "بيانات الطلب غير صالحة: {error}"
+
+msgid "Problem generation failed: {error}"
+msgstr "فشل إنشاء المسألة: {error}"
+
+msgid "Problem enhancement failed: {error}"
+msgstr "فشل تحسين المسألة: {error}"
+
+msgid "Problem validation failed: {error}"
+msgstr "فشل التحقق من المسألة: {error}"
+
+msgid "Text content generation failed: {error}"
+msgstr "فشل إنشاء المحتوى النصي: {error}"
+
+msgid "Text content enhancement failed: {error}"
+msgstr "فشل تحسين المحتوى النصي: {error}"
+
+msgid "Content analysis failed: {error}"
+msgstr "فشل تحليل المحتوى: {error}"
+
+msgid "Assessment generation failed: {error}"
+msgstr "فشل إنشاء التقييم: {error}"
+
+msgid "Accessibility optimization failed: {error}"
+msgstr "فشل تحسين إمكانية الوصول: {error}"
+
+msgid "Chat processing failed: {error}"
+msgstr "فشلت معالجة المحادثة: {error}"
+
+msgid "Invalid course_id: {course_id}"
+msgstr "course_id غير صالح: {course_id}"
+
+msgid "Unsupported target_language: {target_language}"
+msgstr "target_language غير مدعومة: {target_language}"
+
+msgid "Task not found."
+msgstr "لم يتم العثور على المهمة."
+
+msgid "AI features are disabled for this user"
+msgstr "ميزات AI معطّلة لهذا المستخدم"
+
+msgid "Query is required"
+msgstr "الاستعلام مطلوب"
+
+msgid "Error occurred while converting query to vector"
+msgstr "حدث خطأ أثناء تحويل الاستعلام إلى متجه"
+
+msgid "Error occurred while getting similarity search course content"
+msgstr "حدث خطأ أثناء الحصول على محتوى المساق في بحث التشابه"
+
+msgid "Failed to generate OLX"
+msgstr "فشل إنشاء OLX"
+
+msgid ""
+"Please describe the skill set you want to generate (at least "
+"{min_prompt_length} characters)."
+msgstr ""
+"يُرجى وصف مجموعة المهارات التي تريد إنشاءها (على الأقل {min_prompt_length} "
+"حرفًا)."
+
+msgid "Prompt is too long (max {max_prompt_length} characters)."
+msgstr "الطلب طويل جدًا (الحد الأقصى {max_prompt_length} حرفًا)."
+
+msgid "Failed to generate taxonomy: {error}"
+msgstr "فشل إنشاء التصنيف: {error}"
+
+msgid ""
+"Your Organization has not setup AI Assistant Features Correctly. Please "
+"contact the admin."
+msgstr "لم تُعِدّ مؤسستك ميزات مساعد AI بشكل صحيح. يُرجى التواصل مع المسؤول."
+
+msgid "Message is required"
+msgstr "الرسالة مطلوبة"
+
+msgid "Course ID is required"
+msgstr "معرّف المساق مطلوب"
+
+msgid "Course ID must be in format 'course-v1:org+course+run'"
+msgstr "يجب أن يكون معرّف المساق بالصيغة 'course-v1:org+course+run'"
+
+msgid ""
+"You don't have permission to edit courses. Please contact your "
+"administrator."
+msgstr "ليس لديك إذن بتعديل المساقات. يُرجى التواصل مع المسؤول."
+
+msgid "An error occurred while processing your request: {error}"
+msgstr "حدث خطأ أثناء معالجة طلبك: {error}"
+
+msgid "Authentication credentials were not provided."
+msgstr "لم تُقدَّم بيانات اعتماد المصادقة."
+
+msgid "You do not have permission to perform this action."
+msgstr "ليس لديك إذن بتنفيذ هذا الإجراء."
+
+msgid "organisation_id is required"
+msgstr "organisation_id مطلوب"
+
+msgid "Unknown organisation"
+msgstr "مؤسسة غير معروفة"
+
+msgid "credits_allocated must be an integer"
+msgstr "يجب أن تكون قيمة credits_allocated عددًا صحيحًا"
+
+msgid "credits_allocated must be >= 0"
+msgstr "يجب أن تكون قيمة credits_allocated >= 0"
+
+msgid ""
+"Allocation exceeds the platform AI credit limit. Only {remaining} credit(s) "
+"remain available."
+msgstr "يتجاوز التخصيص حدّ رصيد AI للمنصة. يتبقّى {remaining} من الرصيد فقط."
+
+msgid "Unknown tenant"
+msgstr "مؤسسة عميلة غير معروفة"
+
+msgid "credits_allocated must be an integer or null"
+msgstr "يجب أن تكون قيمة credits_allocated عددًا صحيحًا أو null"
+
+msgid ""
+"The shares would exceed the organisation's AI credits. Only {remaining} "
+"credit(s) remain for this tenant."
+msgstr ""
+"ستتجاوز الحصص رصيد AI للمؤسسة. يتبقّى {remaining} من الرصيد فقط لهذه المؤسسة"
+" العميلة."
+
+msgid "The organisation has no AI credit pool yet"
+msgstr "لا يوجد لدى المؤسسة رصيد AI مشترك بعد"
+
+msgid ""
+"AI features have been disabled for your organisation. Please contact your "
+"organisation admin."
+msgstr "عُطّلت ميزات AI لمؤسستك. يُرجى التواصل مع مسؤول مؤسستك."
+
+msgid "Flashcard not found."
+msgstr "لم يتم العثور على البطاقة التعليمية."
+
+msgid "Could not load review state"
+msgstr "تعذّر تحميل حالة المراجعة"
+
+msgid "Could not save review"
+msgstr "تعذّر حفظ المراجعة"
+
+msgid "Could not load due flashcards"
+msgstr "تعذّر تحميل البطاقات التعليمية المستحقة"
+
+msgid "Invalid request data"
+msgstr "بيانات الطلب غير صالحة"
+
+msgid "Tag with ID {skill_taxonomy_id} not found"
+msgstr "لم يتم العثور على الوسم ذي المعرّف {skill_taxonomy_id}"
+
+msgid "Invalid course ID format: {course_id}"
+msgstr "صيغة معرّف المساق غير صالحة: {course_id}"
+
+msgid "User cannot modify courses outside their organization: {org_name}"
+msgstr "لا يمكن للمستخدم تعديل مساقات خارج مؤسسته: {org_name}"
+
+msgid ""
+"Could not find first unit in course. Please ensure the course has at least "
+"one section, subsection, and unit."
+msgstr ""
+"تعذّر العثور على الوحدة الأولى في المساق. يُرجى التأكد من أن المساق يحتوي "
+"على قسم وقسم فرعي ووحدة واحدة على الأقل."
+
+msgid "Failed to create component block"
+msgstr "فشل إنشاء كتلة المكوّن"
+
+msgid "Successfully created {component_type} component \"{component_name}\""
+msgstr "تم إنشاء مكوّن {component_type} \"{component_name}\" بنجاح"
+
+msgid "Failed to create knowledge atom: {error}"
+msgstr "فشل إنشاء وحدة المعرفة: {error}"
+
+msgid "Please provide a valid message."
+msgstr "يُرجى كتابة رسالة صالحة."
+
+msgid "Please provide a message."
+msgstr "يُرجى كتابة رسالة."
+
+msgid ""
+"I apologize, but I encountered an error processing your request. Please try "
+"again."
+msgstr "أعتذر، لكنني واجهت خطأ أثناء معالجة طلبك. يُرجى المحاولة مرة أخرى."
+
+msgid ""
+"I apologize, but I encountered an error processing your request. Please try "
+"again later."
+msgstr ""
+"أعتذر، لكنني واجهت خطأ أثناء معالجة طلبك. يُرجى المحاولة مرة أخرى لاحقًا."
+
+msgid "A valid lesson is required."
+msgstr "يلزم درس صالح."
+
+msgid "You do not have access to this lesson."
+msgstr "ليس لديك وصول إلى هذا الدرس."
+
+msgid "This lesson is not available."
+msgstr "هذا الدرس غير متاح."
+
+msgid "The AI tutor is turned off for this course."
+msgstr "المعلّم الذكي معطّل لهذا المساق."
+
+msgid "Learning memory is not available."
+msgstr "ذاكرة التعلّم غير متاحة."
+
+msgid "Choose whether memory is enabled."
+msgstr "اختر ما إذا كانت الذاكرة مفعّلة."
+
+msgid "Goals and preferences must each be text of at most 1000 characters."
+msgstr "يجب أن تكون الأهداف والتفضيلات نصًا لا يتجاوز 1000 حرف لكل منهما."
+
+msgid "helpful must be true or false."
+msgstr "يجب أن تكون قيمة helpful إما true أو false."
+
+msgid "Message not found."
+msgstr "لم يتم العثور على الرسالة."
+
+msgid "Only an assistant answer can be rated."
+msgstr "لا يمكن تقييم إلا إجابات المساعد."
+
+msgid "Message is required."
+msgstr "الرسالة مطلوبة."
+
+msgid "Invalid message format."
+msgstr "صيغة الرسالة غير صالحة."
+
+msgid "Organization not found."
+msgstr "لم يتم العثور على المؤسسة."
+
+msgid "Failed to create a new chat session."
+msgstr "فشل إنشاء جلسة محادثة جديدة."
+
+msgid "Chat session not found."
+msgstr "لم يتم العثور على جلسة المحادثة."
+
+msgid ""
+"An error occurred while processing your request. Please try again later."
+msgstr "حدث خطأ أثناء معالجة طلبك. يُرجى المحاولة مرة أخرى لاحقًا."
+
+msgid "An error occurred while creating the chat session."
+msgstr "حدث خطأ أثناء إنشاء جلسة المحادثة."
+
+msgid "Session not found."
+msgstr "لم يتم العثور على الجلسة."
+
+msgid "sessionName is required."
+msgstr "sessionName مطلوب."
+
+msgid "Failed to rename the chat session."
+msgstr "فشلت إعادة تسمية جلسة المحادثة."
+
+msgid "An error occurred while renaming the chat session."
+msgstr "حدث خطأ أثناء إعادة تسمية جلسة المحادثة."
+
+msgid "Failed to delete the chat session."
+msgstr "فشل حذف جلسة المحادثة."
+
+msgid "An error occurred while deleting the chat session."
+msgstr "حدث خطأ أثناء حذف جلسة المحادثة."
+
+msgid "AI features have been disabled for your organisation."
+msgstr "عُطّلت ميزات AI لمؤسستك."
+
+msgid "Context ID is required"
+msgstr "معرّف السياق مطلوب"
+
+msgid "User cannot access course outside their organization: {org_name}"
+msgstr "لا يمكن للمستخدم الوصول إلى مساق خارج مؤسسته: {org_name}"
+
+msgid "Failed to auto-tag course: {error}"
+msgstr "فشل الوسم التلقائي للمساق: {error}"
+
+msgid "No content_tagged data provided"
+msgstr "لم تُقدَّم بيانات content_tagged"
+
+msgid "Each item in content_tagged must have a content_id"
+msgstr "يجب أن يحتوي كل عنصر في content_tagged على content_id"
+
+msgid "Each item in content_tagged must have taxonomy_suggestions"
+msgstr "يجب أن يحتوي كل عنصر في content_tagged على taxonomy_suggestions"
+
+msgid "No available taxonomies found for organization"
+msgstr "لم يتم العثور على تصنيفات متاحة للمؤسسة"
+
+msgid "Failed to get taxonomies: {error}"
+msgstr "فشل الحصول على التصنيفات: {error}"
+
+msgid "Failed to apply tags: {error}"
+msgstr "فشل تطبيق الوسوم: {error}"
+
+msgid "Failed to get course outline: {error}"
+msgstr "فشل الحصول على مخطط المساق: {error}"
+
+msgid "Failed to build course content list: {error}"
+msgstr "فشل إنشاء قائمة محتوى المساق: {error}"
+
+msgid "Failed to get course hierarchy: {error}"
+msgstr "فشل الحصول على التسلسل الهرمي للمساق: {error}"
+
+msgid "Failed to remove tags: {error}"
+msgstr "فشلت إزالة الوسوم: {error}"
+
+msgid "Error occurred while initializing image LLM"
+msgstr "حدث خطأ أثناء تهيئة نموذج LLM للصور"
+
+msgid "Title and description are required"
+msgstr "العنوان والوصف مطلوبان"
+
+msgid "AI features are disabled for this user."
+msgstr "ميزات AI معطّلة لهذا المستخدم."
+
+msgid "Error occurred while generating program image"
+msgstr "حدث خطأ أثناء إنشاء صورة البرنامج"

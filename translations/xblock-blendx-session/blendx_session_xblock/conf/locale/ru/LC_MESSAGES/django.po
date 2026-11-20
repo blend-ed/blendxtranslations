@@ -1,0 +1,145 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xblock-blendx-session\n"
+"Report-Msgid-Bugs-To: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+
+msgid "Only the dates offered to the learner's Batch"
+msgstr "Только даты, предложенные потоку слушателя"
+
+msgid "Any open date inside the learner's access window"
+msgstr "Любая открытая дата в пределах периода доступа слушателя"
+
+msgid "This Session unlocks after an earlier step."
+msgstr "Это занятие откроется после выполнения предыдущего шага."
+
+msgid "Choose a date to book your place."
+msgstr "Выберите дату, чтобы забронировать место."
+
+msgid "Your organisation will book your Session."
+msgstr "Ваша организация забронирует для вас занятие."
+
+msgid "You're booked."
+msgstr "Вы записаны."
+
+msgid ""
+"You're on the waitlist. You'll be booked automatically if a place frees up."
+msgstr ""
+"Вы в листе ожидания. Если место освободится, вы будете записаны "
+"автоматически."
+
+msgid "You attended this Session."
+msgstr "Вы посетили это занятие."
+
+msgid "You missed this Session."
+msgstr "Вы пропустили это занятие."
+
+msgid "You don't have access to this Session."
+msgstr "У вас нет доступа к этому занятию."
+
+msgid "Display name"
+msgstr "Отображаемое имя"
+
+msgid "Live Session"
+msgstr "Живое занятие"
+
+msgid "Session"
+msgstr "Занятие"
+
+msgid "The stand-alone Session this unit links to."
+msgstr "Отдельное занятие, с которым связан этот блок."
+
+msgid "Required"
+msgstr "Обязательно"
+
+msgid ""
+"Learners must complete the Session to complete this part of the Course."
+msgstr "Чтобы завершить эту часть курса, слушатели должны пройти занятие."
+
+msgid "Which dates learners may book"
+msgstr "Какие даты доступны слушателям для бронирования"
+
+msgid "Booking opens here when it's available."
+msgstr "Бронирование откроется здесь, когда станет доступно."
+
+msgid "Optional"
+msgstr "Необязательно"
+
+msgid "Choose a Session."
+msgstr "Выберите занятие."
+
+msgid "The Session no longer exists or can't be linked here."
+msgstr "Занятие больше не существует или его нельзя связать здесь."
+
+msgid "The Session isn't published, so the link won't sync at publish."
+msgstr ""
+"Занятие не опубликовано, поэтому ссылка не синхронизируется при публикации."
+
+msgid "Choose which dates learners may book."
+msgstr "Выберите даты, доступные слушателям для бронирования."
+
+msgid "(no Session selected)"
+msgstr "(занятие не выбрано)"
+
+msgid "Yes"
+msgstr "Да"
+
+msgid "No"
+msgstr "Нет"
+
+msgid "Only course staff can change this block."
+msgstr "Изменять этот блок может только персонал курса."
+
+msgid "The form wasn't sent correctly."
+msgstr "Форма отправлена некорректно."
+
+msgid "Choose a Session from the list."
+msgstr "Выберите занятие из списка."
+
+msgid "That Session can't be linked here."
+msgstr "Это занятие нельзя связать здесь."
+
+msgid "Required is yes or no."
+msgstr "Поле «Обязательно» принимает значение «да» или «нет»."
+
+msgid "Kind"
+msgstr "Вид"
+
+msgid "Upcoming dates"
+msgstr "Предстоящие даты"
+
+msgid "Dates learners may book"
+msgstr "Даты, доступные для бронирования"
+
+msgid "Limit to modes"
+msgstr "Ограничить форматами"
+
+msgid "Use \"Restrict access\" on this component."
+msgstr "Используйте «Ограничить доступ» в этом компоненте."
+
+msgid "This Session isn't available yet."
+msgstr "Это занятие пока недоступно."
+
+msgid "Choose a Session"
+msgstr "Выберите занятие"
+
+msgid "Required to complete this part of the Course"
+msgstr "Обязательно для завершения этой части курса"
+
+msgid ""
+"To limit it to some learning modes, use \"Restrict access\" on the "
+"component."
+msgstr ""
+"Чтобы ограничить его некоторыми форматами обучения, используйте «Ограничить "
+"доступ» в компоненте."
+
+msgid "Save"
+msgstr "Сохранить"
+
+msgid "Cancel"
+msgstr "Отмена"

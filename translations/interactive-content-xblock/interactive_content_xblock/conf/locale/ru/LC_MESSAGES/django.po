@@ -10,39 +10,41 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
 
 msgid "HTML Content"
-msgstr ""
+msgstr "HTML-контент"
 
 msgid "HTML content to render in the interactive block"
-msgstr ""
+msgstr "HTML-контент для отображения в интерактивном блоке"
 
 msgid "CSS Content"
-msgstr ""
+msgstr "CSS-контент"
 
 msgid "CSS styles for the interactive content"
-msgstr ""
+msgstr "CSS-стили для интерактивного контента"
 
 msgid "JavaScript Content"
-msgstr ""
+msgstr "Контент JavaScript"
 
 msgid ""
 "JavaScript code for interactivity. Use submitInteraction(data) to send data "
 "to the XBlock."
 msgstr ""
+"Код JavaScript для интерактивности. Используйте submitInteraction(data) для "
+"отправки данных в XBlock."
 
 msgid "Enable Debug Mode"
-msgstr ""
+msgstr "Включить режим отладки"
 
 msgid "Show debug information and console logs"
-msgstr ""
+msgstr "Показывать отладочную информацию и журналы консоли"
 
 msgid "Enable Auto-Grading"
-msgstr ""
+msgstr "Включить автоматическую оценку"
 
 msgid "Enable automatic grading based on JS response"
-msgstr ""
+msgstr "Включить автоматическую оценку на основе ответа JS"
 
 msgid "Completion Mode"
-msgstr ""
+msgstr "Режим завершения"
 
 msgid ""
 "How this block is marked complete. \"On submit\" completes when your "
@@ -51,227 +53,247 @@ msgid ""
 "no submission). \"Manual\" completes only when your JavaScript calls "
 "window.markComplete()."
 msgstr ""
+"Как этот блок отмечается выполненным. «При отправке» — выполняется, когда "
+"ваш JavaScript вызывает submitInteraction(). «При просмотре» — выполняется "
+"автоматически после того, как слушатель просматривает блок в течение "
+"заданной задержки (для симуляций без отправки). «Вручную» — выполняется, "
+"только когда ваш JavaScript вызывает window.markComplete()."
 
 msgid "On submit (when interaction is submitted)"
-msgstr ""
+msgstr "При отправке (когда взаимодействие отправлено)"
 
 msgid "On view (auto-complete after viewing)"
-msgstr ""
+msgstr "При просмотре (автоматически после просмотра)"
 
 msgid "Manual (author JS calls markComplete())"
-msgstr ""
+msgstr "Вручную (JS автора вызывает markComplete())"
 
 msgid "View Completion Delay (ms)"
-msgstr ""
+msgstr "Задержка выполнения при просмотре (мс)"
 
 msgid ""
 "Milliseconds the block must be viewed before auto-completing in \"On view\" "
 "mode."
 msgstr ""
+"Сколько миллисекунд блок должен просматриваться до автоматического "
+"выполнения в режиме «При просмотре»."
 
 msgid "Weight"
-msgstr ""
+msgstr "Вес"
 
 msgid "Weight for grading purposes"
-msgstr ""
+msgstr "Вес для оценивания"
 
 msgid "Display Name"
-msgstr ""
+msgstr "Отображаемое название"
 
 msgid "Display name for this interactive block"
-msgstr ""
+msgstr "Отображаемое название этого интерактивного блока"
 
 msgid "Correct Answers"
-msgstr ""
+msgstr "Правильные ответы"
 
 msgid "JSON object defining correct answers for auto-grading"
-msgstr ""
+msgstr "JSON-объект с правильными ответами для автоматической оценки"
 
 msgid "Show Feedback to Learners"
-msgstr ""
+msgstr "Показывать отзыв слушателям"
 
 msgid "Show correct/incorrect feedback to learners"
-msgstr ""
+msgstr "Показывать слушателям отзыв о правильности ответа"
 
 msgid "Show Previous Response"
-msgstr ""
+msgstr "Показывать предыдущий ответ"
 
 msgid "Show learner their previous response when they return"
-msgstr ""
+msgstr "Показывать слушателю его предыдущий ответ при возвращении"
 
 msgid "Captured learner interaction data"
-msgstr ""
+msgstr "Собранные данные о взаимодействии слушателя"
 
 msgid "Number of interactions submitted"
-msgstr ""
+msgstr "Количество отправленных взаимодействий"
 
 msgid "Timestamp of last interaction"
-msgstr ""
+msgstr "Время последнего взаимодействия"
 
 msgid "Whether the learner response is correct"
-msgstr ""
+msgstr "Является ли ответ слушателя правильным"
 
 msgid "Score for the learner response"
-msgstr ""
+msgstr "Балл за ответ слушателя"
 
 msgid "Feedback message shown to learner"
-msgstr ""
+msgstr "Отзыв, показываемый слушателю"
 
 msgid "Whether on-view/manual completion has already been emitted"
-msgstr ""
+msgstr "Было ли уже отправлено выполнение при просмотре/вручную"
 
 msgid "Debug Information (Staff Only)"
-msgstr ""
+msgstr "Отладочная информация (только для персонала)"
 
 msgid "Block ID"
-msgstr ""
+msgstr "ID блока"
 
 msgid "User ID"
-msgstr ""
+msgstr "ID пользователя"
 
 msgid "Interaction Count"
-msgstr ""
+msgstr "Количество взаимодействий"
 
 msgid "Last Interaction"
-msgstr ""
+msgstr "Последнее взаимодействие"
 
 msgid "Is Correct"
-msgstr ""
+msgstr "Верно ли"
 
 msgid "Score"
-msgstr ""
+msgstr "Балл"
 
 msgid "Correct"
-msgstr ""
+msgstr "Верно"
 
 msgid "Incorrect"
-msgstr ""
+msgstr "Неверно"
 
 msgid "Feedback"
-msgstr ""
+msgstr "Отзыв"
 
 msgid "Time spent"
-msgstr ""
+msgstr "Затраченное время"
 
 msgid "No content. Please add HTML content in the studio."
-msgstr ""
+msgstr "Нет контента. Добавьте HTML-контент в Studio."
 
 msgid "Generate with AI"
-msgstr ""
+msgstr "Создать с помощью AI"
 
 msgid ""
 "e.g. A multiple choice quiz about the water cycle with 4 questions, each "
 "with 4 answer options..."
 msgstr ""
+"например: тест с выбором ответа о круговороте воды из 4 вопросов, в каждом "
+"по 4 варианта ответа..."
 
 msgid "Generate"
-msgstr ""
+msgstr "Создать"
 
 msgid "Display name for this module"
-msgstr ""
+msgstr "Отображаемое название этого модуля"
 
 msgid "Enter the HTML content that will be rendered in the interactive block"
 msgstr ""
+"Введите HTML-контент, который будет отображаться в интерактивном блоке"
 
 msgid "CSS Styles"
-msgstr ""
+msgstr "CSS-стили"
 
 msgid "Enter CSS styles for your interactive content"
-msgstr ""
+msgstr "Введите CSS-стили для интерактивного контента"
 
 msgid "JavaScript Code"
-msgstr ""
+msgstr "Код JavaScript"
 
 msgid ""
 "Enter JavaScript code for interactivity. Use submitInteraction(data) to send"
 " data to the XBlock"
 msgstr ""
+"Введите код JavaScript для интерактивности. Используйте "
+"submitInteraction(data) для отправки данных в XBlock"
 
 msgid "Weight of this problem for grading"
-msgstr ""
+msgstr "Вес этой задачи при оценивании"
 
 msgid "True"
-msgstr ""
+msgstr "Верно"
 
 msgid "False"
-msgstr ""
+msgstr "Неверно"
 
 msgid "Enable debug mode for development"
-msgstr ""
+msgstr "Включить режим отладки для разработки"
 
 msgid ""
 "How this block is marked complete. Use 'On view' for simulations with no "
 "submission."
 msgstr ""
+"Как этот блок отмечается выполненным. Используйте «При просмотре» для "
+"симуляций без отправки."
 
 msgid ""
 "Milliseconds the block must be viewed before auto-completing (On view mode "
 "only)."
 msgstr ""
+"Сколько миллисекунд блок должен просматриваться до автоматического "
+"выполнения (только в режиме «При просмотре»)."
 
 msgid "Auto Grade Enabled"
-msgstr ""
+msgstr "Автоматическая оценка включена"
 
 msgid "Enable automatic grading based on interaction data"
-msgstr ""
+msgstr "Включить автоматическую оценку на основе данных о взаимодействии"
 
 msgid "Grading Configuration"
-msgstr ""
+msgstr "Настройка оценивания"
 
 msgid "Answer Matching Mode"
-msgstr ""
+msgstr "Режим сопоставления ответов"
 
 msgid "None (JS controls grading)"
-msgstr ""
+msgstr "Нет (оценкой управляет JS)"
 
 msgid "Single Answer"
-msgstr ""
+msgstr "Один ответ"
 
 msgid "Multiple Fields"
-msgstr ""
+msgstr "Несколько полей"
 
 msgid ""
 "Choose 'None' if your JavaScript passes correct: true/false in "
 "submitInteraction()."
 msgstr ""
+"Выберите «Нет», если ваш JavaScript передаёт correct: true/false в "
+"submitInteraction()."
 
 msgid "Correct Answer"
-msgstr ""
+msgstr "Правильный ответ"
 
 msgid "The expected value. Comparison is case-insensitive."
-msgstr ""
+msgstr "Ожидаемое значение. Сравнение без учёта регистра."
 
 msgid "Answer Fields"
-msgstr ""
+msgstr "Поля ответа"
 
 msgid "Add Field"
-msgstr ""
+msgstr "Добавить поле"
 
 msgid ""
 "Map each field name to its expected value. Partial credit is awarded "
 "proportionally."
 msgstr ""
+"Сопоставьте каждому имени поля ожидаемое значение. Частичный балл "
+"начисляется пропорционально."
 
 msgid "Correct Feedback"
-msgstr ""
+msgstr "Отзыв на правильный ответ"
 
 msgid "Incorrect Feedback"
-msgstr ""
+msgstr "Отзыв на неверный ответ"
 
 msgid "Feedback is shown even when your JavaScript controls grading."
-msgstr ""
+msgstr "Отзыв показывается, даже когда оценкой управляет ваш JavaScript."
 
 msgid "Test Grading"
-msgstr ""
+msgstr "Проверить оценивание"
 
 msgid "Verify your grading setup before saving."
-msgstr ""
+msgstr "Проверьте настройку оценивания перед сохранением."
 
 msgid "Run Test"
-msgstr ""
+msgstr "Запустить тест"
 
 msgid "Save"
-msgstr ""
+msgstr "Сохранить"
 
 msgid "Cancel"
-msgstr ""
+msgstr "Отмена"

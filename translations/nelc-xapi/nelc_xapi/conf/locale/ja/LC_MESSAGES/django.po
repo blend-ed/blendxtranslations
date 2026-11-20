@@ -1,0 +1,22 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: nelc-xapi\n"
+"Report-Msgid-Bugs-To: \n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "National ID / Iqama"
+msgstr "国民 ID／イカーマ"
+
+msgid "10 digits, starting with 1, 2, or 4"
+msgstr "1、2、または4で始まる10桁の数字"
+
+msgid "National ID / Iqama must be 10 digits and start with 1, 2, or 4."
+msgstr "国民 ID／イカーマは1、2、または4で始まる10桁の数字である必要があります。"
+
+msgid "National ID / Iqama can't be changed after registration."
+msgstr "国民 ID／イカーマは登録後に変更できません。"

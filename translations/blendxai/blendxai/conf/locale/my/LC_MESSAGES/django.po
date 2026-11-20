@@ -1,0 +1,423 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: blendxai\n"
+"Report-Msgid-Bugs-To: \n"
+"Language: my\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Organisation not found"
+msgstr "အဖွဲ့အစည်း မတွေ့ပါ"
+
+msgid "You do not have access to this organisation."
+msgstr "ဤအဖွဲ့အစည်းကို ဝင်ရောက်ခွင့် မရှိပါ။"
+
+msgid ""
+"AI usage has been disabled for your account. Please contact your "
+"organisation admin."
+msgstr ""
+"သင့်အကောင့်အတွက် AI အသုံးပြုမှုကို ပိတ်ထားပါသည်။ သင့်အဖွဲ့အစည်း "
+"စီမံခန့်ခွဲသူကို ဆက်သွယ်ပါ။"
+
+msgid ""
+"Your organisation has not configured AI features yet. Please contact your "
+"admin."
+msgstr ""
+"သင့်အဖွဲ့အစည်းသည် AI လုပ်ဆောင်ချက်များကို စီစဉ်သတ်မှတ်ရသေးခြင်း မရှိပါ။ "
+"သင့်စီမံခန့်ခွဲသူကို ဆက်သွယ်ပါ။"
+
+msgid "The AI produced invalid problem content: {error}"
+msgstr "AI က မမှန်ကန်သော ပြဿနာအကြောင်းအရာကို ထုတ်ပေးခဲ့သည်- {error}"
+
+msgid "Failed to generate component: {error}"
+msgstr "အစိတ်အပိုင်းကို ဖန်တီး၍မရပါ- {error}"
+
+msgid "Failed to generate image: {error}"
+msgstr "ပုံကို ဖန်တီး၍မရပါ- {error}"
+
+msgid "The AI could not generate an image. Try rephrasing your description."
+msgstr "AI က ပုံကို ဖန်တီး၍မရပါ။ သင့်ဖော်ပြချက်ကို ပြန်လည်ရေးသားကြည့်ပါ။"
+
+msgid "Invalid parent_locator."
+msgstr "မမှန်ကန်သော parent_locator။"
+
+msgid "You do not have permission to edit this course."
+msgstr "ဤသင်တန်းကို တည်းဖြတ်ရန် ခွင့်ပြုချက် မရှိပါ။"
+
+msgid "AI usage has been disabled for your account."
+msgstr "သင့်အကောင့်အတွက် AI အသုံးပြုမှုကို ပိတ်ထားပါသည်။"
+
+msgid ""
+"Writing this component needs library.edit and library.publish on your "
+"organisation, besides course.edit on the course."
+msgstr ""
+"ဤအစိတ်အပိုင်းကို ရေးသားရန် သင်တန်းပေါ်ရှိ course.edit အပြင် "
+"သင့်အဖွဲ့အစည်းပေါ်တွင် library.edit နှင့် library.publish လိုအပ်ပါသည်။"
+
+msgid "Failed to create component: {error}"
+msgstr "အစိတ်အပိုင်းကို ဖန်တီး၍မရပါ- {error}"
+
+msgid "This course is not in your organisation."
+msgstr "ဤသင်တန်းသည် သင့်အဖွဲ့အစည်းတွင် မရှိပါ။"
+
+msgid "course_id is required."
+msgstr "course_id လိုအပ်ပါသည်။"
+
+msgid "Invalid course_id."
+msgstr "မမှန်ကန်သော course_id။"
+
+msgid ""
+"Your organisation has not configured AI assistant features yet. Please "
+"contact your admin."
+msgstr ""
+"သင့်အဖွဲ့အစည်းသည် AI လက်ထောက် လုပ်ဆောင်ချက်များကို စီစဉ်သတ်မှတ်ရသေးခြင်း "
+"မရှိပါ။ သင့်စီမံခန့်ခွဲသူကို ဆက်သွယ်ပါ။"
+
+msgid "Failed to read course content: {error}"
+msgstr "သင်တန်းအကြောင်းအရာကို ဖတ်၍မရပါ- {error}"
+
+msgid "Failed to generate descriptions: {error}"
+msgstr "ဖော်ပြချက်များကို ဖန်တီး၍မရပါ- {error}"
+
+msgid "AI service not configured for this organization"
+msgstr "ဤအဖွဲ့အစည်းအတွက် AI ဝန်ဆောင်မှုကို စီစဉ်သတ်မှတ်ထားခြင်း မရှိပါ"
+
+msgid "Invalid request data: {error}"
+msgstr "မမှန်ကန်သော တောင်းဆိုမှု ဒေတာ- {error}"
+
+msgid "Problem generation failed: {error}"
+msgstr "ပြဿနာ ဖန်တီးခြင်း မအောင်မြင်ပါ- {error}"
+
+msgid "Problem enhancement failed: {error}"
+msgstr "ပြဿနာ မြှင့်တင်ခြင်း မအောင်မြင်ပါ- {error}"
+
+msgid "Problem validation failed: {error}"
+msgstr "ပြဿနာ စစ်ဆေးခြင်း မအောင်မြင်ပါ- {error}"
+
+msgid "Text content generation failed: {error}"
+msgstr "စာသားအကြောင်းအရာ ဖန်တီးခြင်း မအောင်မြင်ပါ- {error}"
+
+msgid "Text content enhancement failed: {error}"
+msgstr "စာသားအကြောင်းအရာ မြှင့်တင်ခြင်း မအောင်မြင်ပါ- {error}"
+
+msgid "Content analysis failed: {error}"
+msgstr "အကြောင်းအရာ ခွဲခြမ်းစိတ်ဖြာခြင်း မအောင်မြင်ပါ- {error}"
+
+msgid "Assessment generation failed: {error}"
+msgstr "အကဲဖြတ်ချက် ဖန်တီးခြင်း မအောင်မြင်ပါ- {error}"
+
+msgid "Accessibility optimization failed: {error}"
+msgstr ""
+"အများသုံးစွဲနိုင်မှု ပိုမိုကောင်းမွန်အောင် ပြုလုပ်ခြင်း မအောင်မြင်ပါ- "
+"{error}"
+
+msgid "Chat processing failed: {error}"
+msgstr "ချက်တ် လုပ်ဆောင်ခြင်း မအောင်မြင်ပါ- {error}"
+
+msgid "Invalid course_id: {course_id}"
+msgstr "မမှန်ကန်သော course_id- {course_id}"
+
+msgid "Unsupported target_language: {target_language}"
+msgstr "ပံ့ပိုးမထားသော target_language- {target_language}"
+
+msgid "Task not found."
+msgstr "လုပ်ငန်းတာဝန် မတွေ့ပါ။"
+
+msgid "AI features are disabled for this user"
+msgstr "ဤအသုံးပြုသူအတွက် AI လုပ်ဆောင်ချက်များကို ပိတ်ထားပါသည်"
+
+msgid "Query is required"
+msgstr "Query လိုအပ်ပါသည်"
+
+msgid "Error occurred while converting query to vector"
+msgstr "query ကို vector အဖြစ် ပြောင်းလဲစဉ် အမှားဖြစ်ပွားခဲ့သည်"
+
+msgid "Error occurred while getting similarity search course content"
+msgstr ""
+"ဆင်တူမှု ရှာဖွေခြင်းဖြင့် သင်တန်းအကြောင်းအရာကို ရယူစဉ် အမှားဖြစ်ပွားခဲ့သည်"
+
+msgid "Failed to generate OLX"
+msgstr "OLX ကို ဖန်တီး၍မရပါ"
+
+msgid ""
+"Please describe the skill set you want to generate (at least "
+"{min_prompt_length} characters)."
+msgstr ""
+"သင်ဖန်တီးလိုသော စွမ်းရည်အစုကို ဖော်ပြပါ (စာလုံး အနည်းဆုံး "
+"{min_prompt_length} လုံး)။"
+
+msgid "Prompt is too long (max {max_prompt_length} characters)."
+msgstr "Prompt ရှည်လွန်းပါသည် (အများဆုံး စာလုံး {max_prompt_length} လုံး)။"
+
+msgid "Failed to generate taxonomy: {error}"
+msgstr "အမျိုးအစားခွဲစနစ်ကို ဖန်တီး၍မရပါ- {error}"
+
+msgid ""
+"Your Organization has not setup AI Assistant Features Correctly. Please "
+"contact the admin."
+msgstr ""
+"သင့်အဖွဲ့အစည်းသည် AI လက်ထောက် လုပ်ဆောင်ချက်များကို မှန်ကန်စွာ "
+"စီစဉ်သတ်မှတ်ထားခြင်း မရှိပါ။ စီမံခန့်ခွဲသူကို ဆက်သွယ်ပါ။"
+
+msgid "Message is required"
+msgstr "မက်ဆေ့ချ် လိုအပ်ပါသည်"
+
+msgid "Course ID is required"
+msgstr "သင်တန်း ID လိုအပ်ပါသည်"
+
+msgid "Course ID must be in format 'course-v1:org+course+run'"
+msgstr "သင်တန်း ID သည် 'course-v1:org+course+run' ပုံစံဖြစ်ရမည်"
+
+msgid ""
+"You don't have permission to edit courses. Please contact your "
+"administrator."
+msgstr ""
+"သင်တန်းများကို တည်းဖြတ်ရန် ခွင့်ပြုချက် မရှိပါ။ သင့်စီမံခန့်ခွဲသူကို "
+"ဆက်သွယ်ပါ။"
+
+msgid "An error occurred while processing your request: {error}"
+msgstr "သင့်တောင်းဆိုချက်ကို လုပ်ဆောင်စဉ် အမှားတစ်ခု ဖြစ်ပွားခဲ့သည်- {error}"
+
+msgid "Authentication credentials were not provided."
+msgstr "အထောက်အထား စိစစ်ရန် အချက်အလက်များ မပေးထားပါ။"
+
+msgid "You do not have permission to perform this action."
+msgstr "ဤလုပ်ဆောင်ချက်ကို ပြုလုပ်ရန် ခွင့်ပြုချက် မရှိပါ။"
+
+msgid "organisation_id is required"
+msgstr "organisation_id လိုအပ်ပါသည်"
+
+msgid "Unknown organisation"
+msgstr "အမည်မသိ အဖွဲ့အစည်း"
+
+msgid "credits_allocated must be an integer"
+msgstr "credits_allocated သည် ကိန်းပြည့် ဖြစ်ရမည်"
+
+msgid "credits_allocated must be >= 0"
+msgstr "credits_allocated သည် >= 0 ဖြစ်ရမည်"
+
+msgid ""
+"Allocation exceeds the platform AI credit limit. Only {remaining} credit(s) "
+"remain available."
+msgstr ""
+"ခွဲဝေမှုသည် ပလက်ဖောင်း AI ခရက်ဒစ် ကန့်သတ်ချက်ကို ကျော်လွန်နေပါသည်။ ခရက်ဒစ် "
+"{remaining} ခုသာ ကျန်ရှိပါသည်။"
+
+msgid "Unknown tenant"
+msgstr "အမည်မသိ ဖောက်သည်အဖွဲ့အစည်း"
+
+msgid "credits_allocated must be an integer or null"
+msgstr "credits_allocated သည် ကိန်းပြည့် သို့မဟုတ် null ဖြစ်ရမည်"
+
+msgid ""
+"The shares would exceed the organisation's AI credits. Only {remaining} "
+"credit(s) remain for this tenant."
+msgstr ""
+"ခွဲဝေမှုများသည် အဖွဲ့အစည်း၏ AI ခရက်ဒစ်များကို ကျော်လွန်ပါမည်။ "
+"ဤဖောက်သည်အဖွဲ့အစည်းအတွက် ခရက်ဒစ် {remaining} ခုသာ ကျန်ရှိပါသည်။"
+
+msgid "The organisation has no AI credit pool yet"
+msgstr "အဖွဲ့အစည်းတွင် AI ခရက်ဒစ် စုပေါင်းရန်ပုံငွေ မရှိသေးပါ"
+
+msgid ""
+"AI features have been disabled for your organisation. Please contact your "
+"organisation admin."
+msgstr ""
+"သင့်အဖွဲ့အစည်းအတွက် AI လုပ်ဆောင်ချက်များကို ပိတ်ထားပါသည်။ သင့်အဖွဲ့အစည်း "
+"စီမံခန့်ခွဲသူကို ဆက်သွယ်ပါ။"
+
+msgid "Flashcard not found."
+msgstr "ကတ်ပြား မတွေ့ပါ။"
+
+msgid "Could not load review state"
+msgstr "ပြန်လည်လေ့လာမှု အခြေအနေကို ဖွင့်၍မရပါ"
+
+msgid "Could not save review"
+msgstr "ပြန်လည်လေ့လာမှုကို သိမ်းဆည်း၍မရပါ"
+
+msgid "Could not load due flashcards"
+msgstr "ပြန်လည်လေ့လာရမည့် ကတ်ပြားများကို ဖွင့်၍မရပါ"
+
+msgid "Invalid request data"
+msgstr "မမှန်ကန်သော တောင်းဆိုမှု ဒေတာ"
+
+msgid "Tag with ID {skill_taxonomy_id} not found"
+msgstr "ID {skill_taxonomy_id} ပါသော တဂ် မတွေ့ပါ"
+
+msgid "Invalid course ID format: {course_id}"
+msgstr "မမှန်ကန်သော သင်တန်း ID ပုံစံ- {course_id}"
+
+msgid "User cannot modify courses outside their organization: {org_name}"
+msgstr ""
+"အသုံးပြုသူသည် ၎င်း၏ အဖွဲ့အစည်းပြင်ပရှိ သင်တန်းများကို ပြင်ဆင်၍မရပါ- "
+"{org_name}"
+
+msgid ""
+"Could not find first unit in course. Please ensure the course has at least "
+"one section, subsection, and unit."
+msgstr ""
+"သင်တန်းတွင် ပထမယူနစ်ကို ရှာမတွေ့ပါ။ သင်တန်းတွင် အပိုင်း၊ အပိုင်းခွဲနှင့် "
+"ယူနစ် အနည်းဆုံး တစ်ခုစီ ရှိကြောင်း သေချာပါစေ။"
+
+msgid "Failed to create component block"
+msgstr "အစိတ်အပိုင်း ဘလောက်ကို ဖန်တီး၍မရပါ"
+
+msgid "Successfully created {component_type} component \"{component_name}\""
+msgstr ""
+"{component_type} အစိတ်အပိုင်း \"{component_name}\" ကို အောင်မြင်စွာ "
+"ဖန်တီးပြီးပါပြီ"
+
+msgid "Failed to create knowledge atom: {error}"
+msgstr "အသိပညာ အက်တမ်ကို ဖန်တီး၍မရပါ- {error}"
+
+msgid "Please provide a valid message."
+msgstr "မှန်ကန်သော မက်ဆေ့ချ်တစ်ခု ထည့်ပါ။"
+
+msgid "Please provide a message."
+msgstr "မက်ဆေ့ချ်တစ်ခု ထည့်ပါ။"
+
+msgid ""
+"I apologize, but I encountered an error processing your request. Please try "
+"again."
+msgstr ""
+"တောင်းပန်ပါသည်၊ သင့်တောင်းဆိုချက်ကို လုပ်ဆောင်ရာတွင် အမှားတစ်ခု "
+"ကြုံတွေ့ခဲ့ပါသည်။ ထပ်ကြိုးစားပါ။"
+
+msgid ""
+"I apologize, but I encountered an error processing your request. Please try "
+"again later."
+msgstr ""
+"တောင်းပန်ပါသည်၊ သင့်တောင်းဆိုချက်ကို လုပ်ဆောင်ရာတွင် အမှားတစ်ခု "
+"ကြုံတွေ့ခဲ့ပါသည်။ နောက်မှ ထပ်ကြိုးစားပါ။"
+
+msgid "A valid lesson is required."
+msgstr "မှန်ကန်သော သင်ခန်းစာတစ်ခု လိုအပ်ပါသည်။"
+
+msgid "You do not have access to this lesson."
+msgstr "ဤသင်ခန်းစာကို ဝင်ရောက်ခွင့် မရှိပါ။"
+
+msgid "This lesson is not available."
+msgstr "ဤသင်ခန်းစာကို မရရှိနိုင်ပါ။"
+
+msgid "The AI tutor is turned off for this course."
+msgstr "ဤသင်တန်းအတွက် AI နည်းပြကို ပိတ်ထားပါသည်။"
+
+msgid "Learning memory is not available."
+msgstr "သင်ယူမှု မှတ်ဉာဏ် မရရှိနိုင်ပါ။"
+
+msgid "Choose whether memory is enabled."
+msgstr "မှတ်ဉာဏ်ကို ဖွင့်မဖွင့် ရွေးချယ်ပါ။"
+
+msgid "Goals and preferences must each be text of at most 1000 characters."
+msgstr ""
+"ရည်မှန်းချက်များနှင့် ဦးစားပေးချက်များသည် တစ်ခုစီ စာလုံး 1000 ထက် မပိုသော "
+"စာသားဖြစ်ရမည်။"
+
+msgid "helpful must be true or false."
+msgstr "helpful သည် true သို့မဟုတ် false ဖြစ်ရမည်။"
+
+msgid "Message not found."
+msgstr "မက်ဆေ့ချ် မတွေ့ပါ။"
+
+msgid "Only an assistant answer can be rated."
+msgstr "လက်ထောက်၏ အဖြေကိုသာ အဆင့်သတ်မှတ်နိုင်ပါသည်။"
+
+msgid "Message is required."
+msgstr "မက်ဆေ့ချ် လိုအပ်ပါသည်။"
+
+msgid "Invalid message format."
+msgstr "မမှန်ကန်သော မက်ဆေ့ချ် ပုံစံ။"
+
+msgid "Organization not found."
+msgstr "အဖွဲ့အစည်း မတွေ့ပါ။"
+
+msgid "Failed to create a new chat session."
+msgstr "ချက်တ်ဆက်ရှင်အသစ် ဖန်တီး၍မရပါ။"
+
+msgid "Chat session not found."
+msgstr "ချက်တ်ဆက်ရှင် မတွေ့ပါ။"
+
+msgid ""
+"An error occurred while processing your request. Please try again later."
+msgstr ""
+"သင့်တောင်းဆိုချက်ကို လုပ်ဆောင်စဉ် အမှားတစ်ခု ဖြစ်ပွားခဲ့သည်။ နောက်မှ "
+"ထပ်ကြိုးစားပါ။"
+
+msgid "An error occurred while creating the chat session."
+msgstr "ချက်တ်ဆက်ရှင်ကို ဖန်တီးစဉ် အမှားတစ်ခု ဖြစ်ပွားခဲ့သည်။"
+
+msgid "Session not found."
+msgstr "စာသင်ချိန် မတွေ့ပါ။"
+
+msgid "sessionName is required."
+msgstr "sessionName လိုအပ်ပါသည်။"
+
+msgid "Failed to rename the chat session."
+msgstr "ချက်တ်ဆက်ရှင်ကို အမည်ပြောင်း၍မရပါ။"
+
+msgid "An error occurred while renaming the chat session."
+msgstr "ချက်တ်ဆက်ရှင်ကို အမည်ပြောင်းစဉ် အမှားတစ်ခု ဖြစ်ပွားခဲ့သည်။"
+
+msgid "Failed to delete the chat session."
+msgstr "ချက်တ်ဆက်ရှင်ကို ဖျက်၍မရပါ။"
+
+msgid "An error occurred while deleting the chat session."
+msgstr "ချက်တ်ဆက်ရှင်ကို ဖျက်စဉ် အမှားတစ်ခု ဖြစ်ပွားခဲ့သည်။"
+
+msgid "AI features have been disabled for your organisation."
+msgstr "သင့်အဖွဲ့အစည်းအတွက် AI လုပ်ဆောင်ချက်များကို ပိတ်ထားပါသည်။"
+
+msgid "Context ID is required"
+msgstr "Context ID လိုအပ်ပါသည်"
+
+msgid "User cannot access course outside their organization: {org_name}"
+msgstr ""
+"အသုံးပြုသူသည် ၎င်း၏ အဖွဲ့အစည်းပြင်ပရှိ သင်တန်းကို ဝင်ရောက်၍မရပါ- {org_name}"
+
+msgid "Failed to auto-tag course: {error}"
+msgstr "သင်တန်းကို အလိုအလျောက် တဂ်တပ်၍မရပါ- {error}"
+
+msgid "No content_tagged data provided"
+msgstr "content_tagged ဒေတာ မပေးထားပါ"
+
+msgid "Each item in content_tagged must have a content_id"
+msgstr "content_tagged ရှိ အရာတစ်ခုစီတွင် content_id ရှိရမည်"
+
+msgid "Each item in content_tagged must have taxonomy_suggestions"
+msgstr "content_tagged ရှိ အရာတစ်ခုစီတွင် taxonomy_suggestions ရှိရမည်"
+
+msgid "No available taxonomies found for organization"
+msgstr "အဖွဲ့အစည်းအတွက် အသုံးပြုနိုင်သော အမျိုးအစားခွဲစနစ် မတွေ့ပါ"
+
+msgid "Failed to get taxonomies: {error}"
+msgstr "အမျိုးအစားခွဲစနစ်များကို ရယူ၍မရပါ- {error}"
+
+msgid "Failed to apply tags: {error}"
+msgstr "တဂ်များကို အသုံးပြု၍မရပါ- {error}"
+
+msgid "Failed to get course outline: {error}"
+msgstr "သင်တန်း သင်ရိုးဖွဲ့စည်းပုံကို ရယူ၍မရပါ- {error}"
+
+msgid "Failed to build course content list: {error}"
+msgstr "သင်တန်းအကြောင်းအရာ စာရင်းကို တည်ဆောက်၍မရပါ- {error}"
+
+msgid "Failed to get course hierarchy: {error}"
+msgstr "သင်တန်း အဆင့်ဆင့်ဖွဲ့စည်းပုံကို ရယူ၍မရပါ- {error}"
+
+msgid "Failed to remove tags: {error}"
+msgstr "တဂ်များကို ဖယ်ရှား၍မရပါ- {error}"
+
+msgid "Error occurred while initializing image LLM"
+msgstr "ပုံ LLM ကို စတင်စဉ် အမှားဖြစ်ပွားခဲ့သည်"
+
+msgid "Title and description are required"
+msgstr "ခေါင်းစဉ်နှင့် ဖော်ပြချက် လိုအပ်ပါသည်"
+
+msgid "AI features are disabled for this user."
+msgstr "ဤအသုံးပြုသူအတွက် AI လုပ်ဆောင်ချက်များကို ပိတ်ထားပါသည်။"
+
+msgid "Error occurred while generating program image"
+msgstr "ပရိုဂရမ်ပုံကို ဖန်တီးစဉ် အမှားဖြစ်ပွားခဲ့သည်"

@@ -10,99 +10,108 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "Display Name"
-msgstr ""
+msgstr "പ്രദർശന നാമം"
 
 msgid "Display name for this module"
-msgstr ""
+msgstr "ഈ മൊഡ്യൂളിനുള്ള പ്രദർശന നാമം"
 
 msgid "Path to the index page in scorm file"
-msgstr ""
+msgstr "scorm ഫയലിലെ ഇൻഡെക്സ് പേജിലേക്കുള്ള പാത"
 
 msgid "Weight"
-msgstr ""
+msgstr "വെയിറ്റ്"
 
 msgid "Weight/Maximum grade"
-msgstr ""
+msgstr "വെയിറ്റ്/പരമാവധി ഗ്രേഡ്"
 
 msgid "Scored"
-msgstr ""
+msgstr "സ്കോർ ചെയ്തത്"
 
 msgid ""
 "Select False if this component will not receive a numerical score from the "
 "Scorm"
 msgstr ""
+"ഈ ഘടകത്തിന് Scorm-ൽ നിന്ന് സംഖ്യാ സ്കോർ ലഭിക്കില്ലെങ്കിൽ തെറ്റ് "
+"തിരഞ്ഞെടുക്കുക"
 
 msgid "Display width (px)"
-msgstr ""
+msgstr "പ്രദർശന വീതി (px)"
 
 msgid "Width of iframe (default: 100%)"
-msgstr ""
+msgstr "iframe-ന്റെ വീതി (ഡിഫോൾട്ട്: 100%)"
 
 msgid "Display height (px)"
-msgstr ""
+msgstr "പ്രദർശന ഉയരം (px)"
 
 msgid "Height of iframe"
-msgstr ""
+msgstr "iframe-ന്റെ ഉയരം"
 
 msgid "Launch in pop-up window"
-msgstr ""
+msgstr "പോപ്പ്-അപ്പ് വിൻഡോയിൽ തുറക്കുക"
 
 msgid ""
 "Launch in pop-up window instead of embedding the SCORM content in an iframe."
 " Enable this for older packages that need to be run in separate window."
 msgstr ""
+"SCORM ഉള്ളടക്കം ഒരു iframe-ൽ ഉൾച്ചേർക്കുന്നതിന് പകരം പോപ്പ്-അപ്പ് വിൻഡോയിൽ "
+"തുറക്കുക. പ്രത്യേക വിൻഡോയിൽ പ്രവർത്തിപ്പിക്കേണ്ട പഴയ പാക്കേജുകൾക്ക് ഇത് "
+"പ്രവർത്തനക്ഷമമാക്കുക."
 
 msgid "Display navigation menu"
-msgstr ""
+msgstr "നാവിഗേഷൻ മെനു കാണിക്കുക"
 
 msgid ""
 "Select True to display a navigation menu on the left side to display table "
 "of contents"
 msgstr ""
+"ഉള്ളടക്ക പട്ടിക കാണിക്കാൻ ഇടതുവശത്ത് ഒരു നാവിഗേഷൻ മെനു പ്രദർശിപ്പിക്കാൻ ശരി "
+"തിരഞ്ഞെടുക്കുക"
 
 msgid "Show Fullscreen Button"
-msgstr ""
+msgstr "ഫുൾസ്ക്രീൻ ബട്ടൺ കാണിക്കുക"
 
 msgid "Select True to show fullscreen button in the SCORM content"
-msgstr ""
+msgstr "SCORM ഉള്ളടക്കത്തിൽ ഫുൾസ്ക്രീൻ ബട്ടൺ കാണിക്കാൻ ശരി തിരഞ്ഞെടുക്കുക"
 
 msgid "Display width of navigation menu(px)"
-msgstr ""
+msgstr "നാവിഗേഷൻ മെനുവിന്റെ പ്രദർശന വീതി (px)"
 
 msgid ""
 "Width of navigation menu. This assumes that Navigation Menu is enabled. "
 "(default: 30%)"
 msgstr ""
+"നാവിഗേഷൻ മെനുവിന്റെ വീതി. നാവിഗേഷൻ മെനു പ്രവർത്തനക്ഷമമാണെന്ന് ഇത് "
+"അനുമാനിക്കുന്നു. (ഡിഫോൾട്ട്: 30%)"
 
 msgid "points"
-msgstr ""
+msgstr "പോയിന്റുകൾ"
 
 msgid "Fullscreen"
-msgstr ""
+msgstr "ഫുൾസ്ക്രീൻ"
 
 msgid "Exit fullscreen"
-msgstr ""
+msgstr "ഫുൾസ്ക്രീനിൽ നിന്ന് പുറത്തുകടക്കുക"
 
 msgid "Launch unit in new window"
-msgstr ""
+msgstr "യൂണിറ്റ് പുതിയ വിൻഡോയിൽ തുറക്കുക"
 
 msgid "View SCORM reports"
-msgstr ""
+msgstr "SCORM റിപ്പോർട്ടുകൾ കാണുക"
 
 msgid "Upload .zip package"
-msgstr ""
+msgstr ".zip പാക്കേജ് അപ്‌ലോഡ് ചെയ്യുക"
 
 msgid "Currently:"
-msgstr ""
+msgstr "നിലവിൽ:"
 
 msgid "True"
-msgstr ""
+msgstr "ശരി"
 
 msgid "False"
-msgstr ""
+msgstr "തെറ്റ്"
 
 msgid "Save"
-msgstr ""
+msgstr "സംരക്ഷിക്കുക"
 
 msgid "Cancel"
-msgstr ""
+msgstr "റദ്ദാക്കുക"

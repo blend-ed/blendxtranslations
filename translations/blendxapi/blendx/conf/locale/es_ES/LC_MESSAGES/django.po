@@ -9,132 +9,2538 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgid "{name}, you earned a Program certificate!"
+msgid "Someone"
+msgstr "Alguien"
+
+msgid "You're invited to teach"
+msgstr "Le invitan a impartir clases"
+
+#. Translators: %(name)s is the invitee's first name; "Hi there," is the
+#. greeting without one.
+msgid "Hi %(name)s,"
+msgstr "Hola, %(name)s:"
+
+#. Translators: the greeting when the email's sender doesn't know the person's
+#. name.
+msgid "Hi there,"
+msgstr "Hola:"
+
+#. Translators: %(inviter)s is the name of the person who sent the invitation.
+msgid ""
+"%(inviter)s added you as an instructor. You'll see the sessions you teach, "
+"your learners and their progress."
 msgstr ""
+"%(inviter)s le ha añadido como instructor. Verá las sesiones que imparte, "
+"sus estudiantes y su progreso."
+
+msgid "Set up your account"
+msgstr "Configure su cuenta"
+
+msgid "This invitation expires on %(day)s."
+msgstr "Esta invitación caduca el %(day)s."
+
+msgid "You got this email because %(inviter)s invited %(email)s to teach."
+msgstr ""
+"Recibe este correo electrónico porque %(inviter)s invitó a %(email)s a "
+"impartir clases."
+
+msgid "%(count)s seat"
+msgid_plural "%(count)s seats"
+msgstr[0] "%(count)s plaza"
+msgstr[1] "%(count)s plazas"
+
+#. Translators: two seat lists ("20 seats in Fire safety", "5 seats in First
+#. aid"); %(first)s may itself be
+#. two or more lists joined by this same sentence.
+msgid "%(first)s and %(second)s"
+msgstr "%(first)s y %(second)s"
+
+#. Translators: %(seats)s is a number of seats ("20 seats"); %(where)s is what
+#. they are for.
+msgid "%(seats)s in %(where)s"
+msgstr "%(seats)s en %(where)s"
+
+#. Translators: what was bought when the order names no batch, in "Your order
+#. for seats is confirmed".
+msgid "seats"
+msgstr "plazas"
+
+msgid "%(tenant)s's manager"
+msgstr "Responsable de %(tenant)s"
+
+msgid "You're invited to manage %(tenant)s"
+msgstr "Le invitan a gestionar %(tenant)s"
+
+msgid "You've been invited to manage %(tenant)s."
+msgstr "Se le ha invitado a gestionar %(tenant)s."
+
+msgid "Sign in with this email address and open the link below to accept:"
+msgstr ""
+"Inicie sesión con esta dirección de correo electrónico y abra el enlace "
+"siguiente para aceptar:"
+
+#. Translators: %(days)s is a number of days.
+msgid ""
+"The link works for %(days)s days. If you ask for a new one, this one stops "
+"working."
+msgstr ""
+"El enlace funciona durante %(days)s días. Si solicita uno nuevo, este dejará"
+" de funcionar."
+
+#. Translators: %(inviter)s is a person's name; %(role)s is the role's name in
+#. bold.
+msgid "%(inviter)s invited you as %(role)s."
+msgstr "%(inviter)s le ha invitado como %(role)s."
+
+msgid "Hi,"
+msgstr "Hola:"
+
+msgid "%(inviter)s invited you to join %(organisation)s as %(role)s."
+msgstr "%(inviter)s le ha invitado a unirse a %(organisation)s como %(role)s."
+
+msgid "Accept the invitation:"
+msgstr "Acepte la invitación:"
+
+msgid "You're invited to join %(organisation)s"
+msgstr "Le invitan a unirse a %(organisation)s"
+
+msgid "Accept the invitation"
+msgstr "Aceptar la invitación"
+
+msgid "%(inviter)s gave you the %(role)s role at %(organisation)s."
+msgstr "%(inviter)s le ha asignado el rol %(role)s en %(organisation)s."
+
+msgid "Sign in:"
+msgstr "Iniciar sesión:"
+
+msgid "Your role at %(organisation)s"
+msgstr "Su rol en %(organisation)s"
+
+#. Translators: %(address)s is the platform's web address.
+msgid ""
+"Hi %(name)s, your platform is live at %(address)s with your logo, colours "
+"and emails set up."
+msgstr ""
+"Hola, %(name)s: su plataforma ya está disponible en %(address)s con su "
+"logotipo, sus colores y sus correos electrónicos configurados."
+
+msgid ""
+"Hi, your platform is live at %(address)s with your logo, colours and emails "
+"set up."
+msgstr ""
+"Hola: su plataforma ya está disponible en %(address)s con su logotipo, sus "
+"colores y sus correos electrónicos configurados."
+
+msgid ""
+"Hi %(name)s, your platform is live with your logo, colours and emails set "
+"up."
+msgstr ""
+"Hola, %(name)s: su plataforma ya está disponible con su logotipo, sus "
+"colores y sus correos electrónicos configurados."
+
+msgid "Hi, your platform is live with your logo, colours and emails set up."
+msgstr ""
+"Hola: su plataforma ya está disponible con su logotipo, sus colores y sus "
+"correos electrónicos configurados."
+
+msgid "%(organisation)s is ready"
+msgstr "%(organisation)s está lista"
+
+msgid ""
+"When you sign in, a setup guide walks you through your first course, batch "
+"and team. It takes about 30 minutes."
+msgstr ""
+"Al iniciar sesión, una guía de configuración le acompañará en su primer "
+"curso, su primera edición y su equipo. Se tarda unos 30 minutos."
+
+msgid "Sign in"
+msgstr "Iniciar sesión"
+
+msgid "This link works once and expires on %(day)s."
+msgstr "Este enlace solo se puede usar una vez y caduca el %(day)s."
+
+#. Translators: %(specialist)s is a person's name and email address, or "the
+#. Blend-ed team".
+msgid "Your onboarding specialist is %(specialist)s."
+msgstr "Su especialista de incorporación es %(specialist)s."
+
+msgid "You got this email because %(organisation)s was set up for %(email)s."
+msgstr ""
+"Recibe este correo electrónico porque %(organisation)s se configuró para "
+"%(email)s."
+
+msgid "the Blend-ed team"
+msgstr "el equipo de Blend-ed"
+
+msgid "You're invited to learn with %(name)s"
+msgstr "Le invitan a aprender con %(name)s"
+
+msgid "%(name)s has invited you to learn with them."
+msgstr "%(name)s le ha invitado a aprender con él o ella."
+
+#. Translators: %(days)s is a number of days.
+msgid ""
+"The link works for %(days)s days. If a new one is sent, this one stops "
+"working."
+msgstr ""
+"El enlace funciona durante %(days)s días. Si se envía uno nuevo, este dejará"
+" de funcionar."
+
+#. Translators: {date} is the day the link stops working ("19 November 2026").
+msgid ""
+"The link works until {date}. If you didn't ask for this, ignore this email."
+msgstr ""
+"El enlace funciona hasta el {date}. Si no lo ha solicitado, ignore este "
+"correo electrónico."
+
+#. Translators: {workspace} is the name of the AI workspace being opened.
+msgid "Confirm your {workspace} workspace"
+msgstr "Confirme su espacio de trabajo {workspace}"
+
+#. Translators: {workspace} is the name of the AI workspace being opened.
+msgid ""
+"Someone asked to open the AI workspace \"{workspace}\" with this email "
+"address."
+msgstr ""
+"Alguien ha solicitado abrir el espacio de trabajo de AI «{workspace}» con "
+"esta dirección de correo electrónico."
+
+msgid ""
+"Sign in, or create an account, with this email address, then open the link "
+"below to confirm it:"
+msgstr ""
+"Inicie sesión, o cree una cuenta, con esta dirección de correo electrónico "
+"y, después, abra el enlace siguiente para confirmarlo:"
+
+msgid ""
+"Sign in, or create an account, with this email address, then confirm the "
+"workspace."
+msgstr ""
+"Inicie sesión, o cree una cuenta, con esta dirección de correo electrónico "
+"y, después, confirme el espacio de trabajo."
+
+msgid "Confirm your workspace"
+msgstr "Confirme su espacio de trabajo"
+
+#. Translators: {email} is the address the workspace was requested for.
+msgid "You got this email because a workspace was requested for {email}."
+msgstr ""
+"Recibe este correo electrónico porque se solicitó un espacio de trabajo para"
+" {email}."
+
+#. Translators: {workspace} is the AI workspace's name; {email} the address to
+#. sign in with.
+msgid ""
+"Your AI workspace {workspace} is set up and you manage it. Sign in with "
+"{email} to start building courses with AI."
+msgstr ""
+"Su espacio de trabajo de AI {workspace} está configurado y usted lo "
+"gestiona. Inicie sesión con {email} para empezar a crear cursos con AI."
+
+#. Translators: {workspace} is the AI workspace's name.
+msgid "Your {workspace} workspace is ready"
+msgstr "Su espacio de trabajo {workspace} está listo"
+
+msgid "Pick up where you left off"
+msgstr "Continúe donde lo dejó"
+
+msgid ""
+"You haven't opened your courses for a while. A few minutes today keeps you "
+"on track, and your progress is waiting for you."
+msgstr ""
+"Hace tiempo que no abre sus cursos. Unos minutos hoy le ayudarán a mantener "
+"el ritmo, y su progreso le está esperando."
+
+#. Translators: {who} is the person asking, {library} the library's title and
+#. {note} their own message.
+msgid "{who} asks to edit the library {library}. “{note}”"
+msgstr "{who} solicita editar la biblioteca {library}. «{note}»"
+
+msgid "{who} asks to edit the library {library}."
+msgstr "{who} solicita editar la biblioteca {library}."
+
+#. Translators: {library} is the library's title.
+msgid "Access request for {library}"
+msgstr "Solicitud de acceso a {library}"
+
+msgid "{count} open response to grade"
+msgid_plural "{count} open responses to grade"
+msgstr[0] "{count} respuesta abierta por calificar"
+msgstr[1] "{count} respuestas abiertas por calificar"
+
+msgid "{count} offline result not entered"
+msgid_plural "{count} offline results not entered"
+msgstr[0] "{count} resultado presencial sin introducir"
+msgstr[1] "{count} resultados presenciales sin introducir"
+
+#. Translators: {id} is the learner's account number, shown when they have no
+#. name.
+msgid "Learner {id}"
+msgstr "Estudiante {id}"
+
+#. Translators: {names} is a comma-separated list of learner names.
+msgid "{count} learner below the passing grade: {names}"
+msgid_plural "{count} learners below the passing grade: {names}"
+msgstr[0] "{count} estudiante por debajo de la nota de aprobado: {names}"
+msgstr[1] "{count} estudiantes por debajo de la nota de aprobado: {names}"
+
+#. Translators: {line} is the list of learners above; {more} how many more are
+#. not named.
+msgid "{line} and {more} more"
+msgstr "{line} y {more} más"
+
+#. Translators: {day} is a day and month ("19 November").
+msgid "Your action items for {day}"
+msgstr "Sus tareas para el {day}"
+
+msgid "Certificate expired"
+msgstr "Certificado caducado"
+
+msgid "Your certificate has expired. Take the course again to renew it."
+msgstr ""
+"Su certificado ha caducado. Vuelva a realizar el curso para renovarlo."
+
+msgid "Renew"
+msgstr "Renovar"
+
+msgid "{name}, you earned a Program certificate!"
+msgstr "{name}, ¡ha obtenido un certificado de programa!"
 
 msgid "About this certificate"
-msgstr ""
+msgstr "Acerca de este certificado"
 
 msgid "Certificate ID"
-msgstr ""
+msgstr "ID del certificado"
 
 msgid "Date of issue"
+msgstr "Fecha de emisión"
+
+msgid "Invoice"
+msgstr "Factura"
+
+msgid "Order"
+msgstr "Pedido"
+
+msgid "Purchase order"
+msgstr "Orden de compra"
+
+msgid "Status"
+msgstr "Estado"
+
+msgid "Paid in full"
+msgstr "Pagado en su totalidad"
+
+msgid "Amount due"
+msgstr "Importe pendiente"
+
+msgid "Due by"
+msgstr "Fecha de vencimiento"
+
+msgid ""
+"Here is invoice %(invoice)s against purchase order %(po)s for order "
+"%(order)s from %(seller)s. The PDF is attached."
 msgstr ""
+"Adjuntamos la factura %(invoice)s correspondiente a la orden de compra "
+"%(po)s del pedido %(order)s de %(seller)s en PDF."
+
+msgid ""
+"Here is invoice %(invoice)s for order %(order)s from %(seller)s. The PDF is "
+"attached."
+msgstr ""
+"Adjuntamos la factura %(invoice)s del pedido %(order)s de %(seller)s en PDF."
+
+msgid "Invoice %(invoice)s"
+msgstr "Factura %(invoice)s"
+
+msgid "It is paid in full."
+msgstr "Está pagado en su totalidad."
+
+msgid "The seats are yours once it is paid."
+msgstr "Las plazas serán suyas una vez pagado."
+
+msgid "View your order"
+msgstr "Ver su pedido"
+
+msgid "Sign in as one of the company's managers to open the order."
+msgstr ""
+"Inicie sesión como uno de los responsables de la compañía para abrir el "
+"pedido."
+
+msgid ""
+"You got this email because this address is the billing email for the order."
+msgstr ""
+"Recibe este correo electrónico porque esta dirección es el correo de "
+"facturación del pedido."
+
+msgid "Invoice %(invoice)s from %(seller)s"
+msgstr "Factura %(invoice)s de %(seller)s"
+
+msgid "Claim your free place at %(seller)s"
+msgstr "Solicite su plaza gratuita en %(seller)s"
+
+msgid "A free place at %(seller)s was requested for this email address."
+msgstr ""
+"Se ha solicitado una plaza gratuita en %(seller)s para esta dirección de "
+"correo electrónico."
+
+msgid ""
+"Sign in, or create an account, with this email address, then open the link "
+"below to claim it:"
+msgstr ""
+"Inicie sesión, o cree una cuenta, con esta dirección de correo electrónico "
+"y, después, abra el enlace siguiente para solicitarla:"
+
+msgid ""
+"The link works until %(day)s. If you didn't ask for this, ignore this email."
+msgstr ""
+"El enlace funciona hasta el %(day)s. Si no lo ha solicitado, ignore este "
+"correo electrónico."
+
+msgid "Claim your place"
+msgstr "Solicitar su plaza"
+
+#. Translators: %(seats)s is a number of seats ("20 seats"); %(target)s a
+#. course and %(batch)s its intake.
+msgid "%(seats)s of %(target)s (%(batch)s)"
+msgstr "%(seats)s de %(target)s (%(batch)s)"
+
+msgid "Quote %(number)s"
+msgstr "Presupuesto %(number)s"
+
+msgid ""
+"Here is quote %(number)s from %(seller)s for %(of)s. The PDF is attached."
+msgstr ""
+"Adjuntamos el presupuesto %(number)s de %(seller)s para %(of)s en PDF."
+
+msgid ""
+"To go ahead, order the seats from your catalog, or reply to this email."
+msgstr ""
+"Para continuar, pida las plazas desde su catálogo o responda a este correo "
+"electrónico."
+
+msgid "Quote"
+msgstr "Presupuesto"
+
+msgid "Seats"
+msgstr "Plazas"
+
+msgid "Total"
+msgstr "Total"
+
+msgid "Valid until"
+msgstr "Válido hasta"
+
+msgid "Order the seats"
+msgstr "Pedir las plazas"
+
+msgid ""
+"This quote holds no seats. Prices and seats are confirmed when the order is "
+"placed."
+msgstr ""
+"Este presupuesto no reserva plazas. Los precios y las plazas se confirman al"
+" realizar el pedido."
+
+msgid ""
+"You got this email because %(organisation)s sent a quote to %(tenant)s."
+msgstr ""
+"Recibe este correo electrónico porque %(organisation)s envió un presupuesto "
+"a %(tenant)s."
+
+msgid "Quote %(number)s from %(seller)s"
+msgstr "Presupuesto %(number)s de %(seller)s"
+
+msgid "card"
+msgstr "tarjeta"
+
+msgid "bank transfer"
+msgstr "transferencia bancaria"
+
+msgid "account credit"
+msgstr "crédito en la cuenta"
+
+msgid "Your receipt for order %(number)s"
+msgstr "Su recibo del pedido %(number)s"
+
+#. Translators: %(total)s is money with its currency.
+msgid ""
+"Your payment of %(total)s for order %(number)s went through. You can start "
+"learning now."
+msgstr ""
+"Se ha procesado su pago de %(total)s del pedido %(number)s. Ya puede empezar"
+" a aprender."
+
+msgid "Go to my learning"
+msgstr "Ir a mi aprendizaje"
+
+msgid "Your purchase"
+msgstr "Su compra"
+
+msgid "Subtotal"
+msgstr "Subtotal"
+
+msgid "Discount"
+msgstr "Descuento"
+
+msgid "Tax (included)"
+msgstr "Impuestos (incluidos)"
+
+msgid "Tax"
+msgstr "Impuestos"
+
+msgid "Total paid"
+msgstr "Total pagado"
+
+msgid "your purchase"
+msgstr "su compra"
+
+msgid ""
+"It goes back the way you paid; your bank may take a few days to show it."
+msgstr ""
+"Se devuelve por el mismo medio con el que pagó; su banco puede tardar unos "
+"días en reflejarlo."
+
+msgid "We have paid it back to you directly."
+msgstr "Se lo hemos devuelto directamente."
+
+msgid "It is kept as credit on your account for your next purchase."
+msgstr "Se guarda como crédito en su cuenta para su próxima compra."
+
+msgid "Your refund for order %(number)s"
+msgstr "Su reembolso del pedido %(number)s"
+
+#. Translators: %(amount)s is money with its currency; %(how)s is a sentence
+#. on how it is paid back.
+msgid "We are refunding %(amount)s for order %(number)s. %(how)s"
+msgstr "Le reembolsamos %(amount)s del pedido %(number)s. %(how)s"
+
+msgid "your course"
+msgstr "su curso"
+
+#. Translators: %(learner)s is a person's name; %(title)s a course or program.
+msgid "%(learner)s bought %(title)s"
+msgstr "%(learner)s ha comprado %(title)s"
+
+msgid "%(learner)s bought %(title)s and can start now."
+msgstr "%(learner)s ha comprado %(title)s y puede empezar ya."
+
+msgid "%(learner)s enrolled in %(title)s"
+msgstr "%(learner)s se ha inscrito en %(title)s"
+
+msgid "%(learner)s enrolled themselves in %(title)s."
+msgstr "%(learner)s se ha inscrito por su cuenta en %(title)s."
+
+msgid "your subscription"
+msgstr "su suscripción"
+
+msgid ""
+"We couldn't take your payment of %(amount)s for %(name)s. Update your "
+"payment method by %(day)s to keep your access."
+msgstr ""
+"No hemos podido cobrar su pago de %(amount)s por %(name)s. Actualice su "
+"método de pago antes del %(day)s para conservar el acceso."
+
+msgid ""
+"We couldn't take your payment of %(amount)s for %(name)s. Update your "
+"payment method to keep your access."
+msgstr ""
+"No hemos podido cobrar su pago de %(amount)s por %(name)s. Actualice su "
+"método de pago para conservar el acceso."
+
+msgid "Your %(name)s payment couldn't be processed"
+msgstr "No se ha podido procesar su pago de %(name)s"
+
+msgid "We couldn't process your subscription payment."
+msgstr "No hemos podido procesar el pago de su suscripción."
+
+#. Translators: {name} is the course's title.
+msgid "{name} finished building. Open it in Studio to review and publish it."
+msgstr ""
+"{name} ha terminado de crearse. Ábralo en Studio para revisarlo y "
+"publicarlo."
+
+msgid "{count} component could not be generated and need your attention."
+msgid_plural ""
+"{count} components could not be generated and need your attention."
+msgstr[0] "No se ha podido generar {count} componente y requiere su atención."
+msgstr[1] ""
+"No se han podido generar {count} componentes y requieren su atención."
+
+#. Translators: {name} is the course's title.
+msgid "Your course {name} is ready"
+msgstr "Su curso {name} está listo"
+
+msgid "Open in Studio"
+msgstr "Abrir en Studio"
 
 msgid "You do not have access to this course."
-msgstr ""
+msgstr "No tiene acceso a este curso."
+
+#. Translators: {timestamp} is when the report arrived ("2026-11-19 09:30:00
+#. UTC").
+msgid "Crashlytics error report ({timestamp})"
+msgstr "Informe de errores de Crashlytics ({timestamp})"
 
 msgid "I completed the {course_title} course on {course_org_name}."
-msgstr ""
+msgstr "He completado el curso {course_title} en {course_org_name}."
 
 msgid ""
 "I completed a course at {course_org_name}. Take a look at my certificate."
 msgstr ""
+"He completado un curso en {course_org_name}. Eche un vistazo a mi "
+"certificado."
 
 msgid "%(fullname)s, you earned a certificate!"
-msgstr ""
+msgstr "%(fullname)s, ¡ha obtenido un certificado!"
 
 msgid "Awarded to:"
-msgstr ""
+msgstr "Otorgado a:"
 
-msgid "Valid until"
-msgstr ""
+msgid "Recipient Image"
+msgstr "Imagen del destinatario"
 
 msgid "Validity"
-msgstr ""
+msgstr "Validez"
 
 msgid "Does not expire"
-msgstr ""
+msgstr "No caduca"
 
 msgid "Share on"
-msgstr ""
+msgstr "Compartir en"
 
 msgid "Post on Facebook"
-msgstr ""
+msgstr "Publicar en Facebook"
 
 msgid "Tweet this Accomplishment"
-msgstr ""
+msgstr "Tuitear este logro"
 
 msgid "Add to LinkedIn Profile"
-msgstr ""
+msgstr "Añadir al perfil de LinkedIn"
 
 msgid "Download PDF"
-msgstr ""
+msgstr "Descargar PDF"
 
 msgid "This is to certify that"
-msgstr ""
+msgstr "Por la presente se certifica que"
 
+#. Translators: follows the learner's name, which the certificate shows on its
+#. own line above; the sentence's subject is that name.
 msgid "has successfully completed %(course_name)s offered by %(org_name)s"
-msgstr ""
+msgstr "ha completado con éxito %(course_name)s ofrecido por %(org_name)s"
 
 msgid "Date of Issue: %(date)s"
-msgstr ""
+msgstr "Fecha de emisión: %(date)s"
 
 msgid "Programme"
-msgstr ""
+msgstr "Programa"
 
 msgid "Verified"
-msgstr ""
+msgstr "Verificado"
 
+#. Translators: follows the learner's name, which the certificate shows on its
+#. own line above; the sentence's subject is that name.
 msgid ""
 "has successfully completed and was awarded this certificate for the "
 "programme above."
 msgstr ""
+"ha completado con éxito el programa anterior y ha obtenido este certificado."
 
 msgid ""
 "has successfully completed, received a passing grade, and was awarded this "
 "certificate for the course above."
 msgstr ""
+"ha completado con éxito el curso anterior, ha obtenido una nota de aprobado "
+"y ha recibido este certificado."
 
-msgid "Issued on"
-msgstr ""
+msgid "Issued on %(date)s"
+msgstr "Emitido el %(date)s"
+
+msgid "Valid until %(date)s"
+msgstr "Válido hasta el %(date)s"
 
 msgid "Sincerely,"
-msgstr ""
+msgstr "Atentamente,"
 
 msgid "Supported by the following organizations"
-msgstr ""
+msgstr "Con el apoyo de las siguientes organizaciones"
+
+msgid "Certificate of Attendance"
+msgstr "Certificado de asistencia"
 
 msgid "Noted by"
-msgstr ""
+msgstr "Registrado por"
 
 msgid "This certificate has been revoked"
-msgstr ""
+msgstr "Este certificado se ha revocado"
 
 msgid ""
 "The certificate for %(program)s was revoked on %(date)s. It is no longer "
 "valid."
-msgstr ""
+msgstr "El certificado de %(program)s se revocó el %(date)s. Ya no es válido."
 
+#. Translators: follows the learner's name, which the certificate shows on its
+#. own line above; the sentence's subject is that name.
 msgid ""
 "has successfully completed the programme %(program)s offered by %(org)s"
-msgstr ""
+msgstr "ha completado con éxito el programa %(program)s ofrecido por %(org)s"
 
 msgid "Completed on %(date)s"
-msgstr ""
+msgstr "Completado el %(date)s"
 
 msgid "Courses:"
-msgstr ""
+msgstr "Cursos:"
 
 msgid "Verify this certificate at %(url)s"
-msgstr ""
+msgstr "Verifique este certificado en %(url)s"
 
 msgid "Certificate not found"
-msgstr ""
+msgstr "No se ha encontrado el certificado"
 
 msgid "There is no valid certificate at this link."
-msgstr ""
+msgstr "No hay ningún certificado válido en este enlace."
+
+msgid "Certificate of competency"
+msgstr "Certificado de competencia"
+
+msgid "Holder name"
+msgstr "Nombre del titular"
+
+msgid "Competency"
+msgstr "Competencia"
+
+msgid "Knowledge"
+msgstr "Conocimientos"
+
+msgid "Role"
+msgstr "Rol"
+
+msgid "Field"
+msgstr "Campo"
+
+msgid "Course"
+msgstr "Curso"
+
+msgid "Basis of training"
+msgstr "Base de la formación"
+
+msgid "Title"
+msgstr "Título"
+
+msgid "Eligibility requirements"
+msgstr "Requisitos de admisión"
+
+msgid "Formal education"
+msgstr "Educación formal"
+
+msgid "Professional experience"
+msgstr "Experiencia profesional"
+
+msgid "Results"
+msgstr "Resultados"
+
+msgid "Certificate number"
+msgstr "Número de certificado"
+
+msgid "Initial certification"
+msgstr "Certificación inicial"
+
+msgid "This certificate"
+msgstr "Este certificado"
+
+msgid "Expiry Date"
+msgstr "Fecha de caducidad"
+
+msgid "Knowledge certificates do not expire"
+msgstr "Los certificados de conocimientos no caducan"
 
 msgid ""
 "The certificate for %(session)s was revoked on %(date)s. It is no longer "
 "valid."
-msgstr ""
+msgstr "El certificado de %(session)s se revocó el %(date)s. Ya no es válido."
 
 msgid "This certificate expired on %(date)s."
-msgstr ""
+msgstr "Este certificado caducó el %(date)s."
 
+#. Translators: follows the learner's name, which the certificate shows on its
+#. own line above; the sentence's subject is that name.
 msgid "has successfully attended %(session)s offered by %(org)s"
+msgstr "ha asistido con éxito a %(session)s ofrecido por %(org)s"
+
+#. Translators: follows the learner's name, written large on the line above.
+#. %(course_name)s is the course's name; keep the <span> around it (bold) and
+#. the three <div>s (each is one line on the certificate).
+msgid ""
+"<div>has successfully completed the</div>\n"
+"                    <div><span style=\"font-weight:600;\">%(course_name)s</span> course</div>\n"
+"                    <div>at ACSF Level 3.</div>"
 msgstr ""
+"<div>ha completado con éxito el curso</div>\n"
+"                    <div><span style=\"font-weight:600;\">%(course_name)s</span></div>\n"
+"                    <div>en el nivel 3 del ACSF.</div>"
+
+#. Translators: %(when)s is a date and time, such as "17 November 2026 at
+#. 09:30".
+msgid ""
+"The password for your account was changed on %(when)s UTC. If this wasn't "
+"you, reset your password now and contact support."
+msgstr ""
+"La contraseña de su cuenta se cambió el %(when)s UTC. Si no ha sido usted, "
+"restablezca su contraseña ahora y póngase en contacto con soporte."
+
+msgid "Your password was changed"
+msgstr "Se ha cambiado su contraseña"
+
+msgid "Password changed"
+msgstr "Contraseña cambiada"
+
+msgid ""
+"Confirms to the user that their account password was changed. Security "
+"notice — cannot be disabled."
+msgstr ""
+"Confirma al usuario que se ha cambiado la contraseña de su cuenta. Aviso de "
+"seguridad: no se puede desactivar."
+
+msgid "Invitation — new user"
+msgstr "Invitación: usuario nuevo"
+
+msgid "Invites an unregistered user to the platform."
+msgstr "Invita a la plataforma a un usuario no registrado."
+
+msgid "Added to organisation"
+msgstr "Añadido a la organización"
+
+msgid "Sent when an existing platform user is added to the organisation."
+msgstr ""
+"Se envía cuando se añade a la organización un usuario existente de la "
+"plataforma."
+
+msgid "Organisation + account created"
+msgstr "Organización y cuenta creadas"
+
+msgid ""
+"Sent when an organisation and its first account are created via the public "
+"API."
+msgstr ""
+"Se envía cuando se crean una organización y su primera cuenta mediante la "
+"API pública."
+
+msgid "Course enrollment — new user"
+msgstr "Inscripción en el curso: usuario nuevo"
+
+msgid ""
+"Sent when an unregistered user is enrolled in a course and must register "
+"first."
+msgstr ""
+"Se envía cuando se inscribe en un curso a un usuario no registrado que debe "
+"registrarse primero."
+
+msgid "Course enrollment — success"
+msgstr "Inscripción en el curso: correcta"
+
+msgid "Sent when a learner is enrolled in a course."
+msgstr "Se envía cuando se inscribe a un estudiante en un curso."
+
+msgid "Course enrollment — update"
+msgstr "Inscripción en el curso: actualización"
+
+msgid "Sent when a learner's enrollment changes."
+msgstr "Se envía cuando cambia la inscripción de un estudiante."
+
+msgid "Program enrollment — success"
+msgstr "Inscripción en el programa: correcta"
+
+msgid "Sent when a learner is enrolled in a program."
+msgstr "Se envía cuando se inscribe a un estudiante en un programa."
+
+msgid "Learner self-enrolled"
+msgstr "Estudiante inscrito por su cuenta"
+
+msgid ""
+"Tells the course team that a learner enrolled themselves in their course. "
+"Enrollments performed by staff are not announced — whoever ran them already "
+"knows."
+msgstr ""
+"Avisa al equipo del curso de que un estudiante se ha inscrito por su cuenta "
+"en su curso. Las inscripciones realizadas por el personal no se anuncian: "
+"quien las hizo ya lo sabe."
+
+msgid "Certificate earned"
+msgstr "Certificado obtenido"
+
+msgid "Sent when a learner earns a course certificate."
+msgstr "Se envía cuando un estudiante obtiene un certificado de curso."
+
+msgid ""
+"Sent when a learner's certificate expires and their graded attempts are "
+"reset."
+msgstr ""
+"Se envía cuando caduca el certificado de un estudiante y se restablecen sus "
+"intentos calificados."
+
+msgid "Guest purchase — success"
+msgstr "Compra como invitado: correcta"
+
+msgid ""
+"Receipt and access details for a guest checkout. Transactional — cannot be "
+"disabled."
+msgstr ""
+"Recibo y datos de acceso de una compra como invitado. Transaccional: no se "
+"puede desactivar."
+
+msgid "Payment failed"
+msgstr "Pago fallido"
+
+msgid ""
+"Warns a learner that a subscription payment failed and access will be "
+"revoked. Transactional — cannot be disabled."
+msgstr ""
+"Advierte a un estudiante de que el pago de una suscripción ha fallado y se "
+"le retirará el acceso. Transaccional: no se puede desactivar."
+
+msgid "Purchase completed"
+msgstr "Compra completada"
+
+msgid ""
+"Tells the course team that a learner bought their course, or the program "
+"staff that a learner bought their program."
+msgstr ""
+"Avisa al equipo del curso de que un estudiante ha comprado su curso, o al "
+"personal del programa de que un estudiante ha comprado su programa."
+
+msgid "Support ticket raised"
+msgstr "Ticket de soporte abierto"
+
+msgid "Notifies staff that a learner raised a support ticket."
+msgstr ""
+"Avisa al personal de que un estudiante ha abierto un ticket de soporte."
+
+msgid "Support ticket status updated"
+msgstr "Estado del ticket de soporte actualizado"
+
+msgid "Notifies the learner who raised a ticket that its status changed."
+msgstr "Avisa al estudiante que abrió un ticket de que su estado ha cambiado."
+
+msgid "Support ticket assigned"
+msgstr "Ticket de soporte asignado"
+
+msgid "Notifies a staff member that a ticket was assigned to them."
+msgstr "Avisa a un miembro del personal de que se le ha asignado un ticket."
+
+msgid "Support ticket comment added"
+msgstr "Comentario añadido al ticket de soporte"
+
+msgid "Notifies the other party that a comment was added to a ticket."
+msgstr "Avisa a la otra parte de que se ha añadido un comentario a un ticket."
+
+msgid "Mobile crash alert"
+msgstr "Alerta de fallo en la aplicación móvil"
+
+msgid ""
+"Internal crash report forwarded from the mobile app. Sent without an "
+"organisation context."
+msgstr ""
+"Informe interno de fallos reenviado desde la aplicación móvil. Se envía sin "
+"contexto de organización."
+
+msgid "Learner risk alert"
+msgstr "Alerta de riesgo del estudiante"
+
+msgid "Nudge sent to a learner flagged as at risk of not completing a course."
+msgstr ""
+"Recordatorio enviado a un estudiante marcado en riesgo de no completar un "
+"curso."
+
+msgid "Team notification"
+msgstr "Notificación al equipo"
+
+msgid "In-app message sent to every member of a team."
+msgstr "Mensaje en la aplicación enviado a todos los miembros de un equipo."
+
+msgid "Custom broadcast"
+msgstr "Difusión personalizada"
+
+msgid ""
+"Ad-hoc announcement composed by staff. The sender picks the channels per "
+"send; these settings cap what they may pick."
+msgstr ""
+"Anuncio puntual redactado por el personal. El remitente elige los canales en"
+" cada envío; estos ajustes limitan lo que puede elegir."
+
+msgid "Discussion — response to your post"
+msgstr "Foro: respuesta a su publicación"
+
+msgid "Someone responded to a post you wrote."
+msgstr "Alguien ha respondido a una publicación que usted escribió."
+
+msgid "Discussion — comment on a response to your post"
+msgstr "Foro: comentario en una respuesta a su publicación"
+
+msgid "Someone commented on a response to a post you wrote."
+msgstr ""
+"Alguien ha comentado en una respuesta a una publicación que usted escribió."
+
+msgid "Discussion — comment on your response"
+msgstr "Foro: comentario en su respuesta"
+
+msgid "Someone commented on a response you wrote."
+msgstr "Alguien ha comentado en una respuesta que usted escribió."
+
+msgid "Discussion — new post"
+msgstr "Foro: nueva publicación"
+
+msgid "A new post was added to a course discussion."
+msgstr "Se ha añadido una nueva publicación a un foro del curso."
+
+msgid "Discussion — new question"
+msgstr "Foro: nueva pregunta"
+
+msgid "A new question was asked in a course discussion."
+msgstr "Se ha formulado una nueva pregunta en un foro del curso."
+
+msgid "Discussion — response on a post you follow"
+msgstr "Foro: respuesta en una publicación que sigue"
+
+msgid "Someone responded to a post you are following."
+msgstr "Alguien ha respondido a una publicación que usted sigue."
+
+msgid "Discussion — comment on a post you follow"
+msgstr "Foro: comentario en una publicación que sigue"
+
+msgid "Someone commented on a post you are following."
+msgstr "Alguien ha comentado en una publicación que usted sigue."
+
+msgid "Discussion — content reported"
+msgstr "Foro: contenido denunciado"
+
+msgid "A learner reported discussion content for moderation."
+msgstr "Un estudiante ha denunciado contenido del foro para su moderación."
+
+msgid "Discussion — a response on your post was endorsed"
+msgstr "Foro: se ha respaldado una respuesta a su publicación"
+
+msgid "A response on a post you wrote was endorsed."
+msgstr "Se ha respaldado una respuesta a una publicación que usted escribió."
+
+msgid "Discussion — your response was endorsed"
+msgstr "Foro: se ha respaldado su respuesta"
+
+msgid "A response you wrote was endorsed."
+msgstr "Se ha respaldado una respuesta que usted escribió."
+
+msgid "Discussion — post from the course team"
+msgstr "Foro: publicación del equipo del curso"
+
+msgid "The course team posted to every learner in the course."
+msgstr ""
+"El equipo del curso ha publicado un mensaje para todos los estudiantes del "
+"curso."
+
+msgid "Course update"
+msgstr "Actualización del curso"
+
+msgid "A course update was published from Studio."
+msgstr "Se ha publicado una actualización del curso desde Studio."
+
+msgid "Audit access expiring soon"
+msgstr "El acceso de oyente caduca pronto"
+
+msgid "An audit learner's access to a course is about to end."
+msgstr ""
+"El acceso de un estudiante oyente a un curso está a punto de terminar."
+
+msgid "You're added to a session"
+msgstr "Se le ha añadido a una sesión"
+
+msgid "You're named the instructor of a session date."
+msgstr "Se le ha designado instructor de una fecha de sesión."
+
+msgid "Reminder before a session"
+msgstr "Recordatorio antes de una sesión"
+
+msgid "30 minutes before."
+msgstr "30 minutos antes."
+
+msgid "A session changes or is cancelled"
+msgstr "Una sesión cambia o se cancela"
+
+msgid "A date you teach is moved or cancelled, or you're taken off it."
+msgstr ""
+"Una fecha en la que imparte clase se mueve o se cancela, o se le retira de "
+"ella."
+
+msgid "Attendance to confirm"
+msgstr "Asistencia por confirmar"
+
+msgid "After each session ends."
+msgstr "Al terminar cada sesión."
+
+msgid "Tomorrow's sessions"
+msgstr "Sesiones de mañana"
+
+msgid "The evening before."
+msgstr "La tarde anterior."
+
+msgid "A learner in your sessions needs help"
+msgstr "Un estudiante de sus sesiones necesita ayuda"
+
+msgid "Not active for 7 days, behind, or below the passing score."
+msgstr ""
+"Sin actividad durante 7 días, con retraso o por debajo de la nota de "
+"aprobado."
+
+msgid "New work to review"
+msgstr "Nuevo trabajo para revisar"
+
+msgid "A learner hands in work for you to review."
+msgstr "Un estudiante entrega un trabajo para que usted lo revise."
+
+#. Translators: {batches} is a comma-separated list of batch names.
+msgid "Your weekly review is due"
+msgstr "Tiene pendiente su revisión semanal"
+
+msgid "Your weekly review of your learners."
+msgstr "Su revisión semanal de sus estudiantes."
+
+msgid "Session reminder"
+msgstr "Recordatorio de sesión"
+
+msgid "A Session date you booked starts soon."
+msgstr "Una fecha de sesión que reservó empieza pronto."
+
+msgid "Session date moved"
+msgstr "Fecha de sesión cambiada"
+
+msgid "A Session date you booked has moved."
+msgstr "Una fecha de sesión que reservó ha cambiado."
+
+msgid "Session date cancelled"
+msgstr "Fecha de sesión cancelada"
+
+msgid "A Session date you booked was cancelled."
+msgstr "Una fecha de sesión que reservó se ha cancelado."
+
+msgid "Off the waitlist"
+msgstr "Fuera de la lista de espera"
+
+msgid "A place freed and you are booked on a Session date."
+msgstr "Se ha liberado una plaza y tiene reserva en una fecha de sesión."
+
+msgid "Instructor time off"
+msgstr "Tiempo libre del instructor"
+
+msgid "A date you scheduled falls in its instructor's time off."
+msgstr "Una fecha que programó coincide con el tiempo libre de su instructor."
+
+msgid "Morning action items"
+msgstr "Tareas de la mañana"
+
+msgid ""
+"What needs you in your Batches: work to grade, results to enter and learners"
+" behind."
+msgstr ""
+"Lo que requiere su atención en sus ediciones: trabajos por calificar, "
+"resultados por introducir y estudiantes con retraso."
+
+msgid "Scheduled report ready"
+msgstr "Informe programado listo"
+
+msgid "A report sent on a schedule is ready to download."
+msgstr "Un informe enviado de forma programada está listo para descargar."
+
+msgid "Your data is ready"
+msgstr "Sus datos están listos"
+
+msgid "A file of your data you asked for is ready to download."
+msgstr "Un archivo con sus datos que solicitó está listo para descargar."
+
+msgid "Tenant weekly report"
+msgstr "Informe semanal de la organización cliente"
+
+msgid "Your organisation's learning figures for the week."
+msgstr "Las cifras de aprendizaje de su organización de esta semana."
+
+msgid "Company account active"
+msgstr "Cuenta de compañía activa"
+
+msgid "Your company's account is active."
+msgstr "La cuenta de su compañía está activa."
+
+msgid "Choose who keeps access"
+msgstr "Elegir quién conserva el acceso"
+
+msgid ""
+"A renewal lowered your company's learner limit: choose who keeps access."
+msgstr ""
+"Una renovación ha reducido el límite de estudiantes de su compañía: elija "
+"quién conserva el acceso."
+
+msgid "Someone finishes a course or program"
+msgstr "Alguien termina un curso o programa"
+
+msgid "A learner on one of your company's seats finished a course or program."
+msgstr ""
+"Un estudiante con una de las plazas de su compañía ha terminado un curso o "
+"programa."
+
+msgid "An invitation isn't accepted"
+msgstr "Una invitación no se ha aceptado"
+
+msgid "Someone you invited to learn hasn't accepted 7 days later."
+msgstr "Alguien a quien invitó a aprender no ha aceptado tras 7 días."
+
+msgid "Seats not given out before enrollment closes"
+msgstr "Plazas no asignadas antes del cierre de la inscripción"
+
+msgid ""
+"Your company still has seats to give out 14 days before enrollment closes."
+msgstr ""
+"A su compañía aún le quedan plazas por asignar 14 días antes del cierre de "
+"la inscripción."
+
+msgid "Orders and payments"
+msgstr "Pedidos y pagos"
+
+msgid "An order of your company's is paid."
+msgstr "Se ha pagado un pedido de su compañía."
+
+msgid "Purchase receipt"
+msgstr "Recibo de compra"
+
+msgid ""
+"Your receipt when a purchase you paid for goes through. Transactional — "
+"cannot be disabled."
+msgstr ""
+"Su recibo cuando se procesa una compra que ha pagado. Transaccional: no se "
+"puede desactivar."
+
+msgid "Refund"
+msgstr "Reembolso"
+
+msgid ""
+"Your refund when staff pay back a purchase you made. Transactional — cannot "
+"be disabled."
+msgstr ""
+"Su reembolso cuando el personal le devuelve el importe de una compra. "
+"Transaccional: no se puede desactivar."
+
+msgid "AI-generated course ready"
+msgstr "Curso generado con AI listo"
+
+msgid ""
+"A course you generated with AI finished building and is ready to review."
+msgstr ""
+"Un curso que generó con AI ha terminado de crearse y está listo para "
+"revisar."
+
+msgid "Library access requested"
+msgstr "Acceso a la biblioteca solicitado"
+
+msgid ""
+"Notifies a library's admins that a view-only member asks for a role that "
+"edits it."
+msgstr ""
+"Avisa a los administradores de una biblioteca de que un miembro de solo "
+"lectura solicita un rol que permite editarla."
+
+msgid "Company account set-up (after checkout)"
+msgstr "Configuración de la cuenta de compañía (tras el pago)"
+
+msgid ""
+"Sent after a company's paid first purchase to set up the account that "
+"manages it."
+msgstr ""
+"Se envía tras la primera compra pagada de una compañía para configurar la "
+"cuenta que la gestiona."
+
+msgid "Company account set-up (order recorded)"
+msgstr "Configuración de la cuenta de compañía (pedido registrado)"
+
+msgid ""
+"Sent when staff record a company's first order, to set up the account that "
+"manages it."
+msgstr ""
+"Se envía cuando el personal registra el primer pedido de una compañía, para "
+"configurar la cuenta que la gestiona."
+
+msgid "Company co-manager invitation"
+msgstr "Invitación de corresponsable de la compañía"
+
+msgid "Sent when a company's manager invites someone to manage it with them."
+msgstr ""
+"Se envía cuando el responsable de una compañía invita a alguien a "
+"gestionarla con él."
+
+msgid "Platform name"
+msgstr "Nombre de la plataforma"
+
+msgid "Organisation name"
+msgstr "Nombre de la organización"
+
+msgid "Recipient email"
+msgstr "Correo electrónico del destinatario"
+
+msgid "Organisation logo URL"
+msgstr "URL del logotipo de la organización"
+
+msgid "Contact mailing address"
+msgstr "Dirección postal de contacto"
+
+msgid "Reply-to address"
+msgstr "Dirección de respuesta"
+
+msgid "Primary button (rendered)"
+msgstr "Botón principal (renderizado)"
+
+msgid "Course Enrollment — Success"
+msgstr "Inscripción en el curso: correcta"
+
+msgid "You're enrolled in {{ course_name }}"
+msgstr "Se ha inscrito en {{ course_name }}"
+
+msgid "Go to my course"
+msgstr "Ir a mi curso"
+
+msgid "Learner full name"
+msgstr "Nombre completo del estudiante"
+
+msgid "Course name"
+msgstr "Nombre del curso"
+
+msgid "Course URL"
+msgstr "URL del curso"
+
+msgid "Course Enrollment — Update"
+msgstr "Inscripción en el curso: actualización"
+
+msgid "Your enrollment in {{ course_name }} was updated"
+msgstr "Se ha actualizado su inscripción en {{ course_name }}"
+
+msgid "Continue learning"
+msgstr "Continuar aprendiendo"
+
+msgid "Certificate Earned"
+msgstr "Certificado obtenido"
+
+msgid "Congratulations! You've earned your {{ course_name }} certificate"
+msgstr "¡Enhorabuena! Ha obtenido su certificado de {{ course_name }}"
+
+msgid "View my certificate"
+msgstr "Ver mi certificado"
+
+msgid "Certificate URL"
+msgstr "URL del certificado"
+
+msgid "Certificate Expired"
+msgstr "Certificado caducado"
+
+msgid ""
+"Sent when a learner's certificate expires. Their graded attempts and scores "
+"for the course are reset at the same time, so the copy must say so."
+msgstr ""
+"Se envía cuando caduca el certificado de un estudiante. Al mismo tiempo se "
+"restablecen sus intentos calificados y sus puntuaciones del curso, por lo "
+"que el texto debe indicarlo."
+
+msgid "Your {{ course_name }} certificate has expired"
+msgstr "Su certificado de {{ course_name }} ha caducado"
+
+msgid "Retake the assessments"
+msgstr "Repetir las evaluaciones"
+
+msgid "Date the certificate expired"
+msgstr "Fecha en que caducó el certificado"
+
+msgid "Invitation — New User"
+msgstr "Invitación: usuario nuevo"
+
+msgid "You've been invited to {{ display_name }}"
+msgstr "Se le ha invitado a {{ display_name }}"
+
+msgid "Complete registration"
+msgstr "Completar el registro"
+
+msgid "Org/course name"
+msgstr "Nombre de la organización/curso"
+
+msgid "Registration URL"
+msgstr "URL de registro"
+
+msgid "Date the link stops working"
+msgstr "Fecha en que el enlace deja de funcionar"
+
+msgid "Who invited them, and their message (rendered)"
+msgstr "Quién le invitó y su mensaje (renderizado)"
+
+msgid "Added to Organisation"
+msgstr "Añadido a la organización"
+
+msgid "Sent when an existing user is added to an organisation."
+msgstr "Se envía cuando se añade un usuario existente a una organización."
+
+msgid "You've been added to {{ org_name }}"
+msgstr "Se le ha añadido a {{ org_name }}"
+
+msgid "Full name"
+msgstr "Nombre completo"
+
+msgid "Login URL"
+msgstr "URL de inicio de sesión"
+
+msgid "Who gave the role"
+msgstr "Quién asignó el rol"
+
+msgid "Their message (rendered)"
+msgstr "Su mensaje (renderizado)"
+
+msgid "AI Course Creator Free Trial — Account Created"
+msgstr "Prueba gratuita de AI Course Creator: cuenta creada"
+
+msgid ""
+"Sent when an AISuite (AI Course Creator) free-trial org and account are "
+"created via the public API."
+msgstr ""
+"Se envía cuando se crean una organización y una cuenta de prueba gratuita de"
+" AISuite (AI Course Creator) mediante la API pública."
+
+msgid "Your AI Course Creator free trial is ready"
+msgstr "Su prueba gratuita de AI Course Creator está lista"
+
+msgid "Login credentials (rendered)"
+msgstr "Credenciales de inicio de sesión (renderizado)"
+
+msgid "Password Changed"
+msgstr "Contraseña cambiada"
+
+msgid "Confirms a password change."
+msgstr "Confirma un cambio de contraseña."
+
+msgid "Your {{ platform_name }} password was changed"
+msgstr "Se ha cambiado su contraseña de {{ platform_name }}"
+
+msgid "When it changed"
+msgstr "Cuándo cambió"
+
+msgid "Support Ticket Notification"
+msgstr "Notificación de ticket de soporte"
+
+msgid "Notifies staff of a raised support ticket."
+msgstr "Avisa al personal de un ticket de soporte abierto."
+
+msgid "New ticket: {{ ticket_type }}"
+msgstr "Nuevo ticket: {{ ticket_type }}"
+
+msgid "View ticket"
+msgstr "Ver ticket"
+
+msgid "Ticket type"
+msgstr "Tipo de ticket"
+
+msgid "Priority"
+msgstr "Prioridad"
+
+msgid "Description"
+msgstr "Descripción"
+
+msgid "Ticket URL"
+msgstr "URL del ticket"
+
+msgid "Raised by"
+msgstr "Abierto por"
+
+msgid "Guest Purchase — Success"
+msgstr "Compra como invitado: correcta"
+
+msgid "Receipt for an unregistered guest purchase."
+msgstr "Recibo de una compra como invitado no registrado."
+
+msgid "Your purchase is confirmed"
+msgstr "Su compra está confirmada"
+
+msgid "Items purchased (rendered)"
+msgstr "Artículos comprados (renderizado)"
+
+msgid "Purchase — Receipt"
+msgstr "Compra: recibo"
+
+msgid ""
+"Sent to a learner when a purchase they paid for themselves goes through."
+msgstr ""
+"Se envía a un estudiante cuando se procesa una compra que ha pagado él "
+"mismo."
+
+msgid "Your receipt for {{ items }}"
+msgstr "Su recibo de {{ items }}"
+
+msgid "Learner first name"
+msgstr "Nombre del estudiante"
+
+msgid "What was bought"
+msgstr "Qué se ha comprado"
+
+msgid "Order number"
+msgstr "Número de pedido"
+
+msgid "Date paid"
+msgstr "Fecha de pago"
+
+msgid "Lines and totals (rendered)"
+msgstr "Líneas y totales (renderizado)"
+
+msgid "Currency"
+msgstr "Moneda"
+
+msgid "How it was paid"
+msgstr "Forma de pago"
+
+msgid "My learning link"
+msgstr "Enlace a Mi aprendizaje"
+
+msgid "Subscription Payment — Failed"
+msgstr "Pago de suscripción: fallido"
+
+msgid ""
+"Sent when a recurring subscription payment fails permanently and access "
+"ends."
+msgstr ""
+"Se envía cuando el pago de una suscripción periódica falla definitivamente y"
+" el acceso termina."
+
+msgid "Your {{ plan_name }} payment couldn't be processed"
+msgstr "No se ha podido procesar su pago de {{ plan_name }}"
+
+msgid "Update payment method"
+msgstr "Actualizar el método de pago"
+
+msgid "Plan / product name"
+msgstr "Nombre del plan/producto"
+
+msgid "Failed amount"
+msgstr "Importe fallido"
+
+msgid "Update payment / re-subscribe URL"
+msgstr "URL para actualizar el pago o volver a suscribirse"
+
+msgid "Failure reason"
+msgstr "Motivo del fallo"
+
+msgid "Course Enrollment — New User"
+msgstr "Inscripción en el curso: usuario nuevo"
+
+msgid ""
+"Sent when an unregistered user is enrolled in a course and has to register "
+"before they can open it."
+msgstr ""
+"Se envía cuando se inscribe en un curso a un usuario no registrado que debe "
+"registrarse antes de poder abrirlo."
+
+msgid "You've been enrolled in {{ display_name }}"
+msgstr "Se le ha inscrito en {{ display_name }}"
+
+msgid "Course/org name"
+msgstr "Nombre del curso/organización"
+
+msgid "Custom Broadcast"
+msgstr "Difusión personalizada"
+
+msgid ""
+"The ad-hoc announcement staff compose and send from the notifications page."
+msgstr ""
+"El anuncio puntual que el personal redacta y envía desde la página de "
+"notificaciones."
+
+msgid "{{ title }}"
+msgstr "{{ title }}"
+
+msgid "Open"
+msgstr "Abrir"
+
+msgid "Notification title"
+msgstr "Título de la notificación"
+
+msgid "Notification body"
+msgstr "Cuerpo de la notificación"
+
+msgid "Sent by"
+msgstr "Enviado por"
+
+msgid "Deep-link target"
+msgstr "Destino del enlace profundo"
+
+msgid "Deep-link button label"
+msgstr "Texto del botón de enlace profundo"
+
+msgid "Mobile Crash Alert"
+msgstr "Alerta de fallo en la aplicación móvil"
+
+msgid ""
+"Internal crash report forwarded from the mobile app to the platform admins. "
+"Sent without an organisation context."
+msgstr ""
+"Informe interno de fallos reenviado desde la aplicación móvil a los "
+"administradores de la plataforma. Se envía sin contexto de organización."
+
+msgid "Mobile app crash reported on {{ platform_name }}"
+msgstr "Fallo notificado en la aplicación móvil de {{ platform_name }}"
+
+msgid "Crash payload"
+msgstr "Datos del fallo"
+
+msgid "Company account — Set up (after checkout)"
+msgstr "Cuenta de compañía: configuración (tras el pago)"
+
+msgid ""
+"Sent to the person a company's paid first purchase names, to set up the "
+"account that manages it."
+msgstr ""
+"Se envía a la persona indicada en la primera compra pagada de una compañía "
+"para configurar la cuenta que la gestiona."
+
+#. Translators: {{ tenant_possessive }} is the company's name, possessive
+#. ("Bolt Freight's"). You may
+#. write {{ tenant_name }} instead, the name alone ("Bolt Freight"), where
+#. your language puts it another way.
+msgid "Set up your account to manage {{ tenant_possessive }} seats"
+msgstr ""
+"Configure su cuenta para gestionar las plazas de {{ tenant_possessive }}"
+
+msgid "Recipient first name"
+msgstr "Nombre del destinatario"
+
+msgid "Company name"
+msgstr "Nombre de la compañía"
+
+msgid "Company name, possessive"
+msgstr "Nombre de la compañía, en posesivo"
+
+msgid "Set-up link"
+msgstr "Enlace de configuración"
+
+msgid "Company account — Set up (order recorded)"
+msgstr "Cuenta de compañía: configuración (pedido registrado)"
+
+msgid ""
+"Sent when staff record a company's first order to be paid by invoice, to set"
+" up its account."
+msgstr ""
+"Se envía cuando el personal registra el primer pedido de una compañía que se"
+" pagará mediante factura, para configurar su cuenta."
+
+msgid "What was ordered"
+msgstr "Qué se ha pedido"
+
+msgid "Company account — Co-manager invitation"
+msgstr "Cuenta de compañía: invitación de corresponsable"
+
+msgid ""
+"Sent when a company's manager invites someone to manage the company's seats "
+"with them."
+msgstr ""
+"Se envía cuando el responsable de una compañía invita a alguien a gestionar "
+"con él las plazas de la compañía."
+
+#. Translators: {{ tenant_possessive }} is the company's name, possessive
+#. ("Bolt Freight's"). You may
+#. write {{ tenant_name }} instead, the name alone ("Bolt Freight"), where
+#. your language puts it another way.
+msgid "Help manage {{ tenant_possessive }} seats"
+msgstr "Ayude a gestionar las plazas de {{ tenant_possessive }}"
+
+msgid "Who invited them"
+msgstr "Quién le invitó"
+
+msgid "Company account — Active"
+msgstr "Cuenta de compañía: activa"
+
+msgid ""
+"Sent to a company's managers when the organisation activates the company's "
+"account."
+msgstr ""
+"Se envía a los responsables de una compañía cuando la organización activa la"
+" cuenta de la compañía."
+
+msgid "{{ tenant_name }} is ready"
+msgstr "{{ tenant_name }} está lista"
+
+msgid "Invite your people"
+msgstr "Invite a su personal"
+
+msgid "Manager first name"
+msgstr "Nombre del responsable"
+
+msgid "How many people may learn at once"
+msgstr "Cuántas personas pueden aprender a la vez"
+
+msgid "The seats ready to give out"
+msgstr "Plazas listas para asignar"
+
+msgid "Tenant manager link"
+msgstr "Enlace del responsable de la organización cliente"
+
+msgid "Company account — Choose who keeps access"
+msgstr "Cuenta de compañía: elegir quién conserva el acceso"
+
+msgid ""
+"Sent to a company's managers when a renewal lowers the learner limit below "
+"the people it has."
+msgstr ""
+"Se envía a los responsables de una compañía cuando una renovación reduce el "
+"límite de estudiantes por debajo de las personas que tiene."
+
+msgid "Choose people"
+msgstr "Elegir personas"
+
+msgid "The new contract's end"
+msgstr "Fin del nuevo contrato"
+
+msgid "The new learner limit"
+msgstr "Nuevo límite de estudiantes"
+
+msgid "People learning now"
+msgstr "Personas aprendiendo ahora"
+
+msgid "Date to choose by"
+msgstr "Fecha límite para elegir"
+
+msgid "Choose people link"
+msgstr "Enlace para elegir personas"
+
+msgid "Hi {{ full_name }},"
+msgstr "Hola, {{ full_name }}:"
+
+#. Translators: %(course)s is the course's name in bold.
+msgid ""
+"You have a place in %(course)s at {{ org_name }}. Open it any time from My "
+"learning."
+msgstr ""
+"Tiene una plaza en %(course)s en {{ org_name }}. Ábralo cuando quiera desde "
+"Mi aprendizaje."
+
+msgid "You got this email because you were enrolled in {{ course_name }}."
+msgstr ""
+"Recibe este correo electrónico porque se le inscribió en {{ course_name }}."
+
+msgid "Your enrollment in {{ course_name }} changed"
+msgstr "Ha cambiado su inscripción en {{ course_name }}"
+
+#. Translators: %(course)s is the course's name in bold.
+msgid ""
+"Your access to %(course)s at {{ org_name }} changed. Open the course to see "
+"what's new; you carry on from where you left off."
+msgstr ""
+"Su acceso a %(course)s en {{ org_name }} ha cambiado. Abra el curso para ver"
+" las novedades; continuará donde lo dejó."
+
+msgid ""
+"You got this email because your enrollment in {{ course_name }} changed."
+msgstr ""
+"Recibe este correo electrónico porque ha cambiado su inscripción en {{ "
+"course_name }}."
+
+msgid "You earned your {{ course_name }} certificate"
+msgstr "Ha obtenido su certificado de {{ course_name }}"
+
+#. Translators: %(course)s is the course's name in bold.
+msgid ""
+"Congratulations! You passed %(course)s at {{ org_name }} and earned its "
+"certificate. You can view it, download it and share it."
+msgstr ""
+"¡Enhorabuena! Ha aprobado %(course)s en {{ org_name }} y ha obtenido su "
+"certificado. Puede verlo, descargarlo y compartirlo."
+
+msgid "You got this email because you completed {{ course_name }}."
+msgstr "Recibe este correo electrónico porque completó {{ course_name }}."
+
+#. Translators: %(course)s is the course's name in bold; {{ expired_on }} is a
+#. date.
+msgid ""
+"Your certificate for %(course)s at {{ org_name }} expired on {{ expired_on "
+"}}."
+msgstr ""
+"Su certificado de %(course)s en {{ org_name }} caducó el {{ expired_on }}."
+
+msgid ""
+"Your graded attempts and scores for the course were reset, so you can start "
+"fresh. Pass the assessments again and a new certificate is issued "
+"automatically."
+msgstr ""
+"Se han restablecido sus intentos calificados y sus puntuaciones del curso "
+"para que pueda empezar de cero. Vuelva a aprobar las evaluaciones y se "
+"emitirá automáticamente un nuevo certificado."
+
+msgid ""
+"You got this email because you held a certificate for {{ course_name }}."
+msgstr ""
+"Recibe este correo electrónico porque tenía un certificado de {{ course_name"
+" }}."
+
+msgid "You're invited to join {{ display_name }}"
+msgstr "Le invitan a unirse a {{ display_name }}"
+
+#. Translators: %(name)s is the organisation's or course's name in bold.
+msgid ""
+"You're invited to join %(name)s on {{ platform_name }}. Accept the "
+"invitation to get started."
+msgstr ""
+"Le invitan a unirse a %(name)s en {{ platform_name }}. Acepte la invitación "
+"para empezar."
+
+#. Translators: %(address)s is the invited email address in bold.
+msgid ""
+"Sign in or register with %(address)s: the invitation is for this address."
+msgstr ""
+"Inicie sesión o regístrese con %(address)s: la invitación es para esta "
+"dirección."
+
+msgid ""
+"This link works until {{ expires_on }}. If a new invitation is sent, this "
+"one stops working."
+msgstr ""
+"Este enlace funciona hasta el {{ expires_on }}. Si se envía una nueva "
+"invitación, este dejará de funcionar."
+
+msgid ""
+"You got this email because someone at {{ org_name }} invited {{ "
+"email_address }}."
+msgstr ""
+"Recibe este correo electrónico porque alguien de {{ org_name }} invitó a {{ "
+"email_address }}."
+
+#. Translators: %(role)s is the role's name in bold.
+msgid ""
+"{{ inviter_name }} gave you the %(role)s role at {{ org_name }}. Sign in to "
+"get started."
+msgstr ""
+"{{ inviter_name }} le ha asignado el rol %(role)s en {{ org_name }}. Inicie "
+"sesión para empezar."
+
+msgid "You got this email because you were given a role at {{ org_name }}."
+msgstr ""
+"Recibe este correo electrónico porque se le asignó un rol en {{ org_name }}."
+
+#. Translators: %(workspace)s is the new organisation's name in bold.
+msgid ""
+"Thanks for signing up for the AI Course Creator free trial on {{ "
+"platform_name }}. Your workspace, %(workspace)s, is set up and your account "
+"is active. Sign in to start building courses with AI."
+msgstr ""
+"Gracias por registrarse en la prueba gratuita de AI Course Creator en {{ "
+"platform_name }}. Su espacio de trabajo, %(workspace)s, está configurado y "
+"su cuenta está activa. Inicie sesión para empezar a crear cursos con AI."
+
+#. Translators: %(address)s is the organisation's reply-to email address, as a
+#. link.
+msgid "Questions? Write to %(address)s."
+msgstr "¿Tiene preguntas? Escriba a %(address)s."
+
+msgid ""
+"You got this email because you signed up for a free trial with {{ "
+"email_address }}."
+msgstr ""
+"Recibe este correo electrónico porque se registró en una prueba gratuita con"
+" {{ email_address }}."
+
+msgid ""
+"The password for your {{ platform_name }} account ({{ email_address }}) was "
+"changed on {{ changed_at }}."
+msgstr ""
+"La contraseña de su cuenta de {{ platform_name }} ({{ email_address }}) se "
+"cambió el {{ changed_at }}."
+
+#. Translators: %(not_you)s is "Wasn't you?" in bold; %(address)s is the
+#. reply-to email address, as a link.
+msgid ""
+"%(not_you)s Reset your password now from the sign-in page and contact "
+"%(address)s."
+msgstr ""
+"%(not_you)s Restablezca su contraseña ahora desde la página de inicio de "
+"sesión y póngase en contacto con %(address)s."
+
+msgid "Wasn't you?"
+msgstr "¿No ha sido usted?"
+
+msgid ""
+"You got this email because the password of your account changed. It can't be"
+" switched off."
+msgstr ""
+"Recibe este correo electrónico porque ha cambiado la contraseña de su "
+"cuenta. No se puede desactivar."
+
+msgid "{{ raised_by }} raised a ticket."
+msgstr "{{ raised_by }} ha abierto un ticket."
+
+msgid "Type"
+msgstr "Tipo"
+
+msgid ""
+"You got this email because you get support ticket alerts at {{ org_name }}."
+msgstr ""
+"Recibe este correo electrónico porque recibe alertas de tickets de soporte "
+"en {{ org_name }}."
+
+msgid "Claim your place at {{ org_name }}"
+msgstr "Solicite su plaza en {{ org_name }}"
+
+msgid "Your place is waiting:"
+msgstr "Su plaza le espera:"
+
+#. Translators: %(address)s is the buyer's email address in bold.
+msgid ""
+"Sign in or create an account with %(address)s, then claim your place: it is "
+"for this address."
+msgstr ""
+"Inicie sesión o cree una cuenta con %(address)s y, después, solicite su "
+"plaza: es para esta dirección."
+
+msgid ""
+"This link works until {{ expires_on }}. If you didn't ask for this, ignore "
+"this email."
+msgstr ""
+"Este enlace funciona hasta el {{ expires_on }}. Si no lo ha solicitado, "
+"ignore este correo electrónico."
+
+msgid ""
+"You got this email because a place at {{ org_name }} was requested for {{ "
+"email_address }}."
+msgstr ""
+"Recibe este correo electrónico porque se solicitó una plaza en {{ org_name "
+"}} para {{ email_address }}."
+
+msgid "Thanks for your purchase"
+msgstr "Gracias por su compra"
+
+msgid "Hi {{ first_name }},"
+msgstr "Hola, {{ first_name }}:"
+
+msgid ""
+"Your payment to {{ org_name }} went through. Here is your receipt for order "
+"{{ order_number }}, paid on {{ order_date }}."
+msgstr ""
+"Se ha procesado su pago a {{ org_name }}. Este es su recibo del pedido {{ "
+"order_number }}, pagado el {{ order_date }}."
+
+msgid "Paid by {{ payment_method }}. You can start learning now."
+msgstr "Pagado con {{ payment_method }}. Ya puede empezar a aprender."
+
+msgid ""
+"You got this email because you bought {{ items }} on {{ platform_name }}."
+msgstr ""
+"Recibe este correo electrónico porque compró {{ items }} en {{ platform_name"
+" }}."
+
+#. Translators: {{ reason }} is the payment provider's sentence; %(amount)s is
+#. the currency and amount in
+#. bold; %(plan)s is the plan's name in bold.
+msgid ""
+"{{ reason }} We tried to take %(amount)s for %(plan)s and the payment didn't"
+" go through, so your access has ended."
+msgstr ""
+"{{ reason }} Intentamos cobrar %(amount)s por %(plan)s y el pago no se pudo "
+"realizar, por lo que su acceso ha terminado."
+
+msgid "Update your payment method to subscribe again."
+msgstr "Actualice su método de pago para volver a suscribirse."
+
+msgid ""
+"You got this email because you subscribe to {{ plan_name }} with {{ "
+"email_address }}. It can't be switched off."
+msgstr ""
+"Recibe este correo electrónico porque está suscrito a {{ plan_name }} con {{"
+" email_address }}. No se puede desactivar."
+
+#. Translators: %(name)s is the course's name in bold.
+msgid ""
+"{{ org_name }} enrolled you in %(name)s on {{ platform_name }}. Complete "
+"your registration to open it."
+msgstr ""
+"{{ org_name }} le ha inscrito en %(name)s en {{ platform_name }}. Complete "
+"su registro para abrirlo."
+
+#. Translators: %(address)s is the enrolled email address in bold.
+msgid "Register with %(address)s: the place is for this address."
+msgstr "Regístrese con %(address)s: la plaza es para esta dirección."
+
+msgid ""
+"You got this email because {{ org_name }} enrolled {{ email_address }}."
+msgstr ""
+"Recibe este correo electrónico porque {{ org_name }} inscribió a {{ "
+"email_address }}."
+
+msgid "You got this email because {{ org_name }} sent it to you."
+msgstr ""
+"Recibe este correo electrónico porque {{ org_name }} se lo ha enviado."
+
+msgid "Mobile app crash reported"
+msgstr "Fallo notificado en la aplicación móvil"
+
+msgid "The {{ platform_name }} mobile app reported a crash."
+msgstr "La aplicación móvil de {{ platform_name }} ha notificado un fallo."
+
+msgid ""
+"You got this email because it is the crash report address of {{ "
+"platform_name }}."
+msgstr ""
+"Recibe este correo electrónico porque es la dirección de informes de fallos "
+"de {{ platform_name }}."
+
+msgid ""
+"Your order for {{ order_summary }} is confirmed, and {{ tenant_name }} now "
+"has an account at {{ org_name }}. Set up your sign-in to manage it."
+msgstr ""
+"Su pedido de {{ order_summary }} está confirmado y {{ tenant_name }} ya "
+"tiene una cuenta en {{ org_name }}. Configure su inicio de sesión para "
+"gestionarla."
+
+msgid ""
+"Once {{ org_name }} activates the account, you can invite your people, book "
+"their sessions and follow their progress."
+msgstr ""
+"Cuando {{ org_name }} active la cuenta, podrá invitar a su personal, "
+"reservar sus sesiones y seguir su progreso."
+
+msgid "This link works until {{ expires_on }}."
+msgstr "Este enlace funciona hasta el {{ expires_on }}."
+
+msgid "You got this email because you bought seats for {{ tenant_name }}."
+msgstr ""
+"Recibe este correo electrónico porque compró plazas para {{ tenant_name }}."
+
+#. Translators: {{ tenant_possessive }} is the company's name, possessive
+#. ("Bolt Freight's"). You may
+#. write {{ tenant_name }} instead, the name alone ("Bolt Freight"), where
+#. your language puts it another way.
+msgid ""
+"{{ org_name }} recorded {{ tenant_possessive }} order for {{ order_summary "
+"}}. We'll email the invoice to you."
+msgstr ""
+"{{ org_name }} ha registrado el pedido de {{ tenant_possessive }} de {{ "
+"order_summary }}. Le enviaremos la factura por correo electrónico."
+
+msgid ""
+"Set up your sign-in to manage the seats. Once {{ org_name }} activates the "
+"account, you can invite your people and book their sessions."
+msgstr ""
+"Configure su inicio de sesión para gestionar las plazas. Cuando {{ org_name "
+"}} active la cuenta, podrá invitar a su personal y reservar sus sesiones."
+
+msgid ""
+"You got this email because {{ org_name }} recorded an order for {{ "
+"tenant_name }}."
+msgstr ""
+"Recibe este correo electrónico porque {{ org_name }} registró un pedido para"
+" {{ tenant_name }}."
+
+#. Translators: {{ tenant_possessive }} is the company's name, possessive
+#. ("Bolt Freight's"). You may
+#. write {{ tenant_name }} instead, the name alone ("Bolt Freight"), where
+#. your language puts it another way.
+msgid ""
+"{{ inviter_name }} invited you to manage {{ tenant_possessive }} account at "
+"{{ org_name }} with them. Set up your sign-in to invite people, book their "
+"sessions and follow their progress."
+msgstr ""
+"{{ inviter_name }} le ha invitado a gestionar con él la cuenta de {{ "
+"tenant_possessive }} en {{ org_name }}. Configure su inicio de sesión para "
+"invitar a personas, reservar sus sesiones y seguir su progreso."
+
+msgid ""
+"You got this email because {{ inviter_name }} invited you to manage {{ "
+"tenant_name }}."
+msgstr ""
+"Recibe este correo electrónico porque {{ inviter_name }} le invitó a "
+"gestionar {{ tenant_name }}."
+
+msgid ""
+"{{ org_name }} activated your account. You can have up to {{ learner_limit "
+"}} people learning at once."
+msgstr ""
+"{{ org_name }} ha activado su cuenta. Puede tener hasta {{ learner_limit }} "
+"personas aprendiendo a la vez."
+
+#. Translators: {{ seats_summary }} is a whole sentence, such as "Your 20
+#. seats in Fire safety are ready
+#. to give out."
+msgid "{{ seats_summary }} Invite your people, then book their sessions."
+msgstr ""
+"{{ seats_summary }} Invite a su personal y, después, reserve sus sesiones."
+
+msgid "You got this email because you manage {{ tenant_name }}."
+msgstr "Recibe este correo electrónico porque gestiona {{ tenant_name }}."
+
+#. Translators: {{ tenant_possessive }} is the company's name, possessive
+#. ("Bolt Freight's"). You may
+#. write {{ tenant_name }} instead, the name alone ("Bolt Freight"), where
+#. your language puts it another way.
+msgid ""
+"{{ org_name }} renewed {{ tenant_possessive }} contract until {{ "
+"renewed_until }} with a learner limit of {{ learner_limit }}. You have {{ "
+"active_learners }} people."
+msgstr ""
+"{{ org_name }} ha renovado el contrato de {{ tenant_possessive }} hasta el "
+"{{ renewed_until }} con un límite de {{ learner_limit }} estudiantes. Tiene "
+"{{ active_learners }} personas."
+
+msgid ""
+"Choose the {{ learner_limit }} who keep access before {{ choose_by }}. Until"
+" you choose, everyone stays as they are now."
+msgstr ""
+"Elija a los {{ learner_limit }} que conservarán el acceso antes del {{ "
+"choose_by }}. Hasta que elija, todos seguirán como están ahora."
+
+msgid "your program"
+msgstr "su programa"
+
+msgid "Your enrollment in %(title)s was updated"
+msgstr "Se ha actualizado su inscripción en %(title)s"
+
+msgid "You're enrolled in %(title)s"
+msgstr "Se ha inscrito en %(title)s"
+
+msgid "Your access to %(title)s changed. Open the course to see what's new."
+msgstr ""
+"Su acceso a %(title)s ha cambiado. Abra el curso para ver las novedades."
+
+msgid "You have a place in %(title)s. Open it from My learning."
+msgstr "Tiene una plaza en %(title)s. Ábralo desde Mi aprendizaje."
+
+msgid "Go to my program"
+msgstr "Ir a mi programa"
+
+msgid "You've earned your %(title)s certificate"
+msgstr "Ha obtenido su certificado de %(title)s"
+
+msgid "Congratulations! You passed %(title)s and earned its certificate."
+msgstr "¡Enhorabuena! Ha aprobado %(title)s y ha obtenido su certificado."
+
+msgid "You got this email because of your notification settings."
+msgstr ""
+"Recibe este correo electrónico por su configuración de notificaciones."
+
+msgid "A learner"
+msgstr "Un estudiante"
+
+msgid "%(who)s completed %(title)s on a seat from %(tenant)s."
+msgstr "%(who)s ha completado %(title)s con una plaza de %(tenant)s."
+
+msgid "%(who)s passed %(title)s on a seat from %(tenant)s."
+msgstr "%(who)s ha aprobado %(title)s con una plaza de %(tenant)s."
+
+#. Translators: %(who)s is a learner's name; %(title)s a course or program.
+msgid "%(who)s finished %(title)s"
+msgstr "%(who)s ha terminado %(title)s"
+
+msgid "%(email)s hasn't accepted your invitation"
+msgstr "%(email)s no ha aceptado su invitación"
+
+#. Translators: %(day)s is the date the invitation was sent.
+msgid ""
+"You invited %(email)s to learn with %(tenant)s on %(day)s, and they haven't "
+"accepted yet. You can send the invitation again from People."
+msgstr ""
+"Invitó a %(email)s a aprender con %(tenant)s el %(day)s y aún no ha "
+"aceptado. Puede volver a enviar la invitación desde Personas."
+
+msgid "a course"
+msgstr "un curso"
+
+#. Translators: %(seats)s is a number of seats ("3 seats"); %(where)s what
+#. they are for.
+msgid "%(seats)s in %(where)s not given out yet"
+msgstr "%(seats)s en %(where)s aún sin asignar"
+
+msgid ""
+"%(tenant)s still has %(seats)s to give out in %(where)s. Enrollment closes "
+"on %(day)s; seats not given by then can't be used."
+msgstr ""
+"%(tenant)s aún tiene %(seats)s por asignar en %(where)s. La inscripción se "
+"cierra el %(day)s; las plazas no asignadas para entonces no se podrán usar."
+
+msgid "Order %(number)s is paid"
+msgstr "El pedido %(number)s está pagado"
+
+#. Translators: %(total)s is money with its currency; %(tenant)s a company.
+msgid ""
+"We received %(total)s for %(tenant)s's order %(number)s. Its seats are ready"
+" to give out."
+msgstr ""
+"Hemos recibido %(total)s por el pedido %(number)s de %(tenant)s. Sus plazas "
+"están listas para asignar."
+
+msgid "%(tenant)s is ready"
+msgstr "%(tenant)s está lista"
+
+#. Translators: %(limit)s is a number of people.
+msgid ""
+"Your account is active. You can have up to %(limit)s people learning at "
+"once."
+msgstr ""
+"Su cuenta está activa. Puede tener hasta %(limit)s personas aprendiendo a la"
+" vez."
+
+#. Translators: %(tenant)s is a company's name; %(limit)s is a number of
+#. people.
+msgid ""
+"%(tenant)s's contract was renewed with a learner limit of %(limit)s. Choose "
+"who keeps access."
+msgstr ""
+"El contrato de %(tenant)s se ha renovado con un límite de %(limit)s "
+"estudiantes. Elija quién conserva el acceso."
+
+#. Translators: %(seats)s lists the seats, such as "20 seats in Fire safety
+#. and 5 seats in First aid".
+msgid "Your %(seats)s is ready to give out."
+msgid_plural "Your %(seats)s are ready to give out."
+msgstr[0] "Su %(seats)s está lista para asignar."
+msgstr[1] "Sus %(seats)s están listas para asignar."
+
+msgid "Grades"
+msgstr "Notas"
+
+msgid "Enrollments"
+msgstr "Inscripciones"
+
+msgid "Certificates"
+msgstr "Certificados"
+
+msgid "Session attendance"
+msgstr "Asistencia a la sesión"
+
+msgid "Learner progress"
+msgstr "Progreso del estudiante"
+
+msgid "Every answer"
+msgstr "Cada respuesta"
+
+msgid "Submissions"
+msgstr "Entregas"
+
+msgid "Anonymous IDs"
+msgstr "ID anónimos"
+
+msgid "Video views"
+msgstr "Visualizaciones de vídeo"
+
+msgid "Assessment scores"
+msgstr "Puntuaciones de la evaluación"
+
+msgid "Invited, not enrolled"
+msgstr "Invitado, sin inscribir"
+
+#. Translators: {report} is the report's name.
+msgid "Your {report} report is ready"
+msgstr "Su informe {report} está listo"
+
+#. Translators: {report} is the report's name.
+msgid "The {report} report for this course is ready to download."
+msgstr "El informe {report} de este curso está listo para descargar."
+
+msgid "Download the report"
+msgstr "Descargar el informe"
+
+msgid "Your data is ready to download"
+msgstr "Sus datos están listos para descargar"
+
+#. Translators: {days} is how many days the download link works.
+msgid ""
+"Your data is ready: one zip file of everything Blend-ed keeps. The link "
+"works for {days} days, and only for you."
+msgstr ""
+"Sus datos están listos: un archivo zip con todo lo que Blend-ed conserva. El"
+" enlace funciona durante {days} días y solo para usted."
+
+#. Translators: the title when the person whose data was exported no longer
+#. has an account.
+msgid "this person's data is ready to download"
+msgstr "Los datos de esta persona están listos para descargar"
+
+#. Translators: the message when the person whose data was exported no longer
+#. has an account; {days} is
+#. how many days the link works.
+msgid ""
+"this person's data is ready: one zip file of everything Blend-ed keeps. The "
+"link works for {days} days, and only for you."
+msgstr ""
+"Los datos de esta persona están listos: un archivo zip con todo lo que "
+"Blend-ed conserva. El enlace funciona durante {days} días y solo para usted."
+
+#. Translators: {name} is the person whose data was exported.
+msgid "{name}'s data is ready to download"
+msgstr "Los datos de {name} están listos para descargar"
+
+#. Translators: {name} is the person whose data was exported; {days} how many
+#. days the link works.
+msgid ""
+"{name}'s data is ready: one zip file of everything Blend-ed keeps. The link "
+"works for {days} days, and only for you."
+msgstr ""
+"Los datos de {name} están listos: un archivo zip con todo lo que Blend-ed "
+"conserva. El enlace funciona durante {days} días y solo para usted."
+
+msgid "Download the file"
+msgstr "Descargar el archivo"
+
+msgid "Your full export is ready to download"
+msgstr "Su exportación completa está lista para descargar"
+
+#. Translators: {days} is how many days the download link works.
+msgid ""
+"Your full export is ready: one zip file of your platform's records. The link"
+" works for {days} days, and only for you."
+msgstr ""
+"Su exportación completa está lista: un archivo zip con los registros de su "
+"plataforma. El enlace funciona durante {days} días y solo para usted."
+
+#. Translators: {report} is the report's name; {start} and {end} are dates
+#. (YYYY-MM-DD).
+msgid "The {report} report for {start} to {end} is ready to download."
+msgstr "El informe {report} del {start} al {end} está listo para descargar."
+
+#. Translators: {end} is the week's last day ("19 November 2026"); the others
+#. are counts.
+msgid ""
+"Week to {end}. Seats in use: {assigned} of {funded}. New seats: {new_seats}."
+" Results recorded: {results}. Certificates earned: {certificates}."
+msgstr ""
+"Semana hasta el {end}. Plazas en uso: {assigned} de {funded}. Plazas nuevas:"
+" {new_seats}. Resultados registrados: {results}. Certificados obtenidos: "
+"{certificates}."
+
+#. Translators: {tenant} is the company's name.
+msgid "{tenant}: your week in learning"
+msgstr "{tenant}: su semana de aprendizaje"
+
+#. Translators: {name} is the instructor's name; {title} is the session's
+#. name.
+msgid "{name} is away for {title}"
+msgstr "{name} está ausente para {title}"
+
+#. Translators: {title} is the session's name, {when} the date's start and
+#. {name} the instructor's name.
+msgid ""
+"{title} on {when} falls in {name}'s time off. They are still its instructor "
+"until you change it."
+msgstr ""
+"{title} del {when} coincide con el tiempo libre de {name}. Sigue siendo su "
+"instructor hasta que usted lo cambie."
+
+#. Translators: {title} is the session's name; the instructor's name is not
+#. known.
+msgid "An instructor is away for {title}"
+msgstr "Un instructor está ausente para {title}"
+
+#. Translators: {title} is the session's name and {when} the date's start; the
+#. instructor's name is not
+#. known.
+msgid ""
+"{title} on {when} falls in the instructor's time off. They are still its "
+"instructor until you change it."
+msgstr ""
+"{title} del {when} coincide con el tiempo libre del instructor. Sigue siendo"
+" su instructor hasta que usted lo cambie."
 
 msgid "{name}, you earned a Session certificate!"
+msgstr "{name}, ¡ha obtenido un certificado de sesión!"
+
+#. Translators: {part} is the date's number within the session; {title} is the
+#. session's name.
+msgid "Part {part} of {title}"
+msgstr "Parte {part} de {title}"
+
+#. Translators: {by} is who moved the date; {title} the date's name; {when}
+#. the new date and time, {was}
+#. the old one.
+msgid "{by} moved {title} to {when} (it was {was})."
+msgstr "{by} ha cambiado {title} a {when} (antes: {was})."
+
+#. Translators: the whole message when no one is named; English leaves out who
+#. did it. Write it as a
+#. complete sentence ("{title} was moved to …"). {when} is the new date and
+#. time, {was} the old one.
+msgid "moved {title} to {when} (it was {was})."
+msgstr "ha cambiado {title} a {when} (antes: {was})."
+
+msgid "{title} moved"
+msgstr "{title} cambiada"
+
+#. Translators: {by} is who cancelled the date; {title} the date's name; {was}
+#. the date and time it had.
+msgid "{by} cancelled {title}, {was}."
+msgstr "{by} ha cancelado {title}, {was}."
+
+#. Translators: the whole message when no one is named; English leaves out who
+#. did it. Write it as a
+#. complete sentence ("{title}, {was}, was cancelled."). {was} is the date and
+#. time it had.
+msgid "cancelled {title}, {was}."
+msgstr "ha cancelado {title}, {was}."
+
+msgid "{title} cancelled"
+msgstr "{title} cancelada"
+
+#. Translators: {by} is who added the instructor; {title} the date's name;
+#. {when} its date and time.
+msgid "{by} added you to {title}, {when}."
+msgstr "{by} le ha añadido a {title}, {when}."
+
+#. Translators: the whole message when no one is named; English leaves out who
+#. did it. Write it as a
+#. complete sentence ("You were added to {title}, {when}."). {when} is the
+#. date and time.
+msgid "added you to {title}, {when}."
+msgstr "le ha añadido a {title}, {when}."
+
+msgid "You're teaching {title}"
+msgstr "Imparte {title}"
+
+#. Translators: {by} is who changed the date's instructors; {title} the date's
+#. name; {was} its date and time.
+msgid "{by} changed its instructors; {title} on {was} is not yours any more."
 msgstr ""
+"{by} ha cambiado sus instructores; {title} del {was} ya no le corresponde."
+
+#. Translators: the whole message when no one is named; English leaves out who
+#. did it. Write it as a complete
+#. sentence ("Its instructors changed; …"). {was} is the date and time.
+msgid "changed its instructors; {title} on {was} is not yours any more."
+msgstr "ha cambiado sus instructores; {title} del {was} ya no le corresponde."
+
+msgid "You're no longer teaching {title}"
+msgstr "Ya no imparte {title}"
+
+msgid "Confirm attendance for {title}"
+msgstr "Confirmar la asistencia a {title}"
+
+msgid "{title} has ended. Confirm who attended."
+msgstr "{title} ha terminado. Confirme quién asistió."
+
+#. Translators: {title} is the session's name; {minutes} how many minutes
+#. until it starts. English keeps
+#. "minutes" even for 1.
+msgid "{title} starts in {minutes} minutes"
+msgid_plural "{title} starts in {minutes} minutes"
+msgstr[0] "{title} empieza en {minutes} minutos"
+msgstr[1] "{title} empieza en {minutes} minutos"
+
+#. Translators: {title} is the session's name; {when} its start date and time.
+msgid "{title} starts at {when}."
+msgstr "{title} empieza el {when}."
+
+msgid "Tomorrow: {count} session"
+msgid_plural "Tomorrow: {count} sessions"
+msgstr[0] "Mañana: {count} sesión"
+msgstr[1] "Mañana: {count} sesiones"
+
+msgid "{count} new submission to review"
+msgid_plural "{count} new submissions to review"
+msgstr[0] "{count} entrega nueva para revisar"
+msgstr[1] "{count} entregas nuevas para revisar"
+
+#. Translators: {batch} is the batch's name; {count} how many submissions wait
+#. for a grade.
+msgid "{batch}: {count} submission waiting for a grade."
+msgid_plural "{batch}: {count} submissions waiting for a grade."
+msgstr[0] "{batch}: {count} entrega pendiente de calificar."
+msgstr[1] "{batch}: {count} entregas pendientes de calificar."
+
+msgid "Weekly review due for {batches}"
+msgstr "Revisión semanal pendiente de {batches}"
+
+msgid "below the passing score"
+msgstr "por debajo de la nota de aprobado"
+
+msgid "not active for 14 days"
+msgstr "sin actividad durante 14 días"
+
+msgid "not active for 7 days"
+msgstr "sin actividad durante 7 días"
+
+msgid "behind on progress"
+msgstr "con retraso en el progreso"
+
+msgid "{name} needs help"
+msgstr "{name} necesita ayuda"
+
+#. Translators: {name} is the learner's name, {batch} the batch's and {why}
+#. the reasons,
+#. comma-separated.
+msgid "{name} in {batch}: {why}."
+msgstr "{name} en {batch}: {why}."
+
+msgid "{title}: your date has moved"
+msgstr "{title}: su fecha ha cambiado"
+
+msgid "Your date of {title} now starts at {when}."
+msgstr "Su fecha de {title} ahora empieza el {when}."
+
+msgid "{title}: your date is cancelled"
+msgstr "{title}: su fecha se ha cancelado"
+
+msgid ""
+"The date of {title} you had a place on is cancelled. You can book another "
+"date."
+msgstr ""
+"Se ha cancelado la fecha de {title} en la que tenía plaza. Puede reservar "
+"otra fecha."
+
+msgid "{title}: you have a place"
+msgstr "{title}: tiene una plaza"
+
+msgid "A place freed on {title} and you are booked for {when}."
+msgstr "Se ha liberado una plaza en {title} y tiene reserva para {when}."
+
+#. Translators: {title} is the session's name; {count} how many hours until it
+#. starts.
+msgid "{title} starts in {count} hour"
+msgid_plural "{title} starts in {count} hours"
+msgstr[0] "{title} empieza en {count} hora"
+msgstr[1] "{title} empieza en {count} horas"
+
+#. Translators: {title} is the session's name.
+msgid "{title} starts in 1 hour"
+msgstr "{title} empieza en 1 hora"
+
+#. Translators: {title} is the session's name.
+msgid "{title} starts in a few minutes"
+msgstr "{title} empieza en unos minutos"
+
+#. Translators: {title} is the session's name; {count} how many minutes until
+#. it starts (5 or more).
+msgid "{title} starts in {count} minute"
+msgid_plural "{title} starts in {count} minutes"
+msgstr[0] "{title} empieza en {count} minuto"
+msgstr[1] "{title} empieza en {count} minutos"
+
+#. Translators: {title} is the session's name; {when} is its start date and
+#. time.
+msgid "Your booked date of {title} starts at {when}."
+msgstr "Su fecha reservada de {title} empieza el {when}."
+
+#. Translators: {name} is who raised it, {type} the ticket's type code (issue,
+#. bug, feature, other) and {title}
+#. its title.
+msgid "{name} raised a new {type} ticket: {title}"
+msgstr "{name} ha abierto un nuevo ticket de tipo {type}: {title}"
+
+msgid "New support ticket"
+msgstr "Nuevo ticket de soporte"
+
+msgid "Your support update"
+msgstr "Novedades de su solicitud de soporte"
+
+msgid "Your ticket {title} has been closed."
+msgstr "Su ticket {title} se ha cerrado."
+
+msgid "Your ticket {title} has been reopened."
+msgstr "Su ticket {title} se ha reabierto."
+
+msgid "Ticket assigned to you"
+msgstr "Ticket asignado a usted"
+
+msgid "You have been assigned the ticket {title}."
+msgstr "Se le ha asignado el ticket {title}."
+
+#. Translators: {name} is who commented, {title} the ticket's title and
+#. {comment} their words.
+msgid "{name} commented on your ticket {title}: {comment}"
+msgstr "{name} ha comentado en su ticket {title}: {comment}"
+
+msgid "New comment on your ticket"
+msgstr "Nuevo comentario en su ticket"

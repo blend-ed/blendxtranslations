@@ -1,0 +1,416 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: blendxai\n"
+"Report-Msgid-Bugs-To: \n"
+"Language: hi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Organisation not found"
+msgstr "संगठन नहीं मिला"
+
+msgid "You do not have access to this organisation."
+msgstr "आपके पास इस संगठन की पहुँच नहीं है।"
+
+msgid ""
+"AI usage has been disabled for your account. Please contact your "
+"organisation admin."
+msgstr ""
+"आपके खाते के लिए AI उपयोग अक्षम कर दिया गया है। कृपया अपने संगठन व्यवस्थापक "
+"से संपर्क करें।"
+
+msgid ""
+"Your organisation has not configured AI features yet. Please contact your "
+"admin."
+msgstr ""
+"आपके संगठन ने अभी तक AI सुविधाएँ कॉन्फ़िगर नहीं की हैं। कृपया अपने "
+"व्यवस्थापक से संपर्क करें।"
+
+msgid "The AI produced invalid problem content: {error}"
+msgstr "AI ने अमान्य समस्या सामग्री बनाई: {error}"
+
+msgid "Failed to generate component: {error}"
+msgstr "कंपोनेंट जनरेट करने में विफल: {error}"
+
+msgid "Failed to generate image: {error}"
+msgstr "छवि जनरेट करने में विफल: {error}"
+
+msgid "The AI could not generate an image. Try rephrasing your description."
+msgstr "AI छवि जनरेट नहीं कर सका। अपने विवरण को दूसरे शब्दों में लिखकर देखें।"
+
+msgid "Invalid parent_locator."
+msgstr "अमान्य parent_locator।"
+
+msgid "You do not have permission to edit this course."
+msgstr "आपके पास इस पाठ्यक्रम को संपादित करने की अनुमति नहीं है।"
+
+msgid "AI usage has been disabled for your account."
+msgstr "आपके खाते के लिए AI उपयोग अक्षम कर दिया गया है।"
+
+msgid ""
+"Writing this component needs library.edit and library.publish on your "
+"organisation, besides course.edit on the course."
+msgstr ""
+"इस कंपोनेंट को लिखने के लिए पाठ्यक्रम पर course.edit के अलावा आपके संगठन पर "
+"library.edit और library.publish आवश्यक हैं।"
+
+msgid "Failed to create component: {error}"
+msgstr "कंपोनेंट बनाने में विफल: {error}"
+
+msgid "This course is not in your organisation."
+msgstr "यह पाठ्यक्रम आपके संगठन में नहीं है।"
+
+msgid "course_id is required."
+msgstr "course_id आवश्यक है।"
+
+msgid "Invalid course_id."
+msgstr "अमान्य course_id।"
+
+msgid ""
+"Your organisation has not configured AI assistant features yet. Please "
+"contact your admin."
+msgstr ""
+"आपके संगठन ने अभी तक AI सहायक सुविधाएँ कॉन्फ़िगर नहीं की हैं। कृपया अपने "
+"व्यवस्थापक से संपर्क करें।"
+
+msgid "Failed to read course content: {error}"
+msgstr "पाठ्यक्रम सामग्री पढ़ने में विफल: {error}"
+
+msgid "Failed to generate descriptions: {error}"
+msgstr "विवरण जनरेट करने में विफल: {error}"
+
+msgid "AI service not configured for this organization"
+msgstr "इस संगठन के लिए AI सेवा कॉन्फ़िगर नहीं है"
+
+msgid "Invalid request data: {error}"
+msgstr "अमान्य अनुरोध डेटा: {error}"
+
+msgid "Problem generation failed: {error}"
+msgstr "समस्या जनरेशन विफल: {error}"
+
+msgid "Problem enhancement failed: {error}"
+msgstr "समस्या सुधार विफल: {error}"
+
+msgid "Problem validation failed: {error}"
+msgstr "समस्या सत्यापन विफल: {error}"
+
+msgid "Text content generation failed: {error}"
+msgstr "टेक्स्ट सामग्री जनरेशन विफल: {error}"
+
+msgid "Text content enhancement failed: {error}"
+msgstr "टेक्स्ट सामग्री सुधार विफल: {error}"
+
+msgid "Content analysis failed: {error}"
+msgstr "सामग्री विश्लेषण विफल: {error}"
+
+msgid "Assessment generation failed: {error}"
+msgstr "आकलन जनरेशन विफल: {error}"
+
+msgid "Accessibility optimization failed: {error}"
+msgstr "सुगम्यता अनुकूलन विफल: {error}"
+
+msgid "Chat processing failed: {error}"
+msgstr "चैट प्रोसेसिंग विफल: {error}"
+
+msgid "Invalid course_id: {course_id}"
+msgstr "अमान्य course_id: {course_id}"
+
+msgid "Unsupported target_language: {target_language}"
+msgstr "असमर्थित target_language: {target_language}"
+
+msgid "Task not found."
+msgstr "कार्य नहीं मिला।"
+
+msgid "AI features are disabled for this user"
+msgstr "इस उपयोगकर्ता के लिए AI सुविधाएँ अक्षम हैं"
+
+msgid "Query is required"
+msgstr "क्वेरी आवश्यक है"
+
+msgid "Error occurred while converting query to vector"
+msgstr "क्वेरी को वेक्टर में बदलते समय त्रुटि हुई"
+
+msgid "Error occurred while getting similarity search course content"
+msgstr "पाठ्यक्रम सामग्री की समानता खोज प्राप्त करते समय त्रुटि हुई"
+
+msgid "Failed to generate OLX"
+msgstr "OLX जनरेट करने में विफल"
+
+msgid ""
+"Please describe the skill set you want to generate (at least "
+"{min_prompt_length} characters)."
+msgstr ""
+"कृपया वह कौशल सेट बताएँ जिसे आप जनरेट करना चाहते हैं (कम से कम "
+"{min_prompt_length} वर्ण)।"
+
+msgid "Prompt is too long (max {max_prompt_length} characters)."
+msgstr "प्रॉम्प्ट बहुत लंबा है (अधिकतम {max_prompt_length} वर्ण)।"
+
+msgid "Failed to generate taxonomy: {error}"
+msgstr "टैक्सोनॉमी जनरेट करने में विफल: {error}"
+
+msgid ""
+"Your Organization has not setup AI Assistant Features Correctly. Please "
+"contact the admin."
+msgstr ""
+"आपके संगठन ने AI सहायक सुविधाएँ सही ढंग से सेट नहीं की हैं। कृपया व्यवस्थापक"
+" से संपर्क करें।"
+
+msgid "Message is required"
+msgstr "संदेश आवश्यक है"
+
+msgid "Course ID is required"
+msgstr "पाठ्यक्रम ID आवश्यक है"
+
+msgid "Course ID must be in format 'course-v1:org+course+run'"
+msgstr "पाठ्यक्रम ID 'course-v1:org+course+run' फ़ॉर्मैट में होनी चाहिए"
+
+msgid ""
+"You don't have permission to edit courses. Please contact your "
+"administrator."
+msgstr ""
+"आपके पास पाठ्यक्रम संपादित करने की अनुमति नहीं है। कृपया अपने व्यवस्थापक से "
+"संपर्क करें।"
+
+msgid "An error occurred while processing your request: {error}"
+msgstr "आपके अनुरोध को संसाधित करते समय एक त्रुटि हुई: {error}"
+
+msgid "Authentication credentials were not provided."
+msgstr "प्रमाणीकरण क्रेडेंशियल प्रदान नहीं किए गए।"
+
+msgid "You do not have permission to perform this action."
+msgstr "आपके पास यह कार्य करने की अनुमति नहीं है।"
+
+msgid "organisation_id is required"
+msgstr "organisation_id आवश्यक है"
+
+msgid "Unknown organisation"
+msgstr "अज्ञात संगठन"
+
+msgid "credits_allocated must be an integer"
+msgstr "credits_allocated एक पूर्णांक होना चाहिए"
+
+msgid "credits_allocated must be >= 0"
+msgstr "credits_allocated >= 0 होना चाहिए"
+
+msgid ""
+"Allocation exceeds the platform AI credit limit. Only {remaining} credit(s) "
+"remain available."
+msgstr ""
+"आवंटन प्लेटफ़ॉर्म की AI क्रेडिट सीमा से अधिक है। केवल {remaining} क्रेडिट "
+"उपलब्ध हैं।"
+
+msgid "Unknown tenant"
+msgstr "अज्ञात क्लाइंट संगठन"
+
+msgid "credits_allocated must be an integer or null"
+msgstr "credits_allocated एक पूर्णांक या null होना चाहिए"
+
+msgid ""
+"The shares would exceed the organisation's AI credits. Only {remaining} "
+"credit(s) remain for this tenant."
+msgstr ""
+"ये हिस्से संगठन के AI क्रेडिट से अधिक हो जाएँगे। इस क्लाइंट संगठन के लिए "
+"केवल {remaining} क्रेडिट शेष हैं।"
+
+msgid "The organisation has no AI credit pool yet"
+msgstr "संगठन के पास अभी तक कोई AI क्रेडिट पूल नहीं है"
+
+msgid ""
+"AI features have been disabled for your organisation. Please contact your "
+"organisation admin."
+msgstr ""
+"आपके संगठन के लिए AI सुविधाएँ अक्षम कर दी गई हैं। कृपया अपने संगठन "
+"व्यवस्थापक से संपर्क करें।"
+
+msgid "Flashcard not found."
+msgstr "फ़्लैशकार्ड नहीं मिला।"
+
+msgid "Could not load review state"
+msgstr "समीक्षा स्थिति लोड नहीं हो सकी"
+
+msgid "Could not save review"
+msgstr "समीक्षा सहेजी नहीं जा सकी"
+
+msgid "Could not load due flashcards"
+msgstr "देय फ़्लैशकार्ड लोड नहीं हो सके"
+
+msgid "Invalid request data"
+msgstr "अमान्य अनुरोध डेटा"
+
+msgid "Tag with ID {skill_taxonomy_id} not found"
+msgstr "ID {skill_taxonomy_id} वाला टैग नहीं मिला"
+
+msgid "Invalid course ID format: {course_id}"
+msgstr "अमान्य पाठ्यक्रम ID फ़ॉर्मैट: {course_id}"
+
+msgid "User cannot modify courses outside their organization: {org_name}"
+msgstr ""
+"उपयोगकर्ता अपने संगठन के बाहर के पाठ्यक्रम संशोधित नहीं कर सकता: {org_name}"
+
+msgid ""
+"Could not find first unit in course. Please ensure the course has at least "
+"one section, subsection, and unit."
+msgstr ""
+"पाठ्यक्रम में पहली इकाई नहीं मिली। कृपया सुनिश्चित करें कि पाठ्यक्रम में कम "
+"से कम एक अनुभाग, उपखंड और इकाई हो।"
+
+msgid "Failed to create component block"
+msgstr "कंपोनेंट ब्लॉक बनाने में विफल"
+
+msgid "Successfully created {component_type} component \"{component_name}\""
+msgstr "{component_type} कंपोनेंट \"{component_name}\" सफलतापूर्वक बनाया गया"
+
+msgid "Failed to create knowledge atom: {error}"
+msgstr "नॉलेज एटम बनाने में विफल: {error}"
+
+msgid "Please provide a valid message."
+msgstr "कृपया एक मान्य संदेश दें।"
+
+msgid "Please provide a message."
+msgstr "कृपया एक संदेश दें।"
+
+msgid ""
+"I apologize, but I encountered an error processing your request. Please try "
+"again."
+msgstr ""
+"क्षमा करें, आपके अनुरोध को संसाधित करते समय मुझे एक त्रुटि मिली। कृपया पुनः "
+"प्रयास करें।"
+
+msgid ""
+"I apologize, but I encountered an error processing your request. Please try "
+"again later."
+msgstr ""
+"क्षमा करें, आपके अनुरोध को संसाधित करते समय मुझे एक त्रुटि मिली। कृपया बाद "
+"में पुनः प्रयास करें।"
+
+msgid "A valid lesson is required."
+msgstr "एक मान्य पाठ आवश्यक है।"
+
+msgid "You do not have access to this lesson."
+msgstr "आपके पास इस पाठ की पहुँच नहीं है।"
+
+msgid "This lesson is not available."
+msgstr "यह पाठ उपलब्ध नहीं है।"
+
+msgid "The AI tutor is turned off for this course."
+msgstr "इस पाठ्यक्रम के लिए AI ट्यूटर बंद है।"
+
+msgid "Learning memory is not available."
+msgstr "लर्निंग मेमोरी उपलब्ध नहीं है।"
+
+msgid "Choose whether memory is enabled."
+msgstr "चुनें कि मेमोरी सक्षम है या नहीं।"
+
+msgid "Goals and preferences must each be text of at most 1000 characters."
+msgstr ""
+"लक्ष्य और प्राथमिकताएँ प्रत्येक अधिकतम 1000 वर्णों का टेक्स्ट होना चाहिए।"
+
+msgid "helpful must be true or false."
+msgstr "helpful का मान true या false होना चाहिए।"
+
+msgid "Message not found."
+msgstr "संदेश नहीं मिला।"
+
+msgid "Only an assistant answer can be rated."
+msgstr "केवल सहायक के उत्तर को रेट किया जा सकता है।"
+
+msgid "Message is required."
+msgstr "संदेश आवश्यक है।"
+
+msgid "Invalid message format."
+msgstr "अमान्य संदेश फ़ॉर्मैट।"
+
+msgid "Organization not found."
+msgstr "संगठन नहीं मिला।"
+
+msgid "Failed to create a new chat session."
+msgstr "नया चैट सत्र बनाने में विफल।"
+
+msgid "Chat session not found."
+msgstr "चैट सत्र नहीं मिला।"
+
+msgid ""
+"An error occurred while processing your request. Please try again later."
+msgstr ""
+"आपके अनुरोध को संसाधित करते समय एक त्रुटि हुई। कृपया बाद में पुनः प्रयास "
+"करें।"
+
+msgid "An error occurred while creating the chat session."
+msgstr "चैट सत्र बनाते समय एक त्रुटि हुई।"
+
+msgid "Session not found."
+msgstr "सत्र नहीं मिला।"
+
+msgid "sessionName is required."
+msgstr "sessionName आवश्यक है।"
+
+msgid "Failed to rename the chat session."
+msgstr "चैट सत्र का नाम बदलने में विफल।"
+
+msgid "An error occurred while renaming the chat session."
+msgstr "चैट सत्र का नाम बदलते समय एक त्रुटि हुई।"
+
+msgid "Failed to delete the chat session."
+msgstr "चैट सत्र हटाने में विफल।"
+
+msgid "An error occurred while deleting the chat session."
+msgstr "चैट सत्र हटाते समय एक त्रुटि हुई।"
+
+msgid "AI features have been disabled for your organisation."
+msgstr "आपके संगठन के लिए AI सुविधाएँ अक्षम कर दी गई हैं।"
+
+msgid "Context ID is required"
+msgstr "संदर्भ ID आवश्यक है"
+
+msgid "User cannot access course outside their organization: {org_name}"
+msgstr ""
+"उपयोगकर्ता अपने संगठन के बाहर के पाठ्यक्रम तक नहीं पहुँच सकता: {org_name}"
+
+msgid "Failed to auto-tag course: {error}"
+msgstr "पाठ्यक्रम को स्वतः टैग करने में विफल: {error}"
+
+msgid "No content_tagged data provided"
+msgstr "कोई content_tagged डेटा प्रदान नहीं किया गया"
+
+msgid "Each item in content_tagged must have a content_id"
+msgstr "content_tagged के प्रत्येक आइटम में content_id होना चाहिए"
+
+msgid "Each item in content_tagged must have taxonomy_suggestions"
+msgstr "content_tagged के प्रत्येक आइटम में taxonomy_suggestions होने चाहिए"
+
+msgid "No available taxonomies found for organization"
+msgstr "संगठन के लिए कोई उपलब्ध टैक्सोनॉमी नहीं मिली"
+
+msgid "Failed to get taxonomies: {error}"
+msgstr "टैक्सोनॉमी प्राप्त करने में विफल: {error}"
+
+msgid "Failed to apply tags: {error}"
+msgstr "टैग लागू करने में विफल: {error}"
+
+msgid "Failed to get course outline: {error}"
+msgstr "पाठ्यक्रम रूपरेखा प्राप्त करने में विफल: {error}"
+
+msgid "Failed to build course content list: {error}"
+msgstr "पाठ्यक्रम सामग्री सूची बनाने में विफल: {error}"
+
+msgid "Failed to get course hierarchy: {error}"
+msgstr "पाठ्यक्रम पदानुक्रम प्राप्त करने में विफल: {error}"
+
+msgid "Failed to remove tags: {error}"
+msgstr "टैग हटाने में विफल: {error}"
+
+msgid "Error occurred while initializing image LLM"
+msgstr "इमेज LLM को प्रारंभ करते समय त्रुटि हुई"
+
+msgid "Title and description are required"
+msgstr "शीर्षक और विवरण आवश्यक हैं"
+
+msgid "AI features are disabled for this user."
+msgstr "इस उपयोगकर्ता के लिए AI सुविधाएँ अक्षम हैं।"
+
+msgid "Error occurred while generating program image"
+msgstr "कार्यक्रम की छवि जनरेट करते समय त्रुटि हुई"

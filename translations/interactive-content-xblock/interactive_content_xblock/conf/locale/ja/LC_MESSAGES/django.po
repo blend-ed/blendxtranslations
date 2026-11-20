@@ -10,39 +10,40 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid "HTML Content"
-msgstr ""
+msgstr "HTMLコンテンツ"
 
 msgid "HTML content to render in the interactive block"
-msgstr ""
+msgstr "インタラクティブブロックに表示するHTMLコンテンツ"
 
 msgid "CSS Content"
-msgstr ""
+msgstr "CSSコンテンツ"
 
 msgid "CSS styles for the interactive content"
-msgstr ""
+msgstr "インタラクティブコンテンツのCSSスタイル"
 
 msgid "JavaScript Content"
-msgstr ""
+msgstr "JavaScriptコンテンツ"
 
 msgid ""
 "JavaScript code for interactivity. Use submitInteraction(data) to send data "
 "to the XBlock."
 msgstr ""
+"インタラクティブ機能のJavaScriptコード。XBlockにデータを送信するにはsubmitInteraction(data)を使用します。"
 
 msgid "Enable Debug Mode"
-msgstr ""
+msgstr "デバッグモードを有効にする"
 
 msgid "Show debug information and console logs"
-msgstr ""
+msgstr "デバッグ情報とコンソールログを表示"
 
 msgid "Enable Auto-Grading"
-msgstr ""
+msgstr "自動採点を有効にする"
 
 msgid "Enable automatic grading based on JS response"
-msgstr ""
+msgstr "JSの応答に基づく自動採点を有効にする"
 
 msgid "Completion Mode"
-msgstr ""
+msgstr "完了モード"
 
 msgid ""
 "How this block is marked complete. \"On submit\" completes when your "
@@ -51,227 +52,230 @@ msgid ""
 "no submission). \"Manual\" completes only when your JavaScript calls "
 "window.markComplete()."
 msgstr ""
+"このブロックが完了とマークされる方法。「送信時」は、JavaScriptがsubmitInteraction()を呼び出したときに完了します。「表示時」は、学習者が設定された時間ブロックを表示した後に自動的に完了します(送信のないシミュレーションに使用)。「手動」は、JavaScriptがwindow.markComplete()を呼び出したときのみ完了します。"
 
 msgid "On submit (when interaction is submitted)"
-msgstr ""
+msgstr "送信時(インタラクションが送信されたとき)"
 
 msgid "On view (auto-complete after viewing)"
-msgstr ""
+msgstr "表示時(表示後に自動完了)"
 
 msgid "Manual (author JS calls markComplete())"
-msgstr ""
+msgstr "手動(作成者のJSがmarkComplete()を呼び出す)"
 
 msgid "View Completion Delay (ms)"
-msgstr ""
+msgstr "表示完了までの遅延(ms)"
 
 msgid ""
 "Milliseconds the block must be viewed before auto-completing in \"On view\" "
 "mode."
-msgstr ""
+msgstr "「表示時」モードで自動完了までにブロックを表示する必要があるミリ秒数。"
 
 msgid "Weight"
-msgstr ""
+msgstr "重み"
 
 msgid "Weight for grading purposes"
-msgstr ""
+msgstr "採点用の重み"
 
 msgid "Display Name"
-msgstr ""
+msgstr "表示名"
 
 msgid "Display name for this interactive block"
-msgstr ""
+msgstr "このインタラクティブブロックの表示名"
 
 msgid "Correct Answers"
-msgstr ""
+msgstr "正解"
 
 msgid "JSON object defining correct answers for auto-grading"
-msgstr ""
+msgstr "自動採点の正解を定義するJSONオブジェクト"
 
 msgid "Show Feedback to Learners"
-msgstr ""
+msgstr "学習者にフィードバックを表示"
 
 msgid "Show correct/incorrect feedback to learners"
-msgstr ""
+msgstr "学習者に正解/不正解のフィードバックを表示"
 
 msgid "Show Previous Response"
-msgstr ""
+msgstr "前回の回答を表示"
 
 msgid "Show learner their previous response when they return"
-msgstr ""
+msgstr "学習者が戻ったときに前回の回答を表示"
 
 msgid "Captured learner interaction data"
-msgstr ""
+msgstr "取得された学習者のインタラクションデータ"
 
 msgid "Number of interactions submitted"
-msgstr ""
+msgstr "送信されたインタラクションの数"
 
 msgid "Timestamp of last interaction"
-msgstr ""
+msgstr "最後のインタラクションのタイムスタンプ"
 
 msgid "Whether the learner response is correct"
-msgstr ""
+msgstr "学習者の回答が正解かどうか"
 
 msgid "Score for the learner response"
-msgstr ""
+msgstr "学習者の回答のスコア"
 
 msgid "Feedback message shown to learner"
-msgstr ""
+msgstr "学習者に表示されるフィードバックメッセージ"
 
 msgid "Whether on-view/manual completion has already been emitted"
-msgstr ""
+msgstr "表示時/手動の完了がすでに送信されたかどうか"
 
 msgid "Debug Information (Staff Only)"
-msgstr ""
+msgstr "デバッグ情報(スタッフのみ)"
 
 msgid "Block ID"
-msgstr ""
+msgstr "ブロックID"
 
 msgid "User ID"
-msgstr ""
+msgstr "ユーザーID"
 
 msgid "Interaction Count"
-msgstr ""
+msgstr "インタラクション回数"
 
 msgid "Last Interaction"
-msgstr ""
+msgstr "最後のインタラクション"
 
 msgid "Is Correct"
-msgstr ""
+msgstr "正解かどうか"
 
 msgid "Score"
-msgstr ""
+msgstr "スコア"
 
 msgid "Correct"
-msgstr ""
+msgstr "正解"
 
 msgid "Incorrect"
-msgstr ""
+msgstr "不正解"
 
 msgid "Feedback"
-msgstr ""
+msgstr "フィードバック"
 
 msgid "Time spent"
-msgstr ""
+msgstr "所要時間"
 
 msgid "No content. Please add HTML content in the studio."
-msgstr ""
+msgstr "コンテンツがありません。StudioでHTMLコンテンツを追加してください。"
 
 msgid "Generate with AI"
-msgstr ""
+msgstr "AIで生成"
 
 msgid ""
 "e.g. A multiple choice quiz about the water cycle with 4 questions, each "
 "with 4 answer options..."
-msgstr ""
+msgstr "例: 水の循環に関する4問の多肢選択式クイズ。各問に4つの選択肢..."
 
 msgid "Generate"
-msgstr ""
+msgstr "生成"
 
 msgid "Display name for this module"
-msgstr ""
+msgstr "このモジュールの表示名"
 
 msgid "Enter the HTML content that will be rendered in the interactive block"
-msgstr ""
+msgstr "インタラクティブブロックに表示されるHTMLコンテンツを入力してください"
 
 msgid "CSS Styles"
-msgstr ""
+msgstr "CSSスタイル"
 
 msgid "Enter CSS styles for your interactive content"
-msgstr ""
+msgstr "インタラクティブコンテンツのCSSスタイルを入力してください"
 
 msgid "JavaScript Code"
-msgstr ""
+msgstr "JavaScriptコード"
 
 msgid ""
 "Enter JavaScript code for interactivity. Use submitInteraction(data) to send"
 " data to the XBlock"
 msgstr ""
+"インタラクティブ機能のJavaScriptコードを入力してください。XBlockにデータを送信するにはsubmitInteraction(data)を使用します"
 
 msgid "Weight of this problem for grading"
-msgstr ""
+msgstr "採点におけるこの問題の重み"
 
 msgid "True"
-msgstr ""
+msgstr "True"
 
 msgid "False"
-msgstr ""
+msgstr "False"
 
 msgid "Enable debug mode for development"
-msgstr ""
+msgstr "開発用のデバッグモードを有効にする"
 
 msgid ""
 "How this block is marked complete. Use 'On view' for simulations with no "
 "submission."
-msgstr ""
+msgstr "このブロックが完了とマークされる方法。送信のないシミュレーションには「表示時」を使用してください。"
 
 msgid ""
 "Milliseconds the block must be viewed before auto-completing (On view mode "
 "only)."
-msgstr ""
+msgstr "自動完了までにブロックを表示する必要があるミリ秒数(表示時モードのみ)。"
 
 msgid "Auto Grade Enabled"
-msgstr ""
+msgstr "自動採点有効"
 
 msgid "Enable automatic grading based on interaction data"
-msgstr ""
+msgstr "インタラクションデータに基づく自動採点を有効にする"
 
 msgid "Grading Configuration"
-msgstr ""
+msgstr "採点設定"
 
 msgid "Answer Matching Mode"
-msgstr ""
+msgstr "回答の照合モード"
 
 msgid "None (JS controls grading)"
-msgstr ""
+msgstr "なし(JSが採点を制御)"
 
 msgid "Single Answer"
-msgstr ""
+msgstr "単一回答"
 
 msgid "Multiple Fields"
-msgstr ""
+msgstr "複数フィールド"
 
 msgid ""
 "Choose 'None' if your JavaScript passes correct: true/false in "
 "submitInteraction()."
 msgstr ""
+"JavaScriptがsubmitInteraction()でcorrect: true/falseを渡す場合は「なし」を選択してください。"
 
 msgid "Correct Answer"
-msgstr ""
+msgstr "正解"
 
 msgid "The expected value. Comparison is case-insensitive."
-msgstr ""
+msgstr "期待値。比較では大文字と小文字は区別されません。"
 
 msgid "Answer Fields"
-msgstr ""
+msgstr "回答フィールド"
 
 msgid "Add Field"
-msgstr ""
+msgstr "フィールドを追加"
 
 msgid ""
 "Map each field name to its expected value. Partial credit is awarded "
 "proportionally."
-msgstr ""
+msgstr "各フィールド名を期待値に対応付けます。部分点は比例配分されます。"
 
 msgid "Correct Feedback"
-msgstr ""
+msgstr "正解時のフィードバック"
 
 msgid "Incorrect Feedback"
-msgstr ""
+msgstr "不正解時のフィードバック"
 
 msgid "Feedback is shown even when your JavaScript controls grading."
-msgstr ""
+msgstr "JavaScriptが採点を制御する場合でも、フィードバックは表示されます。"
 
 msgid "Test Grading"
-msgstr ""
+msgstr "採点をテスト"
 
 msgid "Verify your grading setup before saving."
-msgstr ""
+msgstr "保存する前に採点設定を確認してください。"
 
 msgid "Run Test"
-msgstr ""
+msgstr "テストを実行"
 
 msgid "Save"
-msgstr ""
+msgstr "保存"
 
 msgid "Cancel"
-msgstr ""
+msgstr "キャンセル"

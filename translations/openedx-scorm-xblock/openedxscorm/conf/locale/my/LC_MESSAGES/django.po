@@ -10,99 +10,105 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid "Display Name"
-msgstr ""
+msgstr "ပြသမည့်အမည်"
 
 msgid "Display name for this module"
-msgstr ""
+msgstr "ဤမော်ဂျူးအတွက် ပြသမည့်အမည်"
 
 msgid "Path to the index page in scorm file"
-msgstr ""
+msgstr "scorm ဖိုင်ရှိ index စာမျက်နှာသို့ လမ်းကြောင်း"
 
 msgid "Weight"
-msgstr ""
+msgstr "အလေးချိန်"
 
 msgid "Weight/Maximum grade"
-msgstr ""
+msgstr "အလေးချိန်/အမြင့်ဆုံး အမှတ်"
 
 msgid "Scored"
-msgstr ""
+msgstr "အမှတ်ပေးထားသည်"
 
 msgid ""
 "Select False if this component will not receive a numerical score from the "
 "Scorm"
 msgstr ""
+"ဤအစိတ်အပိုင်းသည် Scorm မှ ကိန်းဂဏန်းရမှတ် မရရှိမည်ဆိုပါက False ကို ရွေးပါ"
 
 msgid "Display width (px)"
-msgstr ""
+msgstr "ပြသမည့် အကျယ် (px)"
 
 msgid "Width of iframe (default: 100%)"
-msgstr ""
+msgstr "iframe ၏ အကျယ် (မူလ- 100%)"
 
 msgid "Display height (px)"
-msgstr ""
+msgstr "ပြသမည့် အမြင့် (px)"
 
 msgid "Height of iframe"
-msgstr ""
+msgstr "iframe ၏ အမြင့်"
 
 msgid "Launch in pop-up window"
-msgstr ""
+msgstr "ပေါ့ပ်အပ် ဝင်းဒိုးတွင် ဖွင့်ရန်"
 
 msgid ""
 "Launch in pop-up window instead of embedding the SCORM content in an iframe."
 " Enable this for older packages that need to be run in separate window."
 msgstr ""
+"SCORM အကြောင်းအရာကို iframe တွင် ထည့်သွင်းမည့်အစား ပေါ့ပ်အပ် ဝင်းဒိုးတွင် "
+"ဖွင့်ပါ။ သီးခြားဝင်းဒိုးတွင် လည်ပတ်ရန် လိုအပ်သော ပက်ကေ့ဂျ်အဟောင်းများအတွက် "
+"၎င်းကို ဖွင့်ပါ။"
 
 msgid "Display navigation menu"
-msgstr ""
+msgstr "လမ်းညွှန်မီနူးကို ပြသရန်"
 
 msgid ""
 "Select True to display a navigation menu on the left side to display table "
 "of contents"
-msgstr ""
+msgstr "မာတိကာ ပြသရန် ဘယ်ဘက်တွင် လမ်းညွှန်မီနူး ပြသလိုပါက True ကို ရွေးပါ"
 
 msgid "Show Fullscreen Button"
-msgstr ""
+msgstr "မျက်နှာပြင်အပြည့် ခလုတ် ပြရန်"
 
 msgid "Select True to show fullscreen button in the SCORM content"
 msgstr ""
+"SCORM အကြောင်းအရာတွင် မျက်နှာပြင်အပြည့် ခလုတ် ပြသလိုပါက True ကို ရွေးပါ"
 
 msgid "Display width of navigation menu(px)"
-msgstr ""
+msgstr "လမ်းညွှန်မီနူး၏ ပြသမည့် အကျယ် (px)"
 
 msgid ""
 "Width of navigation menu. This assumes that Navigation Menu is enabled. "
 "(default: 30%)"
 msgstr ""
+"လမ်းညွှန်မီနူး၏ အကျယ်။ လမ်းညွှန်မီနူးကို ဖွင့်ထားသည်ဟု ယူဆပါသည်။ (မူလ- 30%)"
 
 msgid "points"
-msgstr ""
+msgstr "အမှတ်"
 
 msgid "Fullscreen"
-msgstr ""
+msgstr "မျက်နှာပြင်အပြည့်"
 
 msgid "Exit fullscreen"
-msgstr ""
+msgstr "မျက်နှာပြင်အပြည့်မှ ထွက်ရန်"
 
 msgid "Launch unit in new window"
-msgstr ""
+msgstr "ယူနစ်ကို ဝင်းဒိုးအသစ်တွင် ဖွင့်ရန်"
 
 msgid "View SCORM reports"
-msgstr ""
+msgstr "SCORM အစီရင်ခံစာများကို ကြည့်ရန်"
 
 msgid "Upload .zip package"
-msgstr ""
+msgstr ".zip ပက်ကေ့ဂျ် အပ်လုဒ်လုပ်ရန်"
 
 msgid "Currently:"
-msgstr ""
+msgstr "လက်ရှိ-"
 
 msgid "True"
-msgstr ""
+msgstr "မှန်"
 
 msgid "False"
-msgstr ""
+msgstr "မှား"
 
 msgid "Save"
-msgstr ""
+msgstr "သိမ်းဆည်းရန်"
 
 msgid "Cancel"
-msgstr ""
+msgstr "မလုပ်တော့ပါ"

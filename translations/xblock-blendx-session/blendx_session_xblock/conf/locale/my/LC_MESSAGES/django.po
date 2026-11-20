@@ -1,0 +1,147 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xblock-blendx-session\n"
+"Report-Msgid-Bugs-To: \n"
+"Language: my\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Only the dates offered to the learner's Batch"
+msgstr "သင်ယူသူ၏ အသုတ်အတွက် ပေးထားသော ရက်စွဲများသာ"
+
+msgid "Any open date inside the learner's access window"
+msgstr "သင်ယူသူ၏ ဝင်ရောက်ခွင့်ကာလအတွင်း ဖွင့်ထားသော မည်သည့်ရက်စွဲမဆို"
+
+msgid "This Session unlocks after an earlier step."
+msgstr "ဤစာသင်ချိန်သည် ယခင်အဆင့်တစ်ခုပြီးနောက် ဖွင့်ပါမည်။"
+
+msgid "Choose a date to book your place."
+msgstr "သင့်နေရာကို ကြိုတင်စာရင်းသွင်းရန် ရက်စွဲတစ်ခု ရွေးချယ်ပါ။"
+
+msgid "Your organisation will book your Session."
+msgstr "သင့်အဖွဲ့အစည်းက သင့်စာသင်ချိန်ကို ကြိုတင်စာရင်းသွင်းပေးပါမည်။"
+
+msgid "You're booked."
+msgstr "သင် ကြိုတင်စာရင်းသွင်းပြီးပါပြီ။"
+
+msgid ""
+"You're on the waitlist. You'll be booked automatically if a place frees up."
+msgstr ""
+"သင်သည် စောင့်ဆိုင်းစာရင်းတွင် ရှိပါသည်။ နေရာလွတ်ပါက သင့်ကို အလိုအလျောက် "
+"ကြိုတင်စာရင်းသွင်းပေးပါမည်။"
+
+msgid "You attended this Session."
+msgstr "သင်သည် ဤစာသင်ချိန်ကို တက်ရောက်ခဲ့ပါသည်။"
+
+msgid "You missed this Session."
+msgstr "သင်သည် ဤစာသင်ချိန်ကို လွတ်သွားခဲ့ပါသည်။"
+
+msgid "You don't have access to this Session."
+msgstr "ဤစာသင်ချိန်ကို ဝင်ရောက်ခွင့် မရှိပါ။"
+
+msgid "Display name"
+msgstr "ပြသမည့်အမည်"
+
+msgid "Live Session"
+msgstr "တိုက်ရိုက်စာသင်ချိန်"
+
+msgid "Session"
+msgstr "စာသင်ချိန်"
+
+msgid "The stand-alone Session this unit links to."
+msgstr "ဤယူနစ် ချိတ်ဆက်ထားသော သီးခြားစာသင်ချိန်။"
+
+msgid "Required"
+msgstr "မဖြစ်မနေ လိုအပ်သည်"
+
+msgid ""
+"Learners must complete the Session to complete this part of the Course."
+msgstr ""
+"သင်တန်း၏ ဤအပိုင်းကို ပြီးဆုံးရန် သင်ယူသူများသည် စာသင်ချိန်ကို ပြီးဆုံးရမည်။"
+
+msgid "Which dates learners may book"
+msgstr "သင်ယူသူများ ကြိုတင်စာရင်းသွင်းနိုင်သည့် ရက်စွဲများ"
+
+msgid "Booking opens here when it's available."
+msgstr "ရရှိနိုင်သည့်အခါ ဤနေရာတွင် ကြိုတင်စာရင်းသွင်းခြင်း ဖွင့်ပါမည်။"
+
+msgid "Optional"
+msgstr "ရွေးချယ်နိုင်သည်"
+
+msgid "Choose a Session."
+msgstr "စာသင်ချိန်တစ်ခု ရွေးချယ်ပါ။"
+
+msgid "The Session no longer exists or can't be linked here."
+msgstr "စာသင်ချိန် မရှိတော့ပါ သို့မဟုတ် ဤနေရာတွင် ချိတ်ဆက်၍မရပါ။"
+
+msgid "The Session isn't published, so the link won't sync at publish."
+msgstr ""
+"စာသင်ချိန်ကို ထုတ်ဝေမထားသဖြင့် ထုတ်ဝေချိန်တွင် လင့်ခ်ကို "
+"ချိန်ကိုက်မည်မဟုတ်ပါ။"
+
+msgid "Choose which dates learners may book."
+msgstr "သင်ယူသူများ ကြိုတင်စာရင်းသွင်းနိုင်သည့် ရက်စွဲများကို ရွေးချယ်ပါ။"
+
+msgid "(no Session selected)"
+msgstr "(စာသင်ချိန် ရွေးချယ်ထားခြင်း မရှိပါ)"
+
+msgid "Yes"
+msgstr "ဟုတ်ကဲ့"
+
+msgid "No"
+msgstr "မဟုတ်ပါ"
+
+msgid "Only course staff can change this block."
+msgstr "သင်တန်းဝန်ထမ်းများသာ ဤဘလောက်ကို ပြောင်းလဲနိုင်ပါသည်။"
+
+msgid "The form wasn't sent correctly."
+msgstr "ပုံစံကို မှန်ကန်စွာ မပို့ခဲ့ပါ။"
+
+msgid "Choose a Session from the list."
+msgstr "စာရင်းမှ စာသင်ချိန်တစ်ခု ရွေးချယ်ပါ။"
+
+msgid "That Session can't be linked here."
+msgstr "ထိုစာသင်ချိန်ကို ဤနေရာတွင် ချိတ်ဆက်၍မရပါ။"
+
+msgid "Required is yes or no."
+msgstr "မဖြစ်မနေ လိုအပ်ချက်သည် yes သို့မဟုတ် no ဖြစ်ရမည်။"
+
+msgid "Kind"
+msgstr "အမျိုးအစား"
+
+msgid "Upcoming dates"
+msgstr "လာမည့် ရက်စွဲများ"
+
+msgid "Dates learners may book"
+msgstr "သင်ယူသူများ ကြိုတင်စာရင်းသွင်းနိုင်သည့် ရက်စွဲများ"
+
+msgid "Limit to modes"
+msgstr "ပုံစံများသို့ ကန့်သတ်ရန်"
+
+msgid "Use \"Restrict access\" on this component."
+msgstr "ဤအစိတ်အပိုင်းတွင် \"ဝင်ရောက်ခွင့် ကန့်သတ်ရန်\" ကို အသုံးပြုပါ။"
+
+msgid "This Session isn't available yet."
+msgstr "ဤစာသင်ချိန်ကို မရရှိနိုင်သေးပါ။"
+
+msgid "Choose a Session"
+msgstr "စာသင်ချိန်တစ်ခု ရွေးချယ်ပါ"
+
+msgid "Required to complete this part of the Course"
+msgstr "သင်တန်း၏ ဤအပိုင်းကို ပြီးဆုံးရန် လိုအပ်သည်"
+
+msgid ""
+"To limit it to some learning modes, use \"Restrict access\" on the "
+"component."
+msgstr ""
+"သင်ယူမှုပုံစံအချို့သို့ ကန့်သတ်ရန် အစိတ်အပိုင်းတွင် \"ဝင်ရောက်ခွင့် "
+"ကန့်သတ်ရန်\" ကို အသုံးပြုပါ။"
+
+msgid "Save"
+msgstr "သိမ်းဆည်းရန်"
+
+msgid "Cancel"
+msgstr "မလုပ်တော့ပါ"

@@ -9,8 +9,215 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
+msgid "An error occurred while processing your request. Please try again."
+msgstr "处理您的请求时出错。请重试。"
+
+msgid "Course not found"
+msgstr "未找到课程"
+
+msgid "No units found in course structure"
+msgstr "课程结构中未找到单元"
+
+msgid "AI service is not configured"
+msgstr "AI 服务未配置"
+
+msgid "Unit not found"
+msgstr "未找到单元"
+
+msgid "AI returned invalid format"
+msgstr "AI 返回的格式无效"
+
+msgid "Component not found"
+msgstr "未找到组件"
+
+msgid "AI returned invalid structure format"
+msgstr "AI 返回的结构格式无效"
+
+msgid "course_creation_id is required."
+msgstr "course_creation_id 为必填项。"
+
+msgid "org, number, and run are all required."
+msgstr "org、number 和 run 均为必填项。"
+
+msgid "Courses can only be created in your organisation."
+msgstr "只能在您的组织中创建课程。"
+
+msgid "You do not have permission to create courses."
+msgstr "您没有创建课程的权限。"
+
+msgid "Course not found."
+msgstr "未找到课程。"
+
+msgid "You do not have access to this course."
+msgstr "您无权访问此课程。"
+
+msgid ""
+"Course must be in script_generation, outline_creation, or failed stage. "
+"Current: {stage}"
+msgstr "课程必须处于 script_generation、outline_creation 或 failed 阶段。当前：{stage}"
+
+msgid ""
+"Choose a video type (static link or AI avatar) in the Course Brief before "
+"building."
+msgstr "构建前请在课程简介中选择视频类型（静态链接或 AI 虚拟形象）。"
+
+msgid ""
+"AI usage has been disabled for your account. Please contact your "
+"organisation admin."
+msgstr "您的账户已禁用 AI 使用。请联系您的组织管理员。"
+
+msgid ""
+"Your organisation's AI credits are exhausted. Contact your admin to allocate"
+" more."
+msgstr "您组织的 AI 额度已用完。请联系您的管理员分配更多额度。"
+
+msgid ""
+"This session's course is live and can't be rebuilt. Start a new AI Studio "
+"session to create another course."
+msgstr "此会话的课程已上线，无法重新构建。请新建一个 AI Studio 会话以创建其他课程。"
+
+msgid "Message is required."
+msgstr "消息为必填项。"
+
+msgid "An .srt transcript file is required to create a course from a video."
+msgstr "从视频创建课程需要 .srt 字幕文件。"
+
+msgid "That video is not in your organisation's video library."
+msgstr "该视频不在您组织的视频库中。"
+
+msgid "That .srt file has no timed subtitles, or is larger than 2 MB."
+msgstr "该 .srt 文件没有带时间轴的字幕，或大于 2 MB。"
+
+msgid "A 'key' is required."
+msgstr "必须提供“key”。"
+
+msgid "The '{key}' field is read-only."
+msgstr "“{key}”字段为只读。"
+
+msgid "You do not have access to AI Studio for this organisation."
+msgstr "您无权访问此组织的 AI Studio。"
+
+msgid ""
+"You do not have permission to manage AI Studio prompts for this "
+"organisation."
+msgstr "您没有管理此组织 AI Studio 提示的权限。"
+
+msgid ""
+"Course must be in outline_creation, component_plan, or script_generation "
+"stage. Current: {stage}"
+msgstr ""
+"课程必须处于 outline_creation、component_plan 或 script_generation 阶段。当前：{stage}"
+
+msgid "course_creation_id and unit_id are required."
+msgstr "course_creation_id 和 unit_id 为必填项。"
+
+msgid "Access denied."
+msgstr "访问被拒绝。"
+
+msgid ""
+"Course must be in outline_creation or component_plan stage. Current: {stage}"
+msgstr "课程必须处于 outline_creation 或 component_plan 阶段。当前：{stage}"
+
+msgid "component_types must be a non-empty list."
+msgstr "component_types 必须是非空列表。"
+
+msgid "Invalid component types: {invalid_types}. Valid types: {valid_types}"
+msgstr "组件类型无效：{invalid_types}。有效类型：{valid_types}"
+
+msgid "component_id is required."
+msgstr "component_id 为必填项。"
+
+msgid "instruction is required."
+msgstr "instruction 为必填项。"
+
+msgid "Component not found."
+msgstr "未找到组件。"
+
+msgid "You do not have access to this component."
+msgstr "您无权访问此组件。"
+
+msgid "script is required."
+msgstr "script 为必填项。"
+
+msgid "name is required."
+msgstr "name 为必填项。"
+
+msgid "Node not found."
+msgstr "未找到节点。"
+
+msgid "course_creation_id, hierarchy, and name are required."
+msgstr "course_creation_id、hierarchy 和 name 为必填项。"
+
+msgid "hierarchy must be section, subsection, or unit."
+msgstr "hierarchy 必须为 section、subsection 或 unit。"
+
+msgid "Parent node not found."
+msgstr "未找到父节点。"
+
+msgid "node_ids array is required."
+msgstr "node_ids 数组为必填项。"
+
+msgid "Some nodes not found."
+msgstr "部分节点未找到。"
+
+msgid "All nodes must belong to the same course."
+msgstr "所有节点必须属于同一课程。"
+
 msgid ""
 "Dummy text to generate a translation (.po) source file. It is safe to delete"
 " this line. It is also safe to delete (load i18n) above if there are no "
 "other (trans) tags in the file"
 msgstr ""
+"用于生成翻译 (.po) 源文件的占位文本。可以安全删除此行。如果文件中没有其他 (trans) 标签，也可以安全删除上方的 (load i18n)。"
+
+msgid "Your course is ready"
+msgstr "您的课程已就绪"
+
+msgid "Hi %(full_name)s,"
+msgstr "%(full_name)s，您好："
+
+msgid ""
+"Your AI-generated course %(start_strong)s%(course_title)s%(end_strong)s has "
+"finished building and is ready in Studio."
+msgstr ""
+"您用 AI 生成的课程 %(start_strong)s%(course_title)s%(end_strong)s 已构建完成，可在 Studio "
+"中查看。"
+
+msgid ""
+"%(counter)s component could not be generated and needs your attention. "
+"Review the course before you publish it."
+msgid_plural ""
+"%(counter)s components could not be generated and need your attention. "
+"Review the course before you publish it."
+msgstr[0] "有 %(counter)s 个组件未能生成，需要您处理。请在发布前检查课程。"
+
+msgid "Open in Studio"
+msgstr "在 Studio 中打开"
+
+msgid "If the button doesn't work, copy this link into your browser:"
+msgstr "如果按钮无法使用，请将此链接复制到浏览器中："
+
+msgid "View it as a learner"
+msgstr "以学员身份查看"
+
+msgid "Course ID: %(course_key)s"
+msgstr "课程 ID：%(course_key)s"
+
+msgid ""
+"You got this email because you generated this course with the AI Course "
+"Creator."
+msgstr "您收到此邮件，是因为您使用 AI 课程创建器生成了此课程。"
+
+msgid ""
+"Your AI-generated course \"%(course_title)s\" has finished building and is "
+"ready in Studio."
+msgstr "您用 AI 生成的课程“%(course_title)s”已构建完成，可在 Studio 中查看。"
+
+msgid "Open it in Studio: %(studio_url)s"
+msgstr "在 Studio 中打开：%(studio_url)s"
+
+msgid "View it as a learner: %(lms_url)s"
+msgstr "以学员身份查看：%(lms_url)s"
+
+msgid "Your course \"%(course_title)s\" is ready"
+msgstr "您的课程“%(course_title)s”已就绪"

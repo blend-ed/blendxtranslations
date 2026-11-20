@@ -10,7 +10,107 @@ msgstr ""
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 
 msgid ""
+"Either 'prompts' list or 'prompt' with 'problem_count'/'problem_types' must "
+"be provided"
+msgstr ""
+"يجب تقديم إما قائمة 'prompts' أو 'prompt' مع 'problem_count'/'problem_types'"
+
+msgid "Invalid problem type: {ptype}. Valid types: {valid_types}"
+msgstr "نوع مسألة غير صالح: {ptype}. الأنواع الصالحة: {valid_types}"
+
+msgid ""
+"Sum of problem_types counts ({total}) does not match problem_count ({count})"
+msgstr "مجموع أعداد problem_types ({total}) لا يطابق problem_count ({count})"
+
+msgid "Failed to generate OLX"
+msgstr "فشل إنشاء OLX"
+
+msgid "Required query parameter"
+msgstr "معامل استعلام مطلوب"
+
+msgid "Generated OLX failed validation after {attempts} attempts: {error}"
+msgstr "فشل التحقق من OLX المُنشأ بعد {attempts} محاولات: {error}"
+
+msgid "Rate limit error: {error}"
+msgstr "خطأ في حدّ المعدّل: {error}"
+
+msgid "Timeout error: {error}"
+msgstr "خطأ انتهاء المهلة: {error}"
+
+msgid "Invalid request to LLM API: {error}"
+msgstr "طلب غير صالح إلى LLM API: {error}"
+
+msgid "LLM API error: {error}"
+msgstr "خطأ في LLM API: {error}"
+
+msgid "Failed to generate OLX: {error}"
+msgstr "فشل إنشاء OLX: {error}"
+
+msgid "Failed to generate OLX after all retry attempts"
+msgstr "فشل إنشاء OLX بعد جميع محاولات الإعادة"
+
+msgid ""
 "Dummy text to generate a translation (.po) source file. It is safe to delete"
 " this line. It is also safe to delete (load i18n) above if there are no "
 "other (trans) tags in the file"
 msgstr ""
+"نص وهمي لإنشاء ملف مصدر للترجمة (.po). يمكن حذف هذا السطر بأمان. يمكن أيضاً "
+"حذف (load i18n) أعلاه بأمان إن لم تكن هناك وسوم (trans) أخرى في الملف"
+
+msgid ""
+"Unsupported file type: {file_extension}. Supported types: PDF, DOCX, PPTX"
+msgstr ""
+"نوع ملف غير مدعوم: {file_extension}. الأنواع المدعومة: PDF وDOCX وPPTX"
+
+msgid "Failed to extract text from {filename}: {error}"
+msgstr "فشل استخراج النص من {filename}: {error}"
+
+msgid "No documents could be processed successfully"
+msgstr "تعذّرت معالجة أي مستند بنجاح"
+
+msgid "No text content found in PDF"
+msgstr "لم يتم العثور على محتوى نصي في ملف PDF"
+
+msgid "No text content found in Word document"
+msgstr "لم يتم العثور على محتوى نصي في مستند Word"
+
+msgid "No text content found in PowerPoint presentation"
+msgstr "لم يتم العثور على محتوى نصي في عرض PowerPoint التقديمي"
+
+msgid "Invalid library key format: {error}"
+msgstr "صيغة مفتاح المكتبة غير صالحة: {error}"
+
+msgid "Invalid usage key format: {error}"
+msgstr "صيغة مفتاح الاستخدام غير صالحة: {error}"
+
+msgid "Permission denied: {error}"
+msgstr "تم رفض الإذن: {error}"
+
+msgid "Invalid block type '{block_type}': {error}"
+msgstr "نوع الكتلة '{block_type}' غير صالح: {error}"
+
+msgid ""
+"Cannot add problem directly to {container_type}. Problems can only be added "
+"to collections or units."
+msgstr ""
+"لا يمكن إضافة مسألة مباشرة إلى {container_type}. يمكن إضافة المسائل إلى "
+"مجموعات المواد أو الوحدات فقط."
+
+msgid ""
+"Cannot add problems directly to {container_type}. Problems can only be added"
+" to collections or units."
+msgstr ""
+"لا يمكن إضافة مسائل مباشرة إلى {container_type}. يمكن إضافة المسائل إلى "
+"مجموعات المواد أو الوحدات فقط."
+
+msgid "OLX string cannot be empty"
+msgstr "لا يمكن أن تكون سلسلة OLX فارغة"
+
+msgid "Invalid XML syntax: {error}"
+msgstr "صيغة XML غير صالحة: {error}"
+
+msgid "Error parsing XML: {error}"
+msgstr "خطأ في تحليل XML: {error}"
+
+msgid "Root tag mismatch: expected '<{expected}>', found '<{found}>'"
+msgstr "عدم تطابق الوسم الجذر: المتوقع '<{expected}>'، والموجود '<{found}>'"

@@ -10,7 +10,114 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
 
 msgid ""
+"Either 'prompts' list or 'prompt' with 'problem_count'/'problem_types' must "
+"be provided"
+msgstr ""
+"Необходимо указать список 'prompts' либо 'prompt' вместе с "
+"'problem_count'/'problem_types'"
+
+msgid "Invalid problem type: {ptype}. Valid types: {valid_types}"
+msgstr "Неверный тип задачи: {ptype}. Допустимые типы: {valid_types}"
+
+msgid ""
+"Sum of problem_types counts ({total}) does not match problem_count ({count})"
+msgstr ""
+"Сумма значений problem_types ({total}) не совпадает с problem_count "
+"({count})"
+
+msgid "Failed to generate OLX"
+msgstr "Не удалось сгенерировать OLX"
+
+msgid "Required query parameter"
+msgstr "Обязательный параметр запроса"
+
+msgid "Generated OLX failed validation after {attempts} attempts: {error}"
+msgstr ""
+"Сгенерированный OLX не прошёл проверку после {attempts} попыток: {error}"
+
+msgid "Rate limit error: {error}"
+msgstr "Превышен лимит запросов: {error}"
+
+msgid "Timeout error: {error}"
+msgstr "Превышено время ожидания: {error}"
+
+msgid "Invalid request to LLM API: {error}"
+msgstr "Неверный запрос к LLM API: {error}"
+
+msgid "LLM API error: {error}"
+msgstr "Ошибка LLM API: {error}"
+
+msgid "Failed to generate OLX: {error}"
+msgstr "Не удалось сгенерировать OLX: {error}"
+
+msgid "Failed to generate OLX after all retry attempts"
+msgstr "Не удалось сгенерировать OLX после всех попыток"
+
+msgid ""
 "Dummy text to generate a translation (.po) source file. It is safe to delete"
 " this line. It is also safe to delete (load i18n) above if there are no "
 "other (trans) tags in the file"
 msgstr ""
+"Тестовый текст для создания исходного файла перевода (.po). Эту строку можно"
+" безопасно удалить. Также можно безопасно удалить (load i18n) выше, если в "
+"файле нет других тегов (trans)"
+
+msgid ""
+"Unsupported file type: {file_extension}. Supported types: PDF, DOCX, PPTX"
+msgstr ""
+"Неподдерживаемый тип файла: {file_extension}. Поддерживаемые типы: PDF, "
+"DOCX, PPTX"
+
+msgid "Failed to extract text from {filename}: {error}"
+msgstr "Не удалось извлечь текст из {filename}: {error}"
+
+msgid "No documents could be processed successfully"
+msgstr "Не удалось обработать ни один документ"
+
+msgid "No text content found in PDF"
+msgstr "В PDF не найдено текста"
+
+msgid "No text content found in Word document"
+msgstr "В документе Word не найдено текста"
+
+msgid "No text content found in PowerPoint presentation"
+msgstr "В презентации PowerPoint не найдено текста"
+
+msgid "Invalid library key format: {error}"
+msgstr "Неверный формат ключа библиотеки: {error}"
+
+msgid "Invalid usage key format: {error}"
+msgstr "Неверный формат ключа использования: {error}"
+
+msgid "Permission denied: {error}"
+msgstr "Доступ запрещён: {error}"
+
+msgid "Invalid block type '{block_type}': {error}"
+msgstr "Неверный тип блока '{block_type}': {error}"
+
+msgid ""
+"Cannot add problem directly to {container_type}. Problems can only be added "
+"to collections or units."
+msgstr ""
+"Нельзя добавить задачу непосредственно в {container_type}. Задачи можно "
+"добавлять только в коллекции или блоки."
+
+msgid ""
+"Cannot add problems directly to {container_type}. Problems can only be added"
+" to collections or units."
+msgstr ""
+"Нельзя добавлять задачи непосредственно в {container_type}. Задачи можно "
+"добавлять только в коллекции или блоки."
+
+msgid "OLX string cannot be empty"
+msgstr "Строка OLX не может быть пустой"
+
+msgid "Invalid XML syntax: {error}"
+msgstr "Неверный синтаксис XML: {error}"
+
+msgid "Error parsing XML: {error}"
+msgstr "Ошибка разбора XML: {error}"
+
+msgid "Root tag mismatch: expected '<{expected}>', found '<{found}>'"
+msgstr ""
+"Несовпадение корневого тега: ожидался '<{expected}>', найден '<{found}>'"

@@ -9,8 +9,244 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 
+msgid "An error occurred while processing your request. Please try again."
+msgstr "حدث خطأ أثناء معالجة طلبك. يُرجى المحاولة مرة أخرى."
+
+msgid "Course not found"
+msgstr "لم يتم العثور على المساق"
+
+msgid "No units found in course structure"
+msgstr "لم يتم العثور على وحدات في بنية المساق"
+
+msgid "AI service is not configured"
+msgstr "خدمة AI غير مهيّأة"
+
+msgid "Unit not found"
+msgstr "لم يتم العثور على الوحدة"
+
+msgid "AI returned invalid format"
+msgstr "أعاد AI تنسيقًا غير صالح"
+
+msgid "Component not found"
+msgstr "لم يتم العثور على المكوّن"
+
+msgid "AI returned invalid structure format"
+msgstr "أعاد AI تنسيق بنية غير صالح"
+
+msgid "course_creation_id is required."
+msgstr "course_creation_id مطلوب."
+
+msgid "org, number, and run are all required."
+msgstr "org وnumber وrun جميعها مطلوبة."
+
+msgid "Courses can only be created in your organisation."
+msgstr "لا يمكن إنشاء المساقات إلا في مؤسستك."
+
+msgid "You do not have permission to create courses."
+msgstr "ليس لديك إذن بإنشاء المساقات."
+
+msgid "Course not found."
+msgstr "لم يتم العثور على المساق."
+
+msgid "You do not have access to this course."
+msgstr "ليس لديك وصول إلى هذا المساق."
+
+msgid ""
+"Course must be in script_generation, outline_creation, or failed stage. "
+"Current: {stage}"
+msgstr ""
+"يجب أن يكون المساق في مرحلة script_generation أو outline_creation أو failed."
+" المرحلة الحالية: {stage}"
+
+msgid ""
+"Choose a video type (static link or AI avatar) in the Course Brief before "
+"building."
+msgstr ""
+"اختر نوع الفيديو (رابط ثابت أو صورة رمزية بـ AI) في ملخص المساق قبل البناء."
+
+msgid ""
+"AI usage has been disabled for your account. Please contact your "
+"organisation admin."
+msgstr "عُطّل استخدام AI لحسابك. يُرجى التواصل مع مسؤول مؤسستك."
+
+msgid ""
+"Your organisation's AI credits are exhausted. Contact your admin to allocate"
+" more."
+msgstr "نفد رصيد AI لمؤسستك. تواصل مع المسؤول لتخصيص المزيد."
+
+msgid ""
+"This session's course is live and can't be rebuilt. Start a new AI Studio "
+"session to create another course."
+msgstr ""
+"مساق هذه الجلسة منشور ولا يمكن إعادة بنائه. ابدأ جلسة جديدة في AI Studio "
+"لإنشاء مساق آخر."
+
+msgid "Message is required."
+msgstr "الرسالة مطلوبة."
+
+msgid "An .srt transcript file is required to create a course from a video."
+msgstr "يلزم ملف نص مفرّغ بصيغة .srt لإنشاء مساق من فيديو."
+
+msgid "That video is not in your organisation's video library."
+msgstr "هذا الفيديو غير موجود في مكتبة الفيديو الخاصة بمؤسستك."
+
+msgid "That .srt file has no timed subtitles, or is larger than 2 MB."
+msgstr ""
+"ملف .srt هذا لا يحتوي على ترجمة نصية مرتبطة بتوقيت، أو يتجاوز حجمه 2 MB."
+
+msgid "A 'key' is required."
+msgstr "المفتاح 'key' مطلوب."
+
+msgid "The '{key}' field is read-only."
+msgstr "الحقل '{key}' للقراءة فقط."
+
+msgid "You do not have access to AI Studio for this organisation."
+msgstr "ليس لديك وصول إلى AI Studio لهذه المؤسسة."
+
+msgid ""
+"You do not have permission to manage AI Studio prompts for this "
+"organisation."
+msgstr "ليس لديك إذن بإدارة مطالبات AI Studio لهذه المؤسسة."
+
+msgid ""
+"Course must be in outline_creation, component_plan, or script_generation "
+"stage. Current: {stage}"
+msgstr ""
+"يجب أن يكون المساق في مرحلة outline_creation أو component_plan أو "
+"script_generation. المرحلة الحالية: {stage}"
+
+msgid "course_creation_id and unit_id are required."
+msgstr "course_creation_id وunit_id مطلوبان."
+
+msgid "Access denied."
+msgstr "تم رفض الوصول."
+
+msgid ""
+"Course must be in outline_creation or component_plan stage. Current: {stage}"
+msgstr ""
+"يجب أن يكون المساق في مرحلة outline_creation أو component_plan. المرحلة "
+"الحالية: {stage}"
+
+msgid "component_types must be a non-empty list."
+msgstr "يجب أن تكون component_types قائمة غير فارغة."
+
+msgid "Invalid component types: {invalid_types}. Valid types: {valid_types}"
+msgstr ""
+"أنواع مكوّنات غير صالحة: {invalid_types}. الأنواع الصالحة: {valid_types}"
+
+msgid "component_id is required."
+msgstr "component_id مطلوب."
+
+msgid "instruction is required."
+msgstr "instruction مطلوب."
+
+msgid "Component not found."
+msgstr "لم يتم العثور على المكوّن."
+
+msgid "You do not have access to this component."
+msgstr "ليس لديك وصول إلى هذا المكوّن."
+
+msgid "script is required."
+msgstr "script مطلوب."
+
+msgid "name is required."
+msgstr "name مطلوب."
+
+msgid "Node not found."
+msgstr "لم يتم العثور على العقدة."
+
+msgid "course_creation_id, hierarchy, and name are required."
+msgstr "course_creation_id وhierarchy وname مطلوبة."
+
+msgid "hierarchy must be section, subsection, or unit."
+msgstr "يجب أن تكون قيمة hierarchy إما section أو subsection أو unit."
+
+msgid "Parent node not found."
+msgstr "لم يتم العثور على العقدة الأصل."
+
+msgid "node_ids array is required."
+msgstr "مصفوفة node_ids مطلوبة."
+
+msgid "Some nodes not found."
+msgstr "لم يتم العثور على بعض العُقد."
+
+msgid "All nodes must belong to the same course."
+msgstr "يجب أن تنتمي جميع العُقد إلى المساق نفسه."
+
 msgid ""
 "Dummy text to generate a translation (.po) source file. It is safe to delete"
 " this line. It is also safe to delete (load i18n) above if there are no "
 "other (trans) tags in the file"
 msgstr ""
+"نص وهمي لإنشاء ملف مصدر للترجمة (.po). يمكن حذف هذا السطر بأمان. يمكن أيضاً "
+"حذف (load i18n) أعلاه بأمان إن لم تكن هناك وسوم (trans) أخرى في الملف"
+
+msgid "Your course is ready"
+msgstr "مساقك جاهز"
+
+msgid "Hi %(full_name)s,"
+msgstr "مرحبًا %(full_name)s،"
+
+msgid ""
+"Your AI-generated course %(start_strong)s%(course_title)s%(end_strong)s has "
+"finished building and is ready in Studio."
+msgstr ""
+"اكتمل بناء مساقك المُنشأ بالذكاء الاصطناعي "
+"%(start_strong)s%(course_title)s%(end_strong)s وأصبح جاهزًا في Studio."
+
+msgid ""
+"%(counter)s component could not be generated and needs your attention. "
+"Review the course before you publish it."
+msgid_plural ""
+"%(counter)s components could not be generated and need your attention. "
+"Review the course before you publish it."
+msgstr[0] ""
+"تعذّر إنشاء %(counter)s مكوّن ويحتاج إلى مراجعتك. راجع المساق قبل نشره."
+msgstr[1] ""
+"تعذّر إنشاء %(counter)s من المكوّنات وتحتاج إلى مراجعتك. راجع المساق قبل "
+"نشره."
+msgstr[2] ""
+"تعذّر إنشاء %(counter)s من المكوّنات وتحتاج إلى مراجعتك. راجع المساق قبل "
+"نشره."
+msgstr[3] ""
+"تعذّر إنشاء %(counter)s من المكوّنات وتحتاج إلى مراجعتك. راجع المساق قبل "
+"نشره."
+msgstr[4] ""
+"تعذّر إنشاء %(counter)s من المكوّنات وتحتاج إلى مراجعتك. راجع المساق قبل "
+"نشره."
+msgstr[5] ""
+"تعذّر إنشاء %(counter)s من المكوّنات وتحتاج إلى مراجعتك. راجع المساق قبل "
+"نشره."
+
+msgid "Open in Studio"
+msgstr "افتح في Studio"
+
+msgid "If the button doesn't work, copy this link into your browser:"
+msgstr "إذا لم يعمل الزر، فانسخ هذا الرابط في متصفحك:"
+
+msgid "View it as a learner"
+msgstr "اعرضه بصفتك متعلمًا"
+
+msgid "Course ID: %(course_key)s"
+msgstr "معرّف المساق: %(course_key)s"
+
+msgid ""
+"You got this email because you generated this course with the AI Course "
+"Creator."
+msgstr "تلقيت هذه الرسالة لأنك أنشأت هذا المساق باستخدام منشئ المساقات بـ AI."
+
+msgid ""
+"Your AI-generated course \"%(course_title)s\" has finished building and is "
+"ready in Studio."
+msgstr ""
+"اكتمل بناء مساقك المُنشأ بالذكاء الاصطناعي \"%(course_title)s\" وأصبح جاهزًا"
+" في Studio."
+
+msgid "Open it in Studio: %(studio_url)s"
+msgstr "افتحه في Studio: %(studio_url)s"
+
+msgid "View it as a learner: %(lms_url)s"
+msgstr "اعرضه بصفتك متعلمًا: %(lms_url)s"
+
+msgid "Your course \"%(course_title)s\" is ready"
+msgstr "مساقك \"%(course_title)s\" جاهز"

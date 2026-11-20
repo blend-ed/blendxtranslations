@@ -10,7 +10,117 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid ""
+"Either 'prompts' list or 'prompt' with 'problem_count'/'problem_types' must "
+"be provided"
+msgstr ""
+"Se debe proporcionar una lista 'prompts' o un 'prompt' con "
+"'problem_count'/'problem_types'"
+
+msgid "Invalid problem type: {ptype}. Valid types: {valid_types}"
+msgstr "Tipo de problema no válido: {ptype}. Tipos válidos: {valid_types}"
+
+msgid ""
+"Sum of problem_types counts ({total}) does not match problem_count ({count})"
+msgstr ""
+"La suma de los recuentos de problem_types ({total}) no coincide con "
+"problem_count ({count})"
+
+msgid "Failed to generate OLX"
+msgstr "No se ha podido generar el OLX"
+
+msgid "Required query parameter"
+msgstr "Parámetro de consulta obligatorio"
+
+msgid "Generated OLX failed validation after {attempts} attempts: {error}"
+msgstr ""
+"El OLX generado no ha superado la validación tras {attempts} intentos: "
+"{error}"
+
+msgid "Rate limit error: {error}"
+msgstr "Error de límite de solicitudes: {error}"
+
+msgid "Timeout error: {error}"
+msgstr "Error de tiempo de espera: {error}"
+
+msgid "Invalid request to LLM API: {error}"
+msgstr "Solicitud no válida a la API del LLM: {error}"
+
+msgid "LLM API error: {error}"
+msgstr "Error de la API del LLM: {error}"
+
+msgid "Failed to generate OLX: {error}"
+msgstr "No se ha podido generar el OLX: {error}"
+
+msgid "Failed to generate OLX after all retry attempts"
+msgstr "No se ha podido generar el OLX tras todos los reintentos"
+
+msgid ""
 "Dummy text to generate a translation (.po) source file. It is safe to delete"
 " this line. It is also safe to delete (load i18n) above if there are no "
 "other (trans) tags in the file"
 msgstr ""
+"Texto de relleno para generar un archivo fuente de traducción (.po). Puede "
+"eliminar esta línea sin problemas. También puede eliminar (load i18n) de "
+"arriba si no hay otras etiquetas (trans) en el archivo"
+
+msgid ""
+"Unsupported file type: {file_extension}. Supported types: PDF, DOCX, PPTX"
+msgstr ""
+"Tipo de archivo no admitido: {file_extension}. Tipos admitidos: PDF, DOCX, "
+"PPTX"
+
+msgid "Failed to extract text from {filename}: {error}"
+msgstr "No se ha podido extraer el texto de {filename}: {error}"
+
+msgid "No documents could be processed successfully"
+msgstr "No se ha podido procesar correctamente ningún documento"
+
+msgid "No text content found in PDF"
+msgstr "No se ha encontrado contenido de texto en el PDF"
+
+msgid "No text content found in Word document"
+msgstr "No se ha encontrado contenido de texto en el documento de Word"
+
+msgid "No text content found in PowerPoint presentation"
+msgstr ""
+"No se ha encontrado contenido de texto en la presentación de PowerPoint"
+
+msgid "Invalid library key format: {error}"
+msgstr "Formato de clave de biblioteca no válido: {error}"
+
+msgid "Invalid usage key format: {error}"
+msgstr "Formato de clave de uso no válido: {error}"
+
+msgid "Permission denied: {error}"
+msgstr "Permiso denegado: {error}"
+
+msgid "Invalid block type '{block_type}': {error}"
+msgstr "Tipo de bloque '{block_type}' no válido: {error}"
+
+msgid ""
+"Cannot add problem directly to {container_type}. Problems can only be added "
+"to collections or units."
+msgstr ""
+"No se puede añadir un problema directamente a {container_type}. Los "
+"problemas solo se pueden añadir a colecciones o unidades."
+
+msgid ""
+"Cannot add problems directly to {container_type}. Problems can only be added"
+" to collections or units."
+msgstr ""
+"No se pueden añadir problemas directamente a {container_type}. Los problemas"
+" solo se pueden añadir a colecciones o unidades."
+
+msgid "OLX string cannot be empty"
+msgstr "La cadena OLX no puede estar vacía"
+
+msgid "Invalid XML syntax: {error}"
+msgstr "Sintaxis XML no válida: {error}"
+
+msgid "Error parsing XML: {error}"
+msgstr "Error al analizar el XML: {error}"
+
+msgid "Root tag mismatch: expected '<{expected}>', found '<{found}>'"
+msgstr ""
+"La etiqueta raíz no coincide: se esperaba '<{expected}>' y se encontró "
+"'<{found}>'"

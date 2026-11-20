@@ -1,0 +1,149 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xblock-blendx-session\n"
+"Report-Msgid-Bugs-To: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Only the dates offered to the learner's Batch"
+msgstr "Nur die Termine, die dem Durchgang des Lernenden angeboten werden"
+
+msgid "Any open date inside the learner's access window"
+msgstr "Jeder offene Termin innerhalb des Zugangszeitraums des Lernenden"
+
+msgid "This Session unlocks after an earlier step."
+msgstr "Diese Session wird nach einem früheren Schritt freigeschaltet."
+
+msgid "Choose a date to book your place."
+msgstr "Wählen Sie einen Termin, um Ihren Platz zu buchen."
+
+msgid "Your organisation will book your Session."
+msgstr "Ihre Organisation bucht Ihre Session."
+
+msgid "You're booked."
+msgstr "Sie sind gebucht."
+
+msgid ""
+"You're on the waitlist. You'll be booked automatically if a place frees up."
+msgstr ""
+"Sie stehen auf der Warteliste. Sie werden automatisch gebucht, sobald ein "
+"Platz frei wird."
+
+msgid "You attended this Session."
+msgstr "Sie haben an dieser Session teilgenommen."
+
+msgid "You missed this Session."
+msgstr "Sie haben diese Session verpasst."
+
+msgid "You don't have access to this Session."
+msgstr "Sie haben keinen Zugriff auf diese Session."
+
+msgid "Display name"
+msgstr "Anzeigename"
+
+msgid "Live Session"
+msgstr "Live-Session"
+
+msgid "Session"
+msgstr "Session"
+
+msgid "The stand-alone Session this unit links to."
+msgstr "Die eigenständige Session, mit der diese Einheit verknüpft ist."
+
+msgid "Required"
+msgstr "Erforderlich"
+
+msgid ""
+"Learners must complete the Session to complete this part of the Course."
+msgstr ""
+"Lernende müssen die Session abschließen, um diesen Teil des Kurses "
+"abzuschließen."
+
+msgid "Which dates learners may book"
+msgstr "Welche Termine Lernende buchen dürfen"
+
+msgid "Booking opens here when it's available."
+msgstr "Die Buchung wird hier geöffnet, sobald sie verfügbar ist."
+
+msgid "Optional"
+msgstr "Optional"
+
+msgid "Choose a Session."
+msgstr "Wählen Sie eine Session."
+
+msgid "The Session no longer exists or can't be linked here."
+msgstr ""
+"Die Session existiert nicht mehr oder kann hier nicht verknüpft werden."
+
+msgid "The Session isn't published, so the link won't sync at publish."
+msgstr ""
+"Die Session ist nicht veröffentlicht, daher wird der Link beim "
+"Veröffentlichen nicht synchronisiert."
+
+msgid "Choose which dates learners may book."
+msgstr "Wählen Sie, welche Termine Lernende buchen dürfen."
+
+msgid "(no Session selected)"
+msgstr "(keine Session ausgewählt)"
+
+msgid "Yes"
+msgstr "Ja"
+
+msgid "No"
+msgstr "Nein"
+
+msgid "Only course staff can change this block."
+msgstr "Nur Kursmitarbeiter können diesen Block ändern."
+
+msgid "The form wasn't sent correctly."
+msgstr "Das Formular wurde nicht korrekt gesendet."
+
+msgid "Choose a Session from the list."
+msgstr "Wählen Sie eine Session aus der Liste."
+
+msgid "That Session can't be linked here."
+msgstr "Diese Session kann hier nicht verknüpft werden."
+
+msgid "Required is yes or no."
+msgstr "„Erforderlich“ muss Ja oder Nein sein."
+
+msgid "Kind"
+msgstr "Art"
+
+msgid "Upcoming dates"
+msgstr "Anstehende Termine"
+
+msgid "Dates learners may book"
+msgstr "Von Lernenden buchbare Termine"
+
+msgid "Limit to modes"
+msgstr "Auf Modi beschränken"
+
+msgid "Use \"Restrict access\" on this component."
+msgstr "Verwenden Sie „Zugriff beschränken“ in dieser Komponente."
+
+msgid "This Session isn't available yet."
+msgstr "Diese Session ist noch nicht verfügbar."
+
+msgid "Choose a Session"
+msgstr "Session auswählen"
+
+msgid "Required to complete this part of the Course"
+msgstr "Erforderlich, um diesen Teil des Kurses abzuschließen"
+
+msgid ""
+"To limit it to some learning modes, use \"Restrict access\" on the "
+"component."
+msgstr ""
+"Um sie auf bestimmte Lernmodi zu beschränken, verwenden Sie „Zugriff "
+"beschränken“ in der Komponente."
+
+msgid "Save"
+msgstr "Speichern"
+
+msgid "Cancel"
+msgstr "Abbrechen"

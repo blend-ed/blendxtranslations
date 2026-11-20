@@ -9,8 +9,218 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
+msgid "An error occurred while processing your request. Please try again."
+msgstr "リクエストの処理中にエラーが発生しました。もう一度お試しください。"
+
+msgid "Course not found"
+msgstr "講座が見つかりません"
+
+msgid "No units found in course structure"
+msgstr "講座構成に単元が見つかりません"
+
+msgid "AI service is not configured"
+msgstr "AI サービスが設定されていません"
+
+msgid "Unit not found"
+msgstr "単元が見つかりません"
+
+msgid "AI returned invalid format"
+msgstr "AI が無効な形式を返しました"
+
+msgid "Component not found"
+msgstr "コンポーネントが見つかりません"
+
+msgid "AI returned invalid structure format"
+msgstr "AI が無効な構造形式を返しました"
+
+msgid "course_creation_id is required."
+msgstr "course_creation_id は必須です。"
+
+msgid "org, number, and run are all required."
+msgstr "org、number、run はすべて必須です。"
+
+msgid "Courses can only be created in your organisation."
+msgstr "講座は自分の組織内でのみ作成できます。"
+
+msgid "You do not have permission to create courses."
+msgstr "講座を作成する権限がありません。"
+
+msgid "Course not found."
+msgstr "講座が見つかりません。"
+
+msgid "You do not have access to this course."
+msgstr "この講座へのアクセス権がありません。"
+
+msgid ""
+"Course must be in script_generation, outline_creation, or failed stage. "
+"Current: {stage}"
+msgstr ""
+"講座は script_generation、outline_creation、または failed の段階である必要があります。現在: {stage}"
+
+msgid ""
+"Choose a video type (static link or AI avatar) in the Course Brief before "
+"building."
+msgstr "作成する前に、講座概要で動画の種類（静的リンクまたは AI アバター）を選択してください。"
+
+msgid ""
+"AI usage has been disabled for your account. Please contact your "
+"organisation admin."
+msgstr "あなたのアカウントでは AI の利用が無効になっています。組織の管理者にお問い合わせください。"
+
+msgid ""
+"Your organisation's AI credits are exhausted. Contact your admin to allocate"
+" more."
+msgstr "組織の AI クレジットを使い切りました。追加の割り当てについては管理者にお問い合わせください。"
+
+msgid ""
+"This session's course is live and can't be rebuilt. Start a new AI Studio "
+"session to create another course."
+msgstr "このセッションの講座は公開中のため、再作成できません。別の講座を作成するには、新しい AI Studio セッションを開始してください。"
+
+msgid "Message is required."
+msgstr "メッセージは必須です。"
+
+msgid "An .srt transcript file is required to create a course from a video."
+msgstr "動画から講座を作成するには .srt 字幕ファイルが必要です。"
+
+msgid "That video is not in your organisation's video library."
+msgstr "その動画は組織の動画ライブラリにありません。"
+
+msgid "That .srt file has no timed subtitles, or is larger than 2 MB."
+msgstr "その .srt ファイルにはタイミング付きの字幕がないか、2 MB を超えています。"
+
+msgid "A 'key' is required."
+msgstr "'key' は必須です。"
+
+msgid "The '{key}' field is read-only."
+msgstr "'{key}' フィールドは読み取り専用です。"
+
+msgid "You do not have access to AI Studio for this organisation."
+msgstr "この組織の AI Studio へのアクセス権がありません。"
+
+msgid ""
+"You do not have permission to manage AI Studio prompts for this "
+"organisation."
+msgstr "この組織の AI Studio プロンプトを管理する権限がありません。"
+
+msgid ""
+"Course must be in outline_creation, component_plan, or script_generation "
+"stage. Current: {stage}"
+msgstr ""
+"講座は outline_creation、component_plan、または script_generation の段階である必要があります。現在: "
+"{stage}"
+
+msgid "course_creation_id and unit_id are required."
+msgstr "course_creation_id と unit_id は必須です。"
+
+msgid "Access denied."
+msgstr "アクセスが拒否されました。"
+
+msgid ""
+"Course must be in outline_creation or component_plan stage. Current: {stage}"
+msgstr "講座は outline_creation または component_plan の段階である必要があります。現在: {stage}"
+
+msgid "component_types must be a non-empty list."
+msgstr "component_types は空でないリストである必要があります。"
+
+msgid "Invalid component types: {invalid_types}. Valid types: {valid_types}"
+msgstr "無効なコンポーネントタイプ: {invalid_types}。有効なタイプ: {valid_types}"
+
+msgid "component_id is required."
+msgstr "component_id は必須です。"
+
+msgid "instruction is required."
+msgstr "instruction は必須です。"
+
+msgid "Component not found."
+msgstr "コンポーネントが見つかりません。"
+
+msgid "You do not have access to this component."
+msgstr "このコンポーネントへのアクセス権がありません。"
+
+msgid "script is required."
+msgstr "script は必須です。"
+
+msgid "name is required."
+msgstr "name は必須です。"
+
+msgid "Node not found."
+msgstr "ノードが見つかりません。"
+
+msgid "course_creation_id, hierarchy, and name are required."
+msgstr "course_creation_id、hierarchy、name は必須です。"
+
+msgid "hierarchy must be section, subsection, or unit."
+msgstr "hierarchy は section、subsection、unit のいずれかである必要があります。"
+
+msgid "Parent node not found."
+msgstr "親ノードが見つかりません。"
+
+msgid "node_ids array is required."
+msgstr "node_ids 配列は必須です。"
+
+msgid "Some nodes not found."
+msgstr "一部のノードが見つかりません。"
+
+msgid "All nodes must belong to the same course."
+msgstr "すべてのノードは同じ講座に属している必要があります。"
+
 msgid ""
 "Dummy text to generate a translation (.po) source file. It is safe to delete"
 " this line. It is also safe to delete (load i18n) above if there are no "
 "other (trans) tags in the file"
 msgstr ""
+"翻訳(.po)ソースファイルを生成するためのダミーテキストです。この行は削除しても問題ありません。ファイル内に他の(trans)タグがない場合は、上の(load"
+" i18n)も削除して問題ありません"
+
+msgid "Your course is ready"
+msgstr "講座の準備が整いました"
+
+msgid "Hi %(full_name)s,"
+msgstr "%(full_name)s様"
+
+msgid ""
+"Your AI-generated course %(start_strong)s%(course_title)s%(end_strong)s has "
+"finished building and is ready in Studio."
+msgstr ""
+"AI で生成した講座 %(start_strong)s%(course_title)s%(end_strong)s の作成が完了し、Studio "
+"で利用できるようになりました。"
+
+msgid ""
+"%(counter)s component could not be generated and needs your attention. "
+"Review the course before you publish it."
+msgid_plural ""
+"%(counter)s components could not be generated and need your attention. "
+"Review the course before you publish it."
+msgstr[0] "%(counter)s件のコンポーネントを生成できなかったため、確認が必要です。公開する前に講座を確認してください。"
+
+msgid "Open in Studio"
+msgstr "Studio で開く"
+
+msgid "If the button doesn't work, copy this link into your browser:"
+msgstr "ボタンが機能しない場合は、このリンクをブラウザにコピーしてください："
+
+msgid "View it as a learner"
+msgstr "学習者として表示"
+
+msgid "Course ID: %(course_key)s"
+msgstr "講座 ID: %(course_key)s"
+
+msgid ""
+"You got this email because you generated this course with the AI Course "
+"Creator."
+msgstr "このメールは、AI 講座作成ツールでこの講座を生成されたため送信されました。"
+
+msgid ""
+"Your AI-generated course \"%(course_title)s\" has finished building and is "
+"ready in Studio."
+msgstr "AI で生成した講座「%(course_title)s」の作成が完了し、Studio で利用できるようになりました。"
+
+msgid "Open it in Studio: %(studio_url)s"
+msgstr "Studio で開く: %(studio_url)s"
+
+msgid "View it as a learner: %(lms_url)s"
+msgstr "学習者として表示: %(lms_url)s"
+
+msgid "Your course \"%(course_title)s\" is ready"
+msgstr "講座「%(course_title)s」の準備が整いました"

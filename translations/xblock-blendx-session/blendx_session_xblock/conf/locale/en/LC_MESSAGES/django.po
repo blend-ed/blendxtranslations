@@ -1,0 +1,144 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xblock-blendx-session\n"
+"Report-Msgid-Bugs-To: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Only the dates offered to the learner's Batch"
+msgstr "Only the dates offered to the learner's Batch"
+
+msgid "Any open date inside the learner's access window"
+msgstr "Any open date inside the learner's access window"
+
+msgid "This Session unlocks after an earlier step."
+msgstr "This Session unlocks after an earlier step."
+
+msgid "Choose a date to book your place."
+msgstr "Choose a date to book your place."
+
+msgid "Your organisation will book your Session."
+msgstr "Your organisation will book your Session."
+
+msgid "You're booked."
+msgstr "You're booked."
+
+msgid ""
+"You're on the waitlist. You'll be booked automatically if a place frees up."
+msgstr ""
+"You're on the waitlist. You'll be booked automatically if a place frees up."
+
+msgid "You attended this Session."
+msgstr "You attended this Session."
+
+msgid "You missed this Session."
+msgstr "You missed this Session."
+
+msgid "You don't have access to this Session."
+msgstr "You don't have access to this Session."
+
+msgid "Display name"
+msgstr "Display name"
+
+msgid "Live Session"
+msgstr "Live Session"
+
+msgid "Session"
+msgstr "Session"
+
+msgid "The stand-alone Session this unit links to."
+msgstr "The stand-alone Session this unit links to."
+
+msgid "Required"
+msgstr "Required"
+
+msgid ""
+"Learners must complete the Session to complete this part of the Course."
+msgstr ""
+"Learners must complete the Session to complete this part of the Course."
+
+msgid "Which dates learners may book"
+msgstr "Which dates learners may book"
+
+msgid "Booking opens here when it's available."
+msgstr "Booking opens here when it's available."
+
+msgid "Optional"
+msgstr "Optional"
+
+msgid "Choose a Session."
+msgstr "Choose a Session."
+
+msgid "The Session no longer exists or can't be linked here."
+msgstr "The Session no longer exists or can't be linked here."
+
+msgid "The Session isn't published, so the link won't sync at publish."
+msgstr "The Session isn't published, so the link won't sync at publish."
+
+msgid "Choose which dates learners may book."
+msgstr "Choose which dates learners may book."
+
+msgid "(no Session selected)"
+msgstr "(no Session selected)"
+
+msgid "Yes"
+msgstr "Yes"
+
+msgid "No"
+msgstr "No"
+
+msgid "Only course staff can change this block."
+msgstr "Only course staff can change this block."
+
+msgid "The form wasn't sent correctly."
+msgstr "The form wasn't sent correctly."
+
+msgid "Choose a Session from the list."
+msgstr "Choose a Session from the list."
+
+msgid "That Session can't be linked here."
+msgstr "That Session can't be linked here."
+
+msgid "Required is yes or no."
+msgstr "Required is yes or no."
+
+msgid "Kind"
+msgstr "Kind"
+
+msgid "Upcoming dates"
+msgstr "Upcoming dates"
+
+msgid "Dates learners may book"
+msgstr "Dates learners may book"
+
+msgid "Limit to modes"
+msgstr "Limit to modes"
+
+msgid "Use \"Restrict access\" on this component."
+msgstr "Use \"Restrict access\" on this component."
+
+msgid "This Session isn't available yet."
+msgstr "This Session isn't available yet."
+
+msgid "Choose a Session"
+msgstr "Choose a Session"
+
+msgid "Required to complete this part of the Course"
+msgstr "Required to complete this part of the Course"
+
+msgid ""
+"To limit it to some learning modes, use \"Restrict access\" on the "
+"component."
+msgstr ""
+"To limit it to some learning modes, use \"Restrict access\" on the "
+"component."
+
+msgid "Save"
+msgstr "Save"
+
+msgid "Cancel"
+msgstr "Cancel"

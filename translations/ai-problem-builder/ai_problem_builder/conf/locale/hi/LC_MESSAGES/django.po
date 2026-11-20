@@ -10,7 +10,112 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid ""
+"Either 'prompts' list or 'prompt' with 'problem_count'/'problem_types' must "
+"be provided"
+msgstr ""
+"या तो 'prompts' सूची या 'problem_count'/'problem_types' के साथ 'prompt' "
+"प्रदान किया जाना चाहिए"
+
+msgid "Invalid problem type: {ptype}. Valid types: {valid_types}"
+msgstr "अमान्य समस्या प्रकार: {ptype}। मान्य प्रकार: {valid_types}"
+
+msgid ""
+"Sum of problem_types counts ({total}) does not match problem_count ({count})"
+msgstr ""
+"problem_types गणनाओं का योग ({total}) problem_count ({count}) से मेल नहीं "
+"खाता"
+
+msgid "Failed to generate OLX"
+msgstr "OLX जनरेट करने में विफल"
+
+msgid "Required query parameter"
+msgstr "आवश्यक क्वेरी पैरामीटर"
+
+msgid "Generated OLX failed validation after {attempts} attempts: {error}"
+msgstr ""
+"जनरेट किया गया OLX {attempts} प्रयासों के बाद सत्यापन में विफल रहा: {error}"
+
+msgid "Rate limit error: {error}"
+msgstr "दर सीमा त्रुटि: {error}"
+
+msgid "Timeout error: {error}"
+msgstr "टाइमआउट त्रुटि: {error}"
+
+msgid "Invalid request to LLM API: {error}"
+msgstr "LLM API को अमान्य अनुरोध: {error}"
+
+msgid "LLM API error: {error}"
+msgstr "LLM API त्रुटि: {error}"
+
+msgid "Failed to generate OLX: {error}"
+msgstr "OLX जनरेट करने में विफल: {error}"
+
+msgid "Failed to generate OLX after all retry attempts"
+msgstr "सभी पुनः प्रयासों के बाद भी OLX जनरेट करने में विफल"
+
+msgid ""
 "Dummy text to generate a translation (.po) source file. It is safe to delete"
 " this line. It is also safe to delete (load i18n) above if there are no "
 "other (trans) tags in the file"
 msgstr ""
+"अनुवाद (.po) स्रोत फ़ाइल बनाने के लिए डमी टेक्स्ट। इस पंक्ति को हटाना "
+"सुरक्षित है। यदि फ़ाइल में कोई अन्य (trans) टैग नहीं है, तो ऊपर (load i18n) "
+"को हटाना भी सुरक्षित है"
+
+msgid ""
+"Unsupported file type: {file_extension}. Supported types: PDF, DOCX, PPTX"
+msgstr ""
+"असमर्थित फ़ाइल प्रकार: {file_extension}। समर्थित प्रकार: PDF, DOCX, PPTX"
+
+msgid "Failed to extract text from {filename}: {error}"
+msgstr "{filename} से टेक्स्ट निकालने में विफल: {error}"
+
+msgid "No documents could be processed successfully"
+msgstr "किसी भी दस्तावेज़ को सफलतापूर्वक संसाधित नहीं किया जा सका"
+
+msgid "No text content found in PDF"
+msgstr "PDF में कोई टेक्स्ट सामग्री नहीं मिली"
+
+msgid "No text content found in Word document"
+msgstr "Word दस्तावेज़ में कोई टेक्स्ट सामग्री नहीं मिली"
+
+msgid "No text content found in PowerPoint presentation"
+msgstr "PowerPoint प्रस्तुति में कोई टेक्स्ट सामग्री नहीं मिली"
+
+msgid "Invalid library key format: {error}"
+msgstr "अमान्य पुस्तकालय key फ़ॉर्मैट: {error}"
+
+msgid "Invalid usage key format: {error}"
+msgstr "अमान्य usage key फ़ॉर्मैट: {error}"
+
+msgid "Permission denied: {error}"
+msgstr "अनुमति अस्वीकृत: {error}"
+
+msgid "Invalid block type '{block_type}': {error}"
+msgstr "अमान्य ब्लॉक प्रकार '{block_type}': {error}"
+
+msgid ""
+"Cannot add problem directly to {container_type}. Problems can only be added "
+"to collections or units."
+msgstr ""
+"{container_type} में सीधे समस्या नहीं जोड़ी जा सकती। समस्याएँ केवल संग्रहों "
+"या इकाइयों में जोड़ी जा सकती हैं।"
+
+msgid ""
+"Cannot add problems directly to {container_type}. Problems can only be added"
+" to collections or units."
+msgstr ""
+"{container_type} में सीधे समस्याएँ नहीं जोड़ी जा सकतीं। समस्याएँ केवल "
+"संग्रहों या इकाइयों में जोड़ी जा सकती हैं।"
+
+msgid "OLX string cannot be empty"
+msgstr "OLX स्ट्रिंग खाली नहीं हो सकती"
+
+msgid "Invalid XML syntax: {error}"
+msgstr "अमान्य XML सिंटैक्स: {error}"
+
+msgid "Error parsing XML: {error}"
+msgstr "XML पार्स करने में त्रुटि: {error}"
+
+msgid "Root tag mismatch: expected '<{expected}>', found '<{found}>'"
+msgstr "रूट टैग मेल नहीं खाता: अपेक्षित '<{expected}>', मिला '<{found}>'"

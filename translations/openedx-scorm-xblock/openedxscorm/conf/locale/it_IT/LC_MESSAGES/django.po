@@ -10,99 +10,109 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "Display Name"
-msgstr ""
+msgstr "Nome visualizzato"
 
 msgid "Display name for this module"
-msgstr ""
+msgstr "Nome visualizzato per questo modulo"
 
 msgid "Path to the index page in scorm file"
-msgstr ""
+msgstr "Percorso della pagina index nel file SCORM"
 
 msgid "Weight"
-msgstr ""
+msgstr "Peso"
 
 msgid "Weight/Maximum grade"
-msgstr ""
+msgstr "Peso/Voto massimo"
 
 msgid "Scored"
-msgstr ""
+msgstr "Con punteggio"
 
 msgid ""
 "Select False if this component will not receive a numerical score from the "
 "Scorm"
 msgstr ""
+"Seleziona Falso se questo componente non riceverà un punteggio numerico "
+"dallo SCORM"
 
 msgid "Display width (px)"
-msgstr ""
+msgstr "Larghezza di visualizzazione (px)"
 
 msgid "Width of iframe (default: 100%)"
-msgstr ""
+msgstr "Larghezza dell'iframe (predefinita: 100%)"
 
 msgid "Display height (px)"
-msgstr ""
+msgstr "Altezza di visualizzazione (px)"
 
 msgid "Height of iframe"
-msgstr ""
+msgstr "Altezza dell'iframe"
 
 msgid "Launch in pop-up window"
-msgstr ""
+msgstr "Avvia in una finestra pop-up"
 
 msgid ""
 "Launch in pop-up window instead of embedding the SCORM content in an iframe."
 " Enable this for older packages that need to be run in separate window."
 msgstr ""
+"Avvia in una finestra pop-up invece di incorporare il contenuto SCORM in un "
+"iframe. Attivalo per i pacchetti meno recenti che devono essere eseguiti in "
+"una finestra separata."
 
 msgid "Display navigation menu"
-msgstr ""
+msgstr "Mostra il menu di navigazione"
 
 msgid ""
 "Select True to display a navigation menu on the left side to display table "
 "of contents"
 msgstr ""
+"Seleziona Vero per mostrare a sinistra un menu di navigazione con l'indice "
+"dei contenuti"
 
 msgid "Show Fullscreen Button"
-msgstr ""
+msgstr "Mostra il pulsante schermo intero"
 
 msgid "Select True to show fullscreen button in the SCORM content"
 msgstr ""
+"Seleziona Vero per mostrare il pulsante schermo intero nel contenuto SCORM"
 
 msgid "Display width of navigation menu(px)"
-msgstr ""
+msgstr "Larghezza di visualizzazione del menu di navigazione (px)"
 
 msgid ""
 "Width of navigation menu. This assumes that Navigation Menu is enabled. "
 "(default: 30%)"
 msgstr ""
+"Larghezza del menu di navigazione. Presuppone che il menu di navigazione sia"
+" attivato. (predefinita: 30%)"
 
 msgid "points"
-msgstr ""
+msgstr "punti"
 
 msgid "Fullscreen"
-msgstr ""
+msgstr "Schermo intero"
 
 msgid "Exit fullscreen"
-msgstr ""
+msgstr "Esci da schermo intero"
 
 msgid "Launch unit in new window"
-msgstr ""
+msgstr "Avvia l'unità in una nuova finestra"
 
 msgid "View SCORM reports"
-msgstr ""
+msgstr "Vedi i report SCORM"
 
 msgid "Upload .zip package"
-msgstr ""
+msgstr "Carica il pacchetto .zip"
 
 msgid "Currently:"
-msgstr ""
+msgstr "Attuale:"
 
 msgid "True"
-msgstr ""
+msgstr "Vero"
 
 msgid "False"
-msgstr ""
+msgstr "Falso"
 
 msgid "Save"
-msgstr ""
+msgstr "Salva"
 
 msgid "Cancel"
-msgstr ""
+msgstr "Annulla"

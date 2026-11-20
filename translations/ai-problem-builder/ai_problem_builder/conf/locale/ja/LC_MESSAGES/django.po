@@ -10,7 +10,103 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid ""
+"Either 'prompts' list or 'prompt' with 'problem_count'/'problem_types' must "
+"be provided"
+msgstr ""
+"'prompts' リスト、または 'problem_count'/'problem_types' を伴う 'prompt' "
+"のいずれかを指定する必要があります"
+
+msgid "Invalid problem type: {ptype}. Valid types: {valid_types}"
+msgstr "無効な問題タイプ: {ptype}。有効なタイプ: {valid_types}"
+
+msgid ""
+"Sum of problem_types counts ({total}) does not match problem_count ({count})"
+msgstr "problem_types の合計数（{total}）が problem_count（{count}）と一致しません"
+
+msgid "Failed to generate OLX"
+msgstr "OLX を生成できませんでした"
+
+msgid "Required query parameter"
+msgstr "必須のクエリパラメーター"
+
+msgid "Generated OLX failed validation after {attempts} attempts: {error}"
+msgstr "生成された OLX は {attempts} 回の試行後も検証に失敗しました: {error}"
+
+msgid "Rate limit error: {error}"
+msgstr "レート制限エラー: {error}"
+
+msgid "Timeout error: {error}"
+msgstr "タイムアウトエラー: {error}"
+
+msgid "Invalid request to LLM API: {error}"
+msgstr "LLM API への無効なリクエスト: {error}"
+
+msgid "LLM API error: {error}"
+msgstr "LLM API エラー: {error}"
+
+msgid "Failed to generate OLX: {error}"
+msgstr "OLX の生成に失敗しました: {error}"
+
+msgid "Failed to generate OLX after all retry attempts"
+msgstr "すべての再試行後も OLX を生成できませんでした"
+
+msgid ""
 "Dummy text to generate a translation (.po) source file. It is safe to delete"
 " this line. It is also safe to delete (load i18n) above if there are no "
 "other (trans) tags in the file"
 msgstr ""
+"翻訳(.po)ソースファイルを生成するためのダミーテキストです。この行は削除しても問題ありません。ファイル内に他の(trans)タグがない場合は、上の(load"
+" i18n)も削除して問題ありません"
+
+msgid ""
+"Unsupported file type: {file_extension}. Supported types: PDF, DOCX, PPTX"
+msgstr "サポートされていないファイル形式: {file_extension}。サポートされている形式: PDF、DOCX、PPTX"
+
+msgid "Failed to extract text from {filename}: {error}"
+msgstr "{filename} からテキストを抽出できませんでした: {error}"
+
+msgid "No documents could be processed successfully"
+msgstr "正常に処理できたドキュメントがありません"
+
+msgid "No text content found in PDF"
+msgstr "PDF にテキストコンテンツが見つかりません"
+
+msgid "No text content found in Word document"
+msgstr "Word 文書にテキストコンテンツが見つかりません"
+
+msgid "No text content found in PowerPoint presentation"
+msgstr "PowerPoint プレゼンテーションにテキストコンテンツが見つかりません"
+
+msgid "Invalid library key format: {error}"
+msgstr "無効なライブラリキー形式: {error}"
+
+msgid "Invalid usage key format: {error}"
+msgstr "無効な使用キー形式: {error}"
+
+msgid "Permission denied: {error}"
+msgstr "権限がありません: {error}"
+
+msgid "Invalid block type '{block_type}': {error}"
+msgstr "無効なブロックタイプ '{block_type}': {error}"
+
+msgid ""
+"Cannot add problem directly to {container_type}. Problems can only be added "
+"to collections or units."
+msgstr "{container_type} に問題を直接追加することはできません。問題はコレクションまたは単元にのみ追加できます。"
+
+msgid ""
+"Cannot add problems directly to {container_type}. Problems can only be added"
+" to collections or units."
+msgstr "{container_type} に問題を直接追加することはできません。問題はコレクションまたは単元にのみ追加できます。"
+
+msgid "OLX string cannot be empty"
+msgstr "OLX 文字列は空にできません"
+
+msgid "Invalid XML syntax: {error}"
+msgstr "無効な XML 構文: {error}"
+
+msgid "Error parsing XML: {error}"
+msgstr "XML の解析エラー: {error}"
+
+msgid "Root tag mismatch: expected '<{expected}>', found '<{found}>'"
+msgstr "ルートタグが一致しません: '<{expected}>' が必要ですが、'<{found}>' が見つかりました"

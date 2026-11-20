@@ -9,132 +9,2305 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-msgid "{name}, you earned a Program certificate!"
+msgid "Someone"
+msgstr "누군가"
+
+msgid "You're invited to teach"
+msgstr "강사로 초대되었습니다"
+
+#. Translators: %(name)s is the invitee's first name; "Hi there," is the
+#. greeting without one.
+msgid "Hi %(name)s,"
+msgstr "%(name)s 님, 안녕하세요."
+
+#. Translators: the greeting when the email's sender doesn't know the person's
+#. name.
+msgid "Hi there,"
+msgstr "회원님, 안녕하세요."
+
+#. Translators: %(inviter)s is the name of the person who sent the invitation.
+msgid ""
+"%(inviter)s added you as an instructor. You'll see the sessions you teach, "
+"your learners and their progress."
+msgstr "%(inviter)s 님이 회원님을 강사로 추가했습니다. 담당 세션, 학습자 및 학습 진행 상황을 확인할 수 있습니다."
+
+msgid "Set up your account"
+msgstr "계정 설정"
+
+msgid "This invitation expires on %(day)s."
+msgstr "이 초대는 %(day)s에 만료됩니다."
+
+msgid "You got this email because %(inviter)s invited %(email)s to teach."
+msgstr "%(inviter)s 님이 %(email)s 님을 강사로 초대하여 이 이메일이 발송되었습니다."
+
+msgid "%(count)s seat"
+msgid_plural "%(count)s seats"
+msgstr[0] "좌석 %(count)s개"
+
+#. Translators: two seat lists ("20 seats in Fire safety", "5 seats in First
+#. aid"); %(first)s may itself be
+#. two or more lists joined by this same sentence.
+msgid "%(first)s and %(second)s"
+msgstr "%(first)s 및 %(second)s"
+
+#. Translators: %(seats)s is a number of seats ("20 seats"); %(where)s is what
+#. they are for.
+msgid "%(seats)s in %(where)s"
+msgstr "%(where)s의 %(seats)s"
+
+#. Translators: what was bought when the order names no batch, in "Your order
+#. for seats is confirmed".
+msgid "seats"
+msgstr "좌석"
+
+msgid "%(tenant)s's manager"
+msgstr "%(tenant)s 관리자"
+
+msgid "You're invited to manage %(tenant)s"
+msgstr "%(tenant)s 관리에 초대되었습니다"
+
+msgid "You've been invited to manage %(tenant)s."
+msgstr "%(tenant)s 관리에 초대되었습니다."
+
+msgid "Sign in with this email address and open the link below to accept:"
+msgstr "이 이메일 주소로 로그인한 후 아래 링크를 열어 수락하세요."
+
+#. Translators: %(days)s is a number of days.
+msgid ""
+"The link works for %(days)s days. If you ask for a new one, this one stops "
+"working."
+msgstr "이 링크는 %(days)s일 동안 유효합니다. 새 링크를 요청하면 이 링크는 더 이상 작동하지 않습니다."
+
+#. Translators: %(inviter)s is a person's name; %(role)s is the role's name in
+#. bold.
+msgid "%(inviter)s invited you as %(role)s."
+msgstr "%(inviter)s 님이 회원님을 %(role)s(으)로 초대했습니다."
+
+msgid "Hi,"
+msgstr "안녕하세요."
+
+msgid "%(inviter)s invited you to join %(organisation)s as %(role)s."
+msgstr "%(inviter)s 님이 회원님을 %(organisation)s에 %(role)s(으)로 초대했습니다."
+
+msgid "Accept the invitation:"
+msgstr "초대 수락:"
+
+msgid "You're invited to join %(organisation)s"
+msgstr "%(organisation)s에 초대되었습니다"
+
+msgid "Accept the invitation"
+msgstr "초대 수락"
+
+msgid "%(inviter)s gave you the %(role)s role at %(organisation)s."
+msgstr "%(inviter)s 님이 %(organisation)s에서 회원님에게 %(role)s 역할을 부여했습니다."
+
+msgid "Sign in:"
+msgstr "로그인:"
+
+msgid "Your role at %(organisation)s"
+msgstr "%(organisation)s에서의 역할"
+
+#. Translators: %(address)s is the platform's web address.
+msgid ""
+"Hi %(name)s, your platform is live at %(address)s with your logo, colours "
+"and emails set up."
+msgstr "%(name)s 님, 안녕하세요. 로고, 색상, 이메일이 설정된 플랫폼이 %(address)s에서 운영을 시작했습니다."
+
+msgid ""
+"Hi, your platform is live at %(address)s with your logo, colours and emails "
+"set up."
+msgstr "안녕하세요. 로고, 색상, 이메일이 설정된 플랫폼이 %(address)s에서 운영을 시작했습니다."
+
+msgid ""
+"Hi %(name)s, your platform is live with your logo, colours and emails set "
+"up."
+msgstr "%(name)s 님, 안녕하세요. 로고, 색상, 이메일이 설정된 플랫폼이 운영을 시작했습니다."
+
+msgid "Hi, your platform is live with your logo, colours and emails set up."
+msgstr "안녕하세요. 로고, 색상, 이메일이 설정된 플랫폼이 운영을 시작했습니다."
+
+msgid "%(organisation)s is ready"
+msgstr "%(organisation)s 준비가 완료되었습니다"
+
+msgid ""
+"When you sign in, a setup guide walks you through your first course, batch "
+"and team. It takes about 30 minutes."
+msgstr "로그인하면 설정 가이드가 첫 강의, 기수, 팀을 만드는 과정을 안내합니다. 약 30분 정도 걸립니다."
+
+msgid "Sign in"
+msgstr "로그인"
+
+msgid "This link works once and expires on %(day)s."
+msgstr "이 링크는 한 번만 사용할 수 있으며 %(day)s에 만료됩니다."
+
+#. Translators: %(specialist)s is a person's name and email address, or "the
+#. Blend-ed team".
+msgid "Your onboarding specialist is %(specialist)s."
+msgstr "온보딩 담당자는 %(specialist)s입니다."
+
+msgid "You got this email because %(organisation)s was set up for %(email)s."
+msgstr "%(email)s 님을 위해 %(organisation)s이(가) 설정되어 이 이메일이 발송되었습니다."
+
+msgid "the Blend-ed team"
+msgstr "Blend-ed 팀"
+
+msgid "You're invited to learn with %(name)s"
+msgstr "%(name)s 님이 함께 학습하자고 초대했습니다"
+
+msgid "%(name)s has invited you to learn with them."
+msgstr "%(name)s 님이 함께 학습하자고 회원님을 초대했습니다."
+
+#. Translators: %(days)s is a number of days.
+msgid ""
+"The link works for %(days)s days. If a new one is sent, this one stops "
+"working."
+msgstr "이 링크는 %(days)s일 동안 유효합니다. 새 링크가 발송되면 이 링크는 더 이상 작동하지 않습니다."
+
+#. Translators: {date} is the day the link stops working ("19 November 2026").
+msgid ""
+"The link works until {date}. If you didn't ask for this, ignore this email."
+msgstr "이 링크는 {date}까지 유효합니다. 요청하지 않으셨다면 이 이메일을 무시하세요."
+
+#. Translators: {workspace} is the name of the AI workspace being opened.
+msgid "Confirm your {workspace} workspace"
+msgstr "{workspace} 워크스페이스 확인"
+
+#. Translators: {workspace} is the name of the AI workspace being opened.
+msgid ""
+"Someone asked to open the AI workspace \"{workspace}\" with this email "
+"address."
+msgstr "누군가 이 이메일 주소로 AI 워크스페이스 \"{workspace}\"을(를) 열도록 요청했습니다."
+
+msgid ""
+"Sign in, or create an account, with this email address, then open the link "
+"below to confirm it:"
+msgstr "이 이메일 주소로 로그인하거나 계정을 만든 다음 아래 링크를 열어 확인하세요."
+
+msgid ""
+"Sign in, or create an account, with this email address, then confirm the "
+"workspace."
+msgstr "이 이메일 주소로 로그인하거나 계정을 만든 다음 워크스페이스를 확인하세요."
+
+msgid "Confirm your workspace"
+msgstr "워크스페이스 확인"
+
+#. Translators: {email} is the address the workspace was requested for.
+msgid "You got this email because a workspace was requested for {email}."
+msgstr "{email} 주소로 워크스페이스가 요청되어 이 이메일이 발송되었습니다."
+
+#. Translators: {workspace} is the AI workspace's name; {email} the address to
+#. sign in with.
+msgid ""
+"Your AI workspace {workspace} is set up and you manage it. Sign in with "
+"{email} to start building courses with AI."
 msgstr ""
+"AI 워크스페이스 {workspace}이(가) 설정되었으며 회원님이 관리자입니다. {email}(으)로 로그인하여 AI로 강의를 만들어 "
+"보세요."
+
+#. Translators: {workspace} is the AI workspace's name.
+msgid "Your {workspace} workspace is ready"
+msgstr "{workspace} 워크스페이스가 준비되었습니다"
+
+msgid "Pick up where you left off"
+msgstr "중단한 부분부터 계속하세요"
+
+msgid ""
+"You haven't opened your courses for a while. A few minutes today keeps you "
+"on track, and your progress is waiting for you."
+msgstr ""
+"한동안 강의를 열지 않으셨네요. 오늘 몇 분만 투자해도 계획대로 진행할 수 있으며, 학습 진행 상황이 그대로 기다리고 있습니다."
+
+#. Translators: {who} is the person asking, {library} the library's title and
+#. {note} their own message.
+msgid "{who} asks to edit the library {library}. “{note}”"
+msgstr "{who} 님이 라이브러리 {library} 편집 권한을 요청합니다. “{note}”"
+
+msgid "{who} asks to edit the library {library}."
+msgstr "{who} 님이 라이브러리 {library} 편집 권한을 요청합니다."
+
+#. Translators: {library} is the library's title.
+msgid "Access request for {library}"
+msgstr "{library} 액세스 요청"
+
+msgid "{count} open response to grade"
+msgid_plural "{count} open responses to grade"
+msgstr[0] "채점할 서술형 답변 {count}개"
+
+msgid "{count} offline result not entered"
+msgid_plural "{count} offline results not entered"
+msgstr[0] "입력하지 않은 오프라인 결과 {count}건"
+
+#. Translators: {id} is the learner's account number, shown when they have no
+#. name.
+msgid "Learner {id}"
+msgstr "학습자 {id}"
+
+#. Translators: {names} is a comma-separated list of learner names.
+msgid "{count} learner below the passing grade: {names}"
+msgid_plural "{count} learners below the passing grade: {names}"
+msgstr[0] "합격 점수 미달 학습자 {count}명: {names}"
+
+#. Translators: {line} is the list of learners above; {more} how many more are
+#. not named.
+msgid "{line} and {more} more"
+msgstr "{line} 외 {more}건"
+
+#. Translators: {day} is a day and month ("19 November").
+msgid "Your action items for {day}"
+msgstr "{day} 할 일"
+
+msgid "Certificate expired"
+msgstr "인증서 만료"
+
+msgid "Your certificate has expired. Take the course again to renew it."
+msgstr "인증서가 만료되었습니다. 인증서를 갱신하려면 강의를 다시 수강하세요."
+
+msgid "Renew"
+msgstr "갱신"
+
+msgid "{name}, you earned a Program certificate!"
+msgstr "{name} 님, 프로그램 인증서를 획득했습니다!"
 
 msgid "About this certificate"
-msgstr ""
+msgstr "이 인증서 정보"
 
 msgid "Certificate ID"
-msgstr ""
+msgstr "인증서 ID"
 
 msgid "Date of issue"
+msgstr "발급일"
+
+msgid "Invoice"
+msgstr "청구서"
+
+msgid "Order"
+msgstr "주문"
+
+msgid "Purchase order"
+msgstr "구매 주문서"
+
+msgid "Status"
+msgstr "상태"
+
+msgid "Paid in full"
+msgstr "전액 결제됨"
+
+msgid "Amount due"
+msgstr "결제 금액"
+
+msgid "Due by"
+msgstr "마감일"
+
+msgid ""
+"Here is invoice %(invoice)s against purchase order %(po)s for order "
+"%(order)s from %(seller)s. The PDF is attached."
 msgstr ""
+"%(seller)s의 주문 %(order)s에 대한 구매 주문서 %(po)s 기준 청구서 %(invoice)s입니다. PDF가 첨부되어 "
+"있습니다."
+
+msgid ""
+"Here is invoice %(invoice)s for order %(order)s from %(seller)s. The PDF is "
+"attached."
+msgstr "%(seller)s의 주문 %(order)s에 대한 청구서 %(invoice)s입니다. PDF가 첨부되어 있습니다."
+
+msgid "Invoice %(invoice)s"
+msgstr "청구서 %(invoice)s"
+
+msgid "It is paid in full."
+msgstr "전액 결제되었습니다."
+
+msgid "The seats are yours once it is paid."
+msgstr "결제가 완료되면 좌석이 제공됩니다."
+
+msgid "View your order"
+msgstr "주문 보기"
+
+msgid "Sign in as one of the company's managers to open the order."
+msgstr "주문을 열려면 회사 관리자 계정으로 로그인하세요."
+
+msgid ""
+"You got this email because this address is the billing email for the order."
+msgstr "이 주소가 주문의 청구 이메일이므로 이 이메일이 발송되었습니다."
+
+msgid "Invoice %(invoice)s from %(seller)s"
+msgstr "%(seller)s의 청구서 %(invoice)s"
+
+msgid "Claim your free place at %(seller)s"
+msgstr "%(seller)s의 무료 자리를 받으세요"
+
+msgid "A free place at %(seller)s was requested for this email address."
+msgstr "이 이메일 주소로 %(seller)s의 무료 자리가 요청되었습니다."
+
+msgid ""
+"Sign in, or create an account, with this email address, then open the link "
+"below to claim it:"
+msgstr "이 이메일 주소로 로그인하거나 계정을 만든 다음 아래 링크를 열어 받으세요."
+
+msgid ""
+"The link works until %(day)s. If you didn't ask for this, ignore this email."
+msgstr "이 링크는 %(day)s까지 유효합니다. 요청하지 않으셨다면 이 이메일을 무시하세요."
+
+msgid "Claim your place"
+msgstr "자리 받기"
+
+#. Translators: %(seats)s is a number of seats ("20 seats"); %(target)s a
+#. course and %(batch)s its intake.
+msgid "%(seats)s of %(target)s (%(batch)s)"
+msgstr "%(target)s 중 %(seats)s(%(batch)s)"
+
+msgid "Quote %(number)s"
+msgstr "견적서 %(number)s"
+
+msgid ""
+"Here is quote %(number)s from %(seller)s for %(of)s. The PDF is attached."
+msgstr "%(seller)s에서 보낸 %(of)s 견적서 %(number)s입니다. PDF가 첨부되어 있습니다."
+
+msgid ""
+"To go ahead, order the seats from your catalog, or reply to this email."
+msgstr "진행하려면 목록에서 좌석을 주문하거나 이 이메일에 회신하세요."
+
+msgid "Quote"
+msgstr "견적서"
+
+msgid "Seats"
+msgstr "좌석"
+
+msgid "Total"
+msgstr "합계"
+
+msgid "Valid until"
+msgstr "유효 기한"
+
+msgid "Order the seats"
+msgstr "좌석 주문"
+
+msgid ""
+"This quote holds no seats. Prices and seats are confirmed when the order is "
+"placed."
+msgstr "이 견적서는 좌석을 확보하지 않습니다. 가격과 좌석은 주문 시 확정됩니다."
+
+msgid ""
+"You got this email because %(organisation)s sent a quote to %(tenant)s."
+msgstr "%(organisation)s에서 %(tenant)s에 견적서를 보내 이 이메일이 발송되었습니다."
+
+msgid "Quote %(number)s from %(seller)s"
+msgstr "%(seller)s의 견적서 %(number)s"
+
+msgid "card"
+msgstr "카드"
+
+msgid "bank transfer"
+msgstr "계좌 이체"
+
+msgid "account credit"
+msgstr "계정 크레딧"
+
+msgid "Your receipt for order %(number)s"
+msgstr "주문 %(number)s 영수증"
+
+#. Translators: %(total)s is money with its currency.
+msgid ""
+"Your payment of %(total)s for order %(number)s went through. You can start "
+"learning now."
+msgstr "주문 %(number)s의 %(total)s 결제가 완료되었습니다. 지금 바로 학습을 시작할 수 있습니다."
+
+msgid "Go to my learning"
+msgstr "내 학습으로 이동"
+
+msgid "Your purchase"
+msgstr "구매 내역"
+
+msgid "Subtotal"
+msgstr "소계"
+
+msgid "Discount"
+msgstr "할인"
+
+msgid "Tax (included)"
+msgstr "세금(포함)"
+
+msgid "Tax"
+msgstr "세금"
+
+msgid "Total paid"
+msgstr "총 결제 금액"
+
+msgid "your purchase"
+msgstr "내 구매"
+
+msgid ""
+"It goes back the way you paid; your bank may take a few days to show it."
+msgstr "결제하신 방법으로 환불되며, 은행에 표시되기까지 며칠이 걸릴 수 있습니다."
+
+msgid "We have paid it back to you directly."
+msgstr "고객님께 직접 환불해 드렸습니다."
+
+msgid "It is kept as credit on your account for your next purchase."
+msgstr "다음 구매 시 사용할 수 있도록 계정에 크레딧으로 보관됩니다."
+
+msgid "Your refund for order %(number)s"
+msgstr "주문 %(number)s 환불"
+
+#. Translators: %(amount)s is money with its currency; %(how)s is a sentence
+#. on how it is paid back.
+msgid "We are refunding %(amount)s for order %(number)s. %(how)s"
+msgstr "주문 %(number)s에 대해 %(amount)s을(를) 환불합니다. %(how)s"
+
+msgid "your course"
+msgstr "내 강의"
+
+#. Translators: %(learner)s is a person's name; %(title)s a course or program.
+msgid "%(learner)s bought %(title)s"
+msgstr "%(learner)s 님이 %(title)s을(를) 구매했습니다"
+
+msgid "%(learner)s bought %(title)s and can start now."
+msgstr "%(learner)s 님이 %(title)s을(를) 구매했으며 지금 바로 시작할 수 있습니다."
+
+msgid "%(learner)s enrolled in %(title)s"
+msgstr "%(learner)s 님이 %(title)s에 등록했습니다"
+
+msgid "%(learner)s enrolled themselves in %(title)s."
+msgstr "%(learner)s 님이 %(title)s에 직접 등록했습니다."
+
+msgid "your subscription"
+msgstr "내 구독"
+
+msgid ""
+"We couldn't take your payment of %(amount)s for %(name)s. Update your "
+"payment method by %(day)s to keep your access."
+msgstr ""
+"%(name)s에 대한 %(amount)s 결제를 처리하지 못했습니다. 액세스를 유지하려면 %(day)s까지 결제 수단을 업데이트하세요."
+
+msgid ""
+"We couldn't take your payment of %(amount)s for %(name)s. Update your "
+"payment method to keep your access."
+msgstr "%(name)s에 대한 %(amount)s 결제를 처리하지 못했습니다. 액세스를 유지하려면 결제 수단을 업데이트하세요."
+
+msgid "Your %(name)s payment couldn't be processed"
+msgstr "%(name)s 결제를 처리하지 못했습니다"
+
+msgid "We couldn't process your subscription payment."
+msgstr "구독 결제를 처리할 수 없습니다."
+
+#. Translators: {name} is the course's title.
+msgid "{name} finished building. Open it in Studio to review and publish it."
+msgstr "{name} 구성이 완료되었습니다. Studio에서 열어 검토하고 게시하세요."
+
+msgid "{count} component could not be generated and need your attention."
+msgid_plural ""
+"{count} components could not be generated and need your attention."
+msgstr[0] "구성 요소 {count}개를 생성하지 못해 확인이 필요합니다."
+
+#. Translators: {name} is the course's title.
+msgid "Your course {name} is ready"
+msgstr "강의 {name}이(가) 준비되었습니다"
+
+msgid "Open in Studio"
+msgstr "Studio에서 열기"
 
 msgid "You do not have access to this course."
-msgstr ""
+msgstr "이 강의에 접근할 수 없습니다."
+
+#. Translators: {timestamp} is when the report arrived ("2026-11-19 09:30:00
+#. UTC").
+msgid "Crashlytics error report ({timestamp})"
+msgstr "Crashlytics 오류 보고서({timestamp})"
 
 msgid "I completed the {course_title} course on {course_org_name}."
-msgstr ""
+msgstr "{course_org_name}에서 {course_title} 강의를 수료했습니다."
 
 msgid ""
 "I completed a course at {course_org_name}. Take a look at my certificate."
-msgstr ""
+msgstr "{course_org_name}에서 강의를 수료했습니다. 제 인증서를 확인해 보세요."
 
 msgid "%(fullname)s, you earned a certificate!"
-msgstr ""
+msgstr "%(fullname)s 님, 인증서를 획득했습니다!"
 
 msgid "Awarded to:"
-msgstr ""
+msgstr "수여 대상:"
 
-msgid "Valid until"
-msgstr ""
+msgid "Recipient Image"
+msgstr "수신자 이미지"
 
 msgid "Validity"
-msgstr ""
+msgstr "유효 기간"
 
 msgid "Does not expire"
-msgstr ""
+msgstr "만료되지 않음"
 
 msgid "Share on"
-msgstr ""
+msgstr "공유:"
 
 msgid "Post on Facebook"
-msgstr ""
+msgstr "Facebook에 게시"
 
 msgid "Tweet this Accomplishment"
-msgstr ""
+msgstr "이 성과를 트윗하기"
 
 msgid "Add to LinkedIn Profile"
-msgstr ""
+msgstr "LinkedIn 프로필에 추가"
 
 msgid "Download PDF"
-msgstr ""
+msgstr "PDF 다운로드"
 
 msgid "This is to certify that"
-msgstr ""
+msgstr "다음 사람이 수료하였음을 증명합니다"
 
+#. Translators: follows the learner's name, which the certificate shows on its
+#. own line above; the sentence's subject is that name.
 msgid "has successfully completed %(course_name)s offered by %(org_name)s"
-msgstr ""
+msgstr "님은 %(org_name)s에서 제공한 %(course_name)s 과정을 성공적으로 수료하였습니다"
 
 msgid "Date of Issue: %(date)s"
-msgstr ""
+msgstr "발급일: %(date)s"
 
 msgid "Programme"
-msgstr ""
+msgstr "프로그램"
 
 msgid "Verified"
-msgstr ""
+msgstr "인증됨"
 
+#. Translators: follows the learner's name, which the certificate shows on its
+#. own line above; the sentence's subject is that name.
 msgid ""
 "has successfully completed and was awarded this certificate for the "
 "programme above."
-msgstr ""
+msgstr "님은 위 프로그램을 성공적으로 수료하여 이 인증서를 수여받았습니다."
 
 msgid ""
 "has successfully completed, received a passing grade, and was awarded this "
 "certificate for the course above."
-msgstr ""
+msgstr "님은 위 강의를 성공적으로 수료하고 합격 점수를 받아 이 인증서를 수여받았습니다."
 
-msgid "Issued on"
-msgstr ""
+msgid "Issued on %(date)s"
+msgstr "발급일: %(date)s"
+
+msgid "Valid until %(date)s"
+msgstr "유효 기한: %(date)s"
 
 msgid "Sincerely,"
-msgstr ""
+msgstr "감사합니다."
 
 msgid "Supported by the following organizations"
-msgstr ""
+msgstr "다음 기관의 지원을 받았습니다"
+
+msgid "Certificate of Attendance"
+msgstr "출석 인증서"
 
 msgid "Noted by"
-msgstr ""
+msgstr "확인자"
 
 msgid "This certificate has been revoked"
-msgstr ""
+msgstr "이 인증서는 취소되었습니다"
 
 msgid ""
 "The certificate for %(program)s was revoked on %(date)s. It is no longer "
 "valid."
-msgstr ""
+msgstr "%(program)s 인증서는 %(date)s에 취소되었습니다. 더 이상 유효하지 않습니다."
 
+#. Translators: follows the learner's name, which the certificate shows on its
+#. own line above; the sentence's subject is that name.
 msgid ""
 "has successfully completed the programme %(program)s offered by %(org)s"
-msgstr ""
+msgstr "님은 %(org)s에서 제공한 %(program)s 프로그램을 성공적으로 수료하였습니다"
 
 msgid "Completed on %(date)s"
-msgstr ""
+msgstr "%(date)s 수료"
 
 msgid "Courses:"
-msgstr ""
+msgstr "강의:"
 
 msgid "Verify this certificate at %(url)s"
-msgstr ""
+msgstr "%(url)s에서 이 인증서를 확인하세요"
 
 msgid "Certificate not found"
-msgstr ""
+msgstr "인증서를 찾을 수 없습니다"
 
 msgid "There is no valid certificate at this link."
-msgstr ""
+msgstr "이 링크에 유효한 인증서가 없습니다."
+
+msgid "Certificate of competency"
+msgstr "역량 인증서"
+
+msgid "Holder name"
+msgstr "소지자 이름"
+
+msgid "Competency"
+msgstr "역량"
+
+msgid "Knowledge"
+msgstr "지식"
+
+msgid "Role"
+msgstr "역할"
+
+msgid "Field"
+msgstr "필드"
+
+msgid "Course"
+msgstr "강의"
+
+msgid "Basis of training"
+msgstr "교육 근거"
+
+msgid "Title"
+msgstr "제목"
+
+msgid "Eligibility requirements"
+msgstr "자격 요건"
+
+msgid "Formal education"
+msgstr "정규 교육"
+
+msgid "Professional experience"
+msgstr "전문 경력"
+
+msgid "Results"
+msgstr "결과"
+
+msgid "Certificate number"
+msgstr "인증서 번호"
+
+msgid "Initial certification"
+msgstr "최초 인증"
+
+msgid "This certificate"
+msgstr "이 인증서"
+
+msgid "Expiry Date"
+msgstr "만료일"
+
+msgid "Knowledge certificates do not expire"
+msgstr "지식 인증서는 만료되지 않습니다"
 
 msgid ""
 "The certificate for %(session)s was revoked on %(date)s. It is no longer "
 "valid."
-msgstr ""
+msgstr "%(session)s 인증서는 %(date)s에 취소되었습니다. 더 이상 유효하지 않습니다."
 
 msgid "This certificate expired on %(date)s."
-msgstr ""
+msgstr "이 인증서는 %(date)s에 만료되었습니다."
 
+#. Translators: follows the learner's name, which the certificate shows on its
+#. own line above; the sentence's subject is that name.
 msgid "has successfully attended %(session)s offered by %(org)s"
+msgstr "님은 %(org)s에서 제공한 %(session)s에 성공적으로 참석하였습니다"
+
+#. Translators: follows the learner's name, written large on the line above.
+#. %(course_name)s is the course's name; keep the <span> around it (bold) and
+#. the three <div>s (each is one line on the certificate).
+msgid ""
+"<div>has successfully completed the</div>\n"
+"                    <div><span style=\"font-weight:600;\">%(course_name)s</span> course</div>\n"
+"                    <div>at ACSF Level 3.</div>"
 msgstr ""
+"<div>님은</div>\n"
+"                    <div><span style=\"font-weight:600;\">%(course_name)s</span> 과정을</div>\n"
+"                    <div>ACSF 레벨 3으로 성공적으로 수료했습니다.</div>"
+
+#. Translators: %(when)s is a date and time, such as "17 November 2026 at
+#. 09:30".
+msgid ""
+"The password for your account was changed on %(when)s UTC. If this wasn't "
+"you, reset your password now and contact support."
+msgstr ""
+"계정 비밀번호가 %(when)s(UTC)에 변경되었습니다. 본인이 변경하지 않았다면 지금 비밀번호를 재설정하고 지원팀에 문의하세요."
+
+msgid "Your password was changed"
+msgstr "비밀번호가 변경되었습니다"
+
+msgid "Password changed"
+msgstr "비밀번호 변경됨"
+
+msgid ""
+"Confirms to the user that their account password was changed. Security "
+"notice — cannot be disabled."
+msgstr "사용자에게 계정 비밀번호가 변경되었음을 알립니다. 보안 알림으로 비활성화할 수 없습니다."
+
+msgid "Invitation — new user"
+msgstr "초대 — 신규 사용자"
+
+msgid "Invites an unregistered user to the platform."
+msgstr "등록되지 않은 사용자를 플랫폼에 초대합니다."
+
+msgid "Added to organisation"
+msgstr "조직에 추가됨"
+
+msgid "Sent when an existing platform user is added to the organisation."
+msgstr "기존 플랫폼 사용자가 조직에 추가되면 발송됩니다."
+
+msgid "Organisation + account created"
+msgstr "조직 및 계정 생성됨"
+
+msgid ""
+"Sent when an organisation and its first account are created via the public "
+"API."
+msgstr "공개 API를 통해 조직과 첫 계정이 생성되면 발송됩니다."
+
+msgid "Course enrollment — new user"
+msgstr "강의 수강 등록 — 신규 사용자"
+
+msgid ""
+"Sent when an unregistered user is enrolled in a course and must register "
+"first."
+msgstr "등록되지 않은 사용자가 강의에 등록되어 먼저 가입해야 할 때 발송됩니다."
+
+msgid "Course enrollment — success"
+msgstr "강의 수강 등록 — 성공"
+
+msgid "Sent when a learner is enrolled in a course."
+msgstr "학습자가 강의에 등록되면 발송됩니다."
+
+msgid "Course enrollment — update"
+msgstr "강의 수강 등록 — 업데이트"
+
+msgid "Sent when a learner's enrollment changes."
+msgstr "학습자의 수강 등록이 변경되면 발송됩니다."
+
+msgid "Program enrollment — success"
+msgstr "프로그램 수강 등록 — 성공"
+
+msgid "Sent when a learner is enrolled in a program."
+msgstr "학습자가 프로그램에 등록되면 발송됩니다."
+
+msgid "Learner self-enrolled"
+msgstr "학습자 자체 등록"
+
+msgid ""
+"Tells the course team that a learner enrolled themselves in their course. "
+"Enrollments performed by staff are not announced — whoever ran them already "
+"knows."
+msgstr ""
+"학습자가 강의에 직접 등록하면 강의 팀에게 알립니다. 직원이 처리한 수강 등록은 처리한 사람이 이미 알고 있으므로 알리지 않습니다."
+
+msgid "Certificate earned"
+msgstr "인증서 취득"
+
+msgid "Sent when a learner earns a course certificate."
+msgstr "학습자가 강의 인증서를 취득하면 발송됩니다."
+
+msgid ""
+"Sent when a learner's certificate expires and their graded attempts are "
+"reset."
+msgstr "학습자의 인증서가 만료되어 채점된 응시 기록이 초기화되면 발송됩니다."
+
+msgid "Guest purchase — success"
+msgstr "게스트 구매 — 성공"
+
+msgid ""
+"Receipt and access details for a guest checkout. Transactional — cannot be "
+"disabled."
+msgstr "게스트 결제의 영수증 및 액세스 정보입니다. 거래 관련 알림으로 비활성화할 수 없습니다."
+
+msgid "Payment failed"
+msgstr "결제 실패"
+
+msgid ""
+"Warns a learner that a subscription payment failed and access will be "
+"revoked. Transactional — cannot be disabled."
+msgstr "구독 결제가 실패하여 액세스가 취소될 예정임을 학습자에게 알립니다. 거래 관련 알림으로 비활성화할 수 없습니다."
+
+msgid "Purchase completed"
+msgstr "구매 완료"
+
+msgid ""
+"Tells the course team that a learner bought their course, or the program "
+"staff that a learner bought their program."
+msgstr "학습자가 강의를 구매하면 강의 팀에게, 프로그램을 구매하면 프로그램 직원에게 알립니다."
+
+msgid "Support ticket raised"
+msgstr "지원 티켓 접수됨"
+
+msgid "Notifies staff that a learner raised a support ticket."
+msgstr "학습자가 지원 티켓을 접수하면 직원에게 알립니다."
+
+msgid "Support ticket status updated"
+msgstr "지원 티켓 상태 업데이트됨"
+
+msgid "Notifies the learner who raised a ticket that its status changed."
+msgstr "티켓 상태가 변경되면 티켓을 접수한 학습자에게 알립니다."
+
+msgid "Support ticket assigned"
+msgstr "지원 티켓 배정됨"
+
+msgid "Notifies a staff member that a ticket was assigned to them."
+msgstr "티켓이 배정되면 해당 직원에게 알립니다."
+
+msgid "Support ticket comment added"
+msgstr "지원 티켓 댓글 추가됨"
+
+msgid "Notifies the other party that a comment was added to a ticket."
+msgstr "티켓에 댓글이 추가되면 상대방에게 알립니다."
+
+msgid "Mobile crash alert"
+msgstr "모바일 충돌 알림"
+
+msgid ""
+"Internal crash report forwarded from the mobile app. Sent without an "
+"organisation context."
+msgstr "모바일 앱에서 전달되는 내부 충돌 보고서입니다. 조직 컨텍스트 없이 발송됩니다."
+
+msgid "Learner risk alert"
+msgstr "학습자 위험 알림"
+
+msgid "Nudge sent to a learner flagged as at risk of not completing a course."
+msgstr "강의를 수료하지 못할 위험이 있는 것으로 표시된 학습자에게 보내는 독려 메시지입니다."
+
+msgid "Team notification"
+msgstr "팀 알림"
+
+msgid "In-app message sent to every member of a team."
+msgstr "팀의 모든 구성원에게 보내는 앱 내 메시지입니다."
+
+msgid "Custom broadcast"
+msgstr "사용자 지정 공지"
+
+msgid ""
+"Ad-hoc announcement composed by staff. The sender picks the channels per "
+"send; these settings cap what they may pick."
+msgstr "직원이 작성하는 임시 공지입니다. 발송자가 매번 채널을 선택하며, 이 설정은 선택 가능한 채널의 상한을 정합니다."
+
+msgid "Discussion — response to your post"
+msgstr "토론 — 내 게시물의 답변"
+
+msgid "Someone responded to a post you wrote."
+msgstr "내가 작성한 게시물에 누군가 답변했습니다."
+
+msgid "Discussion — comment on a response to your post"
+msgstr "토론 — 내 게시물 답변의 댓글"
+
+msgid "Someone commented on a response to a post you wrote."
+msgstr "내가 작성한 게시물의 답변에 누군가 댓글을 남겼습니다."
+
+msgid "Discussion — comment on your response"
+msgstr "토론 — 내 답변의 댓글"
+
+msgid "Someone commented on a response you wrote."
+msgstr "내가 작성한 답변에 누군가 댓글을 남겼습니다."
+
+msgid "Discussion — new post"
+msgstr "토론 — 새 게시물"
+
+msgid "A new post was added to a course discussion."
+msgstr "강의 토론에 새 게시물이 추가되었습니다."
+
+msgid "Discussion — new question"
+msgstr "토론 — 새 질문"
+
+msgid "A new question was asked in a course discussion."
+msgstr "강의 토론에 새 질문이 등록되었습니다."
+
+msgid "Discussion — response on a post you follow"
+msgstr "토론 — 팔로우하는 게시물의 답변"
+
+msgid "Someone responded to a post you are following."
+msgstr "팔로우하는 게시물에 누군가 답변했습니다."
+
+msgid "Discussion — comment on a post you follow"
+msgstr "토론 — 팔로우하는 게시물의 댓글"
+
+msgid "Someone commented on a post you are following."
+msgstr "팔로우하는 게시물에 누군가 댓글을 남겼습니다."
+
+msgid "Discussion — content reported"
+msgstr "토론 — 콘텐츠 신고됨"
+
+msgid "A learner reported discussion content for moderation."
+msgstr "학습자가 토론 콘텐츠를 검토 대상으로 신고했습니다."
+
+msgid "Discussion — a response on your post was endorsed"
+msgstr "토론 — 내 게시물의 답변이 추천됨"
+
+msgid "A response on a post you wrote was endorsed."
+msgstr "작성한 게시물의 답변이 추천되었습니다."
+
+msgid "Discussion — your response was endorsed"
+msgstr "토론 — 내 답변이 추천됨"
+
+msgid "A response you wrote was endorsed."
+msgstr "작성한 답변이 추천되었습니다."
+
+msgid "Discussion — post from the course team"
+msgstr "토론 — 강의 팀의 게시물"
+
+msgid "The course team posted to every learner in the course."
+msgstr "강의 팀이 강의의 모든 학습자에게 게시했습니다."
+
+msgid "Course update"
+msgstr "강의 업데이트"
+
+msgid "A course update was published from Studio."
+msgstr "Studio에서 강의 업데이트가 게시되었습니다."
+
+msgid "Audit access expiring soon"
+msgstr "청강 액세스 곧 만료"
+
+msgid "An audit learner's access to a course is about to end."
+msgstr "청강 학습자의 강의 액세스가 곧 종료됩니다."
+
+msgid "You're added to a session"
+msgstr "세션에 추가된 경우"
+
+msgid "You're named the instructor of a session date."
+msgstr "세션 날짜의 강사로 지정되었습니다."
+
+msgid "Reminder before a session"
+msgstr "세션 전 알림"
+
+msgid "30 minutes before."
+msgstr "30분 전."
+
+msgid "A session changes or is cancelled"
+msgstr "세션이 변경되거나 취소된 경우"
+
+msgid "A date you teach is moved or cancelled, or you're taken off it."
+msgstr "강의하는 날짜가 변경 또는 취소되거나 담당에서 제외되었습니다."
+
+msgid "Attendance to confirm"
+msgstr "확인할 출석"
+
+msgid "After each session ends."
+msgstr "각 세션이 끝난 후."
+
+msgid "Tomorrow's sessions"
+msgstr "내일 세션"
+
+msgid "The evening before."
+msgstr "전날 저녁."
+
+msgid "A learner in your sessions needs help"
+msgstr "세션의 학습자에게 도움이 필요합니다"
+
+msgid "Not active for 7 days, behind, or below the passing score."
+msgstr "7일 동안 활동이 없거나, 진도가 늦거나, 합격 점수에 미달합니다."
+
+msgid "New work to review"
+msgstr "검토할 새 과제"
+
+msgid "A learner hands in work for you to review."
+msgstr "학습자가 검토할 과제를 제출했습니다."
+
+#. Translators: {batches} is a comma-separated list of batch names.
+msgid "Your weekly review is due"
+msgstr "주간 검토 기한입니다"
+
+msgid "Your weekly review of your learners."
+msgstr "학습자 주간 검토입니다."
+
+msgid "Session reminder"
+msgstr "세션 알림"
+
+msgid "A Session date you booked starts soon."
+msgstr "예약한 세션 날짜가 곧 시작됩니다."
+
+msgid "Session date moved"
+msgstr "세션 날짜 변경됨"
+
+msgid "A Session date you booked has moved."
+msgstr "예약한 세션 날짜가 변경되었습니다."
+
+msgid "Session date cancelled"
+msgstr "세션 날짜 취소됨"
+
+msgid "A Session date you booked was cancelled."
+msgstr "예약한 세션 날짜가 취소되었습니다."
+
+msgid "Off the waitlist"
+msgstr "대기자 명단에서 확정됨"
+
+msgid "A place freed and you are booked on a Session date."
+msgstr "자리가 나서 세션 날짜에 예약되었습니다."
+
+msgid "Instructor time off"
+msgstr "강사 휴무"
+
+msgid "A date you scheduled falls in its instructor's time off."
+msgstr "예약한 날짜가 담당 강사의 휴무 기간과 겹칩니다."
+
+msgid "Morning action items"
+msgstr "오전 할 일"
+
+msgid ""
+"What needs you in your Batches: work to grade, results to enter and learners"
+" behind."
+msgstr "기수에서 처리할 일: 채점할 과제, 입력할 결과, 진도가 늦은 학습자."
+
+msgid "Scheduled report ready"
+msgstr "예약 보고서 준비 완료"
+
+msgid "A report sent on a schedule is ready to download."
+msgstr "예약 발송된 보고서를 다운로드할 준비가 되었습니다."
+
+msgid "Your data is ready"
+msgstr "데이터가 준비되었습니다"
+
+msgid "A file of your data you asked for is ready to download."
+msgstr "요청하신 데이터 파일을 다운로드할 준비가 되었습니다."
+
+msgid "Tenant weekly report"
+msgstr "테넌트 주간 보고서"
+
+msgid "Your organisation's learning figures for the week."
+msgstr "조직의 주간 학습 현황입니다."
+
+msgid "Company account active"
+msgstr "회사 계정 활성화됨"
+
+msgid "Your company's account is active."
+msgstr "회사 계정이 활성화되었습니다."
+
+msgid "Choose who keeps access"
+msgstr "액세스를 유지할 사람 선택"
+
+msgid ""
+"A renewal lowered your company's learner limit: choose who keeps access."
+msgstr "갱신으로 회사의 학습자 한도가 줄었습니다. 액세스를 유지할 사람을 선택하세요."
+
+msgid "Someone finishes a course or program"
+msgstr "누군가 강의 또는 프로그램을 수료한 경우"
+
+msgid "A learner on one of your company's seats finished a course or program."
+msgstr "회사 좌석을 사용하는 학습자가 강의 또는 프로그램을 수료했습니다."
+
+msgid "An invitation isn't accepted"
+msgstr "초대가 수락되지 않은 경우"
+
+msgid "Someone you invited to learn hasn't accepted 7 days later."
+msgstr "학습에 초대한 사람이 7일이 지나도록 수락하지 않았습니다."
+
+msgid "Seats not given out before enrollment closes"
+msgstr "수강 등록 마감 전까지 배정되지 않은 좌석"
+
+msgid ""
+"Your company still has seats to give out 14 days before enrollment closes."
+msgstr "수강 등록 마감 14일 전인데 회사에 아직 배정할 좌석이 남아 있습니다."
+
+msgid "Orders and payments"
+msgstr "주문 및 결제"
+
+msgid "An order of your company's is paid."
+msgstr "회사의 주문이 결제되었습니다."
+
+msgid "Purchase receipt"
+msgstr "구매 영수증"
+
+msgid ""
+"Your receipt when a purchase you paid for goes through. Transactional — "
+"cannot be disabled."
+msgstr "직접 결제한 구매가 완료되면 발송되는 영수증입니다. 거래 관련 알림으로 비활성화할 수 없습니다."
+
+msgid "Refund"
+msgstr "환불"
+
+msgid ""
+"Your refund when staff pay back a purchase you made. Transactional — cannot "
+"be disabled."
+msgstr "직원이 구매 금액을 환불하면 발송되는 환불 안내입니다. 거래 관련 알림으로 비활성화할 수 없습니다."
+
+msgid "AI-generated course ready"
+msgstr "AI 생성 강의 준비 완료"
+
+msgid ""
+"A course you generated with AI finished building and is ready to review."
+msgstr "AI로 생성한 강의의 구성이 완료되어 검토할 준비가 되었습니다."
+
+msgid "Library access requested"
+msgstr "라이브러리 액세스 요청됨"
+
+msgid ""
+"Notifies a library's admins that a view-only member asks for a role that "
+"edits it."
+msgstr "보기 전용 구성원이 라이브러리 편집 역할을 요청하면 라이브러리 관리자에게 알립니다."
+
+msgid "Company account set-up (after checkout)"
+msgstr "회사 계정 설정(결제 후)"
+
+msgid ""
+"Sent after a company's paid first purchase to set up the account that "
+"manages it."
+msgstr "회사의 첫 구매가 결제된 후 이를 관리할 계정을 설정하도록 발송됩니다."
+
+msgid "Company account set-up (order recorded)"
+msgstr "회사 계정 설정(주문 기록됨)"
+
+msgid ""
+"Sent when staff record a company's first order, to set up the account that "
+"manages it."
+msgstr "직원이 회사의 첫 주문을 기록하면 이를 관리할 계정을 설정하도록 발송됩니다."
+
+msgid "Company co-manager invitation"
+msgstr "회사 공동 관리자 초대"
+
+msgid "Sent when a company's manager invites someone to manage it with them."
+msgstr "회사 관리자가 함께 관리할 사람을 초대하면 발송됩니다."
+
+msgid "Platform name"
+msgstr "플랫폼 이름"
+
+msgid "Organisation name"
+msgstr "조직 이름"
+
+msgid "Recipient email"
+msgstr "수신자 이메일"
+
+msgid "Organisation logo URL"
+msgstr "조직 로고 URL"
+
+msgid "Contact mailing address"
+msgstr "연락처 우편 주소"
+
+msgid "Reply-to address"
+msgstr "회신 주소"
+
+msgid "Primary button (rendered)"
+msgstr "기본 버튼(렌더링됨)"
+
+msgid "Course Enrollment — Success"
+msgstr "강의 수강 등록 — 성공"
+
+msgid "You're enrolled in {{ course_name }}"
+msgstr "{{ course_name }}에 등록되었습니다"
+
+msgid "Go to my course"
+msgstr "내 강의로 이동"
+
+msgid "Learner full name"
+msgstr "학습자 성명"
+
+msgid "Course name"
+msgstr "강의 이름"
+
+msgid "Course URL"
+msgstr "강의 URL"
+
+msgid "Course Enrollment — Update"
+msgstr "강의 수강 등록 — 업데이트"
+
+msgid "Your enrollment in {{ course_name }} was updated"
+msgstr "{{ course_name }} 수강 등록이 업데이트되었습니다"
+
+msgid "Continue learning"
+msgstr "학습 계속하기"
+
+msgid "Certificate Earned"
+msgstr "인증서 취득"
+
+msgid "Congratulations! You've earned your {{ course_name }} certificate"
+msgstr "축하합니다! {{ course_name }} 인증서를 취득했습니다"
+
+msgid "View my certificate"
+msgstr "내 인증서 보기"
+
+msgid "Certificate URL"
+msgstr "인증서 URL"
+
+msgid "Certificate Expired"
+msgstr "인증서 만료"
+
+msgid ""
+"Sent when a learner's certificate expires. Their graded attempts and scores "
+"for the course are reset at the same time, so the copy must say so."
+msgstr ""
+"학습자의 인증서가 만료되면 발송됩니다. 이때 해당 강의의 채점된 응시 기록과 점수도 함께 초기화되므로 본문에 이를 명시해야 합니다."
+
+msgid "Your {{ course_name }} certificate has expired"
+msgstr "{{ course_name }} 인증서가 만료되었습니다"
+
+msgid "Retake the assessments"
+msgstr "평가 다시 응시"
+
+msgid "Date the certificate expired"
+msgstr "인증서 만료일"
+
+msgid "Invitation — New User"
+msgstr "초대 — 신규 사용자"
+
+msgid "You've been invited to {{ display_name }}"
+msgstr "{{ display_name }}에 초대되었습니다"
+
+msgid "Complete registration"
+msgstr "가입 완료"
+
+msgid "Org/course name"
+msgstr "조직/강의 이름"
+
+msgid "Registration URL"
+msgstr "가입 URL"
+
+msgid "Date the link stops working"
+msgstr "링크 만료일"
+
+msgid "Who invited them, and their message (rendered)"
+msgstr "초대한 사람 및 메시지(렌더링됨)"
+
+msgid "Added to Organisation"
+msgstr "조직에 추가됨"
+
+msgid "Sent when an existing user is added to an organisation."
+msgstr "기존 사용자가 조직에 추가되면 발송됩니다."
+
+msgid "You've been added to {{ org_name }}"
+msgstr "{{ org_name }}에 추가되었습니다"
+
+msgid "Full name"
+msgstr "성명"
+
+msgid "Login URL"
+msgstr "로그인 URL"
+
+msgid "Who gave the role"
+msgstr "역할을 부여한 사람"
+
+msgid "Their message (rendered)"
+msgstr "상대방 메시지(렌더링됨)"
+
+msgid "AI Course Creator Free Trial — Account Created"
+msgstr "AI 강의 제작 도구 무료 체험 — 계정 생성됨"
+
+msgid ""
+"Sent when an AISuite (AI Course Creator) free-trial org and account are "
+"created via the public API."
+msgstr "공개 API를 통해 AISuite(AI 강의 제작 도구) 무료 체험 조직과 계정이 생성되면 발송됩니다."
+
+msgid "Your AI Course Creator free trial is ready"
+msgstr "AI 강의 제작 도구 무료 체험이 준비되었습니다"
+
+msgid "Login credentials (rendered)"
+msgstr "로그인 정보(렌더링됨)"
+
+msgid "Password Changed"
+msgstr "비밀번호 변경됨"
+
+msgid "Confirms a password change."
+msgstr "비밀번호 변경을 확인합니다."
+
+msgid "Your {{ platform_name }} password was changed"
+msgstr "{{ platform_name }} 비밀번호가 변경되었습니다"
+
+msgid "When it changed"
+msgstr "변경 일시"
+
+msgid "Support Ticket Notification"
+msgstr "지원 티켓 알림"
+
+msgid "Notifies staff of a raised support ticket."
+msgstr "지원 티켓이 접수되면 직원에게 알립니다."
+
+msgid "New ticket: {{ ticket_type }}"
+msgstr "새 티켓: {{ ticket_type }}"
+
+msgid "View ticket"
+msgstr "티켓 보기"
+
+msgid "Ticket type"
+msgstr "티켓 유형"
+
+msgid "Priority"
+msgstr "우선순위"
+
+msgid "Description"
+msgstr "설명"
+
+msgid "Ticket URL"
+msgstr "티켓 URL"
+
+msgid "Raised by"
+msgstr "접수자"
+
+msgid "Guest Purchase — Success"
+msgstr "게스트 구매 — 성공"
+
+msgid "Receipt for an unregistered guest purchase."
+msgstr "등록되지 않은 게스트 구매의 영수증입니다."
+
+msgid "Your purchase is confirmed"
+msgstr "구매가 확정되었습니다"
+
+msgid "Items purchased (rendered)"
+msgstr "구매 항목(렌더링됨)"
+
+msgid "Purchase — Receipt"
+msgstr "구매 — 영수증"
+
+msgid ""
+"Sent to a learner when a purchase they paid for themselves goes through."
+msgstr "학습자가 직접 결제한 구매가 완료되면 학습자에게 발송됩니다."
+
+msgid "Your receipt for {{ items }}"
+msgstr "{{ items }} 영수증"
+
+msgid "Learner first name"
+msgstr "학습자 이름"
+
+msgid "What was bought"
+msgstr "구매 항목"
+
+msgid "Order number"
+msgstr "주문 번호"
+
+msgid "Date paid"
+msgstr "결제일"
+
+msgid "Lines and totals (rendered)"
+msgstr "항목 및 합계(렌더링됨)"
+
+msgid "Currency"
+msgstr "통화"
+
+msgid "How it was paid"
+msgstr "결제 방법"
+
+msgid "My learning link"
+msgstr "내 학습 링크"
+
+msgid "Subscription Payment — Failed"
+msgstr "구독 결제 — 실패"
+
+msgid ""
+"Sent when a recurring subscription payment fails permanently and access "
+"ends."
+msgstr "정기 구독 결제가 최종 실패하여 액세스가 종료되면 발송됩니다."
+
+msgid "Your {{ plan_name }} payment couldn't be processed"
+msgstr "{{ plan_name }} 결제를 처리하지 못했습니다"
+
+msgid "Update payment method"
+msgstr "결제 수단 업데이트"
+
+msgid "Plan / product name"
+msgstr "요금제 / 제품 이름"
+
+msgid "Failed amount"
+msgstr "실패 금액"
+
+msgid "Update payment / re-subscribe URL"
+msgstr "결제 정보 업데이트 / 재구독 URL"
+
+msgid "Failure reason"
+msgstr "실패 사유"
+
+msgid "Course Enrollment — New User"
+msgstr "강의 수강 등록 — 신규 사용자"
+
+msgid ""
+"Sent when an unregistered user is enrolled in a course and has to register "
+"before they can open it."
+msgstr "등록되지 않은 사용자가 강의에 등록되어 강의를 열기 전에 가입해야 할 때 발송됩니다."
+
+msgid "You've been enrolled in {{ display_name }}"
+msgstr "{{ display_name }}에 등록되었습니다"
+
+msgid "Course/org name"
+msgstr "강의/조직 이름"
+
+msgid "Custom Broadcast"
+msgstr "사용자 지정 공지"
+
+msgid ""
+"The ad-hoc announcement staff compose and send from the notifications page."
+msgstr "직원이 알림 페이지에서 작성하여 보내는 임시 공지입니다."
+
+msgid "{{ title }}"
+msgstr "{{ title }}"
+
+msgid "Open"
+msgstr "열기"
+
+msgid "Notification title"
+msgstr "알림 제목"
+
+msgid "Notification body"
+msgstr "알림 본문"
+
+msgid "Sent by"
+msgstr "보낸 사람"
+
+msgid "Deep-link target"
+msgstr "딥 링크 대상"
+
+msgid "Deep-link button label"
+msgstr "딥 링크 버튼 레이블"
+
+msgid "Mobile Crash Alert"
+msgstr "모바일 충돌 알림"
+
+msgid ""
+"Internal crash report forwarded from the mobile app to the platform admins. "
+"Sent without an organisation context."
+msgstr "모바일 앱에서 플랫폼 관리자에게 전달되는 내부 충돌 보고서입니다. 조직 컨텍스트 없이 발송됩니다."
+
+msgid "Mobile app crash reported on {{ platform_name }}"
+msgstr "{{ platform_name }}에서 모바일 앱 충돌이 보고되었습니다"
+
+msgid "Crash payload"
+msgstr "충돌 페이로드"
+
+msgid "Company account — Set up (after checkout)"
+msgstr "회사 계정 — 설정(결제 후)"
+
+msgid ""
+"Sent to the person a company's paid first purchase names, to set up the "
+"account that manages it."
+msgstr "회사의 첫 구매에 지정된 사람에게 이를 관리할 계정을 설정하도록 발송됩니다."
+
+#. Translators: {{ tenant_possessive }} is the company's name, possessive
+#. ("Bolt Freight's"). You may
+#. write {{ tenant_name }} instead, the name alone ("Bolt Freight"), where
+#. your language puts it another way.
+msgid "Set up your account to manage {{ tenant_possessive }} seats"
+msgstr "{{ tenant_possessive }} 좌석을 관리할 계정을 설정하세요"
+
+msgid "Recipient first name"
+msgstr "수신자 이름"
+
+msgid "Company name"
+msgstr "회사 이름"
+
+msgid "Company name, possessive"
+msgstr "회사 이름(소유격)"
+
+msgid "Set-up link"
+msgstr "설정 링크"
+
+msgid "Company account — Set up (order recorded)"
+msgstr "회사 계정 — 설정(주문 기록됨)"
+
+msgid ""
+"Sent when staff record a company's first order to be paid by invoice, to set"
+" up its account."
+msgstr "직원이 청구서로 결제할 회사의 첫 주문을 기록하면 계정 설정을 위해 발송됩니다."
+
+msgid "What was ordered"
+msgstr "주문 항목"
+
+msgid "Company account — Co-manager invitation"
+msgstr "회사 계정 — 공동 관리자 초대"
+
+msgid ""
+"Sent when a company's manager invites someone to manage the company's seats "
+"with them."
+msgstr "회사 관리자가 회사 좌석을 함께 관리할 사람을 초대하면 발송됩니다."
+
+#. Translators: {{ tenant_possessive }} is the company's name, possessive
+#. ("Bolt Freight's"). You may
+#. write {{ tenant_name }} instead, the name alone ("Bolt Freight"), where
+#. your language puts it another way.
+msgid "Help manage {{ tenant_possessive }} seats"
+msgstr "{{ tenant_possessive }} 좌석 관리를 도와주세요"
+
+msgid "Who invited them"
+msgstr "초대한 사람"
+
+msgid "Company account — Active"
+msgstr "회사 계정 — 활성화됨"
+
+msgid ""
+"Sent to a company's managers when the organisation activates the company's "
+"account."
+msgstr "조직이 회사 계정을 활성화하면 회사 관리자에게 발송됩니다."
+
+msgid "{{ tenant_name }} is ready"
+msgstr "{{ tenant_name }} 준비가 완료되었습니다"
+
+msgid "Invite your people"
+msgstr "팀원 초대"
+
+msgid "Manager first name"
+msgstr "관리자 이름"
+
+msgid "How many people may learn at once"
+msgstr "동시에 학습할 수 있는 인원"
+
+msgid "The seats ready to give out"
+msgstr "배정할 준비가 된 좌석"
+
+msgid "Tenant manager link"
+msgstr "테넌트 관리자 링크"
+
+msgid "Company account — Choose who keeps access"
+msgstr "회사 계정 — 액세스를 유지할 사람 선택"
+
+msgid ""
+"Sent to a company's managers when a renewal lowers the learner limit below "
+"the people it has."
+msgstr "갱신으로 학습자 한도가 현재 인원보다 낮아지면 회사 관리자에게 발송됩니다."
+
+msgid "Choose people"
+msgstr "사람 선택"
+
+msgid "The new contract's end"
+msgstr "새 계약 종료일"
+
+msgid "The new learner limit"
+msgstr "새 학습자 한도"
+
+msgid "People learning now"
+msgstr "현재 학습 중인 인원"
+
+msgid "Date to choose by"
+msgstr "선택 기한"
+
+msgid "Choose people link"
+msgstr "사람 선택 링크"
+
+msgid "Hi {{ full_name }},"
+msgstr "{{ full_name }} 님, 안녕하세요."
+
+#. Translators: %(course)s is the course's name in bold.
+msgid ""
+"You have a place in %(course)s at {{ org_name }}. Open it any time from My "
+"learning."
+msgstr "{{ org_name }}의 %(course)s에 자리가 있습니다. 내 학습에서 언제든지 열 수 있습니다."
+
+msgid "You got this email because you were enrolled in {{ course_name }}."
+msgstr "{{ course_name }}에 등록되어 이 이메일이 발송되었습니다."
+
+msgid "Your enrollment in {{ course_name }} changed"
+msgstr "{{ course_name }} 수강 등록이 변경되었습니다"
+
+#. Translators: %(course)s is the course's name in bold.
+msgid ""
+"Your access to %(course)s at {{ org_name }} changed. Open the course to see "
+"what's new; you carry on from where you left off."
+msgstr ""
+"{{ org_name }}의 %(course)s 액세스가 변경되었습니다. 강의를 열어 새로운 내용을 확인하세요. 중단한 부분부터 이어서 "
+"학습할 수 있습니다."
+
+msgid ""
+"You got this email because your enrollment in {{ course_name }} changed."
+msgstr "{{ course_name }} 수강 등록이 변경되어 이 이메일이 발송되었습니다."
+
+msgid "You earned your {{ course_name }} certificate"
+msgstr "{{ course_name }} 인증서를 취득했습니다"
+
+#. Translators: %(course)s is the course's name in bold.
+msgid ""
+"Congratulations! You passed %(course)s at {{ org_name }} and earned its "
+"certificate. You can view it, download it and share it."
+msgstr ""
+"축하합니다! {{ org_name }}에서 %(course)s에 합격하여 인증서를 취득했습니다. 인증서를 보고, 다운로드하고, 공유할 수"
+" 있습니다."
+
+msgid "You got this email because you completed {{ course_name }}."
+msgstr "{{ course_name }}을(를) 수료하셔서 이 이메일이 발송되었습니다."
+
+#. Translators: %(course)s is the course's name in bold; {{ expired_on }} is a
+#. date.
+msgid ""
+"Your certificate for %(course)s at {{ org_name }} expired on {{ expired_on "
+"}}."
+msgstr "{{ org_name }}의 %(course)s 인증서가 {{ expired_on }}에 만료되었습니다."
+
+msgid ""
+"Your graded attempts and scores for the course were reset, so you can start "
+"fresh. Pass the assessments again and a new certificate is issued "
+"automatically."
+msgstr ""
+"강의의 채점된 응시 기록과 점수가 초기화되어 처음부터 다시 시작할 수 있습니다. 평가에 다시 합격하면 새 인증서가 자동으로 발급됩니다."
+
+msgid ""
+"You got this email because you held a certificate for {{ course_name }}."
+msgstr "{{ course_name }} 인증서를 보유하셨기에 이 이메일이 발송되었습니다."
+
+msgid "You're invited to join {{ display_name }}"
+msgstr "{{ display_name }}에 초대되었습니다"
+
+#. Translators: %(name)s is the organisation's or course's name in bold.
+msgid ""
+"You're invited to join %(name)s on {{ platform_name }}. Accept the "
+"invitation to get started."
+msgstr "{{ platform_name }}의 %(name)s에 초대되었습니다. 초대를 수락하고 시작하세요."
+
+#. Translators: %(address)s is the invited email address in bold.
+msgid ""
+"Sign in or register with %(address)s: the invitation is for this address."
+msgstr "%(address)s(으)로 로그인하거나 가입하세요. 이 초대는 해당 주소용입니다."
+
+msgid ""
+"This link works until {{ expires_on }}. If a new invitation is sent, this "
+"one stops working."
+msgstr "이 링크는 {{ expires_on }}까지 유효합니다. 새 초대가 발송되면 이 링크는 더 이상 작동하지 않습니다."
+
+msgid ""
+"You got this email because someone at {{ org_name }} invited {{ "
+"email_address }}."
+msgstr "{{ org_name }}의 누군가가 {{ email_address }} 주소를 초대하여 이 이메일이 발송되었습니다."
+
+#. Translators: %(role)s is the role's name in bold.
+msgid ""
+"{{ inviter_name }} gave you the %(role)s role at {{ org_name }}. Sign in to "
+"get started."
+msgstr ""
+"{{ inviter_name }} 님이 {{ org_name }}에서 회원님에게 %(role)s 역할을 부여했습니다. 로그인하여 "
+"시작하세요."
+
+msgid "You got this email because you were given a role at {{ org_name }}."
+msgstr "{{ org_name }}에서 역할을 부여받아 이 이메일이 발송되었습니다."
+
+#. Translators: %(workspace)s is the new organisation's name in bold.
+msgid ""
+"Thanks for signing up for the AI Course Creator free trial on {{ "
+"platform_name }}. Your workspace, %(workspace)s, is set up and your account "
+"is active. Sign in to start building courses with AI."
+msgstr ""
+"{{ platform_name }}에서 AI 강의 제작 도구 무료 체험에 가입해 주셔서 감사합니다. 워크스페이스 "
+"%(workspace)s이(가) 설정되었으며 계정이 활성화되었습니다. 로그인하여 AI로 강의를 만들어 보세요."
+
+#. Translators: %(address)s is the organisation's reply-to email address, as a
+#. link.
+msgid "Questions? Write to %(address)s."
+msgstr "문의 사항은 %(address)s(으)로 보내 주세요."
+
+msgid ""
+"You got this email because you signed up for a free trial with {{ "
+"email_address }}."
+msgstr "{{ email_address }} 주소로 무료 체험에 가입하셔서 이 이메일이 발송되었습니다."
+
+msgid ""
+"The password for your {{ platform_name }} account ({{ email_address }}) was "
+"changed on {{ changed_at }}."
+msgstr ""
+"{{ platform_name }} 계정({{ email_address }})의 비밀번호가 {{ changed_at }}에 "
+"변경되었습니다."
+
+#. Translators: %(not_you)s is "Wasn't you?" in bold; %(address)s is the
+#. reply-to email address, as a link.
+msgid ""
+"%(not_you)s Reset your password now from the sign-in page and contact "
+"%(address)s."
+msgstr "%(not_you)s 지금 로그인 페이지에서 비밀번호를 재설정하고 %(address)s(으)로 문의하세요."
+
+msgid "Wasn't you?"
+msgstr "본인이 아니신가요?"
+
+msgid ""
+"You got this email because the password of your account changed. It can't be"
+" switched off."
+msgstr "계정 비밀번호가 변경되어 이 이메일이 발송되었습니다. 이 알림은 끌 수 없습니다."
+
+msgid "{{ raised_by }} raised a ticket."
+msgstr "{{ raised_by }} 님이 티켓을 접수했습니다."
+
+msgid "Type"
+msgstr "유형"
+
+msgid ""
+"You got this email because you get support ticket alerts at {{ org_name }}."
+msgstr "{{ org_name }}의 지원 티켓 알림을 받도록 설정되어 이 이메일이 발송되었습니다."
+
+msgid "Claim your place at {{ org_name }}"
+msgstr "{{ org_name }}에서 자리를 받으세요"
+
+msgid "Your place is waiting:"
+msgstr "자리가 준비되어 있습니다."
+
+#. Translators: %(address)s is the buyer's email address in bold.
+msgid ""
+"Sign in or create an account with %(address)s, then claim your place: it is "
+"for this address."
+msgstr "%(address)s(으)로 로그인하거나 계정을 만든 다음 자리를 받으세요. 이 자리는 해당 주소용입니다."
+
+msgid ""
+"This link works until {{ expires_on }}. If you didn't ask for this, ignore "
+"this email."
+msgstr "이 링크는 {{ expires_on }}까지 유효합니다. 요청하지 않으셨다면 이 이메일을 무시하세요."
+
+msgid ""
+"You got this email because a place at {{ org_name }} was requested for {{ "
+"email_address }}."
+msgstr "{{ email_address }} 주소로 {{ org_name }}의 자리가 요청되어 이 이메일이 발송되었습니다."
+
+msgid "Thanks for your purchase"
+msgstr "구매해 주셔서 감사합니다"
+
+msgid "Hi {{ first_name }},"
+msgstr "{{ first_name }} 님, 안녕하세요."
+
+msgid ""
+"Your payment to {{ org_name }} went through. Here is your receipt for order "
+"{{ order_number }}, paid on {{ order_date }}."
+msgstr ""
+"{{ org_name }}에 대한 결제가 완료되었습니다. {{ order_date }}에 결제된 주문 {{ order_number }}의"
+" 영수증입니다."
+
+msgid "Paid by {{ payment_method }}. You can start learning now."
+msgstr "{{ payment_method }}(으)로 결제되었습니다. 지금 바로 학습을 시작할 수 있습니다."
+
+msgid ""
+"You got this email because you bought {{ items }} on {{ platform_name }}."
+msgstr "{{ platform_name }}에서 {{ items }}을(를) 구매하셔서 이 이메일이 발송되었습니다."
+
+#. Translators: {{ reason }} is the payment provider's sentence; %(amount)s is
+#. the currency and amount in
+#. bold; %(plan)s is the plan's name in bold.
+msgid ""
+"{{ reason }} We tried to take %(amount)s for %(plan)s and the payment didn't"
+" go through, so your access has ended."
+msgstr "{{ reason }} %(plan)s에 대해 %(amount)s 결제를 시도했지만 처리되지 않아 액세스가 종료되었습니다."
+
+msgid "Update your payment method to subscribe again."
+msgstr "다시 구독하려면 결제 수단을 업데이트하세요."
+
+msgid ""
+"You got this email because you subscribe to {{ plan_name }} with {{ "
+"email_address }}. It can't be switched off."
+msgstr ""
+"{{ email_address }} 주소로 {{ plan_name }}을(를) 구독하고 계셔서 이 이메일이 발송되었습니다. 이 알림은 끌"
+" 수 없습니다."
+
+#. Translators: %(name)s is the course's name in bold.
+msgid ""
+"{{ org_name }} enrolled you in %(name)s on {{ platform_name }}. Complete "
+"your registration to open it."
+msgstr ""
+"{{ org_name }}에서 {{ platform_name }}의 %(name)s에 회원님을 등록했습니다. 열려면 가입을 완료하세요."
+
+#. Translators: %(address)s is the enrolled email address in bold.
+msgid "Register with %(address)s: the place is for this address."
+msgstr "%(address)s(으)로 가입하세요. 이 자리는 해당 주소용입니다."
+
+msgid ""
+"You got this email because {{ org_name }} enrolled {{ email_address }}."
+msgstr "{{ org_name }}에서 {{ email_address }} 주소를 등록하여 이 이메일이 발송되었습니다."
+
+msgid "You got this email because {{ org_name }} sent it to you."
+msgstr "{{ org_name }}에서 보낸 이메일입니다."
+
+msgid "Mobile app crash reported"
+msgstr "모바일 앱 충돌 보고됨"
+
+msgid "The {{ platform_name }} mobile app reported a crash."
+msgstr "{{ platform_name }} 모바일 앱에서 충돌이 보고되었습니다."
+
+msgid ""
+"You got this email because it is the crash report address of {{ "
+"platform_name }}."
+msgstr "이 주소가 {{ platform_name }}의 충돌 보고서 수신 주소이므로 이 이메일이 발송되었습니다."
+
+msgid ""
+"Your order for {{ order_summary }} is confirmed, and {{ tenant_name }} now "
+"has an account at {{ org_name }}. Set up your sign-in to manage it."
+msgstr ""
+"{{ order_summary }} 주문이 확정되었으며, 이제 {{ tenant_name }}에 {{ org_name }} 계정이 "
+"생겼습니다. 계정을 관리할 로그인 정보를 설정하세요."
+
+msgid ""
+"Once {{ org_name }} activates the account, you can invite your people, book "
+"their sessions and follow their progress."
+msgstr "{{ org_name }}에서 계정을 활성화하면 팀원을 초대하고, 세션을 예약하고, 학습 진행 상황을 확인할 수 있습니다."
+
+msgid "This link works until {{ expires_on }}."
+msgstr "이 링크는 {{ expires_on }}까지 유효합니다."
+
+msgid "You got this email because you bought seats for {{ tenant_name }}."
+msgstr "{{ tenant_name }}의 좌석을 구매하셔서 이 이메일이 발송되었습니다."
+
+#. Translators: {{ tenant_possessive }} is the company's name, possessive
+#. ("Bolt Freight's"). You may
+#. write {{ tenant_name }} instead, the name alone ("Bolt Freight"), where
+#. your language puts it another way.
+msgid ""
+"{{ org_name }} recorded {{ tenant_possessive }} order for {{ order_summary "
+"}}. We'll email the invoice to you."
+msgstr ""
+"{{ org_name }}에서 {{ tenant_possessive }} {{ order_summary }} 주문을 기록했습니다. "
+"청구서는 이메일로 보내 드립니다."
+
+msgid ""
+"Set up your sign-in to manage the seats. Once {{ org_name }} activates the "
+"account, you can invite your people and book their sessions."
+msgstr ""
+"좌석을 관리할 로그인 정보를 설정하세요. {{ org_name }}에서 계정을 활성화하면 팀원을 초대하고 세션을 예약할 수 있습니다."
+
+msgid ""
+"You got this email because {{ org_name }} recorded an order for {{ "
+"tenant_name }}."
+msgstr "{{ org_name }}에서 {{ tenant_name }}의 주문을 기록하여 이 이메일이 발송되었습니다."
+
+#. Translators: {{ tenant_possessive }} is the company's name, possessive
+#. ("Bolt Freight's"). You may
+#. write {{ tenant_name }} instead, the name alone ("Bolt Freight"), where
+#. your language puts it another way.
+msgid ""
+"{{ inviter_name }} invited you to manage {{ tenant_possessive }} account at "
+"{{ org_name }} with them. Set up your sign-in to invite people, book their "
+"sessions and follow their progress."
+msgstr ""
+"{{ inviter_name }} 님이 {{ org_name }}의 {{ tenant_possessive }} 계정을 함께 관리하도록 "
+"회원님을 초대했습니다. 로그인 정보를 설정하여 팀원을 초대하고, 세션을 예약하고, 학습 진행 상황을 확인하세요."
+
+msgid ""
+"You got this email because {{ inviter_name }} invited you to manage {{ "
+"tenant_name }}."
+msgstr "{{ inviter_name }} 님이 {{ tenant_name }} 관리에 회원님을 초대하여 이 이메일이 발송되었습니다."
+
+msgid ""
+"{{ org_name }} activated your account. You can have up to {{ learner_limit "
+"}} people learning at once."
+msgstr ""
+"{{ org_name }}에서 계정을 활성화했습니다. 최대 {{ learner_limit }}명이 동시에 학습할 수 있습니다."
+
+#. Translators: {{ seats_summary }} is a whole sentence, such as "Your 20
+#. seats in Fire safety are ready
+#. to give out."
+msgid "{{ seats_summary }} Invite your people, then book their sessions."
+msgstr "{{ seats_summary }} 팀원을 초대한 다음 세션을 예약하세요."
+
+msgid "You got this email because you manage {{ tenant_name }}."
+msgstr "{{ tenant_name }}을(를) 관리하고 계셔서 이 이메일이 발송되었습니다."
+
+#. Translators: {{ tenant_possessive }} is the company's name, possessive
+#. ("Bolt Freight's"). You may
+#. write {{ tenant_name }} instead, the name alone ("Bolt Freight"), where
+#. your language puts it another way.
+msgid ""
+"{{ org_name }} renewed {{ tenant_possessive }} contract until {{ "
+"renewed_until }} with a learner limit of {{ learner_limit }}. You have {{ "
+"active_learners }} people."
+msgstr ""
+"{{ org_name }}에서 {{ tenant_possessive }} 계약을 {{ renewed_until }}까지 학습자 한도 {{"
+" learner_limit }}명으로 갱신했습니다. 현재 인원은 {{ active_learners }}명입니다."
+
+msgid ""
+"Choose the {{ learner_limit }} who keep access before {{ choose_by }}. Until"
+" you choose, everyone stays as they are now."
+msgstr ""
+"{{ choose_by }} 전에 액세스를 유지할 {{ learner_limit }}명을 선택하세요. 선택하기 전까지는 모두 현재 상태가"
+" 유지됩니다."
+
+msgid "your program"
+msgstr "내 프로그램"
+
+msgid "Your enrollment in %(title)s was updated"
+msgstr "%(title)s 수강 등록이 업데이트되었습니다"
+
+msgid "You're enrolled in %(title)s"
+msgstr "%(title)s에 등록되었습니다"
+
+msgid "Your access to %(title)s changed. Open the course to see what's new."
+msgstr "%(title)s 액세스가 변경되었습니다. 강의를 열어 새로운 내용을 확인하세요."
+
+msgid "You have a place in %(title)s. Open it from My learning."
+msgstr "%(title)s에 자리가 있습니다. 내 학습에서 여세요."
+
+msgid "Go to my program"
+msgstr "내 프로그램으로 이동"
+
+msgid "You've earned your %(title)s certificate"
+msgstr "%(title)s 인증서를 취득했습니다"
+
+msgid "Congratulations! You passed %(title)s and earned its certificate."
+msgstr "축하합니다! %(title)s에 합격하여 인증서를 취득했습니다."
+
+msgid "You got this email because of your notification settings."
+msgstr "알림 설정에 따라 이 이메일이 발송되었습니다."
+
+msgid "A learner"
+msgstr "학습자"
+
+msgid "%(who)s completed %(title)s on a seat from %(tenant)s."
+msgstr "%(who)s 님이 %(tenant)s의 좌석으로 %(title)s을(를) 수료했습니다."
+
+msgid "%(who)s passed %(title)s on a seat from %(tenant)s."
+msgstr "%(who)s 님이 %(tenant)s의 좌석으로 %(title)s에 합격했습니다."
+
+#. Translators: %(who)s is a learner's name; %(title)s a course or program.
+msgid "%(who)s finished %(title)s"
+msgstr "%(who)s 님이 %(title)s을(를) 마쳤습니다"
+
+msgid "%(email)s hasn't accepted your invitation"
+msgstr "%(email)s 님이 초대를 아직 수락하지 않았습니다"
+
+#. Translators: %(day)s is the date the invitation was sent.
+msgid ""
+"You invited %(email)s to learn with %(tenant)s on %(day)s, and they haven't "
+"accepted yet. You can send the invitation again from People."
+msgstr ""
+"%(day)s에 %(email)s 님을 %(tenant)s의 학습에 초대했지만 아직 수락하지 않았습니다. 사람 메뉴에서 초대를 다시 보낼"
+" 수 있습니다."
+
+msgid "a course"
+msgstr "강의"
+
+#. Translators: %(seats)s is a number of seats ("3 seats"); %(where)s what
+#. they are for.
+msgid "%(seats)s in %(where)s not given out yet"
+msgstr "%(where)s에서 아직 배정되지 않은 %(seats)s"
+
+msgid ""
+"%(tenant)s still has %(seats)s to give out in %(where)s. Enrollment closes "
+"on %(day)s; seats not given by then can't be used."
+msgstr ""
+"%(tenant)s에는 %(where)s에서 아직 배정할 %(seats)s이(가) 남아 있습니다. 수강 등록은 %(day)s에 마감되며,"
+" 그때까지 배정하지 않은 좌석은 사용할 수 없습니다."
+
+msgid "Order %(number)s is paid"
+msgstr "주문 %(number)s 결제 완료"
+
+#. Translators: %(total)s is money with its currency; %(tenant)s a company.
+msgid ""
+"We received %(total)s for %(tenant)s's order %(number)s. Its seats are ready"
+" to give out."
+msgstr "%(tenant)s의 주문 %(number)s에 대해 %(total)s을(를) 받았습니다. 좌석을 배정할 준비가 되었습니다."
+
+msgid "%(tenant)s is ready"
+msgstr "%(tenant)s 준비가 완료되었습니다"
+
+#. Translators: %(limit)s is a number of people.
+msgid ""
+"Your account is active. You can have up to %(limit)s people learning at "
+"once."
+msgstr "계정이 활성화되었습니다. 최대 %(limit)s명이 동시에 학습할 수 있습니다."
+
+#. Translators: %(tenant)s is a company's name; %(limit)s is a number of
+#. people.
+msgid ""
+"%(tenant)s's contract was renewed with a learner limit of %(limit)s. Choose "
+"who keeps access."
+msgstr "%(tenant)s의 계약이 학습자 한도 %(limit)s(으)로 갱신되었습니다. 액세스를 유지할 사람을 선택하세요."
+
+#. Translators: %(seats)s lists the seats, such as "20 seats in Fire safety
+#. and 5 seats in First aid".
+msgid "Your %(seats)s is ready to give out."
+msgid_plural "Your %(seats)s are ready to give out."
+msgstr[0] "%(seats)s을(를) 배정할 준비가 되었습니다."
+
+msgid "Grades"
+msgstr "성적"
+
+msgid "Enrollments"
+msgstr "수강 등록"
+
+msgid "Certificates"
+msgstr "인증서"
+
+msgid "Session attendance"
+msgstr "세션 출석"
+
+msgid "Learner progress"
+msgstr "학습자 진행 상황"
+
+msgid "Every answer"
+msgstr "모든 답변"
+
+msgid "Submissions"
+msgstr "제출물"
+
+msgid "Anonymous IDs"
+msgstr "익명 ID"
+
+msgid "Video views"
+msgstr "동영상 조회수"
+
+msgid "Assessment scores"
+msgstr "평가 점수"
+
+msgid "Invited, not enrolled"
+msgstr "초대됨, 미등록"
+
+#. Translators: {report} is the report's name.
+msgid "Your {report} report is ready"
+msgstr "{report} 보고서가 준비되었습니다"
+
+#. Translators: {report} is the report's name.
+msgid "The {report} report for this course is ready to download."
+msgstr "이 강의의 {report} 보고서를 다운로드할 준비가 되었습니다."
+
+msgid "Download the report"
+msgstr "보고서 다운로드"
+
+msgid "Your data is ready to download"
+msgstr "데이터를 다운로드할 준비가 되었습니다"
+
+#. Translators: {days} is how many days the download link works.
+msgid ""
+"Your data is ready: one zip file of everything Blend-ed keeps. The link "
+"works for {days} days, and only for you."
+msgstr ""
+"데이터가 준비되었습니다. Blend-ed에 보관된 모든 정보가 담긴 zip 파일 하나입니다. 링크는 {days}일 동안 회원님만 사용할 "
+"수 있습니다."
+
+#. Translators: the title when the person whose data was exported no longer
+#. has an account.
+msgid "this person's data is ready to download"
+msgstr "이 사용자의 데이터를 다운로드할 준비가 되었습니다"
+
+#. Translators: the message when the person whose data was exported no longer
+#. has an account; {days} is
+#. how many days the link works.
+msgid ""
+"this person's data is ready: one zip file of everything Blend-ed keeps. The "
+"link works for {days} days, and only for you."
+msgstr ""
+"이 사용자의 데이터가 준비되었습니다. Blend-ed에 보관된 모든 정보가 담긴 zip 파일 하나입니다. 링크는 {days}일 동안 "
+"회원님만 사용할 수 있습니다."
+
+#. Translators: {name} is the person whose data was exported.
+msgid "{name}'s data is ready to download"
+msgstr "{name} 님의 데이터를 다운로드할 준비가 되었습니다"
+
+#. Translators: {name} is the person whose data was exported; {days} how many
+#. days the link works.
+msgid ""
+"{name}'s data is ready: one zip file of everything Blend-ed keeps. The link "
+"works for {days} days, and only for you."
+msgstr ""
+"{name} 님의 데이터가 준비되었습니다. Blend-ed에 보관된 모든 정보가 담긴 zip 파일 하나입니다. 링크는 {days}일 동안"
+" 회원님만 사용할 수 있습니다."
+
+msgid "Download the file"
+msgstr "파일 다운로드"
+
+msgid "Your full export is ready to download"
+msgstr "전체 내보내기 파일을 다운로드할 준비가 되었습니다"
+
+#. Translators: {days} is how many days the download link works.
+msgid ""
+"Your full export is ready: one zip file of your platform's records. The link"
+" works for {days} days, and only for you."
+msgstr ""
+"전체 내보내기가 준비되었습니다. 플랫폼 기록이 담긴 zip 파일 하나입니다. 링크는 {days}일 동안 회원님만 사용할 수 있습니다."
+
+#. Translators: {report} is the report's name; {start} and {end} are dates
+#. (YYYY-MM-DD).
+msgid "The {report} report for {start} to {end} is ready to download."
+msgstr "{start}부터 {end}까지의 {report} 보고서를 다운로드할 준비가 되었습니다."
+
+#. Translators: {end} is the week's last day ("19 November 2026"); the others
+#. are counts.
+msgid ""
+"Week to {end}. Seats in use: {assigned} of {funded}. New seats: {new_seats}."
+" Results recorded: {results}. Certificates earned: {certificates}."
+msgstr ""
+"{end}까지의 한 주. 사용 중인 좌석: {funded}개 중 {assigned}개. 새 좌석: {new_seats}개. 기록된 결과:"
+" {results}건. 취득한 인증서: {certificates}개."
+
+#. Translators: {tenant} is the company's name.
+msgid "{tenant}: your week in learning"
+msgstr "{tenant}: 이번 주 학습 현황"
+
+#. Translators: {name} is the instructor's name; {title} is the session's
+#. name.
+msgid "{name} is away for {title}"
+msgstr "{name} 님이 {title} 기간에 부재 중입니다"
+
+#. Translators: {title} is the session's name, {when} the date's start and
+#. {name} the instructor's name.
+msgid ""
+"{title} on {when} falls in {name}'s time off. They are still its instructor "
+"until you change it."
+msgstr ""
+"{when}의 {title}이(가) {name} 님의 휴무 기간과 겹칩니다. 변경하기 전까지는 계속 담당 강사로 지정되어 있습니다."
+
+#. Translators: {title} is the session's name; the instructor's name is not
+#. known.
+msgid "An instructor is away for {title}"
+msgstr "{title}의 강사가 부재 중입니다"
+
+#. Translators: {title} is the session's name and {when} the date's start; the
+#. instructor's name is not
+#. known.
+msgid ""
+"{title} on {when} falls in the instructor's time off. They are still its "
+"instructor until you change it."
+msgstr "{when}의 {title} 일정이 강사의 휴무 기간과 겹칩니다. 변경하기 전까지는 해당 강사가 계속 담당합니다."
 
 msgid "{name}, you earned a Session certificate!"
-msgstr ""
+msgstr "{name} 님, 세션 인증서를 획득했습니다!"
+
+#. Translators: {part} is the date's number within the session; {title} is the
+#. session's name.
+msgid "Part {part} of {title}"
+msgstr "{title} 파트 {part}"
+
+#. Translators: {by} is who moved the date; {title} the date's name; {when}
+#. the new date and time, {was}
+#. the old one.
+msgid "{by} moved {title} to {when} (it was {was})."
+msgstr "{by} 님이 {title}을(를) {when}(으)로 변경했습니다(이전: {was})."
+
+#. Translators: the whole message when no one is named; English leaves out who
+#. did it. Write it as a
+#. complete sentence ("{title} was moved to …"). {when} is the new date and
+#. time, {was} the old one.
+msgid "moved {title} to {when} (it was {was})."
+msgstr "{title}을(를) {when}(으)로 변경했습니다(이전: {was})."
+
+msgid "{title} moved"
+msgstr "{title} 변경됨"
+
+#. Translators: {by} is who cancelled the date; {title} the date's name; {was}
+#. the date and time it had.
+msgid "{by} cancelled {title}, {was}."
+msgstr "{by} 님이 {title}({was})을(를) 취소했습니다."
+
+#. Translators: the whole message when no one is named; English leaves out who
+#. did it. Write it as a
+#. complete sentence ("{title}, {was}, was cancelled."). {was} is the date and
+#. time it had.
+msgid "cancelled {title}, {was}."
+msgstr "{title}({was})을(를) 취소했습니다."
+
+msgid "{title} cancelled"
+msgstr "{title} 취소됨"
+
+#. Translators: {by} is who added the instructor; {title} the date's name;
+#. {when} its date and time.
+msgid "{by} added you to {title}, {when}."
+msgstr "{by} 님이 회원님을 {title}({when})에 추가했습니다."
+
+#. Translators: the whole message when no one is named; English leaves out who
+#. did it. Write it as a
+#. complete sentence ("You were added to {title}, {when}."). {when} is the
+#. date and time.
+msgid "added you to {title}, {when}."
+msgstr "회원님을 {title}({when})에 추가했습니다."
+
+msgid "You're teaching {title}"
+msgstr "{title}을(를) 강의합니다"
+
+#. Translators: {by} is who changed the date's instructors; {title} the date's
+#. name; {was} its date and time.
+msgid "{by} changed its instructors; {title} on {was} is not yours any more."
+msgstr "{by} 님이 강사를 변경했습니다. {was}의 {title}은(는) 더 이상 회원님 담당이 아닙니다."
+
+#. Translators: the whole message when no one is named; English leaves out who
+#. did it. Write it as a complete
+#. sentence ("Its instructors changed; …"). {was} is the date and time.
+msgid "changed its instructors; {title} on {was} is not yours any more."
+msgstr "강사를 변경했습니다. {was}의 {title}은(는) 더 이상 회원님 담당이 아닙니다."
+
+msgid "You're no longer teaching {title}"
+msgstr "더 이상 {title}을(를) 강의하지 않습니다"
+
+msgid "Confirm attendance for {title}"
+msgstr "{title} 출석 확인"
+
+msgid "{title} has ended. Confirm who attended."
+msgstr "{title}이(가) 종료되었습니다. 출석자를 확인하세요."
+
+#. Translators: {title} is the session's name; {minutes} how many minutes
+#. until it starts. English keeps
+#. "minutes" even for 1.
+msgid "{title} starts in {minutes} minutes"
+msgid_plural "{title} starts in {minutes} minutes"
+msgstr[0] "{title}이(가) {minutes}분 후에 시작됩니다"
+
+#. Translators: {title} is the session's name; {when} its start date and time.
+msgid "{title} starts at {when}."
+msgstr "{title}이(가) {when}에 시작됩니다."
+
+msgid "Tomorrow: {count} session"
+msgid_plural "Tomorrow: {count} sessions"
+msgstr[0] "내일: 세션 {count}개"
+
+msgid "{count} new submission to review"
+msgid_plural "{count} new submissions to review"
+msgstr[0] "검토할 새 제출물 {count}개"
+
+#. Translators: {batch} is the batch's name; {count} how many submissions wait
+#. for a grade.
+msgid "{batch}: {count} submission waiting for a grade."
+msgid_plural "{batch}: {count} submissions waiting for a grade."
+msgstr[0] "{batch}: 채점을 기다리는 제출물 {count}개."
+
+msgid "Weekly review due for {batches}"
+msgstr "{batches} 주간 검토 기한"
+
+msgid "below the passing score"
+msgstr "합격 점수 미달"
+
+msgid "not active for 14 days"
+msgstr "14일 동안 활동 없음"
+
+msgid "not active for 7 days"
+msgstr "7일 동안 활동 없음"
+
+msgid "behind on progress"
+msgstr "진도 지연"
+
+msgid "{name} needs help"
+msgstr "{name} 님에게 도움이 필요합니다"
+
+#. Translators: {name} is the learner's name, {batch} the batch's and {why}
+#. the reasons,
+#. comma-separated.
+msgid "{name} in {batch}: {why}."
+msgstr "{batch}의 {name}: {why}."
+
+msgid "{title}: your date has moved"
+msgstr "{title}: 날짜가 변경되었습니다"
+
+msgid "Your date of {title} now starts at {when}."
+msgstr "{title} 날짜가 이제 {when}에 시작됩니다."
+
+msgid "{title}: your date is cancelled"
+msgstr "{title}: 날짜가 취소되었습니다"
+
+msgid ""
+"The date of {title} you had a place on is cancelled. You can book another "
+"date."
+msgstr "자리를 예약한 {title} 날짜가 취소되었습니다. 다른 날짜를 예약할 수 있습니다."
+
+msgid "{title}: you have a place"
+msgstr "{title}: 자리가 확보되었습니다"
+
+msgid "A place freed on {title} and you are booked for {when}."
+msgstr "{title}에 자리가 나서 {when}(으)로 예약되었습니다."
+
+#. Translators: {title} is the session's name; {count} how many hours until it
+#. starts.
+msgid "{title} starts in {count} hour"
+msgid_plural "{title} starts in {count} hours"
+msgstr[0] "{title}이(가) {count}시간 후에 시작됩니다"
+
+#. Translators: {title} is the session's name.
+msgid "{title} starts in 1 hour"
+msgstr "{title}이(가) 1시간 후에 시작됩니다"
+
+#. Translators: {title} is the session's name.
+msgid "{title} starts in a few minutes"
+msgstr "{title}이(가) 잠시 후에 시작됩니다"
+
+#. Translators: {title} is the session's name; {count} how many minutes until
+#. it starts (5 or more).
+msgid "{title} starts in {count} minute"
+msgid_plural "{title} starts in {count} minutes"
+msgstr[0] "{title}이(가) {count}분 후에 시작됩니다"
+
+#. Translators: {title} is the session's name; {when} is its start date and
+#. time.
+msgid "Your booked date of {title} starts at {when}."
+msgstr "예약한 {title} 날짜가 {when}에 시작됩니다."
+
+#. Translators: {name} is who raised it, {type} the ticket's type code (issue,
+#. bug, feature, other) and {title}
+#. its title.
+msgid "{name} raised a new {type} ticket: {title}"
+msgstr "{name} 님이 새 {type} 티켓을 접수했습니다: {title}"
+
+msgid "New support ticket"
+msgstr "새 지원 티켓"
+
+msgid "Your support update"
+msgstr "지원 업데이트"
+
+msgid "Your ticket {title} has been closed."
+msgstr "티켓 {title}이(가) 종료되었습니다."
+
+msgid "Your ticket {title} has been reopened."
+msgstr "티켓 {title}이(가) 다시 열렸습니다."
+
+msgid "Ticket assigned to you"
+msgstr "나에게 배정된 티켓"
+
+msgid "You have been assigned the ticket {title}."
+msgstr "티켓 {title}이(가) 회원님에게 배정되었습니다."
+
+#. Translators: {name} is who commented, {title} the ticket's title and
+#. {comment} their words.
+msgid "{name} commented on your ticket {title}: {comment}"
+msgstr "{name} 님이 티켓 {title}에 댓글을 남겼습니다: {comment}"
+
+msgid "New comment on your ticket"
+msgstr "내 티켓에 새 댓글이 달렸습니다"

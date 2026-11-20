@@ -1,0 +1,140 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xblock-blendx-session\n"
+"Report-Msgid-Bugs-To: \n"
+"Language: ko_KR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Only the dates offered to the learner's Batch"
+msgstr "학습자의 기수에 제공된 날짜만"
+
+msgid "Any open date inside the learner's access window"
+msgstr "학습자의 액세스 기간 내 모든 예약 가능 날짜"
+
+msgid "This Session unlocks after an earlier step."
+msgstr "이 세션은 이전 단계를 완료하면 열립니다."
+
+msgid "Choose a date to book your place."
+msgstr "자리를 예약할 날짜를 선택하세요."
+
+msgid "Your organisation will book your Session."
+msgstr "조직에서 세션을 예약해 드립니다."
+
+msgid "You're booked."
+msgstr "예약되었습니다."
+
+msgid ""
+"You're on the waitlist. You'll be booked automatically if a place frees up."
+msgstr "대기자 명단에 등록되었습니다. 자리가 나면 자동으로 예약됩니다."
+
+msgid "You attended this Session."
+msgstr "이 세션에 출석했습니다."
+
+msgid "You missed this Session."
+msgstr "이 세션에 결석했습니다."
+
+msgid "You don't have access to this Session."
+msgstr "이 세션에 액세스할 권한이 없습니다."
+
+msgid "Display name"
+msgstr "표시 이름"
+
+msgid "Live Session"
+msgstr "라이브 세션"
+
+msgid "Session"
+msgstr "세션"
+
+msgid "The stand-alone Session this unit links to."
+msgstr "이 단원이 연결된 독립 세션입니다."
+
+msgid "Required"
+msgstr "필수"
+
+msgid ""
+"Learners must complete the Session to complete this part of the Course."
+msgstr "강의의 이 부분을 완료하려면 학습자가 세션을 완료해야 합니다."
+
+msgid "Which dates learners may book"
+msgstr "학습자가 예약할 수 있는 날짜"
+
+msgid "Booking opens here when it's available."
+msgstr "예약이 가능해지면 여기에서 열립니다."
+
+msgid "Optional"
+msgstr "선택 사항"
+
+msgid "Choose a Session."
+msgstr "세션을 선택하세요."
+
+msgid "The Session no longer exists or can't be linked here."
+msgstr "세션이 더 이상 존재하지 않거나 여기에 연결할 수 없습니다."
+
+msgid "The Session isn't published, so the link won't sync at publish."
+msgstr "세션이 게시되지 않아 게시 시 링크가 동기화되지 않습니다."
+
+msgid "Choose which dates learners may book."
+msgstr "학습자가 예약할 수 있는 날짜를 선택하세요."
+
+msgid "(no Session selected)"
+msgstr "(선택한 세션 없음)"
+
+msgid "Yes"
+msgstr "예"
+
+msgid "No"
+msgstr "아니요"
+
+msgid "Only course staff can change this block."
+msgstr "강의 직원만 이 블록을 변경할 수 있습니다."
+
+msgid "The form wasn't sent correctly."
+msgstr "양식이 올바르게 전송되지 않았습니다."
+
+msgid "Choose a Session from the list."
+msgstr "목록에서 세션을 선택하세요."
+
+msgid "That Session can't be linked here."
+msgstr "해당 세션은 여기에 연결할 수 없습니다."
+
+msgid "Required is yes or no."
+msgstr "필수 여부는 예 또는 아니요여야 합니다."
+
+msgid "Kind"
+msgstr "종류"
+
+msgid "Upcoming dates"
+msgstr "예정된 날짜"
+
+msgid "Dates learners may book"
+msgstr "학습자가 예약할 수 있는 날짜"
+
+msgid "Limit to modes"
+msgstr "수강 방식으로 제한"
+
+msgid "Use \"Restrict access\" on this component."
+msgstr "이 구성 요소에서 \"액세스 제한\"을 사용하세요."
+
+msgid "This Session isn't available yet."
+msgstr "이 세션은 아직 이용할 수 없습니다."
+
+msgid "Choose a Session"
+msgstr "세션 선택"
+
+msgid "Required to complete this part of the Course"
+msgstr "강의의 이 부분을 완료하는 데 필요"
+
+msgid ""
+"To limit it to some learning modes, use \"Restrict access\" on the "
+"component."
+msgstr "일부 수강 방식으로 제한하려면 구성 요소에서 \"액세스 제한\"을 사용하세요."
+
+msgid "Save"
+msgstr "저장"
+
+msgid "Cancel"
+msgstr "취소"

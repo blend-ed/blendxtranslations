@@ -1,0 +1,424 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: blendxai\n"
+"Report-Msgid-Bugs-To: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Organisation not found"
+msgstr "Organisation nicht gefunden"
+
+msgid "You do not have access to this organisation."
+msgstr "Sie haben keinen Zugriff auf diese Organisation."
+
+msgid ""
+"AI usage has been disabled for your account. Please contact your "
+"organisation admin."
+msgstr ""
+"Die AI-Nutzung wurde für Ihr Konto deaktiviert. Bitte wenden Sie sich an den"
+" Administrator Ihrer Organisation."
+
+msgid ""
+"Your organisation has not configured AI features yet. Please contact your "
+"admin."
+msgstr ""
+"Ihre Organisation hat die AI-Funktionen noch nicht konfiguriert. Bitte "
+"wenden Sie sich an Ihren Administrator."
+
+msgid "The AI produced invalid problem content: {error}"
+msgstr "Die AI hat ungültige Problem-Inhalte erzeugt: {error}"
+
+msgid "Failed to generate component: {error}"
+msgstr "Komponente konnte nicht generiert werden: {error}"
+
+msgid "Failed to generate image: {error}"
+msgstr "Bild konnte nicht generiert werden: {error}"
+
+msgid "The AI could not generate an image. Try rephrasing your description."
+msgstr ""
+"Die AI konnte kein Bild generieren. Versuchen Sie, Ihre Beschreibung "
+"umzuformulieren."
+
+msgid "Invalid parent_locator."
+msgstr "Ungültiger parent_locator."
+
+msgid "You do not have permission to edit this course."
+msgstr "Sie haben keine Berechtigung, diesen Kurs zu bearbeiten."
+
+msgid "AI usage has been disabled for your account."
+msgstr "Die AI-Nutzung wurde für Ihr Konto deaktiviert."
+
+msgid ""
+"Writing this component needs library.edit and library.publish on your "
+"organisation, besides course.edit on the course."
+msgstr ""
+"Zum Schreiben dieser Komponente sind neben course.edit für den Kurs auch "
+"library.edit und library.publish für Ihre Organisation erforderlich."
+
+msgid "Failed to create component: {error}"
+msgstr "Komponente konnte nicht erstellt werden: {error}"
+
+msgid "This course is not in your organisation."
+msgstr "Dieser Kurs gehört nicht zu Ihrer Organisation."
+
+msgid "course_id is required."
+msgstr "course_id ist erforderlich."
+
+msgid "Invalid course_id."
+msgstr "Ungültige course_id."
+
+msgid ""
+"Your organisation has not configured AI assistant features yet. Please "
+"contact your admin."
+msgstr ""
+"Ihre Organisation hat die AI-Assistent-Funktionen noch nicht konfiguriert. "
+"Bitte wenden Sie sich an Ihren Administrator."
+
+msgid "Failed to read course content: {error}"
+msgstr "Kursinhalte konnten nicht gelesen werden: {error}"
+
+msgid "Failed to generate descriptions: {error}"
+msgstr "Beschreibungen konnten nicht generiert werden: {error}"
+
+msgid "AI service not configured for this organization"
+msgstr "Der AI-Dienst ist für diese Organisation nicht konfiguriert"
+
+msgid "Invalid request data: {error}"
+msgstr "Ungültige Anfragedaten: {error}"
+
+msgid "Problem generation failed: {error}"
+msgstr "Generierung des Problems fehlgeschlagen: {error}"
+
+msgid "Problem enhancement failed: {error}"
+msgstr "Verbesserung des Problems fehlgeschlagen: {error}"
+
+msgid "Problem validation failed: {error}"
+msgstr "Validierung des Problems fehlgeschlagen: {error}"
+
+msgid "Text content generation failed: {error}"
+msgstr "Generierung des Textinhalts fehlgeschlagen: {error}"
+
+msgid "Text content enhancement failed: {error}"
+msgstr "Verbesserung des Textinhalts fehlgeschlagen: {error}"
+
+msgid "Content analysis failed: {error}"
+msgstr "Inhaltsanalyse fehlgeschlagen: {error}"
+
+msgid "Assessment generation failed: {error}"
+msgstr "Generierung der Beurteilung fehlgeschlagen: {error}"
+
+msgid "Accessibility optimization failed: {error}"
+msgstr "Barrierefreiheitsoptimierung fehlgeschlagen: {error}"
+
+msgid "Chat processing failed: {error}"
+msgstr "Chat-Verarbeitung fehlgeschlagen: {error}"
+
+msgid "Invalid course_id: {course_id}"
+msgstr "Ungültige course_id: {course_id}"
+
+msgid "Unsupported target_language: {target_language}"
+msgstr "Nicht unterstützte target_language: {target_language}"
+
+msgid "Task not found."
+msgstr "Aufgabe nicht gefunden."
+
+msgid "AI features are disabled for this user"
+msgstr "AI-Funktionen sind für diesen Benutzer deaktiviert"
+
+msgid "Query is required"
+msgstr "Abfrage ist erforderlich"
+
+msgid "Error occurred while converting query to vector"
+msgstr "Beim Umwandeln der Abfrage in einen Vektor ist ein Fehler aufgetreten"
+
+msgid "Error occurred while getting similarity search course content"
+msgstr ""
+"Beim Abrufen der Ähnlichkeitssuche für Kursinhalte ist ein Fehler "
+"aufgetreten"
+
+msgid "Failed to generate OLX"
+msgstr "OLX konnte nicht generiert werden"
+
+msgid ""
+"Please describe the skill set you want to generate (at least "
+"{min_prompt_length} characters)."
+msgstr ""
+"Bitte beschreiben Sie die Fähigkeiten, die Sie generieren möchten "
+"(mindestens {min_prompt_length} Zeichen)."
+
+msgid "Prompt is too long (max {max_prompt_length} characters)."
+msgstr "Der Prompt ist zu lang (max. {max_prompt_length} Zeichen)."
+
+msgid "Failed to generate taxonomy: {error}"
+msgstr "Taxonomie konnte nicht generiert werden: {error}"
+
+msgid ""
+"Your Organization has not setup AI Assistant Features Correctly. Please "
+"contact the admin."
+msgstr ""
+"Ihre Organisation hat die AI-Assistent-Funktionen nicht korrekt "
+"eingerichtet. Bitte wenden Sie sich an den Administrator."
+
+msgid "Message is required"
+msgstr "Nachricht ist erforderlich"
+
+msgid "Course ID is required"
+msgstr "Kurs-ID ist erforderlich"
+
+msgid "Course ID must be in format 'course-v1:org+course+run'"
+msgstr "Die Kurs-ID muss das Format „course-v1:org+course+run“ haben"
+
+msgid ""
+"You don't have permission to edit courses. Please contact your "
+"administrator."
+msgstr ""
+"Sie haben keine Berechtigung, Kurse zu bearbeiten. Bitte wenden Sie sich an "
+"Ihren Administrator."
+
+msgid "An error occurred while processing your request: {error}"
+msgstr ""
+"Bei der Verarbeitung Ihrer Anfrage ist ein Fehler aufgetreten: {error}"
+
+msgid "Authentication credentials were not provided."
+msgstr "Es wurden keine Anmeldedaten angegeben."
+
+msgid "You do not have permission to perform this action."
+msgstr "Sie haben keine Berechtigung, diese Aktion auszuführen."
+
+msgid "organisation_id is required"
+msgstr "organisation_id ist erforderlich"
+
+msgid "Unknown organisation"
+msgstr "Unbekannte Organisation"
+
+msgid "credits_allocated must be an integer"
+msgstr "credits_allocated muss eine ganze Zahl sein"
+
+msgid "credits_allocated must be >= 0"
+msgstr "credits_allocated muss >= 0 sein"
+
+msgid ""
+"Allocation exceeds the platform AI credit limit. Only {remaining} credit(s) "
+"remain available."
+msgstr ""
+"Die Zuweisung überschreitet das AI-Credit-Limit der Plattform. Es sind nur "
+"noch {remaining} Credit(s) verfügbar."
+
+msgid "Unknown tenant"
+msgstr "Unbekannter Mandant"
+
+msgid "credits_allocated must be an integer or null"
+msgstr "credits_allocated muss eine ganze Zahl oder null sein"
+
+msgid ""
+"The shares would exceed the organisation's AI credits. Only {remaining} "
+"credit(s) remain for this tenant."
+msgstr ""
+"Die Anteile würden die AI-Credits der Organisation überschreiten. Für diesen"
+" Mandanten sind nur noch {remaining} Credit(s) verfügbar."
+
+msgid "The organisation has no AI credit pool yet"
+msgstr "Die Organisation hat noch kein AI-Credit-Kontingent"
+
+msgid ""
+"AI features have been disabled for your organisation. Please contact your "
+"organisation admin."
+msgstr ""
+"AI-Funktionen wurden für Ihre Organisation deaktiviert. Bitte wenden Sie "
+"sich an den Administrator Ihrer Organisation."
+
+msgid "Flashcard not found."
+msgstr "Lernkarte nicht gefunden."
+
+msgid "Could not load review state"
+msgstr "Überprüfungsstatus konnte nicht geladen werden"
+
+msgid "Could not save review"
+msgstr "Überprüfung konnte nicht gespeichert werden"
+
+msgid "Could not load due flashcards"
+msgstr "Fällige Lernkarten konnten nicht geladen werden"
+
+msgid "Invalid request data"
+msgstr "Ungültige Anfragedaten"
+
+msgid "Tag with ID {skill_taxonomy_id} not found"
+msgstr "Tag mit der ID {skill_taxonomy_id} nicht gefunden"
+
+msgid "Invalid course ID format: {course_id}"
+msgstr "Ungültiges Kurs-ID-Format: {course_id}"
+
+msgid "User cannot modify courses outside their organization: {org_name}"
+msgstr ""
+"Der Benutzer kann keine Kurse außerhalb seiner Organisation ändern: "
+"{org_name}"
+
+msgid ""
+"Could not find first unit in course. Please ensure the course has at least "
+"one section, subsection, and unit."
+msgstr ""
+"Die erste Einheit im Kurs wurde nicht gefunden. Stellen Sie sicher, dass der"
+" Kurs mindestens einen Abschnitt, einen Unterabschnitt und eine Einheit "
+"enthält."
+
+msgid "Failed to create component block"
+msgstr "Komponentenblock konnte nicht erstellt werden"
+
+msgid "Successfully created {component_type} component \"{component_name}\""
+msgstr "{component_type}-Komponente „{component_name}“ erfolgreich erstellt"
+
+msgid "Failed to create knowledge atom: {error}"
+msgstr "Wissensatom konnte nicht erstellt werden: {error}"
+
+msgid "Please provide a valid message."
+msgstr "Bitte geben Sie eine gültige Nachricht ein."
+
+msgid "Please provide a message."
+msgstr "Bitte geben Sie eine Nachricht ein."
+
+msgid ""
+"I apologize, but I encountered an error processing your request. Please try "
+"again."
+msgstr ""
+"Entschuldigung, bei der Verarbeitung Ihrer Anfrage ist ein Fehler "
+"aufgetreten. Bitte versuchen Sie es erneut."
+
+msgid ""
+"I apologize, but I encountered an error processing your request. Please try "
+"again later."
+msgstr ""
+"Entschuldigung, bei der Verarbeitung Ihrer Anfrage ist ein Fehler "
+"aufgetreten. Bitte versuchen Sie es später erneut."
+
+msgid "A valid lesson is required."
+msgstr "Eine gültige Lektion ist erforderlich."
+
+msgid "You do not have access to this lesson."
+msgstr "Sie haben keinen Zugriff auf diese Lektion."
+
+msgid "This lesson is not available."
+msgstr "Diese Lektion ist nicht verfügbar."
+
+msgid "The AI tutor is turned off for this course."
+msgstr "Der AI-Tutor ist für diesen Kurs deaktiviert."
+
+msgid "Learning memory is not available."
+msgstr "Das Lerngedächtnis ist nicht verfügbar."
+
+msgid "Choose whether memory is enabled."
+msgstr "Wählen Sie, ob das Gedächtnis aktiviert ist."
+
+msgid "Goals and preferences must each be text of at most 1000 characters."
+msgstr ""
+"Ziele und Präferenzen müssen jeweils Text mit höchstens 1000 Zeichen sein."
+
+msgid "helpful must be true or false."
+msgstr "helpful muss true oder false sein."
+
+msgid "Message not found."
+msgstr "Nachricht nicht gefunden."
+
+msgid "Only an assistant answer can be rated."
+msgstr "Nur eine Antwort des Assistenten kann bewertet werden."
+
+msgid "Message is required."
+msgstr "Nachricht ist erforderlich."
+
+msgid "Invalid message format."
+msgstr "Ungültiges Nachrichtenformat."
+
+msgid "Organization not found."
+msgstr "Organisation nicht gefunden."
+
+msgid "Failed to create a new chat session."
+msgstr "Neue Chat-Sitzung konnte nicht erstellt werden."
+
+msgid "Chat session not found."
+msgstr "Chat-Sitzung nicht gefunden."
+
+msgid ""
+"An error occurred while processing your request. Please try again later."
+msgstr ""
+"Bei der Verarbeitung Ihrer Anfrage ist ein Fehler aufgetreten. Bitte "
+"versuchen Sie es später erneut."
+
+msgid "An error occurred while creating the chat session."
+msgstr "Beim Erstellen der Chat-Sitzung ist ein Fehler aufgetreten."
+
+msgid "Session not found."
+msgstr "Session nicht gefunden."
+
+msgid "sessionName is required."
+msgstr "sessionName ist erforderlich."
+
+msgid "Failed to rename the chat session."
+msgstr "Chat-Sitzung konnte nicht umbenannt werden."
+
+msgid "An error occurred while renaming the chat session."
+msgstr "Beim Umbenennen der Chat-Sitzung ist ein Fehler aufgetreten."
+
+msgid "Failed to delete the chat session."
+msgstr "Chat-Sitzung konnte nicht gelöscht werden."
+
+msgid "An error occurred while deleting the chat session."
+msgstr "Beim Löschen der Chat-Sitzung ist ein Fehler aufgetreten."
+
+msgid "AI features have been disabled for your organisation."
+msgstr "AI-Funktionen wurden für Ihre Organisation deaktiviert."
+
+msgid "Context ID is required"
+msgstr "Kontext-ID ist erforderlich"
+
+msgid "User cannot access course outside their organization: {org_name}"
+msgstr ""
+"Der Benutzer kann nicht auf Kurse außerhalb seiner Organisation zugreifen: "
+"{org_name}"
+
+msgid "Failed to auto-tag course: {error}"
+msgstr "Automatisches Taggen des Kurses fehlgeschlagen: {error}"
+
+msgid "No content_tagged data provided"
+msgstr "Keine content_tagged-Daten angegeben"
+
+msgid "Each item in content_tagged must have a content_id"
+msgstr "Jedes Element in content_tagged muss eine content_id haben"
+
+msgid "Each item in content_tagged must have taxonomy_suggestions"
+msgstr "Jedes Element in content_tagged muss taxonomy_suggestions haben"
+
+msgid "No available taxonomies found for organization"
+msgstr "Keine verfügbaren Taxonomien für die Organisation gefunden"
+
+msgid "Failed to get taxonomies: {error}"
+msgstr "Taxonomien konnten nicht abgerufen werden: {error}"
+
+msgid "Failed to apply tags: {error}"
+msgstr "Tags konnten nicht angewendet werden: {error}"
+
+msgid "Failed to get course outline: {error}"
+msgstr "Kursübersicht konnte nicht abgerufen werden: {error}"
+
+msgid "Failed to build course content list: {error}"
+msgstr "Liste der Kursinhalte konnte nicht erstellt werden: {error}"
+
+msgid "Failed to get course hierarchy: {error}"
+msgstr "Kurshierarchie konnte nicht abgerufen werden: {error}"
+
+msgid "Failed to remove tags: {error}"
+msgstr "Tags konnten nicht entfernt werden: {error}"
+
+msgid "Error occurred while initializing image LLM"
+msgstr "Beim Initialisieren des Bild-LLM ist ein Fehler aufgetreten"
+
+msgid "Title and description are required"
+msgstr "Titel und Beschreibung sind erforderlich"
+
+msgid "AI features are disabled for this user."
+msgstr "AI-Funktionen sind für diesen Benutzer deaktiviert."
+
+msgid "Error occurred while generating program image"
+msgstr "Beim Generieren des Programmbilds ist ein Fehler aufgetreten"

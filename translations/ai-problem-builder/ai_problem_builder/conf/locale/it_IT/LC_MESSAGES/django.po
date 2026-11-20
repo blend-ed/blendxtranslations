@@ -10,7 +10,115 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid ""
+"Either 'prompts' list or 'prompt' with 'problem_count'/'problem_types' must "
+"be provided"
+msgstr ""
+"È necessario fornire un elenco 'prompts' oppure 'prompt' con "
+"'problem_count'/'problem_types'"
+
+msgid "Invalid problem type: {ptype}. Valid types: {valid_types}"
+msgstr "Tipo di problema non valido: {ptype}. Tipi validi: {valid_types}"
+
+msgid ""
+"Sum of problem_types counts ({total}) does not match problem_count ({count})"
+msgstr ""
+"La somma dei conteggi di problem_types ({total}) non corrisponde a "
+"problem_count ({count})"
+
+msgid "Failed to generate OLX"
+msgstr "Impossibile generare l'OLX"
+
+msgid "Required query parameter"
+msgstr "Parametro di query obbligatorio"
+
+msgid "Generated OLX failed validation after {attempts} attempts: {error}"
+msgstr ""
+"L'OLX generato non ha superato la convalida dopo {attempts} tentativi: "
+"{error}"
+
+msgid "Rate limit error: {error}"
+msgstr "Errore di limite di frequenza: {error}"
+
+msgid "Timeout error: {error}"
+msgstr "Errore di timeout: {error}"
+
+msgid "Invalid request to LLM API: {error}"
+msgstr "Richiesta non valida all'API dell'LLM: {error}"
+
+msgid "LLM API error: {error}"
+msgstr "Errore dell'API dell'LLM: {error}"
+
+msgid "Failed to generate OLX: {error}"
+msgstr "Impossibile generare l'OLX: {error}"
+
+msgid "Failed to generate OLX after all retry attempts"
+msgstr "Impossibile generare l'OLX dopo tutti i tentativi"
+
+msgid ""
 "Dummy text to generate a translation (.po) source file. It is safe to delete"
 " this line. It is also safe to delete (load i18n) above if there are no "
 "other (trans) tags in the file"
 msgstr ""
+"Testo fittizio per generare un file sorgente di traduzione (.po). Questa "
+"riga può essere eliminata senza problemi. Si può eliminare anche (load i18n)"
+" qui sopra se nel file non ci sono altri tag (trans)"
+
+msgid ""
+"Unsupported file type: {file_extension}. Supported types: PDF, DOCX, PPTX"
+msgstr ""
+"Tipo di file non supportato: {file_extension}. Tipi supportati: PDF, DOCX, "
+"PPTX"
+
+msgid "Failed to extract text from {filename}: {error}"
+msgstr "Impossibile estrarre il testo da {filename}: {error}"
+
+msgid "No documents could be processed successfully"
+msgstr "Non è stato possibile elaborare correttamente alcun documento"
+
+msgid "No text content found in PDF"
+msgstr "Nessun contenuto testuale trovato nel PDF"
+
+msgid "No text content found in Word document"
+msgstr "Nessun contenuto testuale trovato nel documento Word"
+
+msgid "No text content found in PowerPoint presentation"
+msgstr "Nessun contenuto testuale trovato nella presentazione PowerPoint"
+
+msgid "Invalid library key format: {error}"
+msgstr "Formato della chiave della biblioteca non valido: {error}"
+
+msgid "Invalid usage key format: {error}"
+msgstr "Formato della chiave di utilizzo non valido: {error}"
+
+msgid "Permission denied: {error}"
+msgstr "Autorizzazione negata: {error}"
+
+msgid "Invalid block type '{block_type}': {error}"
+msgstr "Tipo di blocco '{block_type}' non valido: {error}"
+
+msgid ""
+"Cannot add problem directly to {container_type}. Problems can only be added "
+"to collections or units."
+msgstr ""
+"Impossibile aggiungere un problema direttamente a {container_type}. I "
+"problemi possono essere aggiunti solo a raccolte o unità."
+
+msgid ""
+"Cannot add problems directly to {container_type}. Problems can only be added"
+" to collections or units."
+msgstr ""
+"Impossibile aggiungere problemi direttamente a {container_type}. I problemi "
+"possono essere aggiunti solo a raccolte o unità."
+
+msgid "OLX string cannot be empty"
+msgstr "La stringa OLX non può essere vuota"
+
+msgid "Invalid XML syntax: {error}"
+msgstr "Sintassi XML non valida: {error}"
+
+msgid "Error parsing XML: {error}"
+msgstr "Errore durante l'analisi dell'XML: {error}"
+
+msgid "Root tag mismatch: expected '<{expected}>', found '<{found}>'"
+msgstr ""
+"Tag radice non corrispondente: previsto '<{expected}>', trovato '<{found}>'"

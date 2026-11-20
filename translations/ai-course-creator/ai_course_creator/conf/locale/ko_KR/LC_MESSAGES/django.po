@@ -9,8 +9,218 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
+msgid "An error occurred while processing your request. Please try again."
+msgstr "요청을 처리하는 중 오류가 발생했습니다. 다시 시도하세요."
+
+msgid "Course not found"
+msgstr "강의를 찾을 수 없습니다"
+
+msgid "No units found in course structure"
+msgstr "강의 구조에서 단원을 찾을 수 없습니다"
+
+msgid "AI service is not configured"
+msgstr "AI 서비스가 구성되지 않았습니다"
+
+msgid "Unit not found"
+msgstr "단원을 찾을 수 없습니다"
+
+msgid "AI returned invalid format"
+msgstr "AI가 잘못된 형식을 반환했습니다"
+
+msgid "Component not found"
+msgstr "구성 요소를 찾을 수 없습니다"
+
+msgid "AI returned invalid structure format"
+msgstr "AI가 잘못된 구조 형식을 반환했습니다"
+
+msgid "course_creation_id is required."
+msgstr "course_creation_id가 필요합니다."
+
+msgid "org, number, and run are all required."
+msgstr "org, number, run이 모두 필요합니다."
+
+msgid "Courses can only be created in your organisation."
+msgstr "강의는 소속 조직에서만 만들 수 있습니다."
+
+msgid "You do not have permission to create courses."
+msgstr "강의를 만들 권한이 없습니다."
+
+msgid "Course not found."
+msgstr "강의를 찾을 수 없습니다."
+
+msgid "You do not have access to this course."
+msgstr "이 강의에 접근할 수 없습니다."
+
+msgid ""
+"Course must be in script_generation, outline_creation, or failed stage. "
+"Current: {stage}"
+msgstr ""
+"강의가 script_generation, outline_creation 또는 failed 단계여야 합니다. 현재: {stage}"
+
+msgid ""
+"Choose a video type (static link or AI avatar) in the Course Brief before "
+"building."
+msgstr "구성하기 전에 강의 개요서에서 동영상 유형(정적 링크 또는 AI 아바타)을 선택하세요."
+
+msgid ""
+"AI usage has been disabled for your account. Please contact your "
+"organisation admin."
+msgstr "계정의 AI 사용이 비활성화되었습니다. 조직 관리자에게 문의하세요."
+
+msgid ""
+"Your organisation's AI credits are exhausted. Contact your admin to allocate"
+" more."
+msgstr "조직의 AI 크레딧이 모두 소진되었습니다. 추가 할당은 관리자에게 문의하세요."
+
+msgid ""
+"This session's course is live and can't be rebuilt. Start a new AI Studio "
+"session to create another course."
+msgstr "이 세션의 강의는 이미 게시되어 다시 구성할 수 없습니다. 다른 강의를 만들려면 새 AI Studio 세션을 시작하세요."
+
+msgid "Message is required."
+msgstr "메시지가 필요합니다."
+
+msgid "An .srt transcript file is required to create a course from a video."
+msgstr "동영상으로 강의를 만들려면 .srt 자막 파일이 필요합니다."
+
+msgid "That video is not in your organisation's video library."
+msgstr "해당 동영상은 조직의 동영상 라이브러리에 없습니다."
+
+msgid "That .srt file has no timed subtitles, or is larger than 2 MB."
+msgstr "해당 .srt 파일에 시간 정보가 있는 자막이 없거나 파일 크기가 2MB를 초과합니다."
+
+msgid "A 'key' is required."
+msgstr "'key'가 필요합니다."
+
+msgid "The '{key}' field is read-only."
+msgstr "'{key}' 필드는 읽기 전용입니다."
+
+msgid "You do not have access to AI Studio for this organisation."
+msgstr "이 조직의 AI Studio에 액세스할 권한이 없습니다."
+
+msgid ""
+"You do not have permission to manage AI Studio prompts for this "
+"organisation."
+msgstr "이 조직의 AI Studio 프롬프트를 관리할 권한이 없습니다."
+
+msgid ""
+"Course must be in outline_creation, component_plan, or script_generation "
+"stage. Current: {stage}"
+msgstr ""
+"강의가 outline_creation, component_plan 또는 script_generation 단계여야 합니다. 현재: "
+"{stage}"
+
+msgid "course_creation_id and unit_id are required."
+msgstr "course_creation_id와 unit_id가 필요합니다."
+
+msgid "Access denied."
+msgstr "액세스가 거부되었습니다."
+
+msgid ""
+"Course must be in outline_creation or component_plan stage. Current: {stage}"
+msgstr "강의가 outline_creation 또는 component_plan 단계여야 합니다. 현재: {stage}"
+
+msgid "component_types must be a non-empty list."
+msgstr "component_types는 비어 있지 않은 목록이어야 합니다."
+
+msgid "Invalid component types: {invalid_types}. Valid types: {valid_types}"
+msgstr "잘못된 구성 요소 유형: {invalid_types}. 유효한 유형: {valid_types}"
+
+msgid "component_id is required."
+msgstr "component_id가 필요합니다."
+
+msgid "instruction is required."
+msgstr "instruction이 필요합니다."
+
+msgid "Component not found."
+msgstr "구성 요소를 찾을 수 없습니다."
+
+msgid "You do not have access to this component."
+msgstr "이 구성 요소에 액세스할 권한이 없습니다."
+
+msgid "script is required."
+msgstr "script가 필요합니다."
+
+msgid "name is required."
+msgstr "name이 필요합니다."
+
+msgid "Node not found."
+msgstr "노드를 찾을 수 없습니다."
+
+msgid "course_creation_id, hierarchy, and name are required."
+msgstr "course_creation_id, hierarchy, name이 필요합니다."
+
+msgid "hierarchy must be section, subsection, or unit."
+msgstr "hierarchy는 section, subsection 또는 unit이어야 합니다."
+
+msgid "Parent node not found."
+msgstr "상위 노드를 찾을 수 없습니다."
+
+msgid "node_ids array is required."
+msgstr "node_ids 배열이 필요합니다."
+
+msgid "Some nodes not found."
+msgstr "일부 노드를 찾을 수 없습니다."
+
+msgid "All nodes must belong to the same course."
+msgstr "모든 노드는 같은 강의에 속해야 합니다."
+
 msgid ""
 "Dummy text to generate a translation (.po) source file. It is safe to delete"
 " this line. It is also safe to delete (load i18n) above if there are no "
 "other (trans) tags in the file"
 msgstr ""
+"번역(.po) 원본 파일을 생성하기 위한 더미 텍스트입니다. 이 줄은 삭제해도 됩니다. 파일에 다른 (trans) 태그가 없으면 위의 "
+"(load i18n)도 삭제해도 됩니다"
+
+msgid "Your course is ready"
+msgstr "강의가 준비되었습니다"
+
+msgid "Hi %(full_name)s,"
+msgstr "%(full_name)s 님, 안녕하세요."
+
+msgid ""
+"Your AI-generated course %(start_strong)s%(course_title)s%(end_strong)s has "
+"finished building and is ready in Studio."
+msgstr ""
+"AI로 생성한 강의 %(start_strong)s%(course_title)s%(end_strong)s의 구성이 완료되어 Studio에서"
+" 확인할 수 있습니다."
+
+msgid ""
+"%(counter)s component could not be generated and needs your attention. "
+"Review the course before you publish it."
+msgid_plural ""
+"%(counter)s components could not be generated and need your attention. "
+"Review the course before you publish it."
+msgstr[0] "구성 요소 %(counter)s개를 생성하지 못해 확인이 필요합니다. 게시하기 전에 강의를 검토하세요."
+
+msgid "Open in Studio"
+msgstr "Studio에서 열기"
+
+msgid "If the button doesn't work, copy this link into your browser:"
+msgstr "버튼이 작동하지 않으면 이 링크를 복사하여 브라우저에 붙여 넣으세요."
+
+msgid "View it as a learner"
+msgstr "학습자로 보기"
+
+msgid "Course ID: %(course_key)s"
+msgstr "강의 ID: %(course_key)s"
+
+msgid ""
+"You got this email because you generated this course with the AI Course "
+"Creator."
+msgstr "AI 강의 제작 도구로 이 강의를 생성하셔서 이 이메일이 발송되었습니다."
+
+msgid ""
+"Your AI-generated course \"%(course_title)s\" has finished building and is "
+"ready in Studio."
+msgstr "AI로 생성한 강의 \"%(course_title)s\"의 구성이 완료되어 Studio에서 확인할 수 있습니다."
+
+msgid "Open it in Studio: %(studio_url)s"
+msgstr "Studio에서 열기: %(studio_url)s"
+
+msgid "View it as a learner: %(lms_url)s"
+msgstr "학습자로 보기: %(lms_url)s"
+
+msgid "Your course \"%(course_title)s\" is ready"
+msgstr "강의 \"%(course_title)s\"이(가) 준비되었습니다"

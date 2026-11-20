@@ -10,7 +10,116 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid ""
+"Either 'prompts' list or 'prompt' with 'problem_count'/'problem_types' must "
+"be provided"
+msgstr ""
+"Es muss entweder eine Liste „prompts“ oder „prompt“ mit "
+"„problem_count“/„problem_types“ angegeben werden"
+
+msgid "Invalid problem type: {ptype}. Valid types: {valid_types}"
+msgstr "Ungültiger Problemtyp: {ptype}. Gültige Typen: {valid_types}"
+
+msgid ""
+"Sum of problem_types counts ({total}) does not match problem_count ({count})"
+msgstr ""
+"Die Summe der problem_types-Anzahlen ({total}) stimmt nicht mit "
+"problem_count ({count}) überein"
+
+msgid "Failed to generate OLX"
+msgstr "OLX konnte nicht generiert werden"
+
+msgid "Required query parameter"
+msgstr "Erforderlicher Abfrageparameter"
+
+msgid "Generated OLX failed validation after {attempts} attempts: {error}"
+msgstr ""
+"Generiertes OLX hat die Validierung nach {attempts} Versuchen nicht "
+"bestanden: {error}"
+
+msgid "Rate limit error: {error}"
+msgstr "Fehler wegen Ratenbegrenzung: {error}"
+
+msgid "Timeout error: {error}"
+msgstr "Zeitüberschreitung: {error}"
+
+msgid "Invalid request to LLM API: {error}"
+msgstr "Ungültige Anfrage an die LLM-API: {error}"
+
+msgid "LLM API error: {error}"
+msgstr "LLM-API-Fehler: {error}"
+
+msgid "Failed to generate OLX: {error}"
+msgstr "OLX konnte nicht generiert werden: {error}"
+
+msgid "Failed to generate OLX after all retry attempts"
+msgstr ""
+"OLX konnte auch nach allen Wiederholungsversuchen nicht generiert werden"
+
+msgid ""
 "Dummy text to generate a translation (.po) source file. It is safe to delete"
 " this line. It is also safe to delete (load i18n) above if there are no "
 "other (trans) tags in the file"
 msgstr ""
+"Platzhaltertext zum Erzeugen einer Übersetzungs-Quelldatei (.po). Diese "
+"Zeile kann gefahrlos gelöscht werden. Auch (load i18n) oben kann gefahrlos "
+"gelöscht werden, wenn die Datei keine weiteren (trans)-Tags enthält"
+
+msgid ""
+"Unsupported file type: {file_extension}. Supported types: PDF, DOCX, PPTX"
+msgstr ""
+"Nicht unterstützter Dateityp: {file_extension}. Unterstützte Typen: PDF, "
+"DOCX, PPTX"
+
+msgid "Failed to extract text from {filename}: {error}"
+msgstr "Text aus {filename} konnte nicht extrahiert werden: {error}"
+
+msgid "No documents could be processed successfully"
+msgstr "Keine Dokumente konnten erfolgreich verarbeitet werden"
+
+msgid "No text content found in PDF"
+msgstr "Kein Textinhalt im PDF gefunden"
+
+msgid "No text content found in Word document"
+msgstr "Kein Textinhalt im Word-Dokument gefunden"
+
+msgid "No text content found in PowerPoint presentation"
+msgstr "Kein Textinhalt in der PowerPoint-Präsentation gefunden"
+
+msgid "Invalid library key format: {error}"
+msgstr "Ungültiges Bibliotheksschlüssel-Format: {error}"
+
+msgid "Invalid usage key format: {error}"
+msgstr "Ungültiges Format des Verwendungsschlüssels: {error}"
+
+msgid "Permission denied: {error}"
+msgstr "Zugriff verweigert: {error}"
+
+msgid "Invalid block type '{block_type}': {error}"
+msgstr "Ungültiger Blocktyp „{block_type}“: {error}"
+
+msgid ""
+"Cannot add problem directly to {container_type}. Problems can only be added "
+"to collections or units."
+msgstr ""
+"Ein Problem kann nicht direkt zu {container_type} hinzugefügt werden. "
+"Probleme können nur zu Sammlungen oder Einheiten hinzugefügt werden."
+
+msgid ""
+"Cannot add problems directly to {container_type}. Problems can only be added"
+" to collections or units."
+msgstr ""
+"Probleme können nicht direkt zu {container_type} hinzugefügt werden. "
+"Probleme können nur zu Sammlungen oder Einheiten hinzugefügt werden."
+
+msgid "OLX string cannot be empty"
+msgstr "Der OLX-String darf nicht leer sein"
+
+msgid "Invalid XML syntax: {error}"
+msgstr "Ungültige XML-Syntax: {error}"
+
+msgid "Error parsing XML: {error}"
+msgstr "Fehler beim Parsen von XML: {error}"
+
+msgid "Root tag mismatch: expected '<{expected}>', found '<{found}>'"
+msgstr ""
+"Root-Tag stimmt nicht überein: erwartet „<{expected}>“, gefunden „<{found}>“"

@@ -10,99 +10,106 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
 
 msgid "Display Name"
-msgstr ""
+msgstr "Отображаемое название"
 
 msgid "Display name for this module"
-msgstr ""
+msgstr "Отображаемое название этого модуля"
 
 msgid "Path to the index page in scorm file"
-msgstr ""
+msgstr "Путь к начальной странице в файле SCORM"
 
 msgid "Weight"
-msgstr ""
+msgstr "Вес"
 
 msgid "Weight/Maximum grade"
-msgstr ""
+msgstr "Вес/максимальная оценка"
 
 msgid "Scored"
-msgstr ""
+msgstr "Оценивается"
 
 msgid ""
 "Select False if this component will not receive a numerical score from the "
 "Scorm"
 msgstr ""
+"Выберите False, если этот компонент не будет получать числовой балл от SCORM"
 
 msgid "Display width (px)"
-msgstr ""
+msgstr "Ширина отображения (px)"
 
 msgid "Width of iframe (default: 100%)"
-msgstr ""
+msgstr "Ширина iframe (по умолчанию: 100%)"
 
 msgid "Display height (px)"
-msgstr ""
+msgstr "Высота отображения (px)"
 
 msgid "Height of iframe"
-msgstr ""
+msgstr "Высота iframe"
 
 msgid "Launch in pop-up window"
-msgstr ""
+msgstr "Запускать во всплывающем окне"
 
 msgid ""
 "Launch in pop-up window instead of embedding the SCORM content in an iframe."
 " Enable this for older packages that need to be run in separate window."
 msgstr ""
+"Запускать во всплывающем окне вместо встраивания контента SCORM в iframe. "
+"Включите для старых пакетов, которые нужно запускать в отдельном окне."
 
 msgid "Display navigation menu"
-msgstr ""
+msgstr "Показывать меню навигации"
 
 msgid ""
 "Select True to display a navigation menu on the left side to display table "
 "of contents"
-msgstr ""
+msgstr "Выберите True, чтобы слева отображалось меню навигации с оглавлением"
 
 msgid "Show Fullscreen Button"
-msgstr ""
+msgstr "Показывать кнопку полноэкранного режима"
 
 msgid "Select True to show fullscreen button in the SCORM content"
 msgstr ""
+"Выберите True, чтобы показывать кнопку полноэкранного режима в контенте "
+"SCORM"
 
 msgid "Display width of navigation menu(px)"
-msgstr ""
+msgstr "Ширина меню навигации (px)"
 
 msgid ""
 "Width of navigation menu. This assumes that Navigation Menu is enabled. "
 "(default: 30%)"
 msgstr ""
+"Ширина меню навигации. Предполагается, что меню навигации включено. (по "
+"умолчанию: 30%)"
 
 msgid "points"
-msgstr ""
+msgstr "баллы"
 
 msgid "Fullscreen"
-msgstr ""
+msgstr "Полноэкранный режим"
 
 msgid "Exit fullscreen"
-msgstr ""
+msgstr "Выйти из полноэкранного режима"
 
 msgid "Launch unit in new window"
-msgstr ""
+msgstr "Запускать блок в новом окне"
 
 msgid "View SCORM reports"
-msgstr ""
+msgstr "Смотреть отчёты SCORM"
 
 msgid "Upload .zip package"
-msgstr ""
+msgstr "Загрузить пакет .zip"
 
 msgid "Currently:"
-msgstr ""
+msgstr "Сейчас:"
 
 msgid "True"
-msgstr ""
+msgstr "Верно"
 
 msgid "False"
-msgstr ""
+msgstr "Неверно"
 
 msgid "Save"
-msgstr ""
+msgstr "Сохранить"
 
 msgid "Cancel"
-msgstr ""
+msgstr "Отмена"

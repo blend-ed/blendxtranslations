@@ -10,7 +10,114 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 msgid ""
+"Either 'prompts' list or 'prompt' with 'problem_count'/'problem_types' must "
+"be provided"
+msgstr ""
+"Vous devez fournir soit une liste 'prompts', soit un 'prompt' avec "
+"'problem_count'/'problem_types'"
+
+msgid "Invalid problem type: {ptype}. Valid types: {valid_types}"
+msgstr "Type de problème non valide : {ptype}. Types valides : {valid_types}"
+
+msgid ""
+"Sum of problem_types counts ({total}) does not match problem_count ({count})"
+msgstr ""
+"La somme des valeurs de problem_types ({total}) ne correspond pas à "
+"problem_count ({count})"
+
+msgid "Failed to generate OLX"
+msgstr "Échec de la génération de l'OLX"
+
+msgid "Required query parameter"
+msgstr "Paramètre de requête obligatoire"
+
+msgid "Generated OLX failed validation after {attempts} attempts: {error}"
+msgstr ""
+"L'OLX généré a échoué à la validation après {attempts} tentatives : {error}"
+
+msgid "Rate limit error: {error}"
+msgstr "Erreur de limite de débit : {error}"
+
+msgid "Timeout error: {error}"
+msgstr "Erreur de délai d'attente : {error}"
+
+msgid "Invalid request to LLM API: {error}"
+msgstr "Requête non valide vers l'API LLM : {error}"
+
+msgid "LLM API error: {error}"
+msgstr "Erreur de l'API LLM : {error}"
+
+msgid "Failed to generate OLX: {error}"
+msgstr "Échec de la génération de l'OLX : {error}"
+
+msgid "Failed to generate OLX after all retry attempts"
+msgstr "Échec de la génération de l'OLX après toutes les tentatives"
+
+msgid ""
 "Dummy text to generate a translation (.po) source file. It is safe to delete"
 " this line. It is also safe to delete (load i18n) above if there are no "
 "other (trans) tags in the file"
 msgstr ""
+"Texte factice servant à générer un fichier source de traduction (.po). Cette"
+" ligne peut être supprimée sans risque. Le (load i18n) ci-dessus peut "
+"également être supprimé sans risque s’il n’y a pas d’autres balises (trans) "
+"dans le fichier"
+
+msgid ""
+"Unsupported file type: {file_extension}. Supported types: PDF, DOCX, PPTX"
+msgstr ""
+"Type de fichier non pris en charge : {file_extension}. Types pris en charge "
+": PDF, DOCX, PPTX"
+
+msgid "Failed to extract text from {filename}: {error}"
+msgstr "Échec de l'extraction du texte de {filename} : {error}"
+
+msgid "No documents could be processed successfully"
+msgstr "Aucun document n'a pu être traité avec succès"
+
+msgid "No text content found in PDF"
+msgstr "Aucun contenu textuel trouvé dans le PDF"
+
+msgid "No text content found in Word document"
+msgstr "Aucun contenu textuel trouvé dans le document Word"
+
+msgid "No text content found in PowerPoint presentation"
+msgstr "Aucun contenu textuel trouvé dans la présentation PowerPoint"
+
+msgid "Invalid library key format: {error}"
+msgstr "Format de clé de bibliothèque non valide : {error}"
+
+msgid "Invalid usage key format: {error}"
+msgstr "Format de clé d'usage non valide : {error}"
+
+msgid "Permission denied: {error}"
+msgstr "Autorisation refusée : {error}"
+
+msgid "Invalid block type '{block_type}': {error}"
+msgstr "Type de bloc '{block_type}' non valide : {error}"
+
+msgid ""
+"Cannot add problem directly to {container_type}. Problems can only be added "
+"to collections or units."
+msgstr ""
+"Impossible d'ajouter un problème directement à {container_type}. Les "
+"problèmes ne peuvent être ajoutés qu'à des collections ou des unités."
+
+msgid ""
+"Cannot add problems directly to {container_type}. Problems can only be added"
+" to collections or units."
+msgstr ""
+"Impossible d'ajouter des problèmes directement à {container_type}. Les "
+"problèmes ne peuvent être ajoutés qu'à des collections ou des unités."
+
+msgid "OLX string cannot be empty"
+msgstr "La chaîne OLX ne peut pas être vide"
+
+msgid "Invalid XML syntax: {error}"
+msgstr "Syntaxe XML non valide : {error}"
+
+msgid "Error parsing XML: {error}"
+msgstr "Erreur d'analyse XML : {error}"
+
+msgid "Root tag mismatch: expected '<{expected}>', found '<{found}>'"
+msgstr "Balise racine incorrecte : '<{expected}>' attendu, '<{found}>' trouvé"

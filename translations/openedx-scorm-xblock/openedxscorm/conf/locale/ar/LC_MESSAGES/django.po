@@ -36,7 +36,7 @@ msgid "Display width (px)"
 msgstr "عرض الشاشة (بالبيكسل)"
 
 msgid "Width of iframe (default: 100%)"
-msgstr ""
+msgstr "عرض iframe (الافتراضي: 100%)"
 
 msgid "Display height (px)"
 msgstr "ارتفاع الشاشة (بالبيكسل)"
@@ -55,26 +55,26 @@ msgstr ""
 "بتضمين ذلك في الحزم القديمة التي تحتاج إلى تشغيلها في نافذة منفصلة"
 
 msgid "Display navigation menu"
-msgstr ""
+msgstr "اعرض قائمة التنقل"
 
 msgid ""
 "Select True to display a navigation menu on the left side to display table "
 "of contents"
-msgstr ""
+msgstr "اختر True لعرض قائمة تنقل على الجانب الأيسر تعرض جدول المحتويات"
 
 msgid "Show Fullscreen Button"
-msgstr ""
+msgstr "اعرض زر ملء الشاشة"
 
 msgid "Select True to show fullscreen button in the SCORM content"
-msgstr ""
+msgstr "اختر True لإظهار زر ملء الشاشة في محتوى SCORM"
 
 msgid "Display width of navigation menu(px)"
-msgstr ""
+msgstr "عرض قائمة التنقل (px)"
 
 msgid ""
 "Width of navigation menu. This assumes that Navigation Menu is enabled. "
 "(default: 30%)"
-msgstr ""
+msgstr "عرض قائمة التنقل. يفترض هذا أن قائمة التنقل مفعّلة. (الافتراضي: 30%)"
 
 msgid "points"
 msgstr "النقاط"

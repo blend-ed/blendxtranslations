@@ -10,99 +10,104 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "Display Name"
-msgstr ""
+msgstr "प्रदर्शित नाम"
 
 msgid "Display name for this module"
-msgstr ""
+msgstr "इस मॉड्यूल के लिए प्रदर्शित नाम"
 
 msgid "Path to the index page in scorm file"
-msgstr ""
+msgstr "scorm फ़ाइल में इंडेक्स पेज का पाथ"
 
 msgid "Weight"
-msgstr ""
+msgstr "वेटेज"
 
 msgid "Weight/Maximum grade"
-msgstr ""
+msgstr "वेटेज/अधिकतम ग्रेड"
 
 msgid "Scored"
-msgstr ""
+msgstr "स्कोर किया गया"
 
 msgid ""
 "Select False if this component will not receive a numerical score from the "
 "Scorm"
 msgstr ""
+"यदि इस घटक को Scorm से कोई संख्यात्मक स्कोर नहीं मिलेगा, तो “गलत” चुनें"
 
 msgid "Display width (px)"
-msgstr ""
+msgstr "प्रदर्शन चौड़ाई (px)"
 
 msgid "Width of iframe (default: 100%)"
-msgstr ""
+msgstr "iframe की चौड़ाई (डिफ़ॉल्ट: 100%)"
 
 msgid "Display height (px)"
-msgstr ""
+msgstr "प्रदर्शन ऊँचाई (px)"
 
 msgid "Height of iframe"
-msgstr ""
+msgstr "iframe की ऊँचाई"
 
 msgid "Launch in pop-up window"
-msgstr ""
+msgstr "पॉप-अप विंडो में खोलें"
 
 msgid ""
 "Launch in pop-up window instead of embedding the SCORM content in an iframe."
 " Enable this for older packages that need to be run in separate window."
 msgstr ""
+"SCORM सामग्री को iframe में एम्बेड करने के बजाय पॉप-अप विंडो में खोलें। उन "
+"पुराने पैकेज के लिए इसे सक्षम करें जिन्हें अलग विंडो में चलाना होता है।"
 
 msgid "Display navigation menu"
-msgstr ""
+msgstr "नेविगेशन मेनू दिखाएँ"
 
 msgid ""
 "Select True to display a navigation menu on the left side to display table "
 "of contents"
-msgstr ""
+msgstr "विषय-सूची दिखाने के लिए बाईं ओर नेविगेशन मेनू दिखाने हेतु “सही” चुनें"
 
 msgid "Show Fullscreen Button"
-msgstr ""
+msgstr "फ़ुलस्क्रीन बटन दिखाएँ"
 
 msgid "Select True to show fullscreen button in the SCORM content"
-msgstr ""
+msgstr "SCORM सामग्री में फ़ुलस्क्रीन बटन दिखाने के लिए “सही” चुनें"
 
 msgid "Display width of navigation menu(px)"
-msgstr ""
+msgstr "नेविगेशन मेनू की प्रदर्शन चौड़ाई (px)"
 
 msgid ""
 "Width of navigation menu. This assumes that Navigation Menu is enabled. "
 "(default: 30%)"
 msgstr ""
+"नेविगेशन मेनू की चौड़ाई। यह मानता है कि नेविगेशन मेनू सक्षम है। (डिफ़ॉल्ट: "
+"30%)"
 
 msgid "points"
-msgstr ""
+msgstr "अंक"
 
 msgid "Fullscreen"
-msgstr ""
+msgstr "फ़ुलस्क्रीन"
 
 msgid "Exit fullscreen"
-msgstr ""
+msgstr "फ़ुलस्क्रीन से बाहर निकलें"
 
 msgid "Launch unit in new window"
-msgstr ""
+msgstr "इकाई को नई विंडो में खोलें"
 
 msgid "View SCORM reports"
-msgstr ""
+msgstr "SCORM रिपोर्ट देखें"
 
 msgid "Upload .zip package"
-msgstr ""
+msgstr ".zip पैकेज अपलोड करें"
 
 msgid "Currently:"
-msgstr ""
+msgstr "वर्तमान में:"
 
 msgid "True"
-msgstr ""
+msgstr "सही"
 
 msgid "False"
-msgstr ""
+msgstr "गलत"
 
 msgid "Save"
-msgstr ""
+msgstr "सहेजें"
 
 msgid "Cancel"
-msgstr ""
+msgstr "रद्द करें"

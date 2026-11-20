@@ -10,39 +10,40 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid "HTML Content"
-msgstr ""
+msgstr "HTML 콘텐츠"
 
 msgid "HTML content to render in the interactive block"
-msgstr ""
+msgstr "대화형 블록에 렌더링할 HTML 콘텐츠"
 
 msgid "CSS Content"
-msgstr ""
+msgstr "CSS 콘텐츠"
 
 msgid "CSS styles for the interactive content"
-msgstr ""
+msgstr "대화형 콘텐츠의 CSS 스타일"
 
 msgid "JavaScript Content"
-msgstr ""
+msgstr "JavaScript 콘텐츠"
 
 msgid ""
 "JavaScript code for interactivity. Use submitInteraction(data) to send data "
 "to the XBlock."
 msgstr ""
+"상호작용을 위한 JavaScript 코드입니다. submitInteraction(data)를 사용해 XBlock으로 데이터를 보내세요."
 
 msgid "Enable Debug Mode"
-msgstr ""
+msgstr "디버그 모드 사용"
 
 msgid "Show debug information and console logs"
-msgstr ""
+msgstr "디버그 정보 및 콘솔 로그 표시"
 
 msgid "Enable Auto-Grading"
-msgstr ""
+msgstr "자동 채점 사용"
 
 msgid "Enable automatic grading based on JS response"
-msgstr ""
+msgstr "JS 응답에 따른 자동 채점 사용"
 
 msgid "Completion Mode"
-msgstr ""
+msgstr "완료 방식"
 
 msgid ""
 "How this block is marked complete. \"On submit\" completes when your "
@@ -51,227 +52,233 @@ msgid ""
 "no submission). \"Manual\" completes only when your JavaScript calls "
 "window.markComplete()."
 msgstr ""
+"이 블록이 완료로 표시되는 방식입니다. \"제출 시\"는 JavaScript가 submitInteraction()을 호출하면 완료됩니다."
+" \"조회 시\"는 학습자가 설정된 지연 시간 동안 블록을 보면 자동으로 완료됩니다(제출이 없는 시뮬레이션에 사용). \"수동\"은 "
+"JavaScript가 window.markComplete()를 호출할 때만 완료됩니다."
 
 msgid "On submit (when interaction is submitted)"
-msgstr ""
+msgstr "제출 시(상호작용이 제출될 때)"
 
 msgid "On view (auto-complete after viewing)"
-msgstr ""
+msgstr "조회 시(조회 후 자동 완료)"
 
 msgid "Manual (author JS calls markComplete())"
-msgstr ""
+msgstr "수동(작성자 JS가 markComplete() 호출)"
 
 msgid "View Completion Delay (ms)"
-msgstr ""
+msgstr "조회 완료 지연 시간(ms)"
 
 msgid ""
 "Milliseconds the block must be viewed before auto-completing in \"On view\" "
 "mode."
-msgstr ""
+msgstr "\"조회 시\" 방식에서 자동 완료되기 전에 블록을 봐야 하는 시간(밀리초)입니다."
 
 msgid "Weight"
-msgstr ""
+msgstr "가중치"
 
 msgid "Weight for grading purposes"
-msgstr ""
+msgstr "채점용 가중치"
 
 msgid "Display Name"
-msgstr ""
+msgstr "표시 이름"
 
 msgid "Display name for this interactive block"
-msgstr ""
+msgstr "이 대화형 블록의 표시 이름"
 
 msgid "Correct Answers"
-msgstr ""
+msgstr "정답"
 
 msgid "JSON object defining correct answers for auto-grading"
-msgstr ""
+msgstr "자동 채점용 정답을 정의하는 JSON 객체"
 
 msgid "Show Feedback to Learners"
-msgstr ""
+msgstr "학습자에게 피드백 표시"
 
 msgid "Show correct/incorrect feedback to learners"
-msgstr ""
+msgstr "학습자에게 정답/오답 피드백 표시"
 
 msgid "Show Previous Response"
-msgstr ""
+msgstr "이전 응답 표시"
 
 msgid "Show learner their previous response when they return"
-msgstr ""
+msgstr "학습자가 돌아오면 이전 응답 표시"
 
 msgid "Captured learner interaction data"
-msgstr ""
+msgstr "수집된 학습자 상호작용 데이터"
 
 msgid "Number of interactions submitted"
-msgstr ""
+msgstr "제출된 상호작용 수"
 
 msgid "Timestamp of last interaction"
-msgstr ""
+msgstr "마지막 상호작용 시각"
 
 msgid "Whether the learner response is correct"
-msgstr ""
+msgstr "학습자 응답의 정답 여부"
 
 msgid "Score for the learner response"
-msgstr ""
+msgstr "학습자 응답의 점수"
 
 msgid "Feedback message shown to learner"
-msgstr ""
+msgstr "학습자에게 표시되는 피드백 메시지"
 
 msgid "Whether on-view/manual completion has already been emitted"
-msgstr ""
+msgstr "조회 시/수동 완료가 이미 전송되었는지 여부"
 
 msgid "Debug Information (Staff Only)"
-msgstr ""
+msgstr "디버그 정보(직원 전용)"
 
 msgid "Block ID"
-msgstr ""
+msgstr "블록 ID"
 
 msgid "User ID"
-msgstr ""
+msgstr "사용자 ID"
 
 msgid "Interaction Count"
-msgstr ""
+msgstr "상호작용 횟수"
 
 msgid "Last Interaction"
-msgstr ""
+msgstr "마지막 상호작용"
 
 msgid "Is Correct"
-msgstr ""
+msgstr "정답 여부"
 
 msgid "Score"
-msgstr ""
+msgstr "점수"
 
 msgid "Correct"
-msgstr ""
+msgstr "정답"
 
 msgid "Incorrect"
-msgstr ""
+msgstr "오답"
 
 msgid "Feedback"
-msgstr ""
+msgstr "피드백"
 
 msgid "Time spent"
-msgstr ""
+msgstr "소요 시간"
 
 msgid "No content. Please add HTML content in the studio."
-msgstr ""
+msgstr "콘텐츠가 없습니다. Studio에서 HTML 콘텐츠를 추가하세요."
 
 msgid "Generate with AI"
-msgstr ""
+msgstr "AI로 생성"
 
 msgid ""
 "e.g. A multiple choice quiz about the water cycle with 4 questions, each "
 "with 4 answer options..."
-msgstr ""
+msgstr "예: 물의 순환에 관한 4문항 객관식 퀴즈, 각 문항에 보기 4개..."
 
 msgid "Generate"
-msgstr ""
+msgstr "생성"
 
 msgid "Display name for this module"
-msgstr ""
+msgstr "이 모듈의 표시 이름"
 
 msgid "Enter the HTML content that will be rendered in the interactive block"
-msgstr ""
+msgstr "대화형 블록에 렌더링될 HTML 콘텐츠를 입력하세요"
 
 msgid "CSS Styles"
-msgstr ""
+msgstr "CSS 스타일"
 
 msgid "Enter CSS styles for your interactive content"
-msgstr ""
+msgstr "대화형 콘텐츠의 CSS 스타일을 입력하세요"
 
 msgid "JavaScript Code"
-msgstr ""
+msgstr "JavaScript 코드"
 
 msgid ""
 "Enter JavaScript code for interactivity. Use submitInteraction(data) to send"
 " data to the XBlock"
 msgstr ""
+"상호작용을 위한 JavaScript 코드를 입력하세요. submitInteraction(data)를 사용해 XBlock으로 데이터를 "
+"보내세요"
 
 msgid "Weight of this problem for grading"
-msgstr ""
+msgstr "이 문제의 채점 가중치"
 
 msgid "True"
-msgstr ""
+msgstr "참"
 
 msgid "False"
-msgstr ""
+msgstr "거짓"
 
 msgid "Enable debug mode for development"
-msgstr ""
+msgstr "개발용 디버그 모드 사용"
 
 msgid ""
 "How this block is marked complete. Use 'On view' for simulations with no "
 "submission."
-msgstr ""
+msgstr "이 블록이 완료로 표시되는 방식입니다. 제출이 없는 시뮬레이션에는 '조회 시'를 사용하세요."
 
 msgid ""
 "Milliseconds the block must be viewed before auto-completing (On view mode "
 "only)."
-msgstr ""
+msgstr "자동 완료되기 전에 블록을 봐야 하는 시간(밀리초)입니다(조회 시 방식에만 해당)."
 
 msgid "Auto Grade Enabled"
-msgstr ""
+msgstr "자동 채점 사용"
 
 msgid "Enable automatic grading based on interaction data"
-msgstr ""
+msgstr "상호작용 데이터에 따른 자동 채점 사용"
 
 msgid "Grading Configuration"
-msgstr ""
+msgstr "채점 구성"
 
 msgid "Answer Matching Mode"
-msgstr ""
+msgstr "답변 일치 방식"
 
 msgid "None (JS controls grading)"
-msgstr ""
+msgstr "없음(JS가 채점 제어)"
 
 msgid "Single Answer"
-msgstr ""
+msgstr "단일 답변"
 
 msgid "Multiple Fields"
-msgstr ""
+msgstr "여러 필드"
 
 msgid ""
 "Choose 'None' if your JavaScript passes correct: true/false in "
 "submitInteraction()."
 msgstr ""
+"JavaScript가 submitInteraction()에서 correct: true/false를 전달하는 경우 '없음'을 선택하세요."
 
 msgid "Correct Answer"
-msgstr ""
+msgstr "정답"
 
 msgid "The expected value. Comparison is case-insensitive."
-msgstr ""
+msgstr "예상 값입니다. 대소문자를 구분하지 않고 비교합니다."
 
 msgid "Answer Fields"
-msgstr ""
+msgstr "답변 필드"
 
 msgid "Add Field"
-msgstr ""
+msgstr "필드 추가"
 
 msgid ""
 "Map each field name to its expected value. Partial credit is awarded "
 "proportionally."
-msgstr ""
+msgstr "각 필드 이름을 예상 값에 연결하세요. 부분 점수는 비율에 따라 부여됩니다."
 
 msgid "Correct Feedback"
-msgstr ""
+msgstr "정답 피드백"
 
 msgid "Incorrect Feedback"
-msgstr ""
+msgstr "오답 피드백"
 
 msgid "Feedback is shown even when your JavaScript controls grading."
-msgstr ""
+msgstr "JavaScript가 채점을 제어하는 경우에도 피드백이 표시됩니다."
 
 msgid "Test Grading"
-msgstr ""
+msgstr "채점 테스트"
 
 msgid "Verify your grading setup before saving."
-msgstr ""
+msgstr "저장하기 전에 채점 설정을 확인하세요."
 
 msgid "Run Test"
-msgstr ""
+msgstr "테스트 실행"
 
 msgid "Save"
-msgstr ""
+msgstr "저장"
 
 msgid "Cancel"
-msgstr ""
+msgstr "취소"

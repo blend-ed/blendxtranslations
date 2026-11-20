@@ -10,39 +10,41 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid "HTML Content"
-msgstr ""
+msgstr "HTML အကြောင်းအရာ"
 
 msgid "HTML content to render in the interactive block"
-msgstr ""
+msgstr "အပြန်အလှန်တုံ့ပြန်သော အကွက်တွင် ပြသမည့် HTML အကြောင်းအရာ"
 
 msgid "CSS Content"
-msgstr ""
+msgstr "CSS အကြောင်းအရာ"
 
 msgid "CSS styles for the interactive content"
-msgstr ""
+msgstr "အပြန်အလှန်တုံ့ပြန်သော အကြောင်းအရာအတွက် CSS စတိုင်များ"
 
 msgid "JavaScript Content"
-msgstr ""
+msgstr "JavaScript အကြောင်းအရာ"
 
 msgid ""
 "JavaScript code for interactivity. Use submitInteraction(data) to send data "
 "to the XBlock."
 msgstr ""
+"အပြန်အလှန်တုံ့ပြန်မှုအတွက် JavaScript ကုဒ်။ XBlock သို့ ဒေတာပို့ရန် "
+"submitInteraction(data) ကို အသုံးပြုပါ။"
 
 msgid "Enable Debug Mode"
-msgstr ""
+msgstr "ဒီဘတ်မုဒ်ကို ဖွင့်ရန်"
 
 msgid "Show debug information and console logs"
-msgstr ""
+msgstr "ဒီဘတ် အချက်အလက်နှင့် console မှတ်တမ်းများ ပြရန်"
 
 msgid "Enable Auto-Grading"
-msgstr ""
+msgstr "အလိုအလျောက် အမှတ်ပေးခြင်းကို ဖွင့်ရန်"
 
 msgid "Enable automatic grading based on JS response"
-msgstr ""
+msgstr "JS တုံ့ပြန်မှုအပေါ် အခြေခံ၍ အလိုအလျောက် အမှတ်ပေးခြင်းကို ဖွင့်ရန်"
 
 msgid "Completion Mode"
-msgstr ""
+msgstr "ပြီးဆုံးမှု ပုံစံ"
 
 msgid ""
 "How this block is marked complete. \"On submit\" completes when your "
@@ -51,227 +53,254 @@ msgid ""
 "no submission). \"Manual\" completes only when your JavaScript calls "
 "window.markComplete()."
 msgstr ""
+"ဤအကွက်ကို ပြီးဆုံးကြောင်း မည်သို့ အမှတ်အသားပြုမည်။ \"On submit\" သည် သင့် "
+"JavaScript က submitInteraction() ကို ခေါ်သည့်အခါ ပြီးဆုံးပါသည်။ \"On view\" "
+"သည် သင်ယူသူက သတ်မှတ်ထားသော နှောင့်နှေးချိန်အတွက် အကွက်ကို ကြည့်ရှုပြီးနောက် "
+"အလိုအလျောက် ပြီးဆုံးပါသည် (တင်သွင်းမှုမရှိသော simulation များအတွက် "
+"အသုံးပြုပါ)။ \"Manual\" သည် သင့် JavaScript က window.markComplete() ကို "
+"ခေါ်သည့်အခါမှသာ ပြီးဆုံးပါသည်။"
 
 msgid "On submit (when interaction is submitted)"
-msgstr ""
+msgstr "On submit (အပြန်အလှန်တုံ့ပြန်မှုကို တင်သွင်းသည့်အခါ)"
 
 msgid "On view (auto-complete after viewing)"
-msgstr ""
+msgstr "On view (ကြည့်ရှုပြီးနောက် အလိုအလျောက် ပြီးဆုံး)"
 
 msgid "Manual (author JS calls markComplete())"
-msgstr ""
+msgstr "Manual (ရေးသားသူ၏ JS က markComplete() ကို ခေါ်သည်)"
 
 msgid "View Completion Delay (ms)"
-msgstr ""
+msgstr "ကြည့်ရှုမှု ပြီးဆုံးချိန် နှောင့်နှေးမှု (ms)"
 
 msgid ""
 "Milliseconds the block must be viewed before auto-completing in \"On view\" "
 "mode."
 msgstr ""
+"\"On view\" ပုံစံတွင် အလိုအလျောက် မပြီးဆုံးမီ အကွက်ကို ကြည့်ရှုရမည့် "
+"မီလီစက္ကန့်။"
 
 msgid "Weight"
-msgstr ""
+msgstr "အလေးချိန်"
 
 msgid "Weight for grading purposes"
-msgstr ""
+msgstr "အမှတ်ပေးရန်အတွက် အလေးချိန်"
 
 msgid "Display Name"
-msgstr ""
+msgstr "ပြသမည့်အမည်"
 
 msgid "Display name for this interactive block"
-msgstr ""
+msgstr "ဤအပြန်အလှန်တုံ့ပြန်သော အကွက်အတွက် ပြသမည့်အမည်"
 
 msgid "Correct Answers"
-msgstr ""
+msgstr "မှန်ကန်သော အဖြေများ"
 
 msgid "JSON object defining correct answers for auto-grading"
 msgstr ""
+"အလိုအလျောက် အမှတ်ပေးခြင်းအတွက် မှန်ကန်သော အဖြေများကို သတ်မှတ်သည့် JSON "
+"object"
 
 msgid "Show Feedback to Learners"
-msgstr ""
+msgstr "သင်ယူသူများအား အကြံပြုချက် ပြရန်"
 
 msgid "Show correct/incorrect feedback to learners"
-msgstr ""
+msgstr "သင်ယူသူများအား မှန်/မှား အကြံပြုချက် ပြရန်"
 
 msgid "Show Previous Response"
-msgstr ""
+msgstr "ယခင် တုံ့ပြန်မှု ပြရန်"
 
 msgid "Show learner their previous response when they return"
-msgstr ""
+msgstr "သင်ယူသူ ပြန်လာသည့်အခါ ၎င်း၏ ယခင် တုံ့ပြန်မှုကို ပြရန်"
 
 msgid "Captured learner interaction data"
-msgstr ""
+msgstr "ဖမ်းယူထားသော သင်ယူသူ အပြန်အလှန်တုံ့ပြန်မှု ဒေတာ"
 
 msgid "Number of interactions submitted"
-msgstr ""
+msgstr "တင်သွင်းထားသော အပြန်အလှန်တုံ့ပြန်မှု အရေအတွက်"
 
 msgid "Timestamp of last interaction"
-msgstr ""
+msgstr "နောက်ဆုံး အပြန်အလှန်တုံ့ပြန်မှု၏ အချိန်တံဆိပ်"
 
 msgid "Whether the learner response is correct"
-msgstr ""
+msgstr "သင်ယူသူ၏ တုံ့ပြန်မှု မှန်ကန်ခြင်း ရှိမရှိ"
 
 msgid "Score for the learner response"
-msgstr ""
+msgstr "သင်ယူသူ၏ တုံ့ပြန်မှုအတွက် ရမှတ်"
 
 msgid "Feedback message shown to learner"
-msgstr ""
+msgstr "သင်ယူသူအား ပြသမည့် အကြံပြုချက် စာ"
 
 msgid "Whether on-view/manual completion has already been emitted"
-msgstr ""
+msgstr "On view/manual ပြီးဆုံးမှုကို ထုတ်လွှတ်ပြီးဖြစ်မဖြစ်"
 
 msgid "Debug Information (Staff Only)"
-msgstr ""
+msgstr "ဒီဘတ် အချက်အလက် (ဝန်ထမ်းများသာ)"
 
 msgid "Block ID"
-msgstr ""
+msgstr "အကွက် ID"
 
 msgid "User ID"
-msgstr ""
+msgstr "အသုံးပြုသူ ID"
 
 msgid "Interaction Count"
-msgstr ""
+msgstr "အပြန်အလှန်တုံ့ပြန်မှု အရေအတွက်"
 
 msgid "Last Interaction"
-msgstr ""
+msgstr "နောက်ဆုံး အပြန်အလှန်တုံ့ပြန်မှု"
 
 msgid "Is Correct"
-msgstr ""
+msgstr "မှန်ကန်ခြင်း ရှိမရှိ"
 
 msgid "Score"
-msgstr ""
+msgstr "ရမှတ်"
 
 msgid "Correct"
-msgstr ""
+msgstr "မှန်ကန်သည်"
 
 msgid "Incorrect"
-msgstr ""
+msgstr "မှားယွင်းသည်"
 
 msgid "Feedback"
-msgstr ""
+msgstr "အကြံပြုချက်"
 
 msgid "Time spent"
-msgstr ""
+msgstr "ကုန်ဆုံးချိန်"
 
 msgid "No content. Please add HTML content in the studio."
-msgstr ""
+msgstr "အကြောင်းအရာ မရှိပါ။ Studio တွင် HTML အကြောင်းအရာ ထည့်ပါ။"
 
 msgid "Generate with AI"
-msgstr ""
+msgstr "AI ဖြင့် ထုတ်လုပ်ရန်"
 
 msgid ""
 "e.g. A multiple choice quiz about the water cycle with 4 questions, each "
 "with 4 answer options..."
 msgstr ""
+"ဥပမာ- ရေစက်ဝန်းအကြောင်း မေးခွန်း ၄ ခုပါ၍ တစ်ခုစီတွင် အဖြေရွေးချယ်စရာ ၄ "
+"ခုပါသော ရွေးချယ်ဖြေဆိုရသည့် အမေးအဖြေ..."
 
 msgid "Generate"
-msgstr ""
+msgstr "ထုတ်လုပ်ရန်"
 
 msgid "Display name for this module"
-msgstr ""
+msgstr "ဤမော်ဂျူးအတွက် ပြသမည့်အမည်"
 
 msgid "Enter the HTML content that will be rendered in the interactive block"
-msgstr ""
+msgstr "အပြန်အလှန်တုံ့ပြန်သော အကွက်တွင် ပြသမည့် HTML အကြောင်းအရာကို ထည့်ပါ"
 
 msgid "CSS Styles"
-msgstr ""
+msgstr "CSS စတိုင်များ"
 
 msgid "Enter CSS styles for your interactive content"
-msgstr ""
+msgstr "သင့်အပြန်အလှန်တုံ့ပြန်သော အကြောင်းအရာအတွက် CSS စတိုင်များကို ထည့်ပါ"
 
 msgid "JavaScript Code"
-msgstr ""
+msgstr "JavaScript ကုဒ်"
 
 msgid ""
 "Enter JavaScript code for interactivity. Use submitInteraction(data) to send"
 " data to the XBlock"
 msgstr ""
+"အပြန်အလှန်တုံ့ပြန်မှုအတွက် JavaScript ကုဒ်ကို ထည့်ပါ။ XBlock သို့ "
+"ဒေတာပို့ရန် submitInteraction(data) ကို အသုံးပြုပါ"
 
 msgid "Weight of this problem for grading"
-msgstr ""
+msgstr "အမှတ်ပေးရန်အတွက် ဤပြဿနာ၏ အလေးချိန်"
 
 msgid "True"
-msgstr ""
+msgstr "မှန်"
 
 msgid "False"
-msgstr ""
+msgstr "မှား"
 
 msgid "Enable debug mode for development"
-msgstr ""
+msgstr "ဖွံ့ဖြိုးရေးအတွက် ဒီဘတ်မုဒ်ကို ဖွင့်ရန်"
 
 msgid ""
 "How this block is marked complete. Use 'On view' for simulations with no "
 "submission."
 msgstr ""
+"ဤအကွက်ကို ပြီးဆုံးကြောင်း မည်သို့ အမှတ်အသားပြုမည်။ တင်သွင်းမှုမရှိသော "
+"simulation များအတွက် 'On view' ကို အသုံးပြုပါ။"
 
 msgid ""
 "Milliseconds the block must be viewed before auto-completing (On view mode "
 "only)."
 msgstr ""
+"အလိုအလျောက် မပြီးဆုံးမီ အကွက်ကို ကြည့်ရှုရမည့် မီလီစက္ကန့် (On view "
+"ပုံစံတွင်သာ)။"
 
 msgid "Auto Grade Enabled"
-msgstr ""
+msgstr "အလိုအလျောက် အမှတ်ပေးခြင်း ဖွင့်ထားသည်"
 
 msgid "Enable automatic grading based on interaction data"
 msgstr ""
+"အပြန်အလှန်တုံ့ပြန်မှု ဒေတာအပေါ် အခြေခံ၍ အလိုအလျောက် အမှတ်ပေးခြင်းကို "
+"ဖွင့်ရန်"
 
 msgid "Grading Configuration"
-msgstr ""
+msgstr "အမှတ်ပေးခြင်း ဖွဲ့စည်းပြင်ဆင်မှု"
 
 msgid "Answer Matching Mode"
-msgstr ""
+msgstr "အဖြေ ကိုက်ညီမှု ပုံစံ"
 
 msgid "None (JS controls grading)"
-msgstr ""
+msgstr "None (JS က အမှတ်ပေးခြင်းကို ထိန်းချုပ်သည်)"
 
 msgid "Single Answer"
-msgstr ""
+msgstr "အဖြေတစ်ခုတည်း"
 
 msgid "Multiple Fields"
-msgstr ""
+msgstr "အကွက်များစွာ"
 
 msgid ""
 "Choose 'None' if your JavaScript passes correct: true/false in "
 "submitInteraction()."
 msgstr ""
+"သင့် JavaScript က submitInteraction() တွင် correct: true/false ကို "
+"ပေးပို့ပါက 'None' ကို ရွေးပါ။"
 
 msgid "Correct Answer"
-msgstr ""
+msgstr "မှန်ကန်သော အဖြေ"
 
 msgid "The expected value. Comparison is case-insensitive."
 msgstr ""
+"မျှော်မှန်းတန်ဖိုး။ နှိုင်းယှဉ်ရာတွင် စာလုံးအကြီးအသေး ခွဲခြားခြင်း မပြုပါ။"
 
 msgid "Answer Fields"
-msgstr ""
+msgstr "အဖြေ အကွက်များ"
 
 msgid "Add Field"
-msgstr ""
+msgstr "အကွက် ထည့်ရန်"
 
 msgid ""
 "Map each field name to its expected value. Partial credit is awarded "
 "proportionally."
 msgstr ""
+"အကွက်အမည်တစ်ခုစီကို ၎င်း၏ မျှော်မှန်းတန်ဖိုးနှင့် ချိတ်ဆက်ပါ။ "
+"တစ်စိတ်တစ်ပိုင်း အမှတ်ကို အချိုးကျ ပေးပါသည်။"
 
 msgid "Correct Feedback"
-msgstr ""
+msgstr "မှန်ကန်မှု အကြံပြုချက်"
 
 msgid "Incorrect Feedback"
-msgstr ""
+msgstr "မှားယွင်းမှု အကြံပြုချက်"
 
 msgid "Feedback is shown even when your JavaScript controls grading."
 msgstr ""
+"သင့် JavaScript က အမှတ်ပေးခြင်းကို ထိန်းချုပ်သည့်အခါတွင်ပင် အကြံပြုချက်ကို "
+"ပြပါသည်။"
 
 msgid "Test Grading"
-msgstr ""
+msgstr "အမှတ်ပေးခြင်း စမ်းသပ်ရန်"
 
 msgid "Verify your grading setup before saving."
-msgstr ""
+msgstr "မသိမ်းဆည်းမီ သင့်အမှတ်ပေးခြင်း သတ်မှတ်ချက်ကို စစ်ဆေးပါ။"
 
 msgid "Run Test"
-msgstr ""
+msgstr "စမ်းသပ်မှု လုပ်ဆောင်ရန်"
 
 msgid "Save"
-msgstr ""
+msgstr "သိမ်းဆည်းရန်"
 
 msgid "Cancel"
-msgstr ""
+msgstr "မလုပ်တော့ပါ"
