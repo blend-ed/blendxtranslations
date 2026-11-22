@@ -115,15 +115,6 @@ msgstr "सुगम्यता अनुकूलन विफल: {error}"
 msgid "Chat processing failed: {error}"
 msgstr "चैट प्रोसेसिंग विफल: {error}"
 
-msgid "Invalid course_id: {course_id}"
-msgstr "अमान्य course_id: {course_id}"
-
-msgid "Unsupported target_language: {target_language}"
-msgstr "असमर्थित target_language: {target_language}"
-
-msgid "Task not found."
-msgstr "कार्य नहीं मिला।"
-
 msgid "AI features are disabled for this user"
 msgstr "इस उपयोगकर्ता के लिए AI सुविधाएँ अक्षम हैं"
 
@@ -372,6 +363,9 @@ msgstr ""
 
 msgid "Failed to auto-tag course: {error}"
 msgstr "पाठ्यक्रम को स्वतः टैग करने में विफल: {error}"
+
+msgid "Task not found."
+msgstr "कार्य नहीं मिला।"
 
 msgid "No content_tagged data provided"
 msgstr "कोई content_tagged डेटा प्रदान नहीं किया गया"

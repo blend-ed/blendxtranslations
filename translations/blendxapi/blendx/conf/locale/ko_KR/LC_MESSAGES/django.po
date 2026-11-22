@@ -265,6 +265,66 @@ msgstr "인증서가 만료되었습니다. 인증서를 갱신하려면 강의�
 msgid "Renew"
 msgstr "갱신"
 
+msgid "a deadline"
+msgstr "마감일"
+
+msgid "Due dates moved in {batch}"
+msgstr "{batch}의 마감일 변경됨"
+
+msgid "Extensions removed in {batch}"
+msgstr "{batch}의 연장 제거됨"
+
+msgid ""
+"{actor} moved the due date for {assessment} for {count} learners to {new}."
+msgstr "{actor} 님이 학습자 {count}명의 {assessment} 마감일을 {new}(으)로 변경했습니다."
+
+msgid ""
+"{actor} removed the extended due date for {assessment} for {count} learners."
+msgstr "{actor} 님이 학습자 {count}명의 {assessment} 연장 마감일을 제거했습니다."
+
+msgid "Extension removed in {batch}"
+msgstr "{batch}의 연장 제거됨"
+
+#. Translators: {old} and {new} are dates such as "12 Mar"; {reason} is the
+#. staff member's words.
+msgid ""
+"{actor} removed {learner}'s extended due date for {assessment}: it is back "
+"to {new} (it was {old}). Reason: {reason}"
+msgstr ""
+"{actor} 님이 {learner} 님의 {assessment} 연장 마감일을 제거했습니다. 마감일이 {old}에서 {new}(으)로 "
+"돌아갔습니다. 사유: {reason}"
+
+msgid ""
+"{actor} removed {learner}'s extended due date for {assessment} (it was "
+"{old}). Reason: {reason}"
+msgstr ""
+"{actor} 님이 {learner} 님의 {assessment} 연장 마감일({old})을 제거했습니다. 사유: {reason}"
+
+msgid "Due date moved in {batch}"
+msgstr "{batch}의 마감일 변경됨"
+
+msgid ""
+"{actor} moved {learner}'s due date for {assessment} from {old} to {new}. "
+"Reason: {reason}"
+msgstr ""
+"{actor} 님이 {learner} 님의 {assessment} 마감일을 {old}에서 {new}(으)로 변경했습니다. 사유: "
+"{reason}"
+
+msgid ""
+"{actor} gave {learner} a new due date for {assessment}: {new}. Reason: "
+"{reason}"
+msgstr ""
+"{actor} 님이 {learner} 님에게 {assessment}의 새 마감일을 지정했습니다: {new}. 사유: {reason}"
+
+msgid "Due dates changed in {batch}"
+msgstr "{batch}의 마감일 변경됨"
+
+msgid "Due dates changed in {count} of your Batches"
+msgstr "내 기수 {count}개의 마감일 변경됨"
+
+msgid "{actor} changed the due dates of {course}."
+msgstr "{actor} 님이 {course}의 마감일을 변경했습니다."
+
 msgid "{name}, you earned a Program certificate!"
 msgstr "{name} 님, 프로그램 인증서를 획득했습니다!"
 
@@ -1044,11 +1104,11 @@ msgstr "데이터가 준비되었습니다"
 msgid "A file of your data you asked for is ready to download."
 msgstr "요청하신 데이터 파일을 다운로드할 준비가 되었습니다."
 
-msgid "Tenant weekly report"
-msgstr "테넌트 주간 보고서"
+msgid "Tenant report email"
+msgstr "테넌트 보고서 이메일"
 
-msgid "Your organisation's learning figures for the week."
-msgstr "조직의 주간 학습 현황입니다."
+msgid "Your organisation's learning figures for the week or the month."
+msgstr "조직의 주간 또는 월간 학습 수치입니다."
 
 msgid "Company account active"
 msgstr "회사 계정 활성화됨"
@@ -1062,6 +1122,36 @@ msgstr "액세스를 유지할 사람 선택"
 msgid ""
 "A renewal lowered your company's learner limit: choose who keeps access."
 msgstr "갱신으로 회사의 학습자 한도가 줄었습니다. 액세스를 유지할 사람을 선택하세요."
+
+msgid "Company account on hold for payment"
+msgstr "회사 계정 결제 대기로 보류됨"
+
+msgid "Your company's account was put on hold for payment."
+msgstr "회사 계정이 결제 대기로 보류되었습니다."
+
+msgid "Company account no longer on hold"
+msgstr "회사 계정 보류 해제됨"
+
+msgid "The payment hold on your company's account ended."
+msgstr "회사 계정의 결제 보류가 종료되었습니다."
+
+msgid "Company account blocked"
+msgstr "회사 계정 차단됨"
+
+msgid "Your company's account was blocked."
+msgstr "회사 계정이 차단되었습니다."
+
+msgid "Company account unblocked"
+msgstr "회사 계정 차단 해제됨"
+
+msgid "Your company's account was unblocked."
+msgstr "회사 계정의 차단이 해제되었습니다."
+
+msgid "A tenant asks to renew"
+msgstr "테넌트의 갱신 요청"
+
+msgid "A tenant's manager asked to renew the company's contract."
+msgstr "테넌트 관리자가 회사 계약 갱신을 요청했습니다."
 
 msgid "Someone finishes a course or program"
 msgstr "누군가 강의 또는 프로그램을 수료한 경우"
@@ -1110,6 +1200,14 @@ msgstr "AI 생성 강의 준비 완료"
 msgid ""
 "A course you generated with AI finished building and is ready to review."
 msgstr "AI로 생성한 강의의 구성이 완료되어 검토할 준비가 되었습니다."
+
+msgid "A deadline moves"
+msgstr "마감일 변경"
+
+msgid ""
+"Someone else moves a deadline in a Batch you manage: a learner's extension, "
+"or a Course's due dates."
+msgstr "내가 관리하는 기수에서 다른 사람이 마감일을 변경한 경우: 학습자의 연장 또는 강의의 마감일."
 
 msgid "Library access requested"
 msgstr "라이브러리 액세스 요청됨"
@@ -1550,6 +1648,85 @@ msgstr "선택 기한"
 msgid "Choose people link"
 msgstr "사람 선택 링크"
 
+msgid "Company account — On hold for payment"
+msgstr "회사 계정 — 결제 대기로 보류됨"
+
+msgid ""
+"Sent to a company's managers when its account is put on hold for payment."
+msgstr "회사 계정이 결제 대기로 보류되면 회사 관리자에게 발송됩니다."
+
+msgid "{{ tenant_name }} is on hold for payment"
+msgstr "{{ tenant_name }}이(가) 결제 대기로 보류되었습니다"
+
+msgid "Open orders and billing"
+msgstr "주문 및 결제 열기"
+
+msgid "Date it happened"
+msgstr "발생 날짜"
+
+msgid "The reason given for the company (rendered)"
+msgstr "회사에 대해 제시된 사유(렌더링됨)"
+
+msgid "Orders and billing link"
+msgstr "주문 및 결제 링크"
+
+msgid "Company account — Payment hold ended"
+msgstr "회사 계정 — 결제 보류 종료됨"
+
+msgid ""
+"Sent to a company's managers when the payment hold on its account ends."
+msgstr "회사 계정의 결제 보류가 종료되면 회사 관리자에게 발송됩니다."
+
+msgid "{{ tenant_name }} is no longer on hold"
+msgstr "{{ tenant_name }}의 보류가 해제되었습니다"
+
+msgid "Open your account"
+msgstr "내 계정 열기"
+
+msgid "Company account — Blocked"
+msgstr "회사 계정 — 차단됨"
+
+msgid "Sent to a company's managers when the organisation blocks its account."
+msgstr "조직이 회사 계정을 차단하면 회사 관리자에게 발송됩니다."
+
+msgid "{{ tenant_name }} is blocked"
+msgstr "{{ tenant_name }}이(가) 차단되었습니다"
+
+msgid "Company account — Unblocked"
+msgstr "회사 계정 — 차단 해제됨"
+
+msgid ""
+"Sent to a company's managers when the organisation unblocks its account."
+msgstr "조직이 회사 계정의 차단을 해제하면 회사 관리자에게 발송됩니다."
+
+msgid "{{ tenant_name }} is unblocked"
+msgstr "{{ tenant_name }}의 차단이 해제되었습니다"
+
+msgid "Tenant — Asks to renew"
+msgstr "테넌트 — 갱신 요청"
+
+msgid ""
+"Sent to the people who can renew a tenant when its manager asks to renew."
+msgstr "테넌트 관리자가 갱신을 요청하면 해당 테넌트를 갱신할 수 있는 사람에게 발송됩니다."
+
+msgid "{{ tenant_name }} asks to renew"
+msgstr "{{ tenant_name }}에서 갱신을 요청합니다"
+
+msgid "Open the tenant"
+msgstr "테넌트 열기"
+
+msgid "First name"
+msgstr "이름"
+
+msgid "The manager who asked"
+msgstr "요청한 관리자"
+
+msgid "Date they asked"
+msgstr "요청 날짜"
+
+msgid "Tenant page link"
+msgstr "테넌트 페이지 링크"
+
 msgid "Hi {{ full_name }},"
 msgstr "{{ full_name }} 님, 안녕하세요."
 
@@ -1875,6 +2052,48 @@ msgstr ""
 "{{ choose_by }} 전에 액세스를 유지할 {{ learner_limit }}명을 선택하세요. 선택하기 전까지는 모두 현재 상태가"
 " 유지됩니다."
 
+msgid ""
+"{{ org_name }} put {{ tenant_name }} on hold for payment on {{ changed_on "
+"}}. Learning your company pays for is paused until this is cleared. "
+"Everyone's progress and certificates are kept."
+msgstr ""
+"{{ org_name }}에서 {{ changed_on }}에 {{ tenant_name }}을(를) 결제 대기로 보류했습니다. 보류가 "
+"해제될 때까지 회사가 비용을 부담하는 학습이 일시 중지됩니다. 모든 사람의 학습 진도와 인증서는 유지됩니다."
+
+msgid ""
+"{{ org_name }} ended the payment hold on {{ tenant_name }} on {{ changed_on "
+"}}. Your people can carry on with their learning."
+msgstr ""
+"{{ org_name }}에서 {{ changed_on }}에 {{ tenant_name }}의 결제 보류를 종료했습니다. 구성원들이 "
+"학습을 계속할 수 있습니다."
+
+msgid ""
+"{{ org_name }} blocked {{ tenant_name }} on {{ changed_on }}. Nobody can use"
+" your company's account or the learning it pays for until it is unblocked."
+msgstr ""
+"{{ org_name }}에서 {{ changed_on }}에 {{ tenant_name }}을(를) 차단했습니다. 차단이 해제될 때까지"
+" 누구도 회사 계정이나 회사가 비용을 부담하는 학습을 이용할 수 없습니다."
+
+msgid ""
+"{{ org_name }} unblocked {{ tenant_name }} on {{ changed_on }}. You and your"
+" people can sign in and carry on."
+msgstr ""
+"{{ org_name }}에서 {{ changed_on }}에 {{ tenant_name }}의 차단을 해제했습니다. 본인과 구성원 모두"
+" 로그인하여 계속 이용할 수 있습니다."
+
+msgid ""
+"{{ requester_name }}, who manages {{ tenant_name }}, asked on {{ "
+"requested_on }} to renew the company's contract."
+msgstr ""
+"{{ tenant_name }}을(를) 관리하는 {{ requester_name }} 님이 {{ requested_on }}에 회사 계약"
+" 갱신을 요청했습니다."
+
+msgid "Renew the contract from the tenant's page."
+msgstr "테넌트 페이지에서 계약을 갱신하세요."
+
+msgid "You got this email because you can renew tenants at {{ org_name }}."
+msgstr "{{ org_name }}에서 테넌트를 갱신할 수 있어 이 이메일이 발송되었습니다."
+
 msgid "your program"
 msgstr "내 프로그램"
 
@@ -1966,11 +2185,71 @@ msgid ""
 "who keeps access."
 msgstr "%(tenant)s의 계약이 학습자 한도 %(limit)s(으)로 갱신되었습니다. 액세스를 유지할 사람을 선택하세요."
 
+#. Translators: %(tenant)s is a company's name.
+msgid "%(tenant)s is on hold for payment"
+msgstr "%(tenant)s이(가) 결제 대기로 보류되었습니다"
+
+msgid ""
+"Learning your company pays for is paused until this is cleared. Progress and"
+" certificates are kept."
+msgstr "보류가 해제될 때까지 회사가 비용을 부담하는 학습이 일시 중지됩니다. 학습 진도와 인증서는 유지됩니다."
+
+#. Translators: %(tenant)s is a company's name.
+msgid "%(tenant)s is no longer on hold"
+msgstr "%(tenant)s의 보류가 해제되었습니다"
+
+msgid ""
+"The payment hold has ended. Your people can carry on with their learning."
+msgstr "결제 보류가 종료되었습니다. 구성원들이 학습을 계속할 수 있습니다."
+
+#. Translators: %(tenant)s is a company's name.
+msgid "%(tenant)s is blocked"
+msgstr "%(tenant)s이(가) 차단되었습니다"
+
+msgid ""
+"Nobody can use your company's account or the learning it pays for until it "
+"is unblocked."
+msgstr "차단이 해제될 때까지 누구도 회사 계정이나 회사가 비용을 부담하는 학습을 이용할 수 없습니다."
+
+#. Translators: %(tenant)s is a company's name.
+msgid "%(tenant)s is unblocked"
+msgstr "%(tenant)s의 차단이 해제되었습니다"
+
+msgid "You and your people can sign in and carry on."
+msgstr "본인과 구성원 모두 로그인하여 계속 이용할 수 있습니다."
+
+#. Translators: %(tenant)s is a company's name.
+msgid "%(tenant)s asks to renew"
+msgstr "%(tenant)s에서 갱신을 요청합니다"
+
+#. Translators: %(who)s is a person's name, %(tenant)s the company they manage
+#. and %(note)s their own
+#. message.
+msgid ""
+"%(who)s, who manages %(tenant)s, asked to renew the company's contract. "
+"“%(note)s”"
+msgstr "%(tenant)s을(를) 관리하는 %(who)s 님이 회사 계약 갱신을 요청했습니다. “%(note)s”"
+
+#. Translators: %(who)s is a person's name; %(tenant)s is the company they
+#. manage.
+msgid ""
+"%(who)s, who manages %(tenant)s, asked to renew the company's contract."
+msgstr "%(tenant)s을(를) 관리하는 %(who)s 님이 회사 계약 갱신을 요청했습니다."
+
 #. Translators: %(seats)s lists the seats, such as "20 seats in Fire safety
 #. and 5 seats in First aid".
 msgid "Your %(seats)s is ready to give out."
 msgid_plural "Your %(seats)s are ready to give out."
 msgstr[0] "%(seats)s을(를) 배정할 준비가 되었습니다."
+
+msgid "An invoice is overdue."
+msgstr "청구서가 연체되었습니다."
+
+msgid "The overdue invoice is settled."
+msgstr "연체된 청구서가 정산되었습니다."
+
+msgid "The reason given:"
+msgstr "제시된 사유:"
 
 msgid "Grades"
 msgstr "성적"
@@ -2073,14 +2352,27 @@ msgstr ""
 msgid "The {report} report for {start} to {end} is ready to download."
 msgstr "{start}부터 {end}까지의 {report} 보고서를 다운로드할 준비가 되었습니다."
 
-#. Translators: {end} is the week's last day ("19 November 2026"); the others
+#. Translators: {month} is the month just ended ("October 2026"); the others
 #. are counts.
+msgid ""
+"{month}. Seats in use: {assigned} of {funded}. New seats: {new_seats}. "
+"Results recorded: {results}. Certificates earned: {certificates}."
+msgstr ""
+"{month}. 사용 중인 좌석: {funded}개 중 {assigned}개. 새 좌석: {new_seats}개. 기록된 결과: "
+"{results}개. 획득한 인증서: {certificates}개."
+
+#. Translators: {end} is the week's last day, a Sunday ("22 November 2026");
+#. the others are counts.
 msgid ""
 "Week to {end}. Seats in use: {assigned} of {funded}. New seats: {new_seats}."
 " Results recorded: {results}. Certificates earned: {certificates}."
 msgstr ""
 "{end}까지의 한 주. 사용 중인 좌석: {funded}개 중 {assigned}개. 새 좌석: {new_seats}개. 기록된 결과:"
 " {results}건. 취득한 인증서: {certificates}개."
+
+#. Translators: {tenant} is the company's name.
+msgid "{tenant}: your month in learning"
+msgstr "{tenant}: 이번 달 학습 현황"
 
 #. Translators: {tenant} is the company's name.
 msgid "{tenant}: your week in learning"
@@ -2225,6 +2517,15 @@ msgstr "7일 동안 활동 없음"
 
 msgid "behind on progress"
 msgstr "진도 지연"
+
+msgid "has not started"
+msgstr "시작하지 않음"
+
+msgid "failed an assessment"
+msgstr "평가에 불합격함"
+
+msgid "behind schedule"
+msgstr "일정보다 늦음"
 
 msgid "{name} needs help"
 msgstr "{name} 님에게 도움이 필요합니다"

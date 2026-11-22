@@ -115,15 +115,6 @@ msgstr "Accessibility optimization failed: {error}"
 msgid "Chat processing failed: {error}"
 msgstr "Chat processing failed: {error}"
 
-msgid "Invalid course_id: {course_id}"
-msgstr "Invalid course_id: {course_id}"
-
-msgid "Unsupported target_language: {target_language}"
-msgstr "Unsupported target_language: {target_language}"
-
-msgid "Task not found."
-msgstr "Task not found."
-
 msgid "AI features are disabled for this user"
 msgstr "AI features are disabled for this user"
 
@@ -368,6 +359,9 @@ msgstr "User cannot access course outside their organization: {org_name}"
 
 msgid "Failed to auto-tag course: {error}"
 msgstr "Failed to auto-tag course: {error}"
+
+msgid "Task not found."
+msgstr "Task not found."
 
 msgid "No content_tagged data provided"
 msgstr "No content_tagged data provided"

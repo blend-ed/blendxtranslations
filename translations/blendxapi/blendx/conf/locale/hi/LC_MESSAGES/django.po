@@ -300,6 +300,72 @@ msgstr ""
 msgid "Renew"
 msgstr "नवीनीकृत करें"
 
+msgid "a deadline"
+msgstr "एक समय-सीमा"
+
+msgid "Due dates moved in {batch}"
+msgstr "{batch} में नियत तारीखें बदली गईं"
+
+msgid "Extensions removed in {batch}"
+msgstr "{batch} में विस्तार हटाए गए"
+
+msgid ""
+"{actor} moved the due date for {assessment} for {count} learners to {new}."
+msgstr ""
+"{actor} ने {count} शिक्षार्थियों के लिए {assessment} की नियत तारीख {new} कर "
+"दी।"
+
+msgid ""
+"{actor} removed the extended due date for {assessment} for {count} learners."
+msgstr ""
+"{actor} ने {count} शिक्षार्थियों के लिए {assessment} की बढ़ाई गई नियत तारीख "
+"हटा दी।"
+
+msgid "Extension removed in {batch}"
+msgstr "{batch} में विस्तार हटाया गया"
+
+#. Translators: {old} and {new} are dates such as "12 Mar"; {reason} is the
+#. staff member's words.
+msgid ""
+"{actor} removed {learner}'s extended due date for {assessment}: it is back "
+"to {new} (it was {old}). Reason: {reason}"
+msgstr ""
+"{actor} ने {assessment} के लिए {learner} की बढ़ाई गई नियत तारीख हटा दी: यह "
+"फिर से {new} है (यह {old} थी)। कारण: {reason}"
+
+msgid ""
+"{actor} removed {learner}'s extended due date for {assessment} (it was "
+"{old}). Reason: {reason}"
+msgstr ""
+"{actor} ने {assessment} के लिए {learner} की बढ़ाई गई नियत तारीख हटा दी (यह "
+"{old} थी)। कारण: {reason}"
+
+msgid "Due date moved in {batch}"
+msgstr "{batch} में नियत तारीख बदली गई"
+
+msgid ""
+"{actor} moved {learner}'s due date for {assessment} from {old} to {new}. "
+"Reason: {reason}"
+msgstr ""
+"{actor} ने {assessment} के लिए {learner} की नियत तारीख {old} से बदलकर {new} "
+"कर दी। कारण: {reason}"
+
+msgid ""
+"{actor} gave {learner} a new due date for {assessment}: {new}. Reason: "
+"{reason}"
+msgstr ""
+"{actor} ने {learner} को {assessment} के लिए नई नियत तारीख दी: {new}। कारण: "
+"{reason}"
+
+msgid "Due dates changed in {batch}"
+msgstr "{batch} में नियत तारीखें बदली गईं"
+
+msgid "Due dates changed in {count} of your Batches"
+msgstr "आपके {count} बैच में नियत तारीखें बदली गईं"
+
+msgid "{actor} changed the due dates of {course}."
+msgstr "{actor} ने {course} की नियत तारीखें बदलीं।"
+
 msgid "{name}, you earned a Program certificate!"
 msgstr "{name}, आपने एक कार्यक्रम प्रमाणपत्र अर्जित किया है!"
 
@@ -1145,11 +1211,11 @@ msgstr "आपका डेटा तैयार है"
 msgid "A file of your data you asked for is ready to download."
 msgstr "आपके द्वारा माँगी गई आपके डेटा की फ़ाइल डाउनलोड के लिए तैयार है।"
 
-msgid "Tenant weekly report"
-msgstr "क्लाइंट संगठन साप्ताहिक रिपोर्ट"
+msgid "Tenant report email"
+msgstr "क्लाइंट संगठन रिपोर्ट ईमेल"
 
-msgid "Your organisation's learning figures for the week."
-msgstr "सप्ताह के लिए आपके संगठन के सीखने के आँकड़े।"
+msgid "Your organisation's learning figures for the week or the month."
+msgstr "सप्ताह या महीने के लिए आपके संगठन के सीख संबंधी आँकड़े।"
 
 msgid "Company account active"
 msgstr "कंपनी खाता सक्रिय"
@@ -1165,6 +1231,37 @@ msgid ""
 msgstr ""
 "नवीनीकरण से आपकी कंपनी की शिक्षार्थी सीमा कम हो गई: चुनें कि किसकी पहुँच बनी"
 " रहेगी।"
+
+msgid "Company account on hold for payment"
+msgstr "कंपनी खाता भुगतान के लिए होल्ड पर"
+
+msgid "Your company's account was put on hold for payment."
+msgstr "आपकी कंपनी का खाता भुगतान के लिए होल्ड पर रखा गया।"
+
+msgid "Company account no longer on hold"
+msgstr "कंपनी खाता अब होल्ड पर नहीं"
+
+msgid "The payment hold on your company's account ended."
+msgstr "आपकी कंपनी के खाते पर भुगतान होल्ड समाप्त हो गया।"
+
+msgid "Company account blocked"
+msgstr "कंपनी खाता ब्लॉक किया गया"
+
+msgid "Your company's account was blocked."
+msgstr "आपकी कंपनी का खाता ब्लॉक कर दिया गया।"
+
+msgid "Company account unblocked"
+msgstr "कंपनी खाता अनब्लॉक किया गया"
+
+msgid "Your company's account was unblocked."
+msgstr "आपकी कंपनी का खाता अनब्लॉक कर दिया गया।"
+
+msgid "A tenant asks to renew"
+msgstr "क्लाइंट संगठन नवीनीकरण का अनुरोध करता है"
+
+msgid "A tenant's manager asked to renew the company's contract."
+msgstr ""
+"क्लाइंट संगठन के प्रबंधक ने कंपनी के अनुबंध के नवीनीकरण का अनुरोध किया।"
 
 msgid "Someone finishes a course or program"
 msgstr "कोई पाठ्यक्रम या कार्यक्रम पूरा करता है"
@@ -1224,6 +1321,16 @@ msgid ""
 msgstr ""
 "AI से आपके द्वारा जनरेट किया गया पाठ्यक्रम बन गया है और समीक्षा के लिए तैयार"
 " है।"
+
+msgid "A deadline moves"
+msgstr "समय-सीमा बदली गई"
+
+msgid ""
+"Someone else moves a deadline in a Batch you manage: a learner's extension, "
+"or a Course's due dates."
+msgstr ""
+"आपके प्रबंधित किसी बैच में कोई और समय-सीमा बदलता है: किसी शिक्षार्थी का "
+"विस्तार, या किसी पाठ्यक्रम की नियत तारीखें।"
 
 msgid "Library access requested"
 msgstr "पुस्तकालय पहुँच का अनुरोध किया गया"
@@ -1695,6 +1802,95 @@ msgstr "चुनने की अंतिम तारीख"
 msgid "Choose people link"
 msgstr "लोग चुनें लिंक"
 
+msgid "Company account — On hold for payment"
+msgstr "कंपनी खाता — भुगतान के लिए होल्ड पर"
+
+msgid ""
+"Sent to a company's managers when its account is put on hold for payment."
+msgstr ""
+"जब किसी कंपनी का खाता भुगतान के लिए होल्ड पर रखा जाता है, तब उसके प्रबंधकों "
+"को भेजा जाता है।"
+
+msgid "{{ tenant_name }} is on hold for payment"
+msgstr "{{ tenant_name }} भुगतान के लिए होल्ड पर है"
+
+msgid "Open orders and billing"
+msgstr "ऑर्डर और बिलिंग खोलें"
+
+msgid "Date it happened"
+msgstr "घटना की तारीख"
+
+msgid "The reason given for the company (rendered)"
+msgstr "कंपनी के लिए दिया गया कारण (रेंडर किया गया)"
+
+msgid "Orders and billing link"
+msgstr "ऑर्डर और बिलिंग लिंक"
+
+msgid "Company account — Payment hold ended"
+msgstr "कंपनी खाता — भुगतान होल्ड समाप्त"
+
+msgid ""
+"Sent to a company's managers when the payment hold on its account ends."
+msgstr ""
+"जब किसी कंपनी के खाते पर भुगतान होल्ड समाप्त होता है, तब उसके प्रबंधकों को "
+"भेजा जाता है।"
+
+msgid "{{ tenant_name }} is no longer on hold"
+msgstr "{{ tenant_name }} अब होल्ड पर नहीं है"
+
+msgid "Open your account"
+msgstr "अपना खाता खोलें"
+
+msgid "Company account — Blocked"
+msgstr "कंपनी खाता — ब्लॉक"
+
+msgid "Sent to a company's managers when the organisation blocks its account."
+msgstr ""
+"जब संगठन किसी कंपनी का खाता ब्लॉक करता है, तब उसके प्रबंधकों को भेजा जाता "
+"है।"
+
+msgid "{{ tenant_name }} is blocked"
+msgstr "{{ tenant_name }} ब्लॉक है"
+
+msgid "Company account — Unblocked"
+msgstr "कंपनी खाता — अनब्लॉक"
+
+msgid ""
+"Sent to a company's managers when the organisation unblocks its account."
+msgstr ""
+"जब संगठन किसी कंपनी का खाता अनब्लॉक करता है, तब उसके प्रबंधकों को भेजा जाता "
+"है।"
+
+msgid "{{ tenant_name }} is unblocked"
+msgstr "{{ tenant_name }} अनब्लॉक है"
+
+msgid "Tenant — Asks to renew"
+msgstr "क्लाइंट संगठन — नवीनीकरण का अनुरोध"
+
+msgid ""
+"Sent to the people who can renew a tenant when its manager asks to renew."
+msgstr ""
+"जब किसी क्लाइंट संगठन का प्रबंधक नवीनीकरण का अनुरोध करता है, तब उसका "
+"नवीनीकरण कर सकने वाले लोगों को भेजा जाता है।"
+
+msgid "{{ tenant_name }} asks to renew"
+msgstr "{{ tenant_name }} नवीनीकरण का अनुरोध करता है"
+
+msgid "Open the tenant"
+msgstr "क्लाइंट संगठन खोलें"
+
+msgid "First name"
+msgstr "पहला नाम"
+
+msgid "The manager who asked"
+msgstr "अनुरोध करने वाले प्रबंधक"
+
+msgid "Date they asked"
+msgstr "अनुरोध की तारीख"
+
+msgid "Tenant page link"
+msgstr "क्लाइंट संगठन पेज लिंक"
+
 msgid "Hi {{ full_name }},"
 msgstr "नमस्ते {{ full_name }},"
 
@@ -2076,6 +2272,52 @@ msgstr ""
 "{{ choose_by }} से पहले उन {{ learner_limit }} लोगों को चुनें जिनकी पहुँच "
 "बनी रहेगी। जब तक आप नहीं चुनते, सब कुछ अभी जैसा ही रहेगा।"
 
+msgid ""
+"{{ org_name }} put {{ tenant_name }} on hold for payment on {{ changed_on "
+"}}. Learning your company pays for is paused until this is cleared. "
+"Everyone's progress and certificates are kept."
+msgstr ""
+"{{ org_name }} ने {{ changed_on }} को {{ tenant_name }} को भुगतान के लिए "
+"होल्ड पर रखा। इसका निपटान होने तक आपकी कंपनी द्वारा भुगतान की जाने वाली सीख "
+"रुकी रहेगी। सभी की प्रगति और प्रमाणपत्र सुरक्षित रहते हैं।"
+
+msgid ""
+"{{ org_name }} ended the payment hold on {{ tenant_name }} on {{ changed_on "
+"}}. Your people can carry on with their learning."
+msgstr ""
+"{{ org_name }} ने {{ changed_on }} को {{ tenant_name }} पर भुगतान होल्ड "
+"समाप्त किया। आपके लोग अपनी सीख जारी रख सकते हैं।"
+
+msgid ""
+"{{ org_name }} blocked {{ tenant_name }} on {{ changed_on }}. Nobody can use"
+" your company's account or the learning it pays for until it is unblocked."
+msgstr ""
+"{{ org_name }} ने {{ changed_on }} को {{ tenant_name }} को ब्लॉक किया। "
+"अनब्लॉक होने तक कोई भी आपकी कंपनी के खाते या उसके द्वारा भुगतान की जाने वाली"
+" सीख का उपयोग नहीं कर सकता।"
+
+msgid ""
+"{{ org_name }} unblocked {{ tenant_name }} on {{ changed_on }}. You and your"
+" people can sign in and carry on."
+msgstr ""
+"{{ org_name }} ने {{ changed_on }} को {{ tenant_name }} को अनब्लॉक किया। आप "
+"और आपके लोग साइन इन करके जारी रख सकते हैं।"
+
+msgid ""
+"{{ requester_name }}, who manages {{ tenant_name }}, asked on {{ "
+"requested_on }} to renew the company's contract."
+msgstr ""
+"{{ tenant_name }} का प्रबंधन करने वाले {{ requester_name }} ने {{ "
+"requested_on }} को कंपनी के अनुबंध के नवीनीकरण का अनुरोध किया।"
+
+msgid "Renew the contract from the tenant's page."
+msgstr "क्लाइंट संगठन के पेज से अनुबंध का नवीनीकरण करें।"
+
+msgid "You got this email because you can renew tenants at {{ org_name }}."
+msgstr ""
+"आपको यह ईमेल इसलिए मिला क्योंकि आप {{ org_name }} में क्लाइंट संगठनों का "
+"नवीनीकरण कर सकते हैं।"
+
 msgid "your program"
 msgstr "आपका कार्यक्रम"
 
@@ -2174,12 +2416,80 @@ msgstr ""
 "%(tenant)s का अनुबंध %(limit)s की शिक्षार्थी सीमा के साथ नवीनीकृत किया गया। "
 "चुनें कि किसकी पहुँच बनी रहेगी।"
 
+#. Translators: %(tenant)s is a company's name.
+msgid "%(tenant)s is on hold for payment"
+msgstr "%(tenant)s भुगतान के लिए होल्ड पर है"
+
+msgid ""
+"Learning your company pays for is paused until this is cleared. Progress and"
+" certificates are kept."
+msgstr ""
+"इसका निपटान होने तक आपकी कंपनी द्वारा भुगतान की जाने वाली सीख रुकी रहेगी। "
+"प्रगति और प्रमाणपत्र सुरक्षित रहते हैं।"
+
+#. Translators: %(tenant)s is a company's name.
+msgid "%(tenant)s is no longer on hold"
+msgstr "%(tenant)s अब होल्ड पर नहीं है"
+
+msgid ""
+"The payment hold has ended. Your people can carry on with their learning."
+msgstr "भुगतान होल्ड समाप्त हो गया है। आपके लोग अपनी सीख जारी रख सकते हैं।"
+
+#. Translators: %(tenant)s is a company's name.
+msgid "%(tenant)s is blocked"
+msgstr "%(tenant)s ब्लॉक है"
+
+msgid ""
+"Nobody can use your company's account or the learning it pays for until it "
+"is unblocked."
+msgstr ""
+"अनब्लॉक होने तक कोई भी आपकी कंपनी के खाते या उसके द्वारा भुगतान की जाने वाली"
+" सीख का उपयोग नहीं कर सकता।"
+
+#. Translators: %(tenant)s is a company's name.
+msgid "%(tenant)s is unblocked"
+msgstr "%(tenant)s अनब्लॉक है"
+
+msgid "You and your people can sign in and carry on."
+msgstr "आप और आपके लोग साइन इन करके जारी रख सकते हैं।"
+
+#. Translators: %(tenant)s is a company's name.
+msgid "%(tenant)s asks to renew"
+msgstr "%(tenant)s नवीनीकरण का अनुरोध करता है"
+
+#. Translators: %(who)s is a person's name, %(tenant)s the company they manage
+#. and %(note)s their own
+#. message.
+msgid ""
+"%(who)s, who manages %(tenant)s, asked to renew the company's contract. "
+"“%(note)s”"
+msgstr ""
+"%(tenant)s का प्रबंधन करने वाले %(who)s ने कंपनी के अनुबंध के नवीनीकरण का "
+"अनुरोध किया। “%(note)s”"
+
+#. Translators: %(who)s is a person's name; %(tenant)s is the company they
+#. manage.
+msgid ""
+"%(who)s, who manages %(tenant)s, asked to renew the company's contract."
+msgstr ""
+"%(tenant)s का प्रबंधन करने वाले %(who)s ने कंपनी के अनुबंध के नवीनीकरण का "
+"अनुरोध किया।"
+
 #. Translators: %(seats)s lists the seats, such as "20 seats in Fire safety
 #. and 5 seats in First aid".
 msgid "Your %(seats)s is ready to give out."
 msgid_plural "Your %(seats)s are ready to give out."
 msgstr[0] "आपकी %(seats)s देने के लिए तैयार है।"
 msgstr[1] "आपकी %(seats)s देने के लिए तैयार हैं।"
+
+msgid "An invoice is overdue."
+msgstr "एक चालान अतिदेय है।"
+
+msgid "The overdue invoice is settled."
+msgstr "अतिदेय चालान का निपटान हो गया है।"
+
+msgid "The reason given:"
+msgstr "दिया गया कारण:"
 
 msgid "Grades"
 msgstr "ग्रेड"
@@ -2283,14 +2593,27 @@ msgstr ""
 msgid "The {report} report for {start} to {end} is ready to download."
 msgstr "{start} से {end} तक की {report} रिपोर्ट डाउनलोड के लिए तैयार है।"
 
-#. Translators: {end} is the week's last day ("19 November 2026"); the others
+#. Translators: {month} is the month just ended ("October 2026"); the others
 #. are counts.
+msgid ""
+"{month}. Seats in use: {assigned} of {funded}. New seats: {new_seats}. "
+"Results recorded: {results}. Certificates earned: {certificates}."
+msgstr ""
+"{month}। उपयोग में सीटें: {funded} में से {assigned}। नई सीटें: {new_seats}।"
+" दर्ज परिणाम: {results}। अर्जित प्रमाणपत्र: {certificates}।"
+
+#. Translators: {end} is the week's last day, a Sunday ("22 November 2026");
+#. the others are counts.
 msgid ""
 "Week to {end}. Seats in use: {assigned} of {funded}. New seats: {new_seats}."
 " Results recorded: {results}. Certificates earned: {certificates}."
 msgstr ""
 "{end} तक का सप्ताह। उपयोग में सीटें: {funded} में से {assigned}। नई सीटें: "
 "{new_seats}। दर्ज परिणाम: {results}। अर्जित प्रमाणपत्र: {certificates}।"
+
+#. Translators: {tenant} is the company's name.
+msgid "{tenant}: your month in learning"
+msgstr "{tenant}: सीख में आपका महीना"
 
 #. Translators: {tenant} is the company's name.
 msgid "{tenant}: your week in learning"
@@ -2442,6 +2765,15 @@ msgstr "7 दिनों से सक्रिय नहीं"
 
 msgid "behind on progress"
 msgstr "प्रगति में पीछे"
+
+msgid "has not started"
+msgstr "शुरू नहीं किया है"
+
+msgid "failed an assessment"
+msgstr "एक आकलन में अनुत्तीर्ण"
+
+msgid "behind schedule"
+msgstr "निर्धारित समय से पीछे"
 
 msgid "{name} needs help"
 msgstr "{name} को सहायता चाहिए"

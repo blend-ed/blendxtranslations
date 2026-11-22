@@ -262,6 +262,61 @@ msgstr "您的证书已过期。重新学习课程即可续期。"
 msgid "Renew"
 msgstr "续订"
 
+msgid "a deadline"
+msgstr "截止日期"
+
+msgid "Due dates moved in {batch}"
+msgstr "{batch} 中的截止日期已调整"
+
+msgid "Extensions removed in {batch}"
+msgstr "{batch} 中的延期已移除"
+
+msgid ""
+"{actor} moved the due date for {assessment} for {count} learners to {new}."
+msgstr "{actor} 将 {count} 位学员的 {assessment} 截止日期调整为 {new}。"
+
+msgid ""
+"{actor} removed the extended due date for {assessment} for {count} learners."
+msgstr "{actor} 移除了 {count} 位学员 {assessment} 的延长截止日期。"
+
+msgid "Extension removed in {batch}"
+msgstr "{batch} 中的延期已移除"
+
+#. Translators: {old} and {new} are dates such as "12 Mar"; {reason} is the
+#. staff member's words.
+msgid ""
+"{actor} removed {learner}'s extended due date for {assessment}: it is back "
+"to {new} (it was {old}). Reason: {reason}"
+msgstr ""
+"{actor} 移除了 {learner} 的 {assessment} 延长截止日期：已恢复为 {new}（原为 {old}）。原因：{reason}"
+
+msgid ""
+"{actor} removed {learner}'s extended due date for {assessment} (it was "
+"{old}). Reason: {reason}"
+msgstr "{actor} 移除了 {learner} 的 {assessment} 延长截止日期（原为 {old}）。原因：{reason}"
+
+msgid "Due date moved in {batch}"
+msgstr "{batch} 中的截止日期已调整"
+
+msgid ""
+"{actor} moved {learner}'s due date for {assessment} from {old} to {new}. "
+"Reason: {reason}"
+msgstr "{actor} 将 {learner} 的 {assessment} 截止日期从 {old} 调整为 {new}。原因：{reason}"
+
+msgid ""
+"{actor} gave {learner} a new due date for {assessment}: {new}. Reason: "
+"{reason}"
+msgstr "{actor} 为 {learner} 设置了 {assessment} 的新截止日期：{new}。原因：{reason}"
+
+msgid "Due dates changed in {batch}"
+msgstr "{batch} 中的截止日期已更改"
+
+msgid "Due dates changed in {count} of your Batches"
+msgstr "您的 {count} 个班期中的截止日期已更改"
+
+msgid "{actor} changed the due dates of {course}."
+msgstr "{actor} 更改了 {course} 的截止日期。"
+
 msgid "{name}, you earned a Program certificate!"
 msgstr "{name}，您获得了一张项目证书！"
 
@@ -1036,11 +1091,11 @@ msgstr "您的数据已就绪"
 msgid "A file of your data you asked for is ready to download."
 msgstr "您申请的数据文件已可下载。"
 
-msgid "Tenant weekly report"
-msgstr "租户周报"
+msgid "Tenant report email"
+msgstr "租户报告邮件"
 
-msgid "Your organisation's learning figures for the week."
-msgstr "您组织本周的学习数据。"
+msgid "Your organisation's learning figures for the week or the month."
+msgstr "贵组织每周或每月的学习数据。"
 
 msgid "Company account active"
 msgstr "公司账户已启用"
@@ -1054,6 +1109,36 @@ msgstr "选择保留访问权限的人员"
 msgid ""
 "A renewal lowered your company's learner limit: choose who keeps access."
 msgstr "续订降低了贵公司的学员上限：请选择保留访问权限的人员。"
+
+msgid "Company account on hold for payment"
+msgstr "公司账户因付款问题已暂停"
+
+msgid "Your company's account was put on hold for payment."
+msgstr "贵公司的账户因付款问题已被暂停。"
+
+msgid "Company account no longer on hold"
+msgstr "公司账户已解除暂停"
+
+msgid "The payment hold on your company's account ended."
+msgstr "贵公司账户的付款暂停已解除。"
+
+msgid "Company account blocked"
+msgstr "公司账户已封禁"
+
+msgid "Your company's account was blocked."
+msgstr "贵公司的账户已被封禁。"
+
+msgid "Company account unblocked"
+msgstr "公司账户已解除封禁"
+
+msgid "Your company's account was unblocked."
+msgstr "贵公司的账户已解除封禁。"
+
+msgid "A tenant asks to renew"
+msgstr "租户申请续约"
+
+msgid "A tenant's manager asked to renew the company's contract."
+msgstr "租户的管理员申请续签公司合同。"
 
 msgid "Someone finishes a course or program"
 msgstr "有人完成课程或项目"
@@ -1102,6 +1187,14 @@ msgstr "AI 生成的课程已就绪"
 msgid ""
 "A course you generated with AI finished building and is ready to review."
 msgstr "您用 AI 生成的课程已构建完成，可以进行审阅。"
+
+msgid "A deadline moves"
+msgstr "截止日期变更"
+
+msgid ""
+"Someone else moves a deadline in a Batch you manage: a learner's extension, "
+"or a Course's due dates."
+msgstr "其他人调整了您管理的班期中的截止日期：学员的延期，或课程的截止日期。"
 
 msgid "Library access requested"
 msgstr "已申请内容库访问权限"
@@ -1541,6 +1634,85 @@ msgstr "选择截止日期"
 msgid "Choose people link"
 msgstr "选择人员链接"
 
+msgid "Company account — On hold for payment"
+msgstr "公司账户——因付款问题已暂停"
+
+msgid ""
+"Sent to a company's managers when its account is put on hold for payment."
+msgstr "当公司账户因付款问题被暂停时，发送给该公司的管理员。"
+
+msgid "{{ tenant_name }} is on hold for payment"
+msgstr "{{ tenant_name }} 因付款问题已被暂停"
+
+msgid "Open orders and billing"
+msgstr "打开订单和账单"
+
+msgid "Date it happened"
+msgstr "发生日期"
+
+msgid "The reason given for the company (rendered)"
+msgstr "为该公司给出的原因（已渲染）"
+
+msgid "Orders and billing link"
+msgstr "订单和账单链接"
+
+msgid "Company account — Payment hold ended"
+msgstr "公司账户——付款暂停已解除"
+
+msgid ""
+"Sent to a company's managers when the payment hold on its account ends."
+msgstr "当公司账户的付款暂停解除时，发送给该公司的管理员。"
+
+msgid "{{ tenant_name }} is no longer on hold"
+msgstr "{{ tenant_name }} 已解除付款暂停"
+
+msgid "Open your account"
+msgstr "打开您的账户"
+
+msgid "Company account — Blocked"
+msgstr "公司账户——已封禁"
+
+msgid "Sent to a company's managers when the organisation blocks its account."
+msgstr "当组织封禁公司账户时，发送给该公司的管理员。"
+
+msgid "{{ tenant_name }} is blocked"
+msgstr "{{ tenant_name }} 已被封禁"
+
+msgid "Company account — Unblocked"
+msgstr "公司账户——已解除封禁"
+
+msgid ""
+"Sent to a company's managers when the organisation unblocks its account."
+msgstr "当组织解除公司账户封禁时，发送给该公司的管理员。"
+
+msgid "{{ tenant_name }} is unblocked"
+msgstr "{{ tenant_name }} 已解除封禁"
+
+msgid "Tenant — Asks to renew"
+msgstr "租户——申请续约"
+
+msgid ""
+"Sent to the people who can renew a tenant when its manager asks to renew."
+msgstr "当租户的管理员申请续约时，发送给可为该租户续约的人员。"
+
+msgid "{{ tenant_name }} asks to renew"
+msgstr "{{ tenant_name }} 申请续约"
+
+msgid "Open the tenant"
+msgstr "打开租户"
+
+msgid "First name"
+msgstr "名字"
+
+msgid "The manager who asked"
+msgstr "提出申请的管理员"
+
+msgid "Date they asked"
+msgstr "申请日期"
+
+msgid "Tenant page link"
+msgstr "租户页面链接"
+
 msgid "Hi {{ full_name }},"
 msgstr "{{ full_name }}，您好："
 
@@ -1851,6 +2023,45 @@ msgid ""
 msgstr ""
 "请在 {{ choose_by }} 之前选择保留访问权限的 {{ learner_limit }} 人。在您选择之前，所有人的状态保持不变。"
 
+msgid ""
+"{{ org_name }} put {{ tenant_name }} on hold for payment on {{ changed_on "
+"}}. Learning your company pays for is paused until this is cleared. "
+"Everyone's progress and certificates are kept."
+msgstr ""
+"{{ org_name }} 已于 {{ changed_on }} 因付款问题暂停 {{ tenant_name "
+"}}。在此问题解决之前，贵公司付费的学习将暂停。所有人的进度和证书都会保留。"
+
+msgid ""
+"{{ org_name }} ended the payment hold on {{ tenant_name }} on {{ changed_on "
+"}}. Your people can carry on with their learning."
+msgstr ""
+"{{ org_name }} 已于 {{ changed_on }} 解除 {{ tenant_name }} 的付款暂停。您的人员可以继续学习。"
+
+msgid ""
+"{{ org_name }} blocked {{ tenant_name }} on {{ changed_on }}. Nobody can use"
+" your company's account or the learning it pays for until it is unblocked."
+msgstr ""
+"{{ org_name }} 已于 {{ changed_on }} 封禁 {{ tenant_name "
+"}}。在解除封禁之前，任何人都无法使用贵公司的账户或其付费的学习内容。"
+
+msgid ""
+"{{ org_name }} unblocked {{ tenant_name }} on {{ changed_on }}. You and your"
+" people can sign in and carry on."
+msgstr ""
+"{{ org_name }} 已于 {{ changed_on }} 解除 {{ tenant_name }} 的封禁。您和您的人员可以登录并继续学习。"
+
+msgid ""
+"{{ requester_name }}, who manages {{ tenant_name }}, asked on {{ "
+"requested_on }} to renew the company's contract."
+msgstr ""
+"{{ tenant_name }} 的管理员 {{ requester_name }} 于 {{ requested_on }} 申请续签公司合同。"
+
+msgid "Renew the contract from the tenant's page."
+msgstr "请在租户页面上续签合同。"
+
+msgid "You got this email because you can renew tenants at {{ org_name }}."
+msgstr "您收到此邮件，是因为您可以在 {{ org_name }} 为租户续约。"
+
 msgid "your program"
 msgstr "您的项目"
 
@@ -1939,11 +2150,71 @@ msgid ""
 "who keeps access."
 msgstr "%(tenant)s 的合同已续订，学员上限为 %(limit)s。请选择保留访问权限的人员。"
 
+#. Translators: %(tenant)s is a company's name.
+msgid "%(tenant)s is on hold for payment"
+msgstr "%(tenant)s 因付款问题已被暂停"
+
+msgid ""
+"Learning your company pays for is paused until this is cleared. Progress and"
+" certificates are kept."
+msgstr "在此问题解决之前，贵公司付费的学习将暂停。进度和证书会保留。"
+
+#. Translators: %(tenant)s is a company's name.
+msgid "%(tenant)s is no longer on hold"
+msgstr "%(tenant)s 已解除付款暂停"
+
+msgid ""
+"The payment hold has ended. Your people can carry on with their learning."
+msgstr "付款暂停已解除。您的人员可以继续学习。"
+
+#. Translators: %(tenant)s is a company's name.
+msgid "%(tenant)s is blocked"
+msgstr "%(tenant)s 已被封禁"
+
+msgid ""
+"Nobody can use your company's account or the learning it pays for until it "
+"is unblocked."
+msgstr "在解除封禁之前，任何人都无法使用贵公司的账户或其付费的学习内容。"
+
+#. Translators: %(tenant)s is a company's name.
+msgid "%(tenant)s is unblocked"
+msgstr "%(tenant)s 已解除封禁"
+
+msgid "You and your people can sign in and carry on."
+msgstr "您和您的人员可以登录并继续学习。"
+
+#. Translators: %(tenant)s is a company's name.
+msgid "%(tenant)s asks to renew"
+msgstr "%(tenant)s 申请续约"
+
+#. Translators: %(who)s is a person's name, %(tenant)s the company they manage
+#. and %(note)s their own
+#. message.
+msgid ""
+"%(who)s, who manages %(tenant)s, asked to renew the company's contract. "
+"“%(note)s”"
+msgstr "%(tenant)s 的管理员 %(who)s 申请续签公司合同。“%(note)s”"
+
+#. Translators: %(who)s is a person's name; %(tenant)s is the company they
+#. manage.
+msgid ""
+"%(who)s, who manages %(tenant)s, asked to renew the company's contract."
+msgstr "%(tenant)s 的管理员 %(who)s 申请续签公司合同。"
+
 #. Translators: %(seats)s lists the seats, such as "20 seats in Fire safety
 #. and 5 seats in First aid".
 msgid "Your %(seats)s is ready to give out."
 msgid_plural "Your %(seats)s are ready to give out."
 msgstr[0] "您的 %(seats)s 已可分配。"
+
+msgid "An invoice is overdue."
+msgstr "有发票已逾期。"
+
+msgid "The overdue invoice is settled."
+msgstr "逾期发票已结清。"
+
+msgid "The reason given:"
+msgstr "给出的原因："
 
 msgid "Grades"
 msgstr "成绩"
@@ -2039,14 +2310,27 @@ msgstr "您的完整导出已就绪：一个包含您平台记录的 zip 文件�
 msgid "The {report} report for {start} to {end} is ready to download."
 msgstr "{start} 至 {end} 的 {report} 报告已可下载。"
 
-#. Translators: {end} is the week's last day ("19 November 2026"); the others
+#. Translators: {month} is the month just ended ("October 2026"); the others
 #. are counts.
+msgid ""
+"{month}. Seats in use: {assigned} of {funded}. New seats: {new_seats}. "
+"Results recorded: {results}. Certificates earned: {certificates}."
+msgstr ""
+"{month}。在用席位：{assigned} / "
+"{funded}。新增席位：{new_seats}。已记录成绩：{results}。已获得证书：{certificates}。"
+
+#. Translators: {end} is the week's last day, a Sunday ("22 November 2026");
+#. the others are counts.
 msgid ""
 "Week to {end}. Seats in use: {assigned} of {funded}. New seats: {new_seats}."
 " Results recorded: {results}. Certificates earned: {certificates}."
 msgstr ""
 "截至 {end} 的一周。已使用席位：{assigned} / "
 "{funded}。新增席位：{new_seats}。已记录结果：{results}。已获得证书：{certificates}。"
+
+#. Translators: {tenant} is the company's name.
+msgid "{tenant}: your month in learning"
+msgstr "{tenant}：您的本月学习概况"
 
 #. Translators: {tenant} is the company's name.
 msgid "{tenant}: your week in learning"
@@ -2189,6 +2473,15 @@ msgid "not active for 7 days"
 msgstr "7 天未活动"
 
 msgid "behind on progress"
+msgstr "进度落后"
+
+msgid "has not started"
+msgstr "尚未开始"
+
+msgid "failed an assessment"
+msgstr "评估未通过"
+
+msgid "behind schedule"
 msgstr "进度落后"
 
 msgid "{name} needs help"

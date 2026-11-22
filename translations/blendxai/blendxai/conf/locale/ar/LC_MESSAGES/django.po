@@ -109,15 +109,6 @@ msgstr "فشل تحسين إمكانية الوصول: {error}"
 msgid "Chat processing failed: {error}"
 msgstr "فشلت معالجة المحادثة: {error}"
 
-msgid "Invalid course_id: {course_id}"
-msgstr "course_id غير صالح: {course_id}"
-
-msgid "Unsupported target_language: {target_language}"
-msgstr "target_language غير مدعومة: {target_language}"
-
-msgid "Task not found."
-msgstr "لم يتم العثور على المهمة."
-
 msgid "AI features are disabled for this user"
 msgstr "ميزات AI معطّلة لهذا المستخدم"
 
@@ -350,6 +341,9 @@ msgstr "لا يمكن للمستخدم الوصول إلى مساق خارج م�
 
 msgid "Failed to auto-tag course: {error}"
 msgstr "فشل الوسم التلقائي للمساق: {error}"
+
+msgid "Task not found."
+msgstr "لم يتم العثور على المهمة."
 
 msgid "No content_tagged data provided"
 msgstr "لم تُقدَّم بيانات content_tagged"

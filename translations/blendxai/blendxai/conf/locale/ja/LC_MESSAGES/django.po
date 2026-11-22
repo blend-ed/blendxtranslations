@@ -109,15 +109,6 @@ msgstr "アクセシビリティの最適化に失敗しました: {error}"
 msgid "Chat processing failed: {error}"
 msgstr "チャットの処理に失敗しました: {error}"
 
-msgid "Invalid course_id: {course_id}"
-msgstr "無効な course_id: {course_id}"
-
-msgid "Unsupported target_language: {target_language}"
-msgstr "サポートされていない target_language: {target_language}"
-
-msgid "Task not found."
-msgstr "タスクが見つかりません。"
-
 msgid "AI features are disabled for this user"
 msgstr "このユーザーの AI 機能は無効になっています"
 
@@ -343,6 +334,9 @@ msgstr "ユーザーは組織外の講座にアクセスできません: {org_na
 
 msgid "Failed to auto-tag course: {error}"
 msgstr "講座の自動タグ付けに失敗しました: {error}"
+
+msgid "Task not found."
+msgstr "タスクが見つかりません。"
 
 msgid "No content_tagged data provided"
 msgstr "content_tagged データが指定されていません"

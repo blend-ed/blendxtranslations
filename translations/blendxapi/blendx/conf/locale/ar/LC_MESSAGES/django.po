@@ -307,6 +307,71 @@ msgstr "انتهت صلاحية شهادتك. خذ المساق مرة أخرى 
 msgid "Renew"
 msgstr "جدِّد"
 
+msgid "a deadline"
+msgstr "موعد نهائي"
+
+msgid "Due dates moved in {batch}"
+msgstr "تغيّرت تواريخ الاستحقاق في {batch}"
+
+msgid "Extensions removed in {batch}"
+msgstr "أُزيلت التمديدات في {batch}"
+
+msgid ""
+"{actor} moved the due date for {assessment} for {count} learners to {new}."
+msgstr ""
+"غيّر {actor} تاريخ استحقاق {assessment} لـ {count} من المتعلمين إلى {new}."
+
+msgid ""
+"{actor} removed the extended due date for {assessment} for {count} learners."
+msgstr ""
+"أزال {actor} تاريخ الاستحقاق المُمدَّد لـ {assessment} لـ {count} من "
+"المتعلمين."
+
+msgid "Extension removed in {batch}"
+msgstr "أُزيل التمديد في {batch}"
+
+#. Translators: {old} and {new} are dates such as "12 Mar"; {reason} is the
+#. staff member's words.
+msgid ""
+"{actor} removed {learner}'s extended due date for {assessment}: it is back "
+"to {new} (it was {old}). Reason: {reason}"
+msgstr ""
+"أزال {actor} تاريخ الاستحقاق المُمدَّد لـ {learner} في {assessment}: عاد إلى"
+" {new} (كان {old}). السبب: {reason}"
+
+msgid ""
+"{actor} removed {learner}'s extended due date for {assessment} (it was "
+"{old}). Reason: {reason}"
+msgstr ""
+"أزال {actor} تاريخ الاستحقاق المُمدَّد لـ {learner} في {assessment} (كان "
+"{old}). السبب: {reason}"
+
+msgid "Due date moved in {batch}"
+msgstr "تغيّر تاريخ الاستحقاق في {batch}"
+
+msgid ""
+"{actor} moved {learner}'s due date for {assessment} from {old} to {new}. "
+"Reason: {reason}"
+msgstr ""
+"غيّر {actor} تاريخ استحقاق {learner} لـ {assessment} من {old} إلى {new}. "
+"السبب: {reason}"
+
+msgid ""
+"{actor} gave {learner} a new due date for {assessment}: {new}. Reason: "
+"{reason}"
+msgstr ""
+"منح {actor} المتعلم {learner} تاريخ استحقاق جديدًا لـ {assessment}: {new}. "
+"السبب: {reason}"
+
+msgid "Due dates changed in {batch}"
+msgstr "تغيّرت تواريخ الاستحقاق في {batch}"
+
+msgid "Due dates changed in {count} of your Batches"
+msgstr "تغيّرت تواريخ الاستحقاق في {count} من دفعاتك"
+
+msgid "{actor} changed the due dates of {course}."
+msgstr "غيّر {actor} تواريخ استحقاق {course}."
+
 msgid "{name}, you earned a Program certificate!"
 msgstr "{name}، لقد حصلت على شهادة البرنامج!"
 
@@ -1115,11 +1180,11 @@ msgstr "بياناتك جاهزة"
 msgid "A file of your data you asked for is ready to download."
 msgstr "ملف بياناتك الذي طلبته جاهز للتنزيل."
 
-msgid "Tenant weekly report"
-msgstr "التقرير الأسبوعي للمؤسسة العميلة"
+msgid "Tenant report email"
+msgstr "بريد تقرير المؤسسة العميلة"
 
-msgid "Your organisation's learning figures for the week."
-msgstr "أرقام التعلّم لمؤسستك لهذا الأسبوع."
+msgid "Your organisation's learning figures for the week or the month."
+msgstr "أرقام التعلّم في مؤسستك لهذا الأسبوع أو الشهر."
 
 msgid "Company account active"
 msgstr "حساب الشركة نشط"
@@ -1133,6 +1198,36 @@ msgstr "اختر من يحتفظ بالوصول"
 msgid ""
 "A renewal lowered your company's learner limit: choose who keeps access."
 msgstr "خفّض تجديد العقد الحدّ الأقصى لمتعلمي شركتك: اختر من يحتفظ بالوصول."
+
+msgid "Company account on hold for payment"
+msgstr "حساب الشركة معلّق بانتظار الدفع"
+
+msgid "Your company's account was put on hold for payment."
+msgstr "عُلّق حساب شركتك بانتظار الدفع."
+
+msgid "Company account no longer on hold"
+msgstr "لم يعد حساب الشركة معلّقًا"
+
+msgid "The payment hold on your company's account ended."
+msgstr "انتهى تعليق الدفع على حساب شركتك."
+
+msgid "Company account blocked"
+msgstr "حُظر حساب الشركة"
+
+msgid "Your company's account was blocked."
+msgstr "حُظر حساب شركتك."
+
+msgid "Company account unblocked"
+msgstr "أُلغي حظر حساب الشركة"
+
+msgid "Your company's account was unblocked."
+msgstr "أُلغي حظر حساب شركتك."
+
+msgid "A tenant asks to renew"
+msgstr "مؤسسة عميلة تطلب التجديد"
+
+msgid "A tenant's manager asked to renew the company's contract."
+msgstr "طلب مدير مؤسسة عميلة تجديد عقد الشركة."
 
 msgid "Someone finishes a course or program"
 msgstr "يُنهي شخص ما مساقًا أو برنامجًا"
@@ -1183,6 +1278,16 @@ msgstr "المساق المُنشأ بالذكاء الاصطناعي جاهز"
 msgid ""
 "A course you generated with AI finished building and is ready to review."
 msgstr "اكتمل بناء مساق أنشأته باستخدام AI وأصبح جاهزًا للمراجعة."
+
+msgid "A deadline moves"
+msgstr "تغيّر موعد نهائي"
+
+msgid ""
+"Someone else moves a deadline in a Batch you manage: a learner's extension, "
+"or a Course's due dates."
+msgstr ""
+"شخص آخر يغيّر موعدًا نهائيًا في دفعة تديرها: تمديد لمتعلم، أو تواريخ استحقاق"
+" مساق."
 
 msgid "Library access requested"
 msgstr "تم طلب الوصول إلى المكتبة"
@@ -1636,6 +1741,85 @@ msgstr "آخر موعد للاختيار"
 msgid "Choose people link"
 msgstr "رابط اختيار الأشخاص"
 
+msgid "Company account — On hold for payment"
+msgstr "حساب الشركة — معلّق بانتظار الدفع"
+
+msgid ""
+"Sent to a company's managers when its account is put on hold for payment."
+msgstr "يُرسل إلى مديري الشركة عند تعليق حسابها بانتظار الدفع."
+
+msgid "{{ tenant_name }} is on hold for payment"
+msgstr "{{ tenant_name }} معلّقة بانتظار الدفع"
+
+msgid "Open orders and billing"
+msgstr "فتح الطلبات والفوترة"
+
+msgid "Date it happened"
+msgstr "تاريخ الحدوث"
+
+msgid "The reason given for the company (rendered)"
+msgstr "السبب المذكور للشركة (مُعروض)"
+
+msgid "Orders and billing link"
+msgstr "رابط الطلبات والفوترة"
+
+msgid "Company account — Payment hold ended"
+msgstr "حساب الشركة — انتهى تعليق الدفع"
+
+msgid ""
+"Sent to a company's managers when the payment hold on its account ends."
+msgstr "يُرسل إلى مديري الشركة عند انتهاء تعليق الدفع على حسابها."
+
+msgid "{{ tenant_name }} is no longer on hold"
+msgstr "{{ tenant_name }} لم تعد معلّقة"
+
+msgid "Open your account"
+msgstr "فتح حسابك"
+
+msgid "Company account — Blocked"
+msgstr "حساب الشركة — محظور"
+
+msgid "Sent to a company's managers when the organisation blocks its account."
+msgstr "يُرسل إلى مديري الشركة عندما تحظر المؤسسة حسابها."
+
+msgid "{{ tenant_name }} is blocked"
+msgstr "{{ tenant_name }} محظورة"
+
+msgid "Company account — Unblocked"
+msgstr "حساب الشركة — أُلغي الحظر"
+
+msgid ""
+"Sent to a company's managers when the organisation unblocks its account."
+msgstr "يُرسل إلى مديري الشركة عندما تُلغي المؤسسة حظر حسابها."
+
+msgid "{{ tenant_name }} is unblocked"
+msgstr "أُلغي حظر {{ tenant_name }}"
+
+msgid "Tenant — Asks to renew"
+msgstr "المؤسسة العميلة — تطلب التجديد"
+
+msgid ""
+"Sent to the people who can renew a tenant when its manager asks to renew."
+msgstr "يُرسل إلى من يمكنهم تجديد مؤسسة عميلة عندما يطلب مديرها التجديد."
+
+msgid "{{ tenant_name }} asks to renew"
+msgstr "{{ tenant_name }} تطلب التجديد"
+
+msgid "Open the tenant"
+msgstr "فتح المؤسسة العميلة"
+
+msgid "First name"
+msgstr "الاسم الأول"
+
+msgid "The manager who asked"
+msgstr "المدير الذي طلب"
+
+msgid "Date they asked"
+msgstr "تاريخ الطلب"
+
+msgid "Tenant page link"
+msgstr "رابط صفحة المؤسسة العميلة"
+
 msgid "Hi {{ full_name }},"
 msgstr "مرحبًا {{ full_name }}،"
 
@@ -1987,6 +2171,50 @@ msgstr ""
 "اختر الـ {{ learner_limit }} الذين يحتفظون بالوصول قبل {{ choose_by }}. وإلى"
 " أن تختار، يبقى الجميع كما هم الآن."
 
+msgid ""
+"{{ org_name }} put {{ tenant_name }} on hold for payment on {{ changed_on "
+"}}. Learning your company pays for is paused until this is cleared. "
+"Everyone's progress and certificates are kept."
+msgstr ""
+"علّقت {{ org_name }} {{ tenant_name }} بانتظار الدفع في {{ changed_on }}. "
+"التعلّم الذي تدفع شركتك مقابله متوقف مؤقتًا حتى تتم التسوية. يُحتفظ بتقدّم "
+"الجميع وشهاداتهم."
+
+msgid ""
+"{{ org_name }} ended the payment hold on {{ tenant_name }} on {{ changed_on "
+"}}. Your people can carry on with their learning."
+msgstr ""
+"أنهت {{ org_name }} تعليق الدفع على {{ tenant_name }} في {{ changed_on }}. "
+"يمكن لأفرادك مواصلة تعلّمهم."
+
+msgid ""
+"{{ org_name }} blocked {{ tenant_name }} on {{ changed_on }}. Nobody can use"
+" your company's account or the learning it pays for until it is unblocked."
+msgstr ""
+"حظرت {{ org_name }} {{ tenant_name }} في {{ changed_on }}. لا يمكن لأحد "
+"استخدام حساب شركتك أو التعلّم الذي تدفع مقابله حتى يُلغى حظره."
+
+msgid ""
+"{{ org_name }} unblocked {{ tenant_name }} on {{ changed_on }}. You and your"
+" people can sign in and carry on."
+msgstr ""
+"ألغت {{ org_name }} حظر {{ tenant_name }} في {{ changed_on }}. يمكنك أنت "
+"وأفرادك تسجيل الدخول والمتابعة."
+
+msgid ""
+"{{ requester_name }}, who manages {{ tenant_name }}, asked on {{ "
+"requested_on }} to renew the company's contract."
+msgstr ""
+"طلب {{ requester_name }}، مدير {{ tenant_name }}، في {{ requested_on }} "
+"تجديد عقد الشركة."
+
+msgid "Renew the contract from the tenant's page."
+msgstr "جدّد العقد من صفحة المؤسسة العميلة."
+
+msgid "You got this email because you can renew tenants at {{ org_name }}."
+msgstr ""
+"تلقيت هذه الرسالة لأنك تستطيع تجديد المؤسسات العميلة في {{ org_name }}."
+
 msgid "your program"
 msgstr "برنامجك"
 
@@ -2081,6 +2309,60 @@ msgstr ""
 "جُدِّد عقد %(tenant)s بحدّ أقصى للمتعلمين قدره %(limit)s. اختر من يحتفظ "
 "بالوصول."
 
+#. Translators: %(tenant)s is a company's name.
+msgid "%(tenant)s is on hold for payment"
+msgstr "%(tenant)s معلّقة بانتظار الدفع"
+
+msgid ""
+"Learning your company pays for is paused until this is cleared. Progress and"
+" certificates are kept."
+msgstr ""
+"التعلّم الذي تدفع شركتك مقابله متوقف مؤقتًا حتى تتم التسوية. يُحتفظ بالتقدّم"
+" والشهادات."
+
+#. Translators: %(tenant)s is a company's name.
+msgid "%(tenant)s is no longer on hold"
+msgstr "%(tenant)s لم تعد معلّقة"
+
+msgid ""
+"The payment hold has ended. Your people can carry on with their learning."
+msgstr "انتهى تعليق الدفع. يمكن لأفرادك مواصلة تعلّمهم."
+
+#. Translators: %(tenant)s is a company's name.
+msgid "%(tenant)s is blocked"
+msgstr "%(tenant)s محظورة"
+
+msgid ""
+"Nobody can use your company's account or the learning it pays for until it "
+"is unblocked."
+msgstr ""
+"لا يمكن لأحد استخدام حساب شركتك أو التعلّم الذي تدفع مقابله حتى يُلغى حظره."
+
+#. Translators: %(tenant)s is a company's name.
+msgid "%(tenant)s is unblocked"
+msgstr "أُلغي حظر %(tenant)s"
+
+msgid "You and your people can sign in and carry on."
+msgstr "يمكنك أنت وأفرادك تسجيل الدخول والمتابعة."
+
+#. Translators: %(tenant)s is a company's name.
+msgid "%(tenant)s asks to renew"
+msgstr "%(tenant)s تطلب التجديد"
+
+#. Translators: %(who)s is a person's name, %(tenant)s the company they manage
+#. and %(note)s their own
+#. message.
+msgid ""
+"%(who)s, who manages %(tenant)s, asked to renew the company's contract. "
+"“%(note)s”"
+msgstr "طلب %(who)s، مدير %(tenant)s، تجديد عقد الشركة. «%(note)s»"
+
+#. Translators: %(who)s is a person's name; %(tenant)s is the company they
+#. manage.
+msgid ""
+"%(who)s, who manages %(tenant)s, asked to renew the company's contract."
+msgstr "طلب %(who)s، مدير %(tenant)s، تجديد عقد الشركة."
+
 #. Translators: %(seats)s lists the seats, such as "20 seats in Fire safety
 #. and 5 seats in First aid".
 msgid "Your %(seats)s is ready to give out."
@@ -2091,6 +2373,15 @@ msgstr[2] "%(seats)s جاهزة للتوزيع."
 msgstr[3] "%(seats)s جاهزة للتوزيع."
 msgstr[4] "%(seats)s جاهزة للتوزيع."
 msgstr[5] "%(seats)s جاهزة للتوزيع."
+
+msgid "An invoice is overdue."
+msgstr "توجد فاتورة متأخرة السداد."
+
+msgid "The overdue invoice is settled."
+msgstr "سُدّدت الفاتورة المتأخرة."
+
+msgid "The reason given:"
+msgstr "السبب المذكور:"
 
 msgid "Grades"
 msgstr "الدرجات"
@@ -2194,14 +2485,27 @@ msgstr ""
 msgid "The {report} report for {start} to {end} is ready to download."
 msgstr "تقرير {report} للفترة من {start} إلى {end} جاهز للتنزيل."
 
-#. Translators: {end} is the week's last day ("19 November 2026"); the others
+#. Translators: {month} is the month just ended ("October 2026"); the others
 #. are counts.
+msgid ""
+"{month}. Seats in use: {assigned} of {funded}. New seats: {new_seats}. "
+"Results recorded: {results}. Certificates earned: {certificates}."
+msgstr ""
+"{month}. المقاعد المستخدمة: {assigned} من {funded}. المقاعد الجديدة: "
+"{new_seats}. النتائج المسجّلة: {results}. الشهادات المكتسبة: {certificates}."
+
+#. Translators: {end} is the week's last day, a Sunday ("22 November 2026");
+#. the others are counts.
 msgid ""
 "Week to {end}. Seats in use: {assigned} of {funded}. New seats: {new_seats}."
 " Results recorded: {results}. Certificates earned: {certificates}."
 msgstr ""
 "الأسبوع حتى {end}. المقاعد المستخدمة: {assigned} من {funded}. مقاعد جديدة: "
 "{new_seats}. النتائج المسجّلة: {results}. الشهادات المكتسبة: {certificates}."
+
+#. Translators: {tenant} is the company's name.
+msgid "{tenant}: your month in learning"
+msgstr "{tenant}: شهرك في التعلّم"
 
 #. Translators: {tenant} is the company's name.
 msgid "{tenant}: your week in learning"
@@ -2367,6 +2671,15 @@ msgstr "غير نشط منذ 7 أيام"
 
 msgid "behind on progress"
 msgstr "متأخر في التقدّم"
+
+msgid "has not started"
+msgstr "لم يبدأ"
+
+msgid "failed an assessment"
+msgstr "رسب في تقييم"
+
+msgid "behind schedule"
+msgstr "متأخر عن الجدول"
 
 msgid "{name} needs help"
 msgstr "{name} يحتاج إلى المساعدة"

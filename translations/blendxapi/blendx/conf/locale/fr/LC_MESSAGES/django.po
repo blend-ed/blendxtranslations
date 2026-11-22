@@ -305,6 +305,72 @@ msgstr ""
 msgid "Renew"
 msgstr "Renouveler"
 
+msgid "a deadline"
+msgstr "une échéance"
+
+msgid "Due dates moved in {batch}"
+msgstr "Dates d’échéance déplacées dans {batch}"
+
+msgid "Extensions removed in {batch}"
+msgstr "Prolongations supprimées dans {batch}"
+
+msgid ""
+"{actor} moved the due date for {assessment} for {count} learners to {new}."
+msgstr ""
+"{actor} a déplacé la date d’échéance de {assessment} pour {count} apprenants"
+" au {new}."
+
+msgid ""
+"{actor} removed the extended due date for {assessment} for {count} learners."
+msgstr ""
+"{actor} a supprimé la date d’échéance prolongée de {assessment} pour {count}"
+" apprenants."
+
+msgid "Extension removed in {batch}"
+msgstr "Prolongation supprimée dans {batch}"
+
+#. Translators: {old} and {new} are dates such as "12 Mar"; {reason} is the
+#. staff member's words.
+msgid ""
+"{actor} removed {learner}'s extended due date for {assessment}: it is back "
+"to {new} (it was {old}). Reason: {reason}"
+msgstr ""
+"{actor} a supprimé la date d’échéance prolongée de {learner} pour "
+"{assessment} : elle revient au {new} (c’était le {old}). Motif : {reason}"
+
+msgid ""
+"{actor} removed {learner}'s extended due date for {assessment} (it was "
+"{old}). Reason: {reason}"
+msgstr ""
+"{actor} a supprimé la date d’échéance prolongée de {learner} pour "
+"{assessment} (c’était le {old}). Motif : {reason}"
+
+msgid "Due date moved in {batch}"
+msgstr "Date d’échéance déplacée dans {batch}"
+
+msgid ""
+"{actor} moved {learner}'s due date for {assessment} from {old} to {new}. "
+"Reason: {reason}"
+msgstr ""
+"{actor} a déplacé la date d’échéance de {learner} pour {assessment} du {old}"
+" au {new}. Motif : {reason}"
+
+msgid ""
+"{actor} gave {learner} a new due date for {assessment}: {new}. Reason: "
+"{reason}"
+msgstr ""
+"{actor} a donné à {learner} une nouvelle date d’échéance pour {assessment} :"
+" {new}. Motif : {reason}"
+
+msgid "Due dates changed in {batch}"
+msgstr "Dates d’échéance modifiées dans {batch}"
+
+msgid "Due dates changed in {count} of your Batches"
+msgstr "Dates d’échéance modifiées dans {count} de vos promotions"
+
+msgid "{actor} changed the due dates of {course}."
+msgstr "{actor} a modifié les dates d’échéance de {course}."
+
 msgid "{name}, you earned a Program certificate!"
 msgstr "{name}, vous avez obtenu un certificat de programme !"
 
@@ -1160,11 +1226,13 @@ msgid "A file of your data you asked for is ready to download."
 msgstr ""
 "Un fichier de vos données que vous avez demandé est prêt à être téléchargé."
 
-msgid "Tenant weekly report"
-msgstr "Rapport hebdomadaire de l'organisation cliente"
+msgid "Tenant report email"
+msgstr "E-mail de rapport de l’organisation cliente"
 
-msgid "Your organisation's learning figures for the week."
-msgstr "Les chiffres d'apprentissage de votre organisation pour la semaine."
+msgid "Your organisation's learning figures for the week or the month."
+msgstr ""
+"Les chiffres d’apprentissage de votre organisation pour la semaine ou le "
+"mois."
 
 msgid "Company account active"
 msgstr "Compte entreprise actif"
@@ -1180,6 +1248,38 @@ msgid ""
 msgstr ""
 "Un renouvellement a réduit la limite d'apprenants de votre entreprise : "
 "choisissez qui conserve l'accès."
+
+msgid "Company account on hold for payment"
+msgstr "Compte d’entreprise suspendu en attente de paiement"
+
+msgid "Your company's account was put on hold for payment."
+msgstr "Le compte de votre entreprise a été suspendu en attente de paiement."
+
+msgid "Company account no longer on hold"
+msgstr "Compte d’entreprise plus suspendu"
+
+msgid "The payment hold on your company's account ended."
+msgstr "La suspension de paiement du compte de votre entreprise a pris fin."
+
+msgid "Company account blocked"
+msgstr "Compte d’entreprise bloqué"
+
+msgid "Your company's account was blocked."
+msgstr "Le compte de votre entreprise a été bloqué."
+
+msgid "Company account unblocked"
+msgstr "Compte d’entreprise débloqué"
+
+msgid "Your company's account was unblocked."
+msgstr "Le compte de votre entreprise a été débloqué."
+
+msgid "A tenant asks to renew"
+msgstr "Une organisation cliente demande un renouvellement"
+
+msgid "A tenant's manager asked to renew the company's contract."
+msgstr ""
+"Le responsable d’une organisation cliente a demandé le renouvellement du "
+"contrat de l’entreprise."
 
 msgid "Someone finishes a course or program"
 msgstr "Quelqu'un termine un cours ou un programme"
@@ -1239,6 +1339,16 @@ msgid ""
 "A course you generated with AI finished building and is ready to review."
 msgstr ""
 "Un cours que vous avez généré avec l'AI est terminé et prêt à être vérifié."
+
+msgid "A deadline moves"
+msgstr "Une échéance est déplacée"
+
+msgid ""
+"Someone else moves a deadline in a Batch you manage: a learner's extension, "
+"or a Course's due dates."
+msgstr ""
+"Une autre personne déplace une échéance dans une promotion que vous gérez : "
+"la prolongation d’un apprenant ou les dates d’échéance d’un cours."
 
 msgid "Library access requested"
 msgstr "Accès à la bibliothèque demandé"
@@ -1711,6 +1821,95 @@ msgstr "Date limite pour choisir"
 msgid "Choose people link"
 msgstr "Lien « Choisir les personnes »"
 
+msgid "Company account — On hold for payment"
+msgstr "Compte d’entreprise — Suspendu en attente de paiement"
+
+msgid ""
+"Sent to a company's managers when its account is put on hold for payment."
+msgstr ""
+"Envoyé aux responsables d’une entreprise lorsque son compte est suspendu en "
+"attente de paiement."
+
+msgid "{{ tenant_name }} is on hold for payment"
+msgstr "{{ tenant_name }} est suspendu en attente de paiement"
+
+msgid "Open orders and billing"
+msgstr "Ouvrir les commandes et la facturation"
+
+msgid "Date it happened"
+msgstr "Date de l’événement"
+
+msgid "The reason given for the company (rendered)"
+msgstr "Le motif indiqué pour l’entreprise (rendu)"
+
+msgid "Orders and billing link"
+msgstr "Lien vers les commandes et la facturation"
+
+msgid "Company account — Payment hold ended"
+msgstr "Compte d’entreprise — Fin de la suspension de paiement"
+
+msgid ""
+"Sent to a company's managers when the payment hold on its account ends."
+msgstr ""
+"Envoyé aux responsables d’une entreprise lorsque la suspension de paiement "
+"de son compte prend fin."
+
+msgid "{{ tenant_name }} is no longer on hold"
+msgstr "{{ tenant_name }} n’est plus suspendu"
+
+msgid "Open your account"
+msgstr "Ouvrir votre compte"
+
+msgid "Company account — Blocked"
+msgstr "Compte d’entreprise — Bloqué"
+
+msgid "Sent to a company's managers when the organisation blocks its account."
+msgstr ""
+"Envoyé aux responsables d’une entreprise lorsque l’organisation bloque son "
+"compte."
+
+msgid "{{ tenant_name }} is blocked"
+msgstr "{{ tenant_name }} est bloqué"
+
+msgid "Company account — Unblocked"
+msgstr "Compte d’entreprise — Débloqué"
+
+msgid ""
+"Sent to a company's managers when the organisation unblocks its account."
+msgstr ""
+"Envoyé aux responsables d’une entreprise lorsque l’organisation débloque son"
+" compte."
+
+msgid "{{ tenant_name }} is unblocked"
+msgstr "{{ tenant_name }} est débloqué"
+
+msgid "Tenant — Asks to renew"
+msgstr "Organisation cliente — Demande de renouvellement"
+
+msgid ""
+"Sent to the people who can renew a tenant when its manager asks to renew."
+msgstr ""
+"Envoyé aux personnes pouvant renouveler une organisation cliente lorsque son"
+" responsable demande un renouvellement."
+
+msgid "{{ tenant_name }} asks to renew"
+msgstr "{{ tenant_name }} demande un renouvellement"
+
+msgid "Open the tenant"
+msgstr "Ouvrir l’organisation cliente"
+
+msgid "First name"
+msgstr "Prénom"
+
+msgid "The manager who asked"
+msgstr "Le responsable ayant fait la demande"
+
+msgid "Date they asked"
+msgstr "Date de la demande"
+
+msgid "Tenant page link"
+msgstr "Lien vers la page de l’organisation cliente"
+
 msgid "Hi {{ full_name }},"
 msgstr "Bonjour {{ full_name }},"
 
@@ -2098,6 +2297,53 @@ msgstr ""
 " {{ choose_by }}. Tant que vous n'avez pas choisi, tout le monde reste dans "
 "la situation actuelle."
 
+msgid ""
+"{{ org_name }} put {{ tenant_name }} on hold for payment on {{ changed_on "
+"}}. Learning your company pays for is paused until this is cleared. "
+"Everyone's progress and certificates are kept."
+msgstr ""
+"{{ org_name }} a suspendu {{ tenant_name }} en attente de paiement le {{ "
+"changed_on }}. L’apprentissage financé par votre entreprise est suspendu "
+"jusqu’à la régularisation. La progression et les certificats de chacun sont "
+"conservés."
+
+msgid ""
+"{{ org_name }} ended the payment hold on {{ tenant_name }} on {{ changed_on "
+"}}. Your people can carry on with their learning."
+msgstr ""
+"{{ org_name }} a mis fin à la suspension de paiement de {{ tenant_name }} le"
+" {{ changed_on }}. Vos collaborateurs peuvent poursuivre leur apprentissage."
+
+msgid ""
+"{{ org_name }} blocked {{ tenant_name }} on {{ changed_on }}. Nobody can use"
+" your company's account or the learning it pays for until it is unblocked."
+msgstr ""
+"{{ org_name }} a bloqué {{ tenant_name }} le {{ changed_on }}. Personne ne "
+"peut utiliser le compte de votre entreprise ni l’apprentissage qu’elle "
+"finance tant qu’il n’est pas débloqué."
+
+msgid ""
+"{{ org_name }} unblocked {{ tenant_name }} on {{ changed_on }}. You and your"
+" people can sign in and carry on."
+msgstr ""
+"{{ org_name }} a débloqué {{ tenant_name }} le {{ changed_on }}. Vous et vos"
+" collaborateurs pouvez vous connecter et poursuivre."
+
+msgid ""
+"{{ requester_name }}, who manages {{ tenant_name }}, asked on {{ "
+"requested_on }} to renew the company's contract."
+msgstr ""
+"{{ requester_name }}, responsable de {{ tenant_name }}, a demandé le {{ "
+"requested_on }} le renouvellement du contrat de l’entreprise."
+
+msgid "Renew the contract from the tenant's page."
+msgstr "Renouvelez le contrat depuis la page de l’organisation cliente."
+
+msgid "You got this email because you can renew tenants at {{ org_name }}."
+msgstr ""
+"Vous recevez cet e-mail car vous pouvez renouveler les organisations "
+"clientes chez {{ org_name }}."
+
 msgid "your program"
 msgstr "votre programme"
 
@@ -2200,12 +2446,82 @@ msgstr ""
 "Le contrat de %(tenant)s a été renouvelé avec une limite de %(limit)s "
 "apprenants. Choisissez qui conserve l'accès."
 
+#. Translators: %(tenant)s is a company's name.
+msgid "%(tenant)s is on hold for payment"
+msgstr "%(tenant)s est suspendu en attente de paiement"
+
+msgid ""
+"Learning your company pays for is paused until this is cleared. Progress and"
+" certificates are kept."
+msgstr ""
+"L’apprentissage financé par votre entreprise est suspendu jusqu’à la "
+"régularisation. La progression et les certificats sont conservés."
+
+#. Translators: %(tenant)s is a company's name.
+msgid "%(tenant)s is no longer on hold"
+msgstr "%(tenant)s n’est plus suspendu"
+
+msgid ""
+"The payment hold has ended. Your people can carry on with their learning."
+msgstr ""
+"La suspension de paiement a pris fin. Vos collaborateurs peuvent poursuivre "
+"leur apprentissage."
+
+#. Translators: %(tenant)s is a company's name.
+msgid "%(tenant)s is blocked"
+msgstr "%(tenant)s est bloqué"
+
+msgid ""
+"Nobody can use your company's account or the learning it pays for until it "
+"is unblocked."
+msgstr ""
+"Personne ne peut utiliser le compte de votre entreprise ni l’apprentissage "
+"qu’elle finance tant qu’il n’est pas débloqué."
+
+#. Translators: %(tenant)s is a company's name.
+msgid "%(tenant)s is unblocked"
+msgstr "%(tenant)s est débloqué"
+
+msgid "You and your people can sign in and carry on."
+msgstr "Vous et vos collaborateurs pouvez vous connecter et poursuivre."
+
+#. Translators: %(tenant)s is a company's name.
+msgid "%(tenant)s asks to renew"
+msgstr "%(tenant)s demande un renouvellement"
+
+#. Translators: %(who)s is a person's name, %(tenant)s the company they manage
+#. and %(note)s their own
+#. message.
+msgid ""
+"%(who)s, who manages %(tenant)s, asked to renew the company's contract. "
+"“%(note)s”"
+msgstr ""
+"%(who)s, responsable de %(tenant)s, a demandé le renouvellement du contrat "
+"de l’entreprise. « %(note)s »"
+
+#. Translators: %(who)s is a person's name; %(tenant)s is the company they
+#. manage.
+msgid ""
+"%(who)s, who manages %(tenant)s, asked to renew the company's contract."
+msgstr ""
+"%(who)s, responsable de %(tenant)s, a demandé le renouvellement du contrat "
+"de l’entreprise."
+
 #. Translators: %(seats)s lists the seats, such as "20 seats in Fire safety
 #. and 5 seats in First aid".
 msgid "Your %(seats)s is ready to give out."
 msgid_plural "Your %(seats)s are ready to give out."
 msgstr[0] "Votre %(seats)s est prête à être attribuée."
 msgstr[1] "Vos %(seats)s sont prêtes à être attribuées."
+
+msgid "An invoice is overdue."
+msgstr "Une facture est en retard."
+
+msgid "The overdue invoice is settled."
+msgstr "La facture en retard est réglée."
+
+msgid "The reason given:"
+msgstr "Le motif indiqué :"
 
 msgid "Grades"
 msgstr "Notes"
@@ -2311,8 +2627,18 @@ msgstr ""
 msgid "The {report} report for {start} to {end} is ready to download."
 msgstr "Le rapport {report} du {start} au {end} est prêt à être téléchargé."
 
-#. Translators: {end} is the week's last day ("19 November 2026"); the others
+#. Translators: {month} is the month just ended ("October 2026"); the others
 #. are counts.
+msgid ""
+"{month}. Seats in use: {assigned} of {funded}. New seats: {new_seats}. "
+"Results recorded: {results}. Certificates earned: {certificates}."
+msgstr ""
+"{month}. Places utilisées : {assigned} sur {funded}. Nouvelles places : "
+"{new_seats}. Résultats enregistrés : {results}. Certificats obtenus : "
+"{certificates}."
+
+#. Translators: {end} is the week's last day, a Sunday ("22 November 2026");
+#. the others are counts.
 msgid ""
 "Week to {end}. Seats in use: {assigned} of {funded}. New seats: {new_seats}."
 " Results recorded: {results}. Certificates earned: {certificates}."
@@ -2320,6 +2646,10 @@ msgstr ""
 "Semaine jusqu'au {end}. Places utilisées : {assigned} sur {funded}. "
 "Nouvelles places : {new_seats}. Résultats enregistrés : {results}. "
 "Certificats obtenus : {certificates}."
+
+#. Translators: {tenant} is the company's name.
+msgid "{tenant}: your month in learning"
+msgstr "{tenant} : votre mois d’apprentissage"
 
 #. Translators: {tenant} is the company's name.
 msgid "{tenant}: your week in learning"
@@ -2473,6 +2803,15 @@ msgstr "inactif depuis 7 jours"
 
 msgid "behind on progress"
 msgstr "en retard dans sa progression"
+
+msgid "has not started"
+msgstr "n’a pas commencé"
+
+msgid "failed an assessment"
+msgstr "a échoué à une évaluation"
+
+msgid "behind schedule"
+msgstr "en retard"
 
 msgid "{name} needs help"
 msgstr "{name} a besoin d'aide"

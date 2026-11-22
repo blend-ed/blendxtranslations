@@ -117,15 +117,6 @@ msgstr "Ottimizzazione dell'accessibilità non riuscita: {error}"
 msgid "Chat processing failed: {error}"
 msgstr "Elaborazione della chat non riuscita: {error}"
 
-msgid "Invalid course_id: {course_id}"
-msgstr "course_id non valido: {course_id}"
-
-msgid "Unsupported target_language: {target_language}"
-msgstr "target_language non supportato: {target_language}"
-
-msgid "Task not found."
-msgstr "Attività non trovata."
-
 msgid "AI features are disabled for this user"
 msgstr "Le funzionalità AI sono disattivate per questo utente"
 
@@ -383,6 +374,9 @@ msgstr ""
 
 msgid "Failed to auto-tag course: {error}"
 msgstr "Impossibile assegnare automaticamente i tag al corso: {error}"
+
+msgid "Task not found."
+msgstr "Attività non trovata."
 
 msgid "No content_tagged data provided"
 msgstr "Nessun dato content_tagged fornito"

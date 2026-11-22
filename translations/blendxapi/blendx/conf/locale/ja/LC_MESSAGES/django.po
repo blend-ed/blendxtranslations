@@ -264,6 +264,64 @@ msgstr "証明書の有効期限が切れました。更新するには講座を
 msgid "Renew"
 msgstr "更新"
 
+msgid "a deadline"
+msgstr "期限"
+
+msgid "Due dates moved in {batch}"
+msgstr "{batch}の期限が変更されました"
+
+msgid "Extensions removed in {batch}"
+msgstr "{batch}の延長が取り消されました"
+
+msgid ""
+"{actor} moved the due date for {assessment} for {count} learners to {new}."
+msgstr "{actor}さんが{count}名の学習者の{assessment}の期限を{new}に変更しました。"
+
+msgid ""
+"{actor} removed the extended due date for {assessment} for {count} learners."
+msgstr "{actor}さんが{count}名の学習者の{assessment}の延長期限を取り消しました。"
+
+msgid "Extension removed in {batch}"
+msgstr "{batch}の延長が取り消されました"
+
+#. Translators: {old} and {new} are dates such as "12 Mar"; {reason} is the
+#. staff member's words.
+msgid ""
+"{actor} removed {learner}'s extended due date for {assessment}: it is back "
+"to {new} (it was {old}). Reason: {reason}"
+msgstr ""
+"{actor}さんが{learner}さんの{assessment}の延長期限を取り消しました。期限は{new}に戻りました（以前は{old}）。理由:"
+" {reason}"
+
+msgid ""
+"{actor} removed {learner}'s extended due date for {assessment} (it was "
+"{old}). Reason: {reason}"
+msgstr ""
+"{actor}さんが{learner}さんの{assessment}の延長期限を取り消しました（以前は{old}）。理由: {reason}"
+
+msgid "Due date moved in {batch}"
+msgstr "{batch}の期限が変更されました"
+
+msgid ""
+"{actor} moved {learner}'s due date for {assessment} from {old} to {new}. "
+"Reason: {reason}"
+msgstr ""
+"{actor}さんが{learner}さんの{assessment}の期限を{old}から{new}に変更しました。理由: {reason}"
+
+msgid ""
+"{actor} gave {learner} a new due date for {assessment}: {new}. Reason: "
+"{reason}"
+msgstr "{actor}さんが{learner}さんに{assessment}の新しい期限を設定しました: {new}。理由: {reason}"
+
+msgid "Due dates changed in {batch}"
+msgstr "{batch}の期限が変更されました"
+
+msgid "Due dates changed in {count} of your Batches"
+msgstr "{count}件の受講期で期限が変更されました"
+
+msgid "{actor} changed the due dates of {course}."
+msgstr "{actor}さんが{course}の期限を変更しました。"
+
 msgid "{name}, you earned a Program certificate!"
 msgstr "{name}さん、プログラム証明書を取得しました!"
 
@@ -1045,11 +1103,11 @@ msgstr "データの準備が整いました"
 msgid "A file of your data you asked for is ready to download."
 msgstr "リクエストしたデータのファイルをダウンロードできるようになりました。"
 
-msgid "Tenant weekly report"
-msgstr "テナントの週次レポート"
+msgid "Tenant report email"
+msgstr "テナントレポートメール"
 
-msgid "Your organisation's learning figures for the week."
-msgstr "組織の今週の学習データです。"
+msgid "Your organisation's learning figures for the week or the month."
+msgstr "組織の週次または月次の学習の数値です。"
 
 msgid "Company account active"
 msgstr "会社アカウントが有効になりました"
@@ -1063,6 +1121,36 @@ msgstr "アクセスを維持する人を選択"
 msgid ""
 "A renewal lowered your company's learner limit: choose who keeps access."
 msgstr "更新により貴社の学習者数の上限が下がりました。アクセスを維持する人を選択してください。"
+
+msgid "Company account on hold for payment"
+msgstr "会社アカウントが支払い待ちのため保留されました"
+
+msgid "Your company's account was put on hold for payment."
+msgstr "会社のアカウントが支払い待ちのため保留されました。"
+
+msgid "Company account no longer on hold"
+msgstr "会社アカウントの保留が解除されました"
+
+msgid "The payment hold on your company's account ended."
+msgstr "会社のアカウントの支払い保留が終了しました。"
+
+msgid "Company account blocked"
+msgstr "会社アカウントがブロックされました"
+
+msgid "Your company's account was blocked."
+msgstr "会社のアカウントがブロックされました。"
+
+msgid "Company account unblocked"
+msgstr "会社アカウントのブロックが解除されました"
+
+msgid "Your company's account was unblocked."
+msgstr "会社のアカウントのブロックが解除されました。"
+
+msgid "A tenant asks to renew"
+msgstr "テナントからの更新依頼"
+
+msgid "A tenant's manager asked to renew the company's contract."
+msgstr "テナントのマネージャーが会社の契約の更新を依頼しました。"
 
 msgid "Someone finishes a course or program"
 msgstr "誰かが講座またはプログラムを修了した場合"
@@ -1111,6 +1199,14 @@ msgstr "AI 生成講座の準備完了"
 msgid ""
 "A course you generated with AI finished building and is ready to review."
 msgstr "AI で生成した講座の作成が完了し、確認できるようになりました。"
+
+msgid "A deadline moves"
+msgstr "期限の変更"
+
+msgid ""
+"Someone else moves a deadline in a Batch you manage: a learner's extension, "
+"or a Course's due dates."
+msgstr "管理している受講期で他のユーザーが期限を変更したとき: 学習者の延長、または講座の期限。"
 
 msgid "Library access requested"
 msgstr "ライブラリへのアクセスがリクエストされました"
@@ -1551,6 +1647,85 @@ msgstr "選択期限日"
 msgid "Choose people link"
 msgstr "人を選択するリンク"
 
+msgid "Company account — On hold for payment"
+msgstr "会社アカウント — 支払い待ちのため保留"
+
+msgid ""
+"Sent to a company's managers when its account is put on hold for payment."
+msgstr "会社のアカウントが支払い待ちのため保留されたときに、会社のマネージャーに送信されます。"
+
+msgid "{{ tenant_name }} is on hold for payment"
+msgstr "{{ tenant_name }}は支払い待ちのため保留中です"
+
+msgid "Open orders and billing"
+msgstr "注文と請求を開く"
+
+msgid "Date it happened"
+msgstr "発生日"
+
+msgid "The reason given for the company (rendered)"
+msgstr "会社に対して示された理由（表示用）"
+
+msgid "Orders and billing link"
+msgstr "注文と請求へのリンク"
+
+msgid "Company account — Payment hold ended"
+msgstr "会社アカウント — 支払い保留の終了"
+
+msgid ""
+"Sent to a company's managers when the payment hold on its account ends."
+msgstr "会社のアカウントの支払い保留が終了したときに、会社のマネージャーに送信されます。"
+
+msgid "{{ tenant_name }} is no longer on hold"
+msgstr "{{ tenant_name }}の保留が解除されました"
+
+msgid "Open your account"
+msgstr "アカウントを開く"
+
+msgid "Company account — Blocked"
+msgstr "会社アカウント — ブロック"
+
+msgid "Sent to a company's managers when the organisation blocks its account."
+msgstr "組織が会社のアカウントをブロックしたときに、会社のマネージャーに送信されます。"
+
+msgid "{{ tenant_name }} is blocked"
+msgstr "{{ tenant_name }}はブロックされています"
+
+msgid "Company account — Unblocked"
+msgstr "会社アカウント — ブロック解除"
+
+msgid ""
+"Sent to a company's managers when the organisation unblocks its account."
+msgstr "組織が会社のアカウントのブロックを解除したときに、会社のマネージャーに送信されます。"
+
+msgid "{{ tenant_name }} is unblocked"
+msgstr "{{ tenant_name }}のブロックが解除されました"
+
+msgid "Tenant — Asks to renew"
+msgstr "テナント — 更新依頼"
+
+msgid ""
+"Sent to the people who can renew a tenant when its manager asks to renew."
+msgstr "テナントのマネージャーが更新を依頼したときに、そのテナントを更新できるユーザーに送信されます。"
+
+msgid "{{ tenant_name }} asks to renew"
+msgstr "{{ tenant_name }}が更新を依頼しています"
+
+msgid "Open the tenant"
+msgstr "テナントを開く"
+
+msgid "First name"
+msgstr "名"
+
+msgid "The manager who asked"
+msgstr "依頼したマネージャー"
+
+msgid "Date they asked"
+msgstr "依頼日"
+
+msgid "Tenant page link"
+msgstr "テナントページへのリンク"
+
 msgid "Hi {{ full_name }},"
 msgstr "{{ full_name }}様"
 
@@ -1877,6 +2052,48 @@ msgstr ""
 "{{ choose_by }} までにアクセスを維持する {{ learner_limit }} "
 "人を選択してください。選択するまでは、全員が現在の状態のままです。"
 
+msgid ""
+"{{ org_name }} put {{ tenant_name }} on hold for payment on {{ changed_on "
+"}}. Learning your company pays for is paused until this is cleared. "
+"Everyone's progress and certificates are kept."
+msgstr ""
+"{{ org_name }}は{{ changed_on }}に{{ tenant_name "
+"}}を支払い待ちのため保留にしました。この問題が解決されるまで、会社が費用を負担する学習は一時停止されます。全員の進捗と証明書は保持されます。"
+
+msgid ""
+"{{ org_name }} ended the payment hold on {{ tenant_name }} on {{ changed_on "
+"}}. Your people can carry on with their learning."
+msgstr ""
+"{{ org_name }}は{{ changed_on }}に{{ tenant_name "
+"}}の支払い保留を終了しました。メンバーは学習を続けられます。"
+
+msgid ""
+"{{ org_name }} blocked {{ tenant_name }} on {{ changed_on }}. Nobody can use"
+" your company's account or the learning it pays for until it is unblocked."
+msgstr ""
+"{{ org_name }}は{{ changed_on }}に{{ tenant_name "
+"}}をブロックしました。ブロックが解除されるまで、会社のアカウントおよび会社が費用を負担する学習は誰も利用できません。"
+
+msgid ""
+"{{ org_name }} unblocked {{ tenant_name }} on {{ changed_on }}. You and your"
+" people can sign in and carry on."
+msgstr ""
+"{{ org_name }}は{{ changed_on }}に{{ tenant_name "
+"}}のブロックを解除しました。あなたとメンバーはサインインして続けられます。"
+
+msgid ""
+"{{ requester_name }}, who manages {{ tenant_name }}, asked on {{ "
+"requested_on }} to renew the company's contract."
+msgstr ""
+"{{ tenant_name }}を管理する{{ requester_name }}さんが、{{ requested_on "
+"}}に会社の契約の更新を依頼しました。"
+
+msgid "Renew the contract from the tenant's page."
+msgstr "テナントのページから契約を更新してください。"
+
+msgid "You got this email because you can renew tenants at {{ org_name }}."
+msgstr "{{ org_name }}でテナントを更新できる権限があるため、このメールをお送りしています。"
+
 msgid "your program"
 msgstr "あなたのプログラム"
 
@@ -1968,11 +2185,71 @@ msgid ""
 "who keeps access."
 msgstr "%(tenant)s の契約が学習者数の上限 %(limit)s で更新されました。アクセスを維持する人を選択してください。"
 
+#. Translators: %(tenant)s is a company's name.
+msgid "%(tenant)s is on hold for payment"
+msgstr "%(tenant)sは支払い待ちのため保留中です"
+
+msgid ""
+"Learning your company pays for is paused until this is cleared. Progress and"
+" certificates are kept."
+msgstr "この問題が解決されるまで、会社が費用を負担する学習は一時停止されます。進捗と証明書は保持されます。"
+
+#. Translators: %(tenant)s is a company's name.
+msgid "%(tenant)s is no longer on hold"
+msgstr "%(tenant)sの保留が解除されました"
+
+msgid ""
+"The payment hold has ended. Your people can carry on with their learning."
+msgstr "支払い保留が終了しました。メンバーは学習を続けられます。"
+
+#. Translators: %(tenant)s is a company's name.
+msgid "%(tenant)s is blocked"
+msgstr "%(tenant)sはブロックされています"
+
+msgid ""
+"Nobody can use your company's account or the learning it pays for until it "
+"is unblocked."
+msgstr "ブロックが解除されるまで、会社のアカウントおよび会社が費用を負担する学習は誰も利用できません。"
+
+#. Translators: %(tenant)s is a company's name.
+msgid "%(tenant)s is unblocked"
+msgstr "%(tenant)sのブロックが解除されました"
+
+msgid "You and your people can sign in and carry on."
+msgstr "あなたとメンバーはサインインして続けられます。"
+
+#. Translators: %(tenant)s is a company's name.
+msgid "%(tenant)s asks to renew"
+msgstr "%(tenant)sが更新を依頼しています"
+
+#. Translators: %(who)s is a person's name, %(tenant)s the company they manage
+#. and %(note)s their own
+#. message.
+msgid ""
+"%(who)s, who manages %(tenant)s, asked to renew the company's contract. "
+"“%(note)s”"
+msgstr "%(tenant)sを管理する%(who)sさんが、会社の契約の更新を依頼しました。「%(note)s」"
+
+#. Translators: %(who)s is a person's name; %(tenant)s is the company they
+#. manage.
+msgid ""
+"%(who)s, who manages %(tenant)s, asked to renew the company's contract."
+msgstr "%(tenant)sを管理する%(who)sさんが、会社の契約の更新を依頼しました。"
+
 #. Translators: %(seats)s lists the seats, such as "20 seats in Fire safety
 #. and 5 seats in First aid".
 msgid "Your %(seats)s is ready to give out."
 msgid_plural "Your %(seats)s are ready to give out."
 msgstr[0] "%(seats)sを割り当てられるようになりました。"
+
+msgid "An invoice is overdue."
+msgstr "請求書の支払い期限が過ぎています。"
+
+msgid "The overdue invoice is settled."
+msgstr "支払い期限を過ぎた請求書が精算されました。"
+
+msgid "The reason given:"
+msgstr "理由:"
 
 msgid "Grades"
 msgstr "成績"
@@ -2076,14 +2353,27 @@ msgstr ""
 msgid "The {report} report for {start} to {end} is ready to download."
 msgstr "{start} から {end} までの {report} レポートをダウンロードできるようになりました。"
 
-#. Translators: {end} is the week's last day ("19 November 2026"); the others
+#. Translators: {month} is the month just ended ("October 2026"); the others
 #. are counts.
+msgid ""
+"{month}. Seats in use: {assigned} of {funded}. New seats: {new_seats}. "
+"Results recorded: {results}. Certificates earned: {certificates}."
+msgstr ""
+"{month}。使用中の席: {funded}席中{assigned}席。新しい席: {new_seats}。記録された結果: "
+"{results}。取得された証明書: {certificates}。"
+
+#. Translators: {end} is the week's last day, a Sunday ("22 November 2026");
+#. the others are counts.
 msgid ""
 "Week to {end}. Seats in use: {assigned} of {funded}. New seats: {new_seats}."
 " Results recorded: {results}. Certificates earned: {certificates}."
 msgstr ""
 "{end} までの1週間。使用中の席: {funded} 席中 {assigned} 席。新しい席: {new_seats}。記録された結果: "
 "{results}。取得された証明書: {certificates}。"
+
+#. Translators: {tenant} is the company's name.
+msgid "{tenant}: your month in learning"
+msgstr "{tenant}: 今月の学習"
 
 #. Translators: {tenant} is the company's name.
 msgid "{tenant}: your week in learning"
@@ -2227,6 +2517,15 @@ msgstr "7日間アクティブでない"
 
 msgid "behind on progress"
 msgstr "進捗が遅れている"
+
+msgid "has not started"
+msgstr "未開始"
+
+msgid "failed an assessment"
+msgstr "アセスメントに不合格"
+
+msgid "behind schedule"
+msgstr "予定より遅れている"
 
 msgid "{name} needs help"
 msgstr "{name} さんがサポートを求めています"

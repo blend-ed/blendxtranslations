@@ -117,15 +117,6 @@ msgstr "ആക്സസിബിലിറ്റി ഒപ്റ്റിമൈ�
 msgid "Chat processing failed: {error}"
 msgstr "ചാറ്റ് പ്രോസസ്സിംഗ് പരാജയപ്പെട്ടു: {error}"
 
-msgid "Invalid course_id: {course_id}"
-msgstr "അസാധുവായ course_id: {course_id}"
-
-msgid "Unsupported target_language: {target_language}"
-msgstr "പിന്തുണയില്ലാത്ത target_language: {target_language}"
-
-msgid "Task not found."
-msgstr "ടാസ്ക് കണ്ടെത്തിയില്ല."
-
 msgid "AI features are disabled for this user"
 msgstr "ഈ ഉപയോക്താവിന് AI ഫീച്ചറുകൾ പ്രവർത്തനരഹിതമാണ്"
 
@@ -379,6 +370,9 @@ msgstr ""
 
 msgid "Failed to auto-tag course: {error}"
 msgstr "കോഴ്സ് ഓട്ടോ-ടാഗ് ചെയ്യാനായില്ല: {error}"
+
+msgid "Task not found."
+msgstr "ടാസ്ക് കണ്ടെത്തിയില്ല."
 
 msgid "No content_tagged data provided"
 msgstr "content_tagged ഡാറ്റ നൽകിയിട്ടില്ല"

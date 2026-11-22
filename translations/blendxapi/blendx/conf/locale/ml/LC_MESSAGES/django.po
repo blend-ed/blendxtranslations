@@ -307,6 +307,72 @@ msgstr ""
 msgid "Renew"
 msgstr "പുതുക്കുക"
 
+msgid "a deadline"
+msgstr "ഒരു സമയപരിധി"
+
+msgid "Due dates moved in {batch}"
+msgstr "{batch}-ൽ അവസാന തീയതികൾ മാറ്റി"
+
+msgid "Extensions removed in {batch}"
+msgstr "{batch}-ൽ നീട്ടലുകൾ നീക്കം ചെയ്തു"
+
+msgid ""
+"{actor} moved the due date for {assessment} for {count} learners to {new}."
+msgstr ""
+"{actor} {count} പഠിതാക്കൾക്കായി {assessment}-ന്റെ അവസാന തീയതി {new}-ലേക്ക് "
+"മാറ്റി."
+
+msgid ""
+"{actor} removed the extended due date for {assessment} for {count} learners."
+msgstr ""
+"{actor} {count} പഠിതാക്കൾക്കായി {assessment}-ന്റെ നീട്ടിയ അവസാന തീയതി നീക്കം"
+" ചെയ്തു."
+
+msgid "Extension removed in {batch}"
+msgstr "{batch}-ൽ നീട്ടൽ നീക്കം ചെയ്തു"
+
+#. Translators: {old} and {new} are dates such as "12 Mar"; {reason} is the
+#. staff member's words.
+msgid ""
+"{actor} removed {learner}'s extended due date for {assessment}: it is back "
+"to {new} (it was {old}). Reason: {reason}"
+msgstr ""
+"{actor} {learner}-ന്റെ {assessment}-നുള്ള നീട്ടിയ അവസാന തീയതി നീക്കം ചെയ്തു:"
+" അത് വീണ്ടും {new} ആയി (അത് {old} ആയിരുന്നു). കാരണം: {reason}"
+
+msgid ""
+"{actor} removed {learner}'s extended due date for {assessment} (it was "
+"{old}). Reason: {reason}"
+msgstr ""
+"{actor} {learner}-ന്റെ {assessment}-നുള്ള നീട്ടിയ അവസാന തീയതി നീക്കം ചെയ്തു "
+"(അത് {old} ആയിരുന്നു). കാരണം: {reason}"
+
+msgid "Due date moved in {batch}"
+msgstr "{batch}-ൽ അവസാന തീയതി മാറ്റി"
+
+msgid ""
+"{actor} moved {learner}'s due date for {assessment} from {old} to {new}. "
+"Reason: {reason}"
+msgstr ""
+"{actor} {learner}-ന്റെ {assessment}-നുള്ള അവസാന തീയതി {old}-ൽ നിന്ന് "
+"{new}-ലേക്ക് മാറ്റി. കാരണം: {reason}"
+
+msgid ""
+"{actor} gave {learner} a new due date for {assessment}: {new}. Reason: "
+"{reason}"
+msgstr ""
+"{actor} {learner}-ന് {assessment}-നായി പുതിയ അവസാന തീയതി നൽകി: {new}. കാരണം:"
+" {reason}"
+
+msgid "Due dates changed in {batch}"
+msgstr "{batch}-ൽ അവസാന തീയതികൾ മാറ്റി"
+
+msgid "Due dates changed in {count} of your Batches"
+msgstr "നിങ്ങളുടെ {count} ബാച്ചുകളിൽ അവസാന തീയതികൾ മാറ്റി"
+
+msgid "{actor} changed the due dates of {course}."
+msgstr "{actor} {course}-ന്റെ അവസാന തീയതികൾ മാറ്റി."
+
 msgid "{name}, you earned a Program certificate!"
 msgstr "{name}, നിങ്ങൾ ഒരു പ്രോഗ്രാം സർട്ടിഫിക്കറ്റ് നേടി!"
 
@@ -1158,11 +1224,11 @@ msgid "A file of your data you asked for is ready to download."
 msgstr ""
 "നിങ്ങൾ ആവശ്യപ്പെട്ട നിങ്ങളുടെ ഡാറ്റയുടെ ഫയൽ ഡൗൺലോഡ് ചെയ്യാൻ തയ്യാറാണ്."
 
-msgid "Tenant weekly report"
-msgstr "ക്ലയന്റ് സ്ഥാപനത്തിന്റെ പ്രതിവാര റിപ്പോർട്ട്"
+msgid "Tenant report email"
+msgstr "ക്ലയന്റ് സ്ഥാപന റിപ്പോർട്ട് ഇമെയിൽ"
 
-msgid "Your organisation's learning figures for the week."
-msgstr "ഈ ആഴ്ചയിലെ നിങ്ങളുടെ സ്ഥാപനത്തിന്റെ പഠന കണക്കുകൾ."
+msgid "Your organisation's learning figures for the week or the month."
+msgstr "ആഴ്ചയിലെയോ മാസത്തിലെയോ നിങ്ങളുടെ സ്ഥാപനത്തിന്റെ പഠന കണക്കുകൾ."
 
 msgid "Company account active"
 msgstr "കമ്പനി അക്കൗണ്ട് സജീവമാണ്"
@@ -1178,6 +1244,37 @@ msgid ""
 msgstr ""
 "ഒരു പുതുക്കൽ നിങ്ങളുടെ കമ്പനിയുടെ പഠിതാക്കളുടെ പരിധി കുറച്ചു: ആക്സസ് "
 "നിലനിർത്തേണ്ടവരെ തിരഞ്ഞെടുക്കുക."
+
+msgid "Company account on hold for payment"
+msgstr "പേയ്മെന്റിനായി കമ്പനി അക്കൗണ്ട് തടഞ്ഞുവെച്ചിരിക്കുന്നു"
+
+msgid "Your company's account was put on hold for payment."
+msgstr "നിങ്ങളുടെ കമ്പനിയുടെ അക്കൗണ്ട് പേയ്മെന്റിനായി തടഞ്ഞുവെച്ചു."
+
+msgid "Company account no longer on hold"
+msgstr "കമ്പനി അക്കൗണ്ട് ഇനി തടഞ്ഞുവെച്ചിട്ടില്ല"
+
+msgid "The payment hold on your company's account ended."
+msgstr "നിങ്ങളുടെ കമ്പനിയുടെ അക്കൗണ്ടിലെ പേയ്മെന്റ് തടഞ്ഞുവയ്ക്കൽ അവസാനിച്ചു."
+
+msgid "Company account blocked"
+msgstr "കമ്പനി അക്കൗണ്ട് ബ്ലോക്ക് ചെയ്തു"
+
+msgid "Your company's account was blocked."
+msgstr "നിങ്ങളുടെ കമ്പനിയുടെ അക്കൗണ്ട് ബ്ലോക്ക് ചെയ്തു."
+
+msgid "Company account unblocked"
+msgstr "കമ്പനി അക്കൗണ്ട് അൺബ്ലോക്ക് ചെയ്തു"
+
+msgid "Your company's account was unblocked."
+msgstr "നിങ്ങളുടെ കമ്പനിയുടെ അക്കൗണ്ട് അൺബ്ലോക്ക് ചെയ്തു."
+
+msgid "A tenant asks to renew"
+msgstr "ഒരു ക്ലയന്റ് സ്ഥാപനം പുതുക്കാൻ ആവശ്യപ്പെടുന്നു"
+
+msgid "A tenant's manager asked to renew the company's contract."
+msgstr ""
+"ഒരു ക്ലയന്റ് സ്ഥാപനത്തിന്റെ മാനേജർ കമ്പനിയുടെ കരാർ പുതുക്കാൻ ആവശ്യപ്പെട്ടു."
 
 msgid "Someone finishes a course or program"
 msgstr "ഒരാൾ ഒരു കോഴ്സോ പ്രോഗ്രാമോ പൂർത്തിയാക്കുന്നു"
@@ -1235,6 +1332,16 @@ msgstr "AI സൃഷ്ടിച്ച കോഴ്സ് തയ്യാറാ�
 msgid ""
 "A course you generated with AI finished building and is ready to review."
 msgstr "AI ഉപയോഗിച്ച് നിങ്ങൾ സൃഷ്ടിച്ച ഒരു കോഴ്സ് തയ്യാറായി, അവലോകനം ചെയ്യാം."
+
+msgid "A deadline moves"
+msgstr "ഒരു സമയപരിധി മാറുന്നു"
+
+msgid ""
+"Someone else moves a deadline in a Batch you manage: a learner's extension, "
+"or a Course's due dates."
+msgstr ""
+"നിങ്ങൾ നിയന്ത്രിക്കുന്ന ഒരു ബാച്ചിൽ മറ്റൊരാൾ ഒരു സമയപരിധി മാറ്റുന്നു: ഒരു "
+"പഠിതാവിന്റെ നീട്ടൽ, അല്ലെങ്കിൽ ഒരു കോഴ്സിന്റെ അവസാന തീയതികൾ."
 
 msgid "Library access requested"
 msgstr "ലൈബ്രറി ആക്സസ് അഭ്യർത്ഥിച്ചു"
@@ -1710,6 +1817,95 @@ msgstr "തിരഞ്ഞെടുക്കേണ്ട അവസാന തീ�
 msgid "Choose people link"
 msgstr "ആളുകളെ തിരഞ്ഞെടുക്കാനുള്ള ലിങ്ക്"
 
+msgid "Company account — On hold for payment"
+msgstr "കമ്പനി അക്കൗണ്ട് — പേയ്മെന്റിനായി തടഞ്ഞുവെച്ചിരിക്കുന്നു"
+
+msgid ""
+"Sent to a company's managers when its account is put on hold for payment."
+msgstr ""
+"ഒരു കമ്പനിയുടെ അക്കൗണ്ട് പേയ്മെന്റിനായി തടഞ്ഞുവെക്കുമ്പോൾ അതിന്റെ "
+"മാനേജർമാർക്ക് അയയ്ക്കുന്നു."
+
+msgid "{{ tenant_name }} is on hold for payment"
+msgstr "പേയ്മെന്റിനായി {{ tenant_name }} തടഞ്ഞുവെച്ചിരിക്കുന്നു"
+
+msgid "Open orders and billing"
+msgstr "ഓർഡറുകളും ബില്ലിംഗും തുറക്കുക"
+
+msgid "Date it happened"
+msgstr "സംഭവിച്ച തീയതി"
+
+msgid "The reason given for the company (rendered)"
+msgstr "കമ്പനിക്ക് നൽകിയ കാരണം (റെൻഡർ ചെയ്തത്)"
+
+msgid "Orders and billing link"
+msgstr "ഓർഡറുകളും ബില്ലിംഗും ലിങ്ക്"
+
+msgid "Company account — Payment hold ended"
+msgstr "കമ്പനി അക്കൗണ്ട് — പേയ്മെന്റ് തടഞ്ഞുവയ്ക്കൽ അവസാനിച്ചു"
+
+msgid ""
+"Sent to a company's managers when the payment hold on its account ends."
+msgstr ""
+"ഒരു കമ്പനിയുടെ അക്കൗണ്ടിലെ പേയ്മെന്റ് തടഞ്ഞുവയ്ക്കൽ അവസാനിക്കുമ്പോൾ അതിന്റെ "
+"മാനേജർമാർക്ക് അയയ്ക്കുന്നു."
+
+msgid "{{ tenant_name }} is no longer on hold"
+msgstr "{{ tenant_name }} ഇനി തടഞ്ഞുവെച്ചിട്ടില്ല"
+
+msgid "Open your account"
+msgstr "നിങ്ങളുടെ അക്കൗണ്ട് തുറക്കുക"
+
+msgid "Company account — Blocked"
+msgstr "കമ്പനി അക്കൗണ്ട് — ബ്ലോക്ക് ചെയ്തു"
+
+msgid "Sent to a company's managers when the organisation blocks its account."
+msgstr ""
+"സ്ഥാപനം ഒരു കമ്പനിയുടെ അക്കൗണ്ട് ബ്ലോക്ക് ചെയ്യുമ്പോൾ അതിന്റെ മാനേജർമാർക്ക് "
+"അയയ്ക്കുന്നു."
+
+msgid "{{ tenant_name }} is blocked"
+msgstr "{{ tenant_name }} ബ്ലോക്ക് ചെയ്യപ്പെട്ടു"
+
+msgid "Company account — Unblocked"
+msgstr "കമ്പനി അക്കൗണ്ട് — അൺബ്ലോക്ക് ചെയ്തു"
+
+msgid ""
+"Sent to a company's managers when the organisation unblocks its account."
+msgstr ""
+"സ്ഥാപനം ഒരു കമ്പനിയുടെ അക്കൗണ്ട് അൺബ്ലോക്ക് ചെയ്യുമ്പോൾ അതിന്റെ "
+"മാനേജർമാർക്ക് അയയ്ക്കുന്നു."
+
+msgid "{{ tenant_name }} is unblocked"
+msgstr "{{ tenant_name }} അൺബ്ലോക്ക് ചെയ്യപ്പെട്ടു"
+
+msgid "Tenant — Asks to renew"
+msgstr "ക്ലയന്റ് സ്ഥാപനം — പുതുക്കാൻ ആവശ്യപ്പെടുന്നു"
+
+msgid ""
+"Sent to the people who can renew a tenant when its manager asks to renew."
+msgstr ""
+"ഒരു ക്ലയന്റ് സ്ഥാപനത്തിന്റെ മാനേജർ പുതുക്കാൻ ആവശ്യപ്പെടുമ്പോൾ അത് പുതുക്കാൻ "
+"കഴിയുന്നവർക്ക് അയയ്ക്കുന്നു."
+
+msgid "{{ tenant_name }} asks to renew"
+msgstr "{{ tenant_name }} പുതുക്കാൻ ആവശ്യപ്പെടുന്നു"
+
+msgid "Open the tenant"
+msgstr "ക്ലയന്റ് സ്ഥാപനം തുറക്കുക"
+
+msgid "First name"
+msgstr "പേരിന്റെ ആദ്യഭാഗം"
+
+msgid "The manager who asked"
+msgstr "ആവശ്യപ്പെട്ട മാനേജർ"
+
+msgid "Date they asked"
+msgstr "അവർ ആവശ്യപ്പെട്ട തീയതി"
+
+msgid "Tenant page link"
+msgstr "ക്ലയന്റ് സ്ഥാപന പേജ് ലിങ്ക്"
+
 msgid "Hi {{ full_name }},"
 msgstr "നമസ്കാരം {{ full_name }},"
 
@@ -2110,6 +2306,53 @@ msgstr ""
 "തിരഞ്ഞെടുക്കുക. നിങ്ങൾ തിരഞ്ഞെടുക്കുന്നത് വരെ എല്ലാവരും ഇപ്പോഴത്തെ പോലെ "
 "തുടരും."
 
+msgid ""
+"{{ org_name }} put {{ tenant_name }} on hold for payment on {{ changed_on "
+"}}. Learning your company pays for is paused until this is cleared. "
+"Everyone's progress and certificates are kept."
+msgstr ""
+"{{ org_name }} {{ changed_on }}-ന് {{ tenant_name }}-നെ പേയ്മെന്റിനായി "
+"തടഞ്ഞുവെച്ചു. ഇത് തീർപ്പാക്കുന്നതുവരെ നിങ്ങളുടെ കമ്പനി പണമടയ്ക്കുന്ന പഠനം "
+"താൽക്കാലികമായി നിർത്തിയിരിക്കുന്നു. എല്ലാവരുടെയും പുരോഗതിയും "
+"സർട്ടിഫിക്കറ്റുകളും സൂക്ഷിച്ചിട്ടുണ്ട്."
+
+msgid ""
+"{{ org_name }} ended the payment hold on {{ tenant_name }} on {{ changed_on "
+"}}. Your people can carry on with their learning."
+msgstr ""
+"{{ org_name }} {{ changed_on }}-ന് {{ tenant_name }}-ന്റെ പേയ്മെന്റ് "
+"തടഞ്ഞുവയ്ക്കൽ അവസാനിപ്പിച്ചു. നിങ്ങളുടെ ആളുകൾക്ക് അവരുടെ പഠനം തുടരാം."
+
+msgid ""
+"{{ org_name }} blocked {{ tenant_name }} on {{ changed_on }}. Nobody can use"
+" your company's account or the learning it pays for until it is unblocked."
+msgstr ""
+"{{ org_name }} {{ changed_on }}-ന് {{ tenant_name }} ബ്ലോക്ക് ചെയ്തു. "
+"അൺബ്ലോക്ക് ചെയ്യുന്നതുവരെ നിങ്ങളുടെ കമ്പനിയുടെ അക്കൗണ്ടോ അത് പണമടയ്ക്കുന്ന "
+"പഠനമോ ആർക്കും ഉപയോഗിക്കാനാകില്ല."
+
+msgid ""
+"{{ org_name }} unblocked {{ tenant_name }} on {{ changed_on }}. You and your"
+" people can sign in and carry on."
+msgstr ""
+"{{ org_name }} {{ changed_on }}-ന് {{ tenant_name }} അൺബ്ലോക്ക് ചെയ്തു. "
+"നിങ്ങൾക്കും നിങ്ങളുടെ ആളുകൾക്കും സൈൻ ഇൻ ചെയ്ത് തുടരാം."
+
+msgid ""
+"{{ requester_name }}, who manages {{ tenant_name }}, asked on {{ "
+"requested_on }} to renew the company's contract."
+msgstr ""
+"{{ tenant_name }}-നെ നിയന്ത്രിക്കുന്ന {{ requester_name }} {{ requested_on "
+"}}-ന് കമ്പനിയുടെ കരാർ പുതുക്കാൻ ആവശ്യപ്പെട്ടു."
+
+msgid "Renew the contract from the tenant's page."
+msgstr "ക്ലയന്റ് സ്ഥാപനത്തിന്റെ പേജിൽ നിന്ന് കരാർ പുതുക്കുക."
+
+msgid "You got this email because you can renew tenants at {{ org_name }}."
+msgstr ""
+"{{ org_name }}-ൽ നിങ്ങൾക്ക് ക്ലയന്റ് സ്ഥാപനങ്ങളെ പുതുക്കാൻ കഴിയുന്നതിനാലാണ് "
+"നിങ്ങൾക്ക് ഈ ഇമെയിൽ ലഭിച്ചത്."
+
 msgid "your program"
 msgstr "നിങ്ങളുടെ പ്രോഗ്രാം"
 
@@ -2213,12 +2456,81 @@ msgstr ""
 "%(tenant)s-ന്റെ കരാർ %(limit)s പഠിതാക്കളുടെ പരിധിയോടെ പുതുക്കി. ആക്സസ് "
 "നിലനിർത്തേണ്ടവരെ തിരഞ്ഞെടുക്കുക."
 
+#. Translators: %(tenant)s is a company's name.
+msgid "%(tenant)s is on hold for payment"
+msgstr "പേയ്മെന്റിനായി %(tenant)s തടഞ്ഞുവെച്ചിരിക്കുന്നു"
+
+msgid ""
+"Learning your company pays for is paused until this is cleared. Progress and"
+" certificates are kept."
+msgstr ""
+"ഇത് തീർപ്പാക്കുന്നതുവരെ നിങ്ങളുടെ കമ്പനി പണമടയ്ക്കുന്ന പഠനം താൽക്കാലികമായി "
+"നിർത്തിയിരിക്കുന്നു. പുരോഗതിയും സർട്ടിഫിക്കറ്റുകളും സൂക്ഷിച്ചിട്ടുണ്ട്."
+
+#. Translators: %(tenant)s is a company's name.
+msgid "%(tenant)s is no longer on hold"
+msgstr "%(tenant)s ഇനി തടഞ്ഞുവെച്ചിട്ടില്ല"
+
+msgid ""
+"The payment hold has ended. Your people can carry on with their learning."
+msgstr ""
+"പേയ്മെന്റ് തടഞ്ഞുവയ്ക്കൽ അവസാനിച്ചു. നിങ്ങളുടെ ആളുകൾക്ക് അവരുടെ പഠനം തുടരാം."
+
+#. Translators: %(tenant)s is a company's name.
+msgid "%(tenant)s is blocked"
+msgstr "%(tenant)s ബ്ലോക്ക് ചെയ്യപ്പെട്ടു"
+
+msgid ""
+"Nobody can use your company's account or the learning it pays for until it "
+"is unblocked."
+msgstr ""
+"അൺബ്ലോക്ക് ചെയ്യുന്നതുവരെ നിങ്ങളുടെ കമ്പനിയുടെ അക്കൗണ്ടോ അത് പണമടയ്ക്കുന്ന "
+"പഠനമോ ആർക്കും ഉപയോഗിക്കാനാകില്ല."
+
+#. Translators: %(tenant)s is a company's name.
+msgid "%(tenant)s is unblocked"
+msgstr "%(tenant)s അൺബ്ലോക്ക് ചെയ്യപ്പെട്ടു"
+
+msgid "You and your people can sign in and carry on."
+msgstr "നിങ്ങൾക്കും നിങ്ങളുടെ ആളുകൾക്കും സൈൻ ഇൻ ചെയ്ത് തുടരാം."
+
+#. Translators: %(tenant)s is a company's name.
+msgid "%(tenant)s asks to renew"
+msgstr "%(tenant)s പുതുക്കാൻ ആവശ്യപ്പെടുന്നു"
+
+#. Translators: %(who)s is a person's name, %(tenant)s the company they manage
+#. and %(note)s their own
+#. message.
+msgid ""
+"%(who)s, who manages %(tenant)s, asked to renew the company's contract. "
+"“%(note)s”"
+msgstr ""
+"%(tenant)s-നെ നിയന്ത്രിക്കുന്ന %(who)s കമ്പനിയുടെ കരാർ പുതുക്കാൻ "
+"ആവശ്യപ്പെട്ടു. “%(note)s”"
+
+#. Translators: %(who)s is a person's name; %(tenant)s is the company they
+#. manage.
+msgid ""
+"%(who)s, who manages %(tenant)s, asked to renew the company's contract."
+msgstr ""
+"%(tenant)s-നെ നിയന്ത്രിക്കുന്ന %(who)s കമ്പനിയുടെ കരാർ പുതുക്കാൻ "
+"ആവശ്യപ്പെട്ടു."
+
 #. Translators: %(seats)s lists the seats, such as "20 seats in Fire safety
 #. and 5 seats in First aid".
 msgid "Your %(seats)s is ready to give out."
 msgid_plural "Your %(seats)s are ready to give out."
 msgstr[0] "നിങ്ങളുടെ %(seats)s നൽകാൻ തയ്യാറാണ്."
 msgstr[1] "നിങ്ങളുടെ %(seats)s നൽകാൻ തയ്യാറാണ്."
+
+msgid "An invoice is overdue."
+msgstr "ഒരു ഇൻവോയ്സ് കാലാവധി കഴിഞ്ഞു."
+
+msgid "The overdue invoice is settled."
+msgstr "കാലാവധി കഴിഞ്ഞ ഇൻവോയ്സ് തീർപ്പാക്കി."
+
+msgid "The reason given:"
+msgstr "നൽകിയ കാരണം:"
 
 msgid "Grades"
 msgstr "ഗ്രേഡുകൾ"
@@ -2324,8 +2636,18 @@ msgid "The {report} report for {start} to {end} is ready to download."
 msgstr ""
 "{start} മുതൽ {end} വരെയുള്ള {report} റിപ്പോർട്ട് ഡൗൺലോഡ് ചെയ്യാൻ തയ്യാറാണ്."
 
-#. Translators: {end} is the week's last day ("19 November 2026"); the others
+#. Translators: {month} is the month just ended ("October 2026"); the others
 #. are counts.
+msgid ""
+"{month}. Seats in use: {assigned} of {funded}. New seats: {new_seats}. "
+"Results recorded: {results}. Certificates earned: {certificates}."
+msgstr ""
+"{month}. ഉപയോഗത്തിലുള്ള സീറ്റുകൾ: {funded}-ൽ {assigned}. പുതിയ സീറ്റുകൾ: "
+"{new_seats}. രേഖപ്പെടുത്തിയ ഫലങ്ങൾ: {results}. നേടിയ സർട്ടിഫിക്കറ്റുകൾ: "
+"{certificates}."
+
+#. Translators: {end} is the week's last day, a Sunday ("22 November 2026");
+#. the others are counts.
 msgid ""
 "Week to {end}. Seats in use: {assigned} of {funded}. New seats: {new_seats}."
 " Results recorded: {results}. Certificates earned: {certificates}."
@@ -2333,6 +2655,10 @@ msgstr ""
 "{end} വരെയുള്ള ആഴ്ച. ഉപയോഗത്തിലുള്ള സീറ്റുകൾ: {funded}-ൽ {assigned}. പുതിയ "
 "സീറ്റുകൾ: {new_seats}. രേഖപ്പെടുത്തിയ ഫലങ്ങൾ: {results}. നേടിയ "
 "സർട്ടിഫിക്കറ്റുകൾ: {certificates}."
+
+#. Translators: {tenant} is the company's name.
+msgid "{tenant}: your month in learning"
+msgstr "{tenant}: പഠനത്തിലെ നിങ്ങളുടെ മാസം"
 
 #. Translators: {tenant} is the company's name.
 msgid "{tenant}: your week in learning"
@@ -2485,6 +2811,15 @@ msgstr "7 ദിവസമായി സജീവമല്ല"
 
 msgid "behind on progress"
 msgstr "പുരോഗതിയിൽ പിന്നിലാണ്"
+
+msgid "has not started"
+msgstr "ആരംഭിച്ചിട്ടില്ല"
+
+msgid "failed an assessment"
+msgstr "ഒരു മൂല്യനിർണ്ണയത്തിൽ പരാജയപ്പെട്ടു"
+
+msgid "behind schedule"
+msgstr "ഷെഡ്യൂളിന് പിന്നിൽ"
 
 msgid "{name} needs help"
 msgstr "{name}-ന് സഹായം ആവശ്യമാണ്"

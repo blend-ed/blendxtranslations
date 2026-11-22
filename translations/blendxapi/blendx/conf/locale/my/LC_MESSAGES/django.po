@@ -303,6 +303,73 @@ msgstr ""
 msgid "Renew"
 msgstr "သက်တမ်းတိုးရန်"
 
+msgid "a deadline"
+msgstr "နောက်ဆုံးရက်"
+
+msgid "Due dates moved in {batch}"
+msgstr "{batch} တွင် သတ်မှတ်ရက်များကို ရွှေ့ထားသည်"
+
+msgid "Extensions removed in {batch}"
+msgstr "{batch} တွင် တိုးချဲ့မှုများကို ဖယ်ရှားထားသည်"
+
+msgid ""
+"{actor} moved the due date for {assessment} for {count} learners to {new}."
+msgstr ""
+"{actor} က သင်ယူသူ {count} ဦးအတွက် {assessment} ၏ သတ်မှတ်ရက်ကို {new} သို့ "
+"ရွှေ့ခဲ့သည်။"
+
+msgid ""
+"{actor} removed the extended due date for {assessment} for {count} learners."
+msgstr ""
+"{actor} က သင်ယူသူ {count} ဦးအတွက် {assessment} ၏ တိုးချဲ့ထားသော "
+"သတ်မှတ်ရက်ကို ဖယ်ရှားခဲ့သည်။"
+
+msgid "Extension removed in {batch}"
+msgstr "{batch} တွင် တိုးချဲ့မှုကို ဖယ်ရှားထားသည်"
+
+#. Translators: {old} and {new} are dates such as "12 Mar"; {reason} is the
+#. staff member's words.
+msgid ""
+"{actor} removed {learner}'s extended due date for {assessment}: it is back "
+"to {new} (it was {old}). Reason: {reason}"
+msgstr ""
+"{actor} က {learner} ၏ {assessment} အတွက် တိုးချဲ့ထားသော သတ်မှတ်ရက်ကို "
+"ဖယ်ရှားခဲ့သည်: ၎င်းသည် {new} သို့ ပြန်ရောက်သွားပါပြီ (ယခင် {old})။ "
+"အကြောင်းပြချက်: {reason}"
+
+msgid ""
+"{actor} removed {learner}'s extended due date for {assessment} (it was "
+"{old}). Reason: {reason}"
+msgstr ""
+"{actor} က {learner} ၏ {assessment} အတွက် တိုးချဲ့ထားသော သတ်မှတ်ရက်ကို "
+"ဖယ်ရှားခဲ့သည် (ယခင် {old})။ အကြောင်းပြချက်: {reason}"
+
+msgid "Due date moved in {batch}"
+msgstr "{batch} တွင် သတ်မှတ်ရက်ကို ရွှေ့ထားသည်"
+
+msgid ""
+"{actor} moved {learner}'s due date for {assessment} from {old} to {new}. "
+"Reason: {reason}"
+msgstr ""
+"{actor} က {learner} ၏ {assessment} သတ်မှတ်ရက်ကို {old} မှ {new} သို့ "
+"ရွှေ့ခဲ့သည်။ အကြောင်းပြချက်: {reason}"
+
+msgid ""
+"{actor} gave {learner} a new due date for {assessment}: {new}. Reason: "
+"{reason}"
+msgstr ""
+"{actor} က {learner} ကို {assessment} အတွက် သတ်မှတ်ရက်အသစ် {new} ပေးခဲ့သည်။ "
+"အကြောင်းပြချက်: {reason}"
+
+msgid "Due dates changed in {batch}"
+msgstr "{batch} တွင် သတ်မှတ်ရက်များကို ပြောင်းထားသည်"
+
+msgid "Due dates changed in {count} of your Batches"
+msgstr "သင့်အသုတ် {count} ခုတွင် သတ်မှတ်ရက်များကို ပြောင်းထားသည်"
+
+msgid "{actor} changed the due dates of {course}."
+msgstr "{actor} က {course} ၏ သတ်မှတ်ရက်များကို ပြောင်းခဲ့သည်။"
+
 msgid "{name}, you earned a Program certificate!"
 msgstr "{name}၊ သင် ပရိုဂရမ် လက်မှတ်တစ်ခု ရရှိပါပြီ!"
 
@@ -1165,11 +1232,11 @@ msgstr "သင့်ဒေတာ အသင့်ဖြစ်ပါပြီ"
 msgid "A file of your data you asked for is ready to download."
 msgstr "သင်တောင်းဆိုထားသော သင့်ဒေတာဖိုင် ဒေါင်းလုဒ်လုပ်ရန် အသင့်ဖြစ်ပါပြီ။"
 
-msgid "Tenant weekly report"
-msgstr "ဖောက်သည်အဖွဲ့အစည်း အပတ်စဉ် အစီရင်ခံစာ"
+msgid "Tenant report email"
+msgstr "ဖောက်သည်အဖွဲ့အစည်း အစီရင်ခံစာ အီးမေးလ်"
 
-msgid "Your organisation's learning figures for the week."
-msgstr "ဤအပတ်အတွက် သင့်အဖွဲ့အစည်း၏ သင်ယူမှု ကိန်းဂဏန်းများ။"
+msgid "Your organisation's learning figures for the week or the month."
+msgstr "သင့်အဖွဲ့အစည်း၏ အပတ်စဉ် သို့မဟုတ် လစဉ် သင်ယူမှု ကိန်းဂဏန်းများ။"
 
 msgid "Company account active"
 msgstr "ကုမ္ပဏီအကောင့် အသက်ဝင်နေပါသည်"
@@ -1185,6 +1252,39 @@ msgid ""
 msgstr ""
 "သက်တမ်းတိုးမှုကြောင့် သင့်ကုမ္ပဏီ၏ သင်ယူသူ ကန့်သတ်ချက် လျော့ကျသွားပါသည်- "
 "ဝင်ရောက်ခွင့် ဆက်ရှိမည့်သူများကို ရွေးချယ်ပါ။"
+
+msgid "Company account on hold for payment"
+msgstr "ကုမ္ပဏီအကောင့်ကို ငွေပေးချေမှုအတွက် ဆိုင်းငံ့ထားသည်"
+
+msgid "Your company's account was put on hold for payment."
+msgstr "သင့်ကုမ္ပဏီ၏ အကောင့်ကို ငွေပေးချေမှုအတွက် ဆိုင်းငံ့ထားပါသည်။"
+
+msgid "Company account no longer on hold"
+msgstr "ကုမ္ပဏီအကောင့်ကို ဆိုင်းငံ့ထားခြင်း မရှိတော့ပါ"
+
+msgid "The payment hold on your company's account ended."
+msgstr ""
+"သင့်ကုမ္ပဏီ၏ အကောင့်ပေါ်ရှိ ငွေပေးချေမှု ဆိုင်းငံ့ခြင်း ပြီးဆုံးပါပြီ။"
+
+msgid "Company account blocked"
+msgstr "ကုမ္ပဏီအကောင့်ကို ပိတ်ဆို့ထားသည်"
+
+msgid "Your company's account was blocked."
+msgstr "သင့်ကုမ္ပဏီ၏ အကောင့်ကို ပိတ်ဆို့လိုက်ပါပြီ။"
+
+msgid "Company account unblocked"
+msgstr "ကုမ္ပဏီအကောင့်ကို ပိတ်ဆို့မှု ဖြုတ်ပြီးပါပြီ"
+
+msgid "Your company's account was unblocked."
+msgstr "သင့်ကုမ္ပဏီ၏ အကောင့်ကို ပိတ်ဆို့မှု ဖြုတ်ပြီးပါပြီ။"
+
+msgid "A tenant asks to renew"
+msgstr "ဖောက်သည်အဖွဲ့အစည်းက သက်တမ်းတိုးရန် တောင်းဆိုသည့်အခါ"
+
+msgid "A tenant's manager asked to renew the company's contract."
+msgstr ""
+"ဖောက်သည်အဖွဲ့အစည်း၏ မန်နေဂျာက ကုမ္ပဏီ၏ စာချုပ်ကို သက်တမ်းတိုးရန် "
+"တောင်းဆိုခဲ့ပါသည်။"
 
 msgid "Someone finishes a course or program"
 msgstr "တစ်စုံတစ်ဦးက သင်တန်း သို့မဟုတ် ပရိုဂရမ်တစ်ခုကို ပြီးဆုံးခြင်း"
@@ -1243,6 +1343,16 @@ msgid ""
 msgstr ""
 "AI ဖြင့် သင်ဖန်တီးထားသော သင်တန်းတစ်ခု တည်ဆောက်ပြီးစီး၍ ပြန်လည်စစ်ဆေးရန် "
 "အသင့်ဖြစ်ပါပြီ။"
+
+msgid "A deadline moves"
+msgstr "နောက်ဆုံးရက် ရွှေ့သည့်အခါ"
+
+msgid ""
+"Someone else moves a deadline in a Batch you manage: a learner's extension, "
+"or a Course's due dates."
+msgstr ""
+"သင် စီမံသော အသုတ်တွင် အခြားတစ်ဦးက နောက်ဆုံးရက်ကို ရွှေ့သည့်အခါ: သင်ယူသူ၏ "
+"တိုးချဲ့မှု သို့မဟုတ် သင်တန်း၏ သတ်မှတ်ရက်များ။"
 
 msgid "Library access requested"
 msgstr "စာကြည့်တိုက် ဝင်ရောက်ခွင့် တောင်းဆိုထားသည်"
@@ -1714,6 +1824,95 @@ msgstr "ရွေးချယ်ရမည့် နောက်ဆုံးရ�
 msgid "Choose people link"
 msgstr "လူများကို ရွေးချယ်ရန် လင့်ခ်"
 
+msgid "Company account — On hold for payment"
+msgstr "ကုမ္ပဏီအကောင့် — ငွေပေးချေမှုအတွက် ဆိုင်းငံ့ထားသည်"
+
+msgid ""
+"Sent to a company's managers when its account is put on hold for payment."
+msgstr ""
+"ကုမ္ပဏီ၏ အကောင့်ကို ငွေပေးချေမှုအတွက် ဆိုင်းငံ့ထားသည့်အခါ ၎င်း၏ "
+"မန်နေဂျာများထံ ပို့သည်။"
+
+msgid "{{ tenant_name }} is on hold for payment"
+msgstr "{{ tenant_name }} ကို ငွေပေးချေမှုအတွက် ဆိုင်းငံ့ထားသည်"
+
+msgid "Open orders and billing"
+msgstr "မှာယူမှုများနှင့် ငွေတောင်းခံခြင်းကို ဖွင့်ရန်"
+
+msgid "Date it happened"
+msgstr "ဖြစ်ပွားခဲ့သည့်ရက်"
+
+msgid "The reason given for the company (rendered)"
+msgstr "ကုမ္ပဏီအတွက် ပေးထားသော အကြောင်းပြချက် (rendered)"
+
+msgid "Orders and billing link"
+msgstr "မှာယူမှုများနှင့် ငွေတောင်းခံခြင်း လင့်ခ်"
+
+msgid "Company account — Payment hold ended"
+msgstr "ကုမ္ပဏီအကောင့် — ငွေပေးချေမှု ဆိုင်းငံ့ခြင်း ပြီးဆုံးသည်"
+
+msgid ""
+"Sent to a company's managers when the payment hold on its account ends."
+msgstr ""
+"ကုမ္ပဏီ၏ အကောင့်ပေါ်ရှိ ငွေပေးချေမှု ဆိုင်းငံ့ခြင်း ပြီးဆုံးသည့်အခါ ၎င်း၏ "
+"မန်နေဂျာများထံ ပို့သည်။"
+
+msgid "{{ tenant_name }} is no longer on hold"
+msgstr "{{ tenant_name }} သည် ဆိုင်းငံ့ထားခြင်း မရှိတော့ပါ"
+
+msgid "Open your account"
+msgstr "သင့်အကောင့်ကို ဖွင့်ရန်"
+
+msgid "Company account — Blocked"
+msgstr "ကုမ္ပဏီအကောင့် — ပိတ်ဆို့ထားသည်"
+
+msgid "Sent to a company's managers when the organisation blocks its account."
+msgstr ""
+"အဖွဲ့အစည်းက ကုမ္ပဏီ၏ အကောင့်ကို ပိတ်ဆို့သည့်အခါ ၎င်း၏ မန်နေဂျာများထံ "
+"ပို့သည်။"
+
+msgid "{{ tenant_name }} is blocked"
+msgstr "{{ tenant_name }} ကို ပိတ်ဆို့ထားသည်"
+
+msgid "Company account — Unblocked"
+msgstr "ကုမ္ပဏီအကောင့် — ပိတ်ဆို့မှု ဖြုတ်ပြီး"
+
+msgid ""
+"Sent to a company's managers when the organisation unblocks its account."
+msgstr ""
+"အဖွဲ့အစည်းက ကုမ္ပဏီ၏ အကောင့်ကို ပိတ်ဆို့မှု ဖြုတ်သည့်အခါ ၎င်း၏ "
+"မန်နေဂျာများထံ ပို့သည်။"
+
+msgid "{{ tenant_name }} is unblocked"
+msgstr "{{ tenant_name }} ကို ပိတ်ဆို့မှု ဖြုတ်ပြီးပါပြီ"
+
+msgid "Tenant — Asks to renew"
+msgstr "ဖောက်သည်အဖွဲ့အစည်း — သက်တမ်းတိုးရန် တောင်းဆိုသည်"
+
+msgid ""
+"Sent to the people who can renew a tenant when its manager asks to renew."
+msgstr ""
+"ဖောက်သည်အဖွဲ့အစည်း၏ မန်နေဂျာက သက်တမ်းတိုးရန် တောင်းဆိုသည့်အခါ ၎င်းကို "
+"သက်တမ်းတိုးနိုင်သူများထံ ပို့သည်။"
+
+msgid "{{ tenant_name }} asks to renew"
+msgstr "{{ tenant_name }} က သက်တမ်းတိုးရန် တောင်းဆိုသည်"
+
+msgid "Open the tenant"
+msgstr "ဖောက်သည်အဖွဲ့အစည်းကို ဖွင့်ရန်"
+
+msgid "First name"
+msgstr "ပထမအမည်"
+
+msgid "The manager who asked"
+msgstr "တောင်းဆိုခဲ့သော မန်နေဂျာ"
+
+msgid "Date they asked"
+msgstr "တောင်းဆိုခဲ့သည့်ရက်"
+
+msgid "Tenant page link"
+msgstr "ဖောက်သည်အဖွဲ့အစည်း စာမျက်နှာ လင့်ခ်"
+
 msgid "Hi {{ full_name }},"
 msgstr "မင်္ဂလာပါ {{ full_name }}၊"
 
@@ -2113,6 +2312,54 @@ msgstr ""
 "{{ choose_by }} မတိုင်မီ ဝင်ရောက်ခွင့် ဆက်ရှိမည့် {{ learner_limit }} ဦးကို "
 "ရွေးချယ်ပါ။ သင်မရွေးချယ်မချင်း လူတိုင်း ယခုအတိုင်း ဆက်ရှိနေပါမည်။"
 
+msgid ""
+"{{ org_name }} put {{ tenant_name }} on hold for payment on {{ changed_on "
+"}}. Learning your company pays for is paused until this is cleared. "
+"Everyone's progress and certificates are kept."
+msgstr ""
+"{{ org_name }} က {{ changed_on }} တွင် {{ tenant_name }} ကို "
+"ငွေပေးချေမှုအတွက် ဆိုင်းငံ့ခဲ့သည်။ ဤကိစ္စ မရှင်းမချင်း သင့်ကုမ္ပဏီက "
+"ပေးချေသော သင်ယူမှုကို ခေတ္တရပ်ထားပါသည်။ လူတိုင်း၏ တိုးတက်မှုနှင့် "
+"လက်မှတ်များကို ဆက်ထားပါသည်။"
+
+msgid ""
+"{{ org_name }} ended the payment hold on {{ tenant_name }} on {{ changed_on "
+"}}. Your people can carry on with their learning."
+msgstr ""
+"{{ org_name }} က {{ changed_on }} တွင် {{ tenant_name }} ပေါ်ရှိ "
+"ငွေပေးချေမှု ဆိုင်းငံ့ခြင်းကို ရပ်ခဲ့သည်။ သင့်လူများ ၎င်းတို့၏ သင်ယူမှုကို "
+"ဆက်လုပ်နိုင်ပါပြီ။"
+
+msgid ""
+"{{ org_name }} blocked {{ tenant_name }} on {{ changed_on }}. Nobody can use"
+" your company's account or the learning it pays for until it is unblocked."
+msgstr ""
+"{{ org_name }} က {{ changed_on }} တွင် {{ tenant_name }} ကို ပိတ်ဆို့ခဲ့သည်။"
+" ပိတ်ဆို့မှု မဖြုတ်မချင်း သင့်ကုမ္ပဏီ၏ အကောင့် သို့မဟုတ် ၎င်းက ပေးချေသော "
+"သင်ယူမှုကို မည်သူမျှ အသုံးမပြုနိုင်ပါ။"
+
+msgid ""
+"{{ org_name }} unblocked {{ tenant_name }} on {{ changed_on }}. You and your"
+" people can sign in and carry on."
+msgstr ""
+"{{ org_name }} က {{ changed_on }} တွင် {{ tenant_name }} ကို ပိတ်ဆို့မှု "
+"ဖြုတ်ခဲ့သည်။ သင်နှင့် သင့်လူများ အကောင့်ဝင်ပြီး ဆက်လုပ်နိုင်ပါပြီ။"
+
+msgid ""
+"{{ requester_name }}, who manages {{ tenant_name }}, asked on {{ "
+"requested_on }} to renew the company's contract."
+msgstr ""
+"{{ tenant_name }} ကို စီမံသူ {{ requester_name }} က {{ requested_on }} တွင် "
+"ကုမ္ပဏီ၏ စာချုပ်ကို သက်တမ်းတိုးရန် တောင်းဆိုခဲ့သည်။"
+
+msgid "Renew the contract from the tenant's page."
+msgstr "ဖောက်သည်အဖွဲ့အစည်း၏ စာမျက်နှာမှ စာချုပ်ကို သက်တမ်းတိုးပါ။"
+
+msgid "You got this email because you can renew tenants at {{ org_name }}."
+msgstr ""
+"{{ org_name }} တွင် ဖောက်သည်အဖွဲ့အစည်းများကို သက်တမ်းတိုးနိုင်သောကြောင့် သင်"
+" ဤအီးမေးလ်ကို ရရှိပါသည်။"
+
 msgid "your program"
 msgstr "သင့်ပရိုဂရမ်"
 
@@ -2215,11 +2462,81 @@ msgstr ""
 "%(tenant)s ၏ စာချုပ်ကို သင်ယူသူ ကန့်သတ်ချက် %(limit)s ဖြင့် "
 "သက်တမ်းတိုးထားပါသည်။ ဝင်ရောက်ခွင့် ဆက်ရှိမည့်သူများကို ရွေးချယ်ပါ။"
 
+#. Translators: %(tenant)s is a company's name.
+msgid "%(tenant)s is on hold for payment"
+msgstr "%(tenant)s ကို ငွေပေးချေမှုအတွက် ဆိုင်းငံ့ထားသည်"
+
+msgid ""
+"Learning your company pays for is paused until this is cleared. Progress and"
+" certificates are kept."
+msgstr ""
+"ဤကိစ္စ မရှင်းမချင်း သင့်ကုမ္ပဏီက ပေးချေသော သင်ယူမှုကို ခေတ္တရပ်ထားပါသည်။ "
+"တိုးတက်မှုနှင့် လက်မှတ်များကို ဆက်ထားပါသည်။"
+
+#. Translators: %(tenant)s is a company's name.
+msgid "%(tenant)s is no longer on hold"
+msgstr "%(tenant)s သည် ဆိုင်းငံ့ထားခြင်း မရှိတော့ပါ"
+
+msgid ""
+"The payment hold has ended. Your people can carry on with their learning."
+msgstr ""
+"ငွေပေးချေမှု ဆိုင်းငံ့ခြင်း ပြီးဆုံးပါပြီ။ သင့်လူများ ၎င်းတို့၏ သင်ယူမှုကို "
+"ဆက်လုပ်နိုင်ပါပြီ။"
+
+#. Translators: %(tenant)s is a company's name.
+msgid "%(tenant)s is blocked"
+msgstr "%(tenant)s ကို ပိတ်ဆို့ထားသည်"
+
+msgid ""
+"Nobody can use your company's account or the learning it pays for until it "
+"is unblocked."
+msgstr ""
+"ပိတ်ဆို့မှု မဖြုတ်မချင်း သင့်ကုမ္ပဏီ၏ အကောင့် သို့မဟုတ် ၎င်းက ပေးချေသော "
+"သင်ယူမှုကို မည်သူမျှ အသုံးမပြုနိုင်ပါ။"
+
+#. Translators: %(tenant)s is a company's name.
+msgid "%(tenant)s is unblocked"
+msgstr "%(tenant)s ကို ပိတ်ဆို့မှု ဖြုတ်ပြီးပါပြီ"
+
+msgid "You and your people can sign in and carry on."
+msgstr "သင်နှင့် သင့်လူများ အကောင့်ဝင်ပြီး ဆက်လုပ်နိုင်ပါပြီ။"
+
+#. Translators: %(tenant)s is a company's name.
+msgid "%(tenant)s asks to renew"
+msgstr "%(tenant)s က သက်တမ်းတိုးရန် တောင်းဆိုသည်"
+
+#. Translators: %(who)s is a person's name, %(tenant)s the company they manage
+#. and %(note)s their own
+#. message.
+msgid ""
+"%(who)s, who manages %(tenant)s, asked to renew the company's contract. "
+"“%(note)s”"
+msgstr ""
+"%(tenant)s ကို စီမံသူ %(who)s က ကုမ္ပဏီ၏ စာချုပ်ကို သက်တမ်းတိုးရန် "
+"တောင်းဆိုခဲ့ပါသည်။ “%(note)s”"
+
+#. Translators: %(who)s is a person's name; %(tenant)s is the company they
+#. manage.
+msgid ""
+"%(who)s, who manages %(tenant)s, asked to renew the company's contract."
+msgstr ""
+"%(tenant)s ကို စီမံသူ %(who)s က ကုမ္ပဏီ၏ စာချုပ်ကို သက်တမ်းတိုးရန် "
+"တောင်းဆိုခဲ့ပါသည်။"
+
 #. Translators: %(seats)s lists the seats, such as "20 seats in Fire safety
 #. and 5 seats in First aid".
 msgid "Your %(seats)s is ready to give out."
 msgid_plural "Your %(seats)s are ready to give out."
 msgstr[0] "သင့် %(seats)s ကို ပေးအပ်ရန် အသင့်ဖြစ်ပါပြီ။"
+
+msgid "An invoice is overdue."
+msgstr "ငွေတောင်းခံလွှာ သတ်မှတ်ရက် ကျော်လွန်နေပါသည်။"
+
+msgid "The overdue invoice is settled."
+msgstr "သတ်မှတ်ရက် ကျော်လွန်နေသော ငွေတောင်းခံလွှာကို ပေးချေပြီးပါပြီ။"
+
+msgid "The reason given:"
+msgstr "ပေးထားသော အကြောင်းပြချက်:"
 
 msgid "Grades"
 msgstr "အမှတ်အဆင့်များ"
@@ -2330,8 +2647,18 @@ msgstr ""
 "{start} မှ {end} အထိ {report} အစီရင်ခံစာကို ဒေါင်းလုဒ်လုပ်ရန် "
 "အသင့်ဖြစ်ပါပြီ။"
 
-#. Translators: {end} is the week's last day ("19 November 2026"); the others
+#. Translators: {month} is the month just ended ("October 2026"); the others
 #. are counts.
+msgid ""
+"{month}. Seats in use: {assigned} of {funded}. New seats: {new_seats}. "
+"Results recorded: {results}. Certificates earned: {certificates}."
+msgstr ""
+"{month}။ အသုံးပြုနေသော နေရာများ: {funded} အနက် {assigned}။ နေရာအသစ်များ: "
+"{new_seats}။ မှတ်တမ်းတင်ထားသော ရလဒ်များ: {results}။ ရရှိခဲ့သော လက်မှတ်များ: "
+"{certificates}။"
+
+#. Translators: {end} is the week's last day, a Sunday ("22 November 2026");
+#. the others are counts.
 msgid ""
 "Week to {end}. Seats in use: {assigned} of {funded}. New seats: {new_seats}."
 " Results recorded: {results}. Certificates earned: {certificates}."
@@ -2339,6 +2666,10 @@ msgstr ""
 "{end} အထိ အပတ်။ အသုံးပြုနေသော နေရာများ- {funded} ခုအနက် {assigned} ခု။ "
 "နေရာအသစ်များ- {new_seats}။ မှတ်တမ်းတင်ထားသော ရလဒ်များ- {results}။ ရရှိသော "
 "လက်မှတ်များ- {certificates}။"
+
+#. Translators: {tenant} is the company's name.
+msgid "{tenant}: your month in learning"
+msgstr "{tenant}: သင်ယူမှုဆိုင်ရာ သင့်လ"
 
 #. Translators: {tenant} is the company's name.
 msgid "{tenant}: your week in learning"
@@ -2490,6 +2821,15 @@ msgstr "၇ ရက်ကြာ မလှုပ်ရှားပါ"
 
 msgid "behind on progress"
 msgstr "တိုးတက်မှု နောက်ကျနေသည်"
+
+msgid "has not started"
+msgstr "မစတင်ရသေးပါ"
+
+msgid "failed an assessment"
+msgstr "အကဲဖြတ်ချက်တွင် ကျရှုံးခဲ့သည်"
+
+msgid "behind schedule"
+msgstr "အချိန်ဇယားထက် နောက်ကျနေသည်"
 
 msgid "{name} needs help"
 msgstr "{name} အကူအညီ လိုအပ်နေပါသည်"

@@ -108,15 +108,6 @@ msgstr "无障碍优化失败：{error}"
 msgid "Chat processing failed: {error}"
 msgstr "聊天处理失败：{error}"
 
-msgid "Invalid course_id: {course_id}"
-msgstr "course_id 无效：{course_id}"
-
-msgid "Unsupported target_language: {target_language}"
-msgstr "不支持的 target_language：{target_language}"
-
-msgid "Task not found."
-msgstr "未找到任务。"
-
 msgid "AI features are disabled for this user"
 msgstr "已为此用户禁用 AI 功能"
 
@@ -342,6 +333,9 @@ msgstr "用户无法访问其组织以外的课程：{org_name}"
 
 msgid "Failed to auto-tag course: {error}"
 msgstr "自动标记课程失败：{error}"
+
+msgid "Task not found."
+msgstr "未找到任务。"
 
 msgid "No content_tagged data provided"
 msgstr "未提供 content_tagged 数据"

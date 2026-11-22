@@ -117,15 +117,6 @@ msgstr ""
 msgid "Chat processing failed: {error}"
 msgstr "ချက်တ် လုပ်ဆောင်ခြင်း မအောင်မြင်ပါ- {error}"
 
-msgid "Invalid course_id: {course_id}"
-msgstr "မမှန်ကန်သော course_id- {course_id}"
-
-msgid "Unsupported target_language: {target_language}"
-msgstr "ပံ့ပိုးမထားသော target_language- {target_language}"
-
-msgid "Task not found."
-msgstr "လုပ်ငန်းတာဝန် မတွေ့ပါ။"
-
 msgid "AI features are disabled for this user"
 msgstr "ဤအသုံးပြုသူအတွက် AI လုပ်ဆောင်ချက်များကို ပိတ်ထားပါသည်"
 
@@ -379,6 +370,9 @@ msgstr ""
 
 msgid "Failed to auto-tag course: {error}"
 msgstr "သင်တန်းကို အလိုအလျောက် တဂ်တပ်၍မရပါ- {error}"
+
+msgid "Task not found."
+msgstr "လုပ်ငန်းတာဝန် မတွေ့ပါ။"
 
 msgid "No content_tagged data provided"
 msgstr "content_tagged ဒေတာ မပေးထားပါ"

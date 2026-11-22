@@ -117,15 +117,6 @@ msgstr "Barrierefreiheitsoptimierung fehlgeschlagen: {error}"
 msgid "Chat processing failed: {error}"
 msgstr "Chat-Verarbeitung fehlgeschlagen: {error}"
 
-msgid "Invalid course_id: {course_id}"
-msgstr "Ungültige course_id: {course_id}"
-
-msgid "Unsupported target_language: {target_language}"
-msgstr "Nicht unterstützte target_language: {target_language}"
-
-msgid "Task not found."
-msgstr "Aufgabe nicht gefunden."
-
 msgid "AI features are disabled for this user"
 msgstr "AI-Funktionen sind für diesen Benutzer deaktiviert"
 
@@ -380,6 +371,9 @@ msgstr ""
 
 msgid "Failed to auto-tag course: {error}"
 msgstr "Automatisches Taggen des Kurses fehlgeschlagen: {error}"
+
+msgid "Task not found."
+msgstr "Aufgabe nicht gefunden."
 
 msgid "No content_tagged data provided"
 msgstr "Keine content_tagged-Daten angegeben"
