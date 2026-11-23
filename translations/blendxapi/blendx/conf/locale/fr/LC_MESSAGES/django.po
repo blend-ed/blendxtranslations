@@ -187,7 +187,9 @@ msgstr ""
 "Le lien est valable %(days)s jours. Si un nouveau lien est envoyé, celui-ci "
 "cessera de fonctionner."
 
-#. Translators: {date} is the day the link stops working ("19 November 2026").
+#. Translators: {date} is the day the link stops working ("19 November 2026
+#. UTC": the address has no account to
+#. take a time zone from).
 msgid ""
 "The link works until {date}. If you didn't ask for this, ignore this email."
 msgstr ""
@@ -291,7 +293,9 @@ msgstr[1] "{count} apprenants sous le seuil de réussite : {names}"
 msgid "{line} and {more} more"
 msgstr "{line} et {more} de plus"
 
-#. Translators: {day} is a day and month ("19 November").
+#. Translators: {day} is a day and month ("19 November"), "19 November UTC"
+#. for a
+#. person who chose no time zone.
 msgid "Your action items for {day}"
 msgstr "Vos actions pour {day}"
 
@@ -622,6 +626,23 @@ msgstr "Votre paiement %(name)s n'a pas pu être traité"
 msgid "We couldn't process your subscription payment."
 msgstr "Nous n'avons pas pu traiter le paiement de votre abonnement."
 
+#. Translators: shown after a time written in UTC because the person chose no
+#. time zone; {url} is the link
+#. to their Settings page.
+msgid "Shown in UTC. Set your time zone in Settings: {url}"
+msgstr ""
+"Affiché en UTC. Définissez votre fuseau horaire dans Paramètres : {url}"
+
+#. Translators: shown after a time written in UTC because the person chose no
+#. time zone.
+msgid "Shown in UTC. Set your time zone in Settings."
+msgstr "Affiché en UTC. Définissez votre fuseau horaire dans Paramètres."
+
+#. Translators: {time} is a time of day ("15:30"); {zone} a time zone's name
+#. ("Asia/Kolkata").
+msgid "{time} in {zone}"
+msgstr "{time} ({zone})"
+
 #. Translators: {name} is the course's title.
 msgid "{name} finished building. Open it in Studio to review and publish it."
 msgstr ""
@@ -852,15 +873,14 @@ msgstr ""
 "                    <div><span style=\"font-weight:600;\">%(course_name)s</span></div>\n"
 "                    <div>au niveau 3 de l’ACSF.</div>"
 
-#. Translators: %(when)s is a date and time, such as "17 November 2026 at
-#. 09:30".
+#. Translators: %(when)s is a date and time with its time zone, such as "17
+#. November 2026, 09:30 IST".
 msgid ""
-"The password for your account was changed on %(when)s UTC. If this wasn't "
-"you, reset your password now and contact support."
+"The password for your account was changed on %(when)s. If this wasn't you, "
+"reset your password now and contact support."
 msgstr ""
-"Le mot de passe de votre compte a été modifié le %(when)s UTC. Si vous "
-"n'êtes pas à l'origine de ce changement, réinitialisez votre mot de passe "
-"dès maintenant et contactez l'assistance."
+"Le mot de passe de votre compte a été modifié le %(when)s. Si ce n'était pas"
+" vous, réinitialisez votre mot de passe maintenant et contactez le support."
 
 msgid "Your password was changed"
 msgstr "Votre mot de passe a été modifié"
@@ -1406,6 +1426,9 @@ msgstr "Adresse postale de contact"
 msgid "Reply-to address"
 msgstr "Adresse de réponse"
 
+msgid "Privacy policy and terms links (rendered)"
+msgstr "Liens vers la politique de confidentialité et les conditions (rendu)"
+
 msgid "Primary button (rendered)"
 msgstr "Bouton principal (rendu)"
 
@@ -1602,6 +1625,9 @@ msgstr "Date de paiement"
 
 msgid "Lines and totals (rendered)"
 msgstr "Lignes et totaux (rendu)"
+
+msgid "Who sold it (rendered)"
+msgstr "Qui l'a vendu (rendu)"
 
 msgid "Currency"
 msgstr "Devise"
@@ -2426,6 +2452,12 @@ msgstr ""
 "Nous avons reçu %(total)s pour la commande %(number)s de %(tenant)s. Ses "
 "places sont prêtes à être attribuées."
 
+msgid "Privacy policy"
+msgstr "Politique de confidentialité"
+
+msgid "Terms of use"
+msgstr "Conditions d'utilisation"
+
 msgid "%(tenant)s is ready"
 msgstr "%(tenant)s est prête"
 
@@ -2623,12 +2655,14 @@ msgstr ""
 "votre plateforme. Le lien est valable {days} jours, et uniquement pour vous."
 
 #. Translators: {report} is the report's name; {start} and {end} are dates
-#. (YYYY-MM-DD).
+#. (YYYY-MM-DD),
+#. {end} followed by the period's time zone ("2026-11-23 UTC").
 msgid "The {report} report for {start} to {end} is ready to download."
 msgstr "Le rapport {report} du {start} au {end} est prêt à être téléchargé."
 
-#. Translators: {month} is the month just ended ("October 2026"); the others
-#. are counts.
+#. Translators: {month} is the month just ended with its time zone ("October
+#. 2026 UTC"); the others are
+#. counts.
 msgid ""
 "{month}. Seats in use: {assigned} of {funded}. New seats: {new_seats}. "
 "Results recorded: {results}. Certificates earned: {certificates}."
@@ -2637,8 +2671,9 @@ msgstr ""
 "{new_seats}. Résultats enregistrés : {results}. Certificats obtenus : "
 "{certificates}."
 
-#. Translators: {end} is the week's last day, a Sunday ("22 November 2026");
-#. the others are counts.
+#. Translators: {end} is the week's last day, a Sunday, with its time zone
+#. ("22 November 2026 UTC"); the others
+#. are counts.
 msgid ""
 "Week to {end}. Seats in use: {assigned} of {funded}. New seats: {new_seats}."
 " Results recorded: {results}. Certificates earned: {certificates}."

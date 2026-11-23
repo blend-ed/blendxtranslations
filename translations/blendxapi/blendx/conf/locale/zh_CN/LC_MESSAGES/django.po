@@ -163,7 +163,9 @@ msgid ""
 "working."
 msgstr "此链接在 %(days)s 天内有效。如果发送了新链接，此链接将失效。"
 
-#. Translators: {date} is the day the link stops working ("19 November 2026").
+#. Translators: {date} is the day the link stops working ("19 November 2026
+#. UTC": the address has no account to
+#. take a time zone from).
 msgid ""
 "The link works until {date}. If you didn't ask for this, ignore this email."
 msgstr "此链接在 {date} 之前有效。如果这不是您的请求，请忽略此邮件。"
@@ -249,7 +251,9 @@ msgstr[0] "{count} 名学员低于及格成绩：{names}"
 msgid "{line} and {more} more"
 msgstr "{line}，另有 {more} 项"
 
-#. Translators: {day} is a day and month ("19 November").
+#. Translators: {day} is a day and month ("19 November"), "19 November UTC"
+#. for a
+#. person who chose no time zone.
 msgid "Your action items for {day}"
 msgstr "您 {day} 的待办事项"
 
@@ -538,6 +542,22 @@ msgstr "您的 %(name)s 付款无法处理"
 msgid "We couldn't process your subscription payment."
 msgstr "我们无法处理您的订阅付款。"
 
+#. Translators: shown after a time written in UTC because the person chose no
+#. time zone; {url} is the link
+#. to their Settings page.
+msgid "Shown in UTC. Set your time zone in Settings: {url}"
+msgstr "以 UTC 显示。请在“设置”中设置您的时区：{url}"
+
+#. Translators: shown after a time written in UTC because the person chose no
+#. time zone.
+msgid "Shown in UTC. Set your time zone in Settings."
+msgstr "以 UTC 显示。请在“设置”中设置您的时区。"
+
+#. Translators: {time} is a time of day ("15:30"); {zone} a time zone's name
+#. ("Asia/Kolkata").
+msgid "{time} in {zone}"
+msgstr "{zone} {time}"
+
 #. Translators: {name} is the course's title.
 msgid "{name} finished building. Open it in Studio to review and publish it."
 msgstr "{name} 已构建完成。请在 Studio 中打开以审阅和发布。"
@@ -754,12 +774,12 @@ msgstr ""
 "                    <div><span style=\"font-weight:600;\">%(course_name)s</span> 课程</div>\n"
 "                    <div>达到 ACSF 3 级水平。</div>"
 
-#. Translators: %(when)s is a date and time, such as "17 November 2026 at
-#. 09:30".
+#. Translators: %(when)s is a date and time with its time zone, such as "17
+#. November 2026, 09:30 IST".
 msgid ""
-"The password for your account was changed on %(when)s UTC. If this wasn't "
-"you, reset your password now and contact support."
-msgstr "您的账户密码已于 UTC 时间 %(when)s 更改。如果不是您本人操作，请立即重置密码并联系支持团队。"
+"The password for your account was changed on %(when)s. If this wasn't you, "
+"reset your password now and contact support."
+msgstr "您的账户密码已于 %(when)s 更改。如果这不是您本人操作，请立即重置密码并联系支持人员。"
 
 msgid "Your password was changed"
 msgstr "您的密码已更改"
@@ -1244,6 +1264,9 @@ msgstr "联系邮寄地址"
 msgid "Reply-to address"
 msgstr "回复地址"
 
+msgid "Privacy policy and terms links (rendered)"
+msgstr "隐私政策和条款链接（已渲染）"
+
 msgid "Primary button (rendered)"
 msgstr "主按钮（已渲染）"
 
@@ -1434,6 +1457,9 @@ msgstr "付款日期"
 
 msgid "Lines and totals (rendered)"
 msgstr "明细和合计（已渲染）"
+
+msgid "Who sold it (rendered)"
+msgstr "销售方（已渲染）"
 
 msgid "Currency"
 msgstr "货币"
@@ -2134,6 +2160,12 @@ msgid ""
 " to give out."
 msgstr "我们已收到 %(tenant)s 订单 %(number)s 的 %(total)s 款项。其席位已可分配。"
 
+msgid "Privacy policy"
+msgstr "隐私政策"
+
+msgid "Terms of use"
+msgstr "使用条款"
+
 msgid "%(tenant)s is ready"
 msgstr "%(tenant)s 已准备就绪"
 
@@ -2306,12 +2338,14 @@ msgid ""
 msgstr "您的完整导出已就绪：一个包含您平台记录的 zip 文件。链接在 {days} 天内有效，且仅限您本人使用。"
 
 #. Translators: {report} is the report's name; {start} and {end} are dates
-#. (YYYY-MM-DD).
+#. (YYYY-MM-DD),
+#. {end} followed by the period's time zone ("2026-11-23 UTC").
 msgid "The {report} report for {start} to {end} is ready to download."
 msgstr "{start} 至 {end} 的 {report} 报告已可下载。"
 
-#. Translators: {month} is the month just ended ("October 2026"); the others
-#. are counts.
+#. Translators: {month} is the month just ended with its time zone ("October
+#. 2026 UTC"); the others are
+#. counts.
 msgid ""
 "{month}. Seats in use: {assigned} of {funded}. New seats: {new_seats}. "
 "Results recorded: {results}. Certificates earned: {certificates}."
@@ -2319,8 +2353,9 @@ msgstr ""
 "{month}。在用席位：{assigned} / "
 "{funded}。新增席位：{new_seats}。已记录成绩：{results}。已获得证书：{certificates}。"
 
-#. Translators: {end} is the week's last day, a Sunday ("22 November 2026");
-#. the others are counts.
+#. Translators: {end} is the week's last day, a Sunday, with its time zone
+#. ("22 November 2026 UTC"); the others
+#. are counts.
 msgid ""
 "Week to {end}. Seats in use: {assigned} of {funded}. New seats: {new_seats}."
 " Results recorded: {results}. Certificates earned: {certificates}."

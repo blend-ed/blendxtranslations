@@ -163,7 +163,9 @@ msgid ""
 "working."
 msgstr "このリンクは%(days)s日間有効です。新しいリンクが送信されると、このリンクは無効になります。"
 
-#. Translators: {date} is the day the link stops working ("19 November 2026").
+#. Translators: {date} is the day the link stops working ("19 November 2026
+#. UTC": the address has no account to
+#. take a time zone from).
 msgid ""
 "The link works until {date}. If you didn't ask for this, ignore this email."
 msgstr "このリンクは {date} まで有効です。お心当たりがない場合は、このメールを無視してください。"
@@ -251,7 +253,9 @@ msgstr[0] "合格点を下回っている学習者 {count} 人: {names}"
 msgid "{line} and {more} more"
 msgstr "{line} ほか {more} 件"
 
-#. Translators: {day} is a day and month ("19 November").
+#. Translators: {day} is a day and month ("19 November"), "19 November UTC"
+#. for a
+#. person who chose no time zone.
 msgid "Your action items for {day}"
 msgstr "{day} のアクション項目"
 
@@ -547,6 +551,22 @@ msgstr "%(name)s のお支払いを処理できませんでした"
 msgid "We couldn't process your subscription payment."
 msgstr "定期購読の支払いを処理できませんでした。"
 
+#. Translators: shown after a time written in UTC because the person chose no
+#. time zone; {url} is the link
+#. to their Settings page.
+msgid "Shown in UTC. Set your time zone in Settings: {url}"
+msgstr "UTC で表示しています。設定でタイムゾーンを設定してください：{url}"
+
+#. Translators: shown after a time written in UTC because the person chose no
+#. time zone.
+msgid "Shown in UTC. Set your time zone in Settings."
+msgstr "UTC で表示しています。設定でタイムゾーンを設定してください。"
+
+#. Translators: {time} is a time of day ("15:30"); {zone} a time zone's name
+#. ("Asia/Kolkata").
+msgid "{time} in {zone}"
+msgstr "{time}（{zone}）"
+
 #. Translators: {name} is the course's title.
 msgid "{name} finished building. Open it in Studio to review and publish it."
 msgstr "{name} の作成が完了しました。Studio で開いて確認し、公開してください。"
@@ -763,14 +783,14 @@ msgstr ""
 "                    <div><span style=\"font-weight:600;\">%(course_name)s</span> 講座を</div>\n"
 "                    <div>ACSF レベル3で無事に修了しました。</div>"
 
-#. Translators: %(when)s is a date and time, such as "17 November 2026 at
-#. 09:30".
+#. Translators: %(when)s is a date and time with its time zone, such as "17
+#. November 2026, 09:30 IST".
 msgid ""
-"The password for your account was changed on %(when)s UTC. If this wasn't "
-"you, reset your password now and contact support."
+"The password for your account was changed on %(when)s. If this wasn't you, "
+"reset your password now and contact support."
 msgstr ""
-"アカウントのパスワードが %(when)s UTC "
-"に変更されました。お心当たりがない場合は、今すぐパスワードをリセットしてサポートにお問い合わせください。"
+"お客様のアカウントのパスワードが %(when)s "
+"に変更されました。お心当たりがない場合は、今すぐパスワードをリセットし、サポートにお問い合わせください。"
 
 msgid "Your password was changed"
 msgstr "パスワードが変更されました"
@@ -1256,6 +1276,9 @@ msgstr "連絡先住所"
 msgid "Reply-to address"
 msgstr "返信先アドレス"
 
+msgid "Privacy policy and terms links (rendered)"
+msgstr "プライバシーポリシーと利用規約のリンク（レンダリング済み）"
+
 msgid "Primary button (rendered)"
 msgstr "メインボタン（レンダリング済み）"
 
@@ -1447,6 +1470,9 @@ msgstr "支払日"
 
 msgid "Lines and totals (rendered)"
 msgstr "明細と合計（レンダリング済み）"
+
+msgid "Who sold it (rendered)"
+msgstr "販売者（レンダリング済み）"
 
 msgid "Currency"
 msgstr "通貨"
@@ -2169,6 +2195,12 @@ msgid ""
 " to give out."
 msgstr "%(tenant)s の注文 %(number)s について %(total)s を受領しました。席を割り当てられるようになりました。"
 
+msgid "Privacy policy"
+msgstr "プライバシーポリシー"
+
+msgid "Terms of use"
+msgstr "利用規約"
+
 msgid "%(tenant)s is ready"
 msgstr "%(tenant)s の準備が整いました"
 
@@ -2349,12 +2381,14 @@ msgstr ""
 "日間有効で、あなただけが使用できます。"
 
 #. Translators: {report} is the report's name; {start} and {end} are dates
-#. (YYYY-MM-DD).
+#. (YYYY-MM-DD),
+#. {end} followed by the period's time zone ("2026-11-23 UTC").
 msgid "The {report} report for {start} to {end} is ready to download."
 msgstr "{start} から {end} までの {report} レポートをダウンロードできるようになりました。"
 
-#. Translators: {month} is the month just ended ("October 2026"); the others
-#. are counts.
+#. Translators: {month} is the month just ended with its time zone ("October
+#. 2026 UTC"); the others are
+#. counts.
 msgid ""
 "{month}. Seats in use: {assigned} of {funded}. New seats: {new_seats}. "
 "Results recorded: {results}. Certificates earned: {certificates}."
@@ -2362,8 +2396,9 @@ msgstr ""
 "{month}。使用中の席: {funded}席中{assigned}席。新しい席: {new_seats}。記録された結果: "
 "{results}。取得された証明書: {certificates}。"
 
-#. Translators: {end} is the week's last day, a Sunday ("22 November 2026");
-#. the others are counts.
+#. Translators: {end} is the week's last day, a Sunday, with its time zone
+#. ("22 November 2026 UTC"); the others
+#. are counts.
 msgid ""
 "Week to {end}. Seats in use: {assigned} of {funded}. New seats: {new_seats}."
 " Results recorded: {results}. Certificates earned: {certificates}."
