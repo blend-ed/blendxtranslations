@@ -63,5 +63,6 @@
   "pgn.StreakDropdown.dayInactive": "{day}: လှုပ်ရှားမှုမရှိပါ",
   "pgn.StreakDropdown.title": "{count, plural, one {# ရက်ဆက်တိုက်} other {# ရက်ဆက်တိုက်}}",
   "pgn.StreakDropdown.triggerAlt": "သင်ယူမှု ဆက်တိုက်မှတ်တမ်းကို ကြည့်ရှုပါ",
+  "pgn.StreakDropdown.weekLabel": "ဤအပတ်၏ လုပ်ဆောင်မှု",
   "pgn.Toast.closeLabel": "ပိတ်ရန်"
 }

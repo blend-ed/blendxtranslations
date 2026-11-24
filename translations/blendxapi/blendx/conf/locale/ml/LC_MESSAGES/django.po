@@ -899,19 +899,19 @@ msgid "Invites an unregistered user to the platform."
 msgstr ""
 "രജിസ്റ്റർ ചെയ്യാത്ത ഒരു ഉപയോക്താവിനെ പ്ലാറ്റ്ഫോമിലേക്ക് ക്ഷണിക്കുന്നു."
 
-msgid "Added to organisation"
+msgid "Added to organization"
 msgstr "സ്ഥാപനത്തിലേക്ക് ചേർത്തു"
 
-msgid "Sent when an existing platform user is added to the organisation."
+msgid "Sent when an existing platform user is added to the organization."
 msgstr ""
 "നിലവിലുള്ള ഒരു പ്ലാറ്റ്ഫോം ഉപയോക്താവിനെ സ്ഥാപനത്തിലേക്ക് ചേർക്കുമ്പോൾ "
 "അയയ്ക്കുന്നു."
 
-msgid "Organisation + account created"
+msgid "Organization + account created"
 msgstr "സ്ഥാപനവും അക്കൗണ്ടും സൃഷ്ടിച്ചു"
 
 msgid ""
-"Sent when an organisation and its first account are created via the public "
+"Sent when an organization and its first account are created via the public "
 "API."
 msgstr ""
 "പൊതു API വഴി ഒരു സ്ഥാപനവും അതിന്റെ ആദ്യ അക്കൗണ്ടും സൃഷ്ടിക്കുമ്പോൾ "
@@ -1031,10 +1031,10 @@ msgstr "മൊബൈൽ ക്രാഷ് മുന്നറിയിപ്പ�
 
 msgid ""
 "Internal crash report forwarded from the mobile app. Sent without an "
-"organisation context."
+"organization context."
 msgstr ""
-"മൊബൈൽ ആപ്പിൽ നിന്ന് കൈമാറിയ ആന്തരിക ക്രാഷ് റിപ്പോർട്ട്. സ്ഥാപന "
-"സന്ദർഭമില്ലാതെ അയച്ചു."
+"മൊബൈൽ ആപ്പിൽ നിന്ന് കൈമാറുന്ന ആന്തരിക ക്രാഷ് റിപ്പോർട്ട്. സ്ഥാപന "
+"സന്ദർഭമില്ലാതെയാണ് അയയ്ക്കുന്നത്."
 
 msgid "Learner risk alert"
 msgstr "പഠിതാവിനെക്കുറിച്ചുള്ള അപകടസാധ്യതാ മുന്നറിയിപ്പ്"
@@ -1247,7 +1247,7 @@ msgstr ""
 msgid "Tenant report email"
 msgstr "ക്ലയന്റ് സ്ഥാപന റിപ്പോർട്ട് ഇമെയിൽ"
 
-msgid "Your organisation's learning figures for the week or the month."
+msgid "Your organization's learning figures for the week or the month."
 msgstr "ആഴ്ചയിലെയോ മാസത്തിലെയോ നിങ്ങളുടെ സ്ഥാപനത്തിന്റെ പഠന കണക്കുകൾ."
 
 msgid "Company account active"
@@ -1404,13 +1404,13 @@ msgstr ""
 msgid "Platform name"
 msgstr "പ്ലാറ്റ്ഫോമിന്റെ പേര്"
 
-msgid "Organisation name"
+msgid "Organization name"
 msgstr "സ്ഥാപനത്തിന്റെ പേര്"
 
 msgid "Recipient email"
 msgstr "സ്വീകർത്താവിന്റെ ഇമെയിൽ"
 
-msgid "Organisation logo URL"
+msgid "Organization logo URL"
 msgstr "സ്ഥാപനത്തിന്റെ ലോഗോ URL"
 
 msgid "Contact mailing address"
@@ -1505,10 +1505,10 @@ msgstr "ലിങ്ക് പ്രവർത്തനം നിർത്തു�
 msgid "Who invited them, and their message (rendered)"
 msgstr "അവരെ ക്ഷണിച്ചത് ആര്, അവരുടെ സന്ദേശം (റെൻഡർ ചെയ്തത്)"
 
-msgid "Added to Organisation"
+msgid "Added to Organization"
 msgstr "സ്ഥാപനത്തിലേക്ക് ചേർത്തു"
 
-msgid "Sent when an existing user is added to an organisation."
+msgid "Sent when an existing user is added to an organization."
 msgstr ""
 "നിലവിലുള്ള ഒരു ഉപയോക്താവിനെ ഒരു സ്ഥാപനത്തിലേക്ക് ചേർക്കുമ്പോൾ അയയ്ക്കുന്നു."
 
@@ -1712,10 +1712,10 @@ msgstr "മൊബൈൽ ക്രാഷ് മുന്നറിയിപ്പ�
 
 msgid ""
 "Internal crash report forwarded from the mobile app to the platform admins. "
-"Sent without an organisation context."
+"Sent without an organization context."
 msgstr ""
-"മൊബൈൽ ആപ്പിൽ നിന്ന് പ്ലാറ്റ്ഫോം അഡ്മിൻമാർക്ക് കൈമാറിയ ആന്തരിക ക്രാഷ് "
-"റിപ്പോർട്ട്. സ്ഥാപന സന്ദർഭമില്ലാതെ അയച്ചു."
+"മൊബൈൽ ആപ്പിൽ നിന്ന് പ്ലാറ്റ്ഫോം അഡ്മിൻമാർക്ക് കൈമാറുന്ന ആന്തരിക ക്രാഷ് "
+"റിപ്പോർട്ട്. സ്ഥാപന സന്ദർഭമില്ലാതെയാണ് അയയ്ക്കുന്നത്."
 
 msgid "Mobile app crash reported on {{ platform_name }}"
 msgstr "{{ platform_name }}-ൽ മൊബൈൽ ആപ്പ് ക്രാഷ് റിപ്പോർട്ട് ചെയ്തു"
@@ -1791,7 +1791,7 @@ msgid "Company account — Active"
 msgstr "കമ്പനി അക്കൗണ്ട് — സജീവം"
 
 msgid ""
-"Sent to a company's managers when the organisation activates the company's "
+"Sent to a company's managers when the organization activates the company's "
 "account."
 msgstr ""
 "സ്ഥാപനം കമ്പനിയുടെ അക്കൗണ്ട് സജീവമാക്കുമ്പോൾ കമ്പനിയുടെ മാനേജർമാർക്ക് "
@@ -1885,7 +1885,7 @@ msgstr "നിങ്ങളുടെ അക്കൗണ്ട് തുറക്�
 msgid "Company account — Blocked"
 msgstr "കമ്പനി അക്കൗണ്ട് — ബ്ലോക്ക് ചെയ്തു"
 
-msgid "Sent to a company's managers when the organisation blocks its account."
+msgid "Sent to a company's managers when the organization blocks its account."
 msgstr ""
 "സ്ഥാപനം ഒരു കമ്പനിയുടെ അക്കൗണ്ട് ബ്ലോക്ക് ചെയ്യുമ്പോൾ അതിന്റെ മാനേജർമാർക്ക് "
 "അയയ്ക്കുന്നു."
@@ -1897,7 +1897,7 @@ msgid "Company account — Unblocked"
 msgstr "കമ്പനി അക്കൗണ്ട് — അൺബ്ലോക്ക് ചെയ്തു"
 
 msgid ""
-"Sent to a company's managers when the organisation unblocks its account."
+"Sent to a company's managers when the organization unblocks its account."
 msgstr ""
 "സ്ഥാപനം ഒരു കമ്പനിയുടെ അക്കൗണ്ട് അൺബ്ലോക്ക് ചെയ്യുമ്പോൾ അതിന്റെ "
 "മാനേജർമാർക്ക് അയയ്ക്കുന്നു."

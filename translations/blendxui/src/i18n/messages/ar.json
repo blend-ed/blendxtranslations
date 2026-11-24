@@ -63,5 +63,6 @@
   "pgn.StreakDropdown.dayInactive": "{day}: لا يوجد نشاط",
   "pgn.StreakDropdown.title": "{count, plural, one {سلسلة # يوم} other {سلسلة # أيام}}",
   "pgn.StreakDropdown.triggerAlt": "عرض سلسلة التعلم",
+  "pgn.StreakDropdown.weekLabel": "نشاط هذا الأسبوع",
   "pgn.Toast.closeLabel": "إغلاق"
 }

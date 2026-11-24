@@ -63,5 +63,6 @@
   "pgn.StreakDropdown.dayInactive": "{day}: sin actividad",
   "pgn.StreakDropdown.title": "{count, plural, one {racha de # día} other {racha de # días}}",
   "pgn.StreakDropdown.triggerAlt": "Ver racha de aprendizaje",
+  "pgn.StreakDropdown.weekLabel": "Actividad de esta semana",
   "pgn.Toast.closeLabel": "Cerrar"
 }

@@ -63,5 +63,6 @@
   "pgn.StreakDropdown.dayInactive": "{day}: nessuna attività",
   "pgn.StreakDropdown.title": "{count, plural, one {# giorno consecutivo} other {# giorni consecutivi}}",
   "pgn.StreakDropdown.triggerAlt": "Visualizza la serie di apprendimento",
+  "pgn.StreakDropdown.weekLabel": "Attività di questa settimana",
   "pgn.Toast.closeLabel": "Chiudi"
 }

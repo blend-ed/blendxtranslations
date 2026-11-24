@@ -63,5 +63,6 @@
   "pgn.StreakDropdown.dayInactive": "{day}：无活动",
   "pgn.StreakDropdown.title": "{count, plural, one {连续 # 天} other {连续 # 天}}",
   "pgn.StreakDropdown.triggerAlt": "查看学习连续记录",
+  "pgn.StreakDropdown.weekLabel": "本周活动",
   "pgn.Toast.closeLabel": "关闭"
 }

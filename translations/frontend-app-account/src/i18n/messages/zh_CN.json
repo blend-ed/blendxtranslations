@@ -568,6 +568,7 @@
   "notification.preference.help.email": "邮箱",
   "notification.preference.help.push": "推",
   "notification.preference.load.more.courses": "加载更多课程",
+  "notification.preference.title": "{ text, select, groupedNotification {活动通知} newDiscussionPost {新讨论帖} newQuestionPost {新问题帖} contentReported {被举报的内容} courseUpdates {课程更新} oraStaffNotifications {待教员评分的新 ORA 提交} oraGradeAssigned {已收到论文作业成绩} newInstructorAllLearnersPost {讲师发布的新帖} oraReminder {论文作业提醒} other {{text}} }",
   "notification.preference.type.label": "类型",
   "notification.preference.web.label": "网页",
   "notification.preferences.notifications.label": "通知"

@@ -809,17 +809,17 @@ msgstr "招待 — 新規ユーザー"
 msgid "Invites an unregistered user to the platform."
 msgstr "未登録のユーザーをプラットフォームに招待します。"
 
-msgid "Added to organisation"
+msgid "Added to organization"
 msgstr "組織に追加されました"
 
-msgid "Sent when an existing platform user is added to the organisation."
+msgid "Sent when an existing platform user is added to the organization."
 msgstr "既存のプラットフォームユーザーが組織に追加された場合に送信されます。"
 
-msgid "Organisation + account created"
+msgid "Organization + account created"
 msgstr "組織とアカウントの作成"
 
 msgid ""
-"Sent when an organisation and its first account are created via the public "
+"Sent when an organization and its first account are created via the public "
 "API."
 msgstr "公開 API で組織と最初のアカウントが作成された場合に送信されます。"
 
@@ -923,7 +923,7 @@ msgstr "モバイルクラッシュ警告"
 
 msgid ""
 "Internal crash report forwarded from the mobile app. Sent without an "
-"organisation context."
+"organization context."
 msgstr "モバイルアプリから転送される内部クラッシュレポートです。組織のコンテキストなしで送信されます。"
 
 msgid "Learner risk alert"
@@ -1126,7 +1126,7 @@ msgstr "リクエストしたデータのファイルをダウンロードでき
 msgid "Tenant report email"
 msgstr "テナントレポートメール"
 
-msgid "Your organisation's learning figures for the week or the month."
+msgid "Your organization's learning figures for the week or the month."
 msgstr "組織の週次または月次の学習の数値です。"
 
 msgid "Company account active"
@@ -1261,13 +1261,13 @@ msgstr "会社のマネージャーが共同で管理する人を招待した場
 msgid "Platform name"
 msgstr "プラットフォーム名"
 
-msgid "Organisation name"
+msgid "Organization name"
 msgstr "組織名"
 
 msgid "Recipient email"
 msgstr "受信者のメールアドレス"
 
-msgid "Organisation logo URL"
+msgid "Organization logo URL"
 msgstr "組織ロゴの URL"
 
 msgid "Contact mailing address"
@@ -1360,10 +1360,10 @@ msgstr "リンクが無効になる日"
 msgid "Who invited them, and their message (rendered)"
 msgstr "招待した人とそのメッセージ（レンダリング済み）"
 
-msgid "Added to Organisation"
+msgid "Added to Organization"
 msgstr "組織に追加されました"
 
-msgid "Sent when an existing user is added to an organisation."
+msgid "Sent when an existing user is added to an organization."
 msgstr "既存のユーザーが組織に追加された場合に送信されます。"
 
 msgid "You've been added to {{ org_name }}"
@@ -1556,7 +1556,7 @@ msgstr "モバイルクラッシュ警告"
 
 msgid ""
 "Internal crash report forwarded from the mobile app to the platform admins. "
-"Sent without an organisation context."
+"Sent without an organization context."
 msgstr "モバイルアプリからプラットフォーム管理者に転送される内部クラッシュレポートです。組織のコンテキストなしで送信されます。"
 
 msgid "Mobile app crash reported on {{ platform_name }}"
@@ -1625,7 +1625,7 @@ msgid "Company account — Active"
 msgstr "会社アカウント — 有効"
 
 msgid ""
-"Sent to a company's managers when the organisation activates the company's "
+"Sent to a company's managers when the organization activates the company's "
 "account."
 msgstr "組織が会社のアカウントを有効にした場合に、会社のマネージャーに送信されます。"
 
@@ -1711,7 +1711,7 @@ msgstr "アカウントを開く"
 msgid "Company account — Blocked"
 msgstr "会社アカウント — ブロック"
 
-msgid "Sent to a company's managers when the organisation blocks its account."
+msgid "Sent to a company's managers when the organization blocks its account."
 msgstr "組織が会社のアカウントをブロックしたときに、会社のマネージャーに送信されます。"
 
 msgid "{{ tenant_name }} is blocked"
@@ -1721,7 +1721,7 @@ msgid "Company account — Unblocked"
 msgstr "会社アカウント — ブロック解除"
 
 msgid ""
-"Sent to a company's managers when the organisation unblocks its account."
+"Sent to a company's managers when the organization unblocks its account."
 msgstr "組織が会社のアカウントのブロックを解除したときに、会社のマネージャーに送信されます。"
 
 msgid "{{ tenant_name }} is unblocked"

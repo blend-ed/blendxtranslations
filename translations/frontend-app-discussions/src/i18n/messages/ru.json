@@ -13,7 +13,7 @@
   "discussions.actionBar.clearSearch": "Четкие результаты",
   "discussions.actionBar.searchInfo": "Показаны результаты {count} для \"{text}\"",
   "discussions.actionBar.searchInfoSearching": "Поиск...",
-  "discussions.actionBar.searchRewriteInfo": "По запросу &quot;{searchString}&quot; результатов не найдено. Показаны результаты {count} для &quot;{textSearchRewrite}&quot;.",
+  "discussions.actionBar.searchRewriteInfo": "По запросу \"{searchString}\" результатов не найдено. Показаны результаты {count} для \"{textSearchRewrite}\".",
   "discussions.actions.back.alt": "Обратно к списку",
   "discussions.actions.button.alt": "Меню действий",
   "discussions.actions.close": "Закрыть опубликовать",

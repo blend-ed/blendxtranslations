@@ -798,17 +798,17 @@ msgstr "邀请 — 新用户"
 msgid "Invites an unregistered user to the platform."
 msgstr "邀请未注册用户加入平台。"
 
-msgid "Added to organisation"
+msgid "Added to organization"
 msgstr "已添加到组织"
 
-msgid "Sent when an existing platform user is added to the organisation."
+msgid "Sent when an existing platform user is added to the organization."
 msgstr "现有平台用户被添加到组织时发送。"
 
-msgid "Organisation + account created"
+msgid "Organization + account created"
 msgstr "组织 + 账户已创建"
 
 msgid ""
-"Sent when an organisation and its first account are created via the public "
+"Sent when an organization and its first account are created via the public "
 "API."
 msgstr "通过公共 API 创建组织及其首个账户时发送。"
 
@@ -911,7 +911,7 @@ msgstr "移动端崩溃警报"
 
 msgid ""
 "Internal crash report forwarded from the mobile app. Sent without an "
-"organisation context."
+"organization context."
 msgstr "从移动应用转发的内部崩溃报告。发送时不带组织上下文。"
 
 msgid "Learner risk alert"
@@ -1114,7 +1114,7 @@ msgstr "您申请的数据文件已可下载。"
 msgid "Tenant report email"
 msgstr "租户报告邮件"
 
-msgid "Your organisation's learning figures for the week or the month."
+msgid "Your organization's learning figures for the week or the month."
 msgstr "贵组织每周或每月的学习数据。"
 
 msgid "Company account active"
@@ -1249,13 +1249,13 @@ msgstr "公司管理员邀请他人共同管理公司时发送。"
 msgid "Platform name"
 msgstr "平台名称"
 
-msgid "Organisation name"
+msgid "Organization name"
 msgstr "组织名称"
 
 msgid "Recipient email"
 msgstr "收件人电子邮件"
 
-msgid "Organisation logo URL"
+msgid "Organization logo URL"
 msgstr "组织徽标 URL"
 
 msgid "Contact mailing address"
@@ -1347,10 +1347,10 @@ msgstr "链接失效日期"
 msgid "Who invited them, and their message (rendered)"
 msgstr "邀请人及其消息（已渲染）"
 
-msgid "Added to Organisation"
+msgid "Added to Organization"
 msgstr "已添加到组织"
 
-msgid "Sent when an existing user is added to an organisation."
+msgid "Sent when an existing user is added to an organization."
 msgstr "现有用户被添加到组织时发送。"
 
 msgid "You've been added to {{ org_name }}"
@@ -1543,7 +1543,7 @@ msgstr "移动端崩溃警报"
 
 msgid ""
 "Internal crash report forwarded from the mobile app to the platform admins. "
-"Sent without an organisation context."
+"Sent without an organization context."
 msgstr "从移动应用转发给平台管理员的内部崩溃报告。发送时不带组织上下文。"
 
 msgid "Mobile app crash reported on {{ platform_name }}"
@@ -1612,7 +1612,7 @@ msgid "Company account — Active"
 msgstr "公司账户 — 已启用"
 
 msgid ""
-"Sent to a company's managers when the organisation activates the company's "
+"Sent to a company's managers when the organization activates the company's "
 "account."
 msgstr "组织启用公司账户时，发送给公司管理员。"
 
@@ -1698,7 +1698,7 @@ msgstr "打开您的账户"
 msgid "Company account — Blocked"
 msgstr "公司账户——已封禁"
 
-msgid "Sent to a company's managers when the organisation blocks its account."
+msgid "Sent to a company's managers when the organization blocks its account."
 msgstr "当组织封禁公司账户时，发送给该公司的管理员。"
 
 msgid "{{ tenant_name }} is blocked"
@@ -1708,7 +1708,7 @@ msgid "Company account — Unblocked"
 msgstr "公司账户——已解除封禁"
 
 msgid ""
-"Sent to a company's managers when the organisation unblocks its account."
+"Sent to a company's managers when the organization unblocks its account."
 msgstr "当组织解除公司账户封禁时，发送给该公司的管理员。"
 
 msgid "{{ tenant_name }} is unblocked"

@@ -63,5 +63,6 @@
   "pgn.StreakDropdown.dayInactive": "{day}: 활동 없음",
   "pgn.StreakDropdown.title": "{count, plural, one {#일 연속 기록} other {#일 연속 기록}}",
   "pgn.StreakDropdown.triggerAlt": "학습 연속 기록 보기",
+  "pgn.StreakDropdown.weekLabel": "이번 주 활동",
   "pgn.Toast.closeLabel": "닫기"
 }

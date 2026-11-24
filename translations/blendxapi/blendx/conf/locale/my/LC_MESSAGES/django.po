@@ -900,19 +900,19 @@ msgstr "ဖိတ်ကြားချက် — အသုံးပြုသူ�
 msgid "Invites an unregistered user to the platform."
 msgstr "စာရင်းမသွင်းရသေးသော အသုံးပြုသူကို ပလက်ဖောင်းသို့ ဖိတ်ကြားပါသည်။"
 
-msgid "Added to organisation"
+msgid "Added to organization"
 msgstr "အဖွဲ့အစည်းသို့ ထည့်သွင်းပြီး"
 
-msgid "Sent when an existing platform user is added to the organisation."
+msgid "Sent when an existing platform user is added to the organization."
 msgstr ""
 "ရှိပြီးသား ပလက်ဖောင်းအသုံးပြုသူကို အဖွဲ့အစည်းသို့ ထည့်သွင်းသည့်အခါ "
 "ပို့ပါသည်။"
 
-msgid "Organisation + account created"
+msgid "Organization + account created"
 msgstr "အဖွဲ့အစည်း + အကောင့် ဖန်တီးပြီး"
 
 msgid ""
-"Sent when an organisation and its first account are created via the public "
+"Sent when an organization and its first account are created via the public "
 "API."
 msgstr ""
 "အဖွဲ့အစည်းတစ်ခုနှင့် ၎င်း၏ ပထမဆုံးအကောင့်ကို အများသုံး API မှတစ်ဆင့် "
@@ -1033,7 +1033,7 @@ msgstr "မိုဘိုင်း ပျက်ကျမှု သတိပေ�
 
 msgid ""
 "Internal crash report forwarded from the mobile app. Sent without an "
-"organisation context."
+"organization context."
 msgstr ""
 "မိုဘိုင်းအက်ပ်မှ ထပ်ဆင့်ပို့သော အတွင်းပိုင်း ပျက်ကျမှု အစီရင်ခံစာ။ "
 "အဖွဲ့အစည်း အကြောင်းအရာမပါဘဲ ပို့သည်။"
@@ -1255,7 +1255,7 @@ msgstr "သင်တောင်းဆိုထားသော သင့်ဒ�
 msgid "Tenant report email"
 msgstr "ဖောက်သည်အဖွဲ့အစည်း အစီရင်ခံစာ အီးမေးလ်"
 
-msgid "Your organisation's learning figures for the week or the month."
+msgid "Your organization's learning figures for the week or the month."
 msgstr "သင့်အဖွဲ့အစည်း၏ အပတ်စဉ် သို့မဟုတ် လစဉ် သင်ယူမှု ကိန်းဂဏန်းများ။"
 
 msgid "Company account active"
@@ -1415,13 +1415,13 @@ msgstr ""
 msgid "Platform name"
 msgstr "ပလက်ဖောင်းအမည်"
 
-msgid "Organisation name"
+msgid "Organization name"
 msgstr "အဖွဲ့အစည်းအမည်"
 
 msgid "Recipient email"
 msgstr "လက်ခံသူ၏ အီးမေးလ်"
 
-msgid "Organisation logo URL"
+msgid "Organization logo URL"
 msgstr "အဖွဲ့အစည်း လိုဂို URL"
 
 msgid "Contact mailing address"
@@ -1516,10 +1516,10 @@ msgstr "လင့်ခ် အလုပ်မလုပ်တော့မည့�
 msgid "Who invited them, and their message (rendered)"
 msgstr "၎င်းတို့ကို ဖိတ်ကြားသူနှင့် ၎င်း၏ မက်ဆေ့ချ် (ပြသထားသည်)"
 
-msgid "Added to Organisation"
+msgid "Added to Organization"
 msgstr "အဖွဲ့အစည်းသို့ ထည့်သွင်းပြီး"
 
-msgid "Sent when an existing user is added to an organisation."
+msgid "Sent when an existing user is added to an organization."
 msgstr ""
 "ရှိပြီးသား အသုံးပြုသူကို အဖွဲ့အစည်းတစ်ခုသို့ ထည့်သွင်းသည့်အခါ ပို့ပါသည်။"
 
@@ -1720,7 +1720,7 @@ msgstr "မိုဘိုင်း ပျက်ကျမှု သတိပေ�
 
 msgid ""
 "Internal crash report forwarded from the mobile app to the platform admins. "
-"Sent without an organisation context."
+"Sent without an organization context."
 msgstr ""
 "မိုဘိုင်းအက်ပ်မှ ပလက်ဖောင်း စီမံခန့်ခွဲသူများထံ ထပ်ဆင့်ပို့သော အတွင်းပိုင်း "
 "ပျက်ကျမှု အစီရင်ခံစာ။ အဖွဲ့အစည်း အကြောင်းအရာမပါဘဲ ပို့သည်။"
@@ -1798,7 +1798,7 @@ msgid "Company account — Active"
 msgstr "ကုမ္ပဏီအကောင့် — အသက်ဝင်နေသည်"
 
 msgid ""
-"Sent to a company's managers when the organisation activates the company's "
+"Sent to a company's managers when the organization activates the company's "
 "account."
 msgstr ""
 "အဖွဲ့အစည်းက ကုမ္ပဏီ၏ အကောင့်ကို အသက်သွင်းသည့်အခါ ကုမ္ပဏီ၏ မန်နေဂျာများထံ "
@@ -1892,7 +1892,7 @@ msgstr "သင့်အကောင့်ကို ဖွင့်ရန်"
 msgid "Company account — Blocked"
 msgstr "ကုမ္ပဏီအကောင့် — ပိတ်ဆို့ထားသည်"
 
-msgid "Sent to a company's managers when the organisation blocks its account."
+msgid "Sent to a company's managers when the organization blocks its account."
 msgstr ""
 "အဖွဲ့အစည်းက ကုမ္ပဏီ၏ အကောင့်ကို ပိတ်ဆို့သည့်အခါ ၎င်း၏ မန်နေဂျာများထံ "
 "ပို့သည်။"
@@ -1904,7 +1904,7 @@ msgid "Company account — Unblocked"
 msgstr "ကုမ္ပဏီအကောင့် — ပိတ်ဆို့မှု ဖြုတ်ပြီး"
 
 msgid ""
-"Sent to a company's managers when the organisation unblocks its account."
+"Sent to a company's managers when the organization unblocks its account."
 msgstr ""
 "အဖွဲ့အစည်းက ကုမ္ပဏီ၏ အကောင့်ကို ပိတ်ဆို့မှု ဖြုတ်သည့်အခါ ၎င်း၏ "
 "မန်နေဂျာများထံ ပို့သည်။"

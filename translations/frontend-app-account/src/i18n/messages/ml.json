@@ -568,6 +568,7 @@
   "notification.preference.help.email": "ഇമെയിൽ",
   "notification.preference.help.push": "പുഷ്",
   "notification.preference.load.more.courses": "കൂടുതൽ കോഴ്സുകൾ ലോഡ് ചെയ്യുക",
+  "notification.preference.title": "{ text, select, groupedNotification {പ്രവർത്തന അറിയിപ്പുകൾ} newDiscussionPost {പുതിയ ചർച്ചാ പോസ്റ്റുകൾ} newQuestionPost {പുതിയ ചോദ്യ പോസ്റ്റുകൾ} contentReported {റിപ്പോർട്ട് ചെയ്ത ഉള്ളടക്കം} courseUpdates {കോഴ്സ് അപ്ഡേറ്റുകൾ} oraStaffNotifications {സ്റ്റാഫ് ഗ്രേഡിംഗിനായി പുതിയ ORA സമർപ്പണം} oraGradeAssigned {ഉപന്യാസ അസൈൻമെന്റ് ഗ്രേഡ് ലഭിച്ചു} newInstructorAllLearnersPost {ഇൻസ്ട്രക്ടർമാരിൽ നിന്നുള്ള പുതിയ പോസ്റ്റുകൾ} oraReminder {ഉപന്യാസ അസൈൻമെന്റ് ഓർമ്മപ്പെടുത്തലുകൾ} other {{text}} }",
   "notification.preference.type.label": "തരം",
   "notification.preference.web.label": "വെബ്",
   "notification.preferences.notifications.label": "അറിയിപ്പുകൾ"

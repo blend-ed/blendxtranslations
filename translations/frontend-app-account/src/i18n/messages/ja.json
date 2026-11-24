@@ -568,6 +568,7 @@
   "notification.preference.help.email": "メール",
   "notification.preference.help.push": "プッシュ",
   "notification.preference.load.more.courses": "コースをもっと読み込む",
+  "notification.preference.title": "{ text, select, groupedNotification {アクティビティ通知} newDiscussionPost {新しいディスカッション投稿} newQuestionPost {新しい質問投稿} contentReported {報告されたコンテンツ} courseUpdates {講座の更新情報} oraStaffNotifications {スタッフ採点待ちの新しいORA提出物} oraGradeAssigned {小論文課題の成績の受領} newInstructorAllLearnersPost {講師からの新しい投稿} oraReminder {小論文課題のリマインダー} other {{text}} }",
   "notification.preference.type.label": "タイプ",
   "notification.preference.web.label": "ウェブ",
   "notification.preferences.notifications.label": "通知"

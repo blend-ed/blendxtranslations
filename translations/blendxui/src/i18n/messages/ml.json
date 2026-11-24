@@ -63,5 +63,6 @@
   "pgn.StreakDropdown.dayInactive": "{day}: പ്രവർത്തനമില്ല",
   "pgn.StreakDropdown.title": "{count, plural, one {# ദിവസത്തെ സ്ട്രീക്ക്} other {# ദിവസത്തെ സ്ട്രീക്ക്}}",
   "pgn.StreakDropdown.triggerAlt": "പഠന തുടർച്ച കാണുക",
+  "pgn.StreakDropdown.weekLabel": "ഈ ആഴ്ചയിലെ പ്രവർത്തനം",
   "pgn.Toast.closeLabel": "അടയ്ക്കുക"
 }

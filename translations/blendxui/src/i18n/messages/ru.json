@@ -63,5 +63,6 @@
   "pgn.StreakDropdown.dayInactive": "{day}: нет активности",
   "pgn.StreakDropdown.title": "{count, plural, one {# день подряд} few {# дня подряд} many {# дней подряд} other {# дня подряд}}",
   "pgn.StreakDropdown.triggerAlt": "Посмотреть серию дней обучения",
+  "pgn.StreakDropdown.weekLabel": "Активность за эту неделю",
   "pgn.Toast.closeLabel": "Закрыть"
 }

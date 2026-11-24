@@ -568,6 +568,7 @@
   "notification.preference.help.email": "အီးမေးလ်",
   "notification.preference.help.push": "Push",
   "notification.preference.load.more.courses": "သင်တန်းများ ထပ်မံတင်ရန်",
+  "notification.preference.title": "{ text, select, groupedNotification {လုပ်ဆောင်ချက် အသိပေးချက်များ} newDiscussionPost {ဆွေးနွေးမှု ပို့စ်အသစ်များ} newQuestionPost {မေးခွန်း ပို့စ်အသစ်များ} contentReported {တိုင်ကြားထားသော အကြောင်းအရာ} courseUpdates {သင်တန်း အပ်ဒိတ်များ} oraStaffNotifications {ဝန်ထမ်း အမှတ်ပေးရန် ORA တင်သွင်းမှုအသစ်} oraGradeAssigned {စာစီစာကုံး လုပ်ငန်းတာဝန် အမှတ်အဆင့် ရရှိပြီး} newInstructorAllLearnersPost {နည်းပြများထံမှ ပို့စ်အသစ်များ} oraReminder {စာစီစာကုံး လုပ်ငန်းတာဝန် သတိပေးချက်များ} other {{text}} }",
   "notification.preference.type.label": "အမျိုးအစား",
   "notification.preference.web.label": "ဝဘ်",
   "notification.preferences.notifications.label": "အကြောင်းကြားချက်များ"

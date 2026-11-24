@@ -63,5 +63,6 @@
   "pgn.StreakDropdown.dayInactive": "{day}: कोई गतिविधि नहीं",
   "pgn.StreakDropdown.title": "{count, plural, one {# दिन की निरंतरता} other {# दिन की निरंतरता}}",
   "pgn.StreakDropdown.triggerAlt": "सीखने की निरंतर प्रगति देखें",
+  "pgn.StreakDropdown.weekLabel": "इस सप्ताह की गतिविधि",
   "pgn.Toast.closeLabel": "बंद करें"
 }

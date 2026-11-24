@@ -63,5 +63,6 @@
   "pgn.StreakDropdown.dayInactive": "{day}：活動なし",
   "pgn.StreakDropdown.title": "{count, plural, one {#日連続} other {#日連続}}",
   "pgn.StreakDropdown.triggerAlt": "学習の連続記録を見る",
+  "pgn.StreakDropdown.weekLabel": "今週のアクティビティ",
   "pgn.Toast.closeLabel": "閉じる"
 }
