@@ -25,7 +25,7 @@
   "account.myCertifications.detail.notFound": "証明書が見つかりません。",
   "account.myCertifications.download": "ダウンロード",
   "account.myCertifications.empty": "コースを修了すると証明書が取得できます",
-  "account.myCertifications.emptyCta": "マイラーニング",
+  "account.myCertifications.emptyCta": "マイ学習",
   "account.myCertifications.expired": "期限切れ",
   "account.myCertifications.expiredOn": "有効期限: {value}",
   "account.myCertifications.expiryDate": "有効期限: {value}",

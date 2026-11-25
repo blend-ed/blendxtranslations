@@ -569,7 +569,7 @@
   "notification.preference.help.push": "Pousser",
   "notification.preference.load.more.courses": "Charger plus de cours",
   "notification.preference.title": "{ text, select, groupedNotification {Notifications d'activités} newDiscussionPost {Nouveaux messages de discussion} newQuestionPost {Nouveaux messages de questions} contentReported {Contenu signalé} courseUpdates {Mises à jour de cours} oraStaffNotifications {Nouvelle réponse ORA pour évaluation par le personnel} oraGradeAssigned {Note de devoir reçue} newInstructorAllLearnersPost {Nouveaux messages des instructeurs} oraReminder {Rappels de devoir} other {{text}} }",
-  "notification.preference.type.label": "Taper",
+  "notification.preference.type.label": "Type",
   "notification.preference.web.label": "Web",
   "notification.preferences.notifications.label": "Notifications"
 }
