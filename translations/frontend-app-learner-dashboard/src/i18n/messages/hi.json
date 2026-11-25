@@ -517,6 +517,7 @@
   "learner.home.v5.learning.completed": "{date} को पूरा किया",
   "learner.home.v5.learning.dates": "{start} से {end}",
   "learner.home.v5.learning.done": "पूर्ण",
+  "learner.home.v5.learning.mode": "{facts} · {mode}",
   "learner.home.v5.learning.notStarted": "{date} को शुरू होगा",
   "learner.home.v5.learning.pacing": "{pacing} · {facts}",
   "learner.home.v5.learning.percent": "{value}%",

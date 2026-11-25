@@ -517,6 +517,7 @@
   "learner.home.v5.learning.completed": "{date} 완료",
   "learner.home.v5.learning.dates": "{start}~{end}",
   "learner.home.v5.learning.done": "완료",
+  "learner.home.v5.learning.mode": "{facts} · {mode}",
   "learner.home.v5.learning.notStarted": "{date} 시작",
   "learner.home.v5.learning.pacing": "{pacing} · {facts}",
   "learner.home.v5.learning.percent": "{value}%",

@@ -517,6 +517,7 @@
   "learner.home.v5.learning.completed": "{date} တွင် ပြီးမြောက်",
   "learner.home.v5.learning.dates": "{start} မှ {end} အထိ",
   "learner.home.v5.learning.done": "ပြီးမြောက်ပြီ",
+  "learner.home.v5.learning.mode": "{facts} · {mode}",
   "learner.home.v5.learning.notStarted": "{date} တွင် စတင်မည်",
   "learner.home.v5.learning.pacing": "{pacing} · {facts}",
   "learner.home.v5.learning.percent": "{value}%",

@@ -517,6 +517,7 @@
   "learner.home.v5.learning.completed": "{date}-ന് പൂർത്തിയാക്കി",
   "learner.home.v5.learning.dates": "{start} മുതൽ {end} വരെ",
   "learner.home.v5.learning.done": "പൂർത്തിയായി",
+  "learner.home.v5.learning.mode": "{facts} · {mode}",
   "learner.home.v5.learning.notStarted": "{date}-ന് ആരംഭിക്കും",
   "learner.home.v5.learning.pacing": "{pacing} · {facts}",
   "learner.home.v5.learning.percent": "{value}%",

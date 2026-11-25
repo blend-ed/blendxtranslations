@@ -517,6 +517,7 @@
   "learner.home.v5.learning.completed": "اكتمل في {date}",
   "learner.home.v5.learning.dates": "{start} إلى {end}",
   "learner.home.v5.learning.done": "مكتمل",
+  "learner.home.v5.learning.mode": "{facts} · {mode}",
   "learner.home.v5.learning.notStarted": "يبدأ {date}",
   "learner.home.v5.learning.pacing": "{pacing} · {facts}",
   "learner.home.v5.learning.percent": "{value}%",

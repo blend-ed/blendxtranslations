@@ -517,6 +517,7 @@
   "learner.home.v5.learning.completed": "Terminé le {date}",
   "learner.home.v5.learning.dates": "De {start} à {end}",
   "learner.home.v5.learning.done": "Terminé",
+  "learner.home.v5.learning.mode": "{facts} · {mode}",
   "learner.home.v5.learning.notStarted": "Commence le {date}",
   "learner.home.v5.learning.pacing": "{pacing} · {facts}",
   "learner.home.v5.learning.percent": "{value} %",

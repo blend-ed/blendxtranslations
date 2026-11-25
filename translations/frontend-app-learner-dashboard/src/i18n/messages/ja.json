@@ -517,6 +517,7 @@
   "learner.home.v5.learning.completed": "{date}に修了",
   "learner.home.v5.learning.dates": "{start}〜{end}",
   "learner.home.v5.learning.done": "完了",
+  "learner.home.v5.learning.mode": "{facts} · {mode}",
   "learner.home.v5.learning.notStarted": "{date}に開始",
   "learner.home.v5.learning.pacing": "{pacing} · {facts}",
   "learner.home.v5.learning.percent": "{value}%",
