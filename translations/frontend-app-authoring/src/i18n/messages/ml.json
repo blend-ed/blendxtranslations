@@ -6868,7 +6868,7 @@
   "v5.courses.outline.library": "ലൈബ്രറി",
   "v5.courses.outline.linkedTo": "{library}-ലേക്ക് ലിങ്ക് ചെയ്തു. {count, plural, one {ഈ കോഴ്സിൽ മാത്രം ഉപയോഗിക്കുന്നു.} other {# കോഴ്സുകളിൽ ഉപയോഗിക്കുന്നു.}}",
   "v5.courses.outline.linkedToOnly": "{library}-ലേക്ക് ലിങ്ക് ചെയ്തു.",
-  "v5.courses.outline.listAnd": "{first}, {last}",
+  "v5.courses.outline.listAnd": "{first} കൂടാതെ {last}",
   "v5.courses.outline.listComma": ",",
   "v5.courses.outline.loadFailed": "രൂപരേഖ ലോഡ് ആയില്ല.",
   "v5.courses.outline.menuHide": "പഠിതാക്കളിൽ നിന്ന് മറയ്ക്കുക",
