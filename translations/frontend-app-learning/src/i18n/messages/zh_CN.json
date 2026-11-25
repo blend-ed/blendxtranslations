@@ -940,6 +940,7 @@
   "v5.course.plan.thisWeekLineMany": "本周还剩 {count, plural, other {# 项材料}}。您的学习日为{days}。",
   "v5.course.plan.upNext": "接下来",
   "v5.course.plan.week": "第 {number} 周",
+  "v5.course.plan.weekCount": "{count, plural, one {# 周} other {# 周}}",
   "v5.course.plan.weekFinish": "完成 {title}",
   "v5.course.plan.weekFree": "补上进度，或本周休息",
   "v5.course.plan.weekRange": "第 {number} 周 · {range}",

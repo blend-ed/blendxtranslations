@@ -940,6 +940,7 @@
   "v5.course.plan.thisWeekLineMany": "ഈ ആഴ്ച {count, plural, one {# മെറ്റീരിയൽ} other {# മെറ്റീരിയലുകൾ}} ബാക്കി. നിങ്ങൾ {days} ദിവസങ്ങളിൽ പഠിക്കുന്നു.",
   "v5.course.plan.upNext": "അടുത്തത്",
   "v5.course.plan.week": "ആഴ്ച {number}",
+  "v5.course.plan.weekCount": "{count, plural, one {# ആഴ്ച} other {# ആഴ്ചകൾ}}",
   "v5.course.plan.weekFinish": "{title} പൂർത്തിയാക്കുക",
   "v5.course.plan.weekFree": "പിന്നിലുള്ളത് പൂർത്തിയാക്കുക, അല്ലെങ്കിൽ ഈ ആഴ്ച അവധിയെടുക്കുക",
   "v5.course.plan.weekRange": "ആഴ്ച {number} · {range}",

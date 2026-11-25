@@ -221,6 +221,7 @@
   "learner.catalog.v5.item.aboutProgram": "ဤပရိုဂရမ်အကြောင်း",
   "learner.catalog.v5.item.aboutSession": "ဤစာသင်ချိန်အကြောင်း",
   "learner.catalog.v5.item.askForAccess": "သင့်ကို ဝင်ရောက်ခွင့်ပေးရန် {organization} ကို တောင်းဆိုပါ။",
+  "learner.catalog.v5.item.audience": "ရည်ရွယ်ထားသူများ",
   "learner.catalog.v5.item.availableIn": "{languages} ဖြင့် ရနိုင်သည်",
   "learner.catalog.v5.item.back": "နောက်သို့",
   "learner.catalog.v5.item.backToCatalog": "ကတ်တလောက်သို့ ပြန်သွားရန်",

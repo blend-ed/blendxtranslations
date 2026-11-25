@@ -940,6 +940,7 @@
   "v5.course.plan.thisWeekLineMany": "На этой неделе {count, plural, one {остался # материал} few {осталось # материала} many {осталось # материалов} other {осталось # материала}}. Ваши дни занятий: {days}.",
   "v5.course.plan.upNext": "Далее",
   "v5.course.plan.week": "Неделя {number}",
+  "v5.course.plan.weekCount": "{count, plural, one {# неделя} few {# недели} many {# недель} other {# недели}}",
   "v5.course.plan.weekFinish": "Завершить {title}",
   "v5.course.plan.weekFree": "Наверстайте или возьмите неделю отдыха",
   "v5.course.plan.weekRange": "Неделя {number} · {range}",

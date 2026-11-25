@@ -221,6 +221,7 @@
   "learner.catalog.v5.item.aboutProgram": "Об этой программе",
   "learner.catalog.v5.item.aboutSession": "Об этом занятии",
   "learner.catalog.v5.item.askForAccess": "Попросите {organization} предоставить вам доступ.",
+  "learner.catalog.v5.item.audience": "Для кого",
   "learner.catalog.v5.item.availableIn": "Доступно на языках: {languages}",
   "learner.catalog.v5.item.back": "Назад",
   "learner.catalog.v5.item.backToCatalog": "В каталог",

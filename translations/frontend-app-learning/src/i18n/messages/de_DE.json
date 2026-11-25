@@ -940,6 +940,7 @@
   "v5.course.plan.thisWeekLineMany": "{count, plural, one {# Material} other {# Materialien}} übrig diese Woche. Sie lernen am {days}.",
   "v5.course.plan.upNext": "Als Nächstes",
   "v5.course.plan.week": "Woche {number}",
+  "v5.course.plan.weekCount": "{count, plural, one {# Woche} other {# Wochen}}",
   "v5.course.plan.weekFinish": "{title} abschließen",
   "v5.course.plan.weekFree": "Holen Sie auf oder nehmen Sie sich die Woche frei",
   "v5.course.plan.weekRange": "Woche {number} · {range}",

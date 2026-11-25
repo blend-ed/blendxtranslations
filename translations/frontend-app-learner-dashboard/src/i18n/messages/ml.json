@@ -221,6 +221,7 @@
   "learner.catalog.v5.item.aboutProgram": "ഈ പ്രോഗ്രാമിനെക്കുറിച്ച്",
   "learner.catalog.v5.item.aboutSession": "ഈ സെഷനെക്കുറിച്ച്",
   "learner.catalog.v5.item.askForAccess": "നിങ്ങൾക്ക് ആക്സസ് നൽകാൻ {organization}-നോട് ആവശ്യപ്പെടുക.",
+  "learner.catalog.v5.item.audience": "ഇത് ആർക്കുവേണ്ടിയാണ്",
   "learner.catalog.v5.item.availableIn": "{languages}-ൽ ലഭ്യമാണ്",
   "learner.catalog.v5.item.back": "തിരികെ പോകുക",
   "learner.catalog.v5.item.backToCatalog": "കാറ്റലോഗിലേക്ക് മടങ്ങുക",

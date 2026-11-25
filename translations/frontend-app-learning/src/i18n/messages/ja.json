@@ -940,6 +940,7 @@
   "v5.course.plan.thisWeekLineMany": "今週の残り{count, plural, other {#件の教材}}。学習日は{days}です。",
   "v5.course.plan.upNext": "次へ",
   "v5.course.plan.week": "第{number}週",
+  "v5.course.plan.weekCount": "{count, plural, one {# 週間} other {# 週間}}",
   "v5.course.plan.weekFinish": "{title}を完了",
   "v5.course.plan.weekFree": "遅れを取り戻すか、今週は休みにする",
   "v5.course.plan.weekRange": "第{number}週 · {range}",

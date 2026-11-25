@@ -221,6 +221,7 @@
   "learner.catalog.v5.item.aboutProgram": "이 프로그램에 대하여",
   "learner.catalog.v5.item.aboutSession": "이 세션 소개",
   "learner.catalog.v5.item.askForAccess": "{organization}에 액세스 권한을 요청하세요.",
+  "learner.catalog.v5.item.audience": "대상",
   "learner.catalog.v5.item.availableIn": "{languages}(으)로 제공",
   "learner.catalog.v5.item.back": "뒤로가기",
   "learner.catalog.v5.item.backToCatalog": "목록으로 돌아가기",

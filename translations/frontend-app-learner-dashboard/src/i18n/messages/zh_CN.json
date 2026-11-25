@@ -221,6 +221,7 @@
   "learner.catalog.v5.item.aboutProgram": "关于这个计划",
   "learner.catalog.v5.item.aboutSession": "关于此课堂",
   "learner.catalog.v5.item.askForAccess": "请联系 {organization} 为您开通访问权限。",
+  "learner.catalog.v5.item.audience": "适用对象",
   "learner.catalog.v5.item.availableIn": "提供语言：{languages}",
   "learner.catalog.v5.item.back": "返回",
   "learner.catalog.v5.item.backToCatalog": "返回目录",

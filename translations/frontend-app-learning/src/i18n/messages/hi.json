@@ -940,6 +940,7 @@
   "v5.course.plan.thisWeekLineMany": "इस सप्ताह {count, plural, one {# सामग्री} other {# सामग्रियाँ}} शेष। आप {days} को सीख रहे हैं।",
   "v5.course.plan.upNext": "अगला",
   "v5.course.plan.week": "सप्ताह {number}",
+  "v5.course.plan.weekCount": "{count, plural, one {# सप्ताह} other {# सप्ताह}}",
   "v5.course.plan.weekFinish": "{title} पूरा करें",
   "v5.course.plan.weekFree": "पिछला काम पूरा करें, या इस सप्ताह छुट्टी लें",
   "v5.course.plan.weekRange": "सप्ताह {number} · {range}",

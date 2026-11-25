@@ -221,6 +221,7 @@
   "learner.catalog.v5.item.aboutProgram": "حول هذا البرنامج",
   "learner.catalog.v5.item.aboutSession": "حول هذه الجلسة",
   "learner.catalog.v5.item.askForAccess": "اطلب من {organization} منحك الوصول.",
+  "learner.catalog.v5.item.audience": "الفئة المستهدفة",
   "learner.catalog.v5.item.availableIn": "متاح باللغات: {languages}",
   "learner.catalog.v5.item.back": "عُد",
   "learner.catalog.v5.item.backToCatalog": "العودة إلى الكتالوج",

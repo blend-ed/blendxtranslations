@@ -940,6 +940,7 @@
   "v5.course.plan.thisWeekLineMany": "{count, plural, one {Queda # material} other {Quedan # materiales}} esta semana. Aprende los {days}.",
   "v5.course.plan.upNext": "A continuación",
   "v5.course.plan.week": "Semana {number}",
+  "v5.course.plan.weekCount": "{count, plural, one {# semana} other {# semanas}}",
   "v5.course.plan.weekFinish": "Terminar {title}",
   "v5.course.plan.weekFree": "Póngase al día o tómese la semana libre",
   "v5.course.plan.weekRange": "Semana {number} · {range}",

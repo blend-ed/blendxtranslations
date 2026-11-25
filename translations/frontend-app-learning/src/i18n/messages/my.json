@@ -940,6 +940,7 @@
   "v5.course.plan.thisWeekLineMany": "ဤအပတ်တွင် {count, plural, other {သင်ထောက်ကူပစ္စည်း # ခု}} ကျန်သည်။ သင်သည် {days} တွင် သင်ယူပါသည်။",
   "v5.course.plan.upNext": "နောက်တစ်ခု",
   "v5.course.plan.week": "အပတ် {number}",
+  "v5.course.plan.weekCount": "{count, plural, one {# ပတ်} other {# ပတ်}}",
   "v5.course.plan.weekFinish": "{title} ကို ပြီးဆုံးရန်",
   "v5.course.plan.weekFree": "နောက်ကျနေသည်ကို လိုက်မီအောင်လုပ်ပါ သို့မဟုတ် အပတ်ကို နားပါ",
   "v5.course.plan.weekRange": "အပတ် {number} · {range}",

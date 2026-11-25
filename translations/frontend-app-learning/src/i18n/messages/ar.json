@@ -940,6 +940,7 @@
   "v5.course.plan.thisWeekLineMany": "تبقّى {count, plural, one {مادة واحدة} two {مادتان} few {# مواد} many {# مادة} other {# مادة}} هذا الأسبوع. أنت تتعلم في {days}.",
   "v5.course.plan.upNext": "التالي",
   "v5.course.plan.week": "الأسبوع {number}",
+  "v5.course.plan.weekCount": "{count, plural, one {أسبوع واحد} two {أسبوعان} few {# أسابيع} many {# أسبوعًا} other {# أسبوع}}",
   "v5.course.plan.weekFinish": "إنهاء {title}",
   "v5.course.plan.weekFree": "استدرك ما فاتك، أو خذ إجازة هذا الأسبوع",
   "v5.course.plan.weekRange": "الأسبوع {number} · {range}",

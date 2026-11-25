@@ -221,6 +221,7 @@
   "learner.catalog.v5.item.aboutProgram": "このプログラムについて",
   "learner.catalog.v5.item.aboutSession": "このセッションについて",
   "learner.catalog.v5.item.askForAccess": "{organization}にアクセス権の付与を依頼してください。",
+  "learner.catalog.v5.item.audience": "対象者",
   "learner.catalog.v5.item.availableIn": "{languages}で利用可能",
   "learner.catalog.v5.item.back": "戻る",
   "learner.catalog.v5.item.backToCatalog": "カタログに戻る",

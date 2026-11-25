@@ -940,6 +940,7 @@
   "v5.course.plan.thisWeekLineMany": "이번 주에 {count, plural, other {자료 #개}}가 남았습니다. {days}에 학습합니다.",
   "v5.course.plan.upNext": "다음 항목",
   "v5.course.plan.week": "{number}주차",
+  "v5.course.plan.weekCount": "{count, plural, other {#주}}",
   "v5.course.plan.weekFinish": "{title} 완료",
   "v5.course.plan.weekFree": "밀린 학습을 따라잡거나 한 주 쉬기",
   "v5.course.plan.weekRange": "{number}주차 · {range}",

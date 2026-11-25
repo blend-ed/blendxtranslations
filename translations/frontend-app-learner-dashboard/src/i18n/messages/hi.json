@@ -221,6 +221,7 @@
   "learner.catalog.v5.item.aboutProgram": "इस कार्यक्रम के बारे में",
   "learner.catalog.v5.item.aboutSession": "इस सत्र के बारे में",
   "learner.catalog.v5.item.askForAccess": "{organization} से आपको पहुँच देने के लिए कहें।",
+  "learner.catalog.v5.item.audience": "यह किसके लिए है",
   "learner.catalog.v5.item.availableIn": "{languages} में उपलब्ध",
   "learner.catalog.v5.item.back": "वापस जाओ",
   "learner.catalog.v5.item.backToCatalog": "सूची पर वापस जाएँ",

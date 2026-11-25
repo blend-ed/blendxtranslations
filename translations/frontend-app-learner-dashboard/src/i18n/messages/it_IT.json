@@ -221,6 +221,7 @@
   "learner.catalog.v5.item.aboutProgram": "Informazioni su questo programma",
   "learner.catalog.v5.item.aboutSession": "Informazioni su questa sessione",
   "learner.catalog.v5.item.askForAccess": "Chiedi a {organization} di darti l'accesso.",
+  "learner.catalog.v5.item.audience": "A chi è rivolto",
   "learner.catalog.v5.item.availableIn": "Disponibile in {languages}",
   "learner.catalog.v5.item.back": "Torna indietro",
   "learner.catalog.v5.item.backToCatalog": "Torna al catalogo",
