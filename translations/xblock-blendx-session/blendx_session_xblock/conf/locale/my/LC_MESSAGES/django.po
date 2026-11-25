@@ -24,6 +24,11 @@ msgstr "သင့်နေရာကို ကြိုတင်စာရင်�
 msgid "Your organisation will book your Session."
 msgstr "သင့်အဖွဲ့အစည်းက သင့်စာသင်ချိန်ကို ကြိုတင်စာရင်းသွင်းပေးပါမည်။"
 
+msgid "Your date will be scheduled for you. You'll be booked automatically."
+msgstr ""
+"သင့်ရက်စွဲကို သင့်အတွက် သတ်မှတ်ပေးပါမည်။ သင့်ကို အလိုအလျောက် "
+"ကြိုတင်စာရင်းသွင်းပေးပါမည်။"
+
 msgid "You're booked."
 msgstr "သင် ကြိုတင်စာရင်းသွင်းပြီးပါပြီ။"
 
@@ -41,6 +46,58 @@ msgstr "သင်သည် ဤစာသင်ချိန်ကို လွတ�
 
 msgid "You don't have access to this Session."
 msgstr "ဤစာသင်ချိန်ကို ဝင်ရောက်ခွင့် မရှိပါ။"
+
+msgid "Online"
+msgstr "အွန်လိုင်း"
+
+msgid "In person"
+msgstr "လူကိုယ်တိုင်"
+
+msgid "Hybrid"
+msgstr "ပေါင်းစပ်"
+
+msgid "Waitlisted"
+msgstr "စောင့်ဆိုင်းစာရင်းတွင်"
+
+msgid "Attended"
+msgstr "တက်ရောက်ခဲ့သည်"
+
+msgid "Missed"
+msgstr "လွတ်သွားသည်"
+
+msgid "Part {part}"
+msgstr "အပိုင်း {part}"
+
+msgid "Waitlisted, number {position}"
+msgstr "စောင့်ဆိုင်းစာရင်းတွင်၊ နံပါတ် {position}"
+
+msgid "Join now"
+msgstr "ယခု ဝင်ရောက်ရန်"
+
+msgid "Choose a date"
+msgstr "ရက်စွဲ ရွေးပါ"
+
+msgid "Change or cancel"
+msgstr "ပြောင်းရန် သို့မဟုတ် ပယ်ဖျက်ရန်"
+
+msgid "Session details"
+msgstr "စာသင်ချိန် အသေးစိတ်"
+
+msgid "Add to calendar"
+msgstr "ပြက္ခဒိန်တွင် ထည့်ရန်"
+
+msgid "You can join from 15 minutes before the start."
+msgstr "စတင်ချိန်မတိုင်မီ ၁၅ မိနစ်မှစ၍ ဝင်ရောက်နိုင်ပါသည်။"
+
+msgid "Your trainer set this date for your batch. Contact them to change it."
+msgstr ""
+"သင့်လေ့ကျင့်ပေးသူက သင့်အသုတ်အတွက် ဤရက်စွဲကို သတ်မှတ်ထားပါသည်။ ပြောင်းလိုပါက "
+"၎င်းကို ဆက်သွယ်ပါ။"
+
+msgid "Times are in UTC. Set your time zone in your account settings."
+msgstr ""
+"အချိန်များသည် UTC ဖြစ်သည်။ သင့်အကောင့်ဆက်တင်များတွင် သင့်အချိန်ဇုန်ကို "
+"သတ်မှတ်ပါ။"
 
 msgid "Display name"
 msgstr "ပြသမည့်အမည်"
@@ -68,6 +125,12 @@ msgstr "သင်ယူသူများ ကြိုတင်စာရင်�
 msgid "Booking opens here when it's available."
 msgstr "ရရှိနိုင်သည့်အခါ ဤနေရာတွင် ကြိုတင်စာရင်းသွင်းခြင်း ဖွင့်ပါမည်။"
 
+msgid "You're number {position} on the waitlist."
+msgstr "စောင့်ဆိုင်းစာရင်းတွင် သင်သည် နံပါတ် {position} ဖြစ်သည်။"
+
+msgid "No dates scheduled yet."
+msgstr "ရက်စွဲ မသတ်မှတ်ရသေးပါ။"
+
 msgid "Optional"
 msgstr "ရွေးချယ်နိုင်သည်"
 
@@ -84,6 +147,9 @@ msgstr ""
 
 msgid "Choose which dates learners may book."
 msgstr "သင်ယူသူများ ကြိုတင်စာရင်းသွင်းနိုင်သည့် ရက်စွဲများကို ရွေးချယ်ပါ။"
+
+msgid "Ready: the link syncs when the Course is published."
+msgstr "အသင့်ဖြစ်ပြီ- သင်တန်းကို ထုတ်ဝေသောအခါ လင့်ခ်ကို ချိန်ကိုက်ပါမည်။"
 
 msgid "(no Session selected)"
 msgstr "(စာသင်ချိန် ရွေးချယ်ထားခြင်း မရှိပါ)"

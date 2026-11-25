@@ -25,6 +25,9 @@ msgstr "Elija una fecha para reservar su plaza."
 msgid "Your organisation will book your Session."
 msgstr "Su organización reservará su sesión."
 
+msgid "Your date will be scheduled for you. You'll be booked automatically."
+msgstr "Tu fecha se programará por ti. Se te reservará plaza automáticamente."
+
 msgid "You're booked."
 msgstr "Tiene reserva."
 
@@ -42,6 +45,58 @@ msgstr "No asistió a esta sesión."
 
 msgid "You don't have access to this Session."
 msgstr "No tiene acceso a esta sesión."
+
+msgid "Online"
+msgstr "En línea"
+
+msgid "In person"
+msgstr "Presencial"
+
+msgid "Hybrid"
+msgstr "Híbrida"
+
+msgid "Waitlisted"
+msgstr "En lista de espera"
+
+msgid "Attended"
+msgstr "Asistió"
+
+msgid "Missed"
+msgstr "No asistió"
+
+msgid "Part {part}"
+msgstr "Parte {part}"
+
+msgid "Waitlisted, number {position}"
+msgstr "En lista de espera, número {position}"
+
+msgid "Join now"
+msgstr "Unirse ahora"
+
+msgid "Choose a date"
+msgstr "Elegir una fecha"
+
+msgid "Change or cancel"
+msgstr "Cambiar o cancelar"
+
+msgid "Session details"
+msgstr "Detalles de la sesión"
+
+msgid "Add to calendar"
+msgstr "Añadir al calendario"
+
+msgid "You can join from 15 minutes before the start."
+msgstr "Puedes unirte desde 15 minutos antes del inicio."
+
+msgid "Your trainer set this date for your batch. Contact them to change it."
+msgstr ""
+"Tu formador fijó esta fecha para tu edición. Ponte en contacto con él para "
+"cambiarla."
+
+msgid "Times are in UTC. Set your time zone in your account settings."
+msgstr ""
+"Las horas están en UTC. Configura tu zona horaria en los ajustes de tu "
+"cuenta."
 
 msgid "Display name"
 msgstr "Nombre visible"
@@ -70,6 +125,12 @@ msgstr "Qué fechas pueden reservar los estudiantes"
 msgid "Booking opens here when it's available."
 msgstr "La reserva se abrirá aquí cuando esté disponible."
 
+msgid "You're number {position} on the waitlist."
+msgstr "Eres el número {position} en la lista de espera."
+
+msgid "No dates scheduled yet."
+msgstr "Aún no hay fechas programadas."
+
 msgid "Optional"
 msgstr "Opcional"
 
@@ -86,6 +147,9 @@ msgstr ""
 
 msgid "Choose which dates learners may book."
 msgstr "Elija qué fechas pueden reservar los estudiantes."
+
+msgid "Ready: the link syncs when the Course is published."
+msgstr "Listo: el enlace se sincroniza cuando se publica el curso."
 
 msgid "(no Session selected)"
 msgstr "(ninguna sesión seleccionada)"

@@ -24,6 +24,9 @@ msgstr "자리를 예약할 날짜를 선택하세요."
 msgid "Your organisation will book your Session."
 msgstr "조직에서 세션을 예약해 드립니다."
 
+msgid "Your date will be scheduled for you. You'll be booked automatically."
+msgstr "날짜가 자동으로 정해지며, 자동으로 예약됩니다."
+
 msgid "You're booked."
 msgstr "예약되었습니다."
 
@@ -39,6 +42,54 @@ msgstr "이 세션에 결석했습니다."
 
 msgid "You don't have access to this Session."
 msgstr "이 세션에 액세스할 권한이 없습니다."
+
+msgid "Online"
+msgstr "온라인"
+
+msgid "In person"
+msgstr "대면"
+
+msgid "Hybrid"
+msgstr "하이브리드"
+
+msgid "Waitlisted"
+msgstr "대기 중"
+
+msgid "Attended"
+msgstr "출석"
+
+msgid "Missed"
+msgstr "불참"
+
+msgid "Part {part}"
+msgstr "파트 {part}"
+
+msgid "Waitlisted, number {position}"
+msgstr "대기 중, {position}번"
+
+msgid "Join now"
+msgstr "지금 참여"
+
+msgid "Choose a date"
+msgstr "날짜 선택"
+
+msgid "Change or cancel"
+msgstr "변경 또는 취소"
+
+msgid "Session details"
+msgstr "세션 세부 정보"
+
+msgid "Add to calendar"
+msgstr "캘린더에 추가"
+
+msgid "You can join from 15 minutes before the start."
+msgstr "시작 15분 전부터 참여할 수 있습니다."
+
+msgid "Your trainer set this date for your batch. Contact them to change it."
+msgstr "트레이너가 내 기수에 맞춰 이 날짜를 지정했습니다. 변경하려면 트레이너에게 문의하세요."
+
+msgid "Times are in UTC. Set your time zone in your account settings."
+msgstr "시간은 UTC 기준입니다. 계정 설정에서 시간대를 설정하세요."
 
 msgid "Display name"
 msgstr "표시 이름"
@@ -65,6 +116,12 @@ msgstr "학습자가 예약할 수 있는 날짜"
 msgid "Booking opens here when it's available."
 msgstr "예약이 가능해지면 여기에서 열립니다."
 
+msgid "You're number {position} on the waitlist."
+msgstr "대기자 명단에서 {position}번입니다."
+
+msgid "No dates scheduled yet."
+msgstr "아직 예정된 날짜가 없습니다."
+
 msgid "Optional"
 msgstr "선택 사항"
 
@@ -79,6 +136,9 @@ msgstr "세션이 게시되지 않아 게시 시 링크가 동기화되지 않�
 
 msgid "Choose which dates learners may book."
 msgstr "학습자가 예약할 수 있는 날짜를 선택하세요."
+
+msgid "Ready: the link syncs when the Course is published."
+msgstr "준비 완료: 강의가 게시되면 링크가 동기화됩니다."
 
 msgid "(no Session selected)"
 msgstr "(선택한 세션 없음)"

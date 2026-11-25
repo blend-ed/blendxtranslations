@@ -24,6 +24,9 @@ msgstr "अपना स्थान बुक करने के लिए ए
 msgid "Your organisation will book your Session."
 msgstr "आपका संगठन आपका सत्र बुक करेगा।"
 
+msgid "Your date will be scheduled for you. You'll be booked automatically."
+msgstr "आपकी तारीख आपके लिए तय की जाएगी। आपकी बुकिंग अपने-आप हो जाएगी।"
+
 msgid "You're booked."
 msgstr "आपकी बुकिंग हो गई है।"
 
@@ -41,6 +44,56 @@ msgstr "आप इस सत्र में अनुपस्थित रह�
 
 msgid "You don't have access to this Session."
 msgstr "आपके पास इस सत्र की पहुँच नहीं है।"
+
+msgid "Online"
+msgstr "ऑनलाइन"
+
+msgid "In person"
+msgstr "व्यक्तिगत रूप से"
+
+msgid "Hybrid"
+msgstr "हाइब्रिड"
+
+msgid "Waitlisted"
+msgstr "प्रतीक्षा सूची में"
+
+msgid "Attended"
+msgstr "उपस्थित"
+
+msgid "Missed"
+msgstr "छूट गया"
+
+msgid "Part {part}"
+msgstr "भाग {part}"
+
+msgid "Waitlisted, number {position}"
+msgstr "प्रतीक्षा सूची में, क्रमांक {position}"
+
+msgid "Join now"
+msgstr "अभी जुड़ें"
+
+msgid "Choose a date"
+msgstr "एक तारीख चुनें"
+
+msgid "Change or cancel"
+msgstr "बदलें या रद्द करें"
+
+msgid "Session details"
+msgstr "सत्र का विवरण"
+
+msgid "Add to calendar"
+msgstr "कैलेंडर में जोड़ें"
+
+msgid "You can join from 15 minutes before the start."
+msgstr "आप शुरू होने से 15 मिनट पहले से जुड़ सकते हैं।"
+
+msgid "Your trainer set this date for your batch. Contact them to change it."
+msgstr ""
+"आपके प्रशिक्षक ने यह तारीख आपके बैच के लिए तय की है। इसे बदलने के लिए उनसे "
+"संपर्क करें।"
+
+msgid "Times are in UTC. Set your time zone in your account settings."
+msgstr "समय UTC में हैं। अपने खाते की सेटिंग्स में अपना समय क्षेत्र सेट करें।"
 
 msgid "Display name"
 msgstr "प्रदर्शित नाम"
@@ -68,6 +121,12 @@ msgstr "शिक्षार्थी कौन-सी तारीखें �
 msgid "Booking opens here when it's available."
 msgstr "उपलब्ध होने पर बुकिंग यहाँ खुलेगी।"
 
+msgid "You're number {position} on the waitlist."
+msgstr "प्रतीक्षा सूची में आपका क्रमांक {position} है।"
+
+msgid "No dates scheduled yet."
+msgstr "अभी कोई तारीख निर्धारित नहीं है।"
+
 msgid "Optional"
 msgstr "वैकल्पिक"
 
@@ -82,6 +141,9 @@ msgstr "सत्र प्रकाशित नहीं है, इसलि�
 
 msgid "Choose which dates learners may book."
 msgstr "चुनें कि शिक्षार्थी कौन-सी तारीखें बुक कर सकते हैं।"
+
+msgid "Ready: the link syncs when the Course is published."
+msgstr "तैयार: पाठ्यक्रम प्रकाशित होने पर लिंक सिंक होता है।"
 
 msgid "(no Session selected)"
 msgstr "(कोई सत्र चयनित नहीं)"

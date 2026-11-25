@@ -24,6 +24,11 @@ msgstr "നിങ്ങളുടെ സ്ഥാനം ബുക്ക് ചെ
 msgid "Your organisation will book your Session."
 msgstr "നിങ്ങളുടെ സ്ഥാപനം നിങ്ങളുടെ സെഷൻ ബുക്ക് ചെയ്യും."
 
+msgid "Your date will be scheduled for you. You'll be booked automatically."
+msgstr ""
+"നിങ്ങളുടെ തീയതി നിങ്ങൾക്കായി ഷെഡ്യൂൾ ചെയ്യും. നിങ്ങളെ സ്വയമേവ ബുക്ക് "
+"ചെയ്യും."
+
 msgid "You're booked."
 msgstr "നിങ്ങൾ ബുക്ക് ചെയ്തു."
 
@@ -41,6 +46,57 @@ msgstr "നിങ്ങൾക്ക് ഈ സെഷൻ നഷ്ടമായി
 
 msgid "You don't have access to this Session."
 msgstr "ഈ സെഷനിലേക്ക് നിങ്ങൾക്ക് ആക്സസ് ഇല്ല."
+
+msgid "Online"
+msgstr "ഓൺലൈൻ"
+
+msgid "In person"
+msgstr "നേരിട്ട്"
+
+msgid "Hybrid"
+msgstr "ഹൈബ്രിഡ്"
+
+msgid "Waitlisted"
+msgstr "വെയിറ്റ്‌ലിസ്റ്റിൽ"
+
+msgid "Attended"
+msgstr "പങ്കെടുത്തു"
+
+msgid "Missed"
+msgstr "നഷ്ടമായി"
+
+msgid "Part {part}"
+msgstr "ഭാഗം {part}"
+
+msgid "Waitlisted, number {position}"
+msgstr "വെയിറ്റ്‌ലിസ്റ്റിൽ, നമ്പർ {position}"
+
+msgid "Join now"
+msgstr "ഇപ്പോൾ ചേരുക"
+
+msgid "Choose a date"
+msgstr "ഒരു തീയതി തിരഞ്ഞെടുക്കുക"
+
+msgid "Change or cancel"
+msgstr "മാറ്റുക അല്ലെങ്കിൽ റദ്ദാക്കുക"
+
+msgid "Session details"
+msgstr "സെഷൻ വിശദാംശങ്ങൾ"
+
+msgid "Add to calendar"
+msgstr "കലണ്ടറിലേക്ക് ചേർക്കുക"
+
+msgid "You can join from 15 minutes before the start."
+msgstr "ആരംഭിക്കുന്നതിന് 15 മിനിറ്റ് മുമ്പ് മുതൽ നിങ്ങൾക്ക് ചേരാം."
+
+msgid "Your trainer set this date for your batch. Contact them to change it."
+msgstr ""
+"നിങ്ങളുടെ പരിശീലകൻ നിങ്ങളുടെ ബാച്ചിനായി ഈ തീയതി നിശ്ചയിച്ചു. ഇത് മാറ്റാൻ "
+"അവരെ ബന്ധപ്പെടുക."
+
+msgid "Times are in UTC. Set your time zone in your account settings."
+msgstr ""
+"സമയം UTC യിലാണ്. നിങ്ങളുടെ അക്കൗണ്ട് ക്രമീകരണങ്ങളിൽ സമയ മേഖല സജ്ജമാക്കുക."
 
 msgid "Display name"
 msgstr "പ്രദർശന നാമം"
@@ -67,6 +123,12 @@ msgstr "പഠിതാക്കൾക്ക് ബുക്ക് ചെയ്�
 msgid "Booking opens here when it's available."
 msgstr "ലഭ്യമാകുമ്പോൾ ബുക്കിംഗ് ഇവിടെ തുറക്കും."
 
+msgid "You're number {position} on the waitlist."
+msgstr "വെയിറ്റ്‌ലിസ്റ്റിൽ നിങ്ങൾ {position} -ാം സ്ഥാനത്താണ്."
+
+msgid "No dates scheduled yet."
+msgstr "ഇതുവരെ തീയതികളൊന്നും ഷെഡ്യൂൾ ചെയ്തിട്ടില്ല."
+
 msgid "Optional"
 msgstr "ഓപ്ഷണൽ"
 
@@ -83,6 +145,9 @@ msgstr ""
 
 msgid "Choose which dates learners may book."
 msgstr "പഠിതാക്കൾക്ക് ബുക്ക് ചെയ്യാവുന്ന തീയതികൾ തിരഞ്ഞെടുക്കുക."
+
+msgid "Ready: the link syncs when the Course is published."
+msgstr "തയ്യാർ: കോഴ്സ് പ്രസിദ്ധീകരിക്കുമ്പോൾ ലിങ്ക് സമന്വയിപ്പിക്കും."
 
 msgid "(no Session selected)"
 msgstr "(സെഷൻ ഒന്നും തിരഞ്ഞെടുത്തിട്ടില്ല)"

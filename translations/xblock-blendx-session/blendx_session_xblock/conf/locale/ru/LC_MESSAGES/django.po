@@ -24,6 +24,9 @@ msgstr "Выберите дату, чтобы забронировать мес�
 msgid "Your organisation will book your Session."
 msgstr "Ваша организация забронирует для вас занятие."
 
+msgid "Your date will be scheduled for you. You'll be booked automatically."
+msgstr "Дата будет назначена за вас. Бронирование произойдёт автоматически."
+
 msgid "You're booked."
 msgstr "Вы записаны."
 
@@ -41,6 +44,57 @@ msgstr "Вы пропустили это занятие."
 
 msgid "You don't have access to this Session."
 msgstr "У вас нет доступа к этому занятию."
+
+msgid "Online"
+msgstr "Онлайн"
+
+msgid "In person"
+msgstr "Очно"
+
+msgid "Hybrid"
+msgstr "Гибридный"
+
+msgid "Waitlisted"
+msgstr "В листе ожидания"
+
+msgid "Attended"
+msgstr "Присутствовал"
+
+msgid "Missed"
+msgstr "Пропущено"
+
+msgid "Part {part}"
+msgstr "Часть {part}"
+
+msgid "Waitlisted, number {position}"
+msgstr "В листе ожидания, номер {position}"
+
+msgid "Join now"
+msgstr "Присоединиться"
+
+msgid "Choose a date"
+msgstr "Выберите дату"
+
+msgid "Change or cancel"
+msgstr "Изменить или отменить"
+
+msgid "Session details"
+msgstr "Сведения о занятии"
+
+msgid "Add to calendar"
+msgstr "Добавить в календарь"
+
+msgid "You can join from 15 minutes before the start."
+msgstr "Присоединиться можно за 15 минут до начала."
+
+msgid "Your trainer set this date for your batch. Contact them to change it."
+msgstr ""
+"Эту дату назначил преподаватель для вашего потока. Чтобы изменить её, "
+"свяжитесь с ним."
+
+msgid "Times are in UTC. Set your time zone in your account settings."
+msgstr ""
+"Время указано в UTC. Укажите свой часовой пояс в настройках учётной записи."
 
 msgid "Display name"
 msgstr "Отображаемое имя"
@@ -67,6 +121,12 @@ msgstr "Какие даты доступны слушателям для бро�
 msgid "Booking opens here when it's available."
 msgstr "Бронирование откроется здесь, когда станет доступно."
 
+msgid "You're number {position} on the waitlist."
+msgstr "Вы под номером {position} в листе ожидания."
+
+msgid "No dates scheduled yet."
+msgstr "Даты пока не назначены."
+
 msgid "Optional"
 msgstr "Необязательно"
 
@@ -82,6 +142,9 @@ msgstr ""
 
 msgid "Choose which dates learners may book."
 msgstr "Выберите даты, доступные слушателям для бронирования."
+
+msgid "Ready: the link syncs when the Course is published."
+msgstr "Готово: ссылка синхронизируется после публикации курса."
 
 msgid "(no Session selected)"
 msgstr "(занятие не выбрано)"

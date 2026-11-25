@@ -24,6 +24,9 @@ msgstr "Choose a date to book your place."
 msgid "Your organisation will book your Session."
 msgstr "Your organisation will book your Session."
 
+msgid "Your date will be scheduled for you. You'll be booked automatically."
+msgstr "Your date will be scheduled for you. You'll be booked automatically."
+
 msgid "You're booked."
 msgstr "You're booked."
 
@@ -40,6 +43,54 @@ msgstr "You missed this Session."
 
 msgid "You don't have access to this Session."
 msgstr "You don't have access to this Session."
+
+msgid "Online"
+msgstr "Online"
+
+msgid "In person"
+msgstr "In person"
+
+msgid "Hybrid"
+msgstr "Hybrid"
+
+msgid "Waitlisted"
+msgstr "Waitlisted"
+
+msgid "Attended"
+msgstr "Attended"
+
+msgid "Missed"
+msgstr "Missed"
+
+msgid "Part {part}"
+msgstr "Part {part}"
+
+msgid "Waitlisted, number {position}"
+msgstr "Waitlisted, number {position}"
+
+msgid "Join now"
+msgstr "Join now"
+
+msgid "Choose a date"
+msgstr "Choose a date"
+
+msgid "Change or cancel"
+msgstr "Change or cancel"
+
+msgid "Session details"
+msgstr "Session details"
+
+msgid "Add to calendar"
+msgstr "Add to calendar"
+
+msgid "You can join from 15 minutes before the start."
+msgstr "You can join from 15 minutes before the start."
+
+msgid "Your trainer set this date for your batch. Contact them to change it."
+msgstr "Your trainer set this date for your batch. Contact them to change it."
+
+msgid "Times are in UTC. Set your time zone in your account settings."
+msgstr "Times are in UTC. Set your time zone in your account settings."
 
 msgid "Display name"
 msgstr "Display name"
@@ -67,6 +118,12 @@ msgstr "Which dates learners may book"
 msgid "Booking opens here when it's available."
 msgstr "Booking opens here when it's available."
 
+msgid "You're number {position} on the waitlist."
+msgstr "You're number {position} on the waitlist."
+
+msgid "No dates scheduled yet."
+msgstr "No dates scheduled yet."
+
 msgid "Optional"
 msgstr "Optional"
 
@@ -81,6 +138,9 @@ msgstr "The Session isn't published, so the link won't sync at publish."
 
 msgid "Choose which dates learners may book."
 msgstr "Choose which dates learners may book."
+
+msgid "Ready: the link syncs when the Course is published."
+msgstr "Ready: the link syncs when the Course is published."
 
 msgid "(no Session selected)"
 msgstr "(no Session selected)"

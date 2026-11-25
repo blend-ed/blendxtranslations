@@ -24,6 +24,9 @@ msgstr "选择日期以预约您的名额。"
 msgid "Your organisation will book your Session."
 msgstr "您的组织将为您预约课堂。"
 
+msgid "Your date will be scheduled for you. You'll be booked automatically."
+msgstr "系统会为你安排日期，并自动为你预约。"
+
 msgid "You're booked."
 msgstr "您已预约成功。"
 
@@ -39,6 +42,54 @@ msgstr "您错过了此课堂。"
 
 msgid "You don't have access to this Session."
 msgstr "您无权访问此课堂。"
+
+msgid "Online"
+msgstr "线上"
+
+msgid "In person"
+msgstr "线下"
+
+msgid "Hybrid"
+msgstr "混合"
+
+msgid "Waitlisted"
+msgstr "候补中"
+
+msgid "Attended"
+msgstr "已出勤"
+
+msgid "Missed"
+msgstr "缺席"
+
+msgid "Part {part}"
+msgstr "第 {part} 部分"
+
+msgid "Waitlisted, number {position}"
+msgstr "候补中，第 {position} 位"
+
+msgid "Join now"
+msgstr "立即加入"
+
+msgid "Choose a date"
+msgstr "选择日期"
+
+msgid "Change or cancel"
+msgstr "更改或取消"
+
+msgid "Session details"
+msgstr "课堂详情"
+
+msgid "Add to calendar"
+msgstr "添加到日历"
+
+msgid "You can join from 15 minutes before the start."
+msgstr "你可以在开始前 15 分钟加入。"
+
+msgid "Your trainer set this date for your batch. Contact them to change it."
+msgstr "讲师为你的班期设定了此日期。如需更改，请联系讲师。"
+
+msgid "Times are in UTC. Set your time zone in your account settings."
+msgstr "时间为 UTC。请在账户设置中设置你的时区。"
 
 msgid "Display name"
 msgstr "显示名称"
@@ -65,6 +116,12 @@ msgstr "学员可预约哪些日期"
 msgid "Booking opens here when it's available."
 msgstr "预约开放后将在此处显示。"
 
+msgid "You're number {position} on the waitlist."
+msgstr "你在候补名单中排第 {position} 位。"
+
+msgid "No dates scheduled yet."
+msgstr "尚未安排日期。"
+
 msgid "Optional"
 msgstr "可选"
 
@@ -79,6 +136,9 @@ msgstr "该课堂尚未发布，因此发布时链接不会同步。"
 
 msgid "Choose which dates learners may book."
 msgstr "选择学员可以预约的日期。"
+
+msgid "Ready: the link syncs when the Course is published."
+msgstr "已就绪：课程发布后链接会同步。"
 
 msgid "(no Session selected)"
 msgstr "（未选择课堂）"

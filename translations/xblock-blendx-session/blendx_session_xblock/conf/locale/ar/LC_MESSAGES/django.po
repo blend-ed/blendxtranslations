@@ -24,6 +24,9 @@ msgstr "اختر موعدًا لحجز مكانك."
 msgid "Your organisation will book your Session."
 msgstr "ستحجز مؤسستك جلستك."
 
+msgid "Your date will be scheduled for you. You'll be booked automatically."
+msgstr "سيُحدَّد موعدك نيابةً عنك. سيتم حجزك تلقائيًا."
+
 msgid "You're booked."
 msgstr "تم حجزك."
 
@@ -39,6 +42,54 @@ msgstr "فاتتك هذه الجلسة."
 
 msgid "You don't have access to this Session."
 msgstr "ليس لديك وصول إلى هذه الجلسة."
+
+msgid "Online"
+msgstr "عبر الإنترنت"
+
+msgid "In person"
+msgstr "حضوريًا"
+
+msgid "Hybrid"
+msgstr "مدمجة"
+
+msgid "Waitlisted"
+msgstr "في قائمة الانتظار"
+
+msgid "Attended"
+msgstr "حضر"
+
+msgid "Missed"
+msgstr "فاتته"
+
+msgid "Part {part}"
+msgstr "الجزء {part}"
+
+msgid "Waitlisted, number {position}"
+msgstr "في قائمة الانتظار، الرقم {position}"
+
+msgid "Join now"
+msgstr "انضم الآن"
+
+msgid "Choose a date"
+msgstr "اختر تاريخًا"
+
+msgid "Change or cancel"
+msgstr "تغيير أو إلغاء"
+
+msgid "Session details"
+msgstr "تفاصيل الجلسة"
+
+msgid "Add to calendar"
+msgstr "إضافة إلى التقويم"
+
+msgid "You can join from 15 minutes before the start."
+msgstr "يمكنك الانضمام قبل البدء بـ 15 دقيقة."
+
+msgid "Your trainer set this date for your batch. Contact them to change it."
+msgstr "حدّد مدربك هذا التاريخ لدفعتك. تواصل معه لتغييره."
+
+msgid "Times are in UTC. Set your time zone in your account settings."
+msgstr "الأوقات بتوقيت UTC. اضبط منطقتك الزمنية في إعدادات حسابك."
 
 msgid "Display name"
 msgstr "الاسم المعروض"
@@ -65,6 +116,12 @@ msgstr "المواعيد التي يمكن للمتعلمين حجزها"
 msgid "Booking opens here when it's available."
 msgstr "يُفتح الحجز هنا عندما يصبح متاحًا."
 
+msgid "You're number {position} on the waitlist."
+msgstr "أنت رقم {position} في قائمة الانتظار."
+
+msgid "No dates scheduled yet."
+msgstr "لا توجد تواريخ مجدولة بعد."
+
 msgid "Optional"
 msgstr "اختياري"
 
@@ -79,6 +136,9 @@ msgstr "الجلسة غير منشورة، لذا لن تتم مزامنة ال�
 
 msgid "Choose which dates learners may book."
 msgstr "اختر المواعيد التي يمكن للمتعلمين حجزها."
+
+msgid "Ready: the link syncs when the Course is published."
+msgstr "جاهز: تتم مزامنة الرابط عند نشر المساق."
 
 msgid "(no Session selected)"
 msgstr "(لم تُحدَّد جلسة)"

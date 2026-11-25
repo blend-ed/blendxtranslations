@@ -24,6 +24,9 @@ msgstr "受講枠を予約する日程を選択してください。"
 msgid "Your organisation will book your Session."
 msgstr "セッションは組織が予約します。"
 
+msgid "Your date will be scheduled for you. You'll be booked automatically."
+msgstr "日程はあなたに代わって設定され、自動的に予約されます。"
+
 msgid "You're booked."
 msgstr "予約が完了しました。"
 
@@ -39,6 +42,54 @@ msgstr "このセッションを欠席しました。"
 
 msgid "You don't have access to this Session."
 msgstr "このセッションへのアクセス権がありません。"
+
+msgid "Online"
+msgstr "オンライン"
+
+msgid "In person"
+msgstr "対面"
+
+msgid "Hybrid"
+msgstr "ハイブリッド"
+
+msgid "Waitlisted"
+msgstr "キャンセル待ち"
+
+msgid "Attended"
+msgstr "出席"
+
+msgid "Missed"
+msgstr "欠席"
+
+msgid "Part {part}"
+msgstr "パート {part}"
+
+msgid "Waitlisted, number {position}"
+msgstr "キャンセル待ち、{position} 番"
+
+msgid "Join now"
+msgstr "今すぐ参加"
+
+msgid "Choose a date"
+msgstr "日付を選択"
+
+msgid "Change or cancel"
+msgstr "変更またはキャンセル"
+
+msgid "Session details"
+msgstr "セッションの詳細"
+
+msgid "Add to calendar"
+msgstr "カレンダーに追加"
+
+msgid "You can join from 15 minutes before the start."
+msgstr "開始15分前から参加できます。"
+
+msgid "Your trainer set this date for your batch. Contact them to change it."
+msgstr "この日付は講師があなたの受講期向けに設定しました。変更するには講師に連絡してください。"
+
+msgid "Times are in UTC. Set your time zone in your account settings."
+msgstr "時刻は UTC です。タイムゾーンはアカウント設定で設定してください。"
 
 msgid "Display name"
 msgstr "表示名"
@@ -65,6 +116,12 @@ msgstr "学習者が予約できる日程"
 msgid "Booking opens here when it's available."
 msgstr "予約が可能になると、ここから予約できます。"
 
+msgid "You're number {position} on the waitlist."
+msgstr "キャンセル待ちの {position} 番です。"
+
+msgid "No dates scheduled yet."
+msgstr "日程はまだ決まっていません。"
+
 msgid "Optional"
 msgstr "任意"
 
@@ -79,6 +136,9 @@ msgstr "セッションが公開されていないため、公開時にリンク
 
 msgid "Choose which dates learners may book."
 msgstr "学習者が予約できる日程を選択してください。"
+
+msgid "Ready: the link syncs when the Course is published."
+msgstr "準備完了: 講座を公開するとリンクが同期されます。"
 
 msgid "(no Session selected)"
 msgstr "（セッションが選択されていません）"
