@@ -1258,6 +1258,27 @@ msgstr "会社の共同マネージャーの招待"
 msgid "Sent when a company's manager invites someone to manage it with them."
 msgstr "会社のマネージャーが共同で管理する人を招待した場合に送信されます。"
 
+msgid "Essay assignment grade received"
+msgstr "エッセイ課題の成績を受信"
+
+msgid ""
+"You received a grade on an essay assignment (an open response assessment)."
+msgstr "エッセイ課題(自由記述評価)の成績を受け取りました。"
+
+msgid "Essay assignment reminders"
+msgstr "エッセイ課題のリマインダー"
+
+msgid "You have self or peer review steps to complete in an essay assignment."
+msgstr "エッセイ課題で、自己評価またはピアレビューのステップを完了する必要があります。"
+
+msgid "New ORA submission for staff grading"
+msgstr "スタッフ採点用の新しい提出物"
+
+msgid ""
+"A learner made a submission for an essay assignment that includes a staff "
+"grading step."
+msgstr "学習者が、スタッフ採点のステップを含むエッセイ課題を提出しました。"
+
 msgid "Platform name"
 msgstr "プラットフォーム名"
 

@@ -155,7 +155,7 @@
   "login.sso.required.link": "{provider} ഉപയോഗിച്ച് സൈൻ ഇൻ ചെയ്യുക",
   "login.third.party.auth.account.not.linked": "നിങ്ങൾ {currentProvider}-ലേക്ക് വിജയകരമായി സൈൻ ഇൻ ചെയ്തു, എന്നാൽ നിങ്ങളുടെ {currentProvider} അക്കൗണ്ടിന് ലിങ്ക് ചെയ്ത {platformName} അക്കൗണ്ട് ഇല്ല. നിങ്ങളുടെ അക്കൗണ്ടുകൾ ലിങ്ക് ചെയ്യാൻ, നിങ്ങളുടെ {platformName} പാസ്‌വേഡ് ഉപയോഗിച്ച് ഇപ്പോൾ സൈൻ ഇൻ ചെയ്യുക.",
   "login.tpa.authentication.failure": "ക്ഷമിക്കണം, ഈ മാർഗ്ഗത്തിലൂടെ {platform_name} ആക്സസ് ചെയ്യാൻ നിങ്ങൾക്ക് അനുമതിയില്ല. {platform_name} ആക്സസ് ചെയ്യാൻ നിങ്ങളുടെ ലേണിംഗ് അഡ്മിനിസ്ട്രേറ്ററെയോ മാനേജരെയോ ബന്ധപ്പെടുക.{lineBreak}{lineBreak}പിശകിന്റെ വിശദാംശങ്ങൾ:{lineBreak}{errorMessage}",
-  "login.user.identity.label": "ഇമെയിൽ",
+  "login.user.identity.label": "യൂസർനെയിം അല്ലെങ്കിൽ ഇമെയിൽ",
   "login.user.identity.placeholder": "you@company.com",
   "login.v5.link.body": "{email} ഉള്ള ഒരു അക്കൗണ്ട് ഇതിനകം നിലവിലുണ്ട്. {provider} അതുമായി ലിങ്ക് ചെയ്യാൻ ഒരിക്കൽ അതിന്റെ പാസ്‌വേഡ് നൽകുക.",
   "login.v5.link.cancel": "റദ്ദാക്കുക",

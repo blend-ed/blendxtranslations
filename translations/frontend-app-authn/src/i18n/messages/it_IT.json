@@ -155,7 +155,7 @@
   "login.sso.required.link": "Accedi con {provider}",
   "login.third.party.auth.account.not.linked": "Hai correttamente effettuato l'accesso in {currentProvider}, ma il tuo account {currentProvider} non ha un account {platformName} ad esso abbinato. Per collegare i tuoi account accesi utilizzando la password {platformName}. ",
   "login.tpa.authentication.failure": "Siamo spiacenti, non sei autorizzato ad accedere a {platform_name} tramite questo canale. Contatta il tuo amministratore o responsabile dell’apprendimento per accedere a {platform_name}.{lineBreak}{lineBreak}Dettagli errore:{lineBreak}{errorMessage}",
-  "login.user.identity.label": "Email",
+  "login.user.identity.label": "Nome utente o email ",
   "login.user.identity.placeholder": "tu@azienda.com",
   "login.v5.link.body": "Esiste già un account con {email}. Inserisci la sua password una volta per collegarvi {provider}.",
   "login.v5.link.cancel": "Annulla",

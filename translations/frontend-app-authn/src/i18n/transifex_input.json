@@ -155,7 +155,7 @@
   "login.sso.required.link": "Sign in with {provider}",
   "login.third.party.auth.account.not.linked": "You have successfully signed into {currentProvider}, but your {currentProvider} account does not have a linked {platformName} account. To link your accounts, sign in now using your {platformName} password.",
   "login.tpa.authentication.failure": "We are sorry, you are not authorized to access {platform_name} via this channel. Please contact your learning administrator or manager in order to access {platform_name}.{lineBreak}{lineBreak}Error Details:{lineBreak}{errorMessage}",
-  "login.user.identity.label": "Email",
+  "login.user.identity.label": "Username or email",
   "login.user.identity.placeholder": "you@company.com",
   "login.v5.link.body": "An account with {email} already exists. Enter its password once to link {provider} to it.",
   "login.v5.link.cancel": "Cancel",

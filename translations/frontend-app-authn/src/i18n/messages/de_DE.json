@@ -155,7 +155,7 @@
   "login.sso.required.link": "Mit {provider} anmelden",
   "login.third.party.auth.account.not.linked": "Sie haben sich erfolgreich bei {currentProvider} angemeldet, aber Ihr {currentProvider}-Konto hat kein verknüpftes {platformName}-Konto. Um Ihre Konten zu verknüpfen, melden Sie sich jetzt mit Ihrem {platformName}-Passwort an.",
   "login.tpa.authentication.failure": "Sie sind leider nicht berechtigt, über diesen Kanal auf {platform_name} zuzugreifen. Bitte wenden Sie sich an Ihren Learning-Administrator oder -Manager, um auf {platform_name} zuzugreifen.{lineBreak}{lineBreak}Fehlerdetails:{lineBreak}{errorMessage}",
-  "login.user.identity.label": "Email",
+  "login.user.identity.label": "Benutzername oder E-Mail-Adresse",
   "login.user.identity.placeholder": "sie@unternehmen.de",
   "login.v5.link.body": "Es gibt bereits ein Konto mit {email}. Geben Sie einmal das Passwort dieses Kontos ein, um {provider} damit zu verknüpfen.",
   "login.v5.link.cancel": "Abbrechen",

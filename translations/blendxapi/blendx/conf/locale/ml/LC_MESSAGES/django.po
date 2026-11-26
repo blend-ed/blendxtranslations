@@ -1401,6 +1401,33 @@ msgstr ""
 "ഒരു കമ്പനിയുടെ മാനേജർ തന്നോടൊപ്പം അത് കൈകാര്യം ചെയ്യാൻ മറ്റൊരാളെ "
 "ക്ഷണിക്കുമ്പോൾ അയയ്ക്കുന്നു."
 
+msgid "Essay assignment grade received"
+msgstr "എസ്സേ അസൈൻമെന്റ് ഗ്രേഡ് ലഭിച്ചു"
+
+msgid ""
+"You received a grade on an essay assignment (an open response assessment)."
+msgstr ""
+"ഒരു എസ്സേ അസൈൻമെന്റിൽ (ഒരു ഓപ്പൺ റെസ്പോൺസ് അസസ്മെന്റ്) നിങ്ങൾക്ക് ഗ്രേഡ് "
+"ലഭിച്ചു."
+
+msgid "Essay assignment reminders"
+msgstr "എസ്സേ അസൈൻമെന്റ് ഓർമ്മപ്പെടുത്തലുകൾ"
+
+msgid "You have self or peer review steps to complete in an essay assignment."
+msgstr ""
+"ഒരു എസ്സേ അസൈൻമെന്റിൽ നിങ്ങൾക്ക് പൂർത്തിയാക്കാനുള്ള സ്വയം അല്ലെങ്കിൽ പിയർ "
+"റിവ്യൂ ഘട്ടങ്ങളുണ്ട്."
+
+msgid "New ORA submission for staff grading"
+msgstr "സ്റ്റാഫ് ഗ്രേഡിംഗിനായി പുതിയ ORA സമർപ്പണം"
+
+msgid ""
+"A learner made a submission for an essay assignment that includes a staff "
+"grading step."
+msgstr ""
+"ഒരു പഠിതാവ് സ്റ്റാഫ് ഗ്രേഡിംഗ് ഘട്ടമുള്ള ഒരു എസ്സേ അസൈൻമെന്റിനായി സമർപ്പണം "
+"നടത്തി."
+
 msgid "Platform name"
 msgstr "പ്ലാറ്റ്ഫോമിന്റെ പേര്"
 

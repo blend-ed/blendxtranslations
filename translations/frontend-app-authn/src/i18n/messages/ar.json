@@ -155,7 +155,7 @@
   "login.sso.required.link": "سجّل الدخول باستخدام {provider}",
   "login.third.party.auth.account.not.linked": "لقد سجّلت دخولك بنجاح في {currentProvider}، لكن حسابك في {currentProvider} غير مرتبط بأيّ حساب على {platformName}. لربط حساباتك، سجِّل الدخول الآن باستخدام كلمة مرورك في {platformName}.",
   "login.tpa.authentication.failure": "عذراً، لست مخولاً بالوصول إلى {platform_name} عبر هذه القناة. من فضلك تواصل مع مسؤول التعليم الخاص بك أو بمديرك للوصول إلى {platform_name}. {lineBreak}{lineBreak}تفاصيل الخطأ:{lineBreak}{errorMessage}",
-  "login.user.identity.label": "البريد الإلكتروني",
+  "login.user.identity.label": "اسم المستخدم أو البريد الإلكتروني",
   "login.user.identity.placeholder": "you@company.com",
   "login.v5.link.body": "يوجد حساب بالبريد الإلكتروني {email} بالفعل. أدخِل كلمة مروره مرة واحدة لربط {provider} به.",
   "login.v5.link.cancel": "ألغِ",

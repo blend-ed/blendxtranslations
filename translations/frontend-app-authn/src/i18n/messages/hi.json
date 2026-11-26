@@ -155,7 +155,7 @@
   "login.sso.required.link": "{provider} से साइन इन करें",
   "login.third.party.auth.account.not.linked": "आपने सफलतापूर्वक {currentProvider} में साइन इन किया है, लेकिन आपके {currentProvider} खाते में एक लिंक्ड {platformName} खाता नहीं है। अपने खातों को लिंक करने के लिए, अब अपने {platformName} पासवर्ड का उपयोग करके साइन इन करें।",
   "login.tpa.authentication.failure": "हमें खेद है, आप इस चैनल के माध्यम से {platform_name} तक पहुंचने के लिए अधिकृत नहीं हैं। कृपया {platform_name} तक पहुंचने के लिए अपने शिक्षण व्यवस्थापक या प्रबंधक से संपर्क करें।{lineBreak}{lineBreak}त्रुटि विवरण:{lineBreak}{errorMessage}",
-  "login.user.identity.label": "ईमेल",
+  "login.user.identity.label": "उपयोगकर्ता नाम या ईमेल",
   "login.user.identity.placeholder": "you@company.com",
   "login.v5.link.body": "{email} वाला खाता पहले से मौजूद है। {provider} को उससे लिंक करने के लिए एक बार उसका पासवर्ड दर्ज करें।",
   "login.v5.link.cancel": "रद्द करें",

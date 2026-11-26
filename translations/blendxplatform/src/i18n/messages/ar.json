@@ -35,6 +35,7 @@
   "blendxplatform.appWrapper.timeZone.switch": "تبديل",
   "blendxplatform.appWrapper.timeZone.travel": "جهازك على {device}، ومنطقتك الزمنية هي {saved}. هل تريد التبديل؟",
   "blendxplatform.header.aiSearch.placeholder": "اسأل أو تعلّم أي شيء مع Blend-ed AI...",
+  "blendxplatform.header.courseSearch.placeholder": "ابحث في هذا المساق...",
   "blendxplatform.header.logo.alt": "الشعار",
   "blendxplatform.header.search.group.courses": "المساقات",
   "blendxplatform.header.search.group.lessons": "الدروس",

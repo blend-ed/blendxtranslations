@@ -1408,6 +1408,33 @@ msgstr ""
 "Envoyé lorsqu'un gestionnaire d'entreprise invite quelqu'un à la gérer avec "
 "lui."
 
+msgid "Essay assignment grade received"
+msgstr "Note reçue pour un devoir de rédaction"
+
+msgid ""
+"You received a grade on an essay assignment (an open response assessment)."
+msgstr ""
+"Vous avez reçu une note pour un devoir de rédaction (une évaluation à "
+"réponse ouverte)."
+
+msgid "Essay assignment reminders"
+msgstr "Rappels de devoir de rédaction"
+
+msgid "You have self or peer review steps to complete in an essay assignment."
+msgstr ""
+"Vous avez des étapes d’auto-évaluation ou d’évaluation par les pairs à "
+"effectuer dans un devoir de rédaction."
+
+msgid "New ORA submission for staff grading"
+msgstr "Nouveau rendu ORA à noter par le personnel"
+
+msgid ""
+"A learner made a submission for an essay assignment that includes a staff "
+"grading step."
+msgstr ""
+"Un apprenant a rendu un devoir de rédaction comportant une étape de notation"
+" par le personnel."
+
 msgid "Platform name"
 msgstr "Nom de la plateforme"
 

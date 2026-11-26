@@ -1398,6 +1398,33 @@ msgstr ""
 "Se envía cuando el responsable de una compañía invita a alguien a "
 "gestionarla con él."
 
+msgid "Essay assignment grade received"
+msgstr "Calificación de tarea de redacción recibida"
+
+msgid ""
+"You received a grade on an essay assignment (an open response assessment)."
+msgstr ""
+"Recibió una calificación en una tarea de redacción (una evaluación de "
+"respuesta abierta)."
+
+msgid "Essay assignment reminders"
+msgstr "Recordatorios de tareas de redacción"
+
+msgid "You have self or peer review steps to complete in an essay assignment."
+msgstr ""
+"Tiene pasos de autoevaluación o evaluación entre compañeros que completar en"
+" una tarea de redacción."
+
+msgid "New ORA submission for staff grading"
+msgstr "Nueva entrega de ORA para calificación por el personal"
+
+msgid ""
+"A learner made a submission for an essay assignment that includes a staff "
+"grading step."
+msgstr ""
+"Un estudiante hizo una entrega de una tarea de redacción que incluye un paso"
+" de calificación por el personal."
+
 msgid "Platform name"
 msgstr "Nombre de la plataforma"
 

@@ -155,7 +155,7 @@
   "login.sso.required.link": "使用 {provider} 登录",
   "login.third.party.auth.account.not.linked": "您已成功登录 {currentProvider}，但您的 {currentProvider} 帐户没有关联的 {platformName} 帐户。要链接您的帐户，请立即使用您的 {platformName} 密码登录。",
   "login.tpa.authentication.failure": "很抱歉，您无权通过此通道访问{platform_name}。请联系您的学习管理员或经理才能访问{platform_name}。{lineBreak}{lineBreak}错误详细信息：{lineBreak}{errorMessage}",
-  "login.user.identity.label": "邮箱",
+  "login.user.identity.label": "用户名或电子邮件",
   "login.user.identity.placeholder": "you@company.com",
   "login.v5.link.body": "已存在使用 {email} 的账户。输入一次该账户的密码，即可将 {provider} 关联到该账户。",
   "login.v5.link.cancel": "取消",

@@ -35,6 +35,7 @@
   "blendxplatform.appWrapper.timeZone.switch": "Переключить",
   "blendxplatform.appWrapper.timeZone.travel": "На устройстве установлен часовой пояс {device}, а у вас сохранён {saved}. Переключить?",
   "blendxplatform.header.aiSearch.placeholder": "Спросите или изучите что угодно с Blend-ed AI...",
+  "blendxplatform.header.courseSearch.placeholder": "Искать в этом курсе...",
   "blendxplatform.header.logo.alt": "Логотип",
   "blendxplatform.header.search.group.courses": "Курсы",
   "blendxplatform.header.search.group.lessons": "Уроки",

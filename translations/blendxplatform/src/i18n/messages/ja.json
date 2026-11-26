@@ -35,6 +35,7 @@
   "blendxplatform.appWrapper.timeZone.switch": "切り替える",
   "blendxplatform.appWrapper.timeZone.travel": "お使いのデバイスは{device}、設定されたタイムゾーンは{saved}です。切り替えますか？",
   "blendxplatform.header.aiSearch.placeholder": "Blend-ed AIで何でも質問・学習...",
+  "blendxplatform.header.courseSearch.placeholder": "この講座内を検索...",
   "blendxplatform.header.logo.alt": "ロゴ",
   "blendxplatform.header.search.group.courses": "講座",
   "blendxplatform.header.search.group.lessons": "レッスン",

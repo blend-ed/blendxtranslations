@@ -1424,6 +1424,33 @@ msgstr ""
 "Wird gesendet, wenn ein Manager eines Unternehmens jemanden einlädt, es "
 "gemeinsam mit ihm zu verwalten."
 
+msgid "Essay assignment grade received"
+msgstr "Note für Aufsatzaufgabe erhalten"
+
+msgid ""
+"You received a grade on an essay assignment (an open response assessment)."
+msgstr ""
+"Sie haben für eine Aufsatzaufgabe (eine Open-Response-Bewertung) eine Note "
+"erhalten."
+
+msgid "Essay assignment reminders"
+msgstr "Erinnerungen an Aufsatzaufgaben"
+
+msgid "You have self or peer review steps to complete in an essay assignment."
+msgstr ""
+"Sie müssen in einer Aufsatzaufgabe noch Schritte zur Selbst- oder Peer-"
+"Bewertung abschließen."
+
+msgid "New ORA submission for staff grading"
+msgstr "Neue ORA-Einreichung zur Bewertung durch Mitarbeitende"
+
+msgid ""
+"A learner made a submission for an essay assignment that includes a staff "
+"grading step."
+msgstr ""
+"Eine lernende Person hat eine Einreichung für eine Aufsatzaufgabe mit einem "
+"Bewertungsschritt durch Mitarbeitende abgegeben."
+
 msgid "Platform name"
 msgstr "Name der Plattform"
 

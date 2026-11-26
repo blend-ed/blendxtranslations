@@ -35,6 +35,7 @@
   "blendxplatform.appWrapper.timeZone.switch": "മാറുക",
   "blendxplatform.appWrapper.timeZone.travel": "നിങ്ങളുടെ ഉപകരണം {device}-ൽ ആണ്; നിങ്ങളുടെ സമയ മേഖല {saved} ആണ്. മാറണോ?",
   "blendxplatform.header.aiSearch.placeholder": "Blend-ed AI ഉപയോഗിച്ച് എന്തും ചോദിക്കൂ അല്ലെങ്കിൽ പഠിക്കൂ...",
+  "blendxplatform.header.courseSearch.placeholder": "ഈ കോഴ്സിൽ തിരയുക...",
   "blendxplatform.header.logo.alt": "ലോഗോ",
   "blendxplatform.header.search.group.courses": "കോഴ്സുകൾ",
   "blendxplatform.header.search.group.lessons": "പാഠങ്ങൾ",

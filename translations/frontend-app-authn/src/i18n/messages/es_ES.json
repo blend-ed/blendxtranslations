@@ -155,7 +155,7 @@
   "login.sso.required.link": "Iniciar sesión con {provider}",
   "login.third.party.auth.account.not.linked": "Te has registrado correctamente en {currentProvider}, pero tu cuenta de {currentProvider} no tiene asociada una cuenta de {platformName}. Para asociar tus cuentas, inicia sesión usando tu contraseña de {platformName}.",
   "login.tpa.authentication.failure": "Lo sentimos, no cuentas con autorización para acceder a {platform_name} a través de este canal. Ponte en contacto con tu administrador o gestor de aprendizaje para acceder a {platform_name}.{lineBreak}{lineBreak}Detalles del error:{lineBreak}{errorMessage}",
-  "login.user.identity.label": "Correo electrónico",
+  "login.user.identity.label": "Nombre de usuario o correo electrónico",
   "login.user.identity.placeholder": "usted@compania.com",
   "login.v5.link.body": "Ya existe una cuenta con {email}. Introduzca su contraseña una vez para vincular {provider} a ella.",
   "login.v5.link.cancel": "Cancelar",

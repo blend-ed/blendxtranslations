@@ -1391,6 +1391,30 @@ msgstr ""
 "Отправляется, когда менеджер компании приглашает кого-то управлять ею "
 "вместе."
 
+msgid "Essay assignment grade received"
+msgstr "Получена оценка за задание-эссе"
+
+msgid ""
+"You received a grade on an essay assignment (an open response assessment)."
+msgstr "Вы получили оценку за задание-эссе (задание с открытым ответом)."
+
+msgid "Essay assignment reminders"
+msgstr "Напоминания о задании-эссе"
+
+msgid "You have self or peer review steps to complete in an essay assignment."
+msgstr ""
+"Вам нужно выполнить этапы самооценки или взаимной оценки в задании-эссе."
+
+msgid "New ORA submission for staff grading"
+msgstr "Новая работа ORA для оценки персоналом"
+
+msgid ""
+"A learner made a submission for an essay assignment that includes a staff "
+"grading step."
+msgstr ""
+"Слушатель отправил работу на задание-эссе, которое включает этап оценки "
+"персоналом."
+
 msgid "Platform name"
 msgstr "Название платформы"
 

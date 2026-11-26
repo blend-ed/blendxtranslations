@@ -155,7 +155,7 @@
   "login.sso.required.link": "Se connecter avec {provider}",
   "login.third.party.auth.account.not.linked": "Vous vous êtes bien connecté à {currentProvider}, mais votre Compte {currentProvider} n’a pas de Compte {platformName} lié. Pour lier vos comptes, connectez-vous maintenant en utilisant votre mot de passe {platformName}.",
   "login.tpa.authentication.failure": "Nous sommes désolés, vous n’êtes pas autorisé à accéder {platform_name} via ce canal. Veuillez contacter votre administrateur ou responsable de formation afin d’accéder à {platform_name}.{lineBreak}{lineBreak}Détails de l’erreur :{lineBreak}{errorMessage}",
-  "login.user.identity.label": "Courriel",
+  "login.user.identity.label": "Nom d'utilisateur ou e-mail",
   "login.user.identity.placeholder": "vous@entreprise.com",
   "login.v5.link.body": "Un compte avec {email} existe déjà. Saisissez son mot de passe une fois pour y associer {provider}.",
   "login.v5.link.cancel": "Annuler",
