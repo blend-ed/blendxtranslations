@@ -5695,6 +5695,7 @@
   "v5.courseConfig.refusal.languageExists": "Le cours propose déjà cette langue.",
   "v5.courseConfig.refusal.lastPlatformManager": "Le cours doit avoir au moins un gestionnaire de plateforme ; cette personne reste donc.",
   "v5.courseConfig.refusal.libraryAdapterMissing": "La bibliothèque ne peut pas être modifiée d’ici pour le moment. Enregistrez-le uniquement dans ce cours, ou réessayez plus tard.",
+  "v5.courseConfig.refusal.libraryContainerLocked": "Le contenu d’une section, sous-section ou unité liée à la bibliothèque reste tel que la bibliothèque l’a. Modifiez-le dans la bibliothèque, puis mettez-le à jour ici.",
   "v5.courseConfig.refusal.modeLevelFixed": "Un mode publié conserve sa position dans l’ordre. Seuls les modes qui ne sont pas encore publiés peuvent être déplacés.",
   "v5.courseConfig.refusal.modeLevelOnPublish": "Un mode brouillon ne peut pas être mis en vente à sa position dans l’ordre. Vérifiez l’ordre dans Modes de cours, puis publiez à nouveau.",
   "v5.courseConfig.refusal.modeLimitOnPublish": "La publication mettrait en vente un cinquième mode. Jusqu’à 4 peuvent être en vente : supprimez un mode en brouillon ou archivez-en un dans ses modes, puis publiez à nouveau.",

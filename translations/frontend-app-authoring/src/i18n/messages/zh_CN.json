@@ -5695,6 +5695,7 @@
   "v5.courseConfig.refusal.languageExists": "该课程已提供此语言。",
   "v5.courseConfig.refusal.lastPlatformManager": "课程至少需要一名平台管理员，因此此人将保留。",
   "v5.courseConfig.refusal.libraryAdapterMissing": "目前无法从此处更改内容库。请仅在此课程中保存，或稍后重试。",
+  "v5.courseConfig.refusal.libraryContainerLocked": "与内容库关联的部分、小节或单元中的内容保持与内容库一致。请在内容库中更改，然后在此处更新。",
   "v5.courseConfig.refusal.modeLevelFixed": "已发布的学习模式保持其排序位置。只有尚未发布的学习模式可以移动。",
   "v5.courseConfig.refusal.modeLevelOnPublish": "草稿学习模式在当前排序位置无法开售。请在“课程学习模式”中检查排序，然后重新发布。",
   "v5.courseConfig.refusal.modeLimitOnPublish": "发布将使第五种学习模式上架销售。最多只能有 4 种同时在售：请移除一个草稿学习模式或在其学习模式中归档一个，然后重新发布。",

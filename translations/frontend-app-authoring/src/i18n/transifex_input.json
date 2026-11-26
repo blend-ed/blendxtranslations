@@ -5695,6 +5695,7 @@
   "v5.courseConfig.refusal.languageExists": "The course already offers this language.",
   "v5.courseConfig.refusal.lastPlatformManager": "The course needs at least one platform manager, so this person stays.",
   "v5.courseConfig.refusal.libraryAdapterMissing": "The library can’t be changed from here right now. Save it only in this course, or try again later.",
+  "v5.courseConfig.refusal.libraryContainerLocked": "What a linked library section, subsection or unit holds stays as the library has it. Change it in the library, then update it here.",
   "v5.courseConfig.refusal.modeLevelFixed": "A published mode keeps its place in the order. Only modes that aren’t published yet can move.",
   "v5.courseConfig.refusal.modeLevelOnPublish": "A draft mode can’t go on sale where it sits in the order. Check the order in Course modes, then publish again.",
   "v5.courseConfig.refusal.modeLimitOnPublish": "Publishing would put a fifth mode on sale. Up to 4 can be on sale: remove a draft mode or archive one in its modes, then publish again.",
