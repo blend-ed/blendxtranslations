@@ -35,6 +35,7 @@
   "blendxplatform.appWrapper.timeZone.switch": "Wechseln",
   "blendxplatform.appWrapper.timeZone.travel": "Ihr Gerät ist auf {device} eingestellt; Ihre Zeitzone ist {saved}. Wechseln?",
   "blendxplatform.header.aiSearch.placeholder": "Fragen oder lernen Sie alles mit Blend-ed AI...",
+  "blendxplatform.header.courseSearch.placeholder": "Diesen Kurs durchsuchen …",
   "blendxplatform.header.logo.alt": "Logo",
   "blendxplatform.header.search.group.courses": "Kurse",
   "blendxplatform.header.search.group.lessons": "Lektionen",

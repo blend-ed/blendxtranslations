@@ -155,7 +155,7 @@
   "login.sso.required.link": "{provider}(으)로 로그인",
   "login.third.party.auth.account.not.linked": "{currentProvider} 에 성공적으로 로그인했지만, {currentProvider} 계정에 연결된 {platformName} 계정이 없습니다. 계정을 연결하려면 지금 {platformName} 비밀번호를 사용하여 로그인하세요.",
   "login.tpa.authentication.failure": "죄송합니다. 이 채널을 통해 {platform_name} 에 액세스할 권한이 없습니다. {platform_name} 에 액세스하려면 학습 관리자 또는 관리자에게 문의하세요. {lineBreak}{lineBreak}오류 세부 정보: {lineBreak}{errorMessage}",
-  "login.user.identity.label": "이메일",
+  "login.user.identity.label": "사용자 이름 또는 이메일",
   "login.user.identity.placeholder": "you@company.com",
   "login.v5.link.body": "{email} 계정이 이미 있습니다. 해당 계정의 비밀번호를 한 번 입력하여 {provider}을(를) 연결하세요.",
   "login.v5.link.cancel": "취소",

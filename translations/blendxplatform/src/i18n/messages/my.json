@@ -35,6 +35,7 @@
   "blendxplatform.appWrapper.timeZone.switch": "ပြောင်းရန်",
   "blendxplatform.appWrapper.timeZone.travel": "သင့်စက်သည် {device} ပေါ်တွင် ရှိပြီး သင့်အချိန်ဇုန်မှာ {saved} ဖြစ်သည်။ ပြောင်းမလား။",
   "blendxplatform.header.aiSearch.placeholder": "Blend-ed AI ဖြင့် ဘာမဆို မေးပါ သို့မဟုတ် လေ့လာပါ...",
+  "blendxplatform.header.courseSearch.placeholder": "ဤသင်တန်းတွင် ရှာရန်...",
   "blendxplatform.header.logo.alt": "လိုဂို",
   "blendxplatform.header.search.group.courses": "သင်တန်းများ",
   "blendxplatform.header.search.group.lessons": "သင်ခန်းစာများ",

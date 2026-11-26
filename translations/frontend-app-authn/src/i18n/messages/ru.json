@@ -155,7 +155,7 @@
   "login.sso.required.link": "Войти через {provider}",
   "login.third.party.auth.account.not.linked": "Вы успешно вошли в {currentProvider}, но ваша учётная запись {currentProvider} не имеет привязанной учётной записи {platformName}. Чтобы привязать ваши учётные записи, войдите сейчас, используя пароль {platformName}.",
   "login.tpa.authentication.failure": "К сожалению, у вас нет прав доступа к {platform_name} через этот канал. Пожалуйста, свяжитесь с вашим администратором или менеджером для получения доступа к {platform_name}. {lineBreak}{lineBreak}Сведения об ошибке:{lineBreak}{errorMessage}",
-  "login.user.identity.label": "Электронная почта",
+  "login.user.identity.label": "Имя пользователя или email",
   "login.user.identity.placeholder": "you@company.com",
   "login.v5.link.body": "Учётная запись с адресом {email} уже существует. Введите её пароль один раз, чтобы привязать к ней {provider}.",
   "login.v5.link.cancel": "Отмена",

@@ -1390,6 +1390,31 @@ msgstr ""
 "तब भेजा जाता है जब किसी कंपनी का प्रबंधक किसी को साथ में प्रबंधन के लिए "
 "आमंत्रित करता है।"
 
+msgid "Essay assignment grade received"
+msgstr "निबंध असाइनमेंट का ग्रेड मिला"
+
+msgid ""
+"You received a grade on an essay assignment (an open response assessment)."
+msgstr "आपको किसी निबंध असाइनमेंट (ओपन रिस्पॉन्स असेसमेंट) पर ग्रेड मिला है।"
+
+msgid "Essay assignment reminders"
+msgstr "निबंध असाइनमेंट रिमाइंडर"
+
+msgid "You have self or peer review steps to complete in an essay assignment."
+msgstr ""
+"किसी निबंध असाइनमेंट में आपके पास पूरे करने के लिए स्व या सहकर्मी समीक्षा "
+"चरण हैं।"
+
+msgid "New ORA submission for staff grading"
+msgstr "कर्मचारी ग्रेडिंग के लिए नया ORA सबमिशन"
+
+msgid ""
+"A learner made a submission for an essay assignment that includes a staff "
+"grading step."
+msgstr ""
+"किसी शिक्षार्थी ने ऐसे निबंध असाइनमेंट के लिए सबमिशन किया है जिसमें कर्मचारी"
+" द्वारा ग्रेडिंग का चरण है।"
+
 msgid "Platform name"
 msgstr "प्लेटफ़ॉर्म का नाम"
 

@@ -1258,6 +1258,27 @@ msgstr "회사 공동 관리자 초대"
 msgid "Sent when a company's manager invites someone to manage it with them."
 msgstr "회사 관리자가 함께 관리할 사람을 초대하면 발송됩니다."
 
+msgid "Essay assignment grade received"
+msgstr "에세이 과제 성적을 받았습니다"
+
+msgid ""
+"You received a grade on an essay assignment (an open response assessment)."
+msgstr "에세이 과제(개방형 응답 평가)에서 성적을 받았습니다."
+
+msgid "Essay assignment reminders"
+msgstr "에세이 과제 알림"
+
+msgid "You have self or peer review steps to complete in an essay assignment."
+msgstr "에세이 과제에서 완료해야 할 자기 평가 또는 동료 평가 단계가 있습니다."
+
+msgid "New ORA submission for staff grading"
+msgstr "직원 채점용 새 ORA 제출물"
+
+msgid ""
+"A learner made a submission for an essay assignment that includes a staff "
+"grading step."
+msgstr "학습자가 직원 채점 단계가 포함된 에세이 과제를 제출했습니다."
+
 msgid "Platform name"
 msgstr "플랫폼 이름"
 

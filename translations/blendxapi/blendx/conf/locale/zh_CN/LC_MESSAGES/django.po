@@ -1246,6 +1246,27 @@ msgstr "公司共同管理员邀请"
 msgid "Sent when a company's manager invites someone to manage it with them."
 msgstr "公司管理员邀请他人共同管理公司时发送。"
 
+msgid "Essay assignment grade received"
+msgstr "收到论述作业成绩"
+
+msgid ""
+"You received a grade on an essay assignment (an open response assessment)."
+msgstr "您收到了一项论述作业（开放式回答评估）的成绩。"
+
+msgid "Essay assignment reminders"
+msgstr "论述作业提醒"
+
+msgid "You have self or peer review steps to complete in an essay assignment."
+msgstr "您有论述作业中的自评或互评步骤待完成。"
+
+msgid "New ORA submission for staff grading"
+msgstr "有新的 ORA 提交待职员评分"
+
+msgid ""
+"A learner made a submission for an essay assignment that includes a staff "
+"grading step."
+msgstr "一名学员为包含职员评分步骤的论述作业提交了作业。"
+
 msgid "Platform name"
 msgstr "平台名称"
 

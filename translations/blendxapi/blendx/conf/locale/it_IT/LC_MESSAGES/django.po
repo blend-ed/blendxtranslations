@@ -1405,6 +1405,33 @@ msgstr ""
 "Inviata quando un responsabile di un'azienda invita qualcuno a gestirla "
 "insieme a lui."
 
+msgid "Essay assignment grade received"
+msgstr "Voto ricevuto per l’elaborato scritto"
+
+msgid ""
+"You received a grade on an essay assignment (an open response assessment)."
+msgstr ""
+"Hai ricevuto un voto per un elaborato scritto (una valutazione a risposta "
+"aperta)."
+
+msgid "Essay assignment reminders"
+msgstr "Promemoria per gli elaborati scritti"
+
+msgid "You have self or peer review steps to complete in an essay assignment."
+msgstr ""
+"Hai fasi di autovalutazione o di valutazione tra pari da completare in un "
+"elaborato scritto."
+
+msgid "New ORA submission for staff grading"
+msgstr "Nuova consegna ORA da valutare da parte del personale"
+
+msgid ""
+"A learner made a submission for an essay assignment that includes a staff "
+"grading step."
+msgstr ""
+"Uno studente ha effettuato una consegna per un elaborato scritto che include"
+" una fase di valutazione da parte del personale."
+
 msgid "Platform name"
 msgstr "Nome della piattaforma"
 

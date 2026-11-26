@@ -35,6 +35,7 @@
   "blendxplatform.appWrapper.timeZone.switch": "बदलें",
   "blendxplatform.appWrapper.timeZone.travel": "आपका डिवाइस {device} पर है; आपका समय क्षेत्र {saved} है। बदलें?",
   "blendxplatform.header.aiSearch.placeholder": "Blend-ed AI के साथ कुछ भी पूछें या सीखें...",
+  "blendxplatform.header.courseSearch.placeholder": "इस पाठ्यक्रम में खोजें...",
   "blendxplatform.header.logo.alt": "लोगो",
   "blendxplatform.header.search.group.courses": "पाठ्यक्रम",
   "blendxplatform.header.search.group.lessons": "पाठ",

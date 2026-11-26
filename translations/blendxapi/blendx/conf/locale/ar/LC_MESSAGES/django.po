@@ -1341,6 +1341,27 @@ msgstr "دعوة مدير مشارك للشركة"
 msgid "Sent when a company's manager invites someone to manage it with them."
 msgstr "يُرسل عندما يدعو مدير شركة شخصًا لإدارتها معه."
 
+msgid "Essay assignment grade received"
+msgstr "تم استلام درجة الواجب المقالي"
+
+msgid ""
+"You received a grade on an essay assignment (an open response assessment)."
+msgstr "تلقيت درجة على واجب مقالي (تقييم استجابة مفتوحة)."
+
+msgid "Essay assignment reminders"
+msgstr "تذكيرات الواجب المقالي"
+
+msgid "You have self or peer review steps to complete in an essay assignment."
+msgstr "لديك خطوات مراجعة ذاتية أو مراجعة أقران لإكمالها في واجب مقالي."
+
+msgid "New ORA submission for staff grading"
+msgstr "تسليم جديد لواجب مقالي بانتظار تصحيح الطاقم"
+
+msgid ""
+"A learner made a submission for an essay assignment that includes a staff "
+"grading step."
+msgstr "قدّم متعلم تسليمًا لواجب مقالي يتضمن خطوة تصحيح من الطاقم."
+
 msgid "Platform name"
 msgstr "اسم المنصة"
 

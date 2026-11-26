@@ -1412,6 +1412,33 @@ msgstr ""
 "ကုမ္ပဏီ၏ မန်နေဂျာက ၎င်းနှင့်အတူ စီမံရန် တစ်စုံတစ်ဦးကို ဖိတ်ကြားသည့်အခါ "
 "ပို့ပါသည်။"
 
+msgid "Essay assignment grade received"
+msgstr "စာစီစာကုံး အလုပ်ပေးစာ အမှတ်ရရှိပြီ"
+
+msgid ""
+"You received a grade on an essay assignment (an open response assessment)."
+msgstr ""
+"စာစီစာကုံး အလုပ်ပေးစာ (ပွင့်လင်းတုံ့ပြန်မှု အကဲဖြတ်ချက်) တစ်ခုတွင် "
+"အမှတ်တစ်ခု ရရှိခဲ့သည်။"
+
+msgid "Essay assignment reminders"
+msgstr "စာစီစာကုံး အလုပ်ပေးစာ သတိပေးချက်များ"
+
+msgid "You have self or peer review steps to complete in an essay assignment."
+msgstr ""
+"စာစီစာကုံး အလုပ်ပေးစာတွင် ကိုယ်တိုင် သို့မဟုတ် အချင်းချင်း "
+"ပြန်လည်သုံးသပ်သည့် အဆင့်များ ပြီးစီးရန် ရှိသည်။"
+
+msgid "New ORA submission for staff grading"
+msgstr "ဝန်ထမ်းအမှတ်ပေးရန် ORA တင်သွင်းမှုအသစ်"
+
+msgid ""
+"A learner made a submission for an essay assignment that includes a staff "
+"grading step."
+msgstr ""
+"သင်ယူသူတစ်ဦးသည် ဝန်ထမ်းအမှတ်ပေးအဆင့်ပါသော စာစီစာကုံး အလုပ်ပေးစာအတွက် "
+"တင်သွင်းမှုတစ်ခု ပြုလုပ်ခဲ့သည်။"
+
 msgid "Platform name"
 msgstr "ပလက်ဖောင်းအမည်"
 

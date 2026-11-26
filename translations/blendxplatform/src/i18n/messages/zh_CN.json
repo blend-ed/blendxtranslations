@@ -35,6 +35,7 @@
   "blendxplatform.appWrapper.timeZone.switch": "切换",
   "blendxplatform.appWrapper.timeZone.travel": "您的设备时区为 {device}；您设置的时区为 {saved}。要切换吗？",
   "blendxplatform.header.aiSearch.placeholder": "用 Blend-ed AI 提问或学习任何内容……",
+  "blendxplatform.header.courseSearch.placeholder": "搜索本课程…",
   "blendxplatform.header.logo.alt": "徽标",
   "blendxplatform.header.search.group.courses": "课程",
   "blendxplatform.header.search.group.lessons": "课时",

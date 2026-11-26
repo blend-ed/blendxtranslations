@@ -155,7 +155,7 @@
   "login.sso.required.link": "{provider} ဖြင့် ဝင်ရောက်ရန်",
   "login.third.party.auth.account.not.linked": "{currentProvider} သို့ အောင်မြင်စွာ အကောင့်ဝင်ပြီးပါပြီ၊ သို့သော် သင့် {currentProvider} အကောင့်တွင် ချိတ်ဆက်ထားသော {platformName} အကောင့် မရှိပါ။ အကောင့်များကို ချိတ်ဆက်ရန် သင့် {platformName} စကားဝှက်ဖြင့် ယခု အကောင့်ဝင်ပါ။",
   "login.tpa.authentication.failure": "စိတ်မကောင်းပါ၊ ဤနည်းလမ်းမှတစ်ဆင့် {platform_name} ကို အသုံးပြုခွင့် မရှိပါ။ {platform_name} ကို အသုံးပြုရန် သင့်သင်ယူမှု စီမံခန့်ခွဲသူ သို့မဟုတ် မန်နေဂျာကို ဆက်သွယ်ပါ။{lineBreak}{lineBreak}အမှား အသေးစိတ် -{lineBreak}{errorMessage}",
-  "login.user.identity.label": "အီးမေးလ်",
+  "login.user.identity.label": "အသုံးပြုသူအမည် သို့မဟုတ် အီးမေးလ်",
   "login.user.identity.placeholder": "you@company.com",
   "login.v5.link.body": "{email} ဖြင့် အကောင့်တစ်ခု ရှိပြီးဖြစ်သည်။ {provider} ကို ၎င်းနှင့် ချိတ်ဆက်ရန် ၎င်း၏ စကားဝှက်ကို တစ်ကြိမ် ထည့်ပါ။",
   "login.v5.link.cancel": "ပယ်ဖျက်ရန်",

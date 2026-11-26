@@ -1357,6 +1357,31 @@ msgstr "Company co-manager invitation"
 msgid "Sent when a company's manager invites someone to manage it with them."
 msgstr "Sent when a company's manager invites someone to manage it with them."
 
+msgid "Essay assignment grade received"
+msgstr "Essay assignment grade received"
+
+msgid ""
+"You received a grade on an essay assignment (an open response assessment)."
+msgstr ""
+"You received a grade on an essay assignment (an open response assessment)."
+
+msgid "Essay assignment reminders"
+msgstr "Essay assignment reminders"
+
+msgid "You have self or peer review steps to complete in an essay assignment."
+msgstr ""
+"You have self or peer review steps to complete in an essay assignment."
+
+msgid "New ORA submission for staff grading"
+msgstr "New ORA submission for staff grading"
+
+msgid ""
+"A learner made a submission for an essay assignment that includes a staff "
+"grading step."
+msgstr ""
+"A learner made a submission for an essay assignment that includes a staff "
+"grading step."
+
 msgid "Platform name"
 msgstr "Platform name"
 

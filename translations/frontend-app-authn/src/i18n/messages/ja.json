@@ -155,7 +155,7 @@
   "login.sso.required.link": "{provider}でサインイン",
   "login.third.party.auth.account.not.linked": "{currentProvider}に正常にサインインしましたが、{currentProvider}アカウントには{platformName}アカウントがリンクされていません。アカウントをリンクするには、{platformName}のパスワードを使用して今すぐサインインしてください。",
   "login.tpa.authentication.failure": "申し訳ありませんが、このチャンネルを通じて{platform_name}にアクセスする権限がありません。{platform_name}にアクセスするには、学習管理者またはマネージャーにお問い合わせください。{lineBreak}{lineBreak}エラーの詳細:{lineBreak}{errorMessage}",
-  "login.user.identity.label": "メール",
+  "login.user.identity.label": "ユーザー名またはメールアドレス",
   "login.user.identity.placeholder": "you@company.com",
   "login.v5.link.body": "{email}のアカウントはすでに存在します。{provider}をこのアカウントにリンクするには、パスワードを一度入力してください。",
   "login.v5.link.cancel": "キャンセル",
