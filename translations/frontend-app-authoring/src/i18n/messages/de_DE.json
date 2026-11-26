@@ -5695,6 +5695,7 @@
   "v5.courseConfig.refusal.languageExists": "Der Kurs bietet diese Sprache bereits an.",
   "v5.courseConfig.refusal.lastPlatformManager": "Der Kurs benötigt mindestens einen Plattformmanager, daher bleibt diese Person.",
   "v5.courseConfig.refusal.libraryAdapterMissing": "Die Bibliothek kann derzeit nicht von hier aus geändert werden. Speichern Sie es nur in diesem Kurs oder versuchen Sie es später erneut.",
+  "v5.courseConfig.refusal.libraryContainerLocked": "Was ein verknüpfter Abschnitt, Unterabschnitt oder eine verknüpfte Einheit aus der Bibliothek enthält, bleibt so, wie es in der Bibliothek ist. Ändern Sie es in der Bibliothek und aktualisieren Sie es dann hier.",
   "v5.courseConfig.refusal.modeLevelFixed": "Ein veröffentlichter Modus behält seine Position in der Reihenfolge. Nur noch nicht veröffentlichte Modi können verschoben werden.",
   "v5.courseConfig.refusal.modeLevelOnPublish": "Ein Modus im Entwurf kann an seiner Position in der Reihenfolge nicht in den Verkauf gehen. Prüfen Sie die Reihenfolge unter „Kursmodi“ und veröffentlichen Sie dann erneut.",
   "v5.courseConfig.refusal.modeLimitOnPublish": "Durch das Veröffentlichen käme ein fünfter Modus in den Verkauf. Bis zu 4 können im Verkauf sein: Entfernen Sie einen Modus im Entwurf oder archivieren Sie einen unter den Modi und veröffentlichen Sie dann erneut.",

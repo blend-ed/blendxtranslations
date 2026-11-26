@@ -5695,6 +5695,7 @@
   "v5.courseConfig.refusal.languageExists": "Il corso offre già questa lingua.",
   "v5.courseConfig.refusal.lastPlatformManager": "Il corso richiede almeno un gestore della piattaforma, quindi questa persona resta.",
   "v5.courseConfig.refusal.libraryAdapterMissing": "Al momento la biblioteca non può essere modificata da qui. Salvalo solo in questo corso o riprova più tardi.",
+  "v5.courseConfig.refusal.libraryContainerLocked": "Il contenuto di una sezione, sottosezione o unità collegata alla biblioteca resta com’è nella biblioteca. Modificalo nella biblioteca, poi aggiornalo qui.",
   "v5.courseConfig.refusal.modeLevelFixed": "Una modalità pubblicata mantiene la sua posizione nell'ordine. Si possono spostare solo le modalità non ancora pubblicate.",
   "v5.courseConfig.refusal.modeLevelOnPublish": "Una modalità in bozza non può essere messa in vendita nella posizione in cui si trova. Controlla l'ordine in Modalità del corso, poi pubblica di nuovo.",
   "v5.courseConfig.refusal.modeLimitOnPublish": "La pubblicazione metterebbe in vendita una quinta modalità. Possono essere in vendita al massimo 4 modalità: rimuovi una modalità in bozza o archiviane una nelle sue modalità, poi pubblica di nuovo.",

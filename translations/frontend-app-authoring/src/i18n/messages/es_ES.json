@@ -5695,6 +5695,7 @@
   "v5.courseConfig.refusal.languageExists": "El curso ya ofrece este idioma.",
   "v5.courseConfig.refusal.lastPlatformManager": "El curso necesita al menos un administrador de la plataforma, así que esta persona se queda.",
   "v5.courseConfig.refusal.libraryAdapterMissing": "La biblioteca no se puede cambiar desde aquí en este momento. Guárdelo solo en este curso o inténtelo de nuevo más tarde.",
+  "v5.courseConfig.refusal.libraryContainerLocked": "Lo que contiene una sección, subsección o unidad vinculada de la biblioteca se mantiene como está en la biblioteca. Cámbielo en la biblioteca y luego actualícelo aquí.",
   "v5.courseConfig.refusal.modeLevelFixed": "Una modalidad publicada conserva su posición en el orden. Solo se pueden mover las modalidades que aún no están publicadas.",
   "v5.courseConfig.refusal.modeLevelOnPublish": "Una modalidad en borrador no puede ponerse a la venta en su posición del orden. Revise el orden en Modalidades del curso y vuelva a publicar.",
   "v5.courseConfig.refusal.modeLimitOnPublish": "Al publicar se pondría a la venta una quinta modalidad. Puede haber hasta 4 a la venta: elimine una modalidad en borrador o archive una en sus modalidades y, después, vuelva a publicar.",

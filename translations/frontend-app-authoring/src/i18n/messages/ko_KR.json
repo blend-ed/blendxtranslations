@@ -5695,6 +5695,7 @@
   "v5.courseConfig.refusal.languageExists": "이 강의는 이미 이 언어를 제공합니다.",
   "v5.courseConfig.refusal.lastPlatformManager": "강의에는 플랫폼 관리자가 최소 한 명 있어야 하므로 이 사람은 유지됩니다.",
   "v5.courseConfig.refusal.libraryAdapterMissing": "지금은 여기에서 라이브러리를 변경할 수 없습니다. 이 강의에만 저장하거나 나중에 다시 시도하세요.",
+  "v5.courseConfig.refusal.libraryContainerLocked": "라이브러리에 연결된 부분, 하위 섹션 또는 단원의 내용은 라이브러리에 있는 그대로 유지됩니다. 라이브러리에서 변경한 다음 여기에서 업데이트하세요.",
   "v5.courseConfig.refusal.modeLevelFixed": "게시된 수강 방식은 순서 위치가 고정됩니다. 아직 게시되지 않은 수강 방식만 이동할 수 있습니다.",
   "v5.courseConfig.refusal.modeLevelOnPublish": "초안 수강 방식은 현재 순서 위치에서 판매할 수 없습니다. 강의 수강 방식에서 순서를 확인한 후 다시 게시하세요.",
   "v5.courseConfig.refusal.modeLimitOnPublish": "게시하면 다섯 번째 수강 방식이 판매됩니다. 최대 4개까지 판매할 수 있습니다. 초안 수강 방식을 삭제하거나 수강 방식에서 하나를 보관한 후 다시 게시하세요.",

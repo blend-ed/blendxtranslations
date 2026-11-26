@@ -5695,6 +5695,7 @@
   "v5.courseConfig.refusal.languageExists": "المساق يوفّر هذه اللغة بالفعل.",
   "v5.courseConfig.refusal.lastPlatformManager": "يحتاج المساق إلى مدير منصة واحد على الأقل، لذا يبقى هذا الشخص.",
   "v5.courseConfig.refusal.libraryAdapterMissing": "لا يمكن تغيير المكتبة من هنا حاليًا. احفظه في هذا المساق فقط، أو حاول مرة أخرى لاحقًا.",
+  "v5.courseConfig.refusal.libraryContainerLocked": "يبقى محتوى القسم أو القسم الفرعي أو الوحدة المرتبطة بالمكتبة كما هو في المكتبة. غيّره في المكتبة، ثم حدّثه هنا.",
   "v5.courseConfig.refusal.modeLevelFixed": "يحتفظ النمط المنشور بموضعه في الترتيب. لا يمكن نقل إلا الأنماط غير المنشورة بعد.",
   "v5.courseConfig.refusal.modeLevelOnPublish": "لا يمكن طرح نمط مسودة للبيع في موضعه الحالي من الترتيب. تحقّق من الترتيب في أنماط المساق، ثم انشر مجددًا.",
   "v5.courseConfig.refusal.modeLimitOnPublish": "سيؤدي النشر إلى طرح نمط خامس للبيع. يمكن طرح 4 أنماط كحد أقصى للبيع: احذف نمطًا في المسودة أو أرشف أحد الأنماط في صفحة الأنماط، ثم انشر مرة أخرى.",

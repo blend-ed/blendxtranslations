@@ -5695,6 +5695,7 @@
   "v5.courseConfig.refusal.languageExists": "この講座ではすでにこの言語を提供しています。",
   "v5.courseConfig.refusal.lastPlatformManager": "講座には少なくとも1人のプラットフォームマネージャーが必要なため、この人は残ります。",
   "v5.courseConfig.refusal.libraryAdapterMissing": "現在ここからライブラリを変更できません。この講座内でのみ保存するか、後でもう一度お試しください。",
+  "v5.courseConfig.refusal.libraryContainerLocked": "ライブラリにリンクされたセクション、サブセクション、単元の中身は、ライブラリのとおりに保たれます。ライブラリで変更してから、ここで更新してください。",
   "v5.courseConfig.refusal.modeLevelFixed": "公開済みの受講形式は順序の位置が固定されます。移動できるのは、まだ公開されていない受講形式のみです。",
   "v5.courseConfig.refusal.modeLevelOnPublish": "下書きの受講形式は、現在の順序の位置では販売できません。講座の受講形式で順序を確認してから、再度公開してください。",
   "v5.courseConfig.refusal.modeLimitOnPublish": "公開すると5つ目の受講形式が販売されます。販売できるのは4つまでです。下書きの受講形式を削除するか、受講形式の一覧で1つをアーカイブしてから、もう一度公開してください。",
