@@ -243,6 +243,29 @@ msgstr ""
 msgid "Your {workspace} workspace is ready"
 msgstr "Su espacio de trabajo {workspace} está listo"
 
+#. Translators: %(credits)s is a number of AI credits ("1,000"); %(date)s a
+#. date ("11 Dec 2026").
+msgid ""
+"Your free trial comes with %(credits)s AI credits and runs until %(date)s."
+msgstr ""
+"Su prueba gratuita incluye %(credits)s créditos de AI y dura hasta el "
+"%(date)s."
+
+#. Translators: %(plan)s is the plan's name ("Standard"); %(credits)s a number
+#. of AI credits ("20,000").
+msgid "You're on the %(plan)s plan, with %(credits)s AI credits."
+msgstr "Tiene el plan %(plan)s, con %(credits)s créditos de AI."
+
+msgid "Your AI Suite trial ends on %(date)s"
+msgstr "Su prueba de AI Suite termina el %(date)s"
+
+msgid ""
+"The free trial for %(tenant)s ends on %(date)s. Export the courses you want "
+"to keep before %(deletes)s, when they are deleted."
+msgstr ""
+"La prueba gratuita de %(tenant)s termina el %(date)s. Exporte los cursos que"
+" quiera conservar antes del %(deletes)s, cuando se eliminarán."
+
 msgid "Pick up where you left off"
 msgstr "Continúe donde lo dejó"
 
@@ -1398,6 +1421,24 @@ msgstr ""
 "Se envía cuando el responsable de una compañía invita a alguien a "
 "gestionarla con él."
 
+msgid "AI Suite client invitation"
+msgstr "Invitación de cliente de AI Suite"
+
+msgid ""
+"Sent when Blend-ed opens an AI Suite space for a client, to set up the "
+"account that manages it."
+msgstr ""
+"Se envía cuando Blend-ed abre un espacio de AI Suite para un cliente, para "
+"configurar la cuenta que lo gestiona."
+
+msgid "AI Suite trial ending"
+msgstr "Fin de la prueba de AI Suite"
+
+msgid "Sent 7 days and 1 day before an AI Suite free trial ends."
+msgstr ""
+"Se envía 7 días y 1 día antes de que termine una prueba gratuita de AI "
+"Suite."
+
 msgid "Essay assignment grade received"
 msgstr "Calificación de tarea de redacción recibida"
 
@@ -1808,6 +1849,36 @@ msgstr "Ayude a gestionar las plazas de {{ tenant_possessive }}"
 
 msgid "Who invited them"
 msgstr "Quién le invitó"
+
+msgid "AI Suite — Client invitation"
+msgstr "AI Suite — Invitación de cliente"
+
+msgid "Your AI Suite space for {{ tenant_name }} is ready"
+msgstr "Su espacio de AI Suite para {{ tenant_name }} está listo"
+
+msgid "Client name"
+msgstr "Nombre del cliente"
+
+msgid "The plan, its AI credits and its end (a sentence)"
+msgstr "El plan, sus créditos de AI y su fin (una frase)"
+
+msgid "AI Suite — Trial ending"
+msgstr "AI Suite — Fin de la prueba"
+
+msgid "Your AI Suite trial ends on {{ ends_on }}"
+msgstr "Su prueba de AI Suite termina el {{ ends_on }}"
+
+msgid "Export your courses"
+msgstr "Exporte sus cursos"
+
+msgid "Date the trial ends"
+msgstr "Fecha de fin de la prueba"
+
+msgid "Date the trial's courses are deleted"
+msgstr "Fecha en que se eliminan los cursos de la prueba"
+
+msgid "Sign-in URL"
+msgstr "URL de inicio de sesión"
 
 msgid "Company account — Active"
 msgstr "Cuenta de compañía: activa"
@@ -2298,6 +2369,42 @@ msgid ""
 msgstr ""
 "Recibe este correo electrónico porque {{ inviter_name }} le invitó a "
 "gestionar {{ tenant_name }}."
+
+msgid ""
+"{{ org_name }} opened an AI Suite space for {{ tenant_name }}. Set up your "
+"sign-in to build courses with AI Studio and export them."
+msgstr ""
+"{{ org_name }} abrió un espacio de AI Suite para {{ tenant_name }}. "
+"Configure su inicio de sesión para crear cursos con AI Studio y exportarlos."
+
+msgid ""
+"You got this email because {{ org_name }} opened an AI Suite space for {{ "
+"email_address }}."
+msgstr ""
+"Recibe este correo electrónico porque {{ org_name }} abrió un espacio de AI "
+"Suite para {{ email_address }}."
+
+msgid ""
+"The free trial for {{ tenant_name }} ends on {{ ends_on }}. After that you "
+"can't build or edit courses, and on {{ deletes_on }} its courses are "
+"deleted."
+msgstr ""
+"La prueba gratuita de {{ tenant_name }} termina el {{ ends_on }}. Después ya"
+" no podrá crear ni editar cursos, y el {{ deletes_on }} se eliminarán sus "
+"cursos."
+
+msgid ""
+"Export the courses you want to keep before then, or contact {{ org_name }} "
+"to keep using AI Suite."
+msgstr ""
+"Exporte los cursos que quiera conservar antes de esa fecha, o póngase en "
+"contacto con {{ org_name }} para seguir usando AI Suite."
+
+msgid ""
+"You got this email because you manage {{ tenant_name }}'s AI Suite space."
+msgstr ""
+"Recibe este correo electrónico porque gestiona el espacio de AI Suite de {{ "
+"tenant_name }}."
 
 msgid ""
 "{{ org_name }} activated your account. You can have up to {{ learner_limit "

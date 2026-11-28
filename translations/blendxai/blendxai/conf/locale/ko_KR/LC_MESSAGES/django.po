@@ -379,3 +379,7 @@ msgstr "이 사용자는 AI 기능을 사용할 수 없습니다."
 
 msgid "Error occurred while generating program image"
 msgstr "프로그램 이미지를 생성하는 중 오류가 발생했습니다"
+
+msgid ""
+"AI for staff is turned off for your organisation. Please contact Blend-ed."
+msgstr "조직에서 직원용 AI가 꺼져 있습니다. Blend-ed에 문의하세요."

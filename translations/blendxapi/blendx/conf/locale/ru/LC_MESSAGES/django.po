@@ -247,6 +247,30 @@ msgstr ""
 msgid "Your {workspace} workspace is ready"
 msgstr "Ваше рабочее пространство {workspace} готово"
 
+#. Translators: %(credits)s is a number of AI credits ("1,000"); %(date)s a
+#. date ("11 Dec 2026").
+msgid ""
+"Your free trial comes with %(credits)s AI credits and runs until %(date)s."
+msgstr ""
+"В ваш бесплатный пробный период входит AI-кредитов: %(credits)s; он "
+"действует до %(date)s."
+
+#. Translators: %(plan)s is the plan's name ("Standard"); %(credits)s a number
+#. of AI credits ("20,000").
+msgid "You're on the %(plan)s plan, with %(credits)s AI credits."
+msgstr "Вы на тарифе %(plan)s, AI-кредитов: %(credits)s."
+
+msgid "Your AI Suite trial ends on %(date)s"
+msgstr "Ваш пробный период AI Suite заканчивается %(date)s"
+
+msgid ""
+"The free trial for %(tenant)s ends on %(date)s. Export the courses you want "
+"to keep before %(deletes)s, when they are deleted."
+msgstr ""
+"Бесплатный пробный период для %(tenant)s заканчивается %(date)s. "
+"Экспортируйте курсы, которые хотите сохранить, до %(deletes)s — в этот день "
+"они будут удалены."
+
 msgid "Pick up where you left off"
 msgstr "Продолжите с того места, где остановились"
 
@@ -1391,6 +1415,24 @@ msgstr ""
 "Отправляется, когда менеджер компании приглашает кого-то управлять ею "
 "вместе."
 
+msgid "AI Suite client invitation"
+msgstr "Приглашение клиента AI Suite"
+
+msgid ""
+"Sent when Blend-ed opens an AI Suite space for a client, to set up the "
+"account that manages it."
+msgstr ""
+"Отправляется, когда Blend-ed открывает пространство AI Suite для клиента, "
+"чтобы настроить учётную запись, которая им управляет."
+
+msgid "AI Suite trial ending"
+msgstr "Окончание пробного периода AI Suite"
+
+msgid "Sent 7 days and 1 day before an AI Suite free trial ends."
+msgstr ""
+"Отправляется за 7 дней и за 1 день до окончания бесплатного пробного периода"
+" AI Suite."
+
 msgid "Essay assignment grade received"
 msgstr "Получена оценка за задание-эссе"
 
@@ -1795,6 +1837,36 @@ msgstr "Помогите управлять местами {{ tenant_possessive 
 
 msgid "Who invited them"
 msgstr "Кто пригласил"
+
+msgid "AI Suite — Client invitation"
+msgstr "AI Suite — приглашение клиента"
+
+msgid "Your AI Suite space for {{ tenant_name }} is ready"
+msgstr "Ваше пространство AI Suite для {{ tenant_name }} готово"
+
+msgid "Client name"
+msgstr "Название клиента"
+
+msgid "The plan, its AI credits and its end (a sentence)"
+msgstr "Тариф, его AI-кредиты и дата окончания (предложение)"
+
+msgid "AI Suite — Trial ending"
+msgstr "AI Suite — окончание пробного периода"
+
+msgid "Your AI Suite trial ends on {{ ends_on }}"
+msgstr "Ваш пробный период AI Suite заканчивается {{ ends_on }}"
+
+msgid "Export your courses"
+msgstr "Экспортировать курсы"
+
+msgid "Date the trial ends"
+msgstr "Дата окончания пробного периода"
+
+msgid "Date the trial's courses are deleted"
+msgstr "Дата удаления курсов пробного периода"
+
+msgid "Sign-in URL"
+msgstr "URL для входа"
 
 msgid "Company account — Active"
 msgstr "Аккаунт компании — активен"
@@ -2284,6 +2356,42 @@ msgid ""
 msgstr ""
 "Вы получили это письмо, потому что {{ inviter_name }} пригласил(а) вас "
 "управлять {{ tenant_name }}."
+
+msgid ""
+"{{ org_name }} opened an AI Suite space for {{ tenant_name }}. Set up your "
+"sign-in to build courses with AI Studio and export them."
+msgstr ""
+"Организация {{ org_name }} открыла пространство AI Suite для {{ tenant_name "
+"}}. Настройте вход, чтобы создавать курсы в AI Studio и экспортировать их."
+
+msgid ""
+"You got this email because {{ org_name }} opened an AI Suite space for {{ "
+"email_address }}."
+msgstr ""
+"Вы получили это письмо, потому что организация {{ org_name }} открыла "
+"пространство AI Suite для {{ email_address }}."
+
+msgid ""
+"The free trial for {{ tenant_name }} ends on {{ ends_on }}. After that you "
+"can't build or edit courses, and on {{ deletes_on }} its courses are "
+"deleted."
+msgstr ""
+"Бесплатный пробный период для {{ tenant_name }} заканчивается {{ ends_on }}."
+" После этого вы не сможете создавать и редактировать курсы, а {{ deletes_on "
+"}} курсы будут удалены."
+
+msgid ""
+"Export the courses you want to keep before then, or contact {{ org_name }} "
+"to keep using AI Suite."
+msgstr ""
+"Экспортируйте курсы, которые хотите сохранить, до этой даты или свяжитесь с "
+"{{ org_name }}, чтобы продолжить пользоваться AI Suite."
+
+msgid ""
+"You got this email because you manage {{ tenant_name }}'s AI Suite space."
+msgstr ""
+"Вы получили это письмо, потому что управляете пространством AI Suite "
+"организации {{ tenant_name }}."
 
 msgid ""
 "{{ org_name }} activated your account. You can have up to {{ learner_limit "

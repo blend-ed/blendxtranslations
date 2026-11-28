@@ -408,3 +408,8 @@ msgstr "इस उपयोगकर्ता के लिए AI सुवि�
 
 msgid "Error occurred while generating program image"
 msgstr "कार्यक्रम की छवि जनरेट करते समय त्रुटि हुई"
+
+msgid ""
+"AI for staff is turned off for your organisation. Please contact Blend-ed."
+msgstr ""
+"कर्मचारियों के लिए AI आपके संगठन में बंद है। कृपया Blend-ed से संपर्क करें।"

@@ -414,3 +414,9 @@ msgstr "Las funciones de AI están desactivadas para este usuario."
 
 msgid "Error occurred while generating program image"
 msgstr "Se ha producido un error al generar la imagen del programa"
+
+msgid ""
+"AI for staff is turned off for your organisation. Please contact Blend-ed."
+msgstr ""
+"AI para el personal está desactivado en su organización. Póngase en contacto"
+" con Blend-ed."

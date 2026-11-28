@@ -107,6 +107,12 @@ msgstr "'key' လိုအပ်ပါသည်။"
 msgid "The '{key}' field is read-only."
 msgstr "'{key}' အကွက်သည် ဖတ်ရန်သာ ဖြစ်ပါသည်။"
 
+msgid ""
+"AI for staff is turned off for your organisation. Please contact Blend-ed."
+msgstr ""
+"သင့်အဖွဲ့အစည်းအတွက် ဝန်ထမ်းများအတွက် AI ကို ပိတ်ထားပါသည်။ Blend-ed ကို "
+"ဆက်သွယ်ပါ။"
+
 msgid "You do not have access to AI Studio for this organisation."
 msgstr "ဤအဖွဲ့အစည်းအတွက် AI Studio ကို ဝင်ရောက်ခွင့် မရှိပါ။"
 

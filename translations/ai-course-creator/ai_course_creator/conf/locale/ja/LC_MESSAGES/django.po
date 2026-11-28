@@ -95,6 +95,10 @@ msgstr "'key' は必須です。"
 msgid "The '{key}' field is read-only."
 msgstr "'{key}' フィールドは読み取り専用です。"
 
+msgid ""
+"AI for staff is turned off for your organisation. Please contact Blend-ed."
+msgstr "組織ではスタッフ向け AI がオフになっています。Blend-ed にお問い合わせください。"
+
 msgid "You do not have access to AI Studio for this organisation."
 msgstr "この組織の AI Studio へのアクセス権がありません。"
 

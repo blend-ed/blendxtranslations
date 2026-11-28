@@ -100,6 +100,10 @@ msgstr "المفتاح 'key' مطلوب."
 msgid "The '{key}' field is read-only."
 msgstr "الحقل '{key}' للقراءة فقط."
 
+msgid ""
+"AI for staff is turned off for your organisation. Please contact Blend-ed."
+msgstr "AI للطاقم متوقف لمؤسستك. يُرجى التواصل مع Blend-ed."
+
 msgid "You do not have access to AI Studio for this organisation."
 msgstr "ليس لديك وصول إلى AI Studio لهذه المؤسسة."
 

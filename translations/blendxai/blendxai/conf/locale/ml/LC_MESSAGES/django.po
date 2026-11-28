@@ -415,3 +415,9 @@ msgstr "ഈ ഉപയോക്താവിന് AI ഫീച്ചറുകൾ 
 
 msgid "Error occurred while generating program image"
 msgstr "പ്രോഗ്രാം ചിത്രം സൃഷ്ടിക്കുമ്പോൾ പിശക് സംഭവിച്ചു"
+
+msgid ""
+"AI for staff is turned off for your organisation. Please contact Blend-ed."
+msgstr ""
+"നിങ്ങളുടെ സ്ഥാപനത്തിനായി സ്റ്റാഫിനുള്ള AI ഓഫാണ്. ദയവായി Blend-ed-നെ "
+"ബന്ധപ്പെടുക."

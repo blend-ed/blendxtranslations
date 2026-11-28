@@ -208,6 +208,25 @@ msgstr "您的 AI 工作区 {workspace} 已设置完成，由您管理。请使�
 msgid "Your {workspace} workspace is ready"
 msgstr "您的 {workspace} 工作区已就绪"
 
+#. Translators: %(credits)s is a number of AI credits ("1,000"); %(date)s a
+#. date ("11 Dec 2026").
+msgid ""
+"Your free trial comes with %(credits)s AI credits and runs until %(date)s."
+msgstr "您的免费试用包含 %(credits)s AI 额度，有效期至 %(date)s。"
+
+#. Translators: %(plan)s is the plan's name ("Standard"); %(credits)s a number
+#. of AI credits ("20,000").
+msgid "You're on the %(plan)s plan, with %(credits)s AI credits."
+msgstr "您使用的是 %(plan)s 套餐，包含 %(credits)s AI 额度。"
+
+msgid "Your AI Suite trial ends on %(date)s"
+msgstr "您的 AI Suite 试用将于 %(date)s 结束"
+
+msgid ""
+"The free trial for %(tenant)s ends on %(date)s. Export the courses you want "
+"to keep before %(deletes)s, when they are deleted."
+msgstr "%(tenant)s 的免费试用将于 %(date)s 结束。请在 %(deletes)s 课程被删除之前，导出您想保留的课程。"
+
 msgid "Pick up where you left off"
 msgstr "从上次离开的地方继续"
 
@@ -1246,6 +1265,20 @@ msgstr "公司共同管理员邀请"
 msgid "Sent when a company's manager invites someone to manage it with them."
 msgstr "公司管理员邀请他人共同管理公司时发送。"
 
+msgid "AI Suite client invitation"
+msgstr "AI Suite 客户邀请"
+
+msgid ""
+"Sent when Blend-ed opens an AI Suite space for a client, to set up the "
+"account that manages it."
+msgstr "在 Blend-ed 为客户开通 AI Suite 空间时发送，用于设置管理该空间的账户。"
+
+msgid "AI Suite trial ending"
+msgstr "AI Suite 试用即将结束"
+
+msgid "Sent 7 days and 1 day before an AI Suite free trial ends."
+msgstr "在 AI Suite 免费试用结束前 7 天和 1 天发送。"
+
 msgid "Essay assignment grade received"
 msgstr "收到论述作业成绩"
 
@@ -1628,6 +1661,36 @@ msgstr "协助管理 {{ tenant_possessive }} 的席位"
 
 msgid "Who invited them"
 msgstr "邀请人"
+
+msgid "AI Suite — Client invitation"
+msgstr "AI Suite — 客户邀请"
+
+msgid "Your AI Suite space for {{ tenant_name }} is ready"
+msgstr "{{ tenant_name }} 的 AI Suite 空间已就绪"
+
+msgid "Client name"
+msgstr "客户名称"
+
+msgid "The plan, its AI credits and its end (a sentence)"
+msgstr "套餐、其 AI 额度及结束日期（一句话）"
+
+msgid "AI Suite — Trial ending"
+msgstr "AI Suite — 试用即将结束"
+
+msgid "Your AI Suite trial ends on {{ ends_on }}"
+msgstr "您的 AI Suite 试用将于 {{ ends_on }} 结束"
+
+msgid "Export your courses"
+msgstr "导出您的课程"
+
+msgid "Date the trial ends"
+msgstr "试用结束日期"
+
+msgid "Date the trial's courses are deleted"
+msgstr "试用课程的删除日期"
+
+msgid "Sign-in URL"
+msgstr "登录 URL"
 
 msgid "Company account — Active"
 msgstr "公司账户 — 已启用"
@@ -2037,6 +2100,35 @@ msgid ""
 "You got this email because {{ inviter_name }} invited you to manage {{ "
 "tenant_name }}."
 msgstr "您收到此邮件，是因为 {{ inviter_name }} 邀请您管理 {{ tenant_name }}。"
+
+msgid ""
+"{{ org_name }} opened an AI Suite space for {{ tenant_name }}. Set up your "
+"sign-in to build courses with AI Studio and export them."
+msgstr ""
+"{{ org_name }} 为 {{ tenant_name }} 开通了 AI Suite 空间。设置您的登录方式，即可使用 AI Studio "
+"构建课程并导出。"
+
+msgid ""
+"You got this email because {{ org_name }} opened an AI Suite space for {{ "
+"email_address }}."
+msgstr "您收到此邮件，是因为 {{ org_name }} 为 {{ email_address }} 开通了 AI Suite 空间。"
+
+msgid ""
+"The free trial for {{ tenant_name }} ends on {{ ends_on }}. After that you "
+"can't build or edit courses, and on {{ deletes_on }} its courses are "
+"deleted."
+msgstr ""
+"{{ tenant_name }} 的免费试用将于 {{ ends_on }} 结束。之后您将无法构建或编辑课程，其课程将于 {{ deletes_on"
+" }} 删除。"
+
+msgid ""
+"Export the courses you want to keep before then, or contact {{ org_name }} "
+"to keep using AI Suite."
+msgstr "请在此之前导出您想保留的课程，或联系 {{ org_name }} 以继续使用 AI Suite。"
+
+msgid ""
+"You got this email because you manage {{ tenant_name }}'s AI Suite space."
+msgstr "您收到此邮件，是因为您管理 {{ tenant_name }} 的 AI Suite 空间。"
 
 msgid ""
 "{{ org_name }} activated your account. You can have up to {{ learner_limit "

@@ -415,3 +415,9 @@ msgstr "ဤအသုံးပြုသူအတွက် AI လုပ်ဆေ�
 
 msgid "Error occurred while generating program image"
 msgstr "ပရိုဂရမ်ပုံကို ဖန်တီးစဉ် အမှားဖြစ်ပွားခဲ့သည်"
+
+msgid ""
+"AI for staff is turned off for your organisation. Please contact Blend-ed."
+msgstr ""
+"သင့်အဖွဲ့အစည်းအတွက် ဝန်ထမ်းများအတွက် AI ကို ပိတ်ထားပါသည်။ Blend-ed ကို "
+"ဆက်သွယ်ပါ။"
