@@ -404,3 +404,8 @@ msgstr "AI features are disabled for this user."
 
 msgid "Error occurred while generating program image"
 msgstr "Error occurred while generating program image"
+
+msgid ""
+"AI for staff is turned off for your organisation. Please contact Blend-ed."
+msgstr ""
+"AI for staff is turned off for your organisation. Please contact Blend-ed."

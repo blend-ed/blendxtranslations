@@ -386,3 +386,7 @@ msgstr "ميزات AI معطّلة لهذا المستخدم."
 
 msgid "Error occurred while generating program image"
 msgstr "حدث خطأ أثناء إنشاء صورة البرنامج"
+
+msgid ""
+"AI for staff is turned off for your organisation. Please contact Blend-ed."
+msgstr "AI للطاقم متوقف لمؤسستك. يُرجى التواصل مع Blend-ed."

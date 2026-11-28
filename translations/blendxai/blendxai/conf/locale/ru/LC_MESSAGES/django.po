@@ -406,3 +406,9 @@ msgstr "Функции AI отключены для этого пользова�
 
 msgid "Error occurred while generating program image"
 msgstr "Ошибка при создании изображения программы"
+
+msgid ""
+"AI for staff is turned off for your organisation. Please contact Blend-ed."
+msgstr ""
+"Функция «AI для персонала» отключена для вашей организации. Обратитесь в "
+"Blend-ed."

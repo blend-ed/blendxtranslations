@@ -210,6 +210,27 @@ msgstr ""
 msgid "Your {workspace} workspace is ready"
 msgstr "{workspace} ワークスペースの準備が整いました"
 
+#. Translators: %(credits)s is a number of AI credits ("1,000"); %(date)s a
+#. date ("11 Dec 2026").
+msgid ""
+"Your free trial comes with %(credits)s AI credits and runs until %(date)s."
+msgstr "無料トライアルには %(credits)s の AI クレジットが含まれ、%(date)s まで利用できます。"
+
+#. Translators: %(plan)s is the plan's name ("Standard"); %(credits)s a number
+#. of AI credits ("20,000").
+msgid "You're on the %(plan)s plan, with %(credits)s AI credits."
+msgstr "現在 %(plan)s プランをご利用中で、AI クレジットは %(credits)s です。"
+
+msgid "Your AI Suite trial ends on %(date)s"
+msgstr "AI Suite のトライアルは %(date)s に終了します"
+
+msgid ""
+"The free trial for %(tenant)s ends on %(date)s. Export the courses you want "
+"to keep before %(deletes)s, when they are deleted."
+msgstr ""
+"%(tenant)s の無料トライアルは %(date)s に終了します。残したい講座は、削除される %(deletes)s "
+"より前にエクスポートしてください。"
+
 msgid "Pick up where you left off"
 msgstr "前回の続きから再開"
 
@@ -1258,6 +1279,20 @@ msgstr "会社の共同マネージャーの招待"
 msgid "Sent when a company's manager invites someone to manage it with them."
 msgstr "会社のマネージャーが共同で管理する人を招待した場合に送信されます。"
 
+msgid "AI Suite client invitation"
+msgstr "AI Suite クライアントへの招待"
+
+msgid ""
+"Sent when Blend-ed opens an AI Suite space for a client, to set up the "
+"account that manages it."
+msgstr "Blend-ed がクライアント向けに AI Suite スペースを開設したときに、それを管理するアカウントを設定するために送信されます。"
+
+msgid "AI Suite trial ending"
+msgstr "AI Suite トライアルの終了"
+
+msgid "Sent 7 days and 1 day before an AI Suite free trial ends."
+msgstr "AI Suite の無料トライアル終了の 7 日前と 1 日前に送信されます。"
+
 msgid "Essay assignment grade received"
 msgstr "エッセイ課題の成績を受信"
 
@@ -1641,6 +1676,36 @@ msgstr "{{ tenant_possessive }} の席の管理にご協力ください"
 
 msgid "Who invited them"
 msgstr "招待した人"
+
+msgid "AI Suite — Client invitation"
+msgstr "AI Suite — クライアントへの招待"
+
+msgid "Your AI Suite space for {{ tenant_name }} is ready"
+msgstr "{{ tenant_name }} の AI Suite スペースの準備ができました"
+
+msgid "Client name"
+msgstr "クライアント名"
+
+msgid "The plan, its AI credits and its end (a sentence)"
+msgstr "プラン、その AI クレジットと終了日（文章）"
+
+msgid "AI Suite — Trial ending"
+msgstr "AI Suite — トライアルの終了"
+
+msgid "Your AI Suite trial ends on {{ ends_on }}"
+msgstr "AI Suite のトライアルは {{ ends_on }} に終了します"
+
+msgid "Export your courses"
+msgstr "講座をエクスポート"
+
+msgid "Date the trial ends"
+msgstr "トライアルの終了日"
+
+msgid "Date the trial's courses are deleted"
+msgstr "トライアルの講座が削除される日"
+
+msgid "Sign-in URL"
+msgstr "サインイン URL"
 
 msgid "Company account — Active"
 msgstr "会社アカウント — 有効"
@@ -2065,6 +2130,37 @@ msgid ""
 "tenant_name }}."
 msgstr ""
 "このメールは、{{ inviter_name }} さんがあなたを {{ tenant_name }} の管理に招待したため送信されました。"
+
+msgid ""
+"{{ org_name }} opened an AI Suite space for {{ tenant_name }}. Set up your "
+"sign-in to build courses with AI Studio and export them."
+msgstr ""
+"{{ org_name }} が {{ tenant_name }} 向けに AI Suite スペースを開設しました。サインインを設定して、AI "
+"Studio で講座を作成し、エクスポートしましょう。"
+
+msgid ""
+"You got this email because {{ org_name }} opened an AI Suite space for {{ "
+"email_address }}."
+msgstr ""
+"{{ org_name }} が {{ email_address }} 向けに AI Suite スペースを開設したため、このメールが送信されました。"
+
+msgid ""
+"The free trial for {{ tenant_name }} ends on {{ ends_on }}. After that you "
+"can't build or edit courses, and on {{ deletes_on }} its courses are "
+"deleted."
+msgstr ""
+"{{ tenant_name }} の無料トライアルは {{ ends_on }} に終了します。その後は講座の作成や編集ができなくなり、{{ "
+"deletes_on }} に講座が削除されます。"
+
+msgid ""
+"Export the courses you want to keep before then, or contact {{ org_name }} "
+"to keep using AI Suite."
+msgstr ""
+"それまでに残したい講座をエクスポートするか、AI Suite を引き続き使用する場合は {{ org_name }} にお問い合わせください。"
+
+msgid ""
+"You got this email because you manage {{ tenant_name }}'s AI Suite space."
+msgstr "{{ tenant_name }} の AI Suite スペースを管理しているため、このメールが送信されました。"
 
 msgid ""
 "{{ org_name }} activated your account. You can have up to {{ learner_limit "

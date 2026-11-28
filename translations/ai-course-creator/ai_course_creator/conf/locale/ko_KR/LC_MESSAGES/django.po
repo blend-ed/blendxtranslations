@@ -95,6 +95,10 @@ msgstr "'key'가 필요합니다."
 msgid "The '{key}' field is read-only."
 msgstr "'{key}' 필드는 읽기 전용입니다."
 
+msgid ""
+"AI for staff is turned off for your organisation. Please contact Blend-ed."
+msgstr "조직에서 직원용 AI가 꺼져 있습니다. Blend-ed에 문의하세요."
+
 msgid "You do not have access to AI Studio for this organisation."
 msgstr "이 조직의 AI Studio에 액세스할 권한이 없습니다."
 

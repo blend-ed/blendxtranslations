@@ -238,6 +238,30 @@ msgstr ""
 msgid "Your {workspace} workspace is ready"
 msgstr "आपका {workspace} वर्कस्पेस तैयार है"
 
+#. Translators: %(credits)s is a number of AI credits ("1,000"); %(date)s a
+#. date ("11 Dec 2026").
+msgid ""
+"Your free trial comes with %(credits)s AI credits and runs until %(date)s."
+msgstr ""
+"आपके निःशुल्क परीक्षण में %(credits)s AI क्रेडिट शामिल हैं और यह %(date)s तक"
+" चलता है।"
+
+#. Translators: %(plan)s is the plan's name ("Standard"); %(credits)s a number
+#. of AI credits ("20,000").
+msgid "You're on the %(plan)s plan, with %(credits)s AI credits."
+msgstr "आप %(plan)s प्लान पर हैं, जिसमें %(credits)s AI क्रेडिट हैं।"
+
+msgid "Your AI Suite trial ends on %(date)s"
+msgstr "आपका AI Suite परीक्षण %(date)s को समाप्त होगा"
+
+msgid ""
+"The free trial for %(tenant)s ends on %(date)s. Export the courses you want "
+"to keep before %(deletes)s, when they are deleted."
+msgstr ""
+"%(tenant)s का निःशुल्क परीक्षण %(date)s को समाप्त होगा। जिन पाठ्यक्रमों को "
+"आप रखना चाहते हैं, उन्हें %(deletes)s से पहले एक्सपोर्ट करें, उस दिन वे हटा "
+"दिए जाएँगे।"
+
 msgid "Pick up where you left off"
 msgstr "जहाँ छोड़ा था वहीं से जारी रखें"
 
@@ -1390,6 +1414,23 @@ msgstr ""
 "तब भेजा जाता है जब किसी कंपनी का प्रबंधक किसी को साथ में प्रबंधन के लिए "
 "आमंत्रित करता है।"
 
+msgid "AI Suite client invitation"
+msgstr "AI Suite क्लाइंट आमंत्रण"
+
+msgid ""
+"Sent when Blend-ed opens an AI Suite space for a client, to set up the "
+"account that manages it."
+msgstr ""
+"जब Blend-ed किसी क्लाइंट के लिए AI Suite स्पेस खोलता है, तब उसे प्रबंधित "
+"करने वाला खाता सेट करने के लिए भेजा जाता है।"
+
+msgid "AI Suite trial ending"
+msgstr "AI Suite परीक्षण समाप्त हो रहा है"
+
+msgid "Sent 7 days and 1 day before an AI Suite free trial ends."
+msgstr ""
+"AI Suite निःशुल्क परीक्षण समाप्त होने से 7 दिन और 1 दिन पहले भेजा जाता है।"
+
 msgid "Essay assignment grade received"
 msgstr "निबंध असाइनमेंट का ग्रेड मिला"
 
@@ -1796,6 +1837,36 @@ msgstr "{{ tenant_possessive }} सीटों के प्रबंधन म
 
 msgid "Who invited them"
 msgstr "उन्हें किसने आमंत्रित किया"
+
+msgid "AI Suite — Client invitation"
+msgstr "AI Suite — क्लाइंट आमंत्रण"
+
+msgid "Your AI Suite space for {{ tenant_name }} is ready"
+msgstr "{{ tenant_name }} के लिए आपका AI Suite स्पेस तैयार है"
+
+msgid "Client name"
+msgstr "क्लाइंट का नाम"
+
+msgid "The plan, its AI credits and its end (a sentence)"
+msgstr "प्लान, उसके AI क्रेडिट और उसकी समाप्ति (एक वाक्य)"
+
+msgid "AI Suite — Trial ending"
+msgstr "AI Suite — परीक्षण समाप्त हो रहा है"
+
+msgid "Your AI Suite trial ends on {{ ends_on }}"
+msgstr "आपका AI Suite परीक्षण {{ ends_on }} को समाप्त होगा"
+
+msgid "Export your courses"
+msgstr "अपने पाठ्यक्रम एक्सपोर्ट करें"
+
+msgid "Date the trial ends"
+msgstr "परीक्षण समाप्त होने की तारीख"
+
+msgid "Date the trial's courses are deleted"
+msgstr "परीक्षण के पाठ्यक्रम हटाए जाने की तारीख"
+
+msgid "Sign-in URL"
+msgstr "साइन-इन URL"
 
 msgid "Company account — Active"
 msgstr "कंपनी खाता — सक्रिय"
@@ -2284,6 +2355,43 @@ msgid ""
 msgstr ""
 "आपको यह ईमेल इसलिए मिला क्योंकि {{ inviter_name }} ने आपको {{ tenant_name }}"
 " का प्रबंधन करने के लिए आमंत्रित किया।"
+
+msgid ""
+"{{ org_name }} opened an AI Suite space for {{ tenant_name }}. Set up your "
+"sign-in to build courses with AI Studio and export them."
+msgstr ""
+"{{ org_name }} ने {{ tenant_name }} के लिए एक AI Suite स्पेस खोला है। AI "
+"Studio से पाठ्यक्रम बनाने और उन्हें एक्सपोर्ट करने के लिए अपना साइन-इन सेट "
+"करें।"
+
+msgid ""
+"You got this email because {{ org_name }} opened an AI Suite space for {{ "
+"email_address }}."
+msgstr ""
+"आपको यह ईमेल इसलिए मिला क्योंकि {{ org_name }} ने {{ email_address }} के लिए"
+" एक AI Suite स्पेस खोला है।"
+
+msgid ""
+"The free trial for {{ tenant_name }} ends on {{ ends_on }}. After that you "
+"can't build or edit courses, and on {{ deletes_on }} its courses are "
+"deleted."
+msgstr ""
+"{{ tenant_name }} का निःशुल्क परीक्षण {{ ends_on }} को समाप्त होगा। उसके बाद"
+" आप पाठ्यक्रम बना या संपादित नहीं कर सकेंगे, और {{ deletes_on }} को इसके "
+"पाठ्यक्रम हटा दिए जाएँगे।"
+
+msgid ""
+"Export the courses you want to keep before then, or contact {{ org_name }} "
+"to keep using AI Suite."
+msgstr ""
+"जिन पाठ्यक्रमों को आप रखना चाहते हैं, उन्हें उससे पहले एक्सपोर्ट करें, या AI"
+" Suite का उपयोग जारी रखने के लिए {{ org_name }} से संपर्क करें।"
+
+msgid ""
+"You got this email because you manage {{ tenant_name }}'s AI Suite space."
+msgstr ""
+"आपको यह ईमेल इसलिए मिला क्योंकि आप {{ tenant_name }} का AI Suite स्पेस "
+"प्रबंधित करते हैं।"
 
 msgid ""
 "{{ org_name }} activated your account. You can have up to {{ learner_limit "

@@ -210,6 +210,26 @@ msgstr ""
 msgid "Your {workspace} workspace is ready"
 msgstr "{workspace} 워크스페이스가 준비되었습니다"
 
+#. Translators: %(credits)s is a number of AI credits ("1,000"); %(date)s a
+#. date ("11 Dec 2026").
+msgid ""
+"Your free trial comes with %(credits)s AI credits and runs until %(date)s."
+msgstr "무료 체험에는 AI 크레딧 %(credits)s개가 제공되며, %(date)s까지 이용할 수 있습니다."
+
+#. Translators: %(plan)s is the plan's name ("Standard"); %(credits)s a number
+#. of AI credits ("20,000").
+msgid "You're on the %(plan)s plan, with %(credits)s AI credits."
+msgstr "%(plan)s 요금제를 사용 중이며, AI 크레딧은 %(credits)s개입니다."
+
+msgid "Your AI Suite trial ends on %(date)s"
+msgstr "AI Suite 체험이 %(date)s에 종료됩니다"
+
+msgid ""
+"The free trial for %(tenant)s ends on %(date)s. Export the courses you want "
+"to keep before %(deletes)s, when they are deleted."
+msgstr ""
+"%(tenant)s의 무료 체험이 %(date)s에 종료됩니다. 남겨 둘 강의는 삭제되는 %(deletes)s 전에 내보내세요."
+
 msgid "Pick up where you left off"
 msgstr "중단한 부분부터 계속하세요"
 
@@ -1258,6 +1278,20 @@ msgstr "회사 공동 관리자 초대"
 msgid "Sent when a company's manager invites someone to manage it with them."
 msgstr "회사 관리자가 함께 관리할 사람을 초대하면 발송됩니다."
 
+msgid "AI Suite client invitation"
+msgstr "AI Suite 고객사 초대"
+
+msgid ""
+"Sent when Blend-ed opens an AI Suite space for a client, to set up the "
+"account that manages it."
+msgstr "Blend-ed가 고객사를 위해 AI Suite 공간을 열 때, 이를 관리하는 계정을 설정하도록 발송됩니다."
+
+msgid "AI Suite trial ending"
+msgstr "AI Suite 체험 종료 예정"
+
+msgid "Sent 7 days and 1 day before an AI Suite free trial ends."
+msgstr "AI Suite 무료 체험 종료 7일 전과 1일 전에 발송됩니다."
+
 msgid "Essay assignment grade received"
 msgstr "에세이 과제 성적을 받았습니다"
 
@@ -1641,6 +1675,36 @@ msgstr "{{ tenant_possessive }} 좌석 관리를 도와주세요"
 
 msgid "Who invited them"
 msgstr "초대한 사람"
+
+msgid "AI Suite — Client invitation"
+msgstr "AI Suite — 고객사 초대"
+
+msgid "Your AI Suite space for {{ tenant_name }} is ready"
+msgstr "{{ tenant_name }}의 AI Suite 공간이 준비되었습니다"
+
+msgid "Client name"
+msgstr "고객사 이름"
+
+msgid "The plan, its AI credits and its end (a sentence)"
+msgstr "요금제, AI 크레딧 및 종료일(문장)"
+
+msgid "AI Suite — Trial ending"
+msgstr "AI Suite — 체험 종료 예정"
+
+msgid "Your AI Suite trial ends on {{ ends_on }}"
+msgstr "AI Suite 체험이 {{ ends_on }}에 종료됩니다"
+
+msgid "Export your courses"
+msgstr "강의 내보내기"
+
+msgid "Date the trial ends"
+msgstr "체험 종료일"
+
+msgid "Date the trial's courses are deleted"
+msgstr "체험 강의 삭제일"
+
+msgid "Sign-in URL"
+msgstr "로그인 URL"
 
 msgid "Company account — Active"
 msgstr "회사 계정 — 활성화됨"
@@ -2063,6 +2127,35 @@ msgid ""
 "You got this email because {{ inviter_name }} invited you to manage {{ "
 "tenant_name }}."
 msgstr "{{ inviter_name }} 님이 {{ tenant_name }} 관리에 회원님을 초대하여 이 이메일이 발송되었습니다."
+
+msgid ""
+"{{ org_name }} opened an AI Suite space for {{ tenant_name }}. Set up your "
+"sign-in to build courses with AI Studio and export them."
+msgstr ""
+"{{ org_name }}에서 {{ tenant_name }}의 AI Suite 공간을 열었습니다. 로그인을 설정하고 AI Studio로"
+" 강의를 제작하고 내보내세요."
+
+msgid ""
+"You got this email because {{ org_name }} opened an AI Suite space for {{ "
+"email_address }}."
+msgstr "{{ org_name }}에서 {{ email_address }}의 AI Suite 공간을 열어 이 이메일이 발송되었습니다."
+
+msgid ""
+"The free trial for {{ tenant_name }} ends on {{ ends_on }}. After that you "
+"can't build or edit courses, and on {{ deletes_on }} its courses are "
+"deleted."
+msgstr ""
+"{{ tenant_name }}의 무료 체험이 {{ ends_on }}에 종료됩니다. 그 이후에는 강의를 제작하거나 편집할 수 없으며, "
+"{{ deletes_on }}에 강의가 삭제됩니다."
+
+msgid ""
+"Export the courses you want to keep before then, or contact {{ org_name }} "
+"to keep using AI Suite."
+msgstr "그 전에 남겨 둘 강의를 내보내거나, AI Suite를 계속 사용하려면 {{ org_name }}에 문의하세요."
+
+msgid ""
+"You got this email because you manage {{ tenant_name }}'s AI Suite space."
+msgstr "{{ tenant_name }}의 AI Suite 공간을 관리하고 있어 이 이메일이 발송되었습니다."
 
 msgid ""
 "{{ org_name }} activated your account. You can have up to {{ learner_limit "

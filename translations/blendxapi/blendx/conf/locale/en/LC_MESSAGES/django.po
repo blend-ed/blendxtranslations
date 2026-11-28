@@ -232,6 +232,28 @@ msgstr ""
 msgid "Your {workspace} workspace is ready"
 msgstr "Your {workspace} workspace is ready"
 
+#. Translators: %(credits)s is a number of AI credits ("1,000"); %(date)s a
+#. date ("11 Dec 2026").
+msgid ""
+"Your free trial comes with %(credits)s AI credits and runs until %(date)s."
+msgstr ""
+"Your free trial comes with %(credits)s AI credits and runs until %(date)s."
+
+#. Translators: %(plan)s is the plan's name ("Standard"); %(credits)s a number
+#. of AI credits ("20,000").
+msgid "You're on the %(plan)s plan, with %(credits)s AI credits."
+msgstr "You're on the %(plan)s plan, with %(credits)s AI credits."
+
+msgid "Your AI Suite trial ends on %(date)s"
+msgstr "Your AI Suite trial ends on %(date)s"
+
+msgid ""
+"The free trial for %(tenant)s ends on %(date)s. Export the courses you want "
+"to keep before %(deletes)s, when they are deleted."
+msgstr ""
+"The free trial for %(tenant)s ends on %(date)s. Export the courses you want "
+"to keep before %(deletes)s, when they are deleted."
+
 msgid "Pick up where you left off"
 msgstr "Pick up where you left off"
 
@@ -1357,6 +1379,22 @@ msgstr "Company co-manager invitation"
 msgid "Sent when a company's manager invites someone to manage it with them."
 msgstr "Sent when a company's manager invites someone to manage it with them."
 
+msgid "AI Suite client invitation"
+msgstr "AI Suite client invitation"
+
+msgid ""
+"Sent when Blend-ed opens an AI Suite space for a client, to set up the "
+"account that manages it."
+msgstr ""
+"Sent when Blend-ed opens an AI Suite space for a client, to set up the "
+"account that manages it."
+
+msgid "AI Suite trial ending"
+msgstr "AI Suite trial ending"
+
+msgid "Sent 7 days and 1 day before an AI Suite free trial ends."
+msgstr "Sent 7 days and 1 day before an AI Suite free trial ends."
+
 msgid "Essay assignment grade received"
 msgstr "Essay assignment grade received"
 
@@ -1761,6 +1799,36 @@ msgstr "Help manage {{ tenant_possessive }} seats"
 
 msgid "Who invited them"
 msgstr "Who invited them"
+
+msgid "AI Suite — Client invitation"
+msgstr "AI Suite — Client invitation"
+
+msgid "Your AI Suite space for {{ tenant_name }} is ready"
+msgstr "Your AI Suite space for {{ tenant_name }} is ready"
+
+msgid "Client name"
+msgstr "Client name"
+
+msgid "The plan, its AI credits and its end (a sentence)"
+msgstr "The plan, its AI credits and its end (a sentence)"
+
+msgid "AI Suite — Trial ending"
+msgstr "AI Suite — Trial ending"
+
+msgid "Your AI Suite trial ends on {{ ends_on }}"
+msgstr "Your AI Suite trial ends on {{ ends_on }}"
+
+msgid "Export your courses"
+msgstr "Export your courses"
+
+msgid "Date the trial ends"
+msgstr "Date the trial ends"
+
+msgid "Date the trial's courses are deleted"
+msgstr "Date the trial's courses are deleted"
+
+msgid "Sign-in URL"
+msgstr "Sign-in URL"
 
 msgid "Company account — Active"
 msgstr "Company account — Active"
@@ -2236,6 +2304,41 @@ msgid ""
 msgstr ""
 "You got this email because {{ inviter_name }} invited you to manage {{ "
 "tenant_name }}."
+
+msgid ""
+"{{ org_name }} opened an AI Suite space for {{ tenant_name }}. Set up your "
+"sign-in to build courses with AI Studio and export them."
+msgstr ""
+"{{ org_name }} opened an AI Suite space for {{ tenant_name }}. Set up your "
+"sign-in to build courses with AI Studio and export them."
+
+msgid ""
+"You got this email because {{ org_name }} opened an AI Suite space for {{ "
+"email_address }}."
+msgstr ""
+"You got this email because {{ org_name }} opened an AI Suite space for {{ "
+"email_address }}."
+
+msgid ""
+"The free trial for {{ tenant_name }} ends on {{ ends_on }}. After that you "
+"can't build or edit courses, and on {{ deletes_on }} its courses are "
+"deleted."
+msgstr ""
+"The free trial for {{ tenant_name }} ends on {{ ends_on }}. After that you "
+"can't build or edit courses, and on {{ deletes_on }} its courses are "
+"deleted."
+
+msgid ""
+"Export the courses you want to keep before then, or contact {{ org_name }} "
+"to keep using AI Suite."
+msgstr ""
+"Export the courses you want to keep before then, or contact {{ org_name }} "
+"to keep using AI Suite."
+
+msgid ""
+"You got this email because you manage {{ tenant_name }}'s AI Suite space."
+msgstr ""
+"You got this email because you manage {{ tenant_name }}'s AI Suite space."
 
 msgid ""
 "{{ org_name }} activated your account. You can have up to {{ learner_limit "

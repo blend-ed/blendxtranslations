@@ -105,6 +105,12 @@ msgstr "Требуется «key»."
 msgid "The '{key}' field is read-only."
 msgstr "Поле '{key}' доступно только для чтения."
 
+msgid ""
+"AI for staff is turned off for your organisation. Please contact Blend-ed."
+msgstr ""
+"Функция «AI для персонала» отключена для вашей организации. Обратитесь в "
+"Blend-ed."
+
 msgid "You do not have access to AI Studio for this organisation."
 msgstr "У вас нет доступа к AI Studio в этой организации."
 

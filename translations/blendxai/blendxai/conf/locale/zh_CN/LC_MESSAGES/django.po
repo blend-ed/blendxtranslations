@@ -378,3 +378,7 @@ msgstr "已为此用户禁用 AI 功能。"
 
 msgid "Error occurred while generating program image"
 msgstr "生成项目图片时出错"
+
+msgid ""
+"AI for staff is turned off for your organisation. Please contact Blend-ed."
+msgstr "您的组织已关闭职员 AI。请联系 Blend-ed。"

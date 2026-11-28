@@ -244,6 +244,30 @@ msgstr ""
 msgid "Your {workspace} workspace is ready"
 msgstr "သင့် {workspace} အလုပ်ခွင် အသင့်ဖြစ်ပါပြီ"
 
+#. Translators: %(credits)s is a number of AI credits ("1,000"); %(date)s a
+#. date ("11 Dec 2026").
+msgid ""
+"Your free trial comes with %(credits)s AI credits and runs until %(date)s."
+msgstr ""
+"သင့်အခမဲ့စမ်းသပ်မှုတွင် AI ခရက်ဒစ် %(credits)s ပါဝင်ပြီး %(date)s အထိ "
+"သုံးနိုင်ပါသည်။"
+
+#. Translators: %(plan)s is the plan's name ("Standard"); %(credits)s a number
+#. of AI credits ("20,000").
+msgid "You're on the %(plan)s plan, with %(credits)s AI credits."
+msgstr "သင်သည် AI ခရက်ဒစ် %(credits)s ပါသော %(plan)s အစီအစဉ်တွင် ရှိပါသည်။"
+
+msgid "Your AI Suite trial ends on %(date)s"
+msgstr "သင့် AI Suite စမ်းသပ်မှု %(date)s တွင် ပြီးဆုံးပါမည်"
+
+msgid ""
+"The free trial for %(tenant)s ends on %(date)s. Export the courses you want "
+"to keep before %(deletes)s, when they are deleted."
+msgstr ""
+"%(tenant)s အတွက် အခမဲ့စမ်းသပ်မှုသည် %(date)s တွင် ပြီးဆုံးပါမည်။ "
+"သိမ်းထားလိုသော သင်တန်းများကို ၎င်းတို့ကို ဖျက်မည့် %(deletes)s မတိုင်မီ "
+"ထုတ်ယူပါ။"
+
 msgid "Pick up where you left off"
 msgstr "သင်ရပ်ထားခဲ့သည့်နေရာမှ ဆက်လုပ်ပါ"
 
@@ -1412,6 +1436,22 @@ msgstr ""
 "ကုမ္ပဏီ၏ မန်နေဂျာက ၎င်းနှင့်အတူ စီမံရန် တစ်စုံတစ်ဦးကို ဖိတ်ကြားသည့်အခါ "
 "ပို့ပါသည်။"
 
+msgid "AI Suite client invitation"
+msgstr "AI Suite ဖောက်သည် ဖိတ်ကြားချက်"
+
+msgid ""
+"Sent when Blend-ed opens an AI Suite space for a client, to set up the "
+"account that manages it."
+msgstr ""
+"Blend-ed က ဖောက်သည်တစ်ဦးအတွက် AI Suite နေရာကို ဖွင့်ပေးသည့်အခါ ၎င်းကို "
+"စီမံသည့် အကောင့်ကို စီစဉ်သတ်မှတ်ရန် ပို့ပါသည်။"
+
+msgid "AI Suite trial ending"
+msgstr "AI Suite စမ်းသပ်မှု ပြီးဆုံးတော့မည်"
+
+msgid "Sent 7 days and 1 day before an AI Suite free trial ends."
+msgstr "AI Suite အခမဲ့စမ်းသပ်မှု မပြီးဆုံးမီ 7 ရက်နှင့် 1 ရက်တွင် ပို့ပါသည်။"
+
 msgid "Essay assignment grade received"
 msgstr "စာစီစာကုံး အလုပ်ပေးစာ အမှတ်ရရှိပြီ"
 
@@ -1820,6 +1860,36 @@ msgstr "{{ tenant_possessive }} နေရာများကို စီမံ�
 
 msgid "Who invited them"
 msgstr "၎င်းတို့ကို ဖိတ်ကြားသူ"
+
+msgid "AI Suite — Client invitation"
+msgstr "AI Suite — ဖောက်သည် ဖိတ်ကြားချက်"
+
+msgid "Your AI Suite space for {{ tenant_name }} is ready"
+msgstr "{{ tenant_name }} အတွက် သင့် AI Suite နေရာ အသင့်ဖြစ်ပါပြီ"
+
+msgid "Client name"
+msgstr "ဖောက်သည် အမည်"
+
+msgid "The plan, its AI credits and its end (a sentence)"
+msgstr "အစီအစဉ်၊ ၎င်း၏ AI ခရက်ဒစ်များနှင့် ၎င်း၏ ပြီးဆုံးရက် (ဝါကျတစ်ကြောင်း)"
+
+msgid "AI Suite — Trial ending"
+msgstr "AI Suite — စမ်းသပ်မှု ပြီးဆုံးတော့မည်"
+
+msgid "Your AI Suite trial ends on {{ ends_on }}"
+msgstr "သင့် AI Suite စမ်းသပ်မှု {{ ends_on }} တွင် ပြီးဆုံးပါမည်"
+
+msgid "Export your courses"
+msgstr "သင့်သင်တန်းများကို ထုတ်ယူပါ"
+
+msgid "Date the trial ends"
+msgstr "စမ်းသပ်မှု ပြီးဆုံးသည့်ရက်"
+
+msgid "Date the trial's courses are deleted"
+msgstr "စမ်းသပ်မှု၏ သင်တန်းများကို ဖျက်မည့်ရက်"
+
+msgid "Sign-in URL"
+msgstr "အကောင့်ဝင်ရန် URL"
 
 msgid "Company account — Active"
 msgstr "ကုမ္ပဏီအကောင့် — အသက်ဝင်နေသည်"
@@ -2325,6 +2395,43 @@ msgid ""
 msgstr ""
 "{{ inviter_name }} က {{ tenant_name }} ကို စီမံရန် သင့်ကို "
 "ဖိတ်ကြားခဲ့သောကြောင့် ဤအီးမေးလ်ကို သင်ရရှိခြင်း ဖြစ်ပါသည်။"
+
+msgid ""
+"{{ org_name }} opened an AI Suite space for {{ tenant_name }}. Set up your "
+"sign-in to build courses with AI Studio and export them."
+msgstr ""
+"{{ org_name }} က {{ tenant_name }} အတွက် AI Suite နေရာကို ဖွင့်ပေးပါပြီ။ AI "
+"Studio ဖြင့် သင်တန်းများ တည်ဆောက်ပြီး ထုတ်ယူရန် သင့်အကောင့်ဝင်ခြင်းကို "
+"စီစဉ်သတ်မှတ်ပါ။"
+
+msgid ""
+"You got this email because {{ org_name }} opened an AI Suite space for {{ "
+"email_address }}."
+msgstr ""
+"{{ org_name }} က {{ email_address }} အတွက် AI Suite နေရာကို "
+"ဖွင့်ပေးသောကြောင့် ဤအီးမေးလ်ကို ရရှိခြင်း ဖြစ်ပါသည်။"
+
+msgid ""
+"The free trial for {{ tenant_name }} ends on {{ ends_on }}. After that you "
+"can't build or edit courses, and on {{ deletes_on }} its courses are "
+"deleted."
+msgstr ""
+"{{ tenant_name }} အတွက် အခမဲ့စမ်းသပ်မှုသည် {{ ends_on }} တွင် ပြီးဆုံးပါမည်။"
+" ထို့နောက် သင်တန်းများကို တည်ဆောက်ခြင်း သို့မဟုတ် ပြင်ဆင်ခြင်း "
+"မပြုနိုင်တော့ဘဲ {{ deletes_on }} တွင် ၎င်း၏ သင်တန်းများကို ဖျက်ပါမည်။"
+
+msgid ""
+"Export the courses you want to keep before then, or contact {{ org_name }} "
+"to keep using AI Suite."
+msgstr ""
+"ထိုမတိုင်မီ သိမ်းထားလိုသော သင်တန်းများကို ထုတ်ယူပါ သို့မဟုတ် AI Suite ကို "
+"ဆက်သုံးရန် {{ org_name }} ကို ဆက်သွယ်ပါ။"
+
+msgid ""
+"You got this email because you manage {{ tenant_name }}'s AI Suite space."
+msgstr ""
+"သင်သည် {{ tenant_name }} ၏ AI Suite နေရာကို စီမံသောကြောင့် ဤအီးမေးလ်ကို "
+"ရရှိခြင်း ဖြစ်ပါသည်။"
 
 msgid ""
 "{{ org_name }} activated your account. You can have up to {{ learner_limit "
